@@ -1,0 +1,878 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pricingDetail render PP Upsell should display UpsellSuccessWidget if upsellSuccessMessage is provided 1`] = `
+<div
+  className="pricing-summary"
+>
+  <ProgressionBar
+    currentIconType="airplane"
+  />
+  <div
+    className="pricing-summary--content"
+  >
+    <ReservationFlightSummary
+      bounds={
+        Array [
+          Object {
+            "arrivalAirport": Object {
+              "code": "ATL",
+              "country": null,
+              "name": "Atlanta",
+              "state": "GA",
+            },
+            "arrivalDate": "2017-11-01",
+            "arrivalTime": "09:30",
+            "boundType": "DEPARTING",
+            "departureAirport": Object {
+              "code": "DAL",
+              "country": null,
+              "name": "Dallas (Love Field)",
+              "state": "TX",
+            },
+            "departureDate": "2017-11-01",
+            "departureTime": "06:30",
+            "fareProductDetails": Object {
+              "fareRulesUrl": "https://mobile.southwest.com/fare-rules/wanna-get-away",
+              "label": "Wanna Get Away",
+            },
+            "flights": Array [
+              Object {
+                "number": "1504",
+                "wifiOnBoard": true,
+              },
+            ],
+            "isNextDayArrival": false,
+            "passengers": Array [
+              Object {
+                "bookingCode": "Q",
+                "count": 1,
+                "fareType": "Wanna Get Away",
+                "type": "Passenger",
+              },
+            ],
+            "stops": Array [
+              Object {
+                "airport": Object {
+                  "code": "HOU",
+                  "country": null,
+                  "name": "Houston (Hobby)",
+                  "state": "TX",
+                },
+                "arrivalTime": "15:35",
+                "changePlanes": true,
+                "departureTime": "16:25",
+              },
+            ],
+            "travelTime": "02:00",
+          },
+        ]
+      }
+    />
+    <UpsellSuccessWidget
+      upsellSuccessMessage={
+        Object {
+          "body": "You have A1 - A15 boarding, a refundable ticket, and will earn 12 points per dollar for your departing flight with Business Select®.",
+          "header": "Great, you’re all set!",
+        }
+      }
+    />
+    <PriceSummaryNotice
+      fareRulesWithLinks="Please read <a href=\\"https://mobile.southwest.com/fare-rules\\" target=\\"_blank\\">fare rules</a> associated with purchase."
+    />
+    <PriceTotal
+      showEarlyBirdInFareBreakdown={false}
+      totals={
+        Object {
+          "adultFare": Object {
+            "baseFare": Object {
+              "discount": Object {
+                "amount": "20.0",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+              "fare": Object {
+                "amount": "204.45",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+              "totalBaseFare": Object {
+                "amount": "184.45",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+            },
+            "paxTypeTotal": Object {
+              "moneyTotal": Object {
+                "amount": "233.98",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+              "pointsTotal": null,
+            },
+            "taxesAndFees": Array [
+              Object {
+                "description": "Excise Taxes",
+                "fee": Object {
+                  "amount": "15.33",
+                  "currencyCode": "USD",
+                  "currencySymbol": "$",
+                },
+              },
+              Object {
+                "description": "Security Fee",
+                "fee": Object {
+                  "amount": "5.60",
+                  "currencyCode": "USD",
+                  "currencySymbol": "$",
+                },
+              },
+              Object {
+                "description": "Segment Fee",
+                "fee": Object {
+                  "amount": "4.10",
+                  "currencyCode": "USD",
+                  "currencySymbol": "$",
+                },
+              },
+              Object {
+                "description": "Passenger Facility Charge",
+                "fee": Object {
+                  "amount": "4.50",
+                  "currencyCode": "USD",
+                  "currencySymbol": "$",
+                },
+              },
+            ],
+            "totalPerPassenger": Object {
+              "money": Object {
+                "amount": "233.98",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+              "passengerCount": 1,
+              "points": null,
+            },
+          },
+          "moneyTotal": Object {
+            "amount": "233.98",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "pointsTotal": null,
+        }
+      }
+    />
+    <div
+      className="price-summary--nav"
+    >
+      <Button
+        className="continue"
+        color="yellow"
+        fluid={true}
+        onClick={[Function]}
+        size="larger"
+      >
+        Continue
+      </Button>
+    </div>
+    <Component
+      active={false}
+      bottom={true}
+      closeLabel="Cancel"
+      links={Array []}
+      name="upsell-upgrade-options"
+      onClose={[Function]}
+      subtitle="Choose which bounds you would like to upgrade"
+    />
+  </div>
+</div>
+`;
+
+exports[`pricingDetail render PP Upsell should display if upsellDetails is provided and hasUpsellError is false 1`] = `
+<div
+  className="pricing-summary"
+>
+  <ProgressionBar
+    currentIconType="airplane"
+  />
+  <div
+    className="pricing-summary--content"
+  >
+    <ReservationFlightSummary
+      bounds={
+        Array [
+          Object {
+            "arrivalAirport": Object {
+              "code": "ATL",
+              "country": null,
+              "name": "Atlanta",
+              "state": "GA",
+            },
+            "arrivalDate": "2017-11-01",
+            "arrivalTime": "09:30",
+            "boundType": "DEPARTING",
+            "departureAirport": Object {
+              "code": "DAL",
+              "country": null,
+              "name": "Dallas (Love Field)",
+              "state": "TX",
+            },
+            "departureDate": "2017-11-01",
+            "departureTime": "06:30",
+            "fareProductDetails": Object {
+              "fareRulesUrl": "https://mobile.southwest.com/fare-rules/wanna-get-away",
+              "label": "Wanna Get Away",
+            },
+            "flights": Array [
+              Object {
+                "number": "1504",
+                "wifiOnBoard": true,
+              },
+            ],
+            "isNextDayArrival": false,
+            "passengers": Array [
+              Object {
+                "bookingCode": "Q",
+                "count": 1,
+                "fareType": "Wanna Get Away",
+                "type": "Passenger",
+              },
+            ],
+            "stops": Array [
+              Object {
+                "airport": Object {
+                  "code": "HOU",
+                  "country": null,
+                  "name": "Houston (Hobby)",
+                  "state": "TX",
+                },
+                "arrivalTime": "15:35",
+                "changePlanes": true,
+                "departureTime": "16:25",
+              },
+            ],
+            "travelTime": "02:00",
+          },
+        ]
+      }
+    />
+    <UpsellDetails
+      labelText="Upgrade from $50"
+      offerFeatures={
+        Array [
+          Object {
+            "icon": "check",
+            "label": "Guaranteed A1-A15 boarding",
+            "link": "",
+            "prefix": "",
+            "suffix": "",
+          },
+          Object {
+            "icon": "check",
+            "label": "Refundable flights. Amazing experience with extra leg rooms and variety of drinks and especial foods with remarkable service",
+            "link": "",
+            "prefix": "",
+            "suffix": "",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "12 Rapid Rewards® points per Dollar",
+            "link": "",
+            "prefix": "",
+            "suffix": "",
+            "suffixl": "1",
+          },
+        ]
+      }
+      offerIcon="bestseats"
+      offerText=""
+      offerTitle="Upgrade to Business Select®"
+      onUpgradeMyFlight={[Function]}
+      selectionText="Upgrade both for $101"
+      upsellPrice="101"
+      upsellToProductId="BUS"
+    />
+    <PriceSummaryNotice
+      fareRulesWithLinks="Please read <a href=\\"https://mobile.southwest.com/fare-rules\\" target=\\"_blank\\">fare rules</a> associated with purchase."
+    />
+    <PriceTotal
+      showEarlyBirdInFareBreakdown={false}
+      totals={
+        Object {
+          "adultFare": Object {
+            "baseFare": Object {
+              "discount": Object {
+                "amount": "20.0",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+              "fare": Object {
+                "amount": "204.45",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+              "totalBaseFare": Object {
+                "amount": "184.45",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+            },
+            "paxTypeTotal": Object {
+              "moneyTotal": Object {
+                "amount": "233.98",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+              "pointsTotal": null,
+            },
+            "taxesAndFees": Array [
+              Object {
+                "description": "Excise Taxes",
+                "fee": Object {
+                  "amount": "15.33",
+                  "currencyCode": "USD",
+                  "currencySymbol": "$",
+                },
+              },
+              Object {
+                "description": "Security Fee",
+                "fee": Object {
+                  "amount": "5.60",
+                  "currencyCode": "USD",
+                  "currencySymbol": "$",
+                },
+              },
+              Object {
+                "description": "Segment Fee",
+                "fee": Object {
+                  "amount": "4.10",
+                  "currencyCode": "USD",
+                  "currencySymbol": "$",
+                },
+              },
+              Object {
+                "description": "Passenger Facility Charge",
+                "fee": Object {
+                  "amount": "4.50",
+                  "currencyCode": "USD",
+                  "currencySymbol": "$",
+                },
+              },
+            ],
+            "totalPerPassenger": Object {
+              "money": Object {
+                "amount": "233.98",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+              "passengerCount": 1,
+              "points": null,
+            },
+          },
+          "moneyTotal": Object {
+            "amount": "233.98",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "pointsTotal": null,
+        }
+      }
+    />
+    <div
+      className="price-summary--nav"
+    >
+      <Button
+        className="continue"
+        color="yellow"
+        fluid={true}
+        onClick={[Function]}
+        size="larger"
+      >
+        Continue
+      </Button>
+    </div>
+    <Component
+      active={false}
+      bottom={true}
+      closeLabel="Cancel"
+      links={Array []}
+      name="upsell-upgrade-options"
+      onClose={[Function]}
+      subtitle="Choose which bounds you would like to upgrade"
+    />
+  </div>
+</div>
+`;
+
+exports[`pricingDetail render PP Upsell should not display if upsellDetails is provided and hasUpsellError is true 1`] = `
+<div
+  className="pricing-summary"
+>
+  <ProgressionBar
+    currentIconType="airplane"
+  />
+  <div
+    className="pricing-summary--content"
+  >
+    <ReservationFlightSummary
+      bounds={
+        Array [
+          Object {
+            "arrivalAirport": Object {
+              "code": "ATL",
+              "country": null,
+              "name": "Atlanta",
+              "state": "GA",
+            },
+            "arrivalDate": "2017-11-01",
+            "arrivalTime": "09:30",
+            "boundType": "DEPARTING",
+            "departureAirport": Object {
+              "code": "DAL",
+              "country": null,
+              "name": "Dallas (Love Field)",
+              "state": "TX",
+            },
+            "departureDate": "2017-11-01",
+            "departureTime": "06:30",
+            "fareProductDetails": Object {
+              "fareRulesUrl": "https://mobile.southwest.com/fare-rules/wanna-get-away",
+              "label": "Wanna Get Away",
+            },
+            "flights": Array [
+              Object {
+                "number": "1504",
+                "wifiOnBoard": true,
+              },
+            ],
+            "isNextDayArrival": false,
+            "passengers": Array [
+              Object {
+                "bookingCode": "Q",
+                "count": 1,
+                "fareType": "Wanna Get Away",
+                "type": "Passenger",
+              },
+            ],
+            "stops": Array [
+              Object {
+                "airport": Object {
+                  "code": "HOU",
+                  "country": null,
+                  "name": "Houston (Hobby)",
+                  "state": "TX",
+                },
+                "arrivalTime": "15:35",
+                "changePlanes": true,
+                "departureTime": "16:25",
+              },
+            ],
+            "travelTime": "02:00",
+          },
+        ]
+      }
+    />
+    <PriceSummaryNotice
+      fareRulesWithLinks="Please read <a href=\\"https://mobile.southwest.com/fare-rules\\" target=\\"_blank\\">fare rules</a> associated with purchase."
+    />
+    <PriceTotal
+      showEarlyBirdInFareBreakdown={false}
+      totals={
+        Object {
+          "adultFare": Object {
+            "baseFare": Object {
+              "discount": Object {
+                "amount": "20.0",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+              "fare": Object {
+                "amount": "204.45",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+              "totalBaseFare": Object {
+                "amount": "184.45",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+            },
+            "paxTypeTotal": Object {
+              "moneyTotal": Object {
+                "amount": "233.98",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+              "pointsTotal": null,
+            },
+            "taxesAndFees": Array [
+              Object {
+                "description": "Excise Taxes",
+                "fee": Object {
+                  "amount": "15.33",
+                  "currencyCode": "USD",
+                  "currencySymbol": "$",
+                },
+              },
+              Object {
+                "description": "Security Fee",
+                "fee": Object {
+                  "amount": "5.60",
+                  "currencyCode": "USD",
+                  "currencySymbol": "$",
+                },
+              },
+              Object {
+                "description": "Segment Fee",
+                "fee": Object {
+                  "amount": "4.10",
+                  "currencyCode": "USD",
+                  "currencySymbol": "$",
+                },
+              },
+              Object {
+                "description": "Passenger Facility Charge",
+                "fee": Object {
+                  "amount": "4.50",
+                  "currencyCode": "USD",
+                  "currencySymbol": "$",
+                },
+              },
+            ],
+            "totalPerPassenger": Object {
+              "money": Object {
+                "amount": "233.98",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+              "passengerCount": 1,
+              "points": null,
+            },
+          },
+          "moneyTotal": Object {
+            "amount": "233.98",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "pointsTotal": null,
+        }
+      }
+    />
+    <div
+      className="price-summary--nav"
+    >
+      <Button
+        className="continue"
+        color="yellow"
+        fluid={true}
+        onClick={[Function]}
+        size="larger"
+      >
+        Continue
+      </Button>
+    </div>
+    <Component
+      active={false}
+      bottom={true}
+      closeLabel="Cancel"
+      links={Array []}
+      name="upsell-upgrade-options"
+      onClose={[Function]}
+      subtitle="Choose which bounds you would like to upgrade"
+    />
+  </div>
+</div>
+`;
+
+exports[`pricingDetail render banner messages should display the banner messages if they are provided 1`] = `
+<div
+  className="pricing-summary"
+>
+  <ProgressionBar
+    currentIconType="airplane"
+  />
+  <PricingBannerList
+    messages={
+      Array [
+        Object {
+          "body": "We can not add this product to a flight that leaves within 24 hours of purchase",
+          "header": "EarlyBird Check-in is not available",
+          "icon": "WARNING",
+          "key": "PRICING_EARLY_BIRD_BUNDLED_INSIDE_24_HOURS",
+        },
+      ]
+    }
+  />
+  <div
+    className="pricing-summary--content"
+  >
+    <ReservationFlightSummary
+      bounds={
+        Array [
+          Object {
+            "arrivalAirport": Object {
+              "code": "ATL",
+              "country": null,
+              "name": "Atlanta",
+              "state": "GA",
+            },
+            "arrivalDate": "2017-11-01",
+            "arrivalTime": "09:30",
+            "boundType": "DEPARTING",
+            "departureAirport": Object {
+              "code": "DAL",
+              "country": null,
+              "name": "Dallas (Love Field)",
+              "state": "TX",
+            },
+            "departureDate": "2017-11-01",
+            "departureTime": "06:30",
+            "fareProductDetails": Object {
+              "fareRulesUrl": "https://mobile.southwest.com/fare-rules/wanna-get-away",
+              "label": "Wanna Get Away",
+            },
+            "flights": Array [
+              Object {
+                "number": "1504",
+                "wifiOnBoard": true,
+              },
+            ],
+            "isNextDayArrival": false,
+            "passengers": Array [
+              Object {
+                "bookingCode": "Q",
+                "count": 1,
+                "fareType": "Wanna Get Away",
+                "type": "Passenger",
+              },
+            ],
+            "stops": Array [
+              Object {
+                "airport": Object {
+                  "code": "HOU",
+                  "country": null,
+                  "name": "Houston (Hobby)",
+                  "state": "TX",
+                },
+                "arrivalTime": "15:35",
+                "changePlanes": true,
+                "departureTime": "16:25",
+              },
+            ],
+            "travelTime": "02:00",
+          },
+        ]
+      }
+    />
+    <PriceSummaryNotice
+      fareRulesWithLinks="Please read <a href=\\"https://mobile.southwest.com/fare-rules\\" target=\\"_blank\\">fare rules</a> associated with purchase."
+    />
+    <PriceTotal
+      showEarlyBirdInFareBreakdown={false}
+      totals={
+        Object {
+          "adultFare": Object {
+            "baseFare": Object {
+              "discount": Object {
+                "amount": "20.0",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+              "fare": Object {
+                "amount": "204.45",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+              "totalBaseFare": Object {
+                "amount": "184.45",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+            },
+            "paxTypeTotal": Object {
+              "moneyTotal": Object {
+                "amount": "233.98",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+              "pointsTotal": null,
+            },
+            "taxesAndFees": Array [
+              Object {
+                "description": "Excise Taxes",
+                "fee": Object {
+                  "amount": "15.33",
+                  "currencyCode": "USD",
+                  "currencySymbol": "$",
+                },
+              },
+              Object {
+                "description": "Security Fee",
+                "fee": Object {
+                  "amount": "5.60",
+                  "currencyCode": "USD",
+                  "currencySymbol": "$",
+                },
+              },
+              Object {
+                "description": "Segment Fee",
+                "fee": Object {
+                  "amount": "4.10",
+                  "currencyCode": "USD",
+                  "currencySymbol": "$",
+                },
+              },
+              Object {
+                "description": "Passenger Facility Charge",
+                "fee": Object {
+                  "amount": "4.50",
+                  "currencyCode": "USD",
+                  "currencySymbol": "$",
+                },
+              },
+            ],
+            "totalPerPassenger": Object {
+              "money": Object {
+                "amount": "233.98",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+              "passengerCount": 1,
+              "points": null,
+            },
+          },
+          "moneyTotal": Object {
+            "amount": "233.98",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "pointsTotal": null,
+        }
+      }
+    />
+    <div
+      className="price-summary--nav"
+    >
+      <Button
+        className="continue"
+        color="yellow"
+        fluid={true}
+        onClick={[Function]}
+        size="larger"
+      >
+        Continue
+      </Button>
+    </div>
+    <Component
+      active={false}
+      bottom={true}
+      closeLabel="Cancel"
+      links={Array []}
+      name="upsell-upgrade-options"
+      onClose={[Function]}
+      subtitle="Choose which bounds you would like to upgrade"
+    />
+  </div>
+</div>
+`;
+
+exports[`pricingDetail render should handle placements and render promoMiddle01 if it exists 1`] = `
+<Component
+  bounds={
+    Array [
+      Object {
+        "arrivalAirport": Object {
+          "code": "ATL",
+          "country": null,
+          "name": "Atlanta",
+          "state": "GA",
+        },
+        "arrivalDate": "2017-11-01",
+        "arrivalTime": "09:30",
+        "boundType": "DEPARTING",
+        "departureAirport": Object {
+          "code": "DAL",
+          "country": null,
+          "name": "Dallas (Love Field)",
+          "state": "TX",
+        },
+        "departureDate": "2017-11-01",
+        "departureTime": "06:30",
+        "fareProductDetails": Object {
+          "fareRulesUrl": "https://mobile.southwest.com/fare-rules/wanna-get-away",
+          "label": "Wanna Get Away",
+        },
+        "flights": Array [
+          Object {
+            "number": "1504",
+            "wifiOnBoard": true,
+          },
+        ],
+        "isNextDayArrival": false,
+        "passengers": Array [
+          Object {
+            "bookingCode": "Q",
+            "count": 1,
+            "fareType": "Wanna Get Away",
+            "type": "Passenger",
+          },
+        ],
+        "stops": Array [
+          Object {
+            "airport": Object {
+              "code": "HOU",
+              "country": null,
+              "name": "Houston (Hobby)",
+              "state": "TX",
+            },
+            "arrivalTime": "15:35",
+            "changePlanes": true,
+            "departureTime": "16:25",
+          },
+        ],
+        "travelTime": "02:00",
+      },
+    ]
+  }
+  contentBlockId=""
+  data-qa="promoMiddle01"
+  displayType="block-placement"
+  imageForegroundAltText="imageForegroundAltTextMiddle"
+  isChaseCombo={false}
+  isChasePlacement={false}
+  isChasePrequal={false}
+  linkType="webview"
+  promoImageBackground="promoImageBackgroundMiddle"
+  searchRequest={
+    Object {
+      "currencyType": "USD",
+      "isRoundTrip": true,
+      "numberOfAdults": 1,
+      "tripType": "roundTrip",
+    }
+  }
+  shouldObserveViewPort={false}
+  shouldRaiseSatelliteEvent={true}
+  target=""
+  viewPortThreshold={0.1}
+/>
+`;
+
+exports[`pricingDetail render should handle placements and render promoTop01 if it exists 1`] = `
+<Component
+  contentBlockId=""
+  data-qa="promoTop01"
+  displayType="mobile_hero"
+  imageForegroundAltText="imageForegroundAltTextTop"
+  isChaseCombo={false}
+  isChasePlacement={false}
+  isChasePrequal={false}
+  linkType="app"
+  promoImageBackground="promoImageBackgroundTop"
+  promoImageForeground="test"
+  shouldObserveViewPort={false}
+  target=""
+  viewPortThreshold={0.1}
+/>
+`;

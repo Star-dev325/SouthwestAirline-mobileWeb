@@ -1,0 +1,844 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`priceDifferenceFooter should render price diff continue button with extra bottom padding when isWebView 1`] = `
+<div>
+  <div>
+    <div
+      class="price-difference-footer"
+    >
+      <div
+        class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Credit
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="price-difference-footer--description bggreen"
+      >
+        You will be able to view your refund method(s) after tapping "Make these changes".
+      </div>
+      <div
+        class="early-bird-price-footer--nav price-difference-footer--nav bggreen price-difference-footer--nav_webview"
+      >
+        <button
+          class="continue button button--fluid larger button--yellow"
+          type="submit"
+        >
+          Make these changes
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`priceDifferenceFooter should render price diff footer component for downgrade with PTS 1`] = `
+<div>
+  <div>
+    <div
+      class="price-difference-footer"
+    >
+      <div
+        class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Credit
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  5,820
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  5.60
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="price-difference-footer--description bggreen"
+      >
+        Includes taxes and fees. By tapping "Make these changes", you agree to the Terms & Conditions, Privacy Policy, and Contract of Carriage below.
+      </div>
+      <div
+        class="early-bird-price-footer--nav price-difference-footer--nav bggreen"
+      >
+        <button
+          class="continue button button--fluid larger button--yellow"
+          type="submit"
+        >
+          Make these changes
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`priceDifferenceFooter should render price diff footer component for upgrade with PTS 1`] = `
+<div>
+  <div>
+    <div
+      class="price-difference-footer"
+    >
+      <div
+        class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount Due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  5,820
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  5.60
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="price-difference-footer--description bgblue"
+      >
+        Includes taxes and fees. By tapping "Make these changes", you agree to the Terms & Conditions, Privacy Policy, and Contract of Carriage below.
+      </div>
+      <div
+        class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+      >
+        <button
+          class="continue button button--fluid larger button--yellow"
+          type="submit"
+        >
+          Make these changes
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`priceDifferenceFooter should render price diff footer component for upgrade with PTS with refundScenario 1`] = `
+<div>
+  <div>
+    <div
+      class="price-difference-footer"
+    >
+      <div
+        class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount Due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  5,820
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  5.60
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="price-difference-footer--description bgblue"
+      >
+        Includes taxes and fees. By tapping "Make these changes", you agree to the Terms & Conditions, Privacy Policy, and Contract of Carriage below.
+      </div>
+      <div
+        class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+      >
+        <button
+          class="continue button button--fluid larger button--yellow"
+          type="submit"
+        >
+          Make these changes
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`priceDifferenceFooter should render price diff footer component for upgrade with amount due with taxes and fees content 1`] = `
+<div>
+  <div>
+    <div
+      class="price-difference-footer"
+    >
+      <div
+        class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount Due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="price-difference-footer--description bgblue"
+      >
+        Includes taxes and fees.  By tapping "Make these changes", you agree to the Terms & Conditions, Privacy Policy, and Contract of Carriage below.
+      </div>
+      <div
+        class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+      >
+        <button
+          class="continue button button--fluid larger button--yellow"
+          type="submit"
+        >
+          Make these changes
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`priceDifferenceFooter should render price diff footer component when ItemTotalLabel and amountDueTax are present for pointsEvenexchange in sameDayRefundPage 1`] = `
+<div>
+  <div>
+    <div
+      class="price-difference-footer"
+    >
+      <div
+        class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Total Due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  0
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  5.60
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="price-difference-footer--description bgblue"
+      >
+        Includes taxes and fees
+      </div>
+      <div
+        class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+      >
+        <button
+          class="continue button button--fluid larger button--yellow"
+          type="submit"
+        >
+          Confirm
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`priceDifferenceFooter should render price diff footer component when amountDueFare is present and amountduetax is not present 1`] = `
+<div>
+  <div>
+    <div
+      class="price-difference-footer"
+    >
+      <div
+        class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount Due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  20,000
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+      >
+        <button
+          class="continue button button--fluid larger button--yellow"
+          type="submit"
+        >
+          Make these changes
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`priceDifferenceFooter should render price diff footer component when creditDueFare is present and creditduetax is not present 1`] = `
+<div>
+  <div>
+    <div
+      class="price-difference-footer"
+    >
+      <div
+        class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Credit
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  20,000
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="early-bird-price-footer--nav price-difference-footer--nav bggreen"
+      >
+        <button
+          class="continue button button--fluid larger button--yellow"
+          type="submit"
+        >
+          Make these changes
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`priceDifferenceFooter should render price diff footer component when fare is in amount due and tax is in credit due 1`] = `
+<div>
+  <div>
+    <div
+      class="price-difference-footer"
+    >
+      <div
+        class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount Due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  5,820
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="early-bird-price-footer--price-total price-difference-footer--price-total bggreen"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Credit
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  5.60
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="price-difference-footer--description bgblue bggreen"
+      >
+        Includes taxes and fees. By tapping "Make these changes", you agree to the Terms & Conditions, Privacy Policy, and Contract of Carriage below.
+      </div>
+      <div
+        class="early-bird-price-footer--nav price-difference-footer--nav bgblue bggreen"
+      >
+        <button
+          class="continue button button--fluid larger button--yellow"
+          type="submit"
+        >
+          Make these changes
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`priceDifferenceFooter should render price diff footer component when fare is in credit due and tax is in amount due 1`] = `
+<div>
+  <div>
+    <div
+      class="price-difference-footer"
+    >
+      <div
+        class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue bggreen"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Credit
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  5,820
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            SHARED__PRICE_LINE_TITLES__AMOUNT_DUE
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  5.60
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="price-difference-footer--description bgblue"
+      >
+        Includes taxes and fees. By tapping "Make these changes", you agree to the Terms & Conditions, Privacy Policy, and Contract of Carriage below.
+      </div>
+      <div
+        class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+      >
+        <button
+          class="continue button button--fluid larger button--yellow"
+          type="submit"
+        >
+          Make these changes
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`priceDifferenceFooter should render price diff footer component when there is no amount due with no taxes and Fees content 1`] = `
+<div>
+  <div>
+    <div
+      class="price-difference-footer"
+    >
+      <div
+        class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount Due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  0.00
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+      >
+        <button
+          class="continue button button--fluid larger button--yellow"
+          type="submit"
+        >
+          Confirm standby listing
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`priceDifferenceFooter should render refund scenario footer when credit is due 1`] = `
+<div>
+  <div>
+    <div
+      class="price-difference-footer"
+    >
+      <div
+        class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Credit
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="price-difference-footer--description bggreen"
+      >
+        You will be able to view your refund method(s) after tapping "Make these changes".
+      </div>
+      <div
+        class="early-bird-price-footer--nav price-difference-footer--nav bggreen"
+      >
+        <button
+          class="continue button button--fluid larger button--yellow"
+          type="submit"
+        >
+          Make these changes
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

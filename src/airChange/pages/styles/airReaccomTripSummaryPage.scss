@@ -1,0 +1,11 @@
+.reaccom-message {
+  @include bgpdkblue;
+  @include large;
+  @include p5;
+  @include pre-wrap;
+  @include white;
+}
+
+.reaccom-flight-cards--passenger-string {
+  @include xlarge;
+}

@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flightPurchaseRequestTransformer transformToPurchaseRequest should transform to purchase request for one adult and one lap child one way flight 1`] = `
+Object {
+  "body": Object {
+    "contactInformation": Object {
+      "contactMethod": "CALL",
+      "phoneNumber": "11236548973",
+      "preferredLanguage": "EN",
+    },
+    "declineNotifications": false,
+    "internalReferenceNumber": null,
+    "payment": Object {
+      "moneyTotalFare": Object {
+        "amount": "233.98",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "newCreditCard": Object {
+        "billingContactInfo": Object {
+          "address": Object {
+            "addressLine1": "asdfafa",
+            "addressLine2": null,
+            "city": "Brooklyn",
+            "isoCountryCode": "US",
+            "stateProvinceRegion": "AS",
+            "zipOrPostalCode": "12312",
+          },
+          "firstName": "adfds",
+          "lastName": "gfd",
+          "phoneNumber": "5555555555",
+        },
+        "cardNumber": "4123456789012",
+        "creditCardType": "VISA",
+        "expiration": "2029-10",
+        "intentToStore": false,
+        "isPrimary": false,
+        "securityCode": "123",
+      },
+      "pointsTotalBaseFare": null,
+    },
+    "promoCodeToken": null,
+    "purposeOfTravel": null,
+    "receiptEmail": undefined,
+    "reservationGroups": Array [
+      Object {
+        "amountApplied": Object {
+          "taxesAndFees": Array [
+            Object {
+              "code": "US",
+              "description": "Excise Taxes",
+              "fee": Object {
+                "amount": "15.26",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+            },
+            Object {
+              "code": "AY",
+              "description": "Sept 11 Security Fee",
+              "fee": Object {
+                "amount": "5.60",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+            },
+            Object {
+              "code": "ZP",
+              "description": "Segment Fee",
+              "fee": Object {
+                "amount": "4.20",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+            },
+            Object {
+              "code": "XF",
+              "description": "Passenger Facility Charge",
+              "fee": Object {
+                "amount": "4.50",
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+              },
+            },
+          ],
+          "totalBaseFare": Object {
+            "amount": "203.52",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+        },
+        "passengerType": "ADULT",
+        "passengers": Array [
+          Object {
+            "accountNumber": undefined,
+            "dateOfBirth": "2015-02-01",
+            "gender": "M",
+            "knownTravelerId": undefined,
+            "name": Object {
+              "firstName": "test",
+              "lastName": "wang",
+              "middleName": null,
+              "suffix": null,
+            },
+            "passengerReference": 2,
+            "redressNumber": undefined,
+          },
+          Object {
+            "accountNumber": undefined,
+            "dateOfBirth": "2015-02-01",
+            "gender": "M",
+            "knownTravelerId": undefined,
+            "name": Object {
+              "firstName": "james",
+              "lastName": "bond",
+              "middleName": null,
+              "suffix": null,
+            },
+            "passengerReference": 3,
+            "redressNumber": undefined,
+          },
+        ],
+        "productIds": Array [
+          "eyJwcm9kdWN0SWQiOiJXR0F8QURUfFFMTjBXTlIsUSxBVEwsQVVTLDIwMTctMTItMTRUMTM6MDAtMDU6MDAsMjAxNy0xMi0xNFQxNDozMC0wNjowMCxXTixXTiwxODg3LDczVyIsInF1b3RlZFByaWNlIjoiMjMzLjA4In0=",
+        ],
+      },
+      Object {
+        "passengerType": "LAP_INFANT",
+        "passengers": Array [
+          Object {
+            "accountNumber": undefined,
+            "dateOfBirth": "2021-02-01",
+            "gender": "M",
+            "knownTravelerId": undefined,
+            "name": Object {
+              "firstName": "don",
+              "lastName": "jon",
+              "middleName": null,
+              "suffix": null,
+            },
+            "otherPassengerReference": 2,
+            "passengerReference": 4,
+            "redressNumber": undefined,
+          },
+        ],
+      },
+    ],
+    "sharedItineraryEmail": null,
+  },
+  "href": "/v1/mobile-air-booking/page/flights/purchase",
+  "method": "POST",
+  "xhref": "/v1/mobile-air-booking/page/flights/x-purchase",
+}
+`;

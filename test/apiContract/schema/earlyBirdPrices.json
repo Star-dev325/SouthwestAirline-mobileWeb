@@ -1,0 +1,261 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "earlyBirdEligibility": {
+      "type": "object",
+      "properties": {
+        "bounds": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "originDestinationAirports": {
+                "type": "string"
+              },
+              "flightNumbers": {
+                "type": "string"
+              },
+              "passengersGroups": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "canPurchaseEarlyBird": {
+                      "type": "boolean"
+                    },
+                    "decisionDescription": {
+                      "type": "string"
+                    },
+                    "fareType": {
+                      "type": "string"
+                    },
+                    "price": {
+                      "amount": {
+                        "type": "string"
+                      },
+                      "currencyCode": {
+                        "type": "string"
+                      },
+                      "currencySymbol": {
+                        "type": "string"
+                      }
+                    },
+                    "isAlist": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              },
+              "isEligible": {
+                "type": "boolean"
+              },
+              "_meta": {
+                "type": "object",
+                "properties": {
+                  "products": {
+                    "type": ["object", null],
+                    "properties": {
+                      "adult": {
+                        "type": "object",
+                        "properties": {
+                          "productId": {
+                            "type": "string"
+                          }
+                        },
+                        "passengerReference": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "fare": {
+                          "type": "object",
+                          "properties": {
+                            "baseFare": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "string"
+                                },
+                                "currencyCode": {
+                                  "type": "string"
+                                },
+                                "currencySymbol": {
+                                  "type": "string"
+                                }
+                              }
+                            }
+                          },
+                          "totalTaxesAndFees": {
+                            "type": "object",
+                            "properties": {
+                              "amount": {
+                                "type": "string"
+                              },
+                              "currencyCode": {
+                                "type": "string"
+                              },
+                              "currencySymbol": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "totalFare": {
+                            "type": "object",
+                            "properties": {
+                              "amount": {
+                                "type": "string"
+                              },
+                              "currencyCode": {
+                                "type": "string"
+                              },
+                              "currencySymbol": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "senior": {
+                        "type": ["object", null],
+                        "properties": {
+                          "productId": {
+                            "type": "string"
+                          }
+                        },
+                        "passengerReference": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "fare": {
+                          "type": "object",
+                          "properties": {
+                            "baseFare": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "string"
+                                },
+                                "currencyCode": {
+                                  "type": "string"
+                                },
+                                "currencySymbol": {
+                                  "type": "string"
+                                }
+                              }
+                            }
+                          },
+                          "totalTaxesAndFees": {
+                            "type": "object",
+                            "properties": {
+                              "amount": {
+                                "type": "string"
+                              },
+                              "currencyCode": {
+                                "type": "string"
+                              },
+                              "currencySymbol": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "totalFare": {
+                            "type": "object",
+                            "properties": {
+                              "amount": {
+                                "type": "string"
+                              },
+                              "currencyCode": {
+                                "type": "string"
+                              },
+                              "currencySymbol": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "totalPrice": {
+        "type": "object",
+        "properties": {
+          "amount": {
+            "type": "string"
+          },
+          "currencyCode": {
+            "type": "string"
+          },
+          "currencySymbol": {
+            "type": "string"
+          }
+        }
+      },
+      "unitPrice": {
+        "type": "object",
+        "properties": {
+          "amount": {
+            "type": "string"
+          },
+          "currencyCode": {
+            "type": "string"
+          },
+          "currencySymbol": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      },
+      "adultProductsCount": {
+        "type": "string"
+      },
+      "seniorProductsCount": {
+        "type": "string"
+      },
+      "ineligibilityReasons": [
+        "string"
+      ],
+      "_meta": {
+        "type": "object",
+        "properties": {
+          "passengers": {
+            "type": "array",
+            "properties": {
+              "name": {
+                "type": "object",
+                "properties": {
+                  "firstName": {
+                    "type": "string"
+                  },
+                  "lastName": {
+                    "type": "string"
+                  },
+                  "middleName": {
+                    "type": "string"
+                  }
+                }
+              },
+              "passengerReference": {
+                "type": "string"
+              },
+              "accountNumber": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

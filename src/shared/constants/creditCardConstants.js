@@ -1,0 +1,6 @@
+export const NEW_CREDIT_CARD_ID = 'NEW_CREDIT_CARD_ID';
+export const RAPID_REWARDS_VISA_ID = 'RAPID_REWARDS_VISA_ID';
+export const PAY_PAL_CARD_ID = 'PAY_PAL_CARD_ID';
+export const APPLE_PAY_CARD_ID = 'APPLE_PAY_CARD_ID';
+export const UPLIFT_CARD_ID = 'UPLIFT_CARD_ID';
+export const UNSELECTED_CREDIT_CARD = null;

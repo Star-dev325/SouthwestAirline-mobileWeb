@@ -1,0 +1,9 @@
+.home-banner {
+  @include relative;
+  @include fullwidth;
+  @include overflow-hidden;
+
+  &--background-image {
+    @include fullwidth;
+  }
+}

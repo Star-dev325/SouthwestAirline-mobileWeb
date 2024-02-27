@@ -1,0 +1,4166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReservationDetail render flight summary card for one-way flight should render with PassengerPrice component 1`] = `
+<div>
+  <div
+    class="trip-details-page"
+    data-qa="trip details page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      />
+      <div />
+    </div>
+    <div
+      class="custom-container"
+    >
+      <div
+        class="reaccom-banner"
+      >
+        <div
+          class="reaccom-banner-container flex"
+        >
+          <div
+            class="reaccom-banner-container--alert"
+          >
+            <i
+              class="reaccom-banner-container--alert-icon icon icon_plus-icon"
+            >
+              !
+            </i>
+          </div>
+          <b
+            class="reaccom-banner-container--header"
+          >
+            reaccomHeader
+          </b>
+        </div>
+        <p
+          class="reaccom-banner--body py2"
+        >
+          reaccomBody
+        </p>
+      </div>
+      <div
+        class="trip-details-boarding-info"
+      >
+        <div
+          class="boarding-info"
+        >
+          <div
+            class="boarding-info_time reservation-details--card boarding-info--divider"
+          >
+            <div
+              class="flex flex-main-between"
+            >
+              <div
+                class="trip-date-dest-city--city-name"
+              >
+                <span
+                  class="trip-date-dest-city--trip-date"
+                />
+                <span
+                  class="trip-date-dest-city--destination-airport pblue"
+                />
+              </div>
+              <div>
+                <div
+                  class="confirmation-label"
+                  data-qa="confirmation-label"
+                >
+                  SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+                </div>
+                <div
+                  class="xlarge passenger-record-locator green align-right"
+                  data-qa="passenger-record-locator"
+                >
+                  K9VJKX
+                </div>
+              </div>
+            </div>
+            <div
+              class="airport-info--detail"
+            >
+              
+               to
+              <br />
+              
+            </div>
+            <div
+              class="boarding-info--change-cancel-container"
+              data-qa="boarding-info-manage-buttons"
+            >
+              <button
+                class="boarding-info--same-day-change-buttons button button--fluid large button--blue"
+                type="button"
+              >
+                Same-day change and standby
+              </button>
+            </div>
+            <div
+              class="boarding-info--change-cancel-container"
+              data-qa="boarding-info-manage-buttons"
+            >
+              <button
+                class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+                type="button"
+              >
+                VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+              </button>
+              <button
+                class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+                type="button"
+              >
+                VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+              </button>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div
+                class="medium gray5 mt4"
+                data-qa="passenger-label"
+              >
+                SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+              </div>
+              <div
+                class="pt2"
+              >
+                <div
+                  class="passenger-reservation-info--passenger-name"
+                >
+                  <div
+                    class="flex flex-cross-center flex-wrap"
+                  >
+                    <div
+                      class="flex flex11 flex-column overflow-hidden"
+                    >
+                      <div
+                        class="overflow-hidden ellipsis"
+                      >
+                        <span
+                          class="xlarge block nowrap overflow-hidden ellipsis"
+                          data-qa="userName"
+                        >
+                          AMBER AWESOME
+                        </span>
+                        <div
+                          class="my1"
+                        >
+                          <span
+                            class="early-bird-wrap"
+                          >
+                            <i
+                              class="icon icon_early-bird"
+                              data-qa="earlyBirdIcon"
+                            />
+                             
+                            <span
+                              class="early-bird-text"
+                            >
+                               
+                              SHARED__EARLY_BIRD
+                               
+                            </span>
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="gray5 mr4"
+                            data-qa="passenger-rapid-rewards"
+                          >
+                            328329329
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="pdkblue mr4"
+                            data-qa="update-travel-information"
+                          >
+                            SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <i
+                      class="xxlarge sltblue flex1 icon icon_pencil"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="mt4 button button--fluid button--yellow"
+              title="SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS
+            </button>
+          </div>
+          <div>
+            <div>
+              <div
+                class="pt2"
+              >
+                <div
+                  class="passenger-reservation-info--passenger-name"
+                >
+                  <div
+                    class="flex flex-cross-center flex-wrap"
+                  >
+                    <div
+                      class="flex flex11 flex-column overflow-hidden"
+                    >
+                      <div
+                        class="overflow-hidden ellipsis"
+                      >
+                        <span
+                          class="xlarge block nowrap overflow-hidden ellipsis"
+                          data-qa="userName"
+                        >
+                          AMBER AWESOME
+                        </span>
+                        <div
+                          class="my1"
+                        >
+                          <span
+                            class="early-bird-wrap"
+                          >
+                            <i
+                              class="icon icon_early-bird"
+                              data-qa="earlyBirdIcon"
+                            />
+                             
+                            <span
+                              class="early-bird-text"
+                            >
+                               
+                              SHARED__EARLY_BIRD
+                               
+                            </span>
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="gray5 mr4"
+                            data-qa="passenger-rapid-rewards"
+                          >
+                            328329329
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="pdkblue mr4"
+                            data-qa="update-travel-information"
+                          >
+                            SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <i
+                      class="xxlarge sltblue flex1 icon icon_pencil"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="trip-details--flight-status"
+      >
+        <div
+          class="flight-summary-card rd3 overflow-hidden"
+        >
+          <div
+            class="flight-summary-header flight-summary-departing"
+          >
+            <span
+              class="flight-summary-title"
+            >
+              Departing
+            </span>
+            <span
+              class="flight-day"
+            >
+              Fri, Aug 25, 2017
+            </span>
+          </div>
+          <div
+            class="flight-summary-content"
+          >
+            <div
+              class="pricing-summary--group"
+            >
+              <div>
+                <div
+                  class="flight-info"
+                >
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-number-list flex-row"
+                        >
+                          <span
+                            class="flight-number"
+                          >
+                            <span>
+                              233
+                            </span>
+                          </span>
+                          <span
+                            class="flight-number"
+                          >
+                            <span>
+                              65
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        TOTAL TRAVEL TIME
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-duration"
+                        >
+                          <i
+                            class="icon icon_color-stopwatch"
+                            title="color-stopwatch"
+                          />
+                          <span
+                            data-qa="flight-duration-minutes"
+                          >
+                            3h 55m
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="itinerary-vertical"
+              >
+                <div
+                  class="itinerary-vertical--row"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                7:35
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        AUS
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Austin
+                        , 
+                        TX
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="panel"
+                >
+                  <div
+                    class="panel--heading"
+                  >
+                    <div
+                      class="panel__title itinerary-vertical--row"
+                    >
+                      <a
+                        aria-expanded="false"
+                        class="panel-anchor collapsed"
+                        href="#"
+                      >
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-icon"
+                        >
+                          <span
+                            class="stop-circle"
+                          >
+                             
+                          </span>
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-line"
+                        >
+                           
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-info"
+                        >
+                          <span
+                            class="stops-detail stops-detail--with-icon"
+                          >
+                            <span>
+                              1
+                               
+                              SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_STOP
+                              <span>
+                                <span>
+                                  : 
+                                  <span
+                                    class="stops-detail--icon"
+                                  >
+                                    <i
+                                      class="icon icon_airplane-return"
+                                    />
+                                    <i
+                                      class="stop-highlight icon icon_airplane-return"
+                                    />
+                                  </span>
+                                  <br />
+                                </span>
+                                SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_CHANGE_PLANES
+                              </span>
+                               
+                              DAL
+                            </span>
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    aria-expanded="false"
+                    class="panel_collapsed collapse"
+                  >
+                    <div
+                      class="panel--body"
+                    >
+                      <div
+                        class="itinerary-vertical--row itinerary-vertical--row--stop"
+                      >
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-icon"
+                        >
+                          <span
+                            class="stop-circle"
+                          >
+                               
+                          </span>
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-line"
+                        >
+                           
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-time"
+                        >
+                          <div
+                            class="flight-time-group"
+                          >
+                            <div
+                              class="label-container"
+                            >
+                              <div
+                                class="label-container--label"
+                              >
+                                ARRIVES
+                              </div>
+                              <div
+                                class="label-container--content"
+                              >
+                                <div
+                                  class="flight-time-status flight-time-status--undefined"
+                                >
+                                  <div
+                                    class="flight-time"
+                                  >
+                                    <div
+                                      class="flight-time--time"
+                                    >
+                                      <span>
+                                        8:35
+                                      </span>
+                                      <span
+                                        class="time-period"
+                                      >
+                                        AM
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="label-container"
+                            >
+                              <div
+                                class="label-container--label"
+                              >
+                                DEPARTS
+                              </div>
+                              <div
+                                class="label-container--content"
+                              >
+                                <div
+                                  class="flight-time-status flight-time-status--undefined"
+                                >
+                                  <div
+                                    class="flight-time"
+                                  >
+                                    <div
+                                      class="flight-time--time"
+                                    >
+                                      <span>
+                                        10:00
+                                      </span>
+                                      <span
+                                        class="time-period"
+                                      >
+                                        AM
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-info"
+                        >
+                          <div
+                            class="stop-detail stop-detail--has-change"
+                          >
+                            <div
+                              class="airport-info"
+                            >
+                              <div
+                                class="airport-info--code"
+                              >
+                                DAL
+                              </div>
+                            </div>
+                            <div
+                              class="stop-detail__info italic"
+                            >
+                              Stop: 
+                              <span>
+                                Dallas (Love Field), TX
+                              </span>
+                            </div>
+                            <div
+                              class="stop-detail__status italic"
+                            >
+                              <span>
+                                SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_CHANGE_PLANES
+                                  
+                                <i
+                                  class="stop-detail--airplane-return icon icon_airplane-return"
+                                />
+                                <i
+                                  class="stop-detail--airplane-return highlight icon icon_airplane-return"
+                                />
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical--row itinerary-vertical--arrival"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none-line"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        ARRIVES
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                12:30
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                PM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        ATL
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Atlanta
+                        , 
+                        GA
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pricing-summary--group"
+            >
+              <div
+                class="passenger-price"
+              >
+                <div
+                  class="passenger-price--info"
+                >
+                  <span
+                    class="passenger-price--number-and-type"
+                    data-qa="passenger-price-passengers--number-and-type"
+                  >
+                    1
+                     
+                    Passenger
+                  </span>
+                  <a
+                    class="passenger-price--fare-type"
+                    data-qa="passenger-price--fare-type"
+                    href="/fare-rules/anytime"
+                    target="_blank"
+                  >
+                    Wanna Get Away
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ReservationDetail render flight summary card for round-trip should render with PassengerPrice components 1`] = `
+<div>
+  <div
+    class="trip-details-page"
+    data-qa="trip details page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      />
+      <div />
+    </div>
+    <div
+      class="custom-container"
+    >
+      <div
+        class="reaccom-banner"
+      >
+        <div
+          class="reaccom-banner-container flex"
+        >
+          <div
+            class="reaccom-banner-container--alert"
+          >
+            <i
+              class="reaccom-banner-container--alert-icon icon icon_plus-icon"
+            >
+              !
+            </i>
+          </div>
+          <b
+            class="reaccom-banner-container--header"
+          >
+            reaccomHeader
+          </b>
+        </div>
+        <p
+          class="reaccom-banner--body py2"
+        >
+          reaccomBody
+        </p>
+      </div>
+      <div
+        class="trip-details-boarding-info"
+      >
+        <div
+          class="boarding-info"
+        >
+          <div
+            class="boarding-info_time reservation-details--card boarding-info--divider"
+          >
+            <div
+              class="flex flex-main-between"
+            >
+              <div
+                class="trip-date-dest-city--city-name"
+              >
+                <span
+                  class="trip-date-dest-city--trip-date"
+                />
+                <span
+                  class="trip-date-dest-city--destination-airport pblue"
+                />
+              </div>
+              <div>
+                <div
+                  class="confirmation-label"
+                  data-qa="confirmation-label"
+                >
+                  SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+                </div>
+                <div
+                  class="xlarge passenger-record-locator green align-right"
+                  data-qa="passenger-record-locator"
+                >
+                  K9VJKX
+                </div>
+              </div>
+            </div>
+            <div
+              class="airport-info--detail"
+            >
+              
+               to
+              <br />
+              
+            </div>
+            <div
+              class="boarding-info--change-cancel-container"
+              data-qa="boarding-info-manage-buttons"
+            >
+              <button
+                class="boarding-info--same-day-change-buttons button button--fluid large button--blue"
+                type="button"
+              >
+                Same-day change and standby
+              </button>
+            </div>
+            <div
+              class="boarding-info--change-cancel-container"
+              data-qa="boarding-info-manage-buttons"
+            >
+              <button
+                class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+                type="button"
+              >
+                VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+              </button>
+              <button
+                class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+                type="button"
+              >
+                VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+              </button>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div
+                class="medium gray5 mt4"
+                data-qa="passenger-label"
+              >
+                SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+              </div>
+              <div
+                class="pt2"
+              >
+                <div
+                  class="passenger-reservation-info--passenger-name"
+                >
+                  <div
+                    class="flex flex-cross-center flex-wrap"
+                  >
+                    <div
+                      class="flex flex11 flex-column overflow-hidden"
+                    >
+                      <div
+                        class="overflow-hidden ellipsis"
+                      >
+                        <span
+                          class="xlarge block nowrap overflow-hidden ellipsis"
+                          data-qa="userName"
+                        >
+                          AMBER AWESOME
+                        </span>
+                        <div
+                          class="my1"
+                        >
+                          <span
+                            class="early-bird-wrap"
+                          >
+                            <i
+                              class="icon icon_early-bird"
+                              data-qa="earlyBirdIcon"
+                            />
+                             
+                            <span
+                              class="early-bird-text"
+                            >
+                               
+                              SHARED__EARLY_BIRD
+                               
+                            </span>
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="gray5 mr4"
+                            data-qa="passenger-rapid-rewards"
+                          >
+                            328329329
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="pdkblue mr4"
+                            data-qa="update-travel-information"
+                          >
+                            SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <i
+                      class="xxlarge sltblue flex1 icon icon_pencil"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="mt4 button button--fluid button--yellow"
+              title="SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS
+            </button>
+          </div>
+          <div>
+            <div>
+              <div
+                class="pt2"
+              >
+                <div
+                  class="passenger-reservation-info--passenger-name"
+                >
+                  <div
+                    class="flex flex-cross-center flex-wrap"
+                  >
+                    <div
+                      class="flex flex11 flex-column overflow-hidden"
+                    >
+                      <div
+                        class="overflow-hidden ellipsis"
+                      >
+                        <span
+                          class="xlarge block nowrap overflow-hidden ellipsis"
+                          data-qa="userName"
+                        >
+                          AMBER AWESOME
+                        </span>
+                        <div
+                          class="my1"
+                        >
+                          <span
+                            class="early-bird-wrap"
+                          >
+                            <i
+                              class="icon icon_early-bird"
+                              data-qa="earlyBirdIcon"
+                            />
+                             
+                            <span
+                              class="early-bird-text"
+                            >
+                               
+                              SHARED__EARLY_BIRD
+                               
+                            </span>
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="gray5 mr4"
+                            data-qa="passenger-rapid-rewards"
+                          >
+                            328329329
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="pdkblue mr4"
+                            data-qa="update-travel-information"
+                          >
+                            SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <i
+                      class="xxlarge sltblue flex1 icon icon_pencil"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="trip-details--flight-status"
+      >
+        <div
+          class="flight-summary-card rd3 overflow-hidden"
+        >
+          <div
+            class="flight-summary-header flight-summary-departing"
+          >
+            <span
+              class="flight-summary-title"
+            >
+              Departing
+            </span>
+            <span
+              class="flight-day"
+            >
+              Fri, Aug 25, 2017
+            </span>
+          </div>
+          <div
+            class="flight-summary-content"
+          >
+            <div
+              class="pricing-summary--group"
+            >
+              <div>
+                <div
+                  class="flight-info"
+                >
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-number-list flex-row"
+                        >
+                          <span
+                            class="flight-number"
+                          >
+                            <span>
+                              1622
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        TOTAL TRAVEL TIME
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-duration"
+                        >
+                          <i
+                            class="icon icon_color-stopwatch"
+                            title="color-stopwatch"
+                          />
+                          <span
+                            data-qa="flight-duration-minutes"
+                          >
+                            2h 15m
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="itinerary-vertical"
+              >
+                <div
+                  class="itinerary-vertical--row"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                6:10
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        AUS
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Austin
+                        , 
+                        TX
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical--row"
+                >
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none"
+                  >
+                    <span
+                      class="stop-circle"
+                    >
+                       
+                    </span>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <span
+                      class="stops-detail stops-detail--non-stop"
+                    >
+                      <span>
+                        SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_NON_STOP
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical--row itinerary-vertical--arrival"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none-line"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        ARRIVES
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                9:25
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        ATL
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Atlanta
+                        , 
+                        GA
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pricing-summary--group"
+            >
+              <div
+                class="passenger-price"
+              >
+                <div
+                  class="passenger-price--info"
+                >
+                  <span
+                    class="passenger-price--number-and-type"
+                    data-qa="passenger-price-passengers--number-and-type"
+                  >
+                    1
+                     
+                    Passenger
+                  </span>
+                  <a
+                    class="passenger-price--fare-type"
+                    data-qa="passenger-price--fare-type"
+                    href="/fare-rules/wanna-get-away"
+                    target="_blank"
+                  >
+                    Wanna Get Away
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-summary-card rd3 overflow-hidden"
+        >
+          <div
+            class="flight-summary-header flight-summary-returning"
+          >
+            <span
+              class="flight-summary-title"
+            >
+              Returning
+            </span>
+            <span
+              class="flight-day"
+            >
+              Mon, Aug 28, 2017
+            </span>
+          </div>
+          <div
+            class="flight-summary-content"
+          >
+            <div
+              class="pricing-summary--group"
+            >
+              <div>
+                <div
+                  class="flight-info"
+                >
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-number-list flex-row"
+                        >
+                          <span
+                            class="flight-number"
+                          >
+                            <span>
+                              177
+                            </span>
+                          </span>
+                          <span
+                            class="flight-number"
+                          >
+                            <span>
+                              152
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        TOTAL TRAVEL TIME
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-duration"
+                        >
+                          <i
+                            class="icon icon_color-stopwatch"
+                            title="color-stopwatch"
+                          />
+                          <span
+                            data-qa="flight-duration-minutes"
+                          >
+                            4h 10m
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="itinerary-vertical itinerary-vertical--return"
+              >
+                <div
+                  class="itinerary-vertical--row"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-return"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                10:30
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        ATL
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Atlanta
+                        , 
+                        GA
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="panel"
+                >
+                  <div
+                    class="panel--heading"
+                  >
+                    <div
+                      class="panel__title itinerary-vertical--row"
+                    >
+                      <a
+                        aria-expanded="false"
+                        class="panel-anchor collapsed"
+                        href="#"
+                      >
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-icon"
+                        >
+                          <span
+                            class="stop-circle"
+                          >
+                             
+                          </span>
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-line"
+                        >
+                           
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-info"
+                        >
+                          <span
+                            class="stops-detail stops-detail--with-icon"
+                          >
+                            <span>
+                              1
+                               
+                              SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_STOP
+                              <span>
+                                <span>
+                                  : 
+                                  <span
+                                    class="stops-detail--icon"
+                                  >
+                                    <i
+                                      class="icon icon_airplane-return"
+                                    />
+                                    <i
+                                      class="stop-highlight icon icon_airplane-return"
+                                    />
+                                  </span>
+                                  <br />
+                                </span>
+                                SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_CHANGE_PLANES
+                              </span>
+                               
+                              DAL
+                            </span>
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    aria-expanded="false"
+                    class="panel_collapsed collapse"
+                  >
+                    <div
+                      class="panel--body"
+                    >
+                      <div
+                        class="itinerary-vertical--row itinerary-vertical--row--stop"
+                      >
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-icon"
+                        >
+                          <span
+                            class="stop-circle"
+                          >
+                               
+                          </span>
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-line"
+                        >
+                           
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-time"
+                        >
+                          <div
+                            class="flight-time-group"
+                          >
+                            <div
+                              class="label-container"
+                            >
+                              <div
+                                class="label-container--label"
+                              >
+                                ARRIVES
+                              </div>
+                              <div
+                                class="label-container--content"
+                              >
+                                <div
+                                  class="flight-time-status flight-time-status--undefined"
+                                >
+                                  <div
+                                    class="flight-time"
+                                  >
+                                    <div
+                                      class="flight-time--time"
+                                    >
+                                      <span>
+                                        11:35
+                                      </span>
+                                      <span
+                                        class="time-period"
+                                      >
+                                        AM
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="label-container"
+                            >
+                              <div
+                                class="label-container--label"
+                              >
+                                DEPARTS
+                              </div>
+                              <div
+                                class="label-container--content"
+                              >
+                                <div
+                                  class="flight-time-status flight-time-status--undefined"
+                                >
+                                  <div
+                                    class="flight-time"
+                                  >
+                                    <div
+                                      class="flight-time--time"
+                                    >
+                                      <span>
+                                        12:45
+                                      </span>
+                                      <span
+                                        class="time-period"
+                                      >
+                                        PM
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-info"
+                        >
+                          <div
+                            class="stop-detail stop-detail--has-change"
+                          >
+                            <div
+                              class="airport-info"
+                            >
+                              <div
+                                class="airport-info--code"
+                              >
+                                DAL
+                              </div>
+                            </div>
+                            <div
+                              class="stop-detail__info italic"
+                            >
+                              Stop: 
+                              <span>
+                                Dallas (Love Field), TX
+                              </span>
+                            </div>
+                            <div
+                              class="stop-detail__status italic"
+                            >
+                              <span>
+                                SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_CHANGE_PLANES
+                                  
+                                <i
+                                  class="stop-detail--airplane-return icon icon_airplane-return"
+                                />
+                                <i
+                                  class="stop-detail--airplane-return highlight icon icon_airplane-return"
+                                />
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical--row itinerary-vertical--arrival"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none-line"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-return"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        ARRIVES
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                1:40
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                PM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        AUS
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Austin
+                        , 
+                        TX
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pricing-summary--group"
+            >
+              <div
+                class="passenger-price"
+              >
+                <div
+                  class="passenger-price--info"
+                >
+                  <span
+                    class="passenger-price--number-and-type"
+                    data-qa="passenger-price-passengers--number-and-type"
+                  >
+                    1
+                     
+                    Passenger
+                  </span>
+                  <a
+                    class="passenger-price--fare-type"
+                    data-qa="passenger-price--fare-type"
+                    href="/fare-rules/wanna-get-away"
+                    target="_blank"
+                  >
+                    Wanna Get Away
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ReservationDetail render should display PassengerPrice component with lap child details 1`] = `
+<div>
+  <div
+    class="trip-details-page"
+    data-qa="trip details page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      />
+      <div />
+    </div>
+    <div
+      class="custom-container"
+    >
+      <div
+        class="reaccom-banner"
+      >
+        <div
+          class="reaccom-banner-container flex"
+        >
+          <div
+            class="reaccom-banner-container--alert"
+          >
+            <i
+              class="reaccom-banner-container--alert-icon icon icon_plus-icon"
+            >
+              !
+            </i>
+          </div>
+          <b
+            class="reaccom-banner-container--header"
+          >
+            reaccomHeader
+          </b>
+        </div>
+        <p
+          class="reaccom-banner--body py2"
+        >
+          reaccomBody
+        </p>
+      </div>
+      <div
+        class="trip-details-boarding-info"
+      >
+        <div
+          class="boarding-info"
+        >
+          <div
+            class="boarding-info_time reservation-details--card boarding-info--divider"
+          >
+            <div
+              class="flex flex-main-between"
+            >
+              <div
+                class="trip-date-dest-city--city-name"
+              >
+                <span
+                  class="trip-date-dest-city--trip-date"
+                />
+                <span
+                  class="trip-date-dest-city--destination-airport pblue"
+                />
+              </div>
+              <div>
+                <div
+                  class="confirmation-label"
+                  data-qa="confirmation-label"
+                >
+                  SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+                </div>
+                <div
+                  class="xlarge passenger-record-locator green align-right"
+                  data-qa="passenger-record-locator"
+                >
+                  K9VJKX
+                </div>
+              </div>
+            </div>
+            <div
+              class="airport-info--detail"
+            >
+              
+               to
+              <br />
+              
+            </div>
+            <div
+              class="boarding-info--change-cancel-container"
+              data-qa="boarding-info-manage-buttons"
+            >
+              <button
+                class="boarding-info--same-day-change-buttons button button--fluid large button--blue"
+                type="button"
+              >
+                Same-day change and standby
+              </button>
+            </div>
+            <div
+              class="boarding-info--change-cancel-container"
+              data-qa="boarding-info-manage-buttons"
+            >
+              <button
+                class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+                type="button"
+              >
+                VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+              </button>
+              <button
+                class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+                type="button"
+              >
+                VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+              </button>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div
+                class="medium gray5 mt4"
+                data-qa="passenger-label"
+              >
+                SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+              </div>
+              <div
+                class="pt2"
+              >
+                <div
+                  class="passenger-reservation-info--passenger-name"
+                >
+                  <div
+                    class="flex flex-cross-center flex-wrap"
+                  >
+                    <div
+                      class="flex flex11 flex-column overflow-hidden"
+                    >
+                      <div
+                        class="overflow-hidden ellipsis"
+                      >
+                        <span
+                          class="xlarge block nowrap overflow-hidden ellipsis"
+                          data-qa="userName"
+                        >
+                          AMBER AWESOME
+                        </span>
+                        <div
+                          class="my1"
+                        >
+                          <span
+                            class="early-bird-wrap"
+                          >
+                            <i
+                              class="icon icon_early-bird"
+                              data-qa="earlyBirdIcon"
+                            />
+                             
+                            <span
+                              class="early-bird-text"
+                            >
+                               
+                              SHARED__EARLY_BIRD
+                               
+                            </span>
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="gray5 mr4"
+                            data-qa="passenger-rapid-rewards"
+                          >
+                            328329329
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="pdkblue mr4"
+                            data-qa="update-travel-information"
+                          >
+                            SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <i
+                      class="xxlarge sltblue flex1 icon icon_pencil"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="mt4 button button--fluid button--yellow"
+              title="SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS
+            </button>
+          </div>
+          <div>
+            <div>
+              <div
+                class="pt2"
+              >
+                <div
+                  class="passenger-reservation-info--passenger-name"
+                >
+                  <div
+                    class="flex flex-cross-center flex-wrap"
+                  >
+                    <div
+                      class="flex flex11 flex-column overflow-hidden"
+                    >
+                      <div
+                        class="overflow-hidden ellipsis"
+                      >
+                        <span
+                          class="xlarge block nowrap overflow-hidden ellipsis"
+                          data-qa="userName"
+                        >
+                          AMBER AWESOME
+                        </span>
+                        <div
+                          class="my1"
+                        >
+                          <span
+                            class="early-bird-wrap"
+                          >
+                            <i
+                              class="icon icon_early-bird"
+                              data-qa="earlyBirdIcon"
+                            />
+                             
+                            <span
+                              class="early-bird-text"
+                            >
+                               
+                              SHARED__EARLY_BIRD
+                               
+                            </span>
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="gray5 mr4"
+                            data-qa="passenger-rapid-rewards"
+                          >
+                            328329329
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="pdkblue mr4"
+                            data-qa="update-travel-information"
+                          >
+                            SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <i
+                      class="xxlarge sltblue flex1 icon icon_pencil"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="trip-details--flight-status"
+      >
+        <div
+          class="flight-summary-card rd3 overflow-hidden"
+        >
+          <div
+            class="flight-summary-header flight-summary-departing"
+          >
+            <span
+              class="flight-summary-title"
+            >
+              Departing
+            </span>
+            <span
+              class="flight-day"
+            >
+              Wed, Nov 1, 2017
+            </span>
+          </div>
+          <div
+            class="flight-summary-content"
+          >
+            <div
+              class="pricing-summary--group"
+            >
+              <div>
+                <div
+                  class="flight-info"
+                >
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-number-list flex-row"
+                        >
+                          <span
+                            class="flight-number"
+                          >
+                            <span>
+                              1504
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        TOTAL TRAVEL TIME
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-duration"
+                        >
+                          <i
+                            class="icon icon_color-stopwatch"
+                            title="color-stopwatch"
+                          />
+                          <span
+                            data-qa="flight-duration-minutes"
+                          >
+                            02:00
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="itinerary-vertical"
+              >
+                <div
+                  class="itinerary-vertical--row"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                6:30
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        DAL
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Dallas (Love Field)
+                        , 
+                        TX
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical--row"
+                >
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none"
+                  >
+                    <span
+                      class="stop-circle"
+                    >
+                       
+                    </span>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <span
+                      class="stops-detail stops-detail--non-stop"
+                    >
+                      <span>
+                        SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_NON_STOP
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical--row itinerary-vertical--arrival"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none-line"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        ARRIVES
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                9:30
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        ATL
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Atlanta
+                        , 
+                        GA
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pricing-summary--group"
+            >
+              <div
+                class="passenger-price"
+              >
+                <div
+                  class="passenger-price--info"
+                >
+                  <span
+                    class="passenger-price--number-and-type"
+                    data-qa="passenger-price-passengers--number-and-type"
+                  >
+                    1
+                     
+                    Adult
+                  </span>
+                  <a
+                    class="passenger-price--fare-type"
+                    data-qa="passenger-price--fare-type"
+                    href="https://mobile.southwest.com/fare-rules/wanna-get-away"
+                    target="_blank"
+                  >
+                    WGA
+                  </a>
+                </div>
+              </div>
+              <div
+                class="passenger-price"
+              >
+                <div
+                  class="passenger-price--info"
+                >
+                  <span
+                    class="passenger-price--number-and-type"
+                    data-qa="passenger-price-passengers--string"
+                  >
+                    1 Lap Child
+                  </span>
+                  <p
+                    class="passenger-price--fare-type"
+                    data-qa="passenger-price--fare-type"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ReservationDetail render should render boarding information banner with correct props 1`] = `
+<div>
+  <div
+    class="trip-details-page"
+    data-qa="trip details page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      />
+      <div />
+    </div>
+    <div
+      class="custom-container"
+    >
+      <div
+        class="reaccom-banner"
+      >
+        <div
+          class="reaccom-banner-container flex"
+        >
+          <div
+            class="reaccom-banner-container--alert"
+          >
+            <i
+              class="reaccom-banner-container--alert-icon icon icon_plus-icon"
+            >
+              !
+            </i>
+          </div>
+          <b
+            class="reaccom-banner-container--header"
+          >
+            reaccomHeader
+          </b>
+        </div>
+        <p
+          class="reaccom-banner--body py2"
+        >
+          reaccomBody
+        </p>
+      </div>
+      <div
+        class="trip-details-boarding-info"
+      >
+        <div
+          class="boarding-info"
+        >
+          <div
+            class="boarding-info_time reservation-details--card boarding-info--divider"
+          >
+            <div
+              class="flex flex-main-between"
+            >
+              <div
+                class="trip-date-dest-city--city-name"
+              >
+                <span
+                  class="trip-date-dest-city--trip-date"
+                />
+                <span
+                  class="trip-date-dest-city--destination-airport pblue"
+                />
+              </div>
+              <div>
+                <div
+                  class="confirmation-label"
+                  data-qa="confirmation-label"
+                >
+                  SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+                </div>
+                <div
+                  class="xlarge passenger-record-locator green align-right"
+                  data-qa="passenger-record-locator"
+                >
+                  K9VJKX
+                </div>
+              </div>
+            </div>
+            <div
+              class="airport-info--detail"
+            >
+              
+               to
+              <br />
+              
+            </div>
+            <div
+              class="boarding-info--change-cancel-container"
+              data-qa="boarding-info-manage-buttons"
+            >
+              <button
+                class="boarding-info--same-day-change-buttons button button--fluid large button--blue"
+                type="button"
+              >
+                Same-day change and standby
+              </button>
+            </div>
+            <div
+              class="boarding-info--change-cancel-container"
+              data-qa="boarding-info-manage-buttons"
+            >
+              <button
+                class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+                type="button"
+              >
+                VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+              </button>
+              <button
+                class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+                type="button"
+              >
+                VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+              </button>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div
+                class="medium gray5 mt4"
+                data-qa="passenger-label"
+              >
+                SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+              </div>
+              <div
+                class="pt2"
+              >
+                <div
+                  class="passenger-reservation-info--passenger-name"
+                >
+                  <div
+                    class="flex flex-cross-center flex-wrap"
+                  >
+                    <div
+                      class="flex flex11 flex-column overflow-hidden"
+                    >
+                      <div
+                        class="overflow-hidden ellipsis"
+                      >
+                        <span
+                          class="xlarge block nowrap overflow-hidden ellipsis"
+                          data-qa="userName"
+                        >
+                          AMBER AWESOME
+                        </span>
+                        <div
+                          class="my1"
+                        >
+                          <span
+                            class="early-bird-wrap"
+                          >
+                            <i
+                              class="icon icon_early-bird"
+                              data-qa="earlyBirdIcon"
+                            />
+                             
+                            <span
+                              class="early-bird-text"
+                            >
+                               
+                              SHARED__EARLY_BIRD
+                               
+                            </span>
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="gray5 mr4"
+                            data-qa="passenger-rapid-rewards"
+                          >
+                            328329329
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="pdkblue mr4"
+                            data-qa="update-travel-information"
+                          >
+                            SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <i
+                      class="xxlarge sltblue flex1 icon icon_pencil"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="mt4 button button--fluid button--yellow"
+              title="SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS
+            </button>
+          </div>
+          <div>
+            <div>
+              <div
+                class="pt2"
+              >
+                <div
+                  class="passenger-reservation-info--passenger-name"
+                >
+                  <div
+                    class="flex flex-cross-center flex-wrap"
+                  >
+                    <div
+                      class="flex flex11 flex-column overflow-hidden"
+                    >
+                      <div
+                        class="overflow-hidden ellipsis"
+                      >
+                        <span
+                          class="xlarge block nowrap overflow-hidden ellipsis"
+                          data-qa="userName"
+                        >
+                          AMBER AWESOME
+                        </span>
+                        <div
+                          class="my1"
+                        >
+                          <span
+                            class="early-bird-wrap"
+                          >
+                            <i
+                              class="icon icon_early-bird"
+                              data-qa="earlyBirdIcon"
+                            />
+                             
+                            <span
+                              class="early-bird-text"
+                            >
+                               
+                              SHARED__EARLY_BIRD
+                               
+                            </span>
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="gray5 mr4"
+                            data-qa="passenger-rapid-rewards"
+                          >
+                            328329329
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="pdkblue mr4"
+                            data-qa="update-travel-information"
+                          >
+                            SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <i
+                      class="xxlarge sltblue flex1 icon icon_pencil"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="trip-details--flight-status"
+      >
+        <div
+          class="flight-summary-card rd3 overflow-hidden"
+        >
+          <div
+            class="flight-summary-header flight-summary-departing"
+          >
+            <span
+              class="flight-summary-title"
+            >
+              Departing
+            </span>
+            <span
+              class="flight-day"
+            >
+              Wed, Nov 1, 2017
+            </span>
+          </div>
+          <div
+            class="flight-summary-content"
+          >
+            <div
+              class="pricing-summary--group"
+            >
+              <div>
+                <div
+                  class="flight-info"
+                >
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-number-list flex-row"
+                        >
+                          <span
+                            class="flight-number"
+                          >
+                            <span>
+                              1504
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        TOTAL TRAVEL TIME
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-duration"
+                        >
+                          <i
+                            class="icon icon_color-stopwatch"
+                            title="color-stopwatch"
+                          />
+                          <span
+                            data-qa="flight-duration-minutes"
+                          >
+                            02:00
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="itinerary-vertical"
+              >
+                <div
+                  class="itinerary-vertical--row"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                6:30
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        DAL
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Dallas (Love Field)
+                        , 
+                        TX
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical--row"
+                >
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none"
+                  >
+                    <span
+                      class="stop-circle"
+                    >
+                       
+                    </span>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <span
+                      class="stops-detail stops-detail--non-stop"
+                    >
+                      <span>
+                        SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_NON_STOP
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical--row itinerary-vertical--arrival"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none-line"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        ARRIVES
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                9:30
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        ATL
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Atlanta
+                        , 
+                        GA
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pricing-summary--group"
+            >
+              <div
+                class="passenger-price"
+              >
+                <div
+                  class="passenger-price--info"
+                >
+                  <span
+                    class="passenger-price--number-and-type"
+                    data-qa="passenger-price-passengers--number-and-type"
+                  >
+                    1
+                     
+                    Adult
+                  </span>
+                  <a
+                    class="passenger-price--fare-type"
+                    data-qa="passenger-price--fare-type"
+                    href="https://mobile.southwest.com/fare-rules/wanna-get-away"
+                    target="_blank"
+                  >
+                    WGA
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ReservationDetail render should render correctly 1`] = `
+<div>
+  <div
+    class="trip-details-page"
+    data-qa="trip details page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      />
+      <div />
+    </div>
+    <div
+      class="custom-container"
+    >
+      <div
+        class="reaccom-banner"
+      >
+        <div
+          class="reaccom-banner-container flex"
+        >
+          <div
+            class="reaccom-banner-container--alert"
+          >
+            <i
+              class="reaccom-banner-container--alert-icon icon icon_plus-icon"
+            >
+              !
+            </i>
+          </div>
+          <b
+            class="reaccom-banner-container--header"
+          >
+            reaccomHeader
+          </b>
+        </div>
+        <p
+          class="reaccom-banner--body py2"
+        >
+          reaccomBody
+        </p>
+      </div>
+      <div
+        class="trip-details-boarding-info"
+      >
+        <div
+          class="boarding-info"
+        >
+          <div
+            class="boarding-info_time reservation-details--card boarding-info--divider"
+          >
+            <div
+              class="flex flex-main-between"
+            >
+              <div
+                class="trip-date-dest-city--city-name"
+              >
+                <span
+                  class="trip-date-dest-city--trip-date"
+                />
+                <span
+                  class="trip-date-dest-city--destination-airport pblue"
+                />
+              </div>
+              <div>
+                <div
+                  class="confirmation-label"
+                  data-qa="confirmation-label"
+                >
+                  SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+                </div>
+                <div
+                  class="xlarge passenger-record-locator green align-right"
+                  data-qa="passenger-record-locator"
+                >
+                  K9VJKX
+                </div>
+              </div>
+            </div>
+            <div
+              class="airport-info--detail"
+            >
+              
+               to
+              <br />
+              
+            </div>
+            <div
+              class="boarding-info--change-cancel-container"
+              data-qa="boarding-info-manage-buttons"
+            >
+              <button
+                class="boarding-info--same-day-change-buttons button button--fluid large button--blue"
+                type="button"
+              >
+                Same-day change and standby
+              </button>
+            </div>
+            <div
+              class="boarding-info--change-cancel-container"
+              data-qa="boarding-info-manage-buttons"
+            >
+              <button
+                class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+                type="button"
+              >
+                VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+              </button>
+              <button
+                class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+                type="button"
+              >
+                VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+              </button>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div
+                class="medium gray5 mt4"
+                data-qa="passenger-label"
+              >
+                SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+              </div>
+              <div
+                class="pt2"
+              >
+                <div
+                  class="passenger-reservation-info--passenger-name"
+                >
+                  <div
+                    class="flex flex-cross-center flex-wrap"
+                  >
+                    <div
+                      class="flex flex11 flex-column overflow-hidden"
+                    >
+                      <div
+                        class="overflow-hidden ellipsis"
+                      >
+                        <span
+                          class="xlarge block nowrap overflow-hidden ellipsis"
+                          data-qa="userName"
+                        >
+                          AMBER AWESOME
+                        </span>
+                        <div
+                          class="my1"
+                        >
+                          <span
+                            class="early-bird-wrap"
+                          >
+                            <i
+                              class="icon icon_early-bird"
+                              data-qa="earlyBirdIcon"
+                            />
+                             
+                            <span
+                              class="early-bird-text"
+                            >
+                               
+                              SHARED__EARLY_BIRD
+                               
+                            </span>
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="gray5 mr4"
+                            data-qa="passenger-rapid-rewards"
+                          >
+                            328329329
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="pdkblue mr4"
+                            data-qa="update-travel-information"
+                          >
+                            SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <i
+                      class="xxlarge sltblue flex1 icon icon_pencil"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="mt4 button button--fluid button--yellow"
+              title="SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS
+            </button>
+          </div>
+          <div>
+            <div>
+              <div
+                class="pt2"
+              >
+                <div
+                  class="passenger-reservation-info--passenger-name"
+                >
+                  <div
+                    class="flex flex-cross-center flex-wrap"
+                  >
+                    <div
+                      class="flex flex11 flex-column overflow-hidden"
+                    >
+                      <div
+                        class="overflow-hidden ellipsis"
+                      >
+                        <span
+                          class="xlarge block nowrap overflow-hidden ellipsis"
+                          data-qa="userName"
+                        >
+                          AMBER AWESOME
+                        </span>
+                        <div
+                          class="my1"
+                        >
+                          <span
+                            class="early-bird-wrap"
+                          >
+                            <i
+                              class="icon icon_early-bird"
+                              data-qa="earlyBirdIcon"
+                            />
+                             
+                            <span
+                              class="early-bird-text"
+                            >
+                               
+                              SHARED__EARLY_BIRD
+                               
+                            </span>
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="gray5 mr4"
+                            data-qa="passenger-rapid-rewards"
+                          >
+                            328329329
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="pdkblue mr4"
+                            data-qa="update-travel-information"
+                          >
+                            SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <i
+                      class="xxlarge sltblue flex1 icon icon_pencil"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="trip-details--flight-status"
+      >
+        <div
+          class="flight-summary-card rd3 overflow-hidden"
+        >
+          <div
+            class="flight-summary-header flight-summary-departing"
+          >
+            <span
+              class="flight-summary-title"
+            >
+              Departing
+            </span>
+            <span
+              class="flight-day"
+            >
+              Wed, Nov 1, 2017
+            </span>
+          </div>
+          <div
+            class="flight-summary-content"
+          >
+            <div
+              class="pricing-summary--group"
+            >
+              <div>
+                <div
+                  class="flight-info"
+                >
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-number-list flex-row"
+                        >
+                          <span
+                            class="flight-number"
+                          >
+                            <span>
+                              1504
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        TOTAL TRAVEL TIME
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-duration"
+                        >
+                          <i
+                            class="icon icon_color-stopwatch"
+                            title="color-stopwatch"
+                          />
+                          <span
+                            data-qa="flight-duration-minutes"
+                          >
+                            02:00
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="itinerary-vertical"
+              >
+                <div
+                  class="itinerary-vertical--row"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                6:30
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        DAL
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Dallas (Love Field)
+                        , 
+                        TX
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical--row"
+                >
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none"
+                  >
+                    <span
+                      class="stop-circle"
+                    >
+                       
+                    </span>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <span
+                      class="stops-detail stops-detail--non-stop"
+                    >
+                      <span>
+                        SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_NON_STOP
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical--row itinerary-vertical--arrival"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none-line"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        ARRIVES
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                9:30
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        ATL
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Atlanta
+                        , 
+                        GA
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pricing-summary--group"
+            >
+              <div
+                class="passenger-price"
+              >
+                <div
+                  class="passenger-price--info"
+                >
+                  <span
+                    class="passenger-price--number-and-type"
+                    data-qa="passenger-price-passengers--number-and-type"
+                  >
+                    1
+                     
+                    Adult
+                  </span>
+                  <a
+                    class="passenger-price--fare-type"
+                    data-qa="passenger-price--fare-type"
+                    href="https://mobile.southwest.com/fare-rules/wanna-get-away"
+                    target="_blank"
+                  >
+                    WGA
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ReservationDetail upsell details should render upsellDetails if it is provided 1`] = `
+<div>
+  <div
+    class="trip-details-page"
+    data-qa="trip details page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        DAL - ATL
+      </div>
+      <div />
+    </div>
+    <div
+      class="custom-container"
+    >
+      <div
+        class="trip-details-boarding-info"
+      >
+        <div
+          class="boarding-info"
+        >
+          <div
+            class="boarding-info_time reservation-details--card boarding-info--divider"
+          >
+            <div
+              class="flex flex-main-between"
+            >
+              <div
+                class="trip-date-dest-city--city-name"
+              >
+                <span
+                  class="trip-date-dest-city--trip-date"
+                />
+                <span
+                  class="trip-date-dest-city--destination-airport pblue"
+                >
+                  Atlanta
+                </span>
+              </div>
+              <div>
+                <div
+                  class="confirmation-label"
+                  data-qa="confirmation-label"
+                >
+                  SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+                </div>
+                <div
+                  class="xlarge passenger-record-locator green align-right"
+                  data-qa="passenger-record-locator"
+                >
+                  KLV394
+                </div>
+              </div>
+            </div>
+            <div
+              class="airport-info--detail"
+            >
+              TX
+               to
+              <br />
+              GA
+            </div>
+            <div
+              class="boarding-info--change-cancel-container"
+              data-qa="boarding-info-manage-buttons"
+            >
+              <button
+                class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+                type="button"
+              >
+                VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+              </button>
+              <button
+                class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+                type="button"
+              >
+                VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+              </button>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div
+                class="medium gray5 mt4"
+                data-qa="passenger-label"
+              >
+                SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+              </div>
+              <div
+                class="pt2"
+              >
+                <div
+                  class="passenger-reservation-info--passenger-name"
+                >
+                  <div
+                    class="flex flex-cross-center flex-wrap"
+                  >
+                    <div
+                      class="flex flex11 flex-column overflow-hidden"
+                    >
+                      <div
+                        class="overflow-hidden ellipsis"
+                      >
+                        <span
+                          class="xlarge block nowrap overflow-hidden ellipsis"
+                          data-qa="userName"
+                        >
+                          Audrey Hepburn
+                        </span>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="gray5 mr4"
+                            data-qa="passenger-rapid-rewards"
+                          >
+                            123456789
+                          </span>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <span
+                            class="pdkblue mr4"
+                            data-qa="update-travel-information"
+                          >
+                            SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <i
+                      class="xxlarge sltblue flex1 icon icon_pencil"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="mt4 button button--fluid button--yellow"
+              title="SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="trip-details-page--upgrade-benefits"
+      >
+        <div
+          class="upsell-details"
+        >
+          <div
+            class="upsell-details--header "
+          >
+            <img
+              alt=""
+              class="upsell-details--header-image"
+              src="/content/mkt/images/bestseats.png"
+            />
+            <div>
+              <h2
+                class="upsell-details--header-title  "
+              >
+                Upgrade your flights to Business Select®
+              </h2>
+              <div
+                class="upsell-details--header-offer-text"
+              >
+                to unlock these great benefits
+              </div>
+            </div>
+          </div>
+          <div
+            class="upsell-details--content"
+          >
+            <ul
+              class="features-list"
+            >
+              <li
+                class="icon icon_check features-list--item"
+              >
+                <span
+                  class="features-list--text"
+                >
+                  A1-A15 Priority Boarding
+                </span>
+              </li>
+              <li
+                class="icon icon_check features-list--item"
+              >
+                <span
+                  class="features-list--text"
+                >
+                  Fly By® priority and security lanes
+                </span>
+              </li>
+              <li
+                class="icon icon_check features-list--item"
+              >
+                <span
+                  class="features-list--text"
+                >
+                  A complimentary premium drink
+                </span>
+              </li>
+              <li
+                class="icon icon_check features-list--item"
+              >
+                <span
+                  class="features-list--text"
+                >
+                  12 Rapid Rewards® points per Dollar
+                </span>
+              </li>
+              <li
+                class="icon icon_check features-list--item"
+              >
+                <span
+                  class="features-list--text"
+                >
+                  Refundable flights
+                </span>
+              </li>
+              <li
+                class="icon icon_check features-list--item"
+              >
+                <span
+                  class="features-list--text"
+                >
+                  Same-day changes
+                </span>
+              </li>
+            </ul>
+            <button
+              class="button button--fluid large button--yellow"
+              type="button"
+            >
+              VIEW_RESERVATION__DETAIL_PAGE__UPGRADE_TEXT
+            </button>
+          </div>
+        </div>
+        <span
+          class="trip-details-page--fare-rules"
+        >
+          *Please read 
+          <a
+            href="https://mobile.southwest.com/fare-rules"
+            target="_blank"
+          >
+            fare rules
+          </a>
+           associated with purchase.
+        </span>
+      </div>
+      <div
+        class="trip-details--flight-status"
+      >
+        <div
+          class="flight-summary-card rd3 overflow-hidden"
+        >
+          <div
+            class="flight-summary-header flight-summary-departing"
+          >
+            <span
+              class="flight-summary-title"
+            >
+              Departing
+            </span>
+            <span
+              class="flight-day"
+            >
+              Tue, Jul 25, 2017
+            </span>
+          </div>
+          <div
+            class="flight-summary-content"
+          >
+            <div
+              class="pricing-summary--group"
+            >
+              <div>
+                <div
+                  class="flight-info"
+                >
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-number-list flex-row"
+                        >
+                          <span
+                            class="flight-number"
+                          >
+                            <span>
+                              233
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        TOTAL TRAVEL TIME
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-duration"
+                        >
+                          <i
+                            class="icon icon_color-stopwatch"
+                            title="color-stopwatch"
+                          />
+                          <span
+                            data-qa="flight-duration-minutes"
+                          >
+                            1h 55m
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="itinerary-vertical"
+              >
+                <div
+                  class="itinerary-vertical--row"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                7:35
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        DAL
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Dallas (Love)
+                        , 
+                        TX
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical--row"
+                >
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none"
+                  >
+                    <span
+                      class="stop-circle"
+                    >
+                       
+                    </span>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <span
+                      class="stops-detail stops-detail--non-stop"
+                    >
+                      <span>
+                        SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_NON_STOP
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical--row itinerary-vertical--arrival"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none-line"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        ARRIVES
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                12:30
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                PM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        ATL
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Atlanta
+                        , 
+                        GA
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pricing-summary--group"
+            >
+              <div
+                class="passenger-price"
+              >
+                <div
+                  class="passenger-price--info"
+                >
+                  <span
+                    class="passenger-price--number-and-type"
+                    data-qa="passenger-price-passengers--number-and-type"
+                  >
+                    1
+                     
+                    Passenger
+                  </span>
+                  <a
+                    class="passenger-price--fare-type"
+                    data-qa="passenger-price--fare-type"
+                    href="https://mobile.southwest.com/fare-rules/anytime"
+                    target="_blank"
+                  >
+                    Anytime
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

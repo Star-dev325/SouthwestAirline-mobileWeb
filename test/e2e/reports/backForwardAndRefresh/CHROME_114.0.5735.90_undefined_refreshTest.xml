@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="9">
+
+  <testsuite name="backForwardAndRefresh.refreshTest"
+    errors="0" failures="1" hostname="" id="" package="backForwardAndRefresh" skipped="2"
+    tests="9" time="147.9" timestamp="Fri, 15 Dec 2023 01:22:19 GMT">
+  
+    <testcase name="Redirect to beginning of flow when accessing a page out of flow" classname="backForwardAndRefresh.refreshTest" time="25.66" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click browser back" classname="backForwardAndRefresh.refreshTest" time="1.965" assertions="0">
+    </testcase>
+  
+    <testcase name="Should not be redirect to payment page" classname="backForwardAndRefresh.refreshTest" time="1.294" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Redirect to login page when user is not login and visit my account flow directly" classname="backForwardAndRefresh.refreshTest" time="22.00" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Show popup when there is an error occurred but not caught while render" classname="backForwardAndRefresh.refreshTest" time="32.24" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="redirect to home page when user enter a invalid url" classname="backForwardAndRefresh.refreshTest" time="24.96" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="redirect to check-in retrieve page when refresh on check-in reservation detail page" classname="backForwardAndRefresh.refreshTest" time="39.79" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;.reservation-retrieval-form&gt; to be present for 10000 milliseconds.">    at Object.&lt;anonymous&gt; (/Users/x311032/spa-mobile-web/test/e2e/tests/backForwardAndRefresh/refreshTest.js:61:12)
+    at HttpRequest.EventEmitter.emit (domain.js:506:15)
+    at HttpRequest.EventEmitter.emit (domain.js:506:15)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="click browser back after refresh" classname="backForwardAndRefresh.refreshTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="User should not allow to go anywhere by click browser and forward after refresh" classname="backForwardAndRefresh.refreshTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

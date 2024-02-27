@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Offers Page on render should render with default props 1`] = `
+<div
+  className="offers"
+>
+  <p
+    className="offers--no-offer-message offers--no-offer-text"
+  >
+    No offers to show right now.
+  </p>
+  <p
+    className="offers--no-offer-text"
+  >
+    Please check back soon.
+  </p>
+</div>
+`;
+
+exports[`Offers Page on render should render with placements and templateData 1`] = `
+<div
+  className="offers"
+>
+  <Component
+    additionalTemplateData={
+      Object {
+        "key": "value",
+      }
+    }
+    contentBlockId=""
+    data-qa="offers-page-placement"
+    displayType="block-placement"
+    imageForegroundAltText=""
+    isChaseCombo={false}
+    isChasePlacement={false}
+    isChasePrequal={false}
+    key="0"
+    linkType="webview"
+    observerCallback={[Function]}
+    pageId="offers-page"
+    promoImageBackground="/content/mkt/images/landing_pages/__tests__/chase-placement.png"
+    shouldObserveViewPort={false}
+    target="https://xldadm01:4700/?app=mWeb"
+    viewPortThreshold={0.5}
+  />
+  <Component
+    additionalTemplateData={
+      Object {
+        "key": "value",
+      }
+    }
+    contentBlockId=""
+    data-qa="offers-page-placement"
+    displayType="block-placement"
+    imageForegroundAltText=""
+    isChaseCombo={false}
+    isChasePlacement={false}
+    isChasePrequal={false}
+    key="1"
+    linkType="webview"
+    observerCallback={[Function]}
+    pageId="offers-page"
+    promoImageBackground="/content/mkt/images/landing_pages/__tests__/chase-placement.png"
+    shouldObserveViewPort={false}
+    target="https://xldadm01:4700/?app=mWeb"
+    viewPortThreshold={0.5}
+  />
+  <Component
+    additionalTemplateData={
+      Object {
+        "key": "value",
+      }
+    }
+    contentBlockId=""
+    data-qa="offers-page-placement"
+    displayType="block-placement"
+    imageForegroundAltText=""
+    isChaseCombo={false}
+    isChasePlacement={false}
+    isChasePrequal={false}
+    key="2"
+    linkType="webview"
+    observerCallback={[Function]}
+    pageId="offers-page"
+    promoImageBackground="/content/mkt/images/landing_pages/__tests__/chase-placement.png"
+    shouldObserveViewPort={false}
+    target="https://xldadm01:4700/?app=mWeb"
+    viewPortThreshold={0.5}
+  />
+</div>
+`;

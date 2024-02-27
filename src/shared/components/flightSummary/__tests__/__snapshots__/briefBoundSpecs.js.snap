@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BriefBound Component next day should not show next day indicator when isNextDayArrival is false 1`] = `null`;
+
+exports[`BriefBound Component next day should show next day indicator when isNextDayArrival is true 1`] = `
+<div
+  className="multi-day-indicator multi-day-indicator--nextday-green"
+  data-qa="next-day-indicator"
+>
+  <Icon
+    className="multi-day-indicator--icon multi-day-indicator--icon-small"
+    type="next-day-indicator"
+  >
+    <i
+      className="multi-day-indicator--icon multi-day-indicator--icon-small icon icon_next-day-indicator"
+    />
+  </Icon>
+  <p
+    className="multi-day-indicator--font-small"
+  >
+    Next Day
+  </p>
+</div>
+`;
+
+exports[`BriefBound Component overnight should not show overnight indicator when isOvernight is false 1`] = `null`;
+
+exports[`BriefBound Component overnight should show overnight indicator when isOvernight is true 1`] = `
+<div
+  className="multi-day-indicator multi-day-indicator--overnight-red"
+  data-qa="overnight-indicator"
+>
+  <Icon
+    className="multi-day-indicator--icon multi-day-indicator--icon-small"
+    type="next-day-indicator"
+  >
+    <i
+      className="multi-day-indicator--icon multi-day-indicator--icon-small icon icon_next-day-indicator"
+    />
+  </Icon>
+  <p
+    className="multi-day-indicator--font-small"
+  >
+    Overnight
+  </p>
+</div>
+`;
+
+exports[`BriefBound Component overnight without stops should not show overnight indicator when isOvernight is false 1`] = `null`;
+
+exports[`BriefBound Component overnight without stops should show overnight indicator when isOvernight is true 1`] = `
+<div
+  className="multi-day-indicator multi-day-indicator--overnight-red"
+  data-qa="overnight-indicator"
+>
+  <Icon
+    className="multi-day-indicator--icon multi-day-indicator--icon-small"
+    type="next-day-indicator"
+  >
+    <i
+      className="multi-day-indicator--icon multi-day-indicator--icon-small icon icon_next-day-indicator"
+    />
+  </Icon>
+  <p
+    className="multi-day-indicator--font-small"
+  >
+    Overnight
+  </p>
+</div>
+`;

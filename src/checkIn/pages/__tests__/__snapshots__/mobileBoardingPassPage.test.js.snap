@@ -1,0 +1,405 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mobileBoardingPass when the MBP response is received from the API should have solid background if documentType is SECURITY_DOCUMENT 1`] = `
+<div>
+  <div>
+    <div
+      class="carousel-container"
+      style="visibility: visible;"
+    >
+      <div
+        class="carousel-wrapper"
+        style="width: 0px;"
+      >
+        <div
+          class="carousel-child"
+          data-index="0"
+          style="width: 0px; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
+        >
+          <div
+            class="mobile-boarding-pass"
+          >
+            <div
+              class="mbp"
+            >
+              <div
+                class="mbp-security-header"
+              >
+                <p
+                  class="mbp-security-title yellow"
+                >
+                  CHECK_IN__MOBILE_BOARDING_PASS__SECURITY_DOCUMENT
+                </p>
+                <p
+                  class="white"
+                >
+                  CHECK_IN__MOBILE_BOARDING_PASS__PROCEED_TO_GATE
+                </p>
+              </div>
+              <div
+                class="mbp-maininfo"
+              >
+                <div
+                  class="mbp-flex-col"
+                >
+                  <div
+                    class="left"
+                  >
+                    <p
+                      class="mbp-label white"
+                    >
+                      CHECK_IN__MOBILE_BOARDING_PASS__GATE_NO_LABEL
+                    </p>
+                    <p
+                      class="mbp-info yellow large-font "
+                      id="gate"
+                    >
+                      14
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="mbp-flex-col"
+                >
+                  <div>
+                    <p
+                      class="mbp-label white"
+                    >
+                      CHECK_IN__MOBILE_BOARDING_PASS__GROUP_NO_LABEL
+                    </p>
+                    <p
+                      class="mbp-info yellow large-font "
+                      id="group"
+                    >
+                      A
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="mbp-flex-col"
+                >
+                  <div
+                    class="right"
+                  >
+                    <p
+                      class="mbp-label white"
+                    >
+                      CHECK_IN__MOBILE_BOARDING_PASS__POSITION
+                    </p>
+                    <p
+                      class="mbp-info yellow  large-font "
+                      id="position"
+                    >
+                      16
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="mbp-barcode-reservation-assets mt4"
+              >
+                <img
+                  alt="TSA PreCheck"
+                  class="mbp-barcode-reservation-assets--icon"
+                  src="/content/mkt/images/landing_pages/boardingPass/tsa.svg"
+                />
+                <img
+                  alt="A-List"
+                  class="mbp-barcode-reservation-assets--icon"
+                  src="/content/mkt/images/landing_pages/boardingPass/al.svg"
+                />
+              </div>
+              <div
+                class="mbp-barcode-block"
+              >
+                <div>
+                  <img
+                    class="mbp-barcode-image"
+                    src="/api/mobile-air-operations/v1/mobile-air-operations/feature/check-in/barcode?barcode=M1WHEE%2FLEE++++++++++++EO4XCTX+DALMCIWN..."
+                  />
+                </div>
+              </div>
+              <div
+                class="mbp-subinfo"
+              >
+                <div>
+                  <p
+                    class="mbp-label white"
+                  >
+                    CHECK_IN__MOBILE_BOARDING_PASS__BOARDING_TIME
+                  </p>
+                  <p
+                    class="mbp-info yellow left"
+                    id="boardingTime"
+                  >
+                    7:00 AM
+                  </p>
+                </div>
+                <div>
+                  <p
+                    class="mbp-label white"
+                  >
+                    CHECK_IN__MOBILE_BOARDING_PASS__CONFIRMATION
+                  </p>
+                  <p
+                    class="mbp-info yellow right"
+                    id="confirmation"
+                  >
+                    ABC123
+                  </p>
+                </div>
+              </div>
+              <div
+                class="mbp-subinfo"
+              >
+                <div>
+                  <p
+                    class="mbp-label white"
+                  >
+                    CHECK_IN__MOBILE_BOARDING_PASS__FLIGHT
+                  </p>
+                  <p
+                    class="mbp-info yellow left"
+                    id="flight"
+                  >
+                    341
+                  </p>
+                </div>
+              </div>
+              <div
+                class="mbp-subinfo"
+              >
+                <div>
+                  <p
+                    class="mbp-label-small sltblue"
+                  >
+                    CHECK_IN__MOBILE_BOARDING_PASS__PASSENGER
+                  </p>
+                  <p
+                    class="mbp-info-white white align-left left"
+                    id="check_in__mobile_boarding_pass__passenger"
+                  >
+                    First Middle Last
+                  </p>
+                </div>
+              </div>
+              <div
+                class="mbp-subinfo"
+              >
+                <div>
+                  <p
+                    class="mbp-label-small sltblue"
+                  >
+                    CHECK_IN__MOBILE_BOARDING_PASS__DEPARTURE_TIME
+                  </p>
+                  <p
+                    class="mbp-info-white white align-left left"
+                    id="check_in__mobile_boarding_pass__departure_time"
+                  >
+                    7:30 AM (was 6:30 AM)
+                  </p>
+                </div>
+              </div>
+              <div
+                class="mbp-subinfo"
+              >
+                <div>
+                  <p
+                    class="mbp-label-small sltblue"
+                  >
+                    CHECK_IN__MOBILE_BOARDING_PASS__DEPARTS
+                  </p>
+                  <p
+                    class="mbp-info-white white align-left left bold"
+                  >
+                    DAL
+                    <span
+                      class="regular"
+                    >
+                       - 
+                    </span>
+                  </p>
+                  <p
+                    class="mbp-info-white white align-left left"
+                    id="check_in__mobile_boarding_pass__departs"
+                  >
+                    Dallas (Love Field)
+                  </p>
+                </div>
+              </div>
+              <div
+                class="mbp-subinfo"
+              >
+                <div>
+                  <p
+                    class="mbp-label-small sltblue"
+                  >
+                    CHECK_IN__MOBILE_BOARDING_PASS__ARRIVES
+                  </p>
+                  <p
+                    class="mbp-info-white white align-left left bold"
+                  >
+                    BOS
+                    <span
+                      class="regular"
+                    >
+                       - 
+                    </span>
+                  </p>
+                  <p
+                    class="mbp-info-white white align-left left"
+                    id="check_in__mobile_boarding_pass__arrives"
+                  >
+                    Boston Logan
+                  </p>
+                </div>
+              </div>
+              <div
+                class="mbp-subinfo"
+              >
+                <div>
+                  <p
+                    class="mbp-label-small sltblue"
+                  >
+                    CHECK_IN__MOBILE_BOARDING_PASS__FLIGHT_DATE
+                  </p>
+                  <p
+                    class="mbp-info-white white align-left left"
+                    id="check_in__mobile_boarding_pass__flight_date"
+                  >
+                    Fri, Jul 13, 2018
+                  </p>
+                </div>
+              </div>
+              <div
+                class="mbp-subinfo"
+              >
+                <div>
+                  <p
+                    class="mbp-label-small sltblue"
+                  >
+                    CHECK_IN__MOBILE_BOARDING_PASS__FARE_TYPE
+                  </p>
+                  <p
+                    class="mbp-info-white white align-left left"
+                    id="check_in__mobile_boarding_pass__fare_type"
+                  >
+                    Business Select
+                  </p>
+                </div>
+              </div>
+              <div
+                class="mbp-subinfo"
+              >
+                <div>
+                  <p
+                    class="mbp-label-small sltblue"
+                  >
+                    CHECK_IN__MOBILE_BOARDING_PASS__RAPID_REWARDS
+                  </p>
+                  <p
+                    class="mbp-info-white white align-left left"
+                    id="check_in__mobile_boarding_pass__rapid_rewards"
+                  >
+                    0004443333
+                  </p>
+                </div>
+              </div>
+              <div
+                class="mbp-subinfo"
+              >
+                <div>
+                  <p
+                    class="mbp-label-small sltblue"
+                  >
+                    CHECK_IN__MOBILE_BOARDING_PASS__STATUS
+                  </p>
+                  <p
+                    class="mbp-info-white white align-left left"
+                    id="check_in__mobile_boarding_pass__status"
+                  >
+                    A-List
+                  </p>
+                </div>
+              </div>
+              <div
+                class="mbp-subinfo"
+              >
+                <div>
+                  <p
+                    class="mbp-label-small sltblue"
+                  >
+                    CHECK_IN__MOBILE_BOARDING_PASS__SPECIAL_ASSISTANCE
+                  </p>
+                  <p
+                    class="mbp-info-white white align-left left"
+                    id="check_in__mobile_boarding_pass__special_assistance"
+                  >
+                    INFT
+                  </p>
+                </div>
+              </div>
+              <div
+                class="mbp-subinfo"
+              >
+                <div>
+                  <p
+                    class="mbp-label-small sltblue"
+                  >
+                    CHECK_IN__MOBILE_BOARDING_PASS__EARLYBIRD_CHECK_IN
+                  </p>
+                  <p
+                    class="mbp-info-white white align-left left"
+                    id="check_in__mobile_boarding_pass__earlybird_check_in"
+                  >
+                    A-group boarding may not be applied if fare was purchased within 24 hours of departure time
+                  </p>
+                </div>
+              </div>
+              <div
+                class="mbp-subinfo"
+              >
+                <div>
+                  <p
+                    class="mbp-label-small sltblue"
+                  >
+                    CHECK_IN__MOBILE_BOARDING_PASS__PRIORITY_EXPRESS_LANES
+                  </p>
+                  <p
+                    class="mbp-info-white white align-left left"
+                    id="check_in__mobile_boarding_pass__priority_express_lanes"
+                  >
+                    No
+                  </p>
+                </div>
+              </div>
+              <div
+                class="mbp-subinfo"
+              >
+                <div>
+                  <p
+                    class="mbp-label-small sltblue"
+                  >
+                    CHECK_IN__MOBILE_BOARDING_PASS__PRIORITY_BOARDING
+                  </p>
+                  <p
+                    class="mbp-info-white white align-left left"
+                    id="check_in__mobile_boarding_pass__priority_boarding"
+                  >
+                    Yes
+                  </p>
+                </div>
+              </div>
+              <div
+                class="white"
+              >
+                CHECK_IN__MOBILE_BOARDING_PASS__CHECK_MONITORS
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

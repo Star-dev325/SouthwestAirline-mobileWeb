@@ -1,0 +1,9 @@
+.checkin-documents {
+  @include bgwhite;
+  @include rd2;
+}
+
+.view-boarding-pass-btn,
+.health-document-btn {
+  margin-top: 1.2rem;
+}

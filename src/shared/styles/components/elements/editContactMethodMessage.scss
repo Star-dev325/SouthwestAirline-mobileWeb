@@ -1,0 +1,10 @@
+.contact-info-messages {
+  @include pl5;
+  @include pr5;
+}
+
+.contact-info-messages--link {
+  @include align-right;
+  @include mt6;
+  @include sltblue;
+}

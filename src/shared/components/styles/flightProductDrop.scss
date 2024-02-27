@@ -1,0 +1,187 @@
+.flight-product-drop {
+  @include bgwhite;
+
+  &--body {
+    @include px6;
+    @include py5;
+    display: grid;
+    grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+
+    &-description {
+      @include py4;
+      @include medium;
+      @include gray5;
+    }
+  }
+
+  &--divider {
+    @include bdb;
+    @include ml0;
+  }
+
+  &--header {
+    &_standby {
+      grid-column: 1/1;
+      grid-row: 1/1;
+    }
+
+    &_change {
+      grid-column: 2/2;
+      grid-row: 1/1;
+    }
+
+    &_label {
+      @include bold;
+      @include pdkblue;
+      @include larger;
+    }
+
+    &_description {
+      @include gray5;
+      @include medium;
+      @include mt3;
+    }
+
+    &_content {
+      @include bgwhite;
+      @include bold;
+      @include center;
+      @include flex;
+      @include flex-column;
+      @include flex-cross-center;
+      @include flex-main-center;
+      @include mb5;
+      @include mt5;
+      @include p2;
+      @include pblue;
+      @include rd3;
+      @include bd;
+      min-height: 6rem;
+      max-width: 10rem;
+
+      &-standby {
+        grid-column: 1/1;
+        grid-row: 2/2;
+      }
+
+      &-change {
+        grid-column: 2/2;
+        grid-row: 2/2;
+      }
+
+      &-price-difference {
+        @include xxlarge;
+      }
+
+      &-points-tax {
+        @include medium;
+      }
+    }
+  }
+
+  &--button-available {
+    @include bgwhite;
+    @include pblue;
+    border: 1px solid lighten($pblue, 8%);
+  }
+
+  &--standby-text {
+    @include xxlarge;
+  }
+
+  &--money-sign {
+    @include large;
+  }
+
+  &--points-sign {
+    @include small;
+  }
+
+  &--standby-subtext {
+    @include gray5;
+    @include small;
+  }
+
+  &--unavailable-text {
+    @include gray5;
+    @include larger;
+    @include regular;
+  }
+
+  &--footer {
+    @include flex;
+    @include flex-column;
+    @include mb2;
+
+    &_standby {
+      grid-column: 1/1;
+      grid-row: 3/3;
+    }
+
+    &_change {
+      grid-column: 2/2;
+      grid-row: 3/3;
+    }
+
+    &_label-details {
+      @include medium;
+      @include pdkblue;
+    }
+
+    &_label-text {
+      @include bold;
+      @include pdkblue;
+      @include mb2;
+      @include medium;
+    }
+  }
+
+  &--flight-card-details {
+    @include flex;
+    @include mb2;
+    @include mt6;
+
+    &_label-details {
+      @include medium;
+      @include pdkblue;
+    }
+
+    &_label-text {
+      @include bold;
+      @include gray5;
+      @include mb2;
+      @include medium;
+    }
+  }
+
+  &--standby-only-body {
+    @include px6;
+    @include py6;
+
+    &_button {
+      &-unavailable-text {
+        @include bd;
+        @include bold;
+        @include center;
+        @include fullwidth;
+        @include gray5;
+        @include large;
+        @include p6;
+        min-height: 6rem;
+      }
+    }
+
+    &_description {
+      @include gray5;
+      @include medium;
+      @include py4;
+    }
+
+    &_title {
+      @include bold;
+      @include larger;
+    }
+  }
+}

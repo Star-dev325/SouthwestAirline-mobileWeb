@@ -1,0 +1,39 @@
+.list-group-container {
+  @include bgwhite;
+
+  .list-group-header {
+    @include pt1;
+    @include pb1;
+    @include pl5;
+    @include bggray1;
+    @include gray5;
+    @include xlarge;
+    @include bold;
+  }
+
+  ul.list-group {
+    @include pl5;
+    @include m0;
+    @include no-bullets;
+  }
+
+  li {
+    -webkit-tap-highlight-color: $airport-list-tap;
+    font-size: 1.5rem;
+    padding: 1.3rem 0;
+
+    .item-label.disabled {
+      @include gray4;
+      font-style: italic;
+    }
+
+    &:active {
+      background-color: $airport-list-tap;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    &.italics {
+      @include italic;
+    }
+  }
+}

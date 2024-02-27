@@ -1,0 +1,37 @@
+.flight-abstraction--table {
+  @include py4;
+
+  &:last-child {
+    border-bottom-width: 0;
+  }
+}
+
+.flight--icon-airplane-wrapper {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.flight-abstraction--flight-number {
+  min-width: 20%;
+}
+
+.checkbox-button_checked .flight--icon-airplane {
+  @include sltblue;
+}
+
+.flight-abstraction--message {
+  @include p5;
+  @include bggray2;
+  @include gray5;
+  @include medium;
+  line-height: 1.4rem;
+
+  a {
+    @include pblue;
+  }
+}
+
+.flight-abstraction--bound {
+  @include bdb;
+  @include bdgray2;
+}

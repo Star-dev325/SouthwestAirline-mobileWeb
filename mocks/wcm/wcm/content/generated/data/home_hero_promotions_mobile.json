@@ -1,0 +1,49 @@
+{
+  "revision": "20151105153713236",
+  "hero_promotions": [
+    {
+      "id": "hero_promo01",
+      "position": 2,
+      "promo_image_fg": "/content/mkt/images/hero_shots/750kayakDudeFG.png",
+      "image_fg_alt_text": "Book Air Travel",
+      "promo_image_bg": "/content/mkt/images/hero_shots/750NativeAppsBG_kayakdude.jpg",
+      "link_type": "app",
+      "target": "airbooking"
+    },
+    {
+      "id": "hero_promo02",
+      "position": 3,
+      "promo_image_fg": "/content/mkt/images/hero_shots/750MWHero_iphone6PlusFG.png",
+      "image_fg_alt_text": "Book a Car",
+      "promo_image_bg": "/content/mkt/images/hero_shots/750NativeAppsBG_kayakdude.jpg",
+      "link_type": "webview",
+      "target": "http://www.southwestvacations.com/"
+    },
+    {
+      "id": "hero_promo03",
+      "position": 1,
+      "promo_image_fg": "/content/mkt/images/hero_shots/750kayakDudeFG.png",
+      "image_fg_alt_text": "EarlyBird Check-In®",
+      "promo_image_bg": "/content/mkt/images/hero_shots/750NativeAppsBG_couple.jpg",
+      "link_type": "browser",
+      "target": "http://www.bing.com/images/search?q=kayaking&qs=n&form=QBILPG&pq=kayaking&sc=8-6&sp=-1&sk="
+    },
+    {
+      "id": "hero_promo04",
+      "position": 4,
+      "promo_image_fg": "/content/mkt/images/hero_shots/750kayakDudeFG.png",
+      "image_fg_alt_text": "..",
+      "promo_image_bg": "/content/mkt/images/hero_shots/750NativeAppsBG_couple.jpg",
+      "link_type": "none"
+    },
+    {
+      "id": "hero_promo05",
+      "position": 5,
+      "promo_image_fg": "/content/mkt/images/hero_shots/app_hero_p2_chase_50k_overlay_170110.png",
+      "image_fg_alt_text": "..",
+      "promo_image_bg": "/content/mkt/images/hero_shots/app_hero_p2_chase_50k_bkgnd_170110.jpg",
+      "link_type": "webview",
+      "target": "https://xldadm01:4700/?REF=MWEB"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "revision": "20151020123341875",
+  "rr_home_banner_promotions_mobile": [
+    {
+      "id": "promo01",
+      "title": "About Rapid Rewards®",
+      "description": "We make it fast and easy to earn reward flights and more!",
+      "promotion-image": "/content/mkt/images/promotions/AboutRR_Icon_FPO.png",
+      "alt": "About Rapid Rewards",
+      "link_type": "app",
+      "target": "rrabout"
+    },
+    {
+      "id": "promo02",
+      "title": "Enroll Today",
+      "description": "Start earning towards your first reward flight today!",
+      "promotion-image": "/content/mkt/images/promotions/enroll_icon.png",
+      "alt": "enroll in Rapid Rewards",
+      "link_type": "app",
+      "target": "rrenroll"
+    },
+    {
+      "id": "promo03",
+      "title": "Earn 25,000 points",
+      "description": "+6,000 Anniversary points with the Rapid Rewards® Premier Card",
+      "promotion-image": "/content/mkt/images/promotions/CC_Signup.png",
+      "alt": "Chase Credit Card",
+      "link_type": "webview",
+      "target": "https://xldadm01:4700/?REF=MWEB"
+    }
+  ]
+}

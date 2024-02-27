@@ -1,0 +1,21 @@
+.dynamic-waiver-messages {
+  @include bdb;
+  @include p5;
+
+  &--summary-message {
+    @include flex;
+    @include flex-cross-center;
+    @include large;
+    @include pb3;
+  }
+
+  &--summary-message-icon {
+    @include pr2;
+    @include py2;
+  }
+
+  &--station-header {
+    @include bold;
+    @include py1;
+  }
+}

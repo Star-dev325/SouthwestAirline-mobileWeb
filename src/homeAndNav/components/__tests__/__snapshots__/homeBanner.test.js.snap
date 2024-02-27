@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeBanner should render correctly 1`] = `
+<div>
+  <div
+    class="home-banner"
+  >
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          >
+            <div
+              class="image-placement"
+            >
+              <div
+                data-qa="placement-link"
+              >
+                <img
+                  alt="Book Air Travel"
+                  class="image-placement--background-image"
+                  src="/content/mkt/images/hero_shots/750NativeAppsBG_couple.jpg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          >
+            <div
+              class="image-placement"
+            >
+              <div
+                data-qa="placement-link"
+              >
+                <img
+                  alt="Book a Car"
+                  class="image-placement--background-image"
+                  src="/content/mkt/images/hero_shots/750NativeAppsBG_kayakdude.jpg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+.flights-connect {
+  .origin,
+  .destination {
+    @include align-middle;
+    @include pdkblue;
+    @include bold;
+    font-size: 2em;
+  }
+
+  .icon_airplane {
+    @include align-middle;
+    font-size: 1.5em;
+    margin: 0 0.5em;
+  }
+}

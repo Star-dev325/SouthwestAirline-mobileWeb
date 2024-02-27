@@ -1,0 +1,43 @@
+.checkbox-button {
+  &.button {
+    @include bgwhite;
+    @include align-left;
+    @include lineheight14;
+
+    &:hover,
+    &:active {
+      box-shadow: none;
+      cursor: pointer;
+    }
+  }
+
+  &.hidden {
+    display: none !important;
+  }
+}
+
+.checkbox-button--mark {
+  @include relative;
+  @include right;
+  @include bgwhite;
+  @include rd3;
+  border: 1px solid $form-field-border;
+  border-top: 1px solid $gray3;
+  min-height: 2.3rem;
+  min-width: 2.3rem;
+
+  .icon {
+    @include absolute;
+    color: transparent;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.checkbox-button_checked {
+  .icon {
+    @include xlarge;
+    @include green;
+  }
+}

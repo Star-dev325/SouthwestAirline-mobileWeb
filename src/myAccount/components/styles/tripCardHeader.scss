@@ -1,0 +1,62 @@
+.trip-card-header {
+  @include flex;
+  @include flex-main-end;
+
+  &--icons {
+    @include relative;
+    @include right;
+  }
+
+  &--date-and-destination {
+    @include flex-shrink1;
+    @include flex-equal-width;
+    @include overflow-hidden;
+  }
+
+  &--icon-or-confirmation-number {
+    @include flex-shrink0;
+  }
+
+  &--trip-date {
+    @include truncate-text(92%);
+    @include inline-block;
+    @include pdkblue;
+    @include large;
+  }
+
+  &--destination-airport {
+    @include truncate-text(92%);
+    @include xlarge;
+    @include bold;
+    @include m0;
+    @include pblue;
+  }
+
+  &--icon {
+    @include pl4;
+    @include gray3;
+    @include xlarge;
+
+    &_air {
+      @include xxlarge;
+    }
+  }
+
+  &--confirmation-number {
+    @include align-right;
+
+    &_label {
+      @include large;
+      @include block;
+      @include nowrap;
+      @include gray5;
+      @include caps;
+    }
+
+    &_number {
+      @include block;
+      @include green;
+      @include xlarge;
+    }
+  }
+}

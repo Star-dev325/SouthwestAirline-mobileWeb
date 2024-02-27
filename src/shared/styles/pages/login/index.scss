@@ -1,0 +1,36 @@
+.login-page {
+  @include bggray2;
+  padding-bottom: 4em;
+
+  .wcm-content {
+    @include p0;
+    margin-bottom: 1em;
+  }
+
+  .input {
+    &:last-of-type {
+      @include mt5;
+    }
+  }
+
+  &--content {
+    @include pt1;
+  }
+
+  &--prompt {
+    @include center;
+    @include large;
+    @include gray4;
+  }
+}
+
+.login-button--box {
+  @include relative;
+}
+
+.login-arrow {
+  @include absolute;
+  @include white;
+  font-size: 2rem;
+  top: -0.3rem;
+}

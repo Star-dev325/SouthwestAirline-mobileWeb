@@ -1,0 +1,2617 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SameDaySelectFarePage Page Header should omit disclaimer when not provided 1`] = `
+<body>
+  <div>
+    <div
+      class="flight-select-fare--container"
+    >
+      <div>
+        <div
+          class="page-header action-bar"
+          id=""
+        >
+          <ul
+            class="action-bar-buttons action-bar--left-buttons"
+          />
+          <div
+            class="action-bar--container"
+          >
+            <div
+              class="action-bar--title"
+            >
+              <span
+                class="action-bar--main-title"
+              >
+                SAME_DAY__SELECT_FARE__TITLE
+              </span>
+              <span
+                class="action-bar--sub-title"
+              />
+            </div>
+          </div>
+          <ul
+            class="action-bar-buttons action-bar--right-buttons"
+          >
+            <li
+              class="action-bar-buttons--item"
+            >
+              <button
+                class="cancel button"
+                type="button"
+              >
+                SHARED__BUTTON_TEXT__CANCEL
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div />
+      </div>
+      <div
+        class="flight-header"
+      >
+        <div
+          class="flight-header--col flight-header--col-label"
+          data-qa="departs"
+        >
+          <div
+            class="label-container"
+          >
+            <div
+              class="label-container--label"
+            >
+              Departs
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    10:00
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    AM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-header--col flight-header--col-label"
+        >
+          <div
+            class="label-container flight-header--flight-numbers-col"
+          >
+            <div
+              class="label-container--label"
+            >
+              Flight#
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-header--flight-number"
+              >
+                140
+              </div>
+              <div
+                class="flight-header--stops"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-header--col flight-header--col-label"
+        >
+          <div
+            class="label-container flight-header--arrives-col"
+          >
+            <div
+              class="label-container--label"
+            >
+              Arrives
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    1:00
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    PM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flight-select-fare--container-header"
+      >
+        <div
+          class="pt3"
+          data-qa="flight-products"
+        >
+          <div
+            class="flight-product-section"
+            data-qa="WGA"
+          >
+            <div
+              class="flight-product-section--header bdyellow"
+            >
+              <div
+                class="xlarge bold"
+              >
+                <span>
+                  Wanna Get Away
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-product-section--container"
+            >
+              <div
+                class="main-col"
+              >
+                <ul
+                  class="features-list"
+                >
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      2 free checked bags
+                      <sup>
+                        1
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      No fees to change or cancel
+                      <sup>
+                        3
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Flight credit if you cancel
+                      <sup>
+                        4
+                      </sup>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="fare-col"
+              >
+                <div
+                  class="fare-container"
+                >
+                  <div
+                    class="fare-content bdb3 bdyellow"
+                  >
+                    <div>
+                      <div
+                        class="original-price"
+                      >
+                         
+                      </div>
+                      <div
+                        class="currency final-price"
+                      >
+                        +
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          20
+                        </span>
+                      </div>
+                      <div
+                        class="intl-points-taxes"
+                      >
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flight-product-section"
+            data-qa="PLU"
+          >
+            <div
+              class="flight-product-section--header bdred"
+            >
+              <div
+                class="xlarge bold"
+              >
+                <span
+                  class="pdkblue"
+                >
+                  Wanna Get Away
+                </span>
+                <span
+                  class="red"
+                  style="font-family: Fairwater Script;"
+                >
+                   plus
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-product-section--container"
+            >
+              <div
+                class="main-col"
+              >
+                <ul
+                  class="features-list"
+                >
+                  <li
+                    class="icon icon_undefined features-list--no-icon"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      All the benefits of Wanna Get Away and:
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Same-day confirmed change
+                      <sup>
+                        6
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Same-day standby list
+                      <sup>
+                        6
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Transferable flight credit
+                      <sup>
+                        5
+                      </sup>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="fare-col"
+              >
+                <div
+                  class="fare-container"
+                >
+                  <div
+                    class="fare-content bdb3 bdred"
+                  >
+                    <div>
+                      <div
+                        class="original-price"
+                      >
+                         
+                      </div>
+                      <div
+                        class="currency final-price"
+                      >
+                        +
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          30
+                        </span>
+                      </div>
+                      <div
+                        class="intl-points-taxes"
+                      >
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flight-product-section"
+            data-qa="ANY"
+          >
+            <div
+              class="flight-product-section--header bdsltblue"
+            >
+              <div
+                class="xlarge bold"
+              >
+                <span>
+                  Anytime
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-product-section--container"
+            >
+              <div
+                class="main-col"
+              >
+                <ul
+                  class="features-list"
+                >
+                  <li
+                    class="icon icon_undefined features-list--no-icon"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      All the benefits of Wanna Get Away Plus and:
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Refundable
+                      <sup>
+                        7
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      EarlyBird Check-in
+                      <sup>
+                        9
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Priority Lane
+                      <sup>
+                        8
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Express Lane
+                      <sup>
+                        8
+                      </sup>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="fare-col"
+              >
+                <div
+                  class="fare-container"
+                >
+                  <div
+                    class="fare-content bdb3 bdsltblue"
+                  >
+                    <div>
+                      <div
+                        class="original-price"
+                      >
+                         
+                      </div>
+                      <div
+                        class="currency final-price"
+                      >
+                        +
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          50
+                        </span>
+                      </div>
+                      <div
+                        class="intl-points-taxes"
+                      >
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flight-product-section"
+            data-qa="BUS"
+          >
+            <div
+              class="flight-product-section--header bdpblue"
+            >
+              <div
+                class="xlarge bold"
+              >
+                <span>
+                  Business Select
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-product-section--container"
+            >
+              <div
+                class="main-col"
+              >
+                <ul
+                  class="features-list"
+                >
+                  <li
+                    class="icon icon_undefined features-list--no-icon"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      All the benefits of Anytime and:
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Priority Boarding A1-A15
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Premium drink (on flights 176 miles or more)
+                      <sup>
+                        5
+                      </sup>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="fare-col"
+              >
+                <div
+                  class="fare-container"
+                >
+                  <div
+                    class="fare-content bdb3 bdpblue"
+                  >
+                    <div>
+                      <div
+                        class="original-price"
+                      >
+                         
+                      </div>
+                      <div
+                        class="currency final-price"
+                      >
+                        +
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          90
+                        </span>
+                      </div>
+                      <div
+                        class="intl-points-taxes"
+                      >
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="py5 bdt large"
+        >
+          <a
+            class="block pblue"
+            data-qa="fare-details-link"
+          >
+            Mock Fare Details Text
+          </a>
+        </div>
+      </div>
+      <div
+        class="flight-select-fare--container-footer"
+      >
+        <div
+          class="footnotes"
+        >
+          <div
+            class="footnote"
+          >
+             
+            <span
+              data-qa="footnote-label"
+            >
+              <a
+                href="https://mobile.southwest.com/baggage-restrictions"
+                target="_blank"
+              >
+                * Weight and size limits apply.
+              </a>
+            </span>
+          </div>
+          <div
+            class="footnote"
+          >
+             
+            <span
+              data-qa="footnote-label"
+            >
+              ** Fare difference may apply.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`SameDaySelectFarePage Page Header should render 1`] = `
+<body>
+  <div>
+    <div
+      class="flight-select-fare--container"
+    >
+      <div>
+        <div
+          class="page-header action-bar"
+          id=""
+        >
+          <ul
+            class="action-bar-buttons action-bar--left-buttons"
+          />
+          <div
+            class="action-bar--container"
+          >
+            <div
+              class="action-bar--title"
+            >
+              <span
+                class="action-bar--main-title"
+              >
+                SAME_DAY__SELECT_FARE__TITLE
+              </span>
+              <span
+                class="action-bar--sub-title"
+              />
+            </div>
+          </div>
+          <ul
+            class="action-bar-buttons action-bar--right-buttons"
+          >
+            <li
+              class="action-bar-buttons--item"
+            >
+              <button
+                class="cancel button"
+                type="button"
+              >
+                SHARED__BUTTON_TEXT__CANCEL
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div />
+      </div>
+      <div
+        class="flight-header"
+      >
+        <div
+          class="flight-header--col flight-header--col-label"
+          data-qa="departs"
+        >
+          <div
+            class="label-container"
+          >
+            <div
+              class="label-container--label"
+            >
+              Departs
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    10:00
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    AM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-header--col flight-header--col-label"
+        >
+          <div
+            class="label-container flight-header--flight-numbers-col"
+          >
+            <div
+              class="label-container--label"
+            >
+              Flight#
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-header--flight-number"
+              >
+                140
+              </div>
+              <div
+                class="flight-header--stops"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-header--col flight-header--col-label"
+        >
+          <div
+            class="label-container flight-header--arrives-col"
+          >
+            <div
+              class="label-container--label"
+            >
+              Arrives
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    1:00
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    PM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flight-select-fare--container-header"
+      >
+        <div
+          class="flight-select-fare--container-header-disclaimer"
+          data-qa="disclaimerWithLinks"
+        >
+          <p>
+            All fares are rounded up to the nearest dollar and include 
+            <a
+              href="https://mobile.dev9.southwest.com/taxes-and-fees"
+              target="_blank"
+            >
+              Gov't taxes & fees.
+            </a>
+          </p>
+        </div>
+        <div
+          class="pt3"
+          data-qa="flight-products"
+        >
+          <div
+            class="flight-product-section"
+            data-qa="WGA"
+          >
+            <div
+              class="flight-product-section--header bdyellow"
+            >
+              <div
+                class="xlarge bold"
+              >
+                <span>
+                  Wanna Get Away
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-product-section--container"
+            >
+              <div
+                class="main-col"
+              >
+                <ul
+                  class="features-list"
+                >
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      2 free checked bags
+                      <sup>
+                        1
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      No fees to change or cancel
+                      <sup>
+                        3
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Flight credit if you cancel
+                      <sup>
+                        4
+                      </sup>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="fare-col"
+              >
+                <div
+                  class="fare-container"
+                >
+                  <div
+                    class="fare-content bdb3 bdyellow"
+                  >
+                    <div>
+                      <div
+                        class="original-price"
+                      >
+                         
+                      </div>
+                      <div
+                        class="currency final-price"
+                      >
+                        +
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          20
+                        </span>
+                      </div>
+                      <div
+                        class="intl-points-taxes"
+                      >
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flight-product-section"
+            data-qa="PLU"
+          >
+            <div
+              class="flight-product-section--header bdred"
+            >
+              <div
+                class="xlarge bold"
+              >
+                <span
+                  class="pdkblue"
+                >
+                  Wanna Get Away
+                </span>
+                <span
+                  class="red"
+                  style="font-family: Fairwater Script;"
+                >
+                   plus
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-product-section--container"
+            >
+              <div
+                class="main-col"
+              >
+                <ul
+                  class="features-list"
+                >
+                  <li
+                    class="icon icon_undefined features-list--no-icon"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      All the benefits of Wanna Get Away and:
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Same-day confirmed change
+                      <sup>
+                        6
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Same-day standby list
+                      <sup>
+                        6
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Transferable flight credit
+                      <sup>
+                        5
+                      </sup>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="fare-col"
+              >
+                <div
+                  class="fare-container"
+                >
+                  <div
+                    class="fare-content bdb3 bdred"
+                  >
+                    <div>
+                      <div
+                        class="original-price"
+                      >
+                         
+                      </div>
+                      <div
+                        class="currency final-price"
+                      >
+                        +
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          30
+                        </span>
+                      </div>
+                      <div
+                        class="intl-points-taxes"
+                      >
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flight-product-section"
+            data-qa="ANY"
+          >
+            <div
+              class="flight-product-section--header bdsltblue"
+            >
+              <div
+                class="xlarge bold"
+              >
+                <span>
+                  Anytime
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-product-section--container"
+            >
+              <div
+                class="main-col"
+              >
+                <ul
+                  class="features-list"
+                >
+                  <li
+                    class="icon icon_undefined features-list--no-icon"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      All the benefits of Wanna Get Away Plus and:
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Refundable
+                      <sup>
+                        7
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      EarlyBird Check-in
+                      <sup>
+                        9
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Priority Lane
+                      <sup>
+                        8
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Express Lane
+                      <sup>
+                        8
+                      </sup>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="fare-col"
+              >
+                <div
+                  class="fare-container"
+                >
+                  <div
+                    class="fare-content bdb3 bdsltblue"
+                  >
+                    <div>
+                      <div
+                        class="original-price"
+                      >
+                         
+                      </div>
+                      <div
+                        class="currency final-price"
+                      >
+                        +
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          50
+                        </span>
+                      </div>
+                      <div
+                        class="intl-points-taxes"
+                      >
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flight-product-section"
+            data-qa="BUS"
+          >
+            <div
+              class="flight-product-section--header bdpblue"
+            >
+              <div
+                class="xlarge bold"
+              >
+                <span>
+                  Business Select
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-product-section--container"
+            >
+              <div
+                class="main-col"
+              >
+                <ul
+                  class="features-list"
+                >
+                  <li
+                    class="icon icon_undefined features-list--no-icon"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      All the benefits of Anytime and:
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Priority Boarding A1-A15
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Premium drink (on flights 176 miles or more)
+                      <sup>
+                        5
+                      </sup>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="fare-col"
+              >
+                <div
+                  class="fare-container"
+                >
+                  <div
+                    class="fare-content bdb3 bdpblue"
+                  >
+                    <div>
+                      <div
+                        class="original-price"
+                      >
+                         
+                      </div>
+                      <div
+                        class="currency final-price"
+                      >
+                        +
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          90
+                        </span>
+                      </div>
+                      <div
+                        class="intl-points-taxes"
+                      >
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="py5 bdt large"
+        >
+          <a
+            class="block pblue"
+            data-qa="fare-details-link"
+          >
+            Mock Fare Details Text
+          </a>
+        </div>
+      </div>
+      <div
+        class="flight-select-fare--container-footer"
+      >
+        <div
+          class="footnotes"
+        >
+          <div
+            class="footnote"
+          >
+             
+            <span
+              data-qa="footnote-label"
+            >
+              <a
+                href="https://mobile.southwest.com/baggage-restrictions"
+                target="_blank"
+              >
+                * Weight and size limits apply.
+              </a>
+            </span>
+          </div>
+          <div
+            class="footnote"
+          >
+             
+            <span
+              data-qa="footnote-label"
+            >
+              ** Fare difference may apply.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`SameDaySelectFarePage Page Header should render with Returning destination 1`] = `
+<body>
+  <div>
+    <div
+      class="flight-select-fare--container"
+    >
+      <div>
+        <div
+          class="page-header action-bar"
+          id=""
+        >
+          <ul
+            class="action-bar-buttons action-bar--left-buttons"
+          />
+          <div
+            class="action-bar--container"
+          >
+            <div
+              class="action-bar--title"
+            >
+              <span
+                class="action-bar--main-title"
+              >
+                SAME_DAY__SELECT_FARE__TITLE
+              </span>
+              <span
+                class="action-bar--sub-title"
+              />
+            </div>
+          </div>
+          <ul
+            class="action-bar-buttons action-bar--right-buttons"
+          >
+            <li
+              class="action-bar-buttons--item"
+            >
+              <button
+                class="cancel button"
+                type="button"
+              >
+                SHARED__BUTTON_TEXT__CANCEL
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div />
+      </div>
+      <div
+        class="flight-header"
+      >
+        <div
+          class="flight-header--col flight-header--col-label"
+          data-qa="departs"
+        >
+          <div
+            class="label-container"
+          >
+            <div
+              class="label-container--label"
+            >
+              Departs
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    10:00
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    AM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-header--col flight-header--col-label"
+        >
+          <div
+            class="label-container flight-header--flight-numbers-col"
+          >
+            <div
+              class="label-container--label"
+            >
+              Flight#
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-header--flight-number"
+              >
+                140
+              </div>
+              <div
+                class="flight-header--stops"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-header--col flight-header--col-label"
+        >
+          <div
+            class="label-container flight-header--arrives-col"
+          >
+            <div
+              class="label-container--label"
+            >
+              Arrives
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    1:00
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    PM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flight-select-fare--container-header"
+      >
+        <div
+          class="flight-select-fare--container-header-disclaimer"
+          data-qa="disclaimerWithLinks"
+        >
+          <p>
+            All fares are rounded up to the nearest dollar and include 
+            <a
+              href="https://mobile.dev9.southwest.com/taxes-and-fees"
+              target="_blank"
+            >
+              Gov't taxes & fees.
+            </a>
+          </p>
+        </div>
+        <div
+          class="pt3"
+          data-qa="flight-products"
+        >
+          <div
+            class="flight-product-section"
+            data-qa="WGA"
+          >
+            <div
+              class="flight-product-section--header bdyellow"
+            >
+              <div
+                class="xlarge bold"
+              >
+                <span>
+                  Wanna Get Away
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-product-section--container"
+            >
+              <div
+                class="main-col"
+              >
+                <ul
+                  class="features-list"
+                >
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      2 free checked bags
+                      <sup>
+                        1
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      No fees to change or cancel
+                      <sup>
+                        3
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Flight credit if you cancel
+                      <sup>
+                        4
+                      </sup>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="fare-col"
+              >
+                <div
+                  class="fare-container"
+                >
+                  <div
+                    class="fare-content bdb3 bdyellow"
+                  >
+                    <div>
+                      <div
+                        class="original-price"
+                      >
+                         
+                      </div>
+                      <div
+                        class="currency final-price"
+                      >
+                        +
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          20
+                        </span>
+                      </div>
+                      <div
+                        class="intl-points-taxes"
+                      >
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flight-product-section"
+            data-qa="PLU"
+          >
+            <div
+              class="flight-product-section--header bdred"
+            >
+              <div
+                class="xlarge bold"
+              >
+                <span
+                  class="pdkblue"
+                >
+                  Wanna Get Away
+                </span>
+                <span
+                  class="red"
+                  style="font-family: Fairwater Script;"
+                >
+                   plus
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-product-section--container"
+            >
+              <div
+                class="main-col"
+              >
+                <ul
+                  class="features-list"
+                >
+                  <li
+                    class="icon icon_undefined features-list--no-icon"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      All the benefits of Wanna Get Away and:
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Same-day confirmed change
+                      <sup>
+                        6
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Same-day standby list
+                      <sup>
+                        6
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Transferable flight credit
+                      <sup>
+                        5
+                      </sup>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="fare-col"
+              >
+                <div
+                  class="fare-container"
+                >
+                  <div
+                    class="fare-content bdb3 bdred"
+                  >
+                    <div>
+                      <div
+                        class="original-price"
+                      >
+                         
+                      </div>
+                      <div
+                        class="currency final-price"
+                      >
+                        +
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          30
+                        </span>
+                      </div>
+                      <div
+                        class="intl-points-taxes"
+                      >
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flight-product-section"
+            data-qa="ANY"
+          >
+            <div
+              class="flight-product-section--header bdsltblue"
+            >
+              <div
+                class="xlarge bold"
+              >
+                <span>
+                  Anytime
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-product-section--container"
+            >
+              <div
+                class="main-col"
+              >
+                <ul
+                  class="features-list"
+                >
+                  <li
+                    class="icon icon_undefined features-list--no-icon"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      All the benefits of Wanna Get Away Plus and:
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Refundable
+                      <sup>
+                        7
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      EarlyBird Check-in
+                      <sup>
+                        9
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Priority Lane
+                      <sup>
+                        8
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Express Lane
+                      <sup>
+                        8
+                      </sup>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="fare-col"
+              >
+                <div
+                  class="fare-container"
+                >
+                  <div
+                    class="fare-content bdb3 bdsltblue"
+                  >
+                    <div>
+                      <div
+                        class="original-price"
+                      >
+                         
+                      </div>
+                      <div
+                        class="currency final-price"
+                      >
+                        +
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          50
+                        </span>
+                      </div>
+                      <div
+                        class="intl-points-taxes"
+                      >
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flight-product-section"
+            data-qa="BUS"
+          >
+            <div
+              class="flight-product-section--header bdpblue"
+            >
+              <div
+                class="xlarge bold"
+              >
+                <span>
+                  Business Select
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-product-section--container"
+            >
+              <div
+                class="main-col"
+              >
+                <ul
+                  class="features-list"
+                >
+                  <li
+                    class="icon icon_undefined features-list--no-icon"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      All the benefits of Anytime and:
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Priority Boarding A1-A15
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Premium drink (on flights 176 miles or more)
+                      <sup>
+                        5
+                      </sup>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="fare-col"
+              >
+                <div
+                  class="fare-container"
+                >
+                  <div
+                    class="fare-content bdb3 bdpblue"
+                  >
+                    <div>
+                      <div
+                        class="original-price"
+                      >
+                         
+                      </div>
+                      <div
+                        class="currency final-price"
+                      >
+                        +
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          90
+                        </span>
+                      </div>
+                      <div
+                        class="intl-points-taxes"
+                      >
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="py5 bdt large"
+        >
+          <a
+            class="block pblue"
+            data-qa="fare-details-link"
+          >
+            Mock Fare Details Text
+          </a>
+        </div>
+      </div>
+      <div
+        class="flight-select-fare--container-footer"
+      >
+        <div
+          class="footnotes"
+        >
+          <div
+            class="footnote"
+          >
+             
+            <span
+              data-qa="footnote-label"
+            >
+              <a
+                href="https://mobile.southwest.com/baggage-restrictions"
+                target="_blank"
+              >
+                * Weight and size limits apply.
+              </a>
+            </span>
+          </div>
+          <div
+            class="footnote"
+          >
+             
+            <span
+              data-qa="footnote-label"
+            >
+              ** Fare difference may apply.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`SameDaySelectFarePage Page Header should use default values if no fare details link is provided 1`] = `
+<body>
+  <div>
+    <div
+      class="flight-select-fare--container"
+    >
+      <div>
+        <div
+          class="page-header action-bar"
+          id=""
+        >
+          <ul
+            class="action-bar-buttons action-bar--left-buttons"
+          />
+          <div
+            class="action-bar--container"
+          >
+            <div
+              class="action-bar--title"
+            >
+              <span
+                class="action-bar--main-title"
+              >
+                SAME_DAY__SELECT_FARE__TITLE
+              </span>
+              <span
+                class="action-bar--sub-title"
+              />
+            </div>
+          </div>
+          <ul
+            class="action-bar-buttons action-bar--right-buttons"
+          >
+            <li
+              class="action-bar-buttons--item"
+            >
+              <button
+                class="cancel button"
+                type="button"
+              >
+                SHARED__BUTTON_TEXT__CANCEL
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div />
+      </div>
+      <div
+        class="flight-header"
+      >
+        <div
+          class="flight-header--col flight-header--col-label"
+          data-qa="departs"
+        >
+          <div
+            class="label-container"
+          >
+            <div
+              class="label-container--label"
+            >
+              Departs
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    10:00
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    AM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-header--col flight-header--col-label"
+        >
+          <div
+            class="label-container flight-header--flight-numbers-col"
+          >
+            <div
+              class="label-container--label"
+            >
+              Flight#
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-header--flight-number"
+              >
+                140
+              </div>
+              <div
+                class="flight-header--stops"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-header--col flight-header--col-label"
+        >
+          <div
+            class="label-container flight-header--arrives-col"
+          >
+            <div
+              class="label-container--label"
+            >
+              Arrives
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    1:00
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    PM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flight-select-fare--container-header"
+      >
+        <div
+          class="flight-select-fare--container-header-disclaimer"
+          data-qa="disclaimerWithLinks"
+        >
+          <p>
+            All fares are rounded up to the nearest dollar and include 
+            <a
+              href="https://mobile.dev9.southwest.com/taxes-and-fees"
+              target="_blank"
+            >
+              Gov't taxes & fees.
+            </a>
+          </p>
+        </div>
+        <div
+          class="pt3"
+          data-qa="flight-products"
+        >
+          <div
+            class="flight-product-section"
+            data-qa="WGA"
+          >
+            <div
+              class="flight-product-section--header bdyellow"
+            >
+              <div
+                class="xlarge bold"
+              >
+                <span>
+                  Wanna Get Away
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-product-section--container"
+            >
+              <div
+                class="main-col"
+              >
+                <ul
+                  class="features-list"
+                >
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      2 free checked bags
+                      <sup>
+                        1
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      No fees to change or cancel
+                      <sup>
+                        3
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Flight credit if you cancel
+                      <sup>
+                        4
+                      </sup>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="fare-col"
+              >
+                <div
+                  class="fare-container"
+                >
+                  <div
+                    class="fare-content bdb3 bdyellow"
+                  >
+                    <div>
+                      <div
+                        class="original-price"
+                      >
+                         
+                      </div>
+                      <div
+                        class="currency final-price"
+                      >
+                        +
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          20
+                        </span>
+                      </div>
+                      <div
+                        class="intl-points-taxes"
+                      >
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flight-product-section"
+            data-qa="PLU"
+          >
+            <div
+              class="flight-product-section--header bdred"
+            >
+              <div
+                class="xlarge bold"
+              >
+                <span
+                  class="pdkblue"
+                >
+                  Wanna Get Away
+                </span>
+                <span
+                  class="red"
+                  style="font-family: Fairwater Script;"
+                >
+                   plus
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-product-section--container"
+            >
+              <div
+                class="main-col"
+              >
+                <ul
+                  class="features-list"
+                >
+                  <li
+                    class="icon icon_undefined features-list--no-icon"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      All the benefits of Wanna Get Away and:
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Same-day confirmed change
+                      <sup>
+                        6
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Same-day standby list
+                      <sup>
+                        6
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Transferable flight credit
+                      <sup>
+                        5
+                      </sup>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="fare-col"
+              >
+                <div
+                  class="fare-container"
+                >
+                  <div
+                    class="fare-content bdb3 bdred"
+                  >
+                    <div>
+                      <div
+                        class="original-price"
+                      >
+                         
+                      </div>
+                      <div
+                        class="currency final-price"
+                      >
+                        +
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          30
+                        </span>
+                      </div>
+                      <div
+                        class="intl-points-taxes"
+                      >
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flight-product-section"
+            data-qa="ANY"
+          >
+            <div
+              class="flight-product-section--header bdsltblue"
+            >
+              <div
+                class="xlarge bold"
+              >
+                <span>
+                  Anytime
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-product-section--container"
+            >
+              <div
+                class="main-col"
+              >
+                <ul
+                  class="features-list"
+                >
+                  <li
+                    class="icon icon_undefined features-list--no-icon"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      All the benefits of Wanna Get Away Plus and:
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Refundable
+                      <sup>
+                        7
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      EarlyBird Check-in
+                      <sup>
+                        9
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Priority Lane
+                      <sup>
+                        8
+                      </sup>
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Express Lane
+                      <sup>
+                        8
+                      </sup>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="fare-col"
+              >
+                <div
+                  class="fare-container"
+                >
+                  <div
+                    class="fare-content bdb3 bdsltblue"
+                  >
+                    <div>
+                      <div
+                        class="original-price"
+                      >
+                         
+                      </div>
+                      <div
+                        class="currency final-price"
+                      >
+                        +
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          50
+                        </span>
+                      </div>
+                      <div
+                        class="intl-points-taxes"
+                      >
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flight-product-section"
+            data-qa="BUS"
+          >
+            <div
+              class="flight-product-section--header bdpblue"
+            >
+              <div
+                class="xlarge bold"
+              >
+                <span>
+                  Business Select
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-product-section--container"
+            >
+              <div
+                class="main-col"
+              >
+                <ul
+                  class="features-list"
+                >
+                  <li
+                    class="icon icon_undefined features-list--no-icon"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      All the benefits of Anytime and:
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Priority Boarding A1-A15
+                    </span>
+                  </li>
+                  <li
+                    class="icon icon_plus features-list--item"
+                  >
+                    <span
+                      class="features-list--text"
+                    >
+                      Premium drink (on flights 176 miles or more)
+                      <sup>
+                        5
+                      </sup>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="fare-col"
+              >
+                <div
+                  class="fare-container"
+                >
+                  <div
+                    class="fare-content bdb3 bdpblue"
+                  >
+                    <div>
+                      <div
+                        class="original-price"
+                      >
+                         
+                      </div>
+                      <div
+                        class="currency final-price"
+                      >
+                        +
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          90
+                        </span>
+                      </div>
+                      <div
+                        class="intl-points-taxes"
+                      >
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="py5 bdt large"
+        >
+          <a
+            class="block pblue"
+            data-qa="fare-details-link"
+          />
+        </div>
+      </div>
+      <div
+        class="flight-select-fare--container-footer"
+      >
+        <div
+          class="footnotes"
+        >
+          <div
+            class="footnote"
+          >
+             
+            <span
+              data-qa="footnote-label"
+            >
+              <a
+                href="https://mobile.southwest.com/baggage-restrictions"
+                target="_blank"
+              >
+                * Weight and size limits apply.
+              </a>
+            </span>
+          </div>
+          <div
+            class="footnote"
+          >
+             
+            <span
+              data-qa="footnote-label"
+            >
+              ** Fare difference may apply.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

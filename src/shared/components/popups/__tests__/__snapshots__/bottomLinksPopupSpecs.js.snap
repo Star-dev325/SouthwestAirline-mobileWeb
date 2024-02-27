@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BottomLinksPopup render should render correctly 1`] = `
+<div
+  className="mb4"
+>
+  <div
+    className="bottom-link-list"
+    key="bottom-link-list"
+  >
+    <a
+      className="bottom-link-list--item button"
+      data-qa={null}
+      key="0"
+      onClick={[Function]}
+    >
+      test
+    </a>
+    <a
+      className="bottom-link-list--item button"
+      data-qa={null}
+      key="1"
+      onClick={[Function]}
+    >
+      test
+    </a>
+  </div>
+  <button
+    className="button cancel-button"
+    key="close-button"
+    onClick={[Function]}
+  >
+    Close
+  </button>
+</div>
+`;
+
+exports[`BottomLinksPopup render should render correctly with subtitle 1`] = `
+<div
+  className="mb4"
+>
+  <div
+    className="bottom-link-list"
+    key="bottom-link-list"
+  >
+    <div
+      className="bottom-link-list--subtitle"
+    >
+      test subtitle
+    </div>
+    <a
+      className="bottom-link-list--item pdkblue"
+      data-qa={null}
+      key="0"
+      onClick={[Function]}
+    >
+      test
+    </a>
+    <a
+      className="bottom-link-list--item pdkblue"
+      data-qa={null}
+      key="1"
+      onClick={[Function]}
+    >
+      test
+    </a>
+  </div>
+  <button
+    className="button cancel-button"
+    key="close-button"
+    onClick={[Function]}
+  >
+    Close
+  </button>
+</div>
+`;

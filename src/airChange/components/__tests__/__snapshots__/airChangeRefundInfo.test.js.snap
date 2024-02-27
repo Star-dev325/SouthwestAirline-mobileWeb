@@ -1,0 +1,686 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`air change refund info purchaseWithPoints even exchange should show 0 points due for tax even exchange 1`] = `
+<div>
+  <form>
+    <div>
+      <div
+        class="refund-info-for-points bgwhite mb6"
+      >
+        <div
+          class="refund-info-per-type p5 bgwhite bdt"
+        >
+          <div
+            class="price-line refund-info-per-type--price-total-line_credit"
+          >
+            <span
+              class="price-line--title"
+            >
+              Amount Due
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    data-qa="total-amount"
+                  >
+                    0
+                  </span>
+                  <span
+                    class="points-sign"
+                  >
+                    SHARED__COMMON__POINTS_TEXT
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p
+            class="gray4 large block"
+          >
+            SHARED__REFUND_METHOD__REFUND_INFO_NEVER_CHARGE_FEES
+            <br />
+            SHARED__REFUND_METHOD__REFUND_INFO_ONLY_PAY_DIFFERENCE
+          </p>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`air change refund info purchaseWithPoints even exchange should show Amount due tax when tax upgrade 1`] = `
+<div>
+  <form>
+    <div>
+      <div
+        class="refund-info-for-points bgwhite mb6"
+      >
+        <div
+          class="refund-info-per-type p5 bgwhite bdt"
+        >
+          <div
+            class="price-line refund-info-per-type--price-total-line_credit"
+          >
+            <span
+              class="price-line--title"
+            >
+              Amount Due
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    data-qa="total-amount"
+                  >
+                    0
+                  </span>
+                  <span
+                    class="points-sign"
+                  >
+                    SHARED__COMMON__POINTS_TEXT
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p
+            class="gray4 large block"
+          >
+            SHARED__REFUND_METHOD__REFUND_INFO_NEVER_CHARGE_FEES
+            <br />
+            SHARED__REFUND_METHOD__REFUND_INFO_ONLY_PAY_DIFFERENCE
+          </p>
+        </div>
+      </div>
+      <div
+        class="refund-info-for-points bgwhite"
+      >
+        <div
+          class="refund-info-per-type p5 bgwhite bdt"
+        >
+          <div
+            class="price-line"
+          >
+            <span
+              class="price-line--title"
+            >
+              Amount Due
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    2.80
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`air change refund info purchaseWithPoints even exchange should show refundable and nonRefundable credit for mixed refundable tax downgrade 1`] = `
+<div>
+  <form>
+    <div>
+      <div
+        class="refund-info-for-points bgwhite mb6"
+      >
+        <div
+          class="refund-info-per-type p5 bgwhite bdt"
+        >
+          <div
+            class="price-line refund-info-per-type--price-total-line_credit"
+          >
+            <span
+              class="price-line--title"
+            >
+              Amount due
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    data-qa="total-amount"
+                  >
+                    0
+                  </span>
+                  <span
+                    class="points-sign"
+                  >
+                    SHARED__COMMON__POINTS_TEXT
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p
+            class="gray4 large block"
+          >
+            SHARED__REFUND_METHOD__REFUND_INFO_NEVER_CHARGE_FEES
+            <br />
+            SHARED__REFUND_METHOD__REFUND_INFO_ONLY_PAY_DIFFERENCE
+          </p>
+        </div>
+      </div>
+      <div
+        class="refund-info-for-points bgwhite mb6 bdb"
+      >
+        <div
+          class="refund-info-per-type p5 bgwhite bdt"
+        >
+          <div
+            class="price-line refund-info-per-type--price-total-line_credit"
+          >
+            <span
+              class="price-line--title"
+            >
+              Credit
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    2.80
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bdt"
+        >
+          <div
+            class="refund-method pl5 bgwhite py5"
+          >
+            <div
+              class="fields divided grouped"
+            >
+              <div
+                class="field"
+              >
+                <div
+                  class="no-shadow select-input icon-fixed"
+                >
+                  <span>
+                    <select
+                      class="dropdown empty"
+                      data-qa="select-dropdown"
+                      name="refundMethod"
+                      placeholder="SHARED__REFUND_METHOD__SELECT_AN_OPTION"
+                    >
+                      <option
+                        class="placeholder"
+                        data-qa="dqa-disabled-option"
+                        disabled=""
+                        value=""
+                      >
+                        SHARED__REFUND_METHOD__SELECT_AN_OPTION
+                      </option>
+                      <option
+                        data-qa="dqa-enabled-option"
+                        value="BACK_TO_ORIGINAL_PAYMENT"
+                      >
+                        SHARED__REFUND_METHOD__REFUND_TO_CREDIT_CARD
+                      </option>
+                      <option
+                        data-qa="dqa-enabled-option"
+                        value="HOLD_FUTURE_USE"
+                      >
+                        SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+                      </option>
+                    </select>
+                  </span>
+                  <input
+                    class=""
+                    icon="caret-down"
+                    name="refundMethod"
+                    placeholder="SHARED__REFUND_METHOD__SELECT_AN_OPTION"
+                  />
+                  <i
+                    class="icon icon_caret-down"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bgwhite mb6"
+        data-qa="travel-funds-refund-info"
+      >
+        <div
+          class="refund-info-per-type p5 bgwhite bdt"
+        >
+          <div
+            class="price-line refund-info-per-type--price-total-line_credit"
+          >
+            <span
+              class="price-line--title"
+            >
+              Credit
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    3.60
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p5 bdt"
+        >
+          <div
+            class="xlarge"
+          >
+            SHARED__REFUND_METHOD__MESSAGE
+          </div>
+          <span
+            class="large gray4"
+          >
+            SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+          </span>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`air change refund info purchaseWithPoints upgrade should show amount due and tax amount when mixed tax downgrade 1`] = `
+<div>
+  <form>
+    <div>
+      <div
+        class="refund-info-for-points bgwhite mb6"
+      >
+        <div
+          class="refund-info-per-type p5 bgwhite bdt"
+        >
+          <div
+            class="price-line"
+          >
+            <span
+              class="price-line--title"
+            >
+              Amount due
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    data-qa="total-amount"
+                  >
+                    2000
+                  </span>
+                  <span
+                    class="points-sign"
+                  >
+                    SHARED__COMMON__POINTS_TEXT
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p
+            class="gray4 large block"
+          >
+            SHARED__REFUND_METHOD__REFUND_INFO_NEVER_CHARGE_FEES
+            <br />
+            SHARED__REFUND_METHOD__REFUND_INFO_ONLY_PAY_DIFFERENCE
+          </p>
+        </div>
+      </div>
+      <div
+        class="refund-info-for-points bgwhite mb6 bdb"
+      >
+        <div
+          class="refund-info-per-type p5 bgwhite bdt"
+        >
+          <div
+            class="price-line refund-info-per-type--price-total-line_credit"
+          >
+            <span
+              class="price-line--title"
+            >
+              Credit
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    2.50
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bdt"
+        >
+          <div
+            class="refund-method pl5 bgwhite py5"
+          >
+            <div
+              class="fields divided grouped"
+            >
+              <div
+                class="field"
+              >
+                <div
+                  class="no-shadow select-input icon-fixed"
+                >
+                  <span>
+                    <select
+                      class="dropdown empty"
+                      data-qa="select-dropdown"
+                      name="refundMethod"
+                      placeholder="SHARED__REFUND_METHOD__SELECT_AN_OPTION"
+                    >
+                      <option
+                        class="placeholder"
+                        data-qa="dqa-disabled-option"
+                        disabled=""
+                        value=""
+                      >
+                        SHARED__REFUND_METHOD__SELECT_AN_OPTION
+                      </option>
+                      <option
+                        data-qa="dqa-enabled-option"
+                        value="BACK_TO_ORIGINAL_PAYMENT"
+                      >
+                        SHARED__REFUND_METHOD__REFUND_TO_CREDIT_CARD
+                      </option>
+                      <option
+                        data-qa="dqa-enabled-option"
+                        value="HOLD_FUTURE_USE"
+                      >
+                        SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+                      </option>
+                    </select>
+                  </span>
+                  <input
+                    class=""
+                    icon="caret-down"
+                    name="refundMethod"
+                    placeholder="SHARED__REFUND_METHOD__SELECT_AN_OPTION"
+                  />
+                  <i
+                    class="icon icon_caret-down"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bgwhite mb6"
+        data-qa="travel-funds-refund-info"
+      >
+        <div
+          class="refund-info-per-type p5 bgwhite bdt"
+        >
+          <div
+            class="price-line refund-info-per-type--price-total-line_credit"
+          >
+            <span
+              class="price-line--title"
+            >
+              Credit
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    3.50
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p5 bdt"
+        >
+          <div
+            class="xlarge"
+          >
+            SHARED__REFUND_METHOD__MESSAGE
+          </div>
+          <span
+            class="large gray4"
+          >
+            SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+          </span>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`air change refund info purchaseWithPoints upgrade should show amount due and tax amount when tax even 1`] = `
+<div>
+  <form>
+    <div>
+      <div
+        class="refund-info-for-points bgwhite mb6"
+      >
+        <div
+          class="refund-info-per-type p5 bgwhite bdt"
+        >
+          <div
+            class="price-line"
+          >
+            <span
+              class="price-line--title"
+            >
+              Amount due
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    data-qa="total-amount"
+                  >
+                    2000.00
+                  </span>
+                  <span
+                    class="points-sign"
+                  >
+                    SHARED__COMMON__POINTS_TEXT
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p
+            class="gray4 large block"
+          >
+            SHARED__REFUND_METHOD__REFUND_INFO_NEVER_CHARGE_FEES
+            <br />
+            SHARED__REFUND_METHOD__REFUND_INFO_ONLY_PAY_DIFFERENCE
+          </p>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`air change refund info purchaseWithPoints upgrade should show amount due and tax amount when tax upgrade 1`] = `
+<div>
+  <form>
+    <div>
+      <div
+        class="bgwhite mb6"
+      >
+        <div
+          class="refund-info-per-type p5 bgwhite bdt"
+        >
+          <div
+            class="price-line"
+          >
+            <span
+              class="price-line--title"
+            >
+              Amount due
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    data-qa="total-amount"
+                  >
+                    2000
+                  </span>
+                  <span
+                    class="points-sign"
+                  >
+                    SHARED__COMMON__POINTS_TEXT
+                  </span>
+                </div>
+                <div
+                  class="currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    2.50
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p
+            class="gray4 large block"
+          >
+            SHARED__REFUND_METHOD__REFUND_INFO_NEVER_CHARGE_FEES
+            <br />
+            SHARED__REFUND_METHOD__REFUND_INFO_ONLY_PAY_DIFFERENCE
+          </p>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

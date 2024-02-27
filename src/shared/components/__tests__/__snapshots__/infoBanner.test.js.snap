@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoBanner should render banner with header and body 1`] = `
+<div>
+  <div
+    class="info-banner "
+  >
+    <div
+      class="info-banner--alert"
+    >
+      <i
+        class="icon icon_exclamation-circle warning"
+      />
+    </div>
+    <div
+      class="info-banner-container"
+    >
+      <b
+        class="info-banner-container--header"
+      >
+        This is a header
+      </b>
+      <p
+        class="info-banner-container--body"
+      >
+        This is a body
+      </p>
+      <div
+        class="info-banner-container--link"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`InfoBanner should render icon color that is passed in 1`] = `
+<div>
+  <div
+    class="info-banner "
+  >
+    <div
+      class="info-banner--alert"
+    >
+      <i
+        class="icon icon_exclamation-circle error"
+      />
+    </div>
+    <div
+      class="info-banner-container"
+    >
+      <b
+        class="info-banner-container--header"
+      >
+        This is a header
+      </b>
+      <p
+        class="info-banner-container--body"
+      >
+        This is a body
+      </p>
+      <div
+        class="info-banner-container--link"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`InfoBanner should render icon that is passed in as iconType 1`] = `
+<div>
+  <div
+    class="info-banner "
+  >
+    <div
+      class="info-banner--alert"
+    >
+      <i
+        class="icon icon_check-circle"
+      />
+    </div>
+    <div
+      class="info-banner-container"
+    >
+      <b
+        class="info-banner-container--header"
+      >
+        This is a header
+      </b>
+      <p
+        class="info-banner-container--body"
+      >
+        This is a body
+      </p>
+      <div
+        class="info-banner-container--link"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`InfoBanner should render learn more link if one is passed in 1`] = `
+<div>
+  <div
+    class="info-banner "
+  >
+    <div
+      class="info-banner--alert"
+    >
+      <i
+        class="icon icon_exclamation-circle warning"
+      />
+    </div>
+    <div
+      class="info-banner-container"
+    >
+      <b
+        class="info-banner-container--header"
+      >
+        This is a header
+      </b>
+      <p
+        class="info-banner-container--body"
+      >
+        This is a body
+      </p>
+      <div
+        class="info-banner-container--link"
+      >
+        <a
+          href="mock-url"
+          target="_blank"
+        >
+          Learn More 
+          <i
+            class="pblue xxlarge learn-more--icon icon icon_keyboard-arrow-right"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`InfoBanner should render with className is one is passed in 1`] = `
+<div>
+  <div
+    class="info-banner test-classname"
+  >
+    <div
+      class="info-banner--alert"
+    >
+      <i
+        class="icon icon_exclamation-circle warning"
+      />
+    </div>
+    <div
+      class="info-banner-container"
+    >
+      <b
+        class="info-banner-container--header"
+      >
+        This is a header
+      </b>
+      <p
+        class="info-banner-container--body"
+      >
+        This is a body
+      </p>
+      <div
+        class="info-banner-container--link"
+      />
+    </div>
+  </div>
+</div>
+`;

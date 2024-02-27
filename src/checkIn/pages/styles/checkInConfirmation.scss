@@ -1,0 +1,27 @@
+.check-in-confirmation {
+  .ui.card {
+    @include fullwidth;
+  }
+
+  .link-details {
+    margin: 1em 0;
+
+    a {
+      @include sltblue;
+      font-size: 1.3em;
+    }
+
+    .footerlink-with-text {
+      color: $white;
+      font-size: 1.3em;
+    }
+  }
+}
+
+.checkin-confirmation-bg {
+  @include bgpdkblue;
+}
+
+.checkin-buttons-group {
+  @include p5;
+}

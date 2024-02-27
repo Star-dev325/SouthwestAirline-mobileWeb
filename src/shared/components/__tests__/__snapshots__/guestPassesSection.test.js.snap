@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GuestPassesSection render should render component when itemSubText is null 1`] = `
+<div>
+  <div
+    class="guest-passes-review"
+  >
+    <p
+      class="guest-passes-review--item"
+    >
+      Text
+    </p>
+  </div>
+</div>
+`;
+
+exports[`GuestPassesSection render should render default component correct 1`] = `
+<div>
+  <div
+    class="guest-passes-review"
+  >
+    <p
+      class="guest-passes-review--item"
+    >
+      Text
+    </p>
+    <div
+      class="guest-passes-review--sub-item"
+    >
+      <p
+        class="guest-passes-review--sub-item_text"
+      >
+        Test
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`GuestPassesSection render should render default component correct when isConfirmationGuessPassesPage true 1`] = `
+<div>
+  <div
+    class="guest-passes-confirmation"
+  >
+    <p
+      class="guest-passes-confirmation--item"
+    >
+      Text
+    </p>
+    <p
+      class="guest-passes-confirmation--sub-item_text"
+    >
+      Test
+    </p>
+  </div>
+</div>
+`;
+
+exports[`GuestPassesSection render should render default component correct when itemSubText is null and isConfirmationGuessPassesPage true 1`] = `
+<div>
+  <div
+    class="guest-passes-confirmation"
+  >
+    <p
+      class="guest-passes-confirmation--item"
+    >
+      Text
+    </p>
+  </div>
+</div>
+`;

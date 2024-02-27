@@ -1,0 +1,16 @@
+.registered-mark {
+  @include block;
+  font-size: 1.2em;
+
+  & > .icon {
+    @include green;
+    @include align-middle;
+    font-size: 1.4em;
+  }
+}
+
+.registered-mark--text {
+  @include green;
+  @include align-middle;
+  font-size: 1em;
+}

@@ -1,0 +1,34 @@
+.car-time-selector {
+  @include center;
+  text-align-last: center;
+
+  .select-input {
+    .dropdown {
+      @include xxxlarge;
+
+      &.empty {
+        @include gray4;
+      }
+    }
+
+    &.clean {
+      .dropdown {
+        @include gray4;
+      }
+    }
+  }
+}
+
+.error {
+  .car-time-selector {
+    .select-input {
+      .dropdown {
+        @include red;
+      }
+    }
+  }
+}
+
+.car-time-selector--hint {
+  @include gray4;
+}

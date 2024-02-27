@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimulateHybridButton should be visible when hyrbid simulation is toggled on 1`] = `
+<div>
+  <button
+    class="simulate-hybrid-button simulate-hybrid-button_visible button button--fluid larger button--yellow"
+    role="submit"
+    type="submit"
+  >
+    Hybrid
+  </button>
+</div>
+`;
+
+exports[`SimulateHybridButton should not be visible when hybrid simulation is toggled off 1`] = `
+<div>
+  <button
+    class="simulate-hybrid-button button button--fluid larger button--yellow"
+    role="submit"
+    type="submit"
+  >
+    Hybrid
+  </button>
+</div>
+`;

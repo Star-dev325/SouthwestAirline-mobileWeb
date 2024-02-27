@@ -1,0 +1,33 @@
+.early-bird-review--trip-card-detail {
+  .flight-brief-card {
+    @include relative;
+
+    &::after {
+      @include bdb;
+      @include absolute;
+      @include r0;
+      @include b0;
+      @include l0;
+      content: '';
+    }
+  }
+}
+
+.early-bird-review--trip-passenger {
+  @include bdb;
+  @include bgwhite;
+  @include larger;
+  @include flex;
+  @include flex-main-between;
+  @include p5;
+}
+
+.early-bird-review--trip-passenger-price {
+  @include smaller;
+  @include flex3;
+  @include align-right;
+}
+
+.early-bird-review--trip-passenger-name {
+  @include truncate;
+}

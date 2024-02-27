@@ -1,0 +1,54 @@
+{
+  "revision": "20150504141443396",
+  "airport_info": {
+    "id": "BWI",
+    "display_name": "Baltimore/Washington&#44; MD - BWI",
+    "airport_city_image": "/content/mkt/images/airport_info/BWI_aiport_info.jpg",
+    "airport_city_alt_text": "Picture representing BWI",
+    "alert": {
+      "active": true,
+      "icon": "/content/mkt/images/airport_info/travel_advisory.png",
+      "title": "Airport Alert",
+      "text": "<p>Additional international check-in counters&nbsp;are available at curbside 3 from 5am-9am.</p>"
+    },
+    "body": [
+      {
+        "title": "TERMINAL AND GATE",
+        "icon": "",
+        "icon_alt_text": "",
+        "heading": "Terminal A,B&C",
+        "text": "<p>Gates A:1-11  B:2-15  C:10,12,14<br /><ul><li>Fly By Checkin</li><li>Fly By Security</li><li>Express Bag Drop</li></ul>\n</p>"
+      },
+      {
+        "title": "TICKET COUNTER HOURS",
+        "icon": "/content/mkt/images/airport_info/bag_on_belt_icon.png",
+        "heading": "",
+        "text": "<p><strong>Sunday - Friday</strong></p>\n<p>Opens 180 minutes before first departure</p>\n<p><strong>Saturday</strong></p>\n<p>Opens 180 minutes before first departure</p>\n<ul>\n<li><strong>All bags must be checked 45 minutes prior to scheduled departure</strong></li>\n</ul>"
+      },
+      {
+        "title": "TSA",
+        "icon": "",
+        "heading": "<a href=\"http://apps.tsa.dhs.gov/mytsa/wait_times_detail.aspx\">Check current TSA wait times</a>",
+        "text": "<p>Don't forget your boarding pass or security documents, and a valid government-issued ID - the Transportation Security Administration (TSA) will need them at the security checkpoints.</p>"
+      },
+      {
+        "title": "TRAVEL TIPS",
+        "icon": "/content/mkt/images/airport_info/info_bubble_icon.png",
+        "heading": "Mon-Sun:",
+        "text": "<p>180 Minutes</p>"
+      },
+      {
+        "title": "AMENITIES",
+        "icon": "/content/mkt/images/airport_info/plug_icon.png",
+        "heading": "",
+        "text": "<p><ul><li>Power Station Available</li><li>Skycap</li><li>Airport Wifi Available</li></ul>\n</p>"
+      },
+      {
+        "title": "AIRPORT DETAILS",
+        "icon": "",
+        "heading": "",
+        "text": "<p><strong>Service Animal Relief Area:</strong>&nbsp;&nbsp;One Pet Relief Area is located at the end of Concourse E on the lower level outside door #19, near the International Terminal and adjacent to the light rail station. The second Pet Relief Area is located in front of the Hourly Garage. To access this location,&nbsp;use the B skywalk to the Hourly Garage, take the Tower B elevator down to Level 3,&nbsp;follow the white lined path to the right and look for a concrete wall opening and red awning overhead on the right-hand side.</p>\n<p>Learn more about <a href=\"//www.bwiairport.com/en\" target=\"_blank\">Baltimore/Washington International Airport</a></p>"
+      }
+    ]
+  }
+}

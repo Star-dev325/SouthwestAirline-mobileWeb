@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="homeNav.navDrawerTest"
+    errors="0" failures="0" hostname="" id="" package="homeNav" skipped="0"
+    tests="4" time="31.23" timestamp="Fri, 15 Dec 2023 01:48:46 GMT">
+  
+    <testcase name="Open nav drawer" classname="homeNav.navDrawerTest" time="26.30" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click Chase placement" classname="homeNav.navDrawerTest" time="2.047" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Open nav drawer again" classname="homeNav.navDrawerTest" time="2.624" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify Chase placement is still visible" classname="homeNav.navDrawerTest" time="0.2550" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

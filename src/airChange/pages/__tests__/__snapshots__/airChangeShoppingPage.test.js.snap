@@ -1,0 +1,4629 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`airChangeShoppingPage airChangeShoppingPageSpecs render Page Header should render correctly 1`] = `
+<div>
+  <div
+    class="air-change-shopping-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <div
+          class="flight-shopping-page--title"
+        >
+          <span
+            class="flight-shopping-page--bound-info"
+          >
+            Select Departing
+          </span>
+        </div>
+        <div
+          class="shopping-dropdown  button-dropdown"
+        >
+          <div
+            class="button-dropdown--select select-input formatted input"
+          >
+            <span
+              class="formatted-input formatted-input--fill"
+            >
+              <select
+                class="dropdown"
+                data-qa="select-dropdown"
+              >
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="departureTime"
+                >
+                  Depart Time
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="numberOfStops"
+                >
+                  Number of Stops
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="durationMinutes"
+                >
+                  Duration
+                </option>
+              </select>
+            </span>
+            <input
+              class=""
+              icon="caret-down"
+            />
+            <i
+              class="icon icon_caret-down"
+            />
+          </div>
+          <div
+            class="button-dropdown--label"
+          >
+            Sort
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+    <div
+      class="relative px4 calendar-strip"
+    >
+      <span
+        data-qa="calendar-strip-previous-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-left"
+        />
+      </span>
+      <ul
+        class="flex white bold calendar-strip--content"
+      >
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Wed, May 09
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item bgsdkblue white calendar-strip--item_active"
+        >
+          <p>
+            Thu, May 10
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Fri, May 11
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+      </ul>
+      <span
+        data-qa="calendar-strip-next-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-right"
+        />
+      </span>
+    </div>
+    <div
+      class="shopping-air-stations-overview"
+    >
+      <img
+        data-qa="ic-select-depart-img"
+        src="/content/mkt/images/landing_pages/ic-select-depart.svg"
+      />
+      <span
+        class="direction"
+      >
+        Depart
+        :
+      </span>
+      <span
+        data-qa="air-stations"
+      >
+        DAL
+        <i
+          class="air-stations--icon icon icon_airplane"
+        />
+        AUS
+      </span>
+    </div>
+    <div
+      class="px4"
+    >
+      <div
+        class="current-reservation-info"
+      >
+        <div
+          class="medium p4 pt6 white"
+        >
+          <div
+            class="bold"
+          >
+            Current Reservation
+          </div>
+          <div>
+            Fri, May 4, 2018
+          </div>
+        </div>
+        <div
+          class="rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container current-reservation-component"
+            data-qa="flightProducts"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            6:10
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            7:05
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                      data-qa="stop-description"
+                    >
+                      Nonstop
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                    data-qa="flight-duration-minutes"
+                  >
+                    0h 55m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container current-flight-info"
+              >
+                <div
+                  class="fare-content current-flight-info"
+                >
+                  <div>
+                    AIR_CHANGE__FLIGHT
+                  </div>
+                  <div
+                    class="bold pt2 xlarge"
+                    data-qa="flight-info"
+                  >
+                    127
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flight-shopping-page--products-container"
+    >
+      <div
+        class="px4"
+      >
+        <div
+          class="flight-shopping-explain"
+        >
+          <div
+            class="flight-shopping-explain--text"
+          >
+            <div
+              class="flight-shopping-explain--taxes"
+            >
+              <span>
+                Disclaimer text with 
+                <a
+                  href="google.com"
+                >
+                  a link
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="large bold px4 pt6 white"
+        data-qa="please-choose"
+      >
+        AIR_CHANGE__PLEASE_CHOOSE
+      </div>
+      <div
+        class="flight-shopping-page--product-card"
+      >
+        <div
+          class="flight-product-panel rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container"
+            data-qa="flightProducts"
+            data-testid="flightProducts"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            7:35
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            9:25
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                    >
+                      Nonstop
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                  >
+                    3h 50m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container"
+              >
+                <div
+                  class="fare-content"
+                  data-qa="regular-price-fare"
+                >
+                  <div>
+                    From
+                  </div>
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      218
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`airChangeShoppingPage airChangeShoppingPageSpecs render Page Header should sort options with default value paxType adult 1`] = `
+<div>
+  <div
+    class="air-change-shopping-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <div
+          class="flight-shopping-page--title"
+        >
+          <span
+            class="flight-shopping-page--bound-info"
+          >
+            Select Departing
+          </span>
+        </div>
+        <div
+          class="shopping-dropdown  button-dropdown"
+        >
+          <div
+            class="button-dropdown--select select-input formatted input"
+          >
+            <span
+              class="formatted-input formatted-input--fill"
+            >
+              <select
+                class="dropdown"
+                data-qa="select-dropdown"
+              >
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="departureTime"
+                >
+                  Depart Time
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="numberOfStops"
+                >
+                  Number of Stops
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="durationMinutes"
+                >
+                  Duration
+                </option>
+              </select>
+            </span>
+            <input
+              class=""
+              icon="caret-down"
+            />
+            <i
+              class="icon icon_caret-down"
+            />
+          </div>
+          <div
+            class="button-dropdown--label"
+          >
+            Sort
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+    <div
+      class="relative px4 calendar-strip"
+    >
+      <span
+        data-qa="calendar-strip-previous-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-left"
+        />
+      </span>
+      <ul
+        class="flex white bold calendar-strip--content"
+      >
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Wed, May 09
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item bgsdkblue white calendar-strip--item_active"
+        >
+          <p>
+            Thu, May 10
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Fri, May 11
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+      </ul>
+      <span
+        data-qa="calendar-strip-next-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-right"
+        />
+      </span>
+    </div>
+    <div
+      class="shopping-air-stations-overview"
+    >
+      <img
+        data-qa="ic-select-depart-img"
+        src="/content/mkt/images/landing_pages/ic-select-depart.svg"
+      />
+      <span
+        class="direction"
+      >
+        Depart
+        :
+      </span>
+      <span
+        data-qa="air-stations"
+      >
+        DAL
+        <i
+          class="air-stations--icon icon icon_airplane"
+        />
+        AUS
+      </span>
+    </div>
+    <div
+      class="px4"
+    >
+      <div
+        class="current-reservation-info"
+      >
+        <div
+          class="medium p4 pt6 white"
+        >
+          <div
+            class="bold"
+          >
+            Current Reservation
+          </div>
+          <div>
+            Fri, May 4, 2018
+          </div>
+        </div>
+        <div
+          class="rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container current-reservation-component"
+            data-qa="flightProducts"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            6:10
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            7:05
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                      data-qa="stop-description"
+                    >
+                      Nonstop
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                    data-qa="flight-duration-minutes"
+                  >
+                    0h 55m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container current-flight-info"
+              >
+                <div
+                  class="fare-content current-flight-info"
+                >
+                  <div>
+                    AIR_CHANGE__FLIGHT
+                  </div>
+                  <div
+                    class="bold pt2 xlarge"
+                    data-qa="flight-info"
+                  >
+                    127
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flight-shopping-page--products-container"
+    >
+      <div
+        class="px4"
+      >
+        <div
+          class="flight-shopping-explain"
+        >
+          <div
+            class="flight-shopping-explain--text"
+          >
+            <div
+              class="flight-shopping-explain--taxes"
+            >
+              <span>
+                Disclaimer text with 
+                <a
+                  href="google.com"
+                >
+                  a link
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="large bold px4 pt6 white"
+        data-qa="please-choose"
+      >
+        AIR_CHANGE__PLEASE_CHOOSE
+      </div>
+      <div
+        class="flight-shopping-page--product-card"
+      >
+        <div
+          class="flight-product-panel rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container"
+            data-qa="flightProducts"
+            data-testid="flightProducts"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            7:35
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            9:25
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                    >
+                      Nonstop
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                  >
+                    3h 50m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container"
+              >
+                <div
+                  class="fare-content"
+                  data-qa="regular-price-fare"
+                >
+                  <div>
+                    From
+                  </div>
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      218
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`airChangeShoppingPage airChangeShoppingPageSpecs render Query Params for air change should render correctly Query Params for air change 1`] = `
+<div>
+  <div
+    class="air-change-shopping-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <div
+          class="flight-shopping-page--title"
+        >
+          <span
+            class="flight-shopping-page--bound-info"
+          >
+            Select Departing
+          </span>
+        </div>
+        <div
+          class="shopping-dropdown  button-dropdown"
+        >
+          <div
+            class="button-dropdown--select select-input formatted input"
+          >
+            <span
+              class="formatted-input formatted-input--fill"
+            >
+              <select
+                class="dropdown"
+                data-qa="select-dropdown"
+              >
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="departureTime"
+                >
+                  Depart Time
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="numberOfStops"
+                >
+                  Number of Stops
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="durationMinutes"
+                >
+                  Duration
+                </option>
+              </select>
+            </span>
+            <input
+              class=""
+              icon="caret-down"
+            />
+            <i
+              class="icon icon_caret-down"
+            />
+          </div>
+          <div
+            class="button-dropdown--label"
+          >
+            Sort
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+    <div
+      class="relative px4 calendar-strip"
+    >
+      <span
+        data-qa="calendar-strip-previous-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-left"
+        />
+      </span>
+      <ul
+        class="flex white bold calendar-strip--content"
+      >
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Wed, May 09
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item bgsdkblue white calendar-strip--item_active"
+        >
+          <p>
+            Thu, May 10
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Fri, May 11
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+      </ul>
+      <span
+        data-qa="calendar-strip-next-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-right"
+        />
+      </span>
+    </div>
+    <div
+      class="shopping-air-stations-overview"
+    >
+      <img
+        data-qa="ic-select-depart-img"
+        src="/content/mkt/images/landing_pages/ic-select-depart.svg"
+      />
+      <span
+        class="direction"
+      >
+        Depart
+        :
+      </span>
+      <span
+        data-qa="air-stations"
+      >
+        DAL
+        <i
+          class="air-stations--icon icon icon_airplane"
+        />
+        AUS
+      </span>
+    </div>
+    <div
+      class="px4"
+    >
+      <div
+        class="current-reservation-info"
+      >
+        <div
+          class="medium p4 pt6 white"
+        >
+          <div
+            class="bold"
+          >
+            Current Reservation
+          </div>
+          <div>
+            Fri, May 4, 2018
+          </div>
+        </div>
+        <div
+          class="rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container current-reservation-component"
+            data-qa="flightProducts"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            6:10
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            7:05
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                      data-qa="stop-description"
+                    >
+                      Nonstop
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                    data-qa="flight-duration-minutes"
+                  >
+                    0h 55m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container current-flight-info"
+              >
+                <div
+                  class="fare-content current-flight-info"
+                >
+                  <div>
+                    AIR_CHANGE__FLIGHT
+                  </div>
+                  <div
+                    class="bold pt2 xlarge"
+                    data-qa="flight-info"
+                  >
+                    127
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flight-shopping-page--products-container"
+    >
+      <div
+        class="px4"
+      >
+        <div
+          class="flight-shopping-explain"
+        >
+          <div
+            class="flight-shopping-explain--text"
+          >
+            <div
+              class="flight-shopping-explain--taxes"
+            >
+              <span>
+                Disclaimer text with 
+                <a
+                  href="google.com"
+                >
+                  a link
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="large bold px4 pt6 white"
+        data-qa="please-choose"
+      >
+        AIR_CHANGE__PLEASE_CHOOSE
+      </div>
+      <div
+        class="flight-shopping-page--product-card"
+      >
+        <div
+          class="flight-product-panel rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container"
+            data-qa="flightProducts"
+            data-testid="flightProducts"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            7:35
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            9:25
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                    >
+                      Nonstop
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                  >
+                    3h 50m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container"
+              >
+                <div
+                  class="fare-content"
+                  data-qa="regular-price-fare"
+                >
+                  <div>
+                    From
+                  </div>
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      218
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`airChangeShoppingPage airChangeShoppingPageSpecs render Reaccom Flights - isReaccom true should render a list of reaccom flight products 1`] = `
+<div>
+  <div
+    class="air-change-shopping-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <div
+          class="flight-shopping-page--title"
+        >
+          <span
+            class="flight-shopping-page--bound-info"
+          >
+            Select Departing
+          </span>
+        </div>
+        <div
+          class="shopping-dropdown  button-dropdown"
+        >
+          <div
+            class="button-dropdown--select select-input formatted input"
+          >
+            <span
+              class="formatted-input formatted-input--fill"
+            >
+              <select
+                class="dropdown"
+                data-qa="select-dropdown"
+              >
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="departureTime"
+                >
+                  Depart Time
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="numberOfStops"
+                >
+                  Number of Stops
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="durationMinutes"
+                >
+                  Duration
+                </option>
+              </select>
+            </span>
+            <input
+              class=""
+              icon="caret-down"
+            />
+            <i
+              class="icon icon_caret-down"
+            />
+          </div>
+          <div
+            class="button-dropdown--label"
+          >
+            Sort
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+    <div
+      class="relative px4 calendar-strip"
+    >
+      <span
+        data-qa="calendar-strip-previous-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-left"
+        />
+      </span>
+      <ul
+        class="flex white bold calendar-strip--content"
+      >
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Wed, May 09
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item bgsdkblue white calendar-strip--item_active"
+        >
+          <p>
+            Thu, May 10
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Fri, May 11
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+      </ul>
+      <span
+        data-qa="calendar-strip-next-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-right"
+        />
+      </span>
+    </div>
+    <div
+      class="bold white p4 px6"
+      data-qa="reaccom-current-bounds-message"
+    >
+      AIR_CHANGE__REACCOM_SHOPPING__REACCOM_CURRENT_BOUNDS_MESSAGE
+    </div>
+    <div
+      class="shopping-air-stations-overview"
+    >
+      <img
+        data-qa="ic-select-depart-img"
+        src="/content/mkt/images/landing_pages/ic-select-depart.svg"
+      />
+      <span
+        class="direction"
+      >
+        Depart
+        :
+      </span>
+      <span
+        data-qa="air-stations"
+      >
+        DAL
+        <i
+          class="air-stations--icon icon icon_airplane"
+        />
+        AUS
+      </span>
+    </div>
+    <div
+      class="px4"
+    >
+      <div
+        class="current-reservation-info"
+      >
+        <div
+          class="medium p4 pt6 white"
+        >
+          <div
+            class="bold"
+          >
+            Current Reservation
+          </div>
+          <div>
+            Fri, May 4, 2018
+          </div>
+        </div>
+        <div
+          class="rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container current-reservation-component"
+            data-qa="flightProducts"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            6:10
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            7:05
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                      data-qa="stop-description"
+                    >
+                      Nonstop
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                    data-qa="flight-duration-minutes"
+                  >
+                    0h 55m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container current-flight-info"
+              >
+                <div
+                  class="fare-content current-flight-info"
+                >
+                  <div>
+                    AIR_CHANGE__FLIGHT
+                  </div>
+                  <div
+                    class="bold pt2 xlarge"
+                    data-qa="flight-info"
+                  >
+                    127
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flight-shopping-page--products-container"
+    >
+      <div
+        class="large bold px4 pt6 white"
+        data-qa="please-choose-reaccom"
+      >
+        AIR_CHANGE__REACCOM_SHOPPING__REACCOM_SELECT_FLIGHT_MESSAGE
+      </div>
+      <div
+        class="flight-shopping-page--product-card"
+      >
+        <div
+          class="flight-product-panel rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container"
+            data-qa="flightProducts"
+            data-testid="reaccom-flight-product"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            10:40
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            11:40
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                      data-qa="stop-description"
+                    >
+                      1 Stop
+                    </span>
+                    <span
+                      data-qa="stop-city"
+                    >
+                      , 
+                      DAL
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                    data-qa="flight-duration-minutes"
+                  >
+                    1h 0m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="reaccom-is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container"
+              >
+                <div
+                  class="fare-content reaccom"
+                >
+                  <div
+                    class="regular"
+                  >
+                    FLIGHT
+                  </div>
+                  <div
+                    class="bold pt2 xlarge"
+                    data-qa="flight-info"
+                  >
+                    519
+                    /1134
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flight-shopping-page--product-card"
+      >
+        <div
+          class="flight-product-panel rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container"
+            data-qa="flightProducts"
+            data-testid="reaccom-flight-product"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            10:40
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            11:40
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                      data-qa="stop-description"
+                    >
+                      Nontop
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                    data-qa="flight-duration-minutes"
+                  >
+                    1h 0m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="reaccom-is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container"
+              >
+                <div
+                  class="fare-content reaccom"
+                >
+                  <div
+                    class="regular"
+                  >
+                    FLIGHT
+                  </div>
+                  <div
+                    class="bold pt2 xlarge"
+                    data-qa="flight-info"
+                  >
+                    462
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`airChangeShoppingPage airChangeShoppingPageSpecs render SGA message should show SGA message in BasicBanner when the flight need to show SGA message 1`] = `
+<div>
+  <div
+    class="air-change-shopping-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <div
+          class="flight-shopping-page--title"
+        >
+          <span
+            class="flight-shopping-page--bound-info"
+          >
+            Select Departing
+          </span>
+        </div>
+        <div
+          class="shopping-dropdown  button-dropdown"
+        >
+          <div
+            class="button-dropdown--select select-input formatted input"
+          >
+            <span
+              class="formatted-input formatted-input--fill"
+            >
+              <select
+                class="dropdown"
+                data-qa="select-dropdown"
+              >
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="departureTime"
+                >
+                  Depart Time
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="numberOfStops"
+                >
+                  Number of Stops
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="durationMinutes"
+                >
+                  Duration
+                </option>
+              </select>
+            </span>
+            <input
+              class=""
+              icon="caret-down"
+            />
+            <i
+              class="icon icon_caret-down"
+            />
+          </div>
+          <div
+            class="button-dropdown--label"
+          >
+            Sort
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+    <div>
+      <div
+        class="basic-banner flight-shopping-page--basic-banner"
+      >
+        <div
+          class="banner-container"
+        >
+          <b
+            class="banner-container--title"
+          >
+            Subject to Government Approval
+          </b>
+          <em
+            class="banner-container--subtitle"
+          >
+            Southwest is currently awaiting government approval for this route. We anticipate approval to be granted shortly with no impact to your travel plans.
+          </em>
+        </div>
+      </div>
+    </div>
+    <div
+      class="relative px4 calendar-strip"
+    >
+      <span
+        data-qa="calendar-strip-previous-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-left"
+        />
+      </span>
+      <ul
+        class="flex white bold calendar-strip--content"
+      >
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Wed, May 09
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item bgsdkblue white calendar-strip--item_active"
+        >
+          <p>
+            Thu, May 10
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Fri, May 11
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+      </ul>
+      <span
+        data-qa="calendar-strip-next-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-right"
+        />
+      </span>
+    </div>
+    <div
+      class="shopping-air-stations-overview"
+    >
+      <img
+        data-qa="ic-select-depart-img"
+        src="/content/mkt/images/landing_pages/ic-select-depart.svg"
+      />
+      <span
+        class="direction"
+      >
+        Depart
+        :
+      </span>
+      <span
+        data-qa="air-stations"
+      >
+        DAL
+        <i
+          class="air-stations--icon icon icon_airplane"
+        />
+        AUS
+      </span>
+    </div>
+    <div
+      class="px4"
+    >
+      <div
+        class="current-reservation-info"
+      >
+        <div
+          class="medium p4 pt6 white"
+        >
+          <div
+            class="bold"
+          >
+            Current Reservation
+          </div>
+          <div>
+            Fri, May 4, 2018
+          </div>
+        </div>
+        <div
+          class="rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container current-reservation-component"
+            data-qa="flightProducts"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            6:10
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            7:05
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                      data-qa="stop-description"
+                    >
+                      Nonstop
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                    data-qa="flight-duration-minutes"
+                  >
+                    0h 55m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container current-flight-info"
+              >
+                <div
+                  class="fare-content current-flight-info"
+                >
+                  <div>
+                    AIR_CHANGE__FLIGHT
+                  </div>
+                  <div
+                    class="bold pt2 xlarge"
+                    data-qa="flight-info"
+                  >
+                    127
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flight-shopping-page--products-container"
+    >
+      <div
+        class="px4"
+      >
+        <div
+          class="flight-shopping-explain"
+        >
+          <div
+            class="flight-shopping-explain--text"
+          >
+            <div
+              class="flight-shopping-explain--taxes"
+            >
+              <span>
+                Disclaimer text with 
+                <a
+                  href="google.com"
+                >
+                  a link
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="large bold px4 pt6 white"
+        data-qa="please-choose"
+      >
+        AIR_CHANGE__PLEASE_CHOOSE
+      </div>
+      <div
+        class="flight-shopping-page--product-card"
+      >
+        <div
+          class="flight-product-panel rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container"
+            data-qa="flightProducts"
+            data-testid="flightProducts"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            7:35
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            9:25
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                    >
+                      Nonstop
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                  >
+                    3h 50m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container"
+              >
+                <div
+                  class="fare-content"
+                  data-qa="regular-price-fare"
+                >
+                  <div>
+                    From
+                  </div>
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      218
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`airChangeShoppingPage airChangeShoppingPageSpecs render calendar strip warning icon should not show warning icon when date is not within dynamic waiver date range 1`] = `
+<div>
+  <div
+    class="air-change-shopping-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <div
+          class="flight-shopping-page--title"
+        >
+          <span
+            class="flight-shopping-page--bound-info"
+          >
+            Select Departing
+          </span>
+        </div>
+        <div
+          class="shopping-dropdown  button-dropdown"
+        >
+          <div
+            class="button-dropdown--select select-input formatted input"
+          >
+            <span
+              class="formatted-input formatted-input--fill"
+            >
+              <select
+                class="dropdown"
+                data-qa="select-dropdown"
+              >
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="departureTime"
+                >
+                  Depart Time
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="numberOfStops"
+                >
+                  Number of Stops
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="durationMinutes"
+                >
+                  Duration
+                </option>
+              </select>
+            </span>
+            <input
+              class=""
+              icon="caret-down"
+            />
+            <i
+              class="icon icon_caret-down"
+            />
+          </div>
+          <div
+            class="button-dropdown--label"
+          >
+            Sort
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+    <div
+      class="relative px4 calendar-strip"
+    >
+      <span
+        data-qa="calendar-strip-previous-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-left"
+        />
+      </span>
+      <ul
+        class="flex white bold calendar-strip--content"
+      >
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Wed, May 09
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item bgsdkblue white calendar-strip--item_active"
+        >
+          <p>
+            Thu, May 10
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Fri, May 11
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+      </ul>
+      <span
+        data-qa="calendar-strip-next-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-right"
+        />
+      </span>
+    </div>
+    <div
+      class="shopping-air-stations-overview"
+    >
+      <img
+        data-qa="ic-select-depart-img"
+        src="/content/mkt/images/landing_pages/ic-select-depart.svg"
+      />
+      <span
+        class="direction"
+      >
+        Depart
+        :
+      </span>
+      <span
+        data-qa="air-stations"
+      >
+        DAL
+        <i
+          class="air-stations--icon icon icon_airplane"
+        />
+        AUS
+      </span>
+    </div>
+    <div
+      class="px4"
+    >
+      <div
+        class="current-reservation-info"
+      >
+        <div
+          class="medium p4 pt6 white"
+        >
+          <div
+            class="bold"
+          >
+            Current Reservation
+          </div>
+          <div>
+            Fri, May 4, 2018
+          </div>
+        </div>
+        <div
+          class="rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container current-reservation-component"
+            data-qa="flightProducts"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            6:10
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            7:05
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                      data-qa="stop-description"
+                    >
+                      Nonstop
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                    data-qa="flight-duration-minutes"
+                  >
+                    0h 55m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container current-flight-info"
+              >
+                <div
+                  class="fare-content current-flight-info"
+                >
+                  <div>
+                    AIR_CHANGE__FLIGHT
+                  </div>
+                  <div
+                    class="bold pt2 xlarge"
+                    data-qa="flight-info"
+                  >
+                    127
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flight-shopping-page--products-container"
+    >
+      <div
+        class="px4"
+      >
+        <div
+          class="flight-shopping-explain"
+        >
+          <div
+            class="flight-shopping-explain--text"
+          >
+            <div
+              class="flight-shopping-explain--taxes"
+            >
+              <span>
+                Disclaimer text with 
+                <a
+                  href="google.com"
+                >
+                  a link
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="large bold px4 pt6 white"
+        data-qa="please-choose"
+      >
+        AIR_CHANGE__PLEASE_CHOOSE
+      </div>
+      <div
+        class="flight-shopping-page--product-card"
+      >
+        <div
+          class="flight-product-panel rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container"
+            data-qa="flightProducts"
+            data-testid="flightProducts"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            7:35
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            9:25
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                    >
+                      Nonstop
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                  >
+                    3h 50m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container"
+              >
+                <div
+                  class="fare-content"
+                  data-qa="regular-price-fare"
+                >
+                  <div>
+                    From
+                  </div>
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      218
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`airChangeShoppingPage airChangeShoppingPageSpecs render calendar strip warning icon should show warning icon when shouldHideWarningIcon is false and date is within dynamic waiver date range 1`] = `
+<div>
+  <div
+    class="air-change-shopping-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <div
+          class="flight-shopping-page--title"
+        >
+          <span
+            class="flight-shopping-page--bound-info"
+          >
+            Select Departing
+          </span>
+        </div>
+        <div
+          class="shopping-dropdown  button-dropdown"
+        >
+          <div
+            class="button-dropdown--select select-input formatted input"
+          >
+            <span
+              class="formatted-input formatted-input--fill"
+            >
+              <select
+                class="dropdown"
+                data-qa="select-dropdown"
+              >
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="departureTime"
+                >
+                  Depart Time
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="numberOfStops"
+                >
+                  Number of Stops
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="durationMinutes"
+                >
+                  Duration
+                </option>
+              </select>
+            </span>
+            <input
+              class=""
+              icon="caret-down"
+            />
+            <i
+              class="icon icon_caret-down"
+            />
+          </div>
+          <div
+            class="button-dropdown--label"
+          >
+            Sort
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+    <div
+      class="relative px4 calendar-strip"
+    >
+      <span
+        data-qa="calendar-strip-previous-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-left"
+        />
+      </span>
+      <ul
+        class="flex white bold calendar-strip--content"
+      >
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Wed, May 09
+          </p>
+          <i
+            class="sltblue icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item bgsdkblue white calendar-strip--item_active"
+        >
+          <p>
+            Thu, May 10
+          </p>
+          <i
+            class="sltblue icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Fri, May 11
+          </p>
+          <i
+            class="sltblue icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+      </ul>
+      <span
+        data-qa="calendar-strip-next-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-right"
+        />
+      </span>
+    </div>
+    <div
+      class="shopping-air-stations-overview"
+    >
+      <img
+        data-qa="ic-select-depart-img"
+        src="/content/mkt/images/landing_pages/ic-select-depart.svg"
+      />
+      <span
+        class="direction"
+      >
+        Depart
+        :
+      </span>
+      <span
+        data-qa="air-stations"
+      >
+        DAL
+        <i
+          class="air-stations--icon icon icon_airplane"
+        />
+        AUS
+      </span>
+    </div>
+    <div
+      class="px4"
+    >
+      <div
+        class="current-reservation-info"
+      >
+        <div
+          class="medium p4 pt6 white"
+        >
+          <div
+            class="bold"
+          >
+            Current Reservation
+          </div>
+          <div>
+            Fri, May 4, 2018
+          </div>
+        </div>
+        <div
+          class="rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container current-reservation-component"
+            data-qa="flightProducts"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            6:10
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            7:05
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                      data-qa="stop-description"
+                    >
+                      Nonstop
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                    data-qa="flight-duration-minutes"
+                  >
+                    0h 55m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container current-flight-info"
+              >
+                <div
+                  class="fare-content current-flight-info"
+                >
+                  <div>
+                    AIR_CHANGE__FLIGHT
+                  </div>
+                  <div
+                    class="bold pt2 xlarge"
+                    data-qa="flight-info"
+                  >
+                    127
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flight-shopping-page--products-container"
+    >
+      <div
+        class="px4"
+      >
+        <div
+          class="flight-shopping-explain"
+        >
+          <div
+            class="flight-shopping-explain--text"
+          >
+            <div
+              class="flight-shopping-explain--taxes"
+            >
+              <span>
+                Disclaimer text with 
+                <a
+                  href="google.com"
+                >
+                  a link
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="large bold px4 pt6 white"
+        data-qa="please-choose"
+      >
+        AIR_CHANGE__PLEASE_CHOOSE
+      </div>
+      <div
+        class="flight-shopping-page--product-card"
+      >
+        <div
+          class="flight-product-panel rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container"
+            data-qa="flightProducts"
+            data-testid="flightProducts"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            7:35
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            9:25
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                    >
+                      Nonstop
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                  >
+                    3h 50m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container"
+              >
+                <div
+                  class="fare-content"
+                  data-qa="regular-price-fare"
+                >
+                  <div>
+                    From
+                  </div>
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      218
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`airChangeShoppingPage airChangeShoppingPageSpecs render reaccom scenario - isReaccom true should render page header 1`] = `
+<div>
+  <div
+    class="air-change-shopping-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <div
+          class="flight-shopping-page--title"
+        >
+          <span
+            class="flight-shopping-page--bound-info"
+          >
+            Select Departing
+          </span>
+        </div>
+        <div
+          class="shopping-dropdown  button-dropdown"
+        >
+          <div
+            class="button-dropdown--select select-input formatted input"
+          >
+            <span
+              class="formatted-input formatted-input--fill"
+            >
+              <select
+                class="dropdown"
+                data-qa="select-dropdown"
+              >
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="departureTime"
+                >
+                  Depart Time
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="numberOfStops"
+                >
+                  Number of Stops
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="durationMinutes"
+                >
+                  Duration
+                </option>
+              </select>
+            </span>
+            <input
+              class=""
+              icon="caret-down"
+            />
+            <i
+              class="icon icon_caret-down"
+            />
+          </div>
+          <div
+            class="button-dropdown--label"
+          >
+            Sort
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+    <div
+      class="relative px4 calendar-strip"
+    >
+      <span
+        data-qa="calendar-strip-previous-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-left"
+        />
+      </span>
+      <ul
+        class="flex white bold calendar-strip--content"
+      >
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Wed, May 09
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item bgsdkblue white calendar-strip--item_active"
+        >
+          <p>
+            Thu, May 10
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Fri, May 11
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+      </ul>
+      <span
+        data-qa="calendar-strip-next-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-right"
+        />
+      </span>
+    </div>
+    <div
+      class="bold white p4 px6"
+      data-qa="reaccom-current-bounds-message"
+    >
+      AIR_CHANGE__REACCOM_SHOPPING__REACCOM_CURRENT_BOUNDS_MESSAGE
+    </div>
+    <div
+      class="shopping-air-stations-overview"
+    >
+      <img
+        data-qa="ic-select-depart-img"
+        src="/content/mkt/images/landing_pages/ic-select-depart.svg"
+      />
+      <span
+        class="direction"
+      >
+        Depart
+        :
+      </span>
+      <span
+        data-qa="air-stations"
+      >
+        DAL
+        <i
+          class="air-stations--icon icon icon_airplane"
+        />
+        AUS
+      </span>
+    </div>
+    <div
+      class="px4"
+    >
+      <div
+        class="current-reservation-info"
+      >
+        <div
+          class="medium p4 pt6 white"
+        >
+          <div
+            class="bold"
+          >
+            Current Reservation
+          </div>
+          <div>
+            Fri, May 4, 2018
+          </div>
+        </div>
+        <div
+          class="rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container current-reservation-component"
+            data-qa="flightProducts"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            6:10
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            7:05
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                      data-qa="stop-description"
+                    >
+                      Nonstop
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                    data-qa="flight-duration-minutes"
+                  >
+                    0h 55m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container current-flight-info"
+              >
+                <div
+                  class="fare-content current-flight-info"
+                >
+                  <div>
+                    AIR_CHANGE__FLIGHT
+                  </div>
+                  <div
+                    class="bold pt2 xlarge"
+                    data-qa="flight-info"
+                  >
+                    127
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flight-shopping-page--products-container"
+    >
+      <div
+        class="large bold px4 pt6 white"
+        data-qa="please-choose-reaccom"
+      >
+        AIR_CHANGE__REACCOM_SHOPPING__REACCOM_SELECT_FLIGHT_MESSAGE
+      </div>
+      <div
+        class="flight-shopping-page--product-card"
+      >
+        <div
+          class="flight-product-panel rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container"
+            data-qa="flightProducts"
+            data-testid="reaccom-flight-product"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            10:40
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            11:40
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                      data-qa="stop-description"
+                    >
+                      1 Stop
+                    </span>
+                    <span
+                      data-qa="stop-city"
+                    >
+                      , 
+                      DAL
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                    data-qa="flight-duration-minutes"
+                  >
+                    1h 0m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="reaccom-is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container"
+              >
+                <div
+                  class="fare-content reaccom"
+                >
+                  <div
+                    class="regular"
+                  >
+                    FLIGHT
+                  </div>
+                  <div
+                    class="bold pt2 xlarge"
+                    data-qa="flight-info"
+                  >
+                    519
+                    /1134
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`airChangeShoppingPage airChangeShoppingPageSpecs render should show dynamic waiver message in BasicBanner when business select is not available 1`] = `
+<div>
+  <div
+    class="air-change-shopping-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <div
+          class="flight-shopping-page--title"
+        >
+          <span
+            class="flight-shopping-page--bound-info"
+          >
+            Select Departing
+          </span>
+        </div>
+        <div
+          class="shopping-dropdown  button-dropdown"
+        >
+          <div
+            class="button-dropdown--select select-input formatted input"
+          >
+            <span
+              class="formatted-input formatted-input--fill"
+            >
+              <select
+                class="dropdown"
+                data-qa="select-dropdown"
+              >
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="departureTime"
+                >
+                  Depart Time
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="numberOfStops"
+                >
+                  Number of Stops
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="durationMinutes"
+                >
+                  Duration
+                </option>
+              </select>
+            </span>
+            <input
+              class=""
+              icon="caret-down"
+            />
+            <i
+              class="icon icon_caret-down"
+            />
+          </div>
+          <div
+            class="button-dropdown--label"
+          >
+            Sort
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+    <div>
+      <div
+        class="basic-banner flight-shopping-page--basic-banner"
+      >
+        <div
+          class="banner-container"
+        >
+          <b
+            class="banner-container--title"
+          >
+            Please select a flight.
+          </b>
+          <em
+            class="banner-container--subtitle"
+          >
+            You will loose your business select benefits.
+          </em>
+        </div>
+      </div>
+    </div>
+    <div
+      class="relative px4 calendar-strip"
+    >
+      <span
+        data-qa="calendar-strip-previous-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-left"
+        />
+      </span>
+      <ul
+        class="flex white bold calendar-strip--content"
+      >
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Wed, May 09
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item bgsdkblue white calendar-strip--item_active"
+        >
+          <p>
+            Thu, May 10
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+        <li
+          class="block center bgpblue calendar-strip--item"
+        >
+          <p>
+            Fri, May 11
+          </p>
+          <i
+            class="sltblue hide icon icon_travel-alert"
+            data-qa="calendar-strip--warning-icon"
+          />
+        </li>
+      </ul>
+      <span
+        data-qa="calendar-strip-next-dates"
+      >
+        <i
+          class="yellow icon icon_keyboard-arrow-right"
+        />
+      </span>
+    </div>
+    <div
+      class="shopping-air-stations-overview"
+    >
+      <img
+        data-qa="ic-select-depart-img"
+        src="/content/mkt/images/landing_pages/ic-select-depart.svg"
+      />
+      <span
+        class="direction"
+      >
+        Depart
+        :
+      </span>
+      <span
+        data-qa="air-stations"
+      >
+        DAL
+        <i
+          class="air-stations--icon icon icon_airplane"
+        />
+        AUS
+      </span>
+    </div>
+    <div
+      class="px4"
+    >
+      <div
+        class="current-reservation-info"
+      >
+        <div
+          class="medium p4 pt6 white"
+        >
+          <div
+            class="bold"
+          >
+            Current Reservation
+          </div>
+          <div>
+            Fri, May 4, 2018
+          </div>
+        </div>
+        <div
+          class="rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container current-reservation-component"
+            data-qa="flightProducts"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            6:10
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            7:05
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                      data-qa="stop-description"
+                    >
+                      Nonstop
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                    data-qa="flight-duration-minutes"
+                  >
+                    0h 55m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container current-flight-info"
+              >
+                <div
+                  class="fare-content current-flight-info"
+                >
+                  <div>
+                    AIR_CHANGE__FLIGHT
+                  </div>
+                  <div
+                    class="bold pt2 xlarge"
+                    data-qa="flight-info"
+                  >
+                    127
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flight-shopping-page--products-container"
+    >
+      <div
+        class="px4"
+      >
+        <div
+          class="flight-shopping-explain"
+        >
+          <div
+            class="flight-shopping-explain--text"
+          >
+            <div
+              class="flight-shopping-explain--taxes"
+            >
+              <span>
+                Disclaimer text with 
+                <a
+                  href="google.com"
+                >
+                  a link
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="large bold px4 pt6 white"
+        data-qa="please-choose"
+      >
+        AIR_CHANGE__PLEASE_CHOOSE
+      </div>
+      <div
+        class="flight-shopping-page--product-card"
+      >
+        <div
+          class="flight-product-panel rd2 px3 py4 bgwhite"
+          data-qa="flightProductItem"
+        >
+          <div
+            class="flight-product--container"
+            data-qa="flightProducts"
+            data-testid="flightProducts"
+          >
+            <div
+              class="main-col"
+            >
+              <div
+                class="flight-times flight-times_stretched"
+              >
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Departs
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            7:35
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flight-times--col flight-times-icon"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="flight-times--col flight-times--col-label"
+                >
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      Arrives
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            9:25
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-data"
+              >
+                <div
+                  class="flags"
+                >
+                  <div
+                    class="data-object stops-flag"
+                  >
+                    <span
+                      class="stops"
+                    >
+                      Nonstop
+                    </span>
+                  </div>
+                  <div
+                    class="time-info data-object"
+                  >
+                    3h 50m
+                  </div>
+                  <div
+                    class="time-info data-object next-day-overnight"
+                    data-qa="is-next-day-or-overnight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="fare-col"
+            >
+              <div
+                class="fare-container"
+              >
+                <div
+                  class="fare-content"
+                  data-qa="regular-price-fare"
+                >
+                  <div>
+                    From
+                  </div>
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      218
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

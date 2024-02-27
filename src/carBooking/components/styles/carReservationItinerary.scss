@@ -1,0 +1,85 @@
+.car-reservation-itinerary {
+  .pick-up--icon,
+  .return--icon {
+    @include relative;
+    @include table-cell;
+    @include align-middle;
+  }
+
+  .icon-wrapper_black {
+    @include bgpdkblue;
+    z-index: 2;
+  }
+
+  .icon-wrapper_green {
+    @include bggreen;
+    z-index: 2;
+  }
+
+  .label-container--content {
+    @include mt0;
+  }
+
+  .pick-up--date,
+  .return--date {
+    @include table-cell;
+    @include align-top;
+    width: 35%;
+  }
+
+  .pick-up--location,
+  .return--location {
+    @include table-cell;
+    @include align-middle;
+    width: 55%;
+
+    .label-container--label {
+      text-transform: initial;
+    }
+  }
+
+  .line-wrapper {
+    @include relative;
+    @include table-cell;
+    width: 10%;
+  }
+
+  .line--horizontal {
+    @include absolute;
+    @include bdt;
+    @include gray5;
+    width: 80%;
+    top: 50%;
+    left: 10%;
+  }
+
+  .line--vertical {
+    @include absolute;
+    @include table-cell;
+    @include fullheight;
+    @include bd;
+    @include bdsltblue;
+    border-width: 0.2rem;
+    left: 50%;
+    margin-left: -0.1rem;
+    z-index: 1;
+  }
+
+  .line--vertical_top {
+    top: 50%;
+  }
+
+  .line--vertical_bottom {
+    top: -50%;
+  }
+}
+
+.car-reservation-itinerary--pick-up,
+.car-reservation-itinerary--drop-off {
+  @include pb6;
+  @include table;
+
+  .label-container--label {
+    text-transform: capitalize;
+  }
+}

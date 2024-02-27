@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="12">
+
+  <testsuite name="airCancel.airCancelOneBoundOneTapCheckInTest"
+    errors="0" failures="0" hostname="" id="" package="airCancel" skipped="0"
+    tests="12" time="52.78" timestamp="Fri, 15 Dec 2023 00:57:14 GMT">
+  
+    <testcase name="Go to view reservations from home page" classname="airCancel.airCancelOneBoundOneTapCheckInTest" time="32.03" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View flight reservation through with confirmation number" classname="airCancel.airCancelOneBoundOneTapCheckInTest" time="5.617" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Choose the cancel flight option" classname="airCancel.airCancelOneBoundOneTapCheckInTest" time="2.543" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select the outbound to cancel" classname="airCancel.airCancelOneBoundOneTapCheckInTest" time="1.338" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="cancel the flight" classname="airCancel.airCancelOneBoundOneTapCheckInTest" time="1.319" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify air cancel confirmation and check in" classname="airCancel.airCancelOneBoundOneTapCheckInTest" time="0.6990" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check in confirmation page" classname="airCancel.airCancelOneBoundOneTapCheckInTest" time="3.203" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click on 1st boarding pass" classname="airCancel.airCancelOneBoundOneTapCheckInTest" time="2.867" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Hazmat Declaration page and tap on Disagree button" classname="airCancel.airCancelOneBoundOneTapCheckInTest" time="1.005" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Check in confirmation page on Disagree and tap Boarding Pass" classname="airCancel.airCancelOneBoundOneTapCheckInTest" time="1.411" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Hazmat Declaration page and tap Continue button" classname="airCancel.airCancelOneBoundOneTapCheckInTest" time="0.6160" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Boarding Pass page" classname="airCancel.airCancelOneBoundOneTapCheckInTest" time="0.1300" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

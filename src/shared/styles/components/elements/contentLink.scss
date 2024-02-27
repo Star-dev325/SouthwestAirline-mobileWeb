@@ -1,0 +1,9 @@
+.button--link {
+  @include pblue;
+  @include background-inherit;
+  @include border-none;
+
+  &:hover {
+    color: $sltblue-hover;
+  }
+}

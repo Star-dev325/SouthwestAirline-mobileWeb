@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AirChangeReaccomConfirmForm render should have confirm button 1`] = `
+<div>
+  <form
+    class="air-change-reaccom-form form"
+    name="airChangeReaccomForm"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="air-change-reaccom-form--submit"
+      >
+        <div
+          class="air-change-reaccom-form--disclaimer"
+          data-qa="air-change--hazmat-disclaimer"
+        >
+          AIR_CHANGE__REACCOM_SHOPPING__REACCOM_CONDITIONS
+        </div>
+        <button
+          class="reaccom-confirm-change button button--fluid larger button--yellow"
+          data-qa="air-reaccom-confirm-change-button"
+          type="submit"
+        >
+          AIR_CHANGE__REACCOM_SHOPPING__CONFIRM_CHANGE
+        </button>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirChangeReaccomConfirmForm render should show email receipt field when needsEmailAddress is true 1`] = `
+<div>
+  <form
+    class="air-change-reaccom-form form"
+    name="airChangeReaccomForm"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="air-change-reaccom-form--receipt-email"
+      >
+        <div
+          class="mb4"
+        >
+          <div
+            class="fields form-fields--receipt-email grouped"
+          >
+            <label
+              class="fields--label"
+            >
+              AIR_CHANGE__PRICE_DIFFERENCE__EMAIL_RECEIPT_TO
+            </label>
+            <div
+              class="field"
+            >
+              <div
+                class="air-change-reaccom-form--receipt-email-field input"
+              >
+                <input
+                  class=""
+                  name="fulfillmentEmail"
+                  placeholder="SHARED__PLACEHOLDER__EMAIL_ADDRESS"
+                  type="email"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="air-change-reaccom-form--submit"
+      >
+        <div
+          class="air-change-reaccom-form--disclaimer"
+          data-qa="air-change--hazmat-disclaimer"
+        >
+          AIR_CHANGE__REACCOM_SHOPPING__REACCOM_CONDITIONS
+        </div>
+        <button
+          class="reaccom-confirm-change button button--fluid larger button--yellow"
+          data-qa="air-reaccom-confirm-change-button"
+          type="submit"
+        >
+          AIR_CHANGE__REACCOM_SHOPPING__CONFIRM_CHANGE
+        </button>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`confirmationYoungTravelerSection should show young traveler section 1`] = `
+<div>
+  <div
+    class="confirmation-young-traveler-section"
+  >
+    <div
+      class="icon-and-brief-info"
+    >
+      <i
+        class="icon-and-brief-info--icon icon icon_young-traveler-circle"
+      />
+      <div
+        class="icon-and-brief-info--info-container"
+      >
+        <p
+          class="icon-and-brief-info--text"
+        >
+          Young Travelers
+        </p>
+        <a
+          class="pblue"
+          href="https://www.southwest.com/help/flying-with-children/young-travelers-terms-and-conditions"
+          target="_blank"
+        >
+          Review our Young Traveler policy
+        </a>
+      </div>
+    </div>
+    <div
+      class="icon-and-brief-info"
+    >
+      <i
+        class="icon-and-brief-info--icon icon icon_clipboard-circle"
+      />
+      <div
+        class="icon-and-brief-info--info-container"
+      >
+        <p
+          class="icon-and-brief-info--text"
+        >
+          Parent/guardian info
+        </p>
+        <button
+          class="icon-and-brief-info--button button"
+          type="button"
+        >
+          Review your parent/guardian info
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

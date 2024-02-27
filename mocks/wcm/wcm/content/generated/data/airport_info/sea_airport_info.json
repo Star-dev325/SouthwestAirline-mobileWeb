@@ -1,0 +1,54 @@
+{
+  "revision": "20150504141734361",
+  "airport_info": {
+    "id": "SEA",
+    "display_name": "Seattle/Tacoma&#44; WA - SEA",
+    "airport_city_image": "/content/mkt/images/airport_info/SEA2_aiport_info.jpg",
+    "airport_city_alt_text": "Picture representing SEA",
+    "alert": {
+      "active": false,
+      "icon": "/content/mkt/images/airport_info/travel_advisory.png",
+      "title": "Airport Alert",
+      "text": ""
+    },
+    "body": [
+      {
+        "title": "TERMINAL AND GATE",
+        "icon": "",
+        "icon_alt_text": "",
+        "heading": "Main Terminal",
+        "text": "<p>Gates B:6,8, 10,12,14<br /><ul><li>Fly By Checkin</li><li>Fly By Security</li></ul>\n</p>"
+      },
+      {
+        "title": "TICKET COUNTER HOURS",
+        "icon": "/content/mkt/images/airport_info/bag_on_belt_icon.png",
+        "heading": "",
+        "text": "<p><strong>Monday - Sunday</strong></p>\n<p>Opens 120 minutes before first departure</p>"
+      },
+      {
+        "title": "TSA",
+        "icon": "",
+        "heading": "<a href=\"http://apps.tsa.dhs.gov/mytsa/wait_times_detail.aspx\">Check current TSA wait times</a>",
+        "text": "<p>Don't forget your boarding pass or security documents, and a valid government-issued ID - the Transportation Security Administration (TSA) will need them at the security checkpoints.</p>"
+      },
+      {
+        "title": "TRAVEL TIPS",
+        "icon": "/content/mkt/images/airport_info/info_bubble_icon.png",
+        "heading": "Mon-Sun:",
+        "text": "<p>120 Minutes</p>"
+      },
+      {
+        "title": "AMENITIES",
+        "icon": "/content/mkt/images/airport_info/plug_icon.png",
+        "heading": "",
+        "text": "<p><ul><li>Power Station Available</li><li>Skycap</li><li>Cruise Port</li><li>Airport Wifi Available</li></ul>\n</p>"
+      },
+      {
+        "title": "AIRPORT DETAILS",
+        "icon": "",
+        "heading": "",
+        "text": "<p><strong>Service Animal Relief Area: </strong>There are two areas outside the Main Terminal located outside of Baggage Claim on both the north and south ends. The north area is outside of door #26, just past Carousel 16. It is a small sandy area to the left under the stairs. On the south end of Baggage Claim (outside door #00), there is a large grassy area at the end of the parking lot that is also equipped with bags for cleanup. Inside Area: There is s pet relief area in the Main Terminal, behind security, for assistance dogs who are traveling with their owners. It is next to the exit from Concourse B.</p>\n<p>Learn more about <a href=\"//www.portseattle.org/seatac/\" target=\"_blank\">Seattle-Tacoma International Airport</a></p>"
+      }
+    ]
+  }
+}

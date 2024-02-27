@@ -1,0 +1,440 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RapidRewardsSnapshotPage mount should render rapid rewards info 1`] = `
+<div>
+  <div
+    class="my-rapid-rewards"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        My Rapid Rewards
+      </div>
+      <div />
+    </div>
+    <div
+      class="my-rapid-rewards-snapshot custom-container"
+    >
+      <div
+        class="flex pdkblue mb4 px2"
+      >
+        <div
+          class="flex6 overflow-hidden"
+        >
+          <span
+            class="bold large block nowrap overflow-hidden ellipsis"
+            data-qa="user-name"
+          >
+            Hank Hill
+          </span>
+        </div>
+        <div
+          class="flex6 medium lineheight16 align-right"
+        >
+          <span
+            data-qa="rapid-rewards-number"
+          >
+            MY_ACCOUNT__HEADER__RR_NUMBER 1234567890
+          </span>
+        </div>
+      </div>
+      <div
+        class="pts-group segment"
+      >
+        <div
+          class="segment"
+        >
+          <div
+            class="points-group"
+          >
+            <div
+              class="points-group--col-infos"
+            >
+              <label
+                class="points-group--col-infos-label"
+              >
+                POINTS GROUP LABEL
+              </label>
+              <span>
+                MY_ACCOUNT__PTS_GROUP__EARNED_THROUGH 12/31/21
+              </span>
+              <span
+                class="points-group--divider"
+              >
+                |
+              </span>
+              <span
+                class="pblue"
+                data-qa="view-benefits"
+              >
+                MY_ACCOUNT__PTS_GROUP__VIEW_BENEFITS
+              </span>
+            </div>
+            <div
+              class="points-group--col-points align-right"
+            >
+              <label
+                class="points-group--col-points-label"
+              >
+                2,000
+              </label>
+              <span>
+                MY_ACCOUNT__PTS_GROUP__PTS
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="segment-border-top segment"
+        >
+          <div
+            class="points-group"
+          >
+            <div
+              class="points-group--col-infos"
+            >
+              <label
+                class="points-group--col-infos-label"
+              >
+                MY_ACCOUNT__COMPANION_PASS
+              </label>
+              <span>
+                MY_ACCOUNT__PTS_GROUP__EARNED_THROUGH 12/31/21
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div />
+      <div
+        class="progress-bar-group"
+      >
+        <div
+          class="segment"
+        >
+          <div
+            class="progress-bar-group--label"
+          >
+            <span>
+              prestring
+            </span>
+            <strong>
+               
+              status
+            </strong>
+            <span>
+              sufstring
+            </span>
+          </div>
+          <div
+            class="progress-bar-group--status"
+          >
+            <div
+              class="progress-bar-group--status-col progress-bar-group--status-col-graph"
+            >
+              <div
+                class="progress-bar-group--status-graph"
+              >
+                <div
+                  class="donut-progress-bar"
+                  style="width: 0px; height: 0px;"
+                >
+                  <svg
+                    height="0"
+                    width="0"
+                  >
+                    <path
+                      d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                      fill="transparent"
+                      stroke="#e6e7e8"
+                      stroke-width="10"
+                    />
+                    <path
+                      class="donut-progress-bar--fill orange"
+                      d="M 0 5 A -5 -5 0 0 0 3.5 -3.5"
+                      fill="transparent"
+                      stroke-width="10"
+                    />
+                  </svg>
+                </div>
+                <i
+                  class="orange icon icon_pts"
+                />
+              </div>
+              <div
+                class="progress-bar-group--status-text"
+              >
+                <label
+                  class="label"
+                >
+                  50
+                </label>
+                <p
+                  class="desc"
+                >
+                  MY_ACCOUNT__TIER_STATUS_GROUP__POINTS_STATUS 50
+                  <sup>
+                    *
+                  </sup>
+                </p>
+              </div>
+            </div>
+            <div
+              class="progress-bar-group--status-col"
+            >
+              MY_ACCOUNT__TIER_STATUS_GROUP__OR
+            </div>
+            <div
+              class="progress-bar-group--status-col progress-bar-group--status-col-graph"
+            >
+              <div
+                class="progress-bar-group--status-graph"
+              >
+                <div
+                  class="donut-progress-bar"
+                  style="width: 0px; height: 0px;"
+                >
+                  <svg
+                    height="0"
+                    width="0"
+                  >
+                    <path
+                      d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                      fill="transparent"
+                      stroke="#e6e7e8"
+                      stroke-width="10"
+                    />
+                    <path
+                      class="donut-progress-bar--fill orange"
+                      d="M 0 5 A -5 -5 0 0 0 3.5 -3.5"
+                      fill="transparent"
+                      stroke-width="10"
+                    />
+                  </svg>
+                </div>
+                <i
+                  class="orange icon icon_airplane-depart"
+                />
+              </div>
+              <div
+                class="progress-bar-group--status-text"
+              >
+                <label
+                  class="label"
+                >
+                  50
+                </label>
+                <p
+                  class="desc"
+                >
+                  MY_ACCOUNT__TIER_STATUS_GROUP__FLIGHTS_STATUS 50
+                  <sup>
+                    *
+                  </sup>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="progress-bar-group--expression-info"
+          >
+            <p>
+              MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_FOOTNOTE
+            </p>
+            <br />
+            <p
+              class="ml2"
+            >
+              MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_RESET
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="my-account-panel-header"
+        >
+          <span>
+            <i
+              class="my-account-panel-header--congratulations icon icon_check"
+            />
+            MY_ACCOUNT__CONGRATULATIONS
+          </span>
+        </div>
+      </div>
+      <div
+        class="progress-bar-group"
+      >
+        <div
+          class="segment"
+        >
+          <div
+            class="progress-bar-group--label"
+          >
+            <span>
+              prestring
+            </span>
+            <strong>
+               
+              status
+            </strong>
+            <sup>
+              ®
+            </sup>
+          </div>
+          <div
+            class="progress-bar-group--status"
+          >
+            <div
+              class="progress-bar-group--status-col progress-bar-group--status-col-graph"
+            >
+              <div
+                class="progress-bar-group--status-graph"
+              >
+                <div
+                  class="donut-progress-bar"
+                  style="width: 0px; height: 0px;"
+                >
+                  <svg
+                    height="0"
+                    width="0"
+                  >
+                    <path
+                      d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                      fill="transparent"
+                      stroke="#e6e7e8"
+                      stroke-width="10"
+                    />
+                    <path
+                      class="donut-progress-bar--fill teal"
+                      d="M 4.9 0.8 A -5 -5 0 0 0 3.5 -3.5"
+                      fill="transparent"
+                      stroke-width="10"
+                    />
+                  </svg>
+                </div>
+                <i
+                  class="teal icon icon_pts"
+                />
+              </div>
+              <div
+                class="progress-bar-group--status-text"
+              >
+                <label
+                  class="label"
+                >
+                  2,000
+                </label>
+                <p
+                  class="desc"
+                >
+                  MY_ACCOUNT__TIER_STATUS_GROUP__POINTS_STATUS 10,000
+                  <sup>
+                    †
+                  </sup>
+                </p>
+              </div>
+            </div>
+            <div
+              class="progress-bar-group--status-col"
+            >
+              MY_ACCOUNT__TIER_STATUS_GROUP__OR
+            </div>
+            <div
+              class="progress-bar-group--status-col progress-bar-group--status-col-graph"
+            >
+              <div
+                class="progress-bar-group--status-graph"
+              >
+                <div
+                  class="donut-progress-bar"
+                  style="width: 0px; height: 0px;"
+                >
+                  <svg
+                    height="0"
+                    width="0"
+                  >
+                    <path
+                      d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                      fill="transparent"
+                      stroke="#e6e7e8"
+                      stroke-width="10"
+                    />
+                    <path
+                      class="donut-progress-bar--fill teal"
+                      d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                      fill="transparent"
+                      stroke-width="10"
+                    />
+                  </svg>
+                </div>
+                <i
+                  class="teal icon icon_airplane-depart"
+                />
+              </div>
+              <div
+                class="progress-bar-group--status-text"
+              >
+                <label
+                  class="label"
+                >
+                  100
+                </label>
+                <p
+                  class="desc"
+                >
+                  MY_ACCOUNT__TIER_STATUS_GROUP__FLIGHTS_STATUS 100
+                  <sup>
+                    †
+                  </sup>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="call-to-companion"
+          >
+            <p
+              class="call-to-companion--description"
+            >
+              MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__DESIGNATE_ONE_LUCKY_PERSON
+            </p>
+            <div
+              class="companion-pass-info-container"
+            >
+              <span
+                class="row earn-boost"
+              >
+                MY_ACCOUNT__RAPID_REWARDS_PAGE__COMPANION_PASS_POINTS_ALL_MEMBERS_TEXT
+              </span>
+              <button
+                class="button--link read-more-link"
+              >
+                MY_ACCOUNT__RAPID_REWARDS_PAGE__COMPANION_PASS_POINTS_READ_MORE
+              </button>
+            </div>
+            <div
+              class="progress-bar-group--expression-info"
+            >
+              <sup>
+                †
+              </sup>
+              <p>
+                MY_ACCOUNT__RAPID_REWARDS_PAGE__COMPANION_PASS_QUALIFYING_POINTS_FOOTNOTE
+              </p>
+              <br />
+              <p
+                class="ml2"
+              >
+                MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_RESET
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

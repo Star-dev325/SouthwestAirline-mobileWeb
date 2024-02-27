@@ -1,0 +1,6 @@
+.trip-summary {
+  .title-and-price--message,
+  .title-and-price--cents {
+    @include larger;
+  }
+}

@@ -1,0 +1,8 @@
+.is-webview {
+  .air-booking-form {
+    @include for-tablet-and-up {
+      @include tablet-content-frame;
+      @include tablet-content-margins;
+    }
+  }
+}

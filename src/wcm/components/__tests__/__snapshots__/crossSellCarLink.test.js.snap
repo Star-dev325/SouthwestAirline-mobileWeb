@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CrossSellCarLink should render CrossSellCarLink with children and call prepareCarCrossSellFromQueryAndTransitionToCarBookingFn with Mock params 1`] = `
+<div
+  data-qa="cross-sell-car-link"
+>
+  <div />
+</div>
+`;

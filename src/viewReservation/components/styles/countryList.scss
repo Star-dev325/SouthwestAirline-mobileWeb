@@ -1,0 +1,55 @@
+.country-list {
+  @include flex;
+  @include flex-column;
+  @include fullheight;
+  @include bgwhite;
+}
+
+.country-list--results {
+  @include relative;
+  @include overflow-y-auto;
+  flex: 1;
+}
+
+.country-list--results_empty {
+  @include fullwidth;
+  @include gray5;
+  @include center;
+  @include xxlarge;
+  padding-top: 16rem;
+}
+
+.country-list--results_shadow {
+  @include fullwidth;
+  @include fullheight;
+  @include fixed;
+  @include t0;
+  @include l0;
+  @include bgpdkblue;
+  display: none;
+  z-index: 1000;
+  opacity: 0.2;
+}
+
+.country-list-item-container {
+  @include flex;
+  @include flex-main-between;
+  @include flex-cross-center;
+  @include bdb;
+
+  i {
+    @include mr3;
+  }
+}
+
+ul.country-list-group {
+  @include pl5;
+  @include m0;
+  @include no-bullets;
+
+  li {
+    @include large;
+    @include py4;
+    @include px0;
+  }
+}

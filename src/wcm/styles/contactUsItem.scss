@@ -1,0 +1,19 @@
+.contact-us-item {
+  @include table;
+  @include fullwidth;
+  @include px0;
+  @include py4;
+  border-bottom: 1px solid $gray2;
+}
+
+.contact-us-item-info {
+  @include align-middle;
+  @include table-cell;
+  line-height: 2rem;
+}
+
+.contact-us-item-info--description,
+.contact-us-item-info--number {
+  @include gray5;
+  font-size: 1.3rem;
+}

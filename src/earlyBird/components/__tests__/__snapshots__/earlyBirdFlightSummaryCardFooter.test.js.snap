@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EarlyBirdFlightSummaryCardFooter should render 1`] = `
+<div>
+  <div
+    class="early-bird-flight-summary-footer"
+  >
+    <div
+      class="early-bird-flight-summary-footer--passenger-info"
+    >
+      <span
+        class="early-bird-flight-summary-footer--passenger-name"
+      >
+        test pax
+      </span>
+      <div
+        class="currency early-bird-flight-summary-footer--passenger-currency"
+      >
+        <span
+          class="money-sign"
+        >
+          $
+        </span>
+        <span
+          data-qa="total-amount"
+        >
+          15.00
+        </span>
+      </div>
+    </div>
+    <div
+      class="early-bird-flight-summary-footer--subtotal"
+    >
+      <span
+        class="early-bird-flight-summary-footer--subtotal-title"
+      >
+        EARLY_BIRD_SUBTOTAL
+      </span>
+      <div
+        class="currency early-bird-flight-summary-footer--subtotal-currency"
+      >
+        <span
+          class="money-sign"
+        >
+          $
+        </span>
+        <span
+          data-qa="total-amount"
+        >
+          15.00
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

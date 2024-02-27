@@ -1,0 +1,18 @@
+.bounds-header {
+  @include m5;
+  @include p5;
+  @include bgwhite;
+
+  &--destination {
+    @include flex;
+    @include flex-main-between;
+  }
+
+  &--airports {
+    @include block;
+    @include gray5;
+    @include medium;
+    @include lineheight10;
+    @include regular;
+  }
+}

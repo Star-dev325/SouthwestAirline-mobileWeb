@@ -1,0 +1,26 @@
+.contact-us--call-to-action {
+  @include table-cell;
+  width: 25%;
+
+  a {
+    @include block;
+    @include pblue;
+    @include bold;
+    @include center;
+    @include rd2;
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+    border: 1px solid $gray2;
+  }
+
+  &.yellow {
+    a {
+      @include pdkblue;
+      @include bgyellow;
+      @include bold;
+      @include center;
+      @include border-none;
+      font-size: 1.5rem;
+    }
+  }
+}

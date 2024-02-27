@@ -1,0 +1,44 @@
+.form-select-placeholder-field {
+  @include relative;
+  @include bgwhite;
+  @include bdb;
+  @include flex;
+  @include flex-column;
+  @include flex-main-center;
+  @include rd3;
+  @include bd;
+
+  height: 6rem;
+
+  &--wrapper {
+    @include px6;
+    @include flex;
+    @include flex-main-center;
+    @include flex-cross-center;
+
+    &-label {
+      @include flex;
+      @include flex-column;
+      @include flex11;
+    }
+
+    &-icon {
+      @include flex1;
+      @include pblue;
+      @include xxlarge;
+    }
+  }
+
+  &--select {
+    @include absolute;
+    @include t0;
+    @include l0;
+    @include fullheight;
+    @include fullwidth;
+    @include opacity-zero;
+  }
+
+  label.error {
+    @include red;
+  }
+}

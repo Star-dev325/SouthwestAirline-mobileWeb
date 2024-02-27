@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`formCheckboxField should be hidden when hidden prop is true 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="relative flex checkbox-button flex-cross-center"
+        hidden=""
+        name="formCheckBox"
+      >
+        <div>
+          <span
+            class="checkbox-button--mark"
+          >
+            <i
+              class="absolute xlarge bgtransp icon icon_check"
+            />
+          </span>
+        </div>
+        <div>
+          <div
+            class="checkbox-button--children flex-equal-width ml2"
+          />
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`formCheckboxField should render children inside formCheckboxField 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="relative flex checkbox-button flex-cross-center"
+        name="formCheckBox"
+      >
+        <div>
+          <span
+            class="checkbox-button--mark"
+          >
+            <i
+              class="absolute xlarge bgtransp icon icon_check"
+            />
+          </span>
+        </div>
+        <div>
+          <div
+            class="checkbox-button--children flex-equal-width ml2"
+          >
+            <p>
+              Hello
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

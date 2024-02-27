@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="8">
+
+  <testsuite name="airBooking.prefillShoppingLandingPageTest"
+    errors="0" failures="0" hostname="" id="" package="airBooking" skipped="0"
+    tests="8" time="100.1" timestamp="Fri, 15 Dec 2023 00:50:43 GMT">
+  
+    <testcase name="Go to book a flight" classname="airBooking.prefillShoppingLandingPageTest" time="32.03" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find flight from Atlanta to Austin with Dollars" classname="airBooking.prefillShoppingLandingPageTest" time="18.13" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Re-enter book a flight" classname="airBooking.prefillShoppingLandingPageTest" time="3.627" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Refresh then select from Austin to Atlanta" classname="airBooking.prefillShoppingLandingPageTest" time="19.15" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click recent search to prefill" classname="airBooking.prefillShoppingLandingPageTest" time="1.679" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Refresh then select the two same airports and click OK for dialog" classname="airBooking.prefillShoppingLandingPageTest" time="12.00" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Re-click recent search to prefill" classname="airBooking.prefillShoppingLandingPageTest" time="2.353" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Refresh and re-enter book a flight from the sidebar and click recent search to prefill" classname="airBooking.prefillShoppingLandingPageTest" time="11.17" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

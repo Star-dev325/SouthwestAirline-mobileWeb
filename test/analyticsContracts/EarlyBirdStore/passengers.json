@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "passengers": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/passenger" }
+    }
+  },
+  "required": [
+    "passengers"
+  ],
+  "definitions": {
+    "passenger": {
+      "type": "object",
+      "properties": {
+        "status": { "type": "string" }
+      }
+    }
+  }
+}

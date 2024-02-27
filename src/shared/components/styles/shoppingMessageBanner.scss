@@ -1,0 +1,29 @@
+.flight-product-sga-message-banner,
+.basic-banner {
+  @include p4;
+  @include mt3;
+  @include bgwhite;
+  @include pdkblue;
+  @include medium;
+  @include flex;
+  @include flex-cross-center;
+
+  .banner-container {
+    @include pdkblue;
+    @include medium;
+    margin-left: 1.5rem;
+
+    .banner-container--title {
+      @include bold;
+    }
+
+    .banner-container--subtitle {
+      @include block;
+      @include gray5;
+    }
+
+    .banner-container--text {
+      @include pl1;
+    }
+  }
+}

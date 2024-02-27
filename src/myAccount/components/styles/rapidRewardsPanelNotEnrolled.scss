@@ -1,0 +1,22 @@
+.rapid-rewards-panel-not-enrolled {
+  @include white;
+  @include bgpblue;
+  @include large;
+  background: $pblue url('/content/mkt/images/landing_pages/carBooking/rr-bg-swoop.svg') no-repeat -1px bottom;
+  background-size: 69%;
+  color: $white;
+
+  &--call-to-action {
+    @include larger;
+    @include bold;
+  }
+
+  &--get-details-link {
+    padding: 0.7rem 0;
+  }
+
+  &--enroll-button {
+    @include pblue;
+    @include bgwhite;
+  }
+}

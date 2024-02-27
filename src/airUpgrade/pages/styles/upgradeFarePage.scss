@@ -1,0 +1,14 @@
+.is-webview {
+  &.upgrade-fare-page {
+    @include for-tablet-and-up {
+      @include bgpdkblue;
+
+      .upgrade-fare--content {
+        @include tablet-content-frame-lg;
+        @include mx-auto;
+        @include tablet-content-margins;
+        @include bggray2;
+      }
+    }
+  }
+}

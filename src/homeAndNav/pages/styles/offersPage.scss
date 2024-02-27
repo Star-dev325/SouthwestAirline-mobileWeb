@@ -1,0 +1,23 @@
+.offers-page {
+  @include bgpdkblue;
+
+  .offers {
+    @include px5;
+    @include pt6;
+
+    &--no-offer-text {
+      @include white;
+      @include center;
+      @include larger;
+      @include lineheight13;
+    }
+
+    &--no-offer-message {
+      @include bold;
+    }
+
+    .dynamic-placement {
+      @include mb6;
+    }
+  }
+}

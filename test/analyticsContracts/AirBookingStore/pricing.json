@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "pricing": {
+      "type": "object",
+      "properties": {
+        "adult": { "$ref": "#/definitions/passengerType" },
+        "senior": { "$ref": "#/definitions/passengerType" },
+        "chaseBannerShown": { "type": "boolean" },
+        "chaseFlowCompleted": { "type": "boolean|undefined" }
+      },
+      "additionalProperties": false,
+      "required": [
+        "adult",
+        "senior",
+        "chaseBannerShown",
+        "chaseFlowCompleted"
+      ]
+    }
+  },
+  "required": [
+    "pricing"
+  ],
+
+  "definitions": {
+    "pricingDetails": {
+      "type": "object|undefined",
+      "properties": {
+        "bookingCode": { "type": "string" }
+      },
+      "additionalProperties": false,
+      "required": [
+        "bookingCode"
+      ]
+    },
+    "segmentFees": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "passengerFacilityChargeCents": { "type": "integer" },
+          "securityFeeCents": { "type": "integer" },
+          "segmentFeeCents": { "type": "integer" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "passengerType": {
+      "type": "object",
+      "properties": {
+        "inbound": { "$ref": "#/definitions/pricingDetails" },
+        "outbound": { "$ref": "#/definitions/pricingDetails" },
+        "priceSearchTotals": { "$ref": "#/definitions/priceSearchTotals" }
+      },
+      "additionalProperties": false,
+      "required": [
+        "inbound",
+        "outbound",
+        "priceSearchTotals"
+      ]
+    },
+    "priceSearchTotals": {
+      "type": "object|undefined",
+      "properties": {
+        "segmentFees": { "$ref": "#/definitions/segmentFees" },
+        "baseFareCents": { "type": "integer|undefined" },
+        "baseFarePoints": { "type": "integer|undefined" },
+        "discountedBaseFareCents": { "type": "integer|undefined" },
+        "discountedBaseFarePoints": { "type": "integer|undefined" },
+        "taxCents": { "type": "integer|undefined" },
+        "priceTotalAmountCents": { "type": "integer|undefined" },
+        "priceTotalAmountPoints": { "type": "integer|undefined" },
+        "requestedAmountCents": { "type": "integer|undefined" },
+        "requestedAmountPoints": { "type": "integer|undefined" },
+        "verifyPriceChange": { "type": "boolean" },
+        "taxesAndFees": { "type": "string" }
+      },
+      "additionalProperties": false,
+      "required": [
+        "segmentFees",
+        "baseFareCents",
+        "discountedBaseFareCents",
+        "taxCents",
+        "priceTotalAmountCents",
+        "priceTotalAmountPoints",
+        "requestedAmountCents",
+        "requestedAmountPoints",
+        "verifyPriceChange",
+        "taxesAndFees"
+      ]
+    }
+  }
+}

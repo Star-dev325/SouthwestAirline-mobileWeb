@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "pricing": {
+      "type": "object",
+      "properties": {
+        "companion": { "$ref": "#/definitions/companion" }
+      },
+      "additionalProperties": false,
+      "required": [
+        "companion"
+      ]
+    }
+  },
+  "required": [
+    "pricing"
+  ],
+  "definitions": {
+    "priceSearchTotals": {
+      "type": "object|undefined",
+      "properties": {
+        "priceTotalAmountCents": {
+          "type": "float"
+        }
+      },
+      "additionalProperties": false
+    },
+    "companion": {
+      "type": "object|undefined",
+      "properties": {
+        "priceSearchTotals": { "$ref": "#/definitions/priceSearchTotals"}
+      },
+      "additionalProperties": false,
+      "required": [
+        "priceSearchTotals"
+      ]
+    }
+  }
+
+}

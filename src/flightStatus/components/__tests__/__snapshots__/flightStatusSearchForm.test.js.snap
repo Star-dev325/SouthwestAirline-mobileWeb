@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightStatusSearchForm Date selector field should render date options in the correct format 1`] = `
+<select
+  class="dropdown"
+  data-qa="select-dropdown"
+  name="selectedDate"
+>
+  <option
+    data-qa="dqa-enabled-option"
+    value="2018-10-01"
+  >
+    Yesterday, Oct 01
+  </option>
+  <option
+    data-qa="dqa-enabled-option"
+    value="2018-10-02"
+  >
+    Today, Oct 02
+  </option>
+  <option
+    data-qa="dqa-enabled-option"
+    value="2018-10-03"
+  >
+    Tomorrow, Oct 03
+  </option>
+</select>
+`;

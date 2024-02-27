@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withForm when initialize should calc defaultValue and merge with initialFormData to child component 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="input"
+      >
+        <input
+          class=""
+          name="fieldName"
+          value="defaultValue"
+        />
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`withForm when initialize should use redux store value as first priority when it is back/forward 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="input"
+      >
+        <input
+          class=""
+          name="fieldName"
+          value="value2"
+        />
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`withForm when update form data should provide new field value to wrapped component when explicit call the action 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="input"
+      >
+        <input
+          class=""
+          name="fieldName"
+          value="value2"
+        />
+      </div>
+    </div>
+  </form>
+</div>
+`;

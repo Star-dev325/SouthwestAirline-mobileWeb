@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarBookingPurchasePage render should pass the right props to carPurchaseForm component when user is logged in  1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        CAR_BOOKING__PURCHASE
+      </div>
+      <div />
+    </div>
+    <div>
+      <form
+        class="car-booking-purchase-form form"
+        name="car-booking-purchase-form"
+        novalidate=""
+      >
+        <fieldset>
+          <div
+            class="secondary segment"
+          >
+            <div
+              class="mt5"
+            >
+              <label
+                class="label large mb5 block gray5 bold"
+              >
+                CAR_BOOKING__DRIVER_TITLE
+              </label>
+              <div
+                class="passenger-info-summary"
+              >
+                <div>
+                  <a
+                    class="nav-item-link clearfix passenger-info-summary--item"
+                  >
+                    <div
+                      class="nowrap overflow-hidden ellipsis pr6 passenger-info-summary--item--text"
+                    >
+                      <span
+                        data-qa="passenger-info-summary--passenger-name"
+                      >
+                        Alex Fisher
+                      </span>
+                    </div>
+                    <i
+                      class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="secondary segment"
+          >
+            <div
+              class="fields grouped"
+            >
+              <label
+                class="fields--label"
+              >
+                CAR_BOOKING__PURCHASE_FORM__PHONE_NUMBER
+              </label>
+              <div
+                class="field phone-number-field"
+              >
+                <div
+                  class="labeled input large"
+                >
+                  <div
+                    class="input--label mr4"
+                  >
+                    +1
+                  </div>
+                  <input
+                    data-qa="car-booking-purchase-form-phone-number"
+                    label="+1"
+                    name="driverPhoneNumber"
+                    placeholder="SHARED__PLACEHOLDER__PHONE_NUMBER"
+                    type="tel"
+                    value="812-926-1966"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="secondary segment"
+          >
+            <div
+              class="fields grouped"
+            >
+              <label
+                class="fields--label"
+              >
+                CAR_BOOKING__PURCHASE_FORM__CONFIRMATION_EMAIL
+              </label>
+              <div
+                class="field"
+              >
+                <div
+                  class="input"
+                >
+                  <input
+                    class=""
+                    name="confirmationEmail"
+                    placeholder="Email address"
+                    type="email"
+                    value="test@test.com"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="secondary segment"
+          >
+            <div
+              class="fields mb5 grouped"
+            >
+              <label
+                class="fields--label"
+              >
+                CAR_BOOKING__PURCHASE_FORM__TRAVEL_PURPOSE
+              </label>
+              <div
+                class="field"
+              >
+                <div
+                  class="select-input icon-fixed formatted input"
+                >
+                  <span
+                    class="formatted-input formatted-input--fill"
+                  >
+                    <select
+                      class="dropdown empty"
+                      data-qa="select-dropdown"
+                      name="purposeOfTravel"
+                      placeholder="Select (optional)"
+                    >
+                      <option
+                        class="placeholder"
+                        data-qa="dqa-enabled-option"
+                        value=""
+                      >
+                        Select (optional)
+                      </option>
+                      <option
+                        data-qa="dqa-enabled-option"
+                        value="PERSONAL"
+                      >
+                        Personal
+                      </option>
+                      <option
+                        data-qa="dqa-enabled-option"
+                        value="BUSINESS"
+                      >
+                        Business
+                      </option>
+                      <option
+                        data-qa="dqa-enabled-option"
+                        value="BOTH"
+                      >
+                        Both
+                      </option>
+                    </select>
+                  </span>
+                  <input
+                    class=""
+                    icon="caret-down"
+                    name="purposeOfTravel"
+                    placeholder="Select (optional)"
+                  />
+                  <i
+                    class="icon icon_caret-down"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bgpblue p4 bdb bdpdkblue white xlarge"
+          >
+            <div
+              class="price-line mb4"
+            >
+              <span
+                class="price-line--title"
+              >
+                CAR_BOOKING__PURCHASE_FORM__TOTAL
+              </span>
+              <div
+                class="price-amount"
+              >
+                <div
+                  class="price-line--currency_total"
+                >
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      152.99
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="price-line"
+            >
+              <span
+                class="price-line--title"
+              >
+                CAR_BOOKING__PURCHASE_FORM__DUE_NOW
+              </span>
+              <div
+                class="price-amount"
+              >
+                <div
+                  class="price-line--currency_total"
+                >
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      0.00
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bgpblue p4"
+          >
+            <div
+              class="white medium lineheight14 mb5"
+            >
+              <p
+                class="bold"
+              >
+                CAR_BOOKING__PURCHASE_FORM__NOTE_TITLE
+              </p>
+              <p
+                data-qa="purchase-note"
+              >
+                CAR_BOOKING__PURCHASE_FORM__NOTE_CONTENT
+              </p>
+            </div>
+            <button
+              class="button button--fluid large button--yellow"
+              role="submit"
+              type="submit"
+            >
+              CAR_BOOKING__RESERVE
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+`;

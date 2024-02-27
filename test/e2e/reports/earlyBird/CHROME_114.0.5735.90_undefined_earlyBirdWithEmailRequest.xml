@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="13">
+
+  <testsuite name="earlyBird.earlyBirdWithEmailRequest"
+    errors="0" failures="1" hostname="" id="" package="earlyBird" skipped="4"
+    tests="13" time="64.44" timestamp="Fri, 15 Dec 2023 01:39:30 GMT">
+  
+    <testcase name="go to early bird from nav drawer" classname="earlyBird.earlyBirdWithEmailRequest" time="29.92" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="On earlyBird checkIn page" classname="earlyBird.earlyBirdWithEmailRequest" time="0.8600" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search for a reservation" classname="earlyBird.earlyBirdWithEmailRequest" time="5.871" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify details page" classname="earlyBird.earlyBirdWithEmailRequest" time="0.6280" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to review page" classname="earlyBird.earlyBirdWithEmailRequest" time="2.580" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify review page" classname="earlyBird.earlyBirdWithEmailRequest" time="0.2530" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to pricing page" classname="earlyBird.earlyBirdWithEmailRequest" time="1.071" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Fill payment info" classname="earlyBird.earlyBirdWithEmailRequest" time="12.99" assertions="17">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify filled purchase info" classname="earlyBird.earlyBirdWithEmailRequest" time="10.27" assertions="1">  <failure message="Timed out while waiting for element &lt;button.continue&gt; to be present for 10000 milliseconds.">    at Object.Verify filled purchase info (/Users/x311032/spa-mobile-web/test/e2e/tests/earlyBird/earlyBirdWithEmailRequest.js:97:8)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Verify missing email" classname="earlyBird.earlyBirdWithEmailRequest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Enter email receipt" classname="earlyBird.earlyBirdWithEmailRequest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Purchase for earlybird" classname="earlyBird.earlyBirdWithEmailRequest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify purchase complete" classname="earlyBird.earlyBirdWithEmailRequest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="10">
+
+  <testsuite name="travelInformation.travelInformationWithSpecialAssistance"
+    errors="0" failures="0" hostname="" id="" package="travelInformation" skipped="0"
+    tests="10" time="56.74" timestamp="Fri, 15 Dec 2023 02:11:53 GMT">
+  
+    <testcase name="Find flight reservation through confirmation number" classname="travelInformation.travelInformationWithSpecialAssistance" time="42.82" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go To Travel Information page" classname="travelInformation.travelInformationWithSpecialAssistance" time="0.3670" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Special Assistance on Travel Information Page" classname="travelInformation.travelInformationWithSpecialAssistance" time="5.536" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify analytics SpecialAssistanceStore.selectionMade" classname="travelInformation.travelInformationWithSpecialAssistance" time="0.03000" assertions="0">
+    </testcase>
+  
+    <testcase name="Remove the existing Special Assistance options" classname="travelInformation.travelInformationWithSpecialAssistance" time="2.906" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Analytics selectionMade should be true now" classname="travelInformation.travelInformationWithSpecialAssistance" time="0.03400" assertions="0">
+    </testcase>
+  
+    <testcase name="Replace the removed Special Assistance options" classname="travelInformation.travelInformationWithSpecialAssistance" time="2.326" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Analytics selectionMade should be false again" classname="travelInformation.travelInformationWithSpecialAssistance" time="0.03400" assertions="0">
+    </testcase>
+  
+    <testcase name="Add additional Special Assistance options and save Travel Info form" classname="travelInformation.travelInformationWithSpecialAssistance" time="2.576" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify transition back to Trip Details Page" classname="travelInformation.travelInformationWithSpecialAssistance" time="0.1060" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

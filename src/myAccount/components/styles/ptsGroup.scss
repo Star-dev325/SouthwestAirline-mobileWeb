@@ -1,0 +1,32 @@
+.points-group {
+  @include flex;
+  @include p0;
+  @include gray5;
+}
+
+.points-group--col-infos {
+  @include flex9;
+  @include medium;
+}
+
+.points-group--col-points {
+  @include flex3;
+}
+
+.points-group--col-infos-label {
+  @include large;
+  @include pdkblue;
+  @include block;
+  @include lineheight14;
+}
+
+.points-group--col-points-label {
+  @include large;
+  @include bold;
+  @include pdkblue;
+  @include lineheight14;
+}
+
+.points-group--divider {
+  @include mx2;
+}

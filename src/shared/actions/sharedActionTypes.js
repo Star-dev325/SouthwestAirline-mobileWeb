@@ -1,0 +1,44 @@
+// @flow
+import { actionCreator } from 'src/shared/redux/actionCreator';
+
+const { createTypes, createApiActions } = actionCreator('shared');
+
+const types = {
+  sync: [
+    'ASYNC_ACTION_START',
+    'ASYNC_ACTION_FINISH',
+    'ASYNC_CHAIN_CONTINUE',
+    'ASYNC_CHAIN_FINISH',
+    'ASYNC_CHAIN_START',
+    'ASYNC_CHAIN_INIT_TIMER',
+    'ROUTE_CHANGED',
+    'HIDE_ERROR_HEADER_MSG',
+    'HIDE_SPINNER_TEMPORARILY',
+    'FORCE_HIDE_SPINNER',
+    'SHOW_ERROR_HEADER_MSG',
+    'SET_APP_READY',
+    'SAVE_RECENT_TRIP_SEARCH',
+    'TRIGGER_ERROR_POP_UP',
+    'UPDATE_VIEW_BOARDING_PASS',
+    'SAVE_VIEW_BOARDING_PASS_TRAVELER_IDS_SEGMENT_IDS',
+    'RESET_CALCULATE_FLOW_DATA',
+    'UPDATE_PRODUCT_DEFINITIONS',
+    'UPDATE_LAST_BOOKABLE_DATE',
+    'SAVE_APP_STATE',
+    'SET_JOURNEY_BANNER_TOGGLE',
+    'UPDATE_CALENDAR_SCHEDULE_MESSAGE',
+    'SET_IS_REDIRECTING_PATH'
+  ],
+  async: [
+    'FETCH_APPLICATION_PROPERTIES',
+    'FETCH_RECENT_TRIP_SEARCHES',
+    'FETCH_UPCOMING_TRIPS',
+    'CALC_FUNDS',
+    'REMOVE_TRAVEL_FUND',
+    'REFRESH_TRAVEL_FUNDS',
+    'FETCH_FEATURE_TOGGLES'
+  ]
+};
+
+export const apiActionCreator = createApiActions;
+export default createTypes(types);

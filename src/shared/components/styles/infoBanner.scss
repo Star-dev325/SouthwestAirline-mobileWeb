@@ -1,0 +1,34 @@
+.info-banner {
+  @include flex;
+  @include p4;
+  @include bgwhite;
+}
+
+.info-banner-container {
+  @include pdkblue;
+  @include medium;
+  flex: 1;
+  margin-left: 1.5rem;
+}
+
+.info-banner-container--header {
+  @include block;
+  @include gray5;
+}
+
+.info-banner-container--body {
+  @include block;
+  @include gray5;
+}
+
+.info-banner-container--link {
+  @include right;
+
+  a {
+    @include pblue;
+
+    .learn-more--icon {
+      top: 0.4rem;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner when pass all the props should render correctly 1`] = `
+<div>
+  <div
+    class="banner banner_positive className"
+  >
+    <div
+      class="banner-name"
+    >
+      word
+    </div>
+  </div>
+</div>
+`;

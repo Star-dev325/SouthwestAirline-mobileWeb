@@ -1,0 +1,22 @@
+.check-in-landing-page {
+  @include bgpdkblue;
+
+  .ui.form {
+    @include overflow-hidden;
+    border-radius: 5px;
+
+    .input {
+      min-height: 0;
+      background: none;
+
+      input {
+        background: none;
+      }
+    }
+  }
+}
+
+.check-in--eligible-time-range-notice {
+  @include gray3;
+  @include px5;
+}

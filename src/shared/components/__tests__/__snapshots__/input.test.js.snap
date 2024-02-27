@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Input should render when with className \`testName\` 1`] = `
+<div
+  class="testName input"
+>
+  <input
+    class=""
+  />
+</div>
+`;
+
+exports[`Input Input should render when with prop \`fluid\` 1`] = `
+<div
+  class="fluid input"
+>
+  <input
+    class=""
+  />
+</div>
+`;
+
+exports[`Input Input should render when with prop \`size\` 1`] = `
+<div
+  class="input mini"
+>
+  <input
+    class=""
+  />
+</div>
+`;
+
+exports[`Input Input should rendered with correct class 1`] = `
+<div
+  class="input"
+>
+  <input
+    class=""
+  />
+</div>
+`;
+
+exports[`Input mask prop when given should render a MaskedInputElement 1`] = `
+<div>
+  <div
+    class="input"
+  >
+    <input />
+  </div>
+</div>
+`;
+
+exports[`Input mask prop when not given should not render a MaskedInputElement 1`] = `
+<div>
+  <div
+    class="input"
+  >
+    <input
+      class=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Input should render 1`] = `
+<div>
+  <div
+    class="input"
+  >
+    <input
+      class=""
+    />
+  </div>
+</div>
+`;

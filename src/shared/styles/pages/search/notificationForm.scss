@@ -1,0 +1,50 @@
+.notification-form {
+  .instruction {
+    &:first-of-type {
+      @include mt1;
+    }
+  }
+
+  .input {
+    padding: 0.5rem 2.1rem;
+  }
+
+  .header {
+    @include gray5;
+    @include bold;
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem;
+  }
+
+  .button {
+    margin-top: 1.2rem;
+  }
+
+  .button--fluid {
+    @include xlarge;
+    padding: 1.8rem 1.5rem;
+  }
+
+  .native-dropdown {
+    @include mb4;
+
+    .dropdown {
+      padding: 1.3rem 2.1rem;
+    }
+
+    .icon_caret-down {
+      @include pblue;
+      right: 1.5rem;
+    }
+  }
+
+  .icon.icon_exclamation-circle {
+    @include red;
+    @include xlarge;
+  }
+
+  input[type='email'],
+  input[type='tel'] {
+    @include xlarge;
+  }
+}

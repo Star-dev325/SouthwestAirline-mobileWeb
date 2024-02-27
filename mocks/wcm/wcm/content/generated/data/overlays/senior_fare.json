@@ -1,0 +1,16 @@
+{
+  "revision": "20150304105043618",
+  "overlay": {
+    "title": "Senior Fares",
+    "body": [
+      {
+        "type": "heading",
+        "value": "Senior Fares"
+      },
+      {
+        "type": "text",
+        "value": "<p>These fares are refundable and changeable and may be applied toward future  travel on Southwest Airlines for the originally ticketed passenger only.</p>\n<p>Standby travel requires an upgrade to the Anytime fare.</p>\n<p>Passengers must be at least 65 years of age, with valid I.D.</p>\n<p>Fare is not combinable with Web Only fares or DING! fares.</p>\n<p>Fares may vary as seats are limited and may not be available on all flights  and dates.</p>\n<p>Limited seating, advance purchase, and other conditions may apply.</p>\n<p>Fares are subject to change until tickets are purchased and may be available  for a limited time only.</p>\n<p>When combining fares, all rules and restrictions apply.</p>\n<p>Lower fares may be available.</p>\n<div id=\"_mcePaste\" class=\"mcePaste\" style=\"position: absolute; left: -40px; top: -25px; width: 1px; height: 1px; overflow: hidden;\"></div>"
+      }
+    ]
+  }
+}

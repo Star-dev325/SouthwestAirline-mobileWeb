@@ -1,0 +1,113 @@
+.enroll-confirmation-page {
+  background-image: image-url('placeholders/enroll-confirmation-bg.jpg');
+  background-size: cover;
+
+  .custom-container {
+    padding: 1.3rem 1.5rem;
+  }
+
+  .congratulation-text {
+    @include white;
+    @include larger;
+    line-height: 2rem;
+  }
+
+  .goto-login {
+    @include bgwhite;
+    @include p5;
+    @include mb6;
+    @include pdkblue;
+    @include large;
+    @include rd2;
+    box-shadow: 0 2px 0 $gray2;
+    text-transform: capitalize;
+
+    .icon {
+      @include gray4;
+      @include right;
+      @include xxlarge;
+    }
+  }
+
+  .swa-message {
+    @include p0;
+    @include pt5;
+  }
+
+  .swa-message.success {
+    @include mb4;
+
+    .icon-container {
+      @include bgwhite;
+      @include mr4;
+      @include p1;
+      @include inline-block;
+      border-radius: 3rem;
+    }
+
+    .icon_check {
+      @include green;
+      font-size: 2.5rem;
+    }
+
+    .text {
+      @include white;
+      @include ml4;
+      @include bold;
+      @include truncate;
+      padding: 0 0.5rem 1rem;
+      font-size: 2.5rem;
+      border-radius: 2.5rem;
+      width: 80%;
+    }
+  }
+}
+
+.confirmation-cards-page--wrapper {
+  @include mx-auto;
+  @include my5;
+  @include py5;
+  @include px7;
+}
+
+.enroll-confirmation-page--cards {
+  @include relative;
+  background: $pblue url('/content/mkt/images/landing_pages/carBooking/rr-bg-swoop.svg') no-repeat 0 bottom;
+  border-radius: 4%;
+  height: 428px;
+}
+
+.enroll-confirmation-page--cards-logo {
+  width: 58%;
+  float: right;
+  margin: 3rem 1rem 0 0;
+}
+
+.enroll-confirmation-page--cards-tm {
+  @include large;
+  float: right;
+  clear: right;
+  margin: 0.5rem 4rem 0 0;
+  color: $white;
+}
+
+.enroll-confirmation-page--cards-user-info {
+  @include white;
+  @include larger;
+  @include absolute;
+  @include align-right;
+  top: 30%;
+  right: 13%;
+  width: 87%;
+
+  .username {
+    @include inline-block;
+    @include xxlarge;
+    @include truncate;
+    width: 65%;
+  }
+
+  .account-number {
+    @include xlarge;
+  }
+}

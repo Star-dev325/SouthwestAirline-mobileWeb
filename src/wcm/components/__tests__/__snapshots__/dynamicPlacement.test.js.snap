@@ -1,0 +1,324 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DynamicPlacement flex placement display type with shouldCheckBootstrap when value is true should render loading shimmer with ImagePlacement display type 1`] = `
+<div>
+  <div
+    data-qa="observed-viewport"
+  >
+    <div
+      class="dynamic-placement"
+    >
+      <div
+        class="shimmer bggray2"
+      >
+        <div
+          class="shimmer--animate"
+        >
+          <div
+            class="shimmer--effect"
+          />
+          <div
+            class="shimmer--effect"
+          />
+        </div>
+        <div
+          class="shimmer--children"
+        >
+          <div
+            class="image-placement"
+          >
+            <div
+              data-qa="placement-link"
+            >
+              <img
+                alt=""
+                class="image-placement--background-image"
+                src="backgroundImage"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DynamicPlacement flex placement display type with shouldCheckBootstrap when value is true should render loading shimmer with LegacyChaseAd display type 1`] = `
+<div>
+  <div
+    data-qa="observed-viewport"
+  >
+    <div
+      class="dynamic-placement"
+    >
+      <div
+        class="shimmer bggray2"
+      >
+        <div
+          class="shimmer--animate"
+        >
+          <div
+            class="shimmer--effect"
+          />
+          <div
+            class="shimmer--effect"
+          />
+        </div>
+        <div
+          class="shimmer--children"
+        >
+          <div
+            class="p4 bgpblue bdt bdpdkblue"
+            data-qa="chase"
+            id="chase-container"
+          >
+            <div>
+              <div
+                class="pb4 flex flex-column"
+                data-qa="chase-banner"
+              >
+                <div
+                  class="flex flex-main-between yellow"
+                >
+                  <div>
+                    <div
+                      class="p3 mb4 small inline-block rd2 white bold bggreen"
+                    >
+                      You're pre-qualified!
+                    </div>
+                    <div
+                      class="xxlarge yellow bold  italic "
+                    >
+                      Get $200 statement credit
+                    </div>
+                    <div
+                      class="large yellow italic "
+                    >
+                      after first purchase & earn 10,000 bonus points
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      <img
+                        alt="Chase Instant Credit Banner"
+                        class="fit pb4"
+                        data-qa="chase-banner"
+                        src="/partnerImage.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex flex-column xlarge pb5"
+              >
+                <div
+                  class="flex flex-main-between white pb1"
+                >
+                  <div
+                    class="white   flex9"
+                  >
+                    You pay today
+                  </div>
+                  <div
+                    class="white   flex3 align-right"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        1,311.11
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex flex-main-between yellow pb1"
+                >
+                  <div
+                    class="yellow   flex9"
+                  >
+                    Credit on your statement
+                  </div>
+                  <div
+                    class="yellow   flex3 align-right chase-instant-credit--statement-credit"
+                  >
+                    - 
+                    <div
+                      class="currency inline-block"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        200.00
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex flex-main-between white"
+                  data-qa="chase-adjusted-fare"
+                >
+                  <div
+                    class="white bold  flex9"
+                  >
+                    Total after statement credit
+                  </div>
+                  <div
+                    class="white bold  flex3 align-right"
+                  >
+                    <div
+                      class="currency inline-block"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        1,111.11
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              data-qa="placement-link"
+            >
+              <button
+                class="button--grey pt5 chase-instant-credit--button button button--fluid larger"
+                type="button"
+              >
+                Learn more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DynamicPlacement flex placement display type with shouldCheckBootstrap when value is true should render loading shimmer with MobileHero display type 1`] = `
+<div>
+  <div
+    data-qa="observed-viewport"
+  >
+    <div
+      class="dynamic-placement"
+    >
+      <div
+        class="shimmer bggray2"
+      >
+        <div
+          class="shimmer--animate"
+        >
+          <div
+            class="shimmer--effect"
+          />
+          <div
+            class="shimmer--effect"
+          />
+        </div>
+        <div
+          class="shimmer--children"
+        >
+          <div
+            class="image-placement"
+          >
+            <div
+              data-qa="placement-link"
+            >
+              <img
+                alt=""
+                class="image-placement--background-image"
+                src="backgroundImage"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DynamicPlacement flex placement display type with shouldCheckBootstrap when value is true should render loading shimmer with shouldDisplay false and placement with fade-in when props placement is defined 1`] = `
+<div>
+  <div
+    data-qa="observed-viewport"
+  >
+    <div
+      class="dynamic-placement"
+    >
+      <div
+        class="shimmer"
+      >
+        <div
+          class="shimmer--children"
+        >
+          <a
+            class="flex-placement visible--animated"
+            display="block"
+            style="background-color: rgb(26, 44, 128); width: 100px;"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DynamicPlacement flex placement display type with shouldCheckBootstrap when value is true should render loading shimmer with shouldDisplay true and adjustedStyles when contentLoadingState is skeleton 1`] = `
+<div>
+  <div
+    data-qa="observed-viewport"
+  >
+    <div
+      class="dynamic-placement"
+    >
+      <div
+        class="shimmer bggray2"
+        style="width: 100px;"
+      >
+        <div
+          class="shimmer--animate"
+        >
+          <div
+            class="shimmer--effect"
+          />
+          <div
+            class="shimmer--effect"
+          />
+        </div>
+        <div
+          class="shimmer--children"
+        >
+          <a
+            class="flex-placement invisible--animated"
+            display="block"
+            style="background-color: rgb(26, 44, 128); width: 100px;"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

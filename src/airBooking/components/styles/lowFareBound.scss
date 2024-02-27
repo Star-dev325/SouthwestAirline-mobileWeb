@@ -1,0 +1,155 @@
+.low-fare-outbound {
+  @include bgwhite;
+  @include relative;
+
+  .low-fare-calendar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .low-fare-calendar {
+    @include flex;
+    @include flex-row;
+    @include flex-item-end;
+    @include relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-top: 0.6rem;
+    -ms-overflow-style: none;
+    z-index: 2;
+
+    .calendar-month {
+      @include flex;
+      @include flex-wrap-start;
+      @include flex-column;
+
+      .month-indicator {
+        @include large;
+        @include gray3;
+        @include larger;
+        @include bold;
+        left: 0.5rem;
+        position: -webkit-sticky;
+        position: sticky; // sass-lint:disable-line no-duplicate-properties
+        width: 3.3rem;
+        height: 1.7rem;
+        margin-left: 0.6rem;
+      }
+
+      .calendar-days-container {
+        @include flex;
+        height: 21.6rem;
+
+        .calendar-day {
+          @include flex-inline;
+          @include flex-column;
+          @include flex-main-end;
+          @include ml2;
+          margin-top: 0.4rem;
+          width: 7.5rem;
+
+          .calendar-day--fare-price {
+            @include pdkblue;
+            @include bgsltblue;
+            @include flex-inline;
+            @include flex-column;
+            @include flex-wrap;
+            @include flex-main-end;
+            @include rdt2;
+            @include xlarge;
+            @include bold;
+            @include center;
+            @include pb2;
+            margin-bottom: 0.2rem;
+            width: 100%;
+
+            &.selected {
+              @include bgpblue;
+              @include white;
+            }
+
+            &.unselectable {
+              @include bggray3;
+            }
+
+            .calendar-day--points-tax {
+              @include medium;
+              @include italic;
+              height: 1.4rem;
+              font-stretch: normal;
+              line-height: normal;
+              letter-spacing: normal;
+            }
+          }
+
+          .calendar-day--fare-price-disabled {
+            @extend .calendar-day--fare-price;
+            @include bggray3;
+            @include gray5;
+            @include bold;
+            height: 2.7rem;
+            font-size: 1.4rem;
+            padding-top: 0.6rem;
+          }
+
+          .calendar-day--menu {
+            @include white;
+            @include medium;
+            @include bold;
+            @include center;
+            @include py1;
+            @include pl2;
+            margin-left: -0.5rem;
+            height: 2rem;
+          }
+        }
+      }
+    }
+
+    .low-fare-calendar--fetch-prev-next {
+      @include flex;
+      @include flex-row;
+      @include flex-main-center;
+      @include flex-item-center;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      padding-top: 0.7rem;
+      width: 100%;
+    }
+
+    .lfc-ic-load-more {
+      width: 2.4rem;
+      height: 2.4rem;
+      object-fit: contain;
+    }
+  }
+
+  .low-fare-calendar--menu-footer {
+    @include bgpblue;
+    @include flex;
+    @include flex-column;
+    @include flex-no-wrap;
+    @include flex-main-start;
+    @include flex-cross-stretch;
+    @include flex-wrap-stretch;
+    @include absolute;
+    height: 2rem;
+    width: 100%;
+    bottom: 0;
+    z-index: 0;
+    left: 0;
+  }
+}
+
+.low-fare-inbound {
+  @extend .low-fare-outbound;
+
+  .low-fare-calendar .calendar-month .calendar-days-container .calendar-day .calendar-day--fare-price {
+    &.selected {
+      @include bggreen2;
+    }
+  }
+
+  .low-fare-calendar--menu-footer {
+    @include bggreen2;
+  }
+}

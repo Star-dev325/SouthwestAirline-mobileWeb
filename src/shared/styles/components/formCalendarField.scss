@@ -1,0 +1,43 @@
+.form-calendar-field {
+  @extend .search-fields;
+  @include py6;
+}
+
+.form-calendar-field--icon {
+  @extend .search-fields--icon;
+  font-size: 3.1rem;
+}
+
+.form-calendar-field--departure-date {
+  @extend .search-fields--left;
+}
+
+.form-calendar-field--return-date {
+  @extend .search-fields--right;
+}
+
+.form-calendar-field--date {
+  font-size: 3.1rem;
+}
+
+.form-calendar-field--description {
+  @include medium;
+  @include gray4;
+  @include mt2;
+}
+
+.form-calendar-field--date-description {
+  @include small;
+  @include gray4;
+}
+
+.form-calendar-field_disabled {
+  @include gray4;
+}
+
+.homepage-redesign {
+  .form-calendar-field--date {
+    @include fontsize24;
+    @include pblue;
+  }
+}

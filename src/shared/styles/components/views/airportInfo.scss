@@ -1,0 +1,17 @@
+.airport-info {
+  @include xxlarge;
+
+  .airport-info--code {
+    @include block;
+    @include pdkblue;
+    @include bold;
+  }
+
+  .airport-info--detail {
+    @include block;
+    @include gray5;
+    @include medium;
+    @include lineheight10;
+    @include regular;
+  }
+}

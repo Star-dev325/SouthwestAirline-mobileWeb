@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`earlyBirdPriceSubTotal should render 1`] = `
+<div>
+  <div
+    class="early-bird-price-subtotal"
+  >
+    <div
+      class="early-bird-price-subtotal--flight-info"
+    >
+      <div
+        class="early-bird-price-subtotal--origin-destination"
+      >
+        DAL - HOU
+      </div>
+      <div
+        class="early-bird-price-subtotal--price-calculator"
+      >
+        2 x 
+        <div
+          class="currency formatted-currency"
+        >
+          <span
+            class="money-sign"
+          >
+            $
+          </span>
+          <span
+            data-qa="total-amount"
+          >
+            15.00
+          </span>
+        </div>
+      </div>
+      <div
+        class="early-bird-price-subtotal--total-price"
+      >
+        <div
+          class="currency formatted-currency"
+        >
+          <span
+            class="money-sign"
+          >
+            $
+          </span>
+          <span
+            data-qa="total-amount"
+          >
+            30.00
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="early-bird-price-subtotal--flight-number"
+    >
+      #101/102
+    </div>
+  </div>
+</div>
+`;

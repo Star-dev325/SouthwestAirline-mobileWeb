@@ -1,0 +1,107 @@
+.radio-input.switch-button {
+  @include flex;
+  @include rd3;
+  border: 1px solid $form-field-border;
+
+  &.switch-button--remove-border {
+    @include border-none;
+  }
+
+
+  &_vertical {
+    @include block;
+  }
+
+  .switch-button--item {
+    @include block;
+    @include fullwidth;
+    @include bgwhite;
+
+    flex: 1;
+    border-left: 2px solid $gray2;
+    box-shadow: inset 0 -1px 0 0 $opacity20;
+    line-height: 2.2rem;
+
+    &.switch-button--remove-shadow {
+      @include bdl-none;
+      @include lineheight10;
+      box-shadow: none;
+    }
+
+    &.switch-button_unclickable {
+      pointer-events: none;
+    }
+
+    &:first-child {
+      border-left: 0;
+    }
+
+    .button {
+      @include relative;
+      @include border-none;
+      @include align-left;
+      @include square;
+      @include p5;
+      @include larger;
+      @include regular;
+
+      padding-right: 5rem;
+      background: none;
+
+      &_vertical {
+        @include bdb;
+      }
+    }
+
+    .button--primary-blue {
+      @include bgpblue;
+      @include white;
+    }
+  }
+}
+
+.radio-input--mark {
+  @include absolute;
+  @include circle;
+  border: 1px solid $form-field-border;
+
+  top: 50%;
+  right: 1.4rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  transform: translateY(-50%);
+
+  box-shadow: inset 0 1px 2px $form-field-border;
+  z-index: 1;
+}
+
+.radio-input--mark.active,
+.switch-button--item.active .radio-input--mark {
+  &::after {
+    @include absolute;
+    @include circle;
+    @include bgpblue;
+
+    content: '';
+    top: 0.3rem;
+    left: 0.3rem;
+    right: 0.3rem;
+    bottom: 0.3rem;
+  }
+}
+
+.radio-input--mark_left {
+  @include l0;
+}
+
+.radio-input--mark_clickable {
+  pointer-events: auto;
+}
+
+.radio-input--padding-left {
+  @include pl5;
+}
+
+.radio-input--gray-text {
+  @include gray5;
+}

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AcceptRapidRewardsRulesMessage enroll Message should show enroll acknowledgement link 1`] = `
+<div>
+  <div
+    class="medium ml4"
+  >
+    <div
+      class="enroll-acknowledgement-link"
+      data-qa="enroll-acknowledgement"
+    >
+      RULES_ACKNOWLEDGE_MESSAGE
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AcceptRapidRewardsRulesMessage minor message should not show if passed in a younger threshold and user is above that threshold 1`] = `
+<div>
+  <div
+    class="medium ml4"
+  >
+    <div
+      class="enroll-acknowledgement-link"
+      data-qa="enroll-acknowledgement"
+    >
+      RULES_ACKNOWLEDGE_MESSAGE
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AcceptRapidRewardsRulesMessage minor message should not show it if user is at minor age threshold 1`] = `
+<div>
+  <div
+    class="medium ml4"
+  >
+    <div
+      class="enroll-acknowledgement-link"
+      data-qa="enroll-acknowledgement"
+    >
+      RULES_ACKNOWLEDGE_MESSAGE
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AcceptRapidRewardsRulesMessage minor message should not show minor message if user is is older than minor age threshold 1`] = `
+<div>
+  <div
+    class="medium ml4"
+  >
+    <div
+      class="enroll-acknowledgement-link"
+      data-qa="enroll-acknowledgement"
+    >
+      RULES_ACKNOWLEDGE_MESSAGE
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AcceptRapidRewardsRulesMessage minor message should show minor message if user is below minor age threshold 1`] = `
+<div>
+  <div
+    class="medium ml4"
+  >
+    <div
+      data-qa="enroll-minor-acknowledgement"
+    >
+      MINOR_ACKNOWLEDGE_MESSAGE
+    </div>
+  </div>
+</div>
+`;

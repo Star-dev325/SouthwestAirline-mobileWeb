@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AirChange should render AirChange route page 1`] = `
+<div>
+  <div
+    class="air-change"
+  >
+    <div
+      class="flight-change"
+    >
+      <div>
+        <div
+          class="page-header"
+          id=""
+        >
+          AIR_CHANGE__TITLE
+        </div>
+        <div />
+      </div>
+      <div />
+      <form
+        class="form"
+        name="AIR_CHANGE_SELECT_FORM"
+        novalidate=""
+      >
+        <fieldset>
+          <div
+            class="bgwhite bdb bdt"
+          />
+          <div
+            class="segment"
+          >
+            <button
+              class="change button button--fluid larger button--yellow"
+              data-qa="air-change-select-bound-continue-button"
+              type="submit"
+            >
+              SHARED__BUTTON_TEXT__CONTINUE
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+`;

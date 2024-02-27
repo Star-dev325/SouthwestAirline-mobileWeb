@@ -1,0 +1,35 @@
+.travel-advisory-detail {
+  @include p5;
+}
+
+.travel-advisory-detail--title {
+  @include mb4;
+}
+
+.travel-advisory-detail--title-text {
+  @include pdkblue;
+  font-size: 2rem;
+}
+
+.travel-advisory-detail--title-icon {
+  @include pblue;
+  font-size: 2rem;
+  padding: 0.2rem 0.4rem 0.4rem 0.2rem;
+}
+
+.travel-advisory-detail--info {
+  @include gray5;
+  @include small;
+
+  p {
+    @include mb4;
+  }
+
+  ul {
+    @include pl6;
+
+    li {
+      @include mb2;
+    }
+  }
+}

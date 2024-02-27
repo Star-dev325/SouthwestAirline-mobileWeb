@@ -1,0 +1,54 @@
+.flight-select-fare--container {
+  @include bgpdkblue;
+
+  .action-bar--sub-title {
+    @include ml2;
+    @include regular;
+    @include italic;
+  }
+
+  .flight-product-section {
+    @include pb2;
+  }
+}
+
+.is-webview {
+  &.flight-select-fare-page {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .flight-select-fare--container {
+        background: none;
+      }
+
+      .flight-header,
+      .flight-select-fare--products-container,
+      .flight-select-fare--footnotes {
+        @include tablet-content-frame-lg;
+        @include mx-auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .flight-select-fare--container {
+    .flight-header--stops {
+      @include medium;
+    }
+
+    .flight-header--flight-number {
+      @include larger;
+    }
+
+    .flight-header .flight-time {
+      @include larger;
+
+      .flight-time--time {
+        .time-period {
+          @include medium;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.price-line {
+  @include table;
+  @include fullwidth;
+
+  .price-line--title {
+    @include table-cell;
+    @include align-left;
+  }
+
+  .price-amount {
+    @include table-cell;
+    @include align-right;
+  }
+}

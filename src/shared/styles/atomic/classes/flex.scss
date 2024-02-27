@@ -1,0 +1,79 @@
+// EXAMPLE
+// A two column grid with column widths of 1/3 and 2/3
+// <div class='flex'>
+//   <div class='flex-4'></div>
+//   <div class='flex-8'></div>
+// </div>
+
+// PARENT CLASSES
+.flex                { @include flex;                }
+
+.flex-column         { @include flex-column;         }
+.flex-row            { @include flex-row;            }
+
+.flex-auto           { @include flex-auto;           }
+// Main axis is x by default, y if .flex-column applied
+.flex-main-end       { @include flex-main-end;       }
+.flex-main-center    { @include flex-main-center;    }
+.flex-main-between   { @include flex-main-between;   }
+.flex-main-around    { @include flex-main-around;    }
+
+// Cross axis is y by default, x if .flex-column applied
+.flex-cross-start    { @include flex-cross-start;    }
+.flex-cross-end      { @include flex-cross-end;      }
+.flex-cross-center   { @include flex-cross-center;   }
+.flex-cross-baseline { @include flex-cross-baseline; }
+
+.flex-wrap           { @include flex-wrap; }
+// Alignment of whole set of rows along cross axis.
+// These will only take effect if .flex-wrap is applied.
+.flex-wrap-start     { @include flex-wrap-start;     }
+.flex-wrap-end       { @include flex-wrap-end;       }
+.flex-wrap-center    { @include flex-wrap-center;    }
+.flex-wrap-between   { @include flex-wrap-between;   }
+.flex-wrap-around    { @include flex-wrap-around;    }
+
+.flex-row-reverse    { @include flex-row-reverse }
+.flex-column-reverse { @include flex-column-reverse}
+
+
+// CHILD CLASSES (must be applied on direct descendants of parents with .flex)
+
+// Use these to define column widths
+.flex-equal-width    { @include flex-equal-width;    }
+.flex1               { @include flex1;               }
+.flex2               { @include flex2;               }
+.flex3               { @include flex3;               }
+.flex4               { @include flex4;               }
+.flex5               { @include flex5;               }
+.flex6               { @include flex6;               }
+.flex7               { @include flex7;               }
+.flex8               { @include flex8;               }
+.flex9               { @include flex9;               }
+.flex10              { @include flex10;              }
+.flex11              { @include flex11;              }
+
+.flex-shrink0        { @include flex-shrink0;        }
+.flex-shrink1        { @include flex-shrink1;        }
+
+.flex-grow1          { @include flex-grow1;          }
+
+// align-items (.flex-cross-*) override
+.flex-item-start     { @include flex-item-start;     }
+.flex-item-end       { @include flex-item-end;       }
+.flex-item-center    { @include flex-item-center;    }
+.flex-item-baseline  { @include flex-item-baseline;  }
+.flex-item-stretch   { @include flex-item-stretch;   }
+
+// Push columns right
+.push1               { @include push1;               }
+.push2               { @include push2;               }
+.push3               { @include push3;               }
+.push4               { @include push4;               }
+.push5               { @include push5;               }
+.push6               { @include push6;               }
+.push7               { @include push7;               }
+.push8               { @include push8;               }
+.push9               { @include push9;               }
+.push10              { @include push10;              }
+.push11              { @include push11;              }

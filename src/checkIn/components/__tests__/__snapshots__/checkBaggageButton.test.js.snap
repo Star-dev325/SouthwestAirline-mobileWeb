@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checkBaggageButton aria label should render aria label if feature is trackCheckedBags 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <button
+      aria-label="CHECK_IN__CHECK_BAGGAGE_BUTTON__TRACK_BAGS__ARIA"
+      class="button button--fluid larger button--blue"
+      data-qa="check-baggage-button"
+      type="button"
+    >
+      Check standard bags now
+    </button>
+  </div>
+</div>
+`;
+
+exports[`checkBaggageButton buttonClassName should render check standard bags now button with default buttonClassName 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <button
+      class="button button--fluid larger button--blue"
+      data-qa="check-baggage-button"
+      type="button"
+    >
+      Check standard bags now
+    </button>
+  </div>
+</div>
+`;
+
+exports[`checkBaggageButton buttonClassName should render check standard bags now button with provided buttonClassName 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <button
+      class="test-button-className button button--fluid larger button--blue"
+      data-qa="check-baggage-button"
+      type="button"
+    >
+      Check standard bags now
+    </button>
+  </div>
+</div>
+`;
+
+exports[`checkBaggageButton buttonSize should render check standard bags now button with default buttonSize 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <button
+      class="button button--fluid larger button--blue"
+      data-qa="check-baggage-button"
+      type="button"
+    >
+      Check standard bags now
+    </button>
+  </div>
+</div>
+`;
+
+exports[`checkBaggageButton buttonSize should render check standard bags now button with provided buttonSize 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <button
+      class="button button--fluid large button--blue"
+      data-qa="check-baggage-button"
+      type="button"
+    >
+      Check standard bags now
+    </button>
+  </div>
+</div>
+`;
+
+exports[`checkBaggageButton icon should render button with icon if icon prop has been passed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <button
+      class="button button--fluid larger button--blue"
+      data-qa="check-baggage-button"
+      type="button"
+    >
+      Check standard bags now
+      <i
+        aria-hidden="true"
+        class="external-link-icon icon icon_ic-external-link"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`checkBaggageButton render should render check standard bags now button with labelText value 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <button
+      class="button button--fluid larger button--blue"
+      data-qa="check-baggage-button"
+      type="button"
+    >
+      Check standard bags now
+    </button>
+  </div>
+</div>
+`;
+
+exports[`checkBaggageButton render should render check standard bags now button with padding-top 1`] = `
+<div>
+  <div
+    class="pt5"
+  >
+    <button
+      class="button button--fluid larger button--blue"
+      data-qa="check-baggage-button"
+      type="button"
+    >
+      Check standard bags now
+    </button>
+  </div>
+</div>
+`;

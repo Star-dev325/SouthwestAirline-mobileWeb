@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pricingBannerList render should render a list of messages 1`] = `
+<div
+  className="pricing-banner-list"
+>
+  <BasicBanner
+    className="pricing-banner-list--basic-banner"
+    icon="WARNING"
+    key="PRICING_EARLY_BIRD_BUNDLED_INSIDE_36_HOURS"
+    message="We can not add this product to a flight that leaves within 36 hours of purchase"
+    title="EarlyBird Check-in is not available"
+  />
+</div>
+`;

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="9">
+
+  <testsuite name="airChange.airChangeReaccomRoundTripTest"
+    errors="0" failures="0" hostname="" id="" package="airChange" skipped="0"
+    tests="9" time="41.36" timestamp="Fri, 15 Dec 2023 01:01:52 GMT">
+  
+    <testcase name="Go to view reservations from home page" classname="airChange.airChangeReaccomRoundTripTest" time="25.75" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View flight reservation through with confirmation number" classname="airChange.airChangeReaccomRoundTripTest" time="5.419" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Air View Reservation Analytics Store, Page and Message are valid after searching successfully" classname="airChange.airChangeReaccomRoundTripTest" time="0.07200" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Choose the change flight option" classname="airChange.airChangeReaccomRoundTripTest" time="1.458" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Show the select page" classname="airChange.airChangeReaccomRoundTripTest" time="0.8420" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go the shopping page" classname="airChange.airChangeReaccomRoundTripTest" time="3.081" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select new flights" classname="airChange.airChangeReaccomRoundTripTest" time="2.578" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Trip Summary Page and Confirm Change" classname="airChange.airChangeReaccomRoundTripTest" time="1.731" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Confirmation Page" classname="airChange.airChangeReaccomRoundTripTest" time="0.4250" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

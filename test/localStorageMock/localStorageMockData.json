@@ -1,0 +1,2172 @@
+{
+  "bookingSessionStoreData": {
+    "searchRequest": {
+      "adultPassengersCount": 1,
+      "tripType": "oneWay",
+      "isRoundTrip": false,
+      "lapInfantPassengersCount": 0,
+      "origin": "ALB",
+      "destination": "ABQ",
+      "departureDate": "2017-05-02",
+      "returnDate": "",
+      "numberOfAdults": 1,
+      "numberOfSeniors": 0,
+      "promoCode": "",
+      "currencyType": "Dollars"
+    },
+    "purchaseSessionIds": [],
+    "selectedFlightProducts": {
+      "adult": {
+        "outbound": {
+          "flightProduct": {
+            "originAirport": {
+              "code": "DAL",
+              "airportName": "Dallas (Love Field)",
+              "displayName": "Dallas (Love Field)",
+              "cityName": "Dallas",
+              "shortDisplayName": "Dallas",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "32.8471",
+              "longitude": "-96.8518",
+              "airportSearchName": "DFW, Ft. Worth, Fort Worth, Texas"
+            },
+            "destinationAirport": {
+              "code": "ATL",
+              "airportName": "Atlanta",
+              "displayName": "Atlanta",
+              "cityName": "Atlanta",
+              "shortDisplayName": "Atlanta",
+              "cityState": "GA",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "33.6367",
+              "longitude": "-84.4281",
+              "airportSearchName": "Georgia, Giorgia"
+            },
+            "departureDateTime": "2015-06-13T06:20",
+            "arrivalDateTime": "2015-06-13T11:10",
+            "fareProducts": [
+              {
+                "fareType": "Wanna Get Away",
+                "currencyType": "Dollars",
+                "fareValue": 13500,
+                "accrualPoints": 627,
+                "fareClass": "N",
+                "discountedFareValue": 13500,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "4",
+                "productId": "VFpOMFJOUnxBbWVyaWNhL0NoaWNhZ298MjAxNjAzMjMwNjQwLDIwMTYwMzIzMDk0MHxEQUwtQVRMfFdOMTgwfFR8QURUfDczQw=="
+              },
+              {
+                "fareType": "Anytime",
+                "currencyType": "Dollars",
+                "fareValue": 32250,
+                "accrualPoints": 2790,
+                "fareClass": "Y",
+                "discountedFareValue": 32250,
+                "unavailabilityReason": "IMPOSSIBLE_ITINERARY",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDYyMCwyMDE1MDYxMzExMTB8REFMLVNUTCxTVEwtQVRMfFdOMTI2NixXTjEzNTF8WXxBRFR8NzNXLDczVw=="
+              },
+              {
+                "fareType": "Business Select",
+                "currencyType": "Dollars",
+                "fareValue": 33850,
+                "accrualPoints": 3526,
+                "fareClass": "K",
+                "discountedFareValue": 33850,
+                "unavailabilityReason": "INSUFFICIENT_INVENTORY",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDYyMCwyMDE1MDYxMzExMTB8REFMLVNUTCxTVEwtQVRMfFdOMTI2NixXTjEzNTF8S3xBRFR8NzNXLDczVw=="
+              },
+              {
+                "fareType": "Senior",
+                "currencyType": "Dollars",
+                "fareValue": 22650,
+                "accrualPoints": 1138,
+                "fareClass": "Q",
+                "discountedFareValue": 22650,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNTEyMDU1MCwyMDE1MDUxMjA4MjV8QU1BLURBTCxEQUwtQVVTfFdONTg0LFdONDc0MnxRfFNSQ3w3MzUsNzNX"
+              }
+            ],
+            "durationMinutes": 230,
+            "segments": [
+              {
+                "departureAirport": "DAL",
+                "arrivalAirport": "STL",
+                "flightNumber": "1266",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T06:20",
+                "arrivalDateTime": "2015-06-13T08:00",
+                "durationMinutes": 100,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              },
+              {
+                "departureAirport": "STL",
+                "arrivalAirport": "ATL",
+                "flightNumber": "1351",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T08:35",
+                "arrivalDateTime": "2015-06-13T11:10",
+                "durationMinutes": 155,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              }
+            ],
+            "numberOfStops": 1,
+            "connectionAirportCode": "STL",
+            "connectionAirport": {
+              "code": "STL",
+              "airportName": "St. Louis",
+              "displayName": "St. Louis",
+              "cityName": "St. Louis",
+              "shortDisplayName": "St. Louis",
+              "cityState": "MO",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "38.7487",
+              "longitude": "-90.37",
+              "airportSearchName": "Missouri, Saint Louis, St. Luois"
+            }
+          },
+          "fareProduct": {
+            "fareType": "Wanna Get Away",
+            "currencyType": "Dollars",
+            "fareValue": 13500,
+            "accrualPoints": 627,
+            "fareClass": "N",
+            "discountedFareValue": 13500,
+            "unavailabilityReason": "NONE",
+            "seatsAvailable": "4",
+            "productId": "VFpOMFJOUnxBbWVyaWNhL0NoaWNhZ298MjAxNjAzMjMwNjQwLDIwMTYwMzIzMDk0MHxEQUwtQVRMfFdOMTgwfFR8QURUfDczQw=="
+          },
+          "isRepricingNeeded": true
+        }
+      },
+      "senior": {}
+    },
+    "purchaseConfirmationData": {},
+    "flowStatus": "in_progress",
+    "eligibleForExpressCheckout": true,
+    "pricedProducts": {
+      "adult": {
+        "promoCode": "",
+        "promoCodeApplied": false,
+        "discountApplied": false,
+        "outbound": {
+          "productId": "VFpOMFJOUnxBbWVyaWNhL0NoaWNhZ298MjAxNjAzMjMwNjQwLDIwMTYwMzIzMDk0MHxEQUwtQVRMfFdOMTgwfFR8QURUfDczQw==",
+          "bookingCode": "T",
+          "totalCents": 6398,
+          "currencyPriceDetails": {
+            "baseFareCents": 4640,
+            "taxCents": 348,
+            "discountedBaseFareCents": 4640,
+            "segmentFees": [
+              {
+                "passengerFacilityChargeCents": 450,
+                "securityFeeCents": 560,
+                "segmentFeeCents": 400
+              }
+            ]
+          }
+        },
+        "inbound": {
+          "productId": "U0xOMFJOUnxBbWVyaWNhL05ld19Zb3JrfDIwMTYwMzI2MDgwMCwyMDE2MDMyNjA5MTV8QVRMLURBTHxXTjI4MTd8U3xBRFR8NzNX",
+          "bookingCode": "S",
+          "totalCents": 14698,
+          "currencyPriceDetails": {
+            "baseFareCents": 12361,
+            "taxCents": 927,
+            "discountedBaseFareCents": 12361,
+            "segmentFees": [
+              {
+                "passengerFacilityChargeCents": 450,
+                "securityFeeCents": 560,
+                "segmentFeeCents": 400
+              }
+            ]
+          }
+        },
+        "warnings": [],
+        "priceSearchTotals": {
+          "verifyPriceChange": true,
+          "requestedAmountCents": 21096,
+          "requestedAmountPoints": 0,
+          "priceTotalAmountCents": 21096,
+          "priceTotalAmountPoints": 0,
+          "currencyPriceDetails": {
+            "baseFareCents": 16901,
+            "taxCents": 4195,
+            "discountedBaseFareCents": 16901,
+            "segmentFees": [
+              {
+                "passengerFacilityChargeCents": 900,
+                "securityFeeCents": 1120,
+                "segmentFeeCents": 800
+              }
+            ]
+          }
+        }
+      }
+    },
+    "passengerInfos": [],
+    "savedCreditCards": []
+  },
+  "selectedFlightStoreData": {
+    "flightSelectionSteps": {
+      "paxTypes": [
+        "adult"
+      ],
+      "boundTypes": [
+        "outbound"
+      ],
+      "steps": [
+        {
+          "paxType": "adult",
+          "direction": "outbound"
+        }
+      ]
+    },
+    "promoCode": "",
+    "promoCodeApplied": false,
+    "trips": [
+      {
+        "direction": "outbound",
+        "availableProducts": [
+          {
+            "originAirport": {
+              "code": "DAL",
+              "airportName": "Dallas (Love Field)",
+              "displayName": "Dallas (Love Field)",
+              "cityName": "Dallas",
+              "shortDisplayName": "Dallas",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "32.8471",
+              "longitude": "-96.8518",
+              "airportSearchName": "DFW, Ft. Worth, Fort Worth, Texas"
+            },
+            "destinationAirport": {
+              "code": "ATL",
+              "airportName": "Atlanta",
+              "displayName": "Atlanta",
+              "cityName": "Atlanta",
+              "shortDisplayName": "Atlanta",
+              "cityState": "GA",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "33.6367",
+              "longitude": "-84.4281",
+              "airportSearchName": "Georgia, Giorgia"
+            },
+            "departureDateTime": "2015-06-13T06:20",
+            "arrivalDateTime": "2015-06-13T11:10",
+            "fareProducts": [
+              {
+                "fareType": "Wanna Get Away",
+                "currencyType": "Dollars",
+                "fareValue": 13500,
+                "accrualPoints": 627,
+                "fareClass": "N",
+                "discountedFareValue": 13500,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "4",
+                "productId": "VFpOMFJOUnxBbWVyaWNhL0NoaWNhZ298MjAxNjAzMjMwNjQwLDIwMTYwMzIzMDk0MHxEQUwtQVRMfFdOMTgwfFR8QURUfDczQw=="
+              },
+              {
+                "fareType": "Anytime",
+                "currencyType": "Dollars",
+                "fareValue": 32250,
+                "accrualPoints": 2790,
+                "fareClass": "Y",
+                "discountedFareValue": 32250,
+                "unavailabilityReason": "IMPOSSIBLE_ITINERARY",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDYyMCwyMDE1MDYxMzExMTB8REFMLVNUTCxTVEwtQVRMfFdOMTI2NixXTjEzNTF8WXxBRFR8NzNXLDczVw=="
+              },
+              {
+                "fareType": "Business Select",
+                "currencyType": "Dollars",
+                "fareValue": 33850,
+                "accrualPoints": 3526,
+                "fareClass": "K",
+                "discountedFareValue": 33850,
+                "unavailabilityReason": "INSUFFICIENT_INVENTORY",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDYyMCwyMDE1MDYxMzExMTB8REFMLVNUTCxTVEwtQVRMfFdOMTI2NixXTjEzNTF8S3xBRFR8NzNXLDczVw=="
+              },
+              {
+                "fareType": "Senior",
+                "currencyType": "Dollars",
+                "fareValue": 22650,
+                "accrualPoints": 1138,
+                "fareClass": "Q",
+                "discountedFareValue": 22650,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNTEyMDU1MCwyMDE1MDUxMjA4MjV8QU1BLURBTCxEQUwtQVVTfFdONTg0LFdONDc0MnxRfFNSQ3w3MzUsNzNX"
+              }
+            ],
+            "durationMinutes": 230,
+            "segments": [
+              {
+                "departureAirport": "DAL",
+                "arrivalAirport": "STL",
+                "flightNumber": "1266",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T06:20",
+                "arrivalDateTime": "2015-06-13T08:00",
+                "durationMinutes": 100,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              },
+              {
+                "departureAirport": "STL",
+                "arrivalAirport": "ATL",
+                "flightNumber": "1351",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T08:35",
+                "arrivalDateTime": "2015-06-13T11:10",
+                "durationMinutes": 155,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              }
+            ],
+            "numberOfStops": 1,
+            "connectionAirportCode": "STL",
+            "connectionAirport": {
+              "code": "STL",
+              "airportName": "St. Louis",
+              "displayName": "St. Louis",
+              "cityName": "St. Louis",
+              "shortDisplayName": "St. Louis",
+              "cityState": "MO",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "38.7487",
+              "longitude": "-90.37",
+              "airportSearchName": "Missouri, Saint Louis, St. Luois"
+            }
+          },
+          {
+            "originAirport": {
+              "code": "DAL",
+              "airportName": "Dallas (Love Field)",
+              "displayName": "Dallas (Love Field)",
+              "cityName": "Dallas",
+              "shortDisplayName": "Dallas",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "32.8471",
+              "longitude": "-96.8518",
+              "airportSearchName": "DFW, Ft. Worth, Fort Worth, Texas"
+            },
+            "destinationAirport": {
+              "code": "ATL",
+              "airportName": "Atlanta",
+              "displayName": "Atlanta",
+              "cityName": "Atlanta",
+              "shortDisplayName": "Atlanta",
+              "cityState": "GA",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "33.6367",
+              "longitude": "-84.4281",
+              "airportSearchName": "Georgia, Giorgia"
+            },
+            "departureDateTime": "2015-06-13T06:45",
+            "arrivalDateTime": "2015-06-13T13:10",
+            "fareProducts": [
+              {
+                "fareType": "Wanna Get Away",
+                "currencyType": "Dollars",
+                "fareValue": 27700,
+                "accrualPoints": 1420,
+                "fareClass": "W",
+                "discountedFareValue": 27700,
+                "unavailabilityReason": "IMPOSSIBLE_ITINERARY",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDY0NSwyMDE1MDYxMzEzMTB8REFMLU1EVyxNRFctQVRMfFdOMTg5OCxXTjI0NjR8V3xBRFR8NzNILDczVw=="
+              },
+              {
+                "fareType": "Anytime",
+                "currencyType": "Dollars",
+                "fareValue": 32250,
+                "accrualPoints": 2790,
+                "fareClass": "Y",
+                "discountedFareValue": 32250,
+                "unavailabilityReason": "IMPOSSIBLE_ITINERARY",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDY0NSwyMDE1MDYxMzEzMTB8REFMLU1EVyxNRFctQVRMfFdOMTg5OCxXTjI0NjR8WXxBRFR8NzNILDczVw=="
+              },
+              {
+                "fareType": "Business Select",
+                "currencyType": "Dollars",
+                "fareValue": 33850,
+                "accrualPoints": 3526,
+                "fareClass": "K",
+                "discountedFareValue": 33850,
+                "unavailabilityReason": "INSUFFICIENT_INVENTORY",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDY0NSwyMDE1MDYxMzEzMTB8REFMLU1EVyxNRFctQVRMfFdOMTg5OCxXTjI0NjR8S3xBRFR8NzNILDczVw=="
+              },
+              {
+                "fareType": "Senior",
+                "currencyType": "Dollars",
+                "fareValue": 22650,
+                "accrualPoints": 1138,
+                "fareClass": "Q",
+                "discountedFareValue": 22650,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNTEyMDk1MCwyMDE1MDUxMjEzMDV8QU1BLURBTCxEQUwtQVVTfFdOODI1LFdONDczMHxRfFNSQ3w3MzUsNzND"
+              }
+            ],
+            "durationMinutes": 325,
+            "segments": [
+              {
+                "departureAirport": "DAL",
+                "arrivalAirport": "MDW",
+                "flightNumber": "1898",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T06:45",
+                "arrivalDateTime": "2015-06-13T09:00",
+                "durationMinutes": 135,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              },
+              {
+                "departureAirport": "MDW",
+                "arrivalAirport": "ATL",
+                "flightNumber": "2464",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T10:20",
+                "arrivalDateTime": "2015-06-13T13:10",
+                "durationMinutes": 170,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              }
+            ],
+            "numberOfStops": 1,
+            "connectionAirportCode": "MDW",
+            "connectionAirport": {
+              "code": "MDW",
+              "airportName": "Chicago (Midway)",
+              "displayName": "Chicago (Midway)",
+              "cityName": "Chicago",
+              "shortDisplayName": "Chicago",
+              "cityState": "IL",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "41.786",
+              "longitude": "-87.7524",
+              "airportSearchName": "Illinois, Ilinois, Chitown, Windy City, ORD, Ohare, O'Hare"
+            }
+          },
+          {
+            "originAirport": {
+              "code": "DAL",
+              "airportName": "Dallas (Love Field)",
+              "displayName": "Dallas (Love Field)",
+              "cityName": "Dallas",
+              "shortDisplayName": "Dallas",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "32.8471",
+              "longitude": "-96.8518",
+              "airportSearchName": "DFW, Ft. Worth, Fort Worth, Texas"
+            },
+            "destinationAirport": {
+              "code": "ATL",
+              "airportName": "Atlanta",
+              "displayName": "Atlanta",
+              "cityName": "Atlanta",
+              "shortDisplayName": "Atlanta",
+              "cityState": "GA",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "33.6367",
+              "longitude": "-84.4281",
+              "airportSearchName": "Georgia, Giorgia"
+            },
+            "departureDateTime": "2015-06-13T06:55",
+            "arrivalDateTime": "2015-06-13T10:10",
+            "fareProducts": [
+              {
+                "fareType": "Wanna Get Away",
+                "currencyType": "Dollars",
+                "fareValue": 9900,
+                "accrualPoints": 474,
+                "fareClass": "N",
+                "discountedFareValue": 9900,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "2",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDY1NSwyMDE1MDYxMzEwMTB8REFMLUFUTHxXTjE0NjV8TnxBRFR8NzNX"
+              },
+              {
+                "fareType": "Anytime",
+                "currencyType": "Dollars",
+                "fareValue": 31400,
+                "accrualPoints": 2790,
+                "fareClass": "Y",
+                "discountedFareValue": 31400,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDY1NSwyMDE1MDYxMzEwMTB8REFMLUFUTHxXTjE0NjV8WXxBRFR8NzNX"
+              },
+              {
+                "fareType": "Business Select",
+                "currencyType": "Dollars",
+                "fareValue": 33000,
+                "accrualPoints": 3526,
+                "fareClass": "K",
+                "discountedFareValue": 33000,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDY1NSwyMDE1MDYxMzEwMTB8REFMLUFUTHxXTjE0NjV8S3xBRFR8NzNX"
+              },
+              {
+                "fareType": "Senior",
+                "currencyType": "Dollars",
+                "fareValue": 22650,
+                "accrualPoints": 1138,
+                "fareClass": "Q",
+                "discountedFareValue": 22650,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNTEyMTQyNSwyMDE1MDUxMjE3MTB8QU1BLURBTCxEQUwtQVVTfFdONDEsV04yMDd8UXxTUkN8NzM1LDczQw=="
+              }
+            ],
+            "durationMinutes": 135,
+            "segments": [
+              {
+                "departureAirport": "DAL",
+                "arrivalAirport": "ATL",
+                "flightNumber": "1465",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T06:55",
+                "arrivalDateTime": "2015-06-13T10:10",
+                "durationMinutes": 195,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              }
+            ],
+            "numberOfStops": 0
+          },
+          {
+            "originAirport": {
+              "code": "DAL",
+              "airportName": "Dallas (Love Field)",
+              "displayName": "Dallas (Love Field)",
+              "cityName": "Dallas",
+              "shortDisplayName": "Dallas",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "32.8471",
+              "longitude": "-96.8518",
+              "airportSearchName": "DFW, Ft. Worth, Fort Worth, Texas"
+            },
+            "destinationAirport": {
+              "code": "ATL",
+              "airportName": "Atlanta",
+              "displayName": "Atlanta",
+              "cityName": "Atlanta",
+              "shortDisplayName": "Atlanta",
+              "cityState": "GA",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "33.6367",
+              "longitude": "-84.4281",
+              "airportSearchName": "Georgia, Giorgia"
+            },
+            "departureDateTime": "2015-06-13T08:40",
+            "arrivalDateTime": "2015-06-13T13:00",
+            "fareProducts": [
+              {
+                "fareType": "Wanna Get Away",
+                "currencyType": "Dollars",
+                "fareValue": 27700,
+                "accrualPoints": 1420,
+                "fareClass": "W",
+                "discountedFareValue": 27700,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDg0MCwyMDE1MDYxMzEzMDB8REFMLU1TWSxNU1ktQVRMfFdOMjEyNSxXTjE1MTB8V3xBRFR8NzM1LDczVw=="
+              },
+              {
+                "fareType": "Anytime",
+                "currencyType": "Dollars",
+                "fareValue": 32250,
+                "accrualPoints": 2790,
+                "fareClass": "Y",
+                "discountedFareValue": 32250,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDg0MCwyMDE1MDYxMzEzMDB8REFMLU1TWSxNU1ktQVRMfFdOMjEyNSxXTjE1MTB8WXxBRFR8NzM1LDczVw=="
+              },
+              {
+                "fareType": "Business Select",
+                "currencyType": "Dollars",
+                "fareValue": 33850,
+                "accrualPoints": 3526,
+                "fareClass": "K",
+                "discountedFareValue": 33850,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDg0MCwyMDE1MDYxMzEzMDB8REFMLU1TWSxNU1ktQVRMfFdOMjEyNSxXTjE1MTB8S3xBRFR8NzM1LDczVw=="
+              },
+              {
+                "fareType": "Senior",
+                "currencyType": "Dollars",
+                "fareValue": 22650,
+                "accrualPoints": 1138,
+                "fareClass": "Q",
+                "discountedFareValue": 22650,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNTEyMTk1NSwyMDE1MDUxMjIzMTV8QU1BLURBTCxEQUwtQVVTfFdONzE2LFdOMzQwfFF8U1JDfDczQyw3M1c="
+              }
+            ],
+            "durationMinutes": 200,
+            "segments": [
+              {
+                "departureAirport": "DAL",
+                "arrivalAirport": "MSY",
+                "flightNumber": "2125",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": false,
+                "departureDateTime": "2015-06-13T08:40",
+                "arrivalDateTime": "2015-06-13T10:00",
+                "durationMinutes": 80,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              },
+              {
+                "departureAirport": "MSY",
+                "arrivalAirport": "ATL",
+                "flightNumber": "1510",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T10:35",
+                "arrivalDateTime": "2015-06-13T13:00",
+                "durationMinutes": 145,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              }
+            ],
+            "numberOfStops": 1,
+            "connectionAirportCode": "MSY",
+            "connectionAirport": {
+              "code": "MSY",
+              "airportName": "New Orleans",
+              "displayName": "New Orleans",
+              "cityName": "New Orleans",
+              "shortDisplayName": "New Orleans",
+              "cityState": "LA",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "29.9934",
+              "longitude": "-90.258",
+              "airportSearchName": "Louisiana, Luoisiana, Baton Rouge, The Big Easy, The Cresent City, Bourbon St., Spring Break"
+            }
+          },
+          {
+            "originAirport": {
+              "code": "DAL",
+              "airportName": "Dallas (Love Field)",
+              "displayName": "Dallas (Love Field)",
+              "cityName": "Dallas",
+              "shortDisplayName": "Dallas",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "32.8471",
+              "longitude": "-96.8518",
+              "airportSearchName": "DFW, Ft. Worth, Fort Worth, Texas"
+            },
+            "destinationAirport": {
+              "code": "ATL",
+              "airportName": "Atlanta",
+              "displayName": "Atlanta",
+              "cityName": "Atlanta",
+              "shortDisplayName": "Atlanta",
+              "cityState": "GA",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "33.6367",
+              "longitude": "-84.4281",
+              "airportSearchName": "Georgia, Giorgia"
+            },
+            "departureDateTime": "2015-06-13T08:45",
+            "arrivalDateTime": "2015-06-13T14:35",
+            "fareProducts": [
+              {
+                "fareType": "Wanna Get Away",
+                "currencyType": "Dollars",
+                "fareValue": 27700,
+                "accrualPoints": 1420,
+                "fareClass": "W",
+                "discountedFareValue": 27700,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDg0NSwyMDE1MDYxMzE0MzV8REFMLU1DSSxNQ0ktQVRMfFdONDQyMCxXTjExNDF8V3xBRFR8NzNXLDczMw=="
+              },
+              {
+                "fareType": "Anytime",
+                "currencyType": "Dollars",
+                "fareValue": 32250,
+                "accrualPoints": 2790,
+                "fareClass": "Y",
+                "discountedFareValue": 32250,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDg0NSwyMDE1MDYxMzE0MzV8REFMLU1DSSxNQ0ktQVRMfFdONDQyMCxXTjExNDF8WXxBRFR8NzNXLDczMw=="
+              },
+              {
+                "fareType": "Business Select",
+                "currencyType": "Dollars",
+                "fareValue": 33850,
+                "accrualPoints": 3526,
+                "fareClass": "K",
+                "discountedFareValue": 33850,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDg0NSwyMDE1MDYxMzE0MzV8REFMLU1DSSxNQ0ktQVRMfFdONDQyMCxXTjExNDF8S3xBRFR8NzNXLDczMw=="
+              },
+              {
+                "fareType": "Senior",
+                "currencyType": "Dollars",
+                "fareValue": 22650,
+                "accrualPoints": 1138,
+                "fareClass": "Q",
+                "discountedFareValue": 22650,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNTE1MDUzMCwyMDE1MDUxNTA5MTV8QVVTLURBTCxEQUwtQU1BfFdOMjcwLFdOMzg2fFF8U1JDfDczVyw3MzU="
+              }
+            ],
+            "durationMinutes": 290,
+            "segments": [
+              {
+                "departureAirport": "DAL",
+                "arrivalAirport": "MCI",
+                "flightNumber": "4420",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T08:45",
+                "arrivalDateTime": "2015-06-13T10:15",
+                "durationMinutes": 90,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              },
+              {
+                "departureAirport": "MCI",
+                "arrivalAirport": "ATL",
+                "flightNumber": "1141",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": false,
+                "departureDateTime": "2015-06-13T11:40",
+                "arrivalDateTime": "2015-06-13T14:35",
+                "durationMinutes": 175,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              }
+            ],
+            "numberOfStops": 1,
+            "connectionAirportCode": "MCI",
+            "connectionAirport": {
+              "code": "MCI",
+              "airportName": "Kansas City",
+              "displayName": "Kansas City",
+              "cityName": "Kansas City",
+              "shortDisplayName": "Kansas City",
+              "cityState": "MO",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "39.2976",
+              "longitude": "-94.7139",
+              "airportSearchName": "Kansas, Wheeler, Show Me, Missouri"
+            }
+          },
+          {
+            "originAirport": {
+              "code": "DAL",
+              "airportName": "Dallas (Love Field)",
+              "displayName": "Dallas (Love Field)",
+              "cityName": "Dallas",
+              "shortDisplayName": "Dallas",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "32.8471",
+              "longitude": "-96.8518",
+              "airportSearchName": "DFW, Ft. Worth, Fort Worth, Texas"
+            },
+            "destinationAirport": {
+              "code": "ATL",
+              "airportName": "Atlanta",
+              "displayName": "Atlanta",
+              "cityName": "Atlanta",
+              "shortDisplayName": "Atlanta",
+              "cityState": "GA",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "33.6367",
+              "longitude": "-84.4281",
+              "airportSearchName": "Georgia, Giorgia"
+            },
+            "departureDateTime": "2015-06-13T09:30",
+            "arrivalDateTime": "2015-06-13T14:40",
+            "fareProducts": [
+              {
+                "fareType": "Wanna Get Away",
+                "currencyType": "Dollars",
+                "fareValue": 16300,
+                "accrualPoints": 784,
+                "fareClass": "S",
+                "discountedFareValue": 16300,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "4",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDkzMCwyMDE1MDYxMzE0NDB8REFMLUhPVSxIT1UtQVRMfFdONDM0NCxXTjI2MzJ8U3xBRFR8NzM1LDczVw=="
+              },
+              {
+                "fareType": "Anytime",
+                "currencyType": "Dollars",
+                "fareValue": 32250,
+                "accrualPoints": 2790,
+                "fareClass": "Y",
+                "discountedFareValue": 32250,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDkzMCwyMDE1MDYxMzE0NDB8REFMLUhPVSxIT1UtQVRMfFdONDM0NCxXTjI2MzJ8WXxBRFR8NzM1LDczVw=="
+              },
+              {
+                "fareType": "Business Select",
+                "currencyType": "Dollars",
+                "fareValue": 33850,
+                "accrualPoints": 3526,
+                "fareClass": "K",
+                "discountedFareValue": 33850,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDkzMCwyMDE1MDYxMzE0NDB8REFMLUhPVSxIT1UtQVRMfFdONDM0NCxXTjI2MzJ8S3xBRFR8NzM1LDczVw=="
+              },
+              {
+                "fareType": "Senior",
+                "currencyType": "Dollars",
+                "fareValue": 22650,
+                "accrualPoints": 1138,
+                "fareClass": "Q",
+                "discountedFareValue": 22650,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNTE1MDkzMCwyMDE1MDUxNTEzNDB8QVVTLURBTCxEQUwtQU1BfFdOMTg0LFdOMTh8UXxTUkN8NzM1LDczNQ=="
+              }
+            ],
+            "durationMinutes": 250,
+            "segments": [
+              {
+                "departureAirport": "DAL",
+                "arrivalAirport": "HOU",
+                "flightNumber": "4344",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": false,
+                "departureDateTime": "2015-06-13T09:30",
+                "arrivalDateTime": "2015-06-13T10:35",
+                "durationMinutes": 65,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              },
+              {
+                "departureAirport": "HOU",
+                "arrivalAirport": "ATL",
+                "flightNumber": "2632",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T11:40",
+                "arrivalDateTime": "2015-06-13T14:40",
+                "durationMinutes": 180,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              }
+            ],
+            "numberOfStops": 1,
+            "connectionAirportCode": "HOU",
+            "connectionAirport": {
+              "code": "HOU",
+              "airportName": "Houston (Hobby)",
+              "displayName": "Houston (Hobby)",
+              "cityName": "Houston",
+              "shortDisplayName": "Houston",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "29.6454",
+              "longitude": "-95.2789",
+              "airportSearchName": "Texas, HUO, IAH, George Bush International, Galveston, H-Town, Huoston"
+            }
+          },
+          {
+            "originAirport": {
+              "code": "DAL",
+              "airportName": "Dallas (Love Field)",
+              "displayName": "Dallas (Love Field)",
+              "cityName": "Dallas",
+              "shortDisplayName": "Dallas",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "32.8471",
+              "longitude": "-96.8518",
+              "airportSearchName": "DFW, Ft. Worth, Fort Worth, Texas"
+            },
+            "destinationAirport": {
+              "code": "ATL",
+              "airportName": "Atlanta",
+              "displayName": "Atlanta",
+              "cityName": "Atlanta",
+              "shortDisplayName": "Atlanta",
+              "cityState": "GA",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "33.6367",
+              "longitude": "-84.4281",
+              "airportSearchName": "Georgia, Giorgia"
+            },
+            "departureDateTime": "2015-06-13T11:25",
+            "arrivalDateTime": "2015-06-13T14:35",
+            "fareProducts": [
+              {
+                "fareType": "Wanna Get Away",
+                "currencyType": "Dollars",
+                "fareValue": 12700,
+                "accrualPoints": 630,
+                "fareClass": "M",
+                "discountedFareValue": 12700,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "5",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTEyNSwyMDE1MDYxMzE0MzV8REFMLUFUTHxXTjE0OTN8TXxBRFR8NzNX"
+              },
+              {
+                "fareType": "Anytime",
+                "currencyType": "Dollars",
+                "fareValue": 31400,
+                "accrualPoints": 2790,
+                "fareClass": "Y",
+                "discountedFareValue": 31400,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTEyNSwyMDE1MDYxMzE0MzV8REFMLUFUTHxXTjE0OTN8WXxBRFR8NzNX"
+              },
+              {
+                "fareType": "Business Select",
+                "currencyType": "Dollars",
+                "fareValue": 33000,
+                "accrualPoints": 3526,
+                "fareClass": "K",
+                "discountedFareValue": 33000,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTEyNSwyMDE1MDYxMzE0MzV8REFMLUFUTHxXTjE0OTN8S3xBRFR8NzNX"
+              },
+              {
+                "fareType": "Senior",
+                "currencyType": "Dollars",
+                "fareValue": 22650,
+                "accrualPoints": 1138,
+                "fareClass": "Q",
+                "discountedFareValue": 22650,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNTE1MTYwMCwyMDE1MDUxNTE5MzB8QVVTLURBTCxEQUwtQU1BfFdONDg2LFdONTM4fFF8U1JDfDczNSw3M0M="
+              }
+            ],
+            "durationMinutes": 130,
+            "segments": [
+              {
+                "departureAirport": "DAL",
+                "arrivalAirport": "ATL",
+                "flightNumber": "1493",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T11:25",
+                "arrivalDateTime": "2015-06-13T14:35",
+                "durationMinutes": 190,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              }
+            ],
+            "numberOfStops": 0
+          },
+          {
+            "originAirport": {
+              "code": "DAL",
+              "airportName": "Dallas (Love Field)",
+              "displayName": "Dallas (Love Field)",
+              "cityName": "Dallas",
+              "shortDisplayName": "Dallas",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "32.8471",
+              "longitude": "-96.8518",
+              "airportSearchName": "DFW, Ft. Worth, Fort Worth, Texas"
+            },
+            "destinationAirport": {
+              "code": "ATL",
+              "airportName": "Atlanta",
+              "displayName": "Atlanta",
+              "cityName": "Atlanta",
+              "shortDisplayName": "Atlanta",
+              "cityState": "GA",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "33.6367",
+              "longitude": "-84.4281",
+              "airportSearchName": "Georgia, Giorgia"
+            },
+            "departureDateTime": "2015-06-13T12:10",
+            "arrivalDateTime": "2015-06-13T18:10",
+            "fareProducts": [
+              {
+                "fareType": "Wanna Get Away",
+                "currencyType": "Dollars",
+                "fareValue": 27700,
+                "accrualPoints": 1420,
+                "fareClass": "W",
+                "discountedFareValue": 27700,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTIxMCwyMDE1MDYxMzE4MTB8REFMLU1EVyxNRFctQVRMfFdOMTI5NyxXTjQ0MTZ8V3xBRFR8NzNXLDczVw=="
+              },
+              {
+                "fareType": "Anytime",
+                "currencyType": "Dollars",
+                "fareValue": 32250,
+                "accrualPoints": 2790,
+                "fareClass": "Y",
+                "discountedFareValue": 32250,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTIxMCwyMDE1MDYxMzE4MTB8REFMLU1EVyxNRFctQVRMfFdOMTI5NyxXTjQ0MTZ8WXxBRFR8NzNXLDczVw=="
+              },
+              {
+                "fareType": "Business Select",
+                "currencyType": "Dollars",
+                "fareValue": 33850,
+                "accrualPoints": 3526,
+                "fareClass": "K",
+                "discountedFareValue": 33850,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTIxMCwyMDE1MDYxMzE4MTB8REFMLU1EVyxNRFctQVRMfFdOMTI5NyxXTjQ0MTZ8S3xBRFR8NzNXLDczVw=="
+              },
+              {
+                "fareType": "Senior",
+                "currencyType": "Dollars",
+                "fareValue": 22200,
+                "accrualPoints": 1138,
+                "fareClass": "Q",
+                "discountedFareValue": 22200,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNTE1MTkzMCwyMDE1MDUxNTIyMTB8QVVTLUFNQXxXTjQyODB8UXxTUkN8NzM1"
+              }
+            ],
+            "durationMinutes": 300,
+            "segments": [
+              {
+                "departureAirport": "DAL",
+                "arrivalAirport": "MDW",
+                "flightNumber": "1297",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T12:10",
+                "arrivalDateTime": "2015-06-13T14:20",
+                "durationMinutes": 130,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              },
+              {
+                "departureAirport": "MDW",
+                "arrivalAirport": "ATL",
+                "flightNumber": "4416",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T15:15",
+                "arrivalDateTime": "2015-06-13T18:10",
+                "durationMinutes": 175,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              }
+            ],
+            "numberOfStops": 1,
+            "connectionAirportCode": "MDW",
+            "connectionAirport": {
+              "code": "MDW",
+              "airportName": "Chicago (Midway)",
+              "displayName": "Chicago (Midway)",
+              "cityName": "Chicago",
+              "shortDisplayName": "Chicago",
+              "cityState": "IL",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "41.786",
+              "longitude": "-87.7524",
+              "airportSearchName": "Illinois, Ilinois, Chitown, Windy City, ORD, Ohare, O'Hare"
+            }
+          },
+          {
+            "originAirport": {
+              "code": "DAL",
+              "airportName": "Dallas (Love Field)",
+              "displayName": "Dallas (Love Field)",
+              "cityName": "Dallas",
+              "shortDisplayName": "Dallas",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "32.8471",
+              "longitude": "-96.8518",
+              "airportSearchName": "DFW, Ft. Worth, Fort Worth, Texas"
+            },
+            "destinationAirport": {
+              "code": "ATL",
+              "airportName": "Atlanta",
+              "displayName": "Atlanta",
+              "cityName": "Atlanta",
+              "shortDisplayName": "Atlanta",
+              "cityState": "GA",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "33.6367",
+              "longitude": "-84.4281",
+              "airportSearchName": "Georgia, Giorgia"
+            },
+            "departureDateTime": "2015-06-13T13:30",
+            "arrivalDateTime": "2015-06-13T18:55",
+            "fareProducts": [
+              {
+                "fareType": "Wanna Get Away",
+                "currencyType": "Dollars",
+                "fareValue": 0,
+                "accrualPoints": 0,
+                "fareClass": "UNAVAILABLE",
+                "discountedFareValue": 0,
+                "unavailabilityReason": "INSUFFICIENT_INVENTORY",
+                "seatsAvailable": "0",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTMzMCwyMDE1MDYxMzE4NTV8REFMLUhPVSxIT1UtQVRMfFdOMzgxOCxXTjQyMzB8VU5BVkFJTEFCTEV8VU5BVkFJTEFCTEV8NzM1LDczVw=="
+              },
+              {
+                "fareType": "Anytime",
+                "currencyType": "Dollars",
+                "fareValue": 32250,
+                "accrualPoints": 2790,
+                "fareClass": "Y",
+                "discountedFareValue": 32250,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTMzMCwyMDE1MDYxMzE4NTV8REFMLUhPVSxIT1UtQVRMfFdOMzgxOCxXTjQyMzB8WXxBRFR8NzM1LDczVw=="
+              },
+              {
+                "fareType": "Business Select",
+                "currencyType": "Dollars",
+                "fareValue": 33850,
+                "accrualPoints": 3526,
+                "fareClass": "K",
+                "discountedFareValue": 33850,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTMzMCwyMDE1MDYxMzE4NTV8REFMLUhPVSxIT1UtQVRMfFdOMzgxOCxXTjQyMzB8S3xBRFR8NzM1LDczVw=="
+              },
+              {
+                "fareType": "Senior",
+                "currencyType": "Dollars",
+                "fareValue": 22200,
+                "accrualPoints": 1138,
+                "fareClass": "Q",
+                "discountedFareValue": 22200,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNTE1MTkzMCwyMDE1MDUxNTIyMTB8QVVTLUFNQXxXTjQyODB8UXxTUkN8NzM1"
+              }
+            ],
+            "durationMinutes": 265,
+            "segments": [
+              {
+                "departureAirport": "DAL",
+                "arrivalAirport": "HOU",
+                "flightNumber": "3818",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": false,
+                "departureDateTime": "2015-06-13T13:30",
+                "arrivalDateTime": "2015-06-13T14:30",
+                "durationMinutes": 60,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              },
+              {
+                "departureAirport": "HOU",
+                "arrivalAirport": "ATL",
+                "flightNumber": "4230",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T15:50",
+                "arrivalDateTime": "2015-06-13T18:55",
+                "durationMinutes": 185,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              }
+            ],
+            "numberOfStops": 1,
+            "connectionAirportCode": "HOU",
+            "connectionAirport": {
+              "code": "HOU",
+              "airportName": "Houston (Hobby)",
+              "displayName": "Houston (Hobby)",
+              "cityName": "Houston",
+              "shortDisplayName": "Houston",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "29.6454",
+              "longitude": "-95.2789",
+              "airportSearchName": "Texas, HUO, IAH, George Bush International, Galveston, H-Town, Huoston"
+            }
+          },
+          {
+            "originAirport": {
+              "code": "DAL",
+              "airportName": "Dallas (Love Field)",
+              "displayName": "Dallas (Love Field)",
+              "cityName": "Dallas",
+              "shortDisplayName": "Dallas",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "32.8471",
+              "longitude": "-96.8518",
+              "airportSearchName": "DFW, Ft. Worth, Fort Worth, Texas"
+            },
+            "destinationAirport": {
+              "code": "ATL",
+              "airportName": "Atlanta",
+              "displayName": "Atlanta",
+              "cityName": "Atlanta",
+              "shortDisplayName": "Atlanta",
+              "cityState": "GA",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "33.6367",
+              "longitude": "-84.4281",
+              "airportSearchName": "Georgia, Giorgia"
+            },
+            "departureDateTime": "2015-06-13T14:30",
+            "arrivalDateTime": "2015-06-13T20:30",
+            "fareProducts": [
+              {
+                "fareType": "Wanna Get Away",
+                "currencyType": "Dollars",
+                "fareValue": 13500,
+                "accrualPoints": 627,
+                "fareClass": "N",
+                "discountedFareValue": 13500,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "4",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTQzMCwyMDE1MDYxMzIwMzB8REFMLUhPVSxIT1UtQVRMfFdOMTQxOCxXTjIxNDZ8TnxBRFR8NzNXLDczVw=="
+              },
+              {
+                "fareType": "Anytime",
+                "currencyType": "Dollars",
+                "fareValue": 32250,
+                "accrualPoints": 2790,
+                "fareClass": "Y",
+                "discountedFareValue": 32250,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTQzMCwyMDE1MDYxMzIwMzB8REFMLUhPVSxIT1UtQVRMfFdOMTQxOCxXTjIxNDZ8WXxBRFR8NzNXLDczVw=="
+              },
+              {
+                "fareType": "Business Select",
+                "currencyType": "Dollars",
+                "fareValue": 33850,
+                "accrualPoints": 3526,
+                "fareClass": "K",
+                "discountedFareValue": 33850,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTQzMCwyMDE1MDYxMzIwMzB8REFMLUhPVSxIT1UtQVRMfFdOMTQxOCxXTjIxNDZ8S3xBRFR8NzNXLDczVw=="
+              },
+              {
+                "fareType": "Senior",
+                "currencyType": "Dollars",
+                "fareValue": 22650,
+                "accrualPoints": 1138,
+                "fareClass": "Q",
+                "discountedFareValue": 22650,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNTE1MTYwMCwyMDE1MDUxNTE5MzB8QVVTLURBTCxEQUwtQU1BfFdONDg2LFdONTM4fFF8U1JDfDczNSw3M0M="
+              }
+            ],
+            "durationMinutes": 300,
+            "segments": [
+              {
+                "departureAirport": "DAL",
+                "arrivalAirport": "HOU",
+                "flightNumber": "1418",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T14:30",
+                "arrivalDateTime": "2015-06-13T15:30",
+                "durationMinutes": 60,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              },
+              {
+                "departureAirport": "HOU",
+                "arrivalAirport": "ATL",
+                "flightNumber": "2146",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T17:25",
+                "arrivalDateTime": "2015-06-13T20:30",
+                "durationMinutes": 185,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              }
+            ],
+            "numberOfStops": 1,
+            "connectionAirportCode": "HOU",
+            "connectionAirport": {
+              "code": "HOU",
+              "airportName": "Houston (Hobby)",
+              "displayName": "Houston (Hobby)",
+              "cityName": "Houston",
+              "shortDisplayName": "Houston",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "29.6454",
+              "longitude": "-95.2789",
+              "airportSearchName": "Texas, HUO, IAH, George Bush International, Galveston, H-Town, Huoston"
+            }
+          },
+          {
+            "originAirport": {
+              "code": "DAL",
+              "airportName": "Dallas (Love Field)",
+              "displayName": "Dallas (Love Field)",
+              "cityName": "Dallas",
+              "shortDisplayName": "Dallas",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "32.8471",
+              "longitude": "-96.8518",
+              "airportSearchName": "DFW, Ft. Worth, Fort Worth, Texas"
+            },
+            "destinationAirport": {
+              "code": "ATL",
+              "airportName": "Atlanta",
+              "displayName": "Atlanta",
+              "cityName": "Atlanta",
+              "shortDisplayName": "Atlanta",
+              "cityState": "GA",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "33.6367",
+              "longitude": "-84.4281",
+              "airportSearchName": "Georgia, Giorgia"
+            },
+            "departureDateTime": "2015-06-13T15:35",
+            "arrivalDateTime": "2015-06-13T20:45",
+            "fareProducts": [
+              {
+                "fareType": "Wanna Get Away",
+                "currencyType": "Dollars",
+                "fareValue": 16300,
+                "accrualPoints": 784,
+                "fareClass": "S",
+                "discountedFareValue": 16300,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "4",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTUzNSwyMDE1MDYxMzIwNDV8REFMLVNBVCxTQVQtQVRMfFdOMTA3MCxXTjIzMDN8U3xBRFR8NzM1LDczVw=="
+              },
+              {
+                "fareType": "Anytime",
+                "currencyType": "Dollars",
+                "fareValue": 32250,
+                "accrualPoints": 2790,
+                "fareClass": "Y",
+                "discountedFareValue": 32250,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTUzNSwyMDE1MDYxMzIwNDV8REFMLVNBVCxTQVQtQVRMfFdOMTA3MCxXTjIzMDN8WXxBRFR8NzM1LDczVw=="
+              },
+              {
+                "fareType": "Business Select",
+                "currencyType": "Dollars",
+                "fareValue": 33850,
+                "accrualPoints": 3526,
+                "fareClass": "K",
+                "discountedFareValue": 33850,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTUzNSwyMDE1MDYxMzIwNDV8REFMLVNBVCxTQVQtQVRMfFdOMTA3MCxXTjIzMDN8S3xBRFR8NzM1LDczVw=="
+              },
+              {
+                "fareType": "Senior",
+                "currencyType": "Dollars",
+                "fareValue": 22650,
+                "accrualPoints": 1138,
+                "fareClass": "Q",
+                "discountedFareValue": 22650,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNTE1MTYwMCwyMDE1MDUxNTE5MzB8QVVTLURBTCxEQUwtQU1BfFdONDg2LFdONTM4fFF8U1JDfDczNSw3M0M="
+              }
+            ],
+            "durationMinutes": 250,
+            "segments": [
+              {
+                "departureAirport": "DAL",
+                "arrivalAirport": "SAT",
+                "flightNumber": "1070",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": false,
+                "departureDateTime": "2015-06-13T15:35",
+                "arrivalDateTime": "2015-06-13T16:35",
+                "durationMinutes": 60,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              },
+              {
+                "departureAirport": "SAT",
+                "arrivalAirport": "ATL",
+                "flightNumber": "2303",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T17:20",
+                "arrivalDateTime": "2015-06-13T20:45",
+                "durationMinutes": 205,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              }
+            ],
+            "numberOfStops": 1,
+            "connectionAirportCode": "SAT",
+            "connectionAirport": {
+              "code": "SAT",
+              "airportName": "San Antonio",
+              "displayName": "San Antonio",
+              "cityName": "San Antonio",
+              "shortDisplayName": "San Antonio",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "29.5337",
+              "longitude": "-98.4698",
+              "airportSearchName": "Alamo City, Texas, SeaWorld, Sea World"
+            }
+          },
+          {
+            "originAirport": {
+              "code": "DAL",
+              "airportName": "Dallas (Love Field)",
+              "displayName": "Dallas (Love Field)",
+              "cityName": "Dallas",
+              "shortDisplayName": "Dallas",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "32.8471",
+              "longitude": "-96.8518",
+              "airportSearchName": "DFW, Ft. Worth, Fort Worth, Texas"
+            },
+            "destinationAirport": {
+              "code": "ATL",
+              "airportName": "Atlanta",
+              "displayName": "Atlanta",
+              "cityName": "Atlanta",
+              "shortDisplayName": "Atlanta",
+              "cityState": "GA",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "33.6367",
+              "longitude": "-84.4281",
+              "airportSearchName": "Georgia, Giorgia"
+            },
+            "departureDateTime": "2015-06-13T16:00",
+            "arrivalDateTime": "2015-06-13T21:45",
+            "fareProducts": [
+              {
+                "fareType": "Wanna Get Away",
+                "currencyType": "Dollars",
+                "fareValue": 13500,
+                "accrualPoints": 627,
+                "fareClass": "N",
+                "discountedFareValue": 13500,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "4",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTYwMCwyMDE1MDYxMzIxNDV8REFMLUhPVSxIT1UtQVRMfFdONDU5OCxXTjEzODl8TnxBRFR8NzM1LDczVw=="
+              },
+              {
+                "fareType": "Anytime",
+                "currencyType": "Dollars",
+                "fareValue": 32250,
+                "accrualPoints": 2790,
+                "fareClass": "Y",
+                "discountedFareValue": 32250,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTYwMCwyMDE1MDYxMzIxNDV8REFMLUhPVSxIT1UtQVRMfFdONDU5OCxXTjEzODl8WXxBRFR8NzM1LDczVw=="
+              },
+              {
+                "fareType": "Business Select",
+                "currencyType": "Dollars",
+                "fareValue": 33850,
+                "accrualPoints": 3526,
+                "fareClass": "K",
+                "discountedFareValue": 33850,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTYwMCwyMDE1MDYxMzIxNDV8REFMLUhPVSxIT1UtQVRMfFdONDU5OCxXTjEzODl8S3xBRFR8NzM1LDczVw=="
+              },
+              {
+                "fareType": "Senior",
+                "currencyType": "Dollars",
+                "fareValue": 22650,
+                "accrualPoints": 1138,
+                "fareClass": "Q",
+                "discountedFareValue": 22650,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNTE1MTYwMCwyMDE1MDUxNTE5MzB8QVVTLURBTCxEQUwtQU1BfFdONDg2LFdONTM4fFF8U1JDfDczNSw3M0M="
+              }
+            ],
+            "durationMinutes": 285,
+            "segments": [
+              {
+                "departureAirport": "DAL",
+                "arrivalAirport": "HOU",
+                "flightNumber": "4598",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": false,
+                "departureDateTime": "2015-06-13T16:00",
+                "arrivalDateTime": "2015-06-13T17:05",
+                "durationMinutes": 65,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              },
+              {
+                "departureAirport": "HOU",
+                "arrivalAirport": "ATL",
+                "flightNumber": "1389",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T18:45",
+                "arrivalDateTime": "2015-06-13T21:45",
+                "durationMinutes": 180,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              }
+            ],
+            "numberOfStops": 1,
+            "connectionAirportCode": "HOU",
+            "connectionAirport": {
+              "code": "HOU",
+              "airportName": "Houston (Hobby)",
+              "displayName": "Houston (Hobby)",
+              "cityName": "Houston",
+              "shortDisplayName": "Houston",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "29.6454",
+              "longitude": "-95.2789",
+              "airportSearchName": "Texas, HUO, IAH, George Bush International, Galveston, H-Town, Huoston"
+            }
+          },
+          {
+            "originAirport": {
+              "code": "DAL",
+              "airportName": "Dallas (Love Field)",
+              "displayName": "Dallas (Love Field)",
+              "cityName": "Dallas",
+              "shortDisplayName": "Dallas",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "32.8471",
+              "longitude": "-96.8518",
+              "airportSearchName": "DFW, Ft. Worth, Fort Worth, Texas"
+            },
+            "destinationAirport": {
+              "code": "ATL",
+              "airportName": "Atlanta",
+              "displayName": "Atlanta",
+              "cityName": "Atlanta",
+              "shortDisplayName": "Atlanta",
+              "cityState": "GA",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "33.6367",
+              "longitude": "-84.4281",
+              "airportSearchName": "Georgia, Giorgia"
+            },
+            "departureDateTime": "2015-06-13T16:10",
+            "arrivalDateTime": "2015-06-13T20:45",
+            "fareProducts": [
+              {
+                "fareType": "Wanna Get Away",
+                "currencyType": "Dollars",
+                "fareValue": 13050,
+                "accrualPoints": 627,
+                "fareClass": "N",
+                "discountedFareValue": 13050,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "4",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTYxMCwyMDE1MDYxMzIwNDV8REFMLUFUTHxXTjE5NjJ8TnxBRFR8NzMz"
+              },
+              {
+                "fareType": "Anytime",
+                "currencyType": "Dollars",
+                "fareValue": 31800,
+                "accrualPoints": 2790,
+                "fareClass": "Y",
+                "discountedFareValue": 31800,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTYxMCwyMDE1MDYxMzIwNDV8REFMLUFUTHxXTjE5NjJ8WXxBRFR8NzMz"
+              },
+              {
+                "fareType": "Business Select",
+                "currencyType": "Dollars",
+                "fareValue": 33400,
+                "accrualPoints": 3526,
+                "fareClass": "K",
+                "discountedFareValue": 33400,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTYxMCwyMDE1MDYxMzIwNDV8REFMLUFUTHxXTjE5NjJ8S3xBRFR8NzMz"
+              },
+              {
+                "fareType": "Senior",
+                "currencyType": "Dollars",
+                "fareValue": 22650,
+                "accrualPoints": 1138,
+                "fareClass": "Q",
+                "discountedFareValue": 22650,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNTE1MTYwMCwyMDE1MDUxNTE5MzB8QVVTLURBTCxEQUwtQU1BfFdONDg2LFdONTM4fFF8U1JDfDczNSw3M0M="
+              }
+            ],
+            "durationMinutes": 215,
+            "segments": [
+              {
+                "departureAirport": "DAL",
+                "arrivalAirport": "ATL",
+                "flightNumber": "1962",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": false,
+                "departureDateTime": "2015-06-13T16:10",
+                "arrivalDateTime": "2015-06-13T20:45",
+                "durationMinutes": 275,
+                "stopAirports": [
+                  {
+                    "code": "AUS",
+                    "airportName": "Austin",
+                    "displayName": "Austin",
+                    "cityName": "Austin",
+                    "shortDisplayName": "Austin",
+                    "cityState": "TX",
+                    "marketingCarriers": [
+                      "WN"
+                    ],
+                    "countryCode": "US",
+                    "latitude": "30.1945",
+                    "longitude": "-97.6699",
+                    "airportSearchName": "Texas"
+                  }
+                ],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              }
+            ],
+            "numberOfStops": 1
+          },
+          {
+            "originAirport": {
+              "code": "DAL",
+              "airportName": "Dallas (Love Field)",
+              "displayName": "Dallas (Love Field)",
+              "cityName": "Dallas",
+              "shortDisplayName": "Dallas",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "32.8471",
+              "longitude": "-96.8518",
+              "airportSearchName": "DFW, Ft. Worth, Fort Worth, Texas"
+            },
+            "destinationAirport": {
+              "code": "ATL",
+              "airportName": "Atlanta",
+              "displayName": "Atlanta",
+              "cityName": "Atlanta",
+              "shortDisplayName": "Atlanta",
+              "cityState": "GA",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "33.6367",
+              "longitude": "-84.4281",
+              "airportSearchName": "Georgia, Giorgia"
+            },
+            "departureDateTime": "2015-06-13T17:35",
+            "arrivalDateTime": "2015-06-13T20:45",
+            "fareProducts": [
+              {
+                "fareType": "Wanna Get Away",
+                "currencyType": "Dollars",
+                "fareValue": 8900,
+                "accrualPoints": 418,
+                "fareClass": "T",
+                "discountedFareValue": 8900,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "4",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTczNSwyMDE1MDYxMzIwNDV8REFMLUFUTHxXTjMzNTd8VHxBRFR8NzNX"
+              },
+              {
+                "fareType": "Anytime",
+                "currencyType": "Dollars",
+                "fareValue": 31400,
+                "accrualPoints": 2790,
+                "fareClass": "Y",
+                "discountedFareValue": 31400,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTczNSwyMDE1MDYxMzIwNDV8REFMLUFUTHxXTjMzNTd8WXxBRFR8NzNX"
+              },
+              {
+                "fareType": "Business Select",
+                "currencyType": "Dollars",
+                "fareValue": 33000,
+                "accrualPoints": 3526,
+                "fareClass": "K",
+                "discountedFareValue": 33000,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMTczNSwyMDE1MDYxMzIwNDV8REFMLUFUTHxXTjMzNTd8S3xBRFR8NzNX"
+              },
+              {
+                "fareType": "Senior",
+                "currencyType": "Dollars",
+                "fareValue": 22650,
+                "accrualPoints": 1138,
+                "fareClass": "Q",
+                "discountedFareValue": 22650,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNTE1MTYwMCwyMDE1MDUxNTE5MzB8QVVTLURBTCxEQUwtQU1BfFdONDg2LFdONTM4fFF8U1JDfDczNSw3M0M="
+              }
+            ],
+            "durationMinutes": 130,
+            "segments": [
+              {
+                "departureAirport": "DAL",
+                "arrivalAirport": "ATL",
+                "flightNumber": "3357",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T17:35",
+                "arrivalDateTime": "2015-06-13T20:45",
+                "durationMinutes": 190,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              }
+            ],
+            "numberOfStops": 0
+          }
+        ]
+      }
+    ],
+    "sortingStrategy": {
+      "outbound": "BY_DEPARTURE_TIME",
+      "inbound": "BY_DEPARTURE_TIME"
+    },
+    "selectedFlightProducts": {
+      "adult": {
+        "outbound": {
+          "flightProduct": {
+            "originAirport": {
+              "code": "DAL",
+              "airportName": "Dallas (Love Field)",
+              "displayName": "Dallas (Love Field)",
+              "cityName": "Dallas",
+              "shortDisplayName": "Dallas",
+              "cityState": "TX",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "32.8471",
+              "longitude": "-96.8518",
+              "airportSearchName": "DFW, Ft. Worth, Fort Worth, Texas"
+            },
+            "destinationAirport": {
+              "code": "ATL",
+              "airportName": "Atlanta",
+              "displayName": "Atlanta",
+              "cityName": "Atlanta",
+              "shortDisplayName": "Atlanta",
+              "cityState": "GA",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "33.6367",
+              "longitude": "-84.4281",
+              "airportSearchName": "Georgia, Giorgia"
+            },
+            "departureDateTime": "2015-06-13T06:20",
+            "arrivalDateTime": "2015-06-13T11:10",
+            "fareProducts": [
+              {
+                "fareType": "Wanna Get Away",
+                "currencyType": "Dollars",
+                "fareValue": 13500,
+                "accrualPoints": 627,
+                "fareClass": "N",
+                "discountedFareValue": 13500,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "4",
+                "productId": "VFpOMFJOUnxBbWVyaWNhL0NoaWNhZ298MjAxNjAzMjMwNjQwLDIwMTYwMzIzMDk0MHxEQUwtQVRMfFdOMTgwfFR8QURUfDczQw=="
+              },
+              {
+                "fareType": "Anytime",
+                "currencyType": "Dollars",
+                "fareValue": 32250,
+                "accrualPoints": 2790,
+                "fareClass": "Y",
+                "discountedFareValue": 32250,
+                "unavailabilityReason": "IMPOSSIBLE_ITINERARY",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDYyMCwyMDE1MDYxMzExMTB8REFMLVNUTCxTVEwtQVRMfFdOMTI2NixXTjEzNTF8WXxBRFR8NzNXLDczVw=="
+              },
+              {
+                "fareType": "Business Select",
+                "currencyType": "Dollars",
+                "fareValue": 33850,
+                "accrualPoints": 3526,
+                "fareClass": "K",
+                "discountedFareValue": 33850,
+                "unavailabilityReason": "INSUFFICIENT_INVENTORY",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNjEzMDYyMCwyMDE1MDYxMzExMTB8REFMLVNUTCxTVEwtQVRMfFdOMTI2NixXTjEzNTF8S3xBRFR8NzNXLDczVw=="
+              },
+              {
+                "fareType": "Senior",
+                "currencyType": "Dollars",
+                "fareValue": 22650,
+                "accrualPoints": 1138,
+                "fareClass": "Q",
+                "discountedFareValue": 22650,
+                "unavailabilityReason": "NONE",
+                "seatsAvailable": "8",
+                "productId": "QW1lcmljYS9DaGljYWdvfDIwMTUwNTEyMDU1MCwyMDE1MDUxMjA4MjV8QU1BLURBTCxEQUwtQVVTfFdONTg0LFdONDc0MnxRfFNSQ3w3MzUsNzNX"
+              }
+            ],
+            "durationMinutes": 230,
+            "segments": [
+              {
+                "departureAirport": "DAL",
+                "arrivalAirport": "STL",
+                "flightNumber": "1266",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T06:20",
+                "arrivalDateTime": "2015-06-13T08:00",
+                "durationMinutes": 100,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              },
+              {
+                "departureAirport": "STL",
+                "arrivalAirport": "ATL",
+                "flightNumber": "1351",
+                "operatingCarrierCode": "WN",
+                "wifiAvailable": true,
+                "departureDateTime": "2015-06-13T08:35",
+                "arrivalDateTime": "2015-06-13T11:10",
+                "durationMinutes": 155,
+                "stopAirports": [],
+                "isWithin24Hours": false,
+                "isWithinOneHour": false,
+                "isWithin90Minutes": false
+              }
+            ],
+            "numberOfStops": 1,
+            "connectionAirportCode": "STL",
+            "connectionAirport": {
+              "code": "STL",
+              "airportName": "St. Louis",
+              "displayName": "St. Louis",
+              "cityName": "St. Louis",
+              "shortDisplayName": "St. Louis",
+              "cityState": "MO",
+              "marketingCarriers": [
+                "WN"
+              ],
+              "countryCode": "US",
+              "latitude": "38.7487",
+              "longitude": "-90.37",
+              "airportSearchName": "Missouri, Saint Louis, St. Luois"
+            }
+          },
+          "fareProduct": {
+            "fareType": "Wanna Get Away",
+            "currencyType": "Dollars",
+            "fareValue": 13500,
+            "accrualPoints": 627,
+            "fareClass": "N",
+            "discountedFareValue": 13500,
+            "unavailabilityReason": "NONE",
+            "seatsAvailable": "4",
+            "productId": "VFpOMFJOUnxBbWVyaWNhL0NoaWNhZ298MjAxNjAzMjMwNjQwLDIwMTYwMzIzMDk0MHxEQUwtQVRMfFdOMTgwfFR8QURUfDczQw=="
+          },
+          "isRepricingNeeded": true
+        }
+      },
+      "senior": {}
+    }
+  },
+  "shoppingRequestStoreData": {
+    "adultPassengersCount": 1,
+    "lapInfantPassengersCount": 0,
+    "numberOfAdults": 1,
+    "numberOfSeniors": 0,
+    "tripType": "oneWay",
+    "promoCode": "",
+    "currencyType": "Dollars",
+    "origin": "ALB",
+    "destination": "ABQ",
+    "departureDate": "2017-05-02",
+    "returnDate": ""
+  },
+  "pricedProductStoreData": {
+    "pricedProducts": {
+      "adult": {
+        "promoCode": "",
+        "promoCodeApplied": false,
+        "discountApplied": false,
+        "outbound": {
+          "productId": "VFpOMFJOUnxBbWVyaWNhL0NoaWNhZ298MjAxNjAzMjMwNjQwLDIwMTYwMzIzMDk0MHxEQUwtQVRMfFdOMTgwfFR8QURUfDczQw==",
+          "bookingCode": "T",
+          "totalCents": 6398,
+          "currencyPriceDetails": {
+            "baseFareCents": 4640,
+            "taxCents": 348,
+            "discountedBaseFareCents": 4640,
+            "segmentFees": [
+              {
+                "passengerFacilityChargeCents": 450,
+                "securityFeeCents": 560,
+                "segmentFeeCents": 400
+              }
+            ]
+          }
+        },
+        "inbound": {
+          "productId": "U0xOMFJOUnxBbWVyaWNhL05ld19Zb3JrfDIwMTYwMzI2MDgwMCwyMDE2MDMyNjA5MTV8QVRMLURBTHxXTjI4MTd8U3xBRFR8NzNX",
+          "bookingCode": "S",
+          "totalCents": 14698,
+          "currencyPriceDetails": {
+            "baseFareCents": 12361,
+            "taxCents": 927,
+            "discountedBaseFareCents": 12361,
+            "segmentFees": [
+              {
+                "passengerFacilityChargeCents": 450,
+                "securityFeeCents": 560,
+                "segmentFeeCents": 400
+              }
+            ]
+          }
+        },
+        "warnings": [],
+        "priceSearchTotals": {
+          "verifyPriceChange": true,
+          "requestedAmountCents": 21096,
+          "requestedAmountPoints": 0,
+          "priceTotalAmountCents": 21096,
+          "priceTotalAmountPoints": 0,
+          "currencyPriceDetails": {
+            "baseFareCents": 16901,
+            "taxCents": 4195,
+            "discountedBaseFareCents": 16901,
+            "segmentFees": [
+              {
+                "passengerFacilityChargeCents": 900,
+                "securityFeeCents": 1120,
+                "segmentFeeCents": 800
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

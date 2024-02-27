@@ -1,0 +1,34 @@
+{
+  "revision": "20160216103531342",
+  "styledPage": {
+    "title": "Travel Experience",
+    "heroContainer": {
+      "type": "hero",
+      "image": "/content/mkt/images/static_pages/travel_experience/hero.jpg",
+      "altText": "The Southwest Experience"
+    },
+    "body": [
+      {
+        "type": "menu",
+        "image": "/content/mkt/images/static_pages/travel_experience/swa_mw_fs_index_attheairport_hero.png",
+        "altText": "At the Airport",
+        "linkType": "app",
+        "target": "airport"
+      },
+      {
+        "type": "menu",
+        "image": "/content/mkt/images/static_pages/travel_experience/swa_mw_fs_index_boardingtheplane_hero.png",
+        "altText": "Boarding the Plane",
+        "linkType": "app",
+        "target": "boarding"
+      },
+      {
+        "type": "menu",
+        "image": "/content/mkt/images/static_pages/travel_experience/swa_mw_fs_index_intheair_hero.png",
+        "altText": "In the Air",
+        "linkType": "app",
+        "target": "in-the-air"
+      }
+    ]
+  }
+}

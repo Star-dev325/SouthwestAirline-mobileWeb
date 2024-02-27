@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="airChange.airChangeTestForRoundTrip"
+    errors="0" failures="0" hostname="" id="" package="airChange" skipped="0"
+    tests="5" time="46.46" timestamp="Fri, 15 Dec 2023 01:04:52 GMT">
+  
+    <testcase name="Go to view reservations from home page" classname="airChange.airChangeTestForRoundTrip" time="24.94" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View flight reservation through with confirmation number" classname="airChange.airChangeTestForRoundTrip" time="5.437" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Choose the change flight option" classname="airChange.airChangeTestForRoundTrip" time="1.466" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Show the select page" classname="airChange.airChangeTestForRoundTrip" time="2.353" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go the shopping page" classname="airChange.airChangeTestForRoundTrip" time="12.26" assertions="18">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

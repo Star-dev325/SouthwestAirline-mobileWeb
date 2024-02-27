@@ -1,0 +1,8 @@
+{
+  "contactMethod": "EMAIL",
+  "purposeOfTravel": "",
+  "earlyBirdOptionShown": true,
+  "earlyBirdOptionSelected": true,
+  "earlyBirdBasePriceCents": 1500,
+  "earlyBirdEstimatedTotalCents": 1500
+}

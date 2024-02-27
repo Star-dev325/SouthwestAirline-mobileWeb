@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StandbyRoute should render enhanced standby Route page 1`] = `
+<div>
+  <div
+    class="stand-by"
+  />
+</div>
+`;
+
+exports[`StandbyRoute should render old standby Route page 1`] = `
+<div>
+  <div
+    class="stand-by"
+  />
+</div>
+`;

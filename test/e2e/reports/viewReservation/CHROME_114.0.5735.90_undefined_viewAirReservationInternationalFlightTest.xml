@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="viewReservation.viewAirReservationInternationalFlightTest"
+    errors="0" failures="0" hostname="" id="" package="viewReservation" skipped="0"
+    tests="4" time="36.21" timestamp="Fri, 15 Dec 2023 02:13:26 GMT">
+  
+    <testcase name="Verify View Reservation home page" classname="viewReservation.viewAirReservationInternationalFlightTest" time="30.24" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find flight reservation through confirmation number" classname="viewReservation.viewAirReservationInternationalFlightTest" time="5.565" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify view trip details page" classname="viewReservation.viewAirReservationInternationalFlightTest" time="0.3580" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Air View Reservation Analytics Store is valid after searching successfully" classname="viewReservation.viewAirReservationInternationalFlightTest" time="0.04400" assertions="0">
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

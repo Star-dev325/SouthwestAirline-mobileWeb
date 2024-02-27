@@ -1,0 +1,28 @@
+.saved-flight {
+  @extend .trip-card;
+  @extend .compact-trip-card;
+
+  &--passengers {
+    @include gray5;
+    font-size: 1.25rem;
+    margin-top: 0.25rem;
+  }
+
+  &--airport {
+    @extend .trip-card-header--destination-airport;
+    @include pdkblue;
+    font-size: 1.75rem;
+  }
+
+  &--trip-date {
+    @extend .trip-card-header--trip-date;
+  }
+
+  &--check-price {
+    @include mt4;
+  }
+
+  .button--grey {
+    background: linear-gradient($white, $gray1);
+  }
+}

@@ -1,0 +1,25 @@
+.is-webview {
+  &.passenger-information-page {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .login-banner {
+        @include for-tablet-and-up {
+          padding-left: $tablet-banner-padding-left;
+
+          div,
+          i {
+            @include flex-none;
+
+            margin-right: 6px;
+          }
+        }
+      }
+
+      .passenger-personal-info-form {
+        @include tablet-content-frame-lg;
+        @include tablet-content-margins;
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "revision": "20150504141656966",
+  "airport_info": {
+    "id": "PHL",
+    "display_name": "Philadelphia&#44; PA - PHL",
+    "airport_city_image": "/content/mkt/images/airport_info/PHL_aiport_info.jpg",
+    "airport_city_alt_text": "Picture representing PHL",
+    "alert": {
+      "active": false,
+      "icon": "/content/mkt/images/airport_info/travel_advisory.png",
+      "title": "Airport Alert",
+      "text": ""
+    },
+    "body": [
+      {
+        "title": "TERMINAL AND GATE",
+        "icon": "",
+        "icon_alt_text": "",
+        "heading": "Terminal E ",
+        "text": "<p>Gates E:9,11-17<br /><ul><li>Fly By Security</li></ul>\n</p>"
+      },
+      {
+        "title": "TICKET COUNTER HOURS",
+        "icon": "/content/mkt/images/airport_info/bag_on_belt_icon.png",
+        "heading": "",
+        "text": "<p><strong>Monday-Sunday</strong></p>\n<p>Opens&nbsp;120 minutes before first departure</p>"
+      },
+      {
+        "title": "TSA",
+        "icon": "",
+        "heading": "<a href=\"http://apps.tsa.dhs.gov/mytsa/wait_times_detail.aspx\">Check current TSA wait times</a>",
+        "text": "<p>Don't forget your boarding pass or security documents, and a valid government-issued ID - the Transportation Security Administration (TSA) will need them at the security checkpoints.</p>"
+      },
+      {
+        "title": "TRAVEL TIPS",
+        "icon": "/content/mkt/images/airport_info/info_bubble_icon.png",
+        "heading": "Mon-Sun:",
+        "text": "<p>90 Minutes</p>"
+      },
+      {
+        "title": "AMENITIES",
+        "icon": "/content/mkt/images/airport_info/plug_icon.png",
+        "heading": "",
+        "text": "<p><ul><li>Skycap</li><li>Airport Wifi Available</li></ul>\n</p>"
+      },
+      {
+        "title": "AIRPORT DETAILS",
+        "icon": "",
+        "heading": "",
+        "text": "<p><strong>Service Animal Relief Area:</strong>&nbsp;On the Ticketing (Departure) side between Terminals E &amp; F behind Delta Airlines Temporary Terminal Office Space and outside Terminal E by the baggage claim area (Arrivals) on the taxi side.</p>\n<p>Learn more about <a href=\"//www.phl.org/index.html\" target=\"_blank\">Philadelphia International Airport</a></p>"
+      }
+    ]
+  }
+}

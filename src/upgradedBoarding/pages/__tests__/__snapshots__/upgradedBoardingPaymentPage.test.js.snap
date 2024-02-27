@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpgradedBoardingPaymentPage render should render correctly 1`] = `
+<div>
+  <div
+    class="payment-edit"
+  >
+    <form
+      class="payment-form payment-form_edit form"
+      name="UPGRADED_BOARDING_PAYMENT_EDIT_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div>
+          <div
+            class="page-header action-bar"
+            id=""
+          >
+            <ul
+              class="action-bar-buttons action-bar--left-buttons"
+            />
+            <div
+              class="action-bar--container"
+            >
+              <div
+                class="action-bar--title"
+              >
+                <span
+                  class="action-bar--main-title"
+                >
+                  Payment Method
+                </span>
+                <span
+                  class="action-bar--sub-title"
+                />
+              </div>
+            </div>
+            <ul
+              class="action-bar-buttons action-bar--right-buttons"
+            >
+              <li
+                class="action-bar-buttons--item"
+              >
+                <button
+                  class="button"
+                  type="submit"
+                >
+                  SHARED__BUTTON_TEXT__DONE
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div />
+        </div>
+        <div
+          class="saved-credit-cards"
+        >
+          <div>
+            <div
+              class="chase-instant-card"
+            />
+            <div
+              class="other-saved-credit-cards"
+            >
+              <span
+                class="saved-credit-cards--title"
+              >
+                SHARED__SAVED_CREDIT_CARDS_TITLE__PAYMENT_OPTIONS
+              </span>
+              <div
+                class="credit-card-radio-input credit-card-radio-input_selected"
+              >
+                <label
+                  class="credit-card-radio-input--label"
+                >
+                  <div
+                    class="credit-card-radio-input--container"
+                  >
+                    <div
+                      class="credit-card--image_paypal credit-card--image left mr2"
+                    />
+                    <div
+                      class="credit-card-radio-input--text"
+                    >
+                      <p
+                        class="pdkblue larger"
+                      >
+                        Use PayPal
+                      </p>
+                      <div
+                        class="flex gray5 additional-info-container"
+                      >
+                        <div
+                          class="mr1"
+                        >
+                          SHARED__SAVED_CREDIT_CARDS_TITLE__BUY_NOW_OR_PAY_LATER
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div
+              class="new-credit-card"
+            >
+              <div
+                class="field saved-credit-cards--item-field"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class="credit-card-radio-input credit-card-radio-input_selected"
+                  >
+                    <label
+                      class="credit-card-radio-input--label"
+                    >
+                      <div
+                        class="credit-card-radio-input--container"
+                      >
+                        <div
+                          class="credit-card--image_new icon_add credit-card--image left mr2"
+                        />
+                        <div
+                          class="credit-card-radio-input--text"
+                        >
+                          <p
+                            class="pdkblue larger"
+                          >
+                            SHARED__SAVED_CREDIT_CARDS_TITLE__NEW_CREDIT_DEBIT_CARD
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <input
+                          class="hidden"
+                          name="intentToStore"
+                          readonly=""
+                          type="radio"
+                          value="NEW_CREDIT_CARD_ID"
+                        />
+                        <div
+                          class="check"
+                        />
+                      </div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;

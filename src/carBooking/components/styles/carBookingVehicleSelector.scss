@@ -1,0 +1,11 @@
+.car-booking-vehicle-selector--fake-select-label {
+  z-index: 5;
+
+  input {
+    @include p0;
+  }
+}
+
+.car-booking-vehicle-selector--select {
+  z-index: 8;
+}

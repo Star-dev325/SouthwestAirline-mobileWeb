@@ -1,0 +1,18 @@
+@mixin align-baseline {
+  vertical-align: baseline;
+}
+@mixin align-top {
+  vertical-align: top;
+}
+@mixin align-middle {
+  vertical-align: middle;
+}
+@mixin align-bottom {
+  vertical-align: bottom;
+}
+@mixin align-text-top {
+  vertical-align: text-top;
+}
+@mixin align-super {
+  vertical-align: super;
+}

@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SameDayRefundMethod when rendering should show shopping sort/filter form 1`] = `
+<div>
+  <div
+    class="shopping-sort-filter-form"
+  >
+    <form
+      class="form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="label-container"
+        >
+          <div
+            class="label-container--label"
+          >
+            Sort By
+          </div>
+          <div
+            class="label-container--content"
+          >
+            <div
+              class="field"
+            >
+              <div
+                class="radio-input switch-button--align-vertically switch-button--remove-border switch-button"
+              >
+                <span
+                  class="switch-button--item switch-button--remove-shadow switch-button_unclickable active"
+                >
+                  <button
+                    class="button button--fluid button--white"
+                    type="button"
+                  >
+                    <div
+                      class="radio-input--padding-left radio-input--gray-text"
+                    >
+                      SAME_DAY__SHOPPING_FORM_DEPARTURE_LABEL
+                    </div>
+                    <span
+                      class="radio-input--mark radio-input--mark_left radio-input--mark_clickable"
+                    />
+                  </button>
+                </span>
+                <span
+                  class="switch-button--item switch-button--remove-shadow switch-button_unclickable"
+                >
+                  <button
+                    class="button button--fluid button--white"
+                    type="button"
+                  >
+                    <div
+                      class="radio-input--padding-left radio-input--gray-text"
+                    >
+                      SAME_DAY__SHOPPING_FORM_STOPS_LABEL
+                    </div>
+                    <span
+                      class="radio-input--mark radio-input--mark_left radio-input--mark_clickable"
+                    />
+                  </button>
+                </span>
+                <span
+                  class="switch-button--item switch-button--remove-shadow switch-button_unclickable"
+                >
+                  <button
+                    class="button button--fluid button--white"
+                    type="button"
+                  >
+                    <div
+                      class="radio-input--padding-left radio-input--gray-text"
+                    >
+                      SAME_DAY__SHOPPING_FORM_DURATION_LABEL
+                    </div>
+                    <span
+                      class="radio-input--mark radio-input--mark_left radio-input--mark_clickable"
+                    />
+                  </button>
+                </span>
+                <span
+                  class="switch-button--item switch-button--remove-shadow switch-button_unclickable"
+                >
+                  <button
+                    class="button button--fluid button--white"
+                    type="button"
+                  >
+                    <div
+                      class="radio-input--padding-left radio-input--gray-text"
+                    >
+                      SAME_DAY__SHOPPING_FORM_PRICE_LABEL
+                    </div>
+                    <span
+                      class="radio-input--mark radio-input--mark_left radio-input--mark_clickable"
+                    />
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="label-container shopping-sort-filter-label"
+        >
+          <div
+            class="label-container--label"
+          >
+            Filter By
+          </div>
+          <div
+            class="label-container--content"
+          >
+            <div
+              class="field"
+            >
+              <div
+                class="shopping-sort-filter-form-checkbox relative flex checkbox-button flex-cross-center"
+                name="nonStop"
+              >
+                <div>
+                  <span
+                    class="checkbox-button--mark"
+                  >
+                    <i
+                      class="absolute xlarge bgtransp icon icon_check"
+                    />
+                  </span>
+                </div>
+                <div>
+                  <div
+                    class="checkbox-button--children flex-equal-width ml2"
+                  >
+                    SAME_DAY__SHOPPING_FORM_NONSTOP_LABEL
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="field"
+            >
+              <div
+                class="shopping-sort-filter-form-checkbox relative flex checkbox-button flex-cross-center"
+                name="standby"
+              >
+                <div>
+                  <span
+                    class="checkbox-button--mark"
+                  >
+                    <i
+                      class="absolute xlarge bgtransp icon icon_check"
+                    />
+                  </span>
+                </div>
+                <div>
+                  <div
+                    class="checkbox-button--children flex-equal-width ml2"
+                  >
+                    SAME_DAY__SHOPPING_FORM_AVAILABLE_STANDBY_LABEL
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="field"
+            >
+              <div
+                class="shopping-sort-filter-form-checkbox relative flex checkbox-button flex-cross-center"
+                name="confirmed"
+              >
+                <div>
+                  <span
+                    class="checkbox-button--mark"
+                  >
+                    <i
+                      class="absolute xlarge bgtransp icon icon_check"
+                    />
+                  </span>
+                </div>
+                <div>
+                  <div
+                    class="checkbox-button--children flex-equal-width ml2"
+                  >
+                    SAME_DAY__SHOPPING_FORM_AVAILABLE_CONFIRMED_LABEL
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;

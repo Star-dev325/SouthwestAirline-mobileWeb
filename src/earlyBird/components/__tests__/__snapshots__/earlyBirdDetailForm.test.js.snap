@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EarlyBirdDetailForm should render 1`] = `
+<div>
+  <form
+    class="form"
+    novalidate=""
+  >
+    <fieldset>
+      <p
+        class="early-bird-detail--message"
+      >
+        EARLY_BIRD_HAVE_SELECTED_EARLY_BIRD_TIPS
+      </p>
+      <div
+        class="early-bird-detail--subtotal"
+      />
+      <div
+        class="early-bird-price-footer"
+      >
+        <div
+          class="early-bird-price-footer--price-total"
+        >
+          <div
+            class="price-line"
+          >
+            <span
+              class="price-line--title"
+            >
+              EARLY_BIRD_PRICE_AMOUNT_TITLE
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total-per-section"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    0.00
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="early-bird-price-footer--nav"
+        >
+          <button
+            class="continue button button--fluid larger button--yellow"
+            type="submit"
+          >
+            Continue
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;

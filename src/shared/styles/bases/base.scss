@@ -1,0 +1,217 @@
+html {
+  @include fullheight;
+  @include overflow-hidden;
+  @include fullwidth;
+
+  // the root font-size
+  // and we can use https://github.com/bestiejs/platform.js/ to add special className to update
+  font-size: 62.5%; // 10px;
+
+  // https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  @include m0;
+  @include pdkblue;
+  @include bggray2;
+  @include fullheight;
+  @include fullwidth;
+  @include arial-font-family;
+  font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @include p0;
+  @include m0;
+  @include arial-font-family;
+}
+
+ul {
+  @include p0;
+}
+
+.svg-wrapper {
+  width: 2.4em;
+}
+
+.clearfix::before,
+.clearfix::after {
+  @include table;
+  content: ' ';
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.form {
+  @include large;
+
+  .field--error-msg {
+    @include block;
+    @include red;
+    @include bggray2;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+
+    a {
+      @include pblue;
+    }
+  }
+
+  .select-input .icon_caret-down {
+    font-size: 2rem;
+  }
+}
+
+// Redefine placeholder colour. These need to be defined separately, it seems...
+// WebKit, Blink, Edge
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  @include gray3;
+}
+
+// Mozilla Firefox 19+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  @include gray3;
+  opacity: 1;
+}
+
+// Internet Explorer 10-11
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  @include gray3;
+}
+
+input::placeholder,
+textarea::placeholder {
+  @include gray3;
+}
+
+// Standard (https://drafts.csswg.org/selectors-4/#placeholder)
+input:placeholder-shown,
+textarea:placeholder-shown {
+  @include gray3;
+}
+
+input:-webkit-autofill {
+  @include bgwhite;
+}
+
+input[disabled] {
+  @include bgwhite;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  @include olnone;
+}
+
+.segment {
+  @include bgwhite;
+  padding: 0.7rem 1.2rem;
+}
+
+.error {
+  .input,
+  input,
+  span,
+  textarea {
+    @include red;
+
+    &::placeholder {
+      @include red;
+    }
+  }
+}
+
+.hide {
+  display: none !important;
+}
+
+.hidden-font {
+  @include absolute;
+  @include overflow-hidden;
+  @include p0;
+  @include border-none;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+}
+
+select {
+  @include px0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  option {
+    @include pdkblue; //MOB-2060 - Fix for Windows Phone Select Box Text Color
+  }
+}
+
+a {
+  @include sltblue;
+  text-decoration: none;
+
+  &:hover {
+    color: $sltblue-hover;
+  }
+}
+
+p {
+  @include m0;
+}
+
+.attach-top {
+  @include attach-top;
+}
+
+.attach-full {
+  @include absolute;
+  @include t0;
+  @include r0;
+  @include b0;
+  @include l0;
+  @include bggray1;
+  @include overflow-y-auto;
+  z-index: 10;
+}
+
+fieldset {
+  @include border-none;
+  @include m0;
+  @include p0;
+  min-width: 0;
+}
+
+.fairwater-script,
+*[style*='font-family: "Fairwater Script"'] {
+  font-size: 125%;
+  line-height: 0.8;
+}
+
+.ReactModalPortal { // sass-lint:disable-line class-name-format
+  @include overflow-hidden;
+  overscroll-behavior: contain; // sass-lint:disable-line no-misspelled-properties
+}
+
+.ReactModal__Body--open { // sass-lint:disable-line class-name-format
+  .app__contents { // sass-lint:disable-line class-name-format
+    display: none;
+  }
+}

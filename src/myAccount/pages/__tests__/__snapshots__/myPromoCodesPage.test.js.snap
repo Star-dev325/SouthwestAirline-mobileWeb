@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Promo Codes Page Component should render correct component 1`] = `
+<body>
+  <div>
+    <div
+      class="my-promo-codes"
+    >
+      <div>
+        <div
+          class="page-header action-bar"
+          id=""
+        >
+          <div
+            class="goback-link"
+          >
+            <i
+              class="icon icon_keyboard-arrow-left"
+            />
+          </div>
+          <div
+            class="action-bar--container"
+          >
+            <div
+              class="action-bar--title-align-center action-bar--title"
+            >
+              <span
+                class="action-bar--main-title"
+              >
+                MY_ACCOUNT__MY_PROMO_CODES
+              </span>
+              <span
+                class="action-bar--sub-title"
+              />
+            </div>
+          </div>
+          <ul
+            class="action-bar-buttons action-bar--right-buttons"
+          />
+        </div>
+        <div />
+      </div>
+      <div
+        class="custom-container"
+      >
+        <p
+          class="no-promo-code-found-message"
+          data-qa="no-promo-code-found-message"
+        >
+          MY_ACCOUNT__NO_PROMO_CODE_FOUND_MESSAGE
+        </p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      class="my-promo-codes"
+    >
+      <div>
+        <div
+          class="page-header action-bar"
+          id=""
+        >
+          <div
+            class="goback-link"
+          >
+            <i
+              class="icon icon_keyboard-arrow-left"
+            />
+          </div>
+          <div
+            class="action-bar--container"
+          >
+            <div
+              class="action-bar--title-align-center action-bar--title"
+            >
+              <span
+                class="action-bar--main-title"
+              >
+                MY_ACCOUNT__MY_PROMO_CODES
+              </span>
+              <span
+                class="action-bar--sub-title"
+              />
+            </div>
+          </div>
+          <ul
+            class="action-bar-buttons action-bar--right-buttons"
+          />
+        </div>
+        <div />
+      </div>
+      <div
+        class="custom-container"
+      >
+        <p
+          class="no-promo-code-found-message"
+          data-qa="no-promo-code-found-message"
+        >
+          MY_ACCOUNT__NO_PROMO_CODE_FOUND_MESSAGE
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+`;

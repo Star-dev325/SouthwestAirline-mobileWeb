@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "search": {
+      "type": "object",
+      "properties": {
+        "tripType": {
+          "type": "string",
+          "enum": ["roundTrip", "oneway"]
+        },
+        "origin": { "type": "string" },
+        "destination": { "type": "string" },
+        "departureDate": { "type": "string" },
+        "returnDate": { "type": "string" },
+        "adults": { "type": "integer" },
+        "seniors": { "type": "integer" },
+        "promoCode": { "type": "string" },
+        "promoCodeIsValid": { "type": "boolean" },
+        "currencyCode": {
+          "type": "string",
+          "enum": ["Dollars", "Points"]
+        },
+        "currentLocationUsed": {"type": "boolean"}
+      },
+      "additionalProperties": false,
+      "required": [
+        "tripType",
+        "origin",
+        "destination",
+        "departureDate",
+        "returnDate",
+        "adults",
+        "seniors",
+        "promoCode",
+        "currencyCode",
+        "currentLocationUsed"
+      ]
+    }
+  },
+  "required": [
+    "search"
+  ]
+}

@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Price Total reprice render should render applied rapid rewards points totals when they have values 1`] = `
+<div
+  className="price-total"
+>
+  <div
+    className="price-total--info"
+  >
+    <PriceTotalLine
+      title="Total"
+      total={
+        Object {
+          "amount": "233.98",
+          "currencyCode": "USD",
+          "currencySymbol": "$",
+        }
+      }
+      type="total"
+    />
+    <div
+      className="table fullwidth mt3"
+    >
+      <div
+        className="price-total--info-col"
+      >
+        <p>
+          Includes taxes and fees
+        </p>
+      </div>
+      <div
+        className="price-total--info-col"
+        data-qa="toggleBreakdown"
+        onClick={[Function]}
+      >
+        <p>
+          Show fare breakdown
+        </p>
+      </div>
+    </div>
+    <div
+      className="flex flex-column my4"
+    >
+      <PriceLedgerLine
+        currencyAmount={
+          Object {
+            "amount": "14,214",
+            "currencyCode": "PTS",
+            "currencySymbol": "PTS",
+          }
+        }
+        showPts={true}
+        title="CASH + POINTS APPLIED"
+      />
+      <Currency
+        amount="182.23"
+        className="price-total--points-dollars"
+        prefix="(-"
+        suffix=")"
+      />
+      <PriceLedgerLine
+        currencyAmount={
+          Object {
+            "amount": "678.90",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          }
+        }
+        title="TOTAL DUE NOW"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Price Total with points only booking should render according title for currency PNR 1`] = `
+<div
+  className="price-total"
+>
+  <div
+    className="price-total--info"
+  >
+    <PriceTotalLine
+      title="Total"
+      total={
+        Object {
+          "amount": "233.98",
+          "currencyCode": "USD",
+          "currencySymbol": "$",
+        }
+      }
+      type="total"
+    />
+    <div
+      className="table fullwidth mt3"
+    >
+      <div
+        className="price-total--info-col"
+      >
+        <p>
+          Includes taxes and fees
+        </p>
+      </div>
+      <div
+        className="price-total--info-col"
+        data-qa="toggleBreakdown"
+        onClick={[Function]}
+      >
+        <p>
+          Show fare breakdown
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Price Total with points only booking should show dollar and points total when not points booking 1`] = `
+<div
+  className="price-total"
+>
+  <div
+    className="price-total--info"
+  >
+    <PriceTotalLine
+      className="mb4"
+      title="Points Total"
+      total={
+        Object {
+          "amount": "51,235",
+          "currencyCode": "PTS",
+        }
+      }
+      type="total"
+    />
+    <PriceTotalLine
+      title="Dollar Total"
+      total={
+        Object {
+          "amount": "233.98",
+          "currencyCode": "USD",
+          "currencySymbol": "$",
+        }
+      }
+      type="total"
+    />
+    <div
+      className="table fullwidth mt3"
+    >
+      <div
+        className="price-total--info-col"
+      >
+        <p>
+          Includes taxes and fees
+        </p>
+      </div>
+      <div
+        className="price-total--info-col"
+        data-qa="toggleBreakdown"
+        onClick={[Function]}
+      >
+        <p>
+          Show fare breakdown
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Price Total with points only booking should show price breakdown for Points 1`] = `
+<div
+  className="price-total"
+>
+  <div
+    className="price-total--info"
+  >
+    <PriceTotalLine
+      className="mb4"
+      showPts={true}
+      title="Points Total"
+      total={
+        Object {
+          "amount": "51,235",
+          "currencyCode": "PTS",
+        }
+      }
+      type="total"
+    />
+    <div
+      className="table fullwidth mt3"
+    >
+      <div
+        className="price-total--info-col"
+      >
+        <p>
+          Includes taxes and fees
+        </p>
+      </div>
+      <div
+        className="price-total--info-col"
+        data-qa="toggleBreakdown"
+        onClick={[Function]}
+      >
+        <p>
+          Show fare breakdown
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

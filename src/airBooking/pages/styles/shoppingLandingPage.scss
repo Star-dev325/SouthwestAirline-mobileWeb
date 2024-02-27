@@ -1,0 +1,27 @@
+.android-chrome-44-bug {
+  color: transparent;
+  height: 1px;
+  width: 1px;
+}
+
+.is-webview {
+  &.booking-flight {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .custom-container {
+        @include tablet-content-frame;
+        @include mx-auto;
+
+        margin-top: $tablet-content-frame-margin-top;
+      }
+
+      .book-flight--page-footer {
+        @include tablet-content-frame;
+        @include mx-auto;
+
+        margin-bottom: $tablet-content-frame-margin-bottom;
+      }
+    }
+  }
+}

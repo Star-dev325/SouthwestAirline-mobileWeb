@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": ["originalReservation"],
+  "properties": {
+    "originalReservation": {
+      "type": "object",
+      "required": [
+        "isSwabiz"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "pnr": {"type": "string"},
+        "originDestinations": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/originDestination"}
+        },
+        "currencyType": {"$ref": "#/definitions/currencyType"},
+        "international": {"type": "boolean"},
+        "isSwabiz": {"type": "boolean"},
+        "passengers": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/passenger"}
+        }
+      }
+    }
+  },
+
+  "definitions": {
+    "originDestination": {
+      "type": "object",
+      "required": ["segments", "duration"],
+      "additionalProperties": false,
+      "properties": {
+        "duration": {"type": "integer"},
+        "segments": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/segment"}
+        }
+      }
+    },
+
+    "segment": {
+      "type": "object",
+      "required": ["flightNumber", "origin", "destination", "operatingCarrierCode"],
+      "additionalProperties": false,
+      "properties": {
+        "flightNumber": {"type": "string"},
+        "origin": {"type": "string"},
+        "destination": {"type": "string"},
+        "operatingCarrierCode": {"type": "string"}
+      }
+    },
+
+    "currencyType": {
+      "type": "string",
+      "enum": ["Dollars", "Points"]
+    },
+
+    "passenger": {
+      "type": "object",
+      "properties": {
+        "birthYear": { "type": "string" },
+        "gender": {
+          "type": "string",
+          "enum": ["M", "F"]
+        },
+        "accountNumber": { "type": "string" },
+        "redressNumber": { "type": "boolean" },
+        "knownTravelerNumber": { "type": "boolean" },
+        "senior": { "type": "boolean" }
+      },
+      "additionalProperties": false,
+      "required": [
+        "birthYear",
+        "gender",
+        "accountNumber",
+        "redressNumber",
+        "knownTravelerNumber",
+        "senior"
+      ]
+    }
+  }
+}

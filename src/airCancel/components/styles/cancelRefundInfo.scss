@@ -1,0 +1,31 @@
+.cancel-refund-info {
+  @include larger;
+
+  > div {
+    @include bgwhite;
+  }
+
+  .cancel-refund-info--trip-totals {
+    @include px5;
+    @include py5;
+    @include bgwhite;
+    @include gray4;
+
+    .currency {
+      @include larger;
+      @include bold;
+      @include black;
+    }
+
+    .price-line--title {
+      @include xlarge;
+    }
+  }
+
+  .cancel-refund-info--points-total {
+    @include p5;
+    @include bdt;
+    @include bdb;
+    @include mb6;
+  }
+}

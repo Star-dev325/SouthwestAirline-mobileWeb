@@ -1,0 +1,49 @@
+.standby-card {
+  @include bgltblue;
+  @include mt3;
+  @include p3;
+
+  .flight-time {
+    @include larger;
+  }
+
+  .label-container--label {
+    @include m0;
+  }
+
+  .label-container--content {
+    @include pt1;
+    @include m0;
+  }
+
+  .flight-times .icon {
+    @include xlarge;
+  }
+}
+
+.standby-card--title {
+  @include larger;
+  @include mb2;
+  @include bold;
+
+  &.hide-details {
+    @include large;
+    @include center;
+    @include regular;
+    @include gray5;
+  }
+}
+
+.standby-card--header {
+  @include bgsblue;
+}
+
+.standby-card--link {
+  @include center;
+  @include mt4;
+
+  a {
+    @include pblue;
+    @include large;
+  }
+}

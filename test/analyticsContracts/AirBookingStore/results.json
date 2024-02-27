@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "results": {
+      "type": "object",
+      "properties": {
+        "outbound": { "$ref": "#/definitions/flightProducts" },
+        "inbound": { "$ref": "#/definitions/flightProducts" }
+      },
+      "additionalProperties": false,
+      "required": [
+        "outbound",
+        "inbound"
+      ]
+    }
+  },
+  "required": [
+    "results"
+  ],
+
+
+  "definitions": {
+    "flightProducts": {
+      "type": "object",
+      "properties": {
+        "flightProducts": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/flightProduct" }
+        },
+        "sort": {
+          "type": "string",
+          "enum": ["BY_DEPARTURE_TIME", "BY_DURATION", "BY_NUMBER_OF_STOPS", "BY_PRICE"]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "flightProducts",
+        "sort"
+      ]
+    },
+    "fareProduct": {
+      "type": "object",
+      "properties": {
+        "fareType": { "type": "string" },
+        "fareProductName": {
+          "type": "string",
+          "enum": ["Wanna Get Away", "Anytime", "Business Select", "Senior"]
+        },
+        "accrualPoints": { "type": "integer" },
+        "fareValue": { "type": "integer" },
+        "discountedFareValue": { "type": "integer" },
+        "unavailabilityReason": { "type": "string" },
+        "fareClass": { "type": "string" }
+      },
+      "additionalProperties": false,
+      "required": [
+        "fareType",
+        "fareProductName",
+        "accrualPoints",
+        "fareValue",
+        "discountedFareValue",
+        "unavailabilityReason",
+        "fareClass"
+      ]
+    },
+    "flightProduct": {
+      "type": "object",
+      "properties": {
+        "departureDateTime": { "type": "string" },
+        "arrivalDateTime": { "type": "string" },
+        "numberOfStops": { "type": "integer" },
+        "segments": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/segment" }
+        },
+        "fareProducts": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/fareProduct" }
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "departureDateTime",
+        "arrivalDateTime",
+        "numberOfStops",
+        "segments",
+        "fareProducts"
+      ]
+    },
+    "segment": {
+      "type": "object",
+      "properties": {
+        "flightNumber": { "type": "string" },
+        "duration": { "type": "integer" },
+        "origin": { "type": "string" },
+        "destination": { "type": "string" },
+        "operatingCarrierCode": { "type": "string" }
+      },
+      "additionalProperties": false,
+      "required": [
+        "flightNumber",
+        "duration",
+        "origin",
+        "destination",
+        "operatingCarrierCode"
+      ]
+    }
+  }
+}

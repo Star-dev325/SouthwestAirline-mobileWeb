@@ -1,0 +1,111 @@
+.contact-method-options,
+.contact-method-languages {
+  @include mt6;
+  @include mb6;
+}
+
+.contact-method-item {
+  @include block;
+  @include bgwhite;
+  @include p4;
+  @include large;
+  @include flex;
+  @include flex-main-between;
+  @include bdb;
+  @include rd2;
+}
+
+.contact-method-item i {
+  @include pblue;
+}
+
+.contact-method--radio-button {
+  @include rd2;
+}
+
+.contact-method--decline-notifications {
+  .contact-method-item,
+  .input--label,
+  input {
+    @include gray4;
+    // for solving Safari display slight and different color when input is disabled.
+    -webkit-text-fill-color: $gray4;
+  }
+}
+
+.day-of-travel-message {
+  @include gray5;
+  @include medium;
+  @include px4;
+  @include py3;
+}
+
+.int-message,
+.dom-message {
+  padding-left: 1.6rem;
+}
+
+.dom-message {
+  margin-top: -1.2rem;
+}
+
+.contact-method.contact-method-hybrid-design-air-booking {
+  .notification-field {
+    @include mt7;
+    @include mb6;
+
+    .field {
+      @include mt0;
+
+      .contact-method-item {
+        @include bdt;
+      }
+    }
+  }
+
+  .contact-method-item {
+    @include relative;
+  }
+
+  .contact-method-communication.contact-method-fields--first-group {
+    @include mt7;
+
+    .fields--label {
+      @include px4;
+      @include py0;
+    }
+  }
+
+  .save-contact-method-field {
+    @include mt6;
+    @include fullwidth;
+    @include inline-block;
+
+    .contact-method-item {
+      @include bd;
+    }
+  }
+
+  .fields--label {
+    @include block;
+    @include caps;
+    @include m0;
+    @include pt4;
+    @include px4;
+    @include regular;
+  }
+
+  .field {
+    @include mt4;
+
+    .contact-method-languages,
+    .contact-method-options {
+      @include m0;
+      @include mb6;
+
+      .contact-method-item:first-child {
+        @include bdt;
+      }
+    }
+  }
+}

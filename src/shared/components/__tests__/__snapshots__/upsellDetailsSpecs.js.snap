@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpsellDetails should not show button if shouldRenderUpgradeButton is false 1`] = `
+<div
+  className="upsell-details"
+>
+  <div
+    className="upsell-details--header "
+  >
+    <img
+      alt=""
+      className="upsell-details--header-image"
+      src="/content/mkt/images/bestseats.png"
+    />
+    <div>
+      <h2
+        className="upsell-details--header-title  "
+      >
+        Upgrade your flights to Business Select®
+      </h2>
+      <div
+        className="upsell-details--header-offer-text"
+      >
+        to unlock these great benefits
+      </div>
+    </div>
+  </div>
+  <div
+    className="upsell-details--content"
+  >
+    <FeaturesList
+      features={
+        Array [
+          Object {
+            "icon": "check",
+            "label": "A1-A15 Priority Boarding",
+          },
+          Object {
+            "icon": "check",
+            "label": "Fly By® priority and security lanes",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "A complimentary premium drink",
+          },
+          Object {
+            "icon": "check",
+            "label": "12 Rapid Rewards® points per Dollar",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "Refundable flights",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "Same-day changes",
+            "suffixl": "1",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`UpsellDetails should not show header if shouldRenderHeader is false 1`] = `
+<div
+  className="upsell-details"
+>
+  <div
+    className="upsell-details--content"
+  >
+    <FeaturesList
+      features={
+        Array [
+          Object {
+            "icon": "check",
+            "label": "A1-A15 Priority Boarding",
+          },
+          Object {
+            "icon": "check",
+            "label": "Fly By® priority and security lanes",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "A complimentary premium drink",
+          },
+          Object {
+            "icon": "check",
+            "label": "12 Rapid Rewards® points per Dollar",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "Refundable flights",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "Same-day changes",
+            "suffixl": "1",
+          },
+        ]
+      }
+    />
+    <Button
+      className=""
+      color="yellow"
+      fluid={true}
+      size="large"
+    >
+      Upgrade my flights
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`UpsellDetails should render correctly 1`] = `
+<div
+  className="upsell-details"
+>
+  <div
+    className="upsell-details--header "
+  >
+    <img
+      alt=""
+      className="upsell-details--header-image"
+      src="/content/mkt/images/bestseats.png"
+    />
+    <div>
+      <h2
+        className="upsell-details--header-title  "
+      >
+        Upgrade your flights to Business Select®
+      </h2>
+      <div
+        className="upsell-details--header-offer-text"
+      >
+        to unlock these great benefits
+      </div>
+    </div>
+  </div>
+  <div
+    className="upsell-details--content"
+  >
+    <FeaturesList
+      features={
+        Array [
+          Object {
+            "icon": "check",
+            "label": "A1-A15 Priority Boarding",
+          },
+          Object {
+            "icon": "check",
+            "label": "Fly By® priority and security lanes",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "A complimentary premium drink",
+          },
+          Object {
+            "icon": "check",
+            "label": "12 Rapid Rewards® points per Dollar",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "Refundable flights",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "Same-day changes",
+            "suffixl": "1",
+          },
+        ]
+      }
+    />
+    <Button
+      className=""
+      color="yellow"
+      fluid={true}
+      size="large"
+    >
+      Upgrade my flights
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`UpsellDetails should render correctly if labelText is provided 1`] = `
+<div
+  className="upsell-details m3"
+>
+  <div
+    className="upsell-details--header "
+  >
+    <img
+      alt=""
+      className="upsell-details--header-image"
+      src="/content/mkt/images/bestseats.png"
+    />
+    <div>
+      <h2
+        className="upsell-details--header-title xlarge "
+      >
+        Upgrade your flights to Business Select®
+      </h2>
+      <div
+        className="upsell-details--header-offer-text"
+      >
+        to unlock these great benefits
+      </div>
+    </div>
+  </div>
+  <div
+    className="upsell-details--content"
+  >
+    <FeaturesList
+      features={
+        Array [
+          Object {
+            "icon": "check",
+            "label": "A1-A15 Priority Boarding",
+          },
+          Object {
+            "icon": "check",
+            "label": "Fly By® priority and security lanes",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "A complimentary premium drink",
+          },
+          Object {
+            "icon": "check",
+            "label": "12 Rapid Rewards® points per Dollar",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "Refundable flights",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "Same-day changes",
+            "suffixl": "1",
+          },
+        ]
+      }
+    />
+    <Button
+      className="bdpblue"
+      color="grey"
+      fluid={true}
+      size="larger"
+    >
+      Test selection text
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`UpsellDetails should render correctly if offerIcon is not provided 1`] = `
+<div
+  className="upsell-details"
+>
+  <div
+    className="upsell-details--header pt4"
+  >
+    <div>
+      <h2
+        className="upsell-details--header-title  ml4"
+      >
+        Upgrade your flights to Business Select®
+      </h2>
+      <div
+        className="upsell-details--header-offer-text"
+      >
+        to unlock these great benefits
+      </div>
+    </div>
+  </div>
+  <div
+    className="upsell-details--content"
+  >
+    <FeaturesList
+      features={
+        Array [
+          Object {
+            "icon": "check",
+            "label": "A1-A15 Priority Boarding",
+          },
+          Object {
+            "icon": "check",
+            "label": "Fly By® priority and security lanes",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "A complimentary premium drink",
+          },
+          Object {
+            "icon": "check",
+            "label": "12 Rapid Rewards® points per Dollar",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "Refundable flights",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "Same-day changes",
+            "suffixl": "1",
+          },
+        ]
+      }
+    />
+    <Button
+      className=""
+      color="yellow"
+      fluid={true}
+      size="large"
+    >
+      Upgrade my flights
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`UpsellDetails should render correctly if stylizedOfferTitle exists 1`] = `
+<div
+  className="upsell-details"
+>
+  <div
+    className="upsell-details--header "
+  >
+    <img
+      alt=""
+      className="upsell-details--header-image"
+      src="/content/mkt/images/bestseats.png"
+    />
+    <h2
+      className="upsell-details--header-title xlarge ml4"
+    >
+      <_default
+        defaultText="Upgrade your flights to Business Select®"
+        value={
+          Array [
+            Object {
+              "inverseLabelColor": "neutral-white",
+              "label": "Upgrade to Wanna Get Away",
+              "primaryLabelColor": "primary-dark-blue",
+            },
+            Object {
+              "font": "Fairwater Script",
+              "inverseLabelColor": "neutral-white",
+              "label": " plus",
+              "primaryLabelColor": "primary-red",
+            },
+          ]
+        }
+      />
+    </h2>
+  </div>
+  <div
+    className="upsell-details--content"
+  >
+    <FeaturesList
+      features={
+        Array [
+          Object {
+            "icon": "check",
+            "label": "A1-A15 Priority Boarding",
+          },
+          Object {
+            "icon": "check",
+            "label": "Fly By® priority and security lanes",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "A complimentary premium drink",
+          },
+          Object {
+            "icon": "check",
+            "label": "12 Rapid Rewards® points per Dollar",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "Refundable flights",
+            "suffixl": "1",
+          },
+          Object {
+            "icon": "check",
+            "label": "Same-day changes",
+            "suffixl": "1",
+          },
+        ]
+      }
+    />
+    <Button
+      className=""
+      color="yellow"
+      fluid={true}
+      size="large"
+    >
+      Upgrade my flights
+    </Button>
+  </div>
+</div>
+`;

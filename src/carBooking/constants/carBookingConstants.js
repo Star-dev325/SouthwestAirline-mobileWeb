@@ -1,0 +1,9 @@
+export const CAR_BOOKING_CALENDAR_MODAL_ID = 'carBookingCalendar';
+export const CAR_BOOKING_COMPANY_MODAL_ID = 'selectCarCompany';
+export const CAR_BOOKING_DATE_FORMAT = 'YYYY-MM-DD';
+export const CAR_BOOKING_DISCOUNT_MODAL_ID = 'promoCode';
+export const CAR_BOOKING_DROPOFF_CITY_MODAL_ID = 'dropOffModal';
+export const CAR_BOOKING_PICKUP_CITY_MODAL_ID = 'pickUpModal';
+export const CAR_BOOKING_PICKUP_DROPPOFF_TIME_DEFAULT = '11:00AM';
+export const DEFAULT_PROMO_DISCOUNT_COUNT = 1;
+export const VALID_VENDORS = ['alamo', 'avis', 'budget', 'dollar', 'et', 'fx', 'hertz', 'thrifty', 'za', 'zl'];

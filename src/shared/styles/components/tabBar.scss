@@ -1,0 +1,9 @@
+.tab-bar-item {
+  &:last-child {
+    @include border-none;
+  }
+
+  .tab-bar-item--text {
+    width: 8rem;
+  }
+}

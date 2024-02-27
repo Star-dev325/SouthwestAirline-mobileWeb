@@ -1,0 +1,3 @@
+export default {
+  DOMESTIC_CONTACT_METHOD: 'DOMESTIC_CONTACT_METHOD'
+};

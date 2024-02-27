@@ -1,0 +1,24 @@
+.early-bird-bound--currency {
+  .formatted-currency {
+    @include regular;
+    @include larger;
+  }
+}
+
+.early-bird-bound--passenger {
+  &_ineligible {
+    @include gray4;
+
+    .passenger-type {
+      @include gray4;
+    }
+
+    .early-bird-bound--currency {
+      @include gray4;
+    }
+  }
+}
+
+.icon_a-list {
+  @include swa-icons('status-alist.svg', 3em, 1em);
+}

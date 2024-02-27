@@ -1,0 +1,107 @@
+.car-booking-form {
+  .clickable-div {
+    @include p0;
+
+    .input--label {
+      @include hide;
+    }
+  }
+
+  input::placeholder {
+    @include gray4;
+  }
+
+  .error input::placeholder {
+    @include red;
+  }
+
+  .grouped.fields .input input {
+    @include regular;
+    @include bgwhite;
+
+    &[disabled] {
+      opacity: 1;
+    }
+  }
+
+  .grouped.fields.vehicle-type {
+    .dropdown {
+      @include regular;
+      @include py0;
+      @include fullwidth;
+      @include fullheight;
+      color: transparent;
+      opacity: 0;
+    }
+  }
+
+  .grouped.fields.car-vendor {
+    .input.transparent {
+      & > input {
+        @include larger;
+        @include p0;
+      }
+    }
+  }
+}
+
+.car-booking-search-form--triptych {
+  .input {
+    @include px0;
+    @include py1;
+    font-size: inherit;
+
+    input {
+      @include p0;
+      @include center;
+
+      pointer-events: none;
+      font-size: inherit;
+    }
+  }
+
+  .formatted-input {
+    @include fullwidth;
+  }
+
+  .dropdown {
+    @include pr0;
+    width: auto;
+  }
+}
+
+.car-booking-search-form--triptych-side {
+  flex: 1 1 0;
+  min-width: 0;
+
+  .airport-list {
+    @include align-left;
+  }
+
+  .formatted-airport {
+    @include pt1;
+    @include pb0;
+    @include xxxlarge;
+
+    > p {
+      @include block;
+      @include pl0;
+      @include overflow-hidden;
+      @include ellipsis;
+    }
+  }
+}
+
+.car-booking-search-form--triptych-center {
+  width: 2.8rem;
+  flex: 0 0 auto;
+}
+
+.is-webview {
+  .car-booking-form {
+    @include for-tablet-and-up {
+      @include tablet-content-frame;
+      margin: 40px auto;
+    }
+  }
+}

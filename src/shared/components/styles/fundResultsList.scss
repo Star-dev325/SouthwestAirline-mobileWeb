@@ -1,0 +1,129 @@
+.fund-results-list {
+  @include bgwhite;
+  @include relative;
+
+  &--title {
+    @include gray5;
+    @include large;
+    @include px5;
+    @include py3;
+    @include align-right;
+    @include bdb;
+  }
+
+  &--item {
+    @include flex;
+    @include p5;
+    @include bdb;
+    @include flex-column;
+    min-height: 8rem;
+
+    .fund-results-list--outer-container {
+      @include flex;
+    }
+
+    .fund-results-list-item--info-container {
+      @include flex;
+      @include flex-column;
+      @include fullwidth;
+    }
+
+    .fund-results-list-item--main-info {
+      @include flex;
+    }
+
+    .credit-card--image {
+      @include mr5;
+      height: 5rem;
+      min-width: 5rem;
+    }
+  }
+
+  &--text {
+    @include flex-grow2;
+    @include mt2;
+
+    .additional-info-container {
+      @include flex;
+      @include flex-column;
+      @include gray5;
+      @include medium;
+      margin-top: 0.3rem;
+
+      div {
+        @include flex;
+        @include lineheight15;
+      }
+    }
+  }
+
+  &--amount-container {
+    @include flex-grow2;
+
+    .fund-results-list--available-amount {
+      @include pdkblue;
+      @include bold;
+      @include xlarge;
+      @include align-right;
+      @include mt2;
+      @include ml3;
+    }
+
+    .fund-results-list--dollar-amount {
+      @include gray5;
+      @include medium;
+      @include align-right;
+      @include ml3;
+      @include bold;
+      margin-top: 0.3rem;
+    }
+  }
+
+  &--removal-button {
+    @include right;
+    @include mt2;
+    @include ml3;
+    @include gray5;
+    @include xlarge;
+  }
+
+  &--error-message {
+    @include red;
+    @include mt4;
+    @include mr4;
+  }
+
+  &--billing-info {
+    @include flex;
+    @include medium;
+    @include flex-main-between;
+    @include mt3;
+
+    .billing-col-title {
+      @include gray5;
+    }
+  }
+
+  &--transfer-button {
+    @include mt5;
+  }
+
+  &--associate-link {
+    @include larger;
+    @include flex-item-center;
+    @include mt6;
+    margin-bottom: 0.6rem;
+  }
+
+  &--grey-box-message {
+    @include bggray2;
+    @include mt4;
+    @include px4;
+    @include py5;
+    @include gray5;
+
+    .header {
+      @include bold;
+    }
+  }
+}

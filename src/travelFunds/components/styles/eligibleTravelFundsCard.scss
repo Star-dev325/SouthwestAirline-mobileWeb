@@ -1,0 +1,67 @@
+.eligibile-funds-card {
+  @include mx4;
+  border: 1px solid $form-field-border;
+
+  .eligibile-funds-card--title {
+    @include bgpdkblue;
+    @include white;
+    @include px5;
+    @include py3;
+    @include xlarge;
+    @include bold;
+    @include mt4;
+  }
+
+  .eligibile-funds-card--container {
+    @include bgwhite;
+    @include pdkblue;
+    @include px5;
+    @include py2;
+  }
+
+  .eligibile-funds-card--content {
+    @include flex;
+    @include flex-row;
+    @include my4;
+
+    .credit-card--image {
+      @include flex2;
+      @include mr5;
+      height: 50px;
+      width: 50px;
+    }
+
+    .eligible-funds-card--description {
+      @include flex-column;
+      @include flex-grow1;
+      @include overflow-hidden;
+
+      .eligible-funds-card--name {
+        @include xlarge;
+        @include truncate;
+      }
+
+      .eligible-funds-card--transferable-text,
+      .eligible-funds-card--pnr,
+      .eligible-funds-card--expiration {
+        @include mt2;
+        @include gray5;
+        @include medium;
+      }
+
+      .eligible-funds-card--learn-more {
+        @include mt3;
+
+        p a {
+          @include pblue;
+        }
+      }
+    }
+
+    .eligible-funds-card--amount {
+      @include xlarge;
+      @include bold;
+      @include mr2;
+    }
+  }
+}

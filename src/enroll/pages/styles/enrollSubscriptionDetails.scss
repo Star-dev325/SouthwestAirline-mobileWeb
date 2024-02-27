@@ -1,0 +1,69 @@
+.subscription-detail {
+  @include bgwhite;
+}
+
+.subscription-details-page {
+  .page-header {
+    @include relative;
+    @include p2;
+    @include lineheight10;
+    height: 2.8em;
+
+    .goback-link {
+      @include inline-block;
+      @include absolute;
+      @include white;
+      @include l0;
+      min-width: 2.6em;
+      z-index: 1;
+    }
+
+    .icon_keyboard-arrow-left {
+      @include relative;
+      @include inline-block;
+      @include xlarge;
+    }
+
+    .header {
+      @include inline-block;
+      @include absolute;
+      @include center;
+      @include t0;
+      @include b0;
+      @include l0;
+      @include r0;
+      z-index: 0;
+      min-width: 2em;
+      min-height: 2.8em;
+      line-height: 2.8em;
+    }
+  }
+}
+
+.subscription-details-container--banner {
+  & > img {
+    @include fullwidth;
+  }
+}
+
+.subscription-details-container--list-item {
+  @include bdb;
+  @include bdgray2;
+  @include p4;
+
+  &:last-child {
+    @include border-none;
+  }
+}
+
+.subscription-details-container--list-item-title {
+  @include pdkblue;
+  @include bold;
+  @include large;
+}
+
+.subscription-details-container--list-item-subtitle {
+  @include medium;
+  @include gray4;
+  padding-right: 2.5rem;
+}

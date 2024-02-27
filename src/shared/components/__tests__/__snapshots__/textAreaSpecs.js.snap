@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextArea render should have passed in parameters 1`] = `
+<div
+  className="text-area-container"
+>
+  <textarea
+    className="text-area value"
+    maxLength={100}
+    onChange={[Function]}
+    placeholder="value"
+    rows={2}
+    value="value"
+  />
+</div>
+`;

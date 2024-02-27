@@ -1,0 +1,2881 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`refundSummaryForCancel render in bound confirmation page GDS Cancel - no refund should render correct notes and information 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        data-qa="gds-cancel-no-refund"
+      >
+        <div
+          class="gray5 bold large pt5 px5"
+        >
+          <label>
+            SHARED__REFUND_METHOD__REFUND_SUMMARY_SUMMARY
+          </label>
+        </div>
+        <div
+          class="flex flex-cross-center fullwidth bgwhite mt4 p5 bdt bdb"
+        >
+          <img
+            src="/content/mkt/images/landing_pages/travel-funds/travel-fund-rtf.svg"
+          />
+          <span
+            class="ml5 xlarge"
+          >
+            AIR_CANCEL__TRAVEL_FUNDS
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in bound confirmation page dollar should not render guestPasses section when guessPasses is null and refundableFunds is present 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUNDED_TO_CREDIT_CARD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="px5 pb5 white medium bggreen"
+        data-qa="taxes-and-fees"
+      >
+        SHARED__REFUND_METHOD__REFUND_SUMMARY_TAXES_AND_FEES
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in bound confirmation page dollar should not render guestPasses section when guessPasses is present and isCancelBoundFlow is false and isConfirmationPage is true 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUNDED_TO_CREDIT_CARD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            >
+              <div
+                data-qa="bottom-message-left"
+              >
+                SHARED__REFUND_METHOD__REFUND_SUMMARY_EXPIRES: 
+                <span
+                  class="bold"
+                >
+                  7/05/2019
+                </span>
+              </div>
+            </div>
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HELD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in bound confirmation page dollar should not render guestPasses section when guessPasses is present and isConfirmationPage is false and isCancelBoundFlow is true 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            >
+              <div
+                data-qa="show-taxes-and-fees"
+              >
+                SHARED__REFUND_METHOD__REFUND_SUMMARY_TAXES_AND_FEES 
+              </div>
+            </div>
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUND_TO_CREDIT_CARD
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in bound confirmation page dollar should not render guestPasses section when guestPasses is null and isCancelBoundFlow is false and isConfirmationPage is false 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUND_TO_CREDIT_CARD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in bound confirmation page dollar should not render guestPasses section when guestPasses is null and isCancelBoundFlow is true and isConfirmationPage is true 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUNDED_TO_CREDIT_CARD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            >
+              <div
+                data-qa="bottom-message-left"
+              >
+                SHARED__REFUND_METHOD__REFUND_SUMMARY_EXPIRES: 
+                <span
+                  class="bold"
+                >
+                  7/05/2019
+                </span>
+              </div>
+            </div>
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HELD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="px5 pb5 white medium bggreen"
+        data-qa="taxes-and-fees"
+      >
+        SHARED__REFUND_METHOD__REFUND_SUMMARY_TAXES_AND_FEES
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in bound confirmation page dollar should not render guestPasses section when guestPasses is null and isConfirmationPage is false and isConfirmationPage is true 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUND_TO_CREDIT_CARD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            >
+              <div
+                data-qa="show-taxes-and-fees"
+              >
+                SHARED__REFUND_METHOD__REFUND_SUMMARY_TAXES_AND_FEES 
+              </div>
+            </div>
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in bound confirmation page dollar should not render guestPasses section when guestPasses is present and isCancelBoundFlow is false and isConfirmationPage is false 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUND_TO_CREDIT_CARD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in bound confirmation page dollar should render background of taxes-and-fees panel to be green even if last item in the list has a $0 value 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUNDED_TO_CREDIT_CARD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  0.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            >
+              <div
+                data-qa="bottom-message-left"
+              >
+                SHARED__REFUND_METHOD__REFUND_SUMMARY_EXPIRES: 
+                <span
+                  class="bold"
+                >
+                  7/05/2019
+                </span>
+              </div>
+            </div>
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HELD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="px5 pb5 white medium bggreen"
+        data-qa="taxes-and-fees"
+      >
+        SHARED__REFUND_METHOD__REFUND_SUMMARY_TAXES_AND_FEES
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in bound confirmation page dollar should render background of taxes-and-fees panel to be green if last item in the list has a > $0 value 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  0.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUNDED_TO_CREDIT_CARD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            >
+              <div
+                data-qa="bottom-message-left"
+              >
+                SHARED__REFUND_METHOD__REFUND_SUMMARY_EXPIRES: 
+                <span
+                  class="bold"
+                >
+                  7/05/2019
+                </span>
+              </div>
+            </div>
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HELD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="px5 pb5 white medium bggreen"
+        data-qa="taxes-and-fees"
+      >
+        SHARED__REFUND_METHOD__REFUND_SUMMARY_TAXES_AND_FEES
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in bound confirmation page dollar should render correct notes and information 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUNDED_TO_CREDIT_CARD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            >
+              <div
+                data-qa="bottom-message-left"
+              >
+                SHARED__REFUND_METHOD__REFUND_SUMMARY_EXPIRES: 
+                <span
+                  class="bold"
+                >
+                  7/05/2019
+                </span>
+              </div>
+            </div>
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HELD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="px5 pb5 white medium bggreen"
+        data-qa="taxes-and-fees"
+      >
+        SHARED__REFUND_METHOD__REFUND_SUMMARY_TAXES_AND_FEES
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in bound confirmation page dollar should render guestPasses when guessPasses is present and isConfirmationPage is true and isCancelBoundFlow is true  1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUNDED_TO_CREDIT_CARD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="guest-passes-confirmation"
+      >
+        <p
+          class="guest-passes-confirmation--item"
+        >
+          Nonrevenue Guest Pass(es)
+        </p>
+        <p
+          class="guest-passes-confirmation--sub-item_text"
+        >
+          Refunded to Employee\`s account
+        </p>
+      </div>
+      <div
+        class="px5 pb5 white medium bggreen"
+        data-qa="taxes-and-fees"
+      >
+        SHARED__REFUND_METHOD__REFUND_SUMMARY_TAXES_AND_FEES
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in bound confirmation page dollar should render guestPasses when guessPasses is present when refundableFunds , nonRefundableFunds, pointsToCreditTotal is null 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="guest-passes-confirmation"
+      >
+        <p
+          class="guest-passes-confirmation--item"
+        >
+          Nonrevenue Guest Pass(es)
+        </p>
+        <p
+          class="guest-passes-confirmation--sub-item_text"
+        >
+          Refunded to Employee\`s account
+        </p>
+      </div>
+      <div
+        data-qa="gds-cancel-no-refund"
+      >
+        <div
+          class="gray5 bold large pt5 px5"
+        >
+          <label>
+            SHARED__REFUND_METHOD__REFUND_SUMMARY_SUMMARY
+          </label>
+        </div>
+        <div
+          class="flex flex-cross-center fullwidth bgwhite mt4 p5 bdt bdb"
+        >
+          <img
+            src="/content/mkt/images/landing_pages/travel-funds/travel-fund-rtf.svg"
+          />
+          <span
+            class="ml5 xlarge"
+          >
+            AIR_CANCEL__TRAVEL_FUNDS
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in bound confirmation page points should render correct notes and information 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Total Credit
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  15,149
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUND_SUMMARY_REFUNDED_TO_RAPID_REWARDS 601425543
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUNDED_TO_CREDIT_CARD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            >
+              <div
+                data-qa="bottom-message-left"
+              >
+                SHARED__REFUND_METHOD__REFUND_SUMMARY_EXPIRES: 
+                <span
+                  class="bold"
+                >
+                  7/05/2019
+                </span>
+              </div>
+            </div>
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HELD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="px5 pb5 white medium bggreen"
+        data-qa="taxes-and-fees"
+      >
+        SHARED__REFUND_METHOD__REFUND_SUMMARY_TAXES_AND_FEES
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in confirmation page GDS Cancel - no refund should render correct notes and information 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        data-qa="gds-cancel-no-refund"
+      >
+        <div
+          class="gray5 bold large pt5 px5"
+        >
+          <label>
+            SHARED__REFUND_METHOD__REFUND_SUMMARY_SUMMARY
+          </label>
+        </div>
+        <div
+          class="flex flex-cross-center fullwidth bgwhite mt4 p5 bdt bdb"
+        >
+          <img
+            src="/content/mkt/images/landing_pages/travel-funds/travel-fund-rtf.svg"
+          />
+          <span
+            class="ml5 xlarge"
+          >
+            AIR_CANCEL__TRAVEL_FUNDS
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in confirmation page dollar should render correct notes and information 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUNDED_TO_CREDIT_CARD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            >
+              <div
+                data-qa="bottom-message-left"
+              >
+                SHARED__REFUND_METHOD__REFUND_SUMMARY_EXPIRES: 
+                <span
+                  class="bold"
+                >
+                  7/05/2019
+                </span>
+              </div>
+            </div>
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HELD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in confirmation page points should render correct notes and information 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Total Credit
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  15,149
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUND_SUMMARY_REFUNDED_TO_RAPID_REWARDS 601425543
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUNDED_TO_CREDIT_CARD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            >
+              <div
+                data-qa="bottom-message-left"
+              >
+                SHARED__REFUND_METHOD__REFUND_SUMMARY_EXPIRES: 
+                <span
+                  class="bold"
+                >
+                  7/05/2019
+                </span>
+              </div>
+            </div>
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HELD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in quote page dollar should render both refundable and nonrefundable 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Total Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            >
+              <div
+                data-qa="show-taxes-and-fees"
+              >
+                SHARED__REFUND_METHOD__REFUND_SUMMARY_TAXES_AND_FEES 
+              </div>
+            </div>
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in quote page dollar should render refund to credit card on refundable items if showRefundableSelection is false 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Total Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUND_TO_CREDIT_CARD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            >
+              <div
+                data-qa="show-taxes-and-fees"
+              >
+                SHARED__REFUND_METHOD__REFUND_SUMMARY_TAXES_AND_FEES 
+              </div>
+            </div>
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in quote page dollar should render with only nonrefundable funds 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            >
+              <div
+                data-qa="show-taxes-and-fees"
+              >
+                SHARED__REFUND_METHOD__REFUND_SUMMARY_TAXES_AND_FEES 
+              </div>
+            </div>
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in quote page dollar should render with only refundable funds 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Total Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            >
+              <div
+                data-qa="show-taxes-and-fees"
+              >
+                SHARED__REFUND_METHOD__REFUND_SUMMARY_TAXES_AND_FEES 
+              </div>
+            </div>
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in quote page points should render points credit total, refundable and nonrefundable when cancel with points and mix refund 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Points Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  16,310
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUND_TO_RAPID_REWARDS 78263876
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Total Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  10.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Total Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            >
+              <div
+                data-qa="show-taxes-and-fees"
+              >
+                SHARED__REFUND_METHOD__REFUND_SUMMARY_TAXES_AND_FEES 
+              </div>
+            </div>
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in quote page points should render refund to credit card on refundable items if showRefundableSelection is false 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Points Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  16,310
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUND_TO_RAPID_REWARDS 78263876
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Total Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  10.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUND_TO_CREDIT_CARD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Total Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            >
+              <div
+                data-qa="show-taxes-and-fees"
+              >
+                SHARED__REFUND_METHOD__REFUND_SUMMARY_TAXES_AND_FEES 
+              </div>
+            </div>
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in summary page dollar should render both refundable and nonrefundable 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              Hold for future use
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in summary page dollar should render with only nonrefundable funds 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in summary page dollar should render with only refundable funds 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  100.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              Hold for future use
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`refundSummaryForCancel render in summary page points should render points credit total, refundable and nonrefundable when cancel with points and mix refund 1`] = `
+<div>
+  <div
+    class="refund-summary"
+  >
+    <div
+      data-qa="refund-summary"
+    >
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Points Credit
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  16,310
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__REFUND_TO_RAPID_REWARDS 78263876
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Refund Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  10.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="refund-total-item_credit"
+      >
+        <div
+          class="refund-total-item--body"
+        >
+          <div
+            class="flex flex-cross-center"
+          >
+            <span
+              class="flex7 inline-block xlarge refund-total-item--message"
+              data-qa="refund-message"
+            >
+              Credit Label
+            </span>
+            <div
+              class="flex5 align-right"
+            >
+              <div
+                class="currency refund-total-item-currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="refund-total-item--bottom"
+          >
+            <div
+              class="flex5 align-left pt2"
+            />
+            <span
+              class="flex7 align-right pt2 refund-total-item--bottom-message"
+              data-qa="refund-method"
+            >
+              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

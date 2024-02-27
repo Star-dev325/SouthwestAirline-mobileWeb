@@ -1,0 +1,46 @@
+.bound-price {
+  @include flex;
+  @include flex-main-between;
+  @include pdkblue;
+  @include bgwhite;
+  @include px5;
+  @include py3;
+  @include bdb;
+
+  .bound-price--airport-section {
+    @include flex4;
+
+    .bound-price--airport-info {
+      @include larger;
+    }
+
+    .bound-price--flight-number {
+      @include gray4;
+      @include medium;
+    }
+  }
+
+  .bound-price--amount-info-section {
+    @include flex7;
+
+    .bound-price--amount-section {
+      @include flex;
+      @include flex-main-between;
+
+      .bound-price--amount {
+        @include larger;
+      }
+
+      .bound-price--pax-count {
+        @include gray4;
+        @include medium;
+      }
+
+      .bound-price--total-amount {
+        @include flex-cross-center;
+        @include xlarge;
+        @include bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.car-shopping-results-date-range-container {
+  @include regular;
+  @include inline-block;
+  @include ml2;
+}
+
+.car-shopping-results-message {
+  @include gray3;
+  @include py6;
+}
+
+.car-shopping-results-dates {
+  @include large;
+  @include mx5;
+  @include mt5;
+  @include white;
+  @include center;
+}

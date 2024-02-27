@@ -1,0 +1,62 @@
+.apis-visa-page,
+.apis-permanent-resident-card-page,
+.apis-destination-page {
+  .action-bar--right-buttons,
+  .action-bar--left-buttons {
+    .action-bar-buttons--item {
+      @include border-none;
+    }
+  }
+}
+
+.apis-destination-page.include-contact-tracing {
+  .segment--title {
+    @include caps;
+    @include inline-block;
+    @include bold;
+    @include gray5;
+    @include pb2;
+  }
+
+  .contact-tracing-fields--info,
+  .destination-address--info {
+    a {
+      @include pblue;
+    }
+  }
+}
+
+.apis-form {
+  .segment {
+    @include bggray2;
+  }
+
+  .form-select-placeholder-field {
+    @include mt5;
+    height: 4.5rem;
+
+    .form-select-placeholder-field--wrapper {
+      @include pl5;
+      @include pr3;
+    }
+
+    .form-select-placeholder-field--wrapper-label label {
+      @include larger;
+
+      & + label {
+        @include large;
+      }
+    }
+  }
+
+  .field,
+  .fields {
+    @include mt3;
+  }
+
+  .fields--label {
+    @include gray5;
+    @include bold;
+    @include caps;
+  }
+}

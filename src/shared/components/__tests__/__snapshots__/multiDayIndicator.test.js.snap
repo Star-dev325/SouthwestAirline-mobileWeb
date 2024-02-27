@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MultiDayIndicator /> should render the NextDay indicator correctly 1`] = `
+<div>
+  <div
+    class="multi-day-indicator multi-day-indicator--nextday-green"
+    data-qa="next-day-indicator"
+  >
+    <i
+      class="multi-day-indicator--icon multi-day-indicator--icon-small icon icon_next-day-indicator"
+    />
+    <p
+      class="multi-day-indicator--font-small"
+    >
+      AIR_BOOKING__SHOPPING__NEXT_DAY
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<MultiDayIndicator /> should render the Overnight indicator correctly 1`] = `
+<div>
+  <div
+    class="multi-day-indicator multi-day-indicator--overnight-red"
+    data-qa="overnight-indicator"
+  >
+    <i
+      class="multi-day-indicator--icon multi-day-indicator--icon-small icon icon_next-day-indicator"
+    />
+    <p
+      class="multi-day-indicator--font-small"
+    >
+      AIR_BOOKING__SHOPPING__OVERNIGHT
+    </p>
+  </div>
+</div>
+`;

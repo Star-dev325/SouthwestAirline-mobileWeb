@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EnrollSecurityQuestionList render should display all questions when none are excluded 1`] = `
+NodeList [
+  <div
+    class="question-list-item-container"
+  >
+    <li>
+      What is the name of your favorite sports team?
+    </li>
+  </div>,
+  <div
+    class="question-list-item-container"
+  >
+    <li>
+      What is the middle name of your youngest child?
+    </li>
+  </div>,
+  <div
+    class="question-list-item-container"
+  >
+    <li>
+      What is you favorite very super extremely long longer longest crazy question?
+    </li>
+  </div>,
+  <div
+    class="question-list-item-container"
+  >
+    <li>
+      What was the color of your first car?
+    </li>
+  </div>,
+]
+`;
+
+exports[`EnrollSecurityQuestionList render should display check mark for selected question 1`] = `
+NodeList [
+  <div
+    class="question-list-item-container"
+  >
+    <li>
+      What is the name of your favorite sports team?
+    </li>
+    <i
+      class="sblue regular larger icon icon_check"
+    />
+  </div>,
+  <div
+    class="question-list-item-container"
+  >
+    <li>
+      What is the middle name of your youngest child?
+    </li>
+  </div>,
+  <div
+    class="question-list-item-container"
+  >
+    <li>
+      What is you favorite very super extremely long longer longest crazy question?
+    </li>
+  </div>,
+  <div
+    class="question-list-item-container"
+  >
+    <li>
+      What was the color of your first car?
+    </li>
+  </div>,
+]
+`;
+
+exports[`EnrollSecurityQuestionList render should not display excluded question 1`] = `
+NodeList [
+  <div
+    class="question-list-item-container"
+  >
+    <li>
+      What is the middle name of your youngest child?
+    </li>
+  </div>,
+  <div
+    class="question-list-item-container"
+  >
+    <li>
+      What is you favorite very super extremely long longer longest crazy question?
+    </li>
+  </div>,
+  <div
+    class="question-list-item-container"
+  >
+    <li>
+      What was the color of your first car?
+    </li>
+  </div>,
+]
+`;

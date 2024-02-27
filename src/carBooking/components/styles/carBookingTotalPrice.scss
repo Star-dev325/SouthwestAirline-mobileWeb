@@ -1,0 +1,14 @@
+.carbooking-total-price {
+  .price-total--info-row {
+    @include flex;
+  }
+
+  .price-total--info-col {
+    @include align-top;
+    @include flex6;
+  }
+
+  &.price-total .price-total--info .price-line .price-line--title {
+    @include bold;
+  }
+}

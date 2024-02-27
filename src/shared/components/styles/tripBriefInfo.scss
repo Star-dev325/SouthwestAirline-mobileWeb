@@ -1,0 +1,20 @@
+.trip-brief-info {
+  @include m4;
+  @include p4;
+  @include bgwhite;
+
+  .trip-date-dest-city--city-name {
+    @include pb5;
+    @include mb6;
+    @include bdb;
+    @include bdgray2;
+  }
+
+  .trip-date-dest-city--destination-airport {
+    font-size: 3rem;
+  }
+
+  .passenger-record-locator {
+    padding-right: 2.4rem;
+  }
+}

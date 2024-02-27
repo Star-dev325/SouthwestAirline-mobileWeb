@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddManualIrn when callbacks are called should default to previously entered IRN 1`] = `
+<div>
+  <div
+    class="add-manual-internal-reference-number"
+  >
+    <form
+      class="add-manual-internal-reference-number--form form"
+      name="add-manual-irn"
+      novalidate=""
+    >
+      <fieldset>
+        <div>
+          <div
+            class="page-header action-bar"
+            id=""
+          >
+            <ul
+              class="action-bar-buttons action-bar--left-buttons"
+            >
+              <li
+                class="action-bar-buttons--item"
+              >
+                <button
+                  class="button"
+                  type="button"
+                >
+                  AIR_BOOKING__CORPORATE_BOOKING__CANCEL
+                </button>
+              </li>
+            </ul>
+            <div
+              class="action-bar--container"
+            >
+              <div
+                class="action-bar--title-align-center action-bar--title"
+              >
+                <span
+                  class="action-bar--main-title"
+                >
+                  AIR_BOOKING__CORPORATE_BOOKING__ADD_IRN
+                </span>
+                <span
+                  class="action-bar--sub-title"
+                />
+              </div>
+            </div>
+            <ul
+              class="action-bar-buttons action-bar--right-buttons"
+            >
+              <li
+                class="action-bar-buttons--item"
+              >
+                <button
+                  class="button"
+                  type="submit"
+                >
+                  AIR_BOOKING__CORPORATE_BOOKING__DONE
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div />
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="input"
+            >
+              <input
+                class=""
+                maxlength="30"
+                name="manualIrn"
+                placeholder="AIR_BOOKING__CORPORATE_BOOKING__IRN"
+                value="manualIrn"
+              />
+            </div>
+          </div>
+        </div>
+        <p
+          class="add-manual-internal-reference-number--message"
+        >
+          AIR_BOOKING__CORPORATE_BOOKING__MANUAL_IRN_MESSAGE
+        </p>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;

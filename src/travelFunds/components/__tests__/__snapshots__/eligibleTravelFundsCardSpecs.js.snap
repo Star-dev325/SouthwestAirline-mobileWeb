@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EligibleTravelFundsCard should not render expiration field when expirationDateString and expirationDate values are falsy 1`] = `
+<div
+  className="eligibile-funds-card"
+>
+  <div
+    className="eligibile-funds-card--title"
+  >
+    Eligible flight credit
+  </div>
+  <div
+    className="eligibile-funds-card--container"
+  >
+    <div
+      className="eligibile-funds-card--content"
+    >
+      <CreditCardImage
+        cardType="TRAVEL_FUNDS"
+        leisureFund={true}
+      />
+      <div
+        className="eligible-funds-card--description"
+      >
+        <div
+          className="eligible-funds-card--name"
+        >
+          Thomas Shelby
+        </div>
+        <div
+          className="eligible-funds-card--pnr"
+        >
+          ABC123
+        </div>
+        <div
+          className="eligible-funds-card--learn-more"
+        >
+          <p
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<a href=\\"https://www.southwest.com/faq/travel-funds-general-info\\" target=\\"_blank\\">Learn More</a>",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="eligible-funds-card--amount"
+      >
+        <Currency
+          amount="50.00"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EligibleTravelFundsCard should render the component 1`] = `
+<div
+  className="eligibile-funds-card"
+>
+  <div
+    className="eligibile-funds-card--title"
+  >
+    Eligible flight credit
+  </div>
+  <div
+    className="eligibile-funds-card--container"
+  >
+    <div
+      className="eligibile-funds-card--content"
+    >
+      <CreditCardImage
+        cardType="TRAVEL_FUNDS"
+        leisureFund={true}
+      />
+      <div
+        className="eligible-funds-card--description"
+      >
+        <div
+          className="eligible-funds-card--name"
+        >
+          Thomas Shelby
+        </div>
+        <div
+          className="eligible-funds-card--pnr"
+        >
+          ABC123
+        </div>
+        <div
+          className="eligible-funds-card--expiration"
+        >
+           
+          Expiration: 03/17/2030
+           
+        </div>
+        <div
+          className="eligible-funds-card--learn-more"
+        >
+          <p
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<a href=\\"https://www.southwest.com/faq/travel-funds-general-info\\" target=\\"_blank\\">Learn More</a>",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="eligible-funds-card--amount"
+      >
+        <Currency
+          amount="50.00"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EligibleTravelFundsCard when expirationDateString exists should render with expirationDateString value  1`] = `
+<div
+  className="eligibile-funds-card"
+>
+  <div
+    className="eligibile-funds-card--title"
+  >
+    Eligible flight credit
+  </div>
+  <div
+    className="eligibile-funds-card--container"
+  >
+    <div
+      className="eligibile-funds-card--content"
+    >
+      <CreditCardImage
+        cardType="TRAVEL_FUNDS"
+        leisureFund={true}
+      />
+      <div
+        className="eligible-funds-card--description"
+      >
+        <div
+          className="eligible-funds-card--name"
+        >
+          Thomas Shelby
+        </div>
+        <div
+          className="eligible-funds-card--pnr"
+        >
+          ABC123
+        </div>
+        <div
+          className="eligible-funds-card--expiration"
+        >
+           
+          Expiration: None
+           
+        </div>
+        <div
+          className="eligible-funds-card--learn-more"
+        >
+          <p
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<a href=\\"https://www.southwest.com/faq/travel-funds-general-info\\" target=\\"_blank\\">Learn More</a>",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="eligible-funds-card--amount"
+      >
+        <Currency
+          amount="50.00"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EligibleTravelFundsCard when expirationDateString exists should render with expirationDateString value when expirationDate value is falsy 1`] = `
+<div
+  className="eligibile-funds-card"
+>
+  <div
+    className="eligibile-funds-card--title"
+  >
+    Eligible flight credit
+  </div>
+  <div
+    className="eligibile-funds-card--container"
+  >
+    <div
+      className="eligibile-funds-card--content"
+    >
+      <CreditCardImage
+        cardType="TRAVEL_FUNDS"
+        leisureFund={true}
+      />
+      <div
+        className="eligible-funds-card--description"
+      >
+        <div
+          className="eligible-funds-card--name"
+        >
+          Thomas Shelby
+        </div>
+        <div
+          className="eligible-funds-card--pnr"
+        >
+          ABC123
+        </div>
+        <div
+          className="eligible-funds-card--expiration"
+        >
+           
+          Expiration: None
+           
+        </div>
+        <div
+          className="eligible-funds-card--learn-more"
+        >
+          <p
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<a href=\\"https://www.southwest.com/faq/travel-funds-general-info\\" target=\\"_blank\\">Learn More</a>",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="eligible-funds-card--amount"
+      >
+        <Currency
+          amount="50.00"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

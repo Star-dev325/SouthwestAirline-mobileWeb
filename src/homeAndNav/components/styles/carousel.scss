@@ -1,0 +1,86 @@
+.carousel-container {
+  @include relative;
+  @include fullwidth;
+  @include overflow-hidden;
+  visibility: visible;
+}
+
+.carousel-wrapper {
+  @include overflow-hidden;
+}
+
+.carousel-child {
+  @include relative;
+  @include fullwidth;
+  @include left;
+  transition-property: transform;
+}
+
+.carousel-dots {
+  @include fullwidth;
+  @include absolute;
+  @include b0;
+  @include p0;
+  @include center;
+
+  &--in-footer-with-arrows {
+    @include relative;
+    margin-top: 0;
+  }
+
+  &--in-footer {
+    @include relative;
+    padding-top: 1.5rem;
+    border-top: 1px solid $gray2;
+  }
+}
+
+.carousel-footer-for-arrows {
+  @include fixed;
+  @include b0;
+  @include fullwidth;
+  @include bgpdkblue;
+  @include flex;
+  @include flex-main-between;
+  @include flex-cross-center;
+  @include mb0;
+  min-height: 4.2rem;
+  background: $sdkblue;
+
+  .icon {
+    @include yellow;
+    font-size: 3.6rem;
+  }
+}
+
+.carousel-dots .dot {
+  @include inline-block;
+  @include bgwhite;
+  @include circle;
+  -webkit-transition: opacity 0.25s ease-in;
+  -moz-transition: opacity 0.25s ease-in;
+  -ms-transition: opacity 0.25s ease-in;
+  -o-transition: opacity 0.25s ease-in;
+  transition: opacity 0.25s ease-in;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  box-shadow: 1px 1px 2px $pdkblue;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 8px;
+
+  &--in-footer {
+    @include bgpblue;
+    box-shadow: none;
+  }
+
+  &--in-footer-with-arrows {
+    box-shadow: none;
+  }
+}
+
+.carousel-dots .dot.selected {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}

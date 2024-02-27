@@ -1,0 +1,83 @@
+.price-details {
+  border-bottom: 1px solid $gray2;
+
+  &:last-child {
+    @include border-none;
+  }
+
+  .price-details-segment {
+    border-bottom: 1px solid $gray2;
+    padding: 1em 0;
+
+    &.no-taxes {
+      @include bdb-none;
+    }
+
+    &.total-per-segment {
+      .price-line--title {
+        @include pdkblue;
+        @include bold;
+        font-size: 2.1rem;
+      }
+    }
+
+    .price-line {
+      @include table;
+      @include fullwidth;
+      @include gray5;
+      @include large;
+
+      &.negative {
+        @include red;
+
+        .price-amount .formatted-currency {
+          @include red;
+        }
+      }
+
+      .price-line--title {
+        @include table-cell;
+        @include align-left;
+
+        &.negative {
+          @include red;
+        }
+
+        &.fare-total-class {
+          font-size: 1.7rem;
+        }
+      }
+
+      .price-amount {
+        @include table-cell;
+        @include align-right;
+
+        .formatted-currency {
+          @include pdkblue;
+          @include large;
+          @include regular;
+          line-height: 1.6;
+
+          &.addup {
+            @include bold;
+          }
+
+          &.total-per-person-type {
+            @include bold;
+            font-size: 1.7rem;
+          }
+
+          &.total-per-section {
+            @include lineheight10;
+            @include bold;
+            font-size: 2.6rem;
+          }
+        }
+      }
+    }
+  }
+
+  .price-line-sub-title {
+    @include gray5;
+  }
+}

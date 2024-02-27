@@ -1,0 +1,15 @@
+.early-bird-destination-info {
+  @include bgwhite;
+  @include pdkblue;
+  @include p5;
+}
+
+.early-bird-destination-info--date-range {
+  @include medium;
+}
+
+.early-bird-destination-info--airport-name {
+  @include xlarge;
+  @include bold;
+  @include mt1;
+}

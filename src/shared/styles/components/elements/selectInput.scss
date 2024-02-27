@@ -1,0 +1,55 @@
+.select-input {
+  @include relative;
+  @include bgwhite;
+  border-top-color: $form-field-border;
+  box-shadow: inset 0 -1px 0 0 $opacity20;
+
+  .dropdown {
+    @include relative;
+    @include fullwidth;
+    @include py3;
+    @include pr6;
+    @include pdkblue;
+    @include bgtransp;
+    @include larger;
+    @include border-none;
+    z-index: 3;
+
+    &.empty {
+      @include gray3;
+    }
+  }
+
+  .icon_caret-down {
+    @include absolute;
+    @include pblue;
+    @include medium;
+    right: 0.6rem;
+    top: 50%;
+    margin-top: -1rem;
+  }
+
+  input {
+    @include p0;
+    display: none;
+  }
+
+  .widget & {
+    @include border-none;
+    box-shadow: none;
+  }
+}
+
+.no-shadow {
+  box-shadow: none;
+}
+
+fieldset[disabled] {
+  .select-input .dropdown {
+    @include gray4;
+  }
+
+  .date-selection--select .icon {
+    @include gray4;
+  }
+}

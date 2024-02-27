@@ -1,0 +1,237 @@
+.itinerary-vertical {
+  @include relative;
+  border: 1px solid transparent;
+  padding: 3em 0 0;
+
+  .panel_collapsed {
+    // fix the overflow hidden issue
+    margin-top: -2em;
+    padding-top: 2em;
+
+    &.collapsing {
+      min-height: 6em;
+    }
+  }
+
+  .itinerary-vertical--row.itinerary-vertical--arrival {
+    min-height: 0;
+
+    .itinerary-vertical--col-time,
+    .itinerary-vertical--col-info {
+      @include p0;
+    }
+  }
+
+  .itinerary-vertical--row {
+    @include table;
+    @include relative;
+    @include fullwidth;
+    min-height: 6em;
+    z-index: 1;
+
+    & > .collapsed {
+      // use in panel header
+      @include table;
+      @include relative;
+      @include fullwidth;
+      @include pblue;
+      min-height: 6em;
+    }
+
+    .itinerary-vertical--col {
+      @include table-cell;
+      @include align-top;
+      @include relative;
+    }
+
+    .itinerary-vertical--col-icon {
+      width: 1%;
+
+      &::before {
+        @include absolute;
+        @include t0;
+        @include b0;
+        @include overflow-y-auto;
+        content: '';
+        width: 0;
+        left: 1em;
+        border-left: 0.4em solid $sltblue;
+      }
+
+      &.itinerary-vertical--col-icon-none-line {
+        &::before {
+          content: none;
+        }
+      }
+
+      &.itinerary-vertical--col-icon-none {
+        width: 1.4em;
+
+        .stop-circle {
+          display: none;
+        }
+      }
+
+      .stop-circle {
+        @include inline-block;
+        @include relative;
+        @include bgwhite;
+        @include circle;
+        margin-left: 0.7em;
+        width: 1em;
+        height: 1em;
+        top: -0.5em;
+        border: 1px solid $sltblue;
+
+        &::after {
+          @include absolute;
+          @include b0;
+          border-top: 1px solid $gray3;
+          content: '';
+          width: 1rem;
+          left: 1em;
+          margin-left: -1px;
+          top: 50%;
+          margin-top: -1px;
+        }
+      }
+
+      .icon {
+        @include relative;
+        @include p0;
+        @include white;
+        @include bgpdkblue;
+        @include circle;
+        width: 2em;
+        height: 2em;
+        font-size: 1.2em;
+        line-height: 2em;
+        top: -1em;
+        z-index: 2;
+      }
+    }
+
+    .itinerary-vertical--col-line {
+      @include relative;
+
+      &::before {
+        @include absolute;
+        content: '';
+        top: -1px;
+        left: 0.3em;
+        right: 0.3em;
+        border-top: 1px solid $gray3;
+      }
+    }
+
+    .itinerary-vertical--col-time {
+      width: 30%;
+      padding: 0 0 4em;
+      top: -3px;
+
+      .label-container {
+        @include relative;
+        margin-top: -2.3em;
+      }
+
+      .flight-time-group {
+        @include relative;
+        margin-top: -2.3em;
+
+        .flight-time--time {
+          @include regular;
+        }
+
+        .label-container {
+          @include mt0;
+          margin-bottom: 1em;
+        }
+      }
+    }
+
+    .itinerary-vertical--col-time_less-space {
+      padding: 0 0 2em;
+    }
+
+    .itinerary-vertical--col-info {
+      width: 50%;
+      padding: 0 0 4em;
+
+      .airport-info {
+        @include relative;
+        margin-top: -1.1rem;
+      }
+
+      .stops-detail {
+        @include block;
+        @include relative;
+        margin-top: -0.7em;
+
+        &.stops-detail--with-icon {
+          margin-top: -1em;
+
+          &.non-stop {
+            margin-top: -0.7em;
+          }
+        }
+      }
+
+      .stop-detail {
+        @include gray5;
+        @include lineheight14;
+        margin-top: -0.7em;
+
+        .airport-info {
+          @include mt0;
+        }
+
+        .airport-info--code {
+          @include regular;
+        }
+
+        &--airplane-return {
+          @include sltblue;
+          font-size: 1.4em;
+          top: 0.2em;
+
+          &.highlight {
+            @include red;
+          }
+        }
+
+        &.stop-detail--has-change {
+          margin-top: -1.2em;
+        }
+      }
+
+      .stops-detail,
+      .stop-detail {
+        &--overnight-indicator {
+          @include flex;
+          @include not-italic;
+          @include red;
+
+          &-icon {
+            @include lineheight14;
+          }
+        }
+      }
+    }
+  }
+}
+
+.itinerary-vertical--return {
+  .itinerary-vertical--row {
+    .itinerary-vertical--col-icon {
+      & > .icon {
+        @include bggreen;
+      }
+    }
+  }
+}
+
+.pricing-summary--group {
+  .itinerary-vertical .label-container--content {
+    @include mt0;
+  }
+}

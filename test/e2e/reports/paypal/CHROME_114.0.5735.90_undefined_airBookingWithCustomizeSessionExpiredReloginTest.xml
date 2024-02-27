@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="9">
+
+  <testsuite name="paypal.airBookingWithCustomizeSessionExpiredReloginTest"
+    errors="0" failures="1" hostname="" id="" package="paypal" skipped="1"
+    tests="9" time="87.22" timestamp="Fri, 15 Dec 2023 01:56:45 GMT">
+  
+    <testcase name="Login user to do authenticated check" classname="paypal.airBookingWithCustomizeSessionExpiredReloginTest" time="36.05" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to air booking from nav drawer" classname="paypal.airBookingWithCustomizeSessionExpiredReloginTest" time="4.904" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find one-way flight from Atlanta to Austin with Dollars" classname="paypal.airBookingWithCustomizeSessionExpiredReloginTest" time="17.85" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select flights" classname="paypal.airBookingWithCustomizeSessionExpiredReloginTest" time="2.149" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check reprice / price summary and continue" classname="paypal.airBookingWithCustomizeSessionExpiredReloginTest" time="9.019" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select to use payPal" classname="paypal.airBookingWithCustomizeSessionExpiredReloginTest" time="2.099" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify payPal is selected" classname="paypal.airBookingWithCustomizeSessionExpiredReloginTest" time="0.9920" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Session expired then purchase" classname="paypal.airBookingWithCustomizeSessionExpiredReloginTest" time="14.16" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;.dimmer&gt; to not be visible for 10000 milliseconds.">    at Page.purchase (/Users/x311032/spa-mobile-web/test/e2e/pages/airBooking/purchaseSummary.js:4:8)
+    at Object.Session expired then purchase (/Users/x311032/spa-mobile-web/test/e2e/tests/paypal/airBookingWithCustomizeSessionExpiredReloginTest.js:63:21)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="purchase success" classname="paypal.airBookingWithCustomizeSessionExpiredReloginTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

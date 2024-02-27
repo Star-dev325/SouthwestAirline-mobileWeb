@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="7">
+
+  <testsuite name="travelInformation.internationalTravelInformationTest"
+    errors="0" failures="1" hostname="" id="" package="travelInformation" skipped="3"
+    tests="7" time="71.06" timestamp="Fri, 15 Dec 2023 02:10:42 GMT">
+  
+    <testcase name="Find flight reservation through confirmation number" classname="travelInformation.internationalTravelInformationTest" time="41.68" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go To Travel Information page" classname="travelInformation.internationalTravelInformationTest" time="0.2990" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Travel Information Page" classname="travelInformation.internationalTravelInformationTest" time="2.354" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Pressing Save Button transitions to Trip Details Page" classname="travelInformation.internationalTravelInformationTest" time="26.73" assertions="22">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;.passenger-reservation-info--passenger-name&gt; to be present for 10000 milliseconds.">    at Object.Verify Pressing Save Button transitions to Trip Details Page (/Users/x311032/spa-mobile-web/test/e2e/tests/travelInformation/internationalTravelInformationTest.js:62:8)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Verify Analytics Event Store is correct after Save on Travel Information Page" classname="travelInformation.internationalTravelInformationTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Go To Travel Information page a second time" classname="travelInformation.internationalTravelInformationTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Oops Error Message is displayed when partial passport data is entered" classname="travelInformation.internationalTravelInformationTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

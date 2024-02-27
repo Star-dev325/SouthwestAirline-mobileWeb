@@ -1,0 +1,49 @@
+.ub-confirmation {
+  .ui.card {
+    @include fullwidth;
+  }
+
+  .ub-confirmation--section {
+    @include mx4;
+  }
+
+  .ub-confirmation--details {
+    @include mb5;
+    @include bgwhite;
+    @include rd2;
+  }
+
+  .ub-confirmation--link-details {
+    @include sltblue;
+    @include larger;
+  }
+
+  .ub-confirmation--boarding-details-button {
+    @include px7;
+    @include py2;
+  }
+}
+
+.upgraded-boarding-confirmation-page {
+  @include bgpdkblue;
+}
+
+.is-webview {
+  &.upgraded-boarding-confirmation-page {
+    @include for-tablet-and-up {
+      @include bgpdkblue;
+
+      .swa-message,
+      .ub-confirmation--boarding-details-button,
+      .ub-confirmation--section {
+        @include tablet-content-frame-lg;
+        @include mx-auto;
+        @include tablet-content-margins;
+      }
+
+      .ub-confirmation--details {
+        @include bgwhite;
+      }
+    }
+  }
+}

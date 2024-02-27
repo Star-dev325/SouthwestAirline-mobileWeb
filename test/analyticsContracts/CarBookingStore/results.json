@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": [
+    "results"
+  ],
+  "properties": {
+    "results": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "vehicleType",
+        "vehicles"
+      ],
+      "properties": {
+        "vehicleType": {
+          "type": "string"
+        },
+        "vehicles": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/vehicle"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "vehicle": {
+      "type": "object",
+      "required": [
+        "isRapidRewardsPartner",
+        "isUnavailable",
+        "promoCodeApplied",
+        "pricePerDayCents",
+        "totalCentsWithTaxes",
+        "vendorName"
+      ],
+      "additionalProperties": false,
+      "properties":{
+        "appliedDiscount": { "type": "boolean|undefined" },
+        "incentiveText": { "type": "string|undefined" },
+        "isRapidRewardsPartner": { "type": "boolean" },
+        "isUnavailable": { "type": "boolean" },
+        "promoCodeApplied": { "type": "boolean" },
+        "pricePerDayCents": { "type": "number" },
+        "totalCentsWithTaxes": { "type": "number" },
+        "vendorName": { "type": "string" }
+      }
+    }
+  }
+}

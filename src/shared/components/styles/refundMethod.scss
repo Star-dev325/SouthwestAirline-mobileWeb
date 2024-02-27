@@ -1,0 +1,11 @@
+.refund-method .dropdown {
+  @include larger;
+}
+
+.refund-method .error .dropdown {
+  @include red;
+}
+
+.refund-method--hide-icon .icon_caret-down {
+  @include hide;
+}

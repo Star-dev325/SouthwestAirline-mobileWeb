@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LowFareDate should mount the low fare date props 1`] = `
+<body>
+  <div>
+    <div
+      class="low-fare-date"
+    >
+      <div
+        class="selected-date"
+      >
+        <div
+          class="flight-logo-wrapper svg-wrapper low-fare--col-icon"
+        >
+          <i
+            class="full-width-svg icon icon_airplane-depart"
+          />
+        </div>
+        <div
+          class="flight-label-wrapper"
+        >
+          <div
+            class="label-container"
+          >
+            <div
+              class="label-container--label"
+            >
+              Depart 
+            </div>
+            <div
+              class="label-container--content"
+            >
+              Sun, Apr 5, 2020
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="calendar-select"
+      >
+        <i
+          class="full-width-svg icon icon_calender"
+        />
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`LowFareDate should show returning icon 1`] = `
+<body>
+  <div>
+    <div
+      class="low-fare-date"
+    >
+      <div
+        class="selected-date"
+      >
+        <div
+          class="flight-logo-wrapper svg-wrapper low-fare--col-icon-return"
+        >
+          <i
+            class="full-width-svg icon icon_airplane-return"
+          />
+        </div>
+        <div
+          class="flight-label-wrapper"
+        >
+          <div
+            class="label-container"
+          >
+            <div
+              class="label-container--label"
+            >
+              Return 
+            </div>
+            <div
+              class="label-container--content"
+            >
+              Sun, Apr 5, 2020
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="calendar-select"
+      >
+        <i
+          class="full-width-svg icon icon_calender"
+        />
+      </div>
+    </div>
+  </div>
+</body>
+`;

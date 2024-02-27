@@ -1,0 +1,33 @@
+.early-bird-price-footer--price-total {
+  @include bgpblue;
+  @include p5;
+  @include white;
+
+  .price-line--title {
+    @include medium;
+    @include align-middle;
+    @include lineheight14;
+    width: 45%;
+  }
+
+  .price-amount {
+    @include larger;
+    @include align-bottom;
+  }
+
+  .price-credit-message {
+    @include align-right;
+  }
+
+  .price-line--currency_total-per-section {
+    @include white;
+    @include xxxlarge;
+  }
+}
+
+.early-bird-price-footer--nav {
+  @include p5;
+  @include bgpblue;
+  @include bdt;
+  @include bdsdkblue;
+}

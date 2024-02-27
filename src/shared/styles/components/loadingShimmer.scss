@@ -1,0 +1,27 @@
+.shimmer {
+  @include overflow-x-clip;
+  transition: background-color 1s;
+
+  &--animate {
+    @include fullheight;
+    @include fullwidth;
+    @include overflow-y-clip;
+    animation: 1.25s move-across 500ms infinite linear;
+  }
+
+  &--effect {
+    @include absolute;
+    transform: rotateZ(16deg);
+    background: linear-gradient(to right, $white-opacity0, $white-opacity90, $white-opacity0);
+    height: 150%;
+    width: 33%;
+    top: -50px;
+    left: -375px;
+  }
+}
+
+@keyframes move-across {
+  100% {
+    transform: translateX(1000px);
+  }
+}

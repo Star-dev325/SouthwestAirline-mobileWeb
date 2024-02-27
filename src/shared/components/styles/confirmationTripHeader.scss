@@ -1,0 +1,146 @@
+.confirmation-trip-header {
+  @include m4;
+  @include bgwhite;
+
+  &--cityname {
+    @include pb5;
+    @include mb6;
+    @include bdb;
+    @include bdgray2;
+  }
+
+  &--destination-airport {
+    @include bold;
+    font-size: 3rem;
+  }
+
+  &--trip-date {
+    @include block;
+    @include pb1;
+    font-size: 1.3rem;
+  }
+
+  &--pnrs {
+    @include flex-shrink1;
+    @include flex-equal-width;
+    @include overflow-hidden;
+  }
+
+  &--passenger-name {
+    @include xlarge;
+    @include truncate;
+    @include pdkblue;
+  }
+
+  &--passenger-extra-seat {
+    @include truncate;
+    @include gray5;
+  }
+
+  &--record-locator {
+    @include table-cell;
+    @include pt2;
+    @include xlarge;
+    @include pdkblue;
+    @include align-right;
+  }
+
+  &--account-number {
+    @include gray5;
+  }
+
+  &--grey-box-message {
+    @include bggray2;
+    @include mt4;
+    @include mb1;
+    @include px4;
+    @include py5;
+    @include gray5;
+
+    .header {
+      @include bold;
+    }
+  }
+
+  &--content-link {
+    @include pdkblue;
+    @include medium;
+  }
+}
+
+.confirmation-trip-header-lap-child {
+  @include mt5;
+  @include flex;
+  @include flex-row;
+
+  &--lap-child-info {
+    @include flex;
+    @include flex-column;
+  }
+
+  &--lap-child-title {
+    @include large;
+    @include gray5;
+  }
+
+  &--lap-child-name {
+    @include large;
+    @include pdkblue;
+  }
+
+  &--lap-child-icon {
+    @include mr2;
+    min-width: 34px;
+    height: 35px;
+    background-image: url('/content/mkt/images/landing_pages/lap-child.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.confirmation-trip-header--special-assistance {
+  @include my3;
+
+  i {
+    @include mr2;
+  }
+
+  .special-assistance-message {
+    @include gray5;
+    font-size: 0.8em;
+  }
+}
+
+.confirmation-trip-header-passenger-list {
+  @include table;
+  @include fullwidth;
+  @include fit;
+
+  &--header {
+    @include table-header-group;
+    @include gray5;
+
+    :last-child {
+      // For table cell auto witdth https://stackoverflow.com/questions/4757844/css-table-column-autowidth
+      @include nowrap;
+      width: 1px;
+    }
+  }
+
+  &--passenger-names {
+    @include table-cell;
+    @include overflow-hidden;
+    @include pt2;
+    @include pr4;
+    max-width: 50vw;
+  }
+}
+
+.confirmation--early-bird-button {
+  @include mt4;
+
+  .icon {
+    @include pr4;
+    @include black;
+  }
+}

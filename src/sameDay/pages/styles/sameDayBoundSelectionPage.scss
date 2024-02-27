@@ -1,0 +1,14 @@
+.same-day--intro {
+  @include p5;
+
+  p {
+    @include gray5;
+    line-height: 1.6rem;
+  }
+}
+
+.same-day {
+  .segment {
+    background: none;
+  }
+}

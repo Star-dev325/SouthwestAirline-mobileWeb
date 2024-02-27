@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`iconAndBriefInfo should show icon with brief info 1`] = `
+<div>
+  <div
+    class="icon-and-brief-info"
+  >
+    <i
+      class="icon-and-brief-info--icon icon icon_Circle"
+    />
+    <div
+      class="icon-and-brief-info--info-container"
+    >
+      <p
+        class="icon-and-brief-info--text"
+      >
+        SWA
+      </p>
+      <a
+        class="pblue"
+        href="https://www.southwest.com/"
+        target="_blank"
+      >
+        SWA
+      </a>
+    </div>
+  </div>
+</div>
+`;

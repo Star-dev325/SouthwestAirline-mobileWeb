@@ -1,0 +1,22 @@
+.flight-number {
+  align-self: flex-start;
+
+  .aircraft-type {
+    @include gray5;
+    @include lineheight10;
+    @include medium;
+    @include regular;
+  }
+}
+
+.flight-number + .flight-number {
+  &::before {
+    content: '/';
+  }
+}
+
+.flight-number--block + .flight-number--block {
+  &::before {
+    content: '';
+  }
+}

@@ -1,0 +1,69 @@
+.flight-details {
+  .page-title-details {
+    @include regular;
+    font-size: 1.3rem;
+  }
+
+  .segment-details {
+    @include fullwidth;
+    @include mb4;
+    @include rd3;
+
+    .leg-details {
+      .gate-information,
+      .flight-info-row,
+      .segment-status,
+      .original-time-information {
+        margin-top: 1.8rem;
+      }
+    }
+
+    .cancel-row {
+      @include table;
+      @include fullwidth;
+      margin: 1.5rem 0;
+    }
+
+    .cancel-col {
+      @include table-cell;
+
+      &.cancel {
+        @include red;
+        margin: 1rem 0;
+        width: 60%;
+
+        .icon_remove {
+          @include mr2;
+          @include align-middle;
+          font-size: 1.5rem;
+        }
+
+        .cancel-text {
+          @include align-middle;
+          @include medium;
+          @include bold;
+        }
+      }
+
+      &.dash {
+        width: 40%;
+
+        &::after {
+          content: '--------------';
+        }
+      }
+    }
+  }
+}
+
+.flight-details-bg {
+  @include bgpdkblue;
+}
+
+.is-webview {
+  &.flight-details-bg {
+    @include for-tablet-and-up {
+      @include bg-flight-status;
+    }
+  }
+}

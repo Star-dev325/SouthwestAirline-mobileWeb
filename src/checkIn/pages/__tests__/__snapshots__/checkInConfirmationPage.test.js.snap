@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckInConfirmation check standard bags now button when viewModifyCheckedBags has value should render check standard bags now button 1`] = `
+<button
+  class="button button--fluid larger button--blue"
+  data-qa="check-baggage-button"
+  type="button"
+>
+  Check standard bags now
+</button>
+`;
+
+exports[`CheckInConfirmation check standard bags now button when viewModifyCheckedBags is null should not render check standard bags now button 1`] = `null`;
+
+exports[`CheckInConfirmation render Page placements should not render checkInConfirmationPromoTop01 data when undefined 1`] = `null`;
+
+exports[`CheckInConfirmation render Page placements should render checkInConfirmationPromoTop01 with correct props when checkInConfirmationPage is defined 1`] = `null`;
+
+exports[`CheckInConfirmation render Page placements should render checkInConfirmationPromoTop01 with getUpgradeFareReservationFn as actionToDispatch and viewPremiumProductUpgrade as actionParams if viewPremiumProductUpgrade exists 1`] = `null`;
+
+exports[`CheckInConfirmation render Page placements should render checkInConfirmationPromoTop01 with getUpgradedBoardingReservationFn as actionToDispatch and viewUpgradedBoarding as actionParams if viewUpgradedBoarding exists 1`] = `null`;
+
+exports[`CheckInConfirmation render should not show footer HTML when footerWithLinks is not coming from CHAPI 1`] = `null`;
+
+exports[`CheckInConfirmation render should show footer HTML when footerWithLinks is present from CHAPI 1`] = `
+<div
+  class="link-details"
+>
+  <span
+    class="footerlink-with-text"
+  >
+    <a
+      href="mock-url"
+      target="_blank"
+    >
+      Mock Link
+    </a>
+  </span>
+</div>
+`;
+
+exports[`CheckInConfirmation searchToken should render the page if the searchToken is present 1`] = `[Function]`;

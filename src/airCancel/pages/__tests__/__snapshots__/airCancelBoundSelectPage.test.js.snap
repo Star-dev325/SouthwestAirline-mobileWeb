@@ -1,0 +1,727 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`airCancelBoundSelectPage render should render expected component 1`] = `
+<div>
+  <div
+    class="cancel-select-bound"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        AIR_CANCEL__SELECT_BOUND__TITLE
+      </div>
+      <div />
+    </div>
+    <div
+      class="flight-cancel--intro"
+    >
+      <p
+        data-qa="flight-cancel-bound-message"
+      >
+        AIR_CANCEL__SELECT_BOUND__SELECT_FLIGHTS_TO_CANCEL
+      </p>
+    </div>
+    <form
+      class="form"
+      name="AIR_CANCEL_SELECT_BOUND_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="bgwhite bdb bdt"
+        >
+          <div
+            class="flight-abstraction--bound"
+            data-qa="bound"
+          >
+            <div
+              class="flight-abstraction--table"
+            >
+              <div
+                class="field"
+              >
+                <div
+                  class="px5 relative flex checkbox-button flex-cross-center"
+                  name="abcd"
+                >
+                  <div
+                    class="flex2 flex flex-main-center"
+                  >
+                    <span
+                      class="checkbox-button--mark"
+                    >
+                      <i
+                        class="absolute xlarge bgtransp icon icon_check"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="flex10"
+                  >
+                    <div
+                      class="checkbox-button--children flex-equal-width ml2"
+                    >
+                      <div
+                        data-qa="air-cancel-flight-selection-departure"
+                      >
+                        <div
+                          class="mb5 nowrap"
+                          data-qa="flight-abstraction-itinerary"
+                        >
+                          <div
+                            class="flex flex-cross-center"
+                          >
+                            <div
+                              class="bold"
+                              data-qa="flight-abstraction-departure-date-label"
+                            >
+                              Departure
+                            </div>
+                            <div
+                              class="regular ml2"
+                            >
+                               
+                              - 
+                              Wed, Jun 3, 2020
+                            </div>
+                          </div>
+                          <p
+                            class="regular"
+                          >
+                            From: 
+                            Albany, NY - ALB
+                          </p>
+                          <p
+                            class="regular"
+                          >
+                            To: 
+                            Dallas (Love Field), TX - DAL
+                          </p>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <div
+                            class="pr3 inline-block align-top flight-abstraction--flight-number"
+                          >
+                            <h4
+                              class="gray4 regular small"
+                            >
+                              SHARED__BOUND_SELECT__FLIGHT
+                            </h4>
+                            <p
+                              class="bold larger"
+                            >
+                              1471/634
+                            </p>
+                          </div>
+                          <div
+                            class="inline-block nowrap"
+                          >
+                            <div
+                              class="inline-block"
+                              data-qa="departs-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__DEPARTS
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  5:30
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  AM
+                                </span>
+                              </p>
+                            </div>
+                            <div
+                              class="xlarge relative inline-block flight--icon-airplane-wrapper"
+                            >
+                              <i
+                                class="mt4 icon icon_airplane"
+                              />
+                            </div>
+                            <div
+                              class="inline-block"
+                              data-qa="arrives-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__ARRIVES
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  10:25
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  AM
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flight-abstraction--bound"
+            data-qa="bound"
+          >
+            <div
+              class="flight-abstraction--table"
+            >
+              <div
+                class="field"
+              >
+                <div
+                  class="px5 relative flex checkbox-button flex-cross-center"
+                  name="zyxw"
+                >
+                  <div
+                    class="flex2 flex flex-main-center"
+                  >
+                    <span
+                      class="checkbox-button--mark"
+                    >
+                      <i
+                        class="absolute xlarge bgtransp icon icon_check"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="flex10"
+                  >
+                    <div
+                      class="checkbox-button--children flex-equal-width ml2"
+                    >
+                      <div
+                        data-qa="air-cancel-flight-selection-return"
+                      >
+                        <div
+                          class="mb5 nowrap"
+                          data-qa="flight-abstraction-itinerary"
+                        >
+                          <div
+                            class="flex flex-cross-center"
+                          >
+                            <div
+                              class="bold"
+                              data-qa="flight-abstraction-departure-date-label"
+                            >
+                              Return
+                            </div>
+                            <div
+                              class="regular ml2"
+                            >
+                               
+                              - 
+                              Thu, Jun 4, 2020
+                            </div>
+                          </div>
+                          <p
+                            class="regular"
+                          >
+                            From: 
+                            Dallas (Love Field), TX - DAL
+                          </p>
+                          <p
+                            class="regular"
+                          >
+                            To: 
+                            Albany, NY - ALB
+                          </p>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <div
+                            class="pr3 inline-block align-top flight-abstraction--flight-number"
+                          >
+                            <h4
+                              class="gray4 regular small"
+                            >
+                              SHARED__BOUND_SELECT__FLIGHT
+                            </h4>
+                            <p
+                              class="bold larger"
+                            >
+                              1941/551
+                            </p>
+                          </div>
+                          <div
+                            class="inline-block nowrap"
+                          >
+                            <div
+                              class="inline-block"
+                              data-qa="departs-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__DEPARTS
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  6:00
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  AM
+                                </span>
+                              </p>
+                            </div>
+                            <div
+                              class="xlarge relative inline-block flight--icon-airplane-wrapper"
+                            >
+                              <i
+                                class="mt4 icon icon_airplane"
+                              />
+                            </div>
+                            <div
+                              class="inline-block"
+                              data-qa="arrives-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__ARRIVES
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  12:25
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div
+          class="segment"
+        >
+          <button
+            class="change button button--fluid larger button--yellow"
+            data-qa="air-cancel-select-bound-continue-button"
+            type="submit"
+          >
+            SHARED__BUTTON_TEXT__CONTINUE
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`airCancelBoundSelectPage render should render expected component with split pnr confirmation message when message exists 1`] = `
+<div>
+  <div
+    class="cancel-select-bound"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        AIR_CANCEL__SELECT_BOUND__TITLE
+      </div>
+      <div />
+    </div>
+    <div
+      class="swa-message split-pnr-confirmation-message bgpdkblue white information"
+    >
+      <span
+        class="icon-container"
+      >
+        <i
+          class="icon icon_ic-info"
+        />
+      </span>
+      <span
+        class="message--text"
+      >
+        Your new confirmation # 4JJRU5
+      </span>
+    </div>
+    <div
+      class="flight-cancel--intro"
+    >
+      <p
+        data-qa="flight-cancel-bound-message"
+      >
+        AIR_CANCEL__SELECT_BOUND__SELECT_FLIGHTS_TO_CANCEL
+      </p>
+    </div>
+    <form
+      class="form"
+      name="AIR_CANCEL_SELECT_BOUND_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="bgwhite bdb bdt"
+        >
+          <div
+            class="flight-abstraction--bound"
+            data-qa="bound"
+          >
+            <div
+              class="flight-abstraction--table"
+            >
+              <div
+                class="field"
+              >
+                <div
+                  class="px5 relative flex checkbox-button flex-cross-center"
+                  name="abcd"
+                >
+                  <div
+                    class="flex2 flex flex-main-center"
+                  >
+                    <span
+                      class="checkbox-button--mark"
+                    >
+                      <i
+                        class="absolute xlarge bgtransp icon icon_check"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="flex10"
+                  >
+                    <div
+                      class="checkbox-button--children flex-equal-width ml2"
+                    >
+                      <div
+                        data-qa="air-cancel-flight-selection-departure"
+                      >
+                        <div
+                          class="mb5 nowrap"
+                          data-qa="flight-abstraction-itinerary"
+                        >
+                          <div
+                            class="flex flex-cross-center"
+                          >
+                            <div
+                              class="bold"
+                              data-qa="flight-abstraction-departure-date-label"
+                            >
+                              Departure
+                            </div>
+                            <div
+                              class="regular ml2"
+                            >
+                               
+                              - 
+                              Wed, Jun 3, 2020
+                            </div>
+                          </div>
+                          <p
+                            class="regular"
+                          >
+                            From: 
+                            Albany, NY - ALB
+                          </p>
+                          <p
+                            class="regular"
+                          >
+                            To: 
+                            Dallas (Love Field), TX - DAL
+                          </p>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <div
+                            class="pr3 inline-block align-top flight-abstraction--flight-number"
+                          >
+                            <h4
+                              class="gray4 regular small"
+                            >
+                              SHARED__BOUND_SELECT__FLIGHT
+                            </h4>
+                            <p
+                              class="bold larger"
+                            >
+                              1471/634
+                            </p>
+                          </div>
+                          <div
+                            class="inline-block nowrap"
+                          >
+                            <div
+                              class="inline-block"
+                              data-qa="departs-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__DEPARTS
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  5:30
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  AM
+                                </span>
+                              </p>
+                            </div>
+                            <div
+                              class="xlarge relative inline-block flight--icon-airplane-wrapper"
+                            >
+                              <i
+                                class="mt4 icon icon_airplane"
+                              />
+                            </div>
+                            <div
+                              class="inline-block"
+                              data-qa="arrives-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__ARRIVES
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  10:25
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  AM
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flight-abstraction--bound"
+            data-qa="bound"
+          >
+            <div
+              class="flight-abstraction--table"
+            >
+              <div
+                class="field"
+              >
+                <div
+                  class="px5 relative flex checkbox-button flex-cross-center"
+                  name="zyxw"
+                >
+                  <div
+                    class="flex2 flex flex-main-center"
+                  >
+                    <span
+                      class="checkbox-button--mark"
+                    >
+                      <i
+                        class="absolute xlarge bgtransp icon icon_check"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="flex10"
+                  >
+                    <div
+                      class="checkbox-button--children flex-equal-width ml2"
+                    >
+                      <div
+                        data-qa="air-cancel-flight-selection-return"
+                      >
+                        <div
+                          class="mb5 nowrap"
+                          data-qa="flight-abstraction-itinerary"
+                        >
+                          <div
+                            class="flex flex-cross-center"
+                          >
+                            <div
+                              class="bold"
+                              data-qa="flight-abstraction-departure-date-label"
+                            >
+                              Return
+                            </div>
+                            <div
+                              class="regular ml2"
+                            >
+                               
+                              - 
+                              Thu, Jun 4, 2020
+                            </div>
+                          </div>
+                          <p
+                            class="regular"
+                          >
+                            From: 
+                            Dallas (Love Field), TX - DAL
+                          </p>
+                          <p
+                            class="regular"
+                          >
+                            To: 
+                            Albany, NY - ALB
+                          </p>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <div
+                            class="pr3 inline-block align-top flight-abstraction--flight-number"
+                          >
+                            <h4
+                              class="gray4 regular small"
+                            >
+                              SHARED__BOUND_SELECT__FLIGHT
+                            </h4>
+                            <p
+                              class="bold larger"
+                            >
+                              1941/551
+                            </p>
+                          </div>
+                          <div
+                            class="inline-block nowrap"
+                          >
+                            <div
+                              class="inline-block"
+                              data-qa="departs-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__DEPARTS
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  6:00
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  AM
+                                </span>
+                              </p>
+                            </div>
+                            <div
+                              class="xlarge relative inline-block flight--icon-airplane-wrapper"
+                            >
+                              <i
+                                class="mt4 icon icon_airplane"
+                              />
+                            </div>
+                            <div
+                              class="inline-block"
+                              data-qa="arrives-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__ARRIVES
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  12:25
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div
+          class="segment"
+        >
+          <button
+            class="change button button--fluid larger button--yellow"
+            data-qa="air-cancel-select-bound-continue-button"
+            type="submit"
+          >
+            SHARED__BUTTON_TEXT__CONTINUE
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;

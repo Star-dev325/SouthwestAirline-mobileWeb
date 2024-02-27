@@ -1,0 +1,1778 @@
+{
+  "outbound": {
+    "sort": "BY_DEPARTURE_TIME",
+    "flightProducts": [
+      {
+        "departureDateTime": "2015-06-13T06:20",
+        "arrivalDateTime": "2015-06-13T11:10",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "1266",
+            "duration": 100,
+            "origin": "DAL",
+            "destination": "STL",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "1351",
+            "duration": 155,
+            "origin": "STL",
+            "destination": "ATL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "N",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 13500,
+            "discountedFareValue": 13500,
+            "accrualPoints": 627,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "IMPOSSIBLE_ITINERARY"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "INSUFFICIENT_INVENTORY"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-13T06:45",
+        "arrivalDateTime": "2015-06-13T13:10",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "1898",
+            "duration": 135,
+            "origin": "DAL",
+            "destination": "MDW",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "2464",
+            "duration": 170,
+            "origin": "MDW",
+            "destination": "ATL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "W",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 27700,
+            "discountedFareValue": 27700,
+            "accrualPoints": 1420,
+            "unavailabilityReason": "IMPOSSIBLE_ITINERARY"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "IMPOSSIBLE_ITINERARY"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "INSUFFICIENT_INVENTORY"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-13T06:55",
+        "arrivalDateTime": "2015-06-13T10:10",
+        "numberOfStops": 0,
+        "segments": [
+          {
+            "flightNumber": "1465",
+            "duration": 195,
+            "origin": "DAL",
+            "destination": "ATL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "N",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 9900,
+            "discountedFareValue": 9900,
+            "accrualPoints": 474,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 31400,
+            "discountedFareValue": 31400,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33000,
+            "discountedFareValue": 33000,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-13T08:40",
+        "arrivalDateTime": "2015-06-13T13:00",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "2125",
+            "duration": 80,
+            "origin": "DAL",
+            "destination": "MSY",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "1510",
+            "duration": 145,
+            "origin": "MSY",
+            "destination": "ATL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "W",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 27700,
+            "discountedFareValue": 27700,
+            "accrualPoints": 1420,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-13T08:45",
+        "arrivalDateTime": "2015-06-13T14:35",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "4420",
+            "duration": 90,
+            "origin": "DAL",
+            "destination": "MCI",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "1141",
+            "duration": 175,
+            "origin": "MCI",
+            "destination": "ATL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "W",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 27700,
+            "discountedFareValue": 27700,
+            "accrualPoints": 1420,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-13T09:30",
+        "arrivalDateTime": "2015-06-13T14:40",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "4344",
+            "duration": 65,
+            "origin": "DAL",
+            "destination": "HOU",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "2632",
+            "duration": 180,
+            "origin": "HOU",
+            "destination": "ATL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "S",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 16300,
+            "discountedFareValue": 16300,
+            "accrualPoints": 784,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-13T11:25",
+        "arrivalDateTime": "2015-06-13T14:35",
+        "numberOfStops": 0,
+        "segments": [
+          {
+            "flightNumber": "1493",
+            "duration": 190,
+            "origin": "DAL",
+            "destination": "ATL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "M",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 12700,
+            "discountedFareValue": 12700,
+            "accrualPoints": 630,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 31400,
+            "discountedFareValue": 31400,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33000,
+            "discountedFareValue": 33000,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-13T12:10",
+        "arrivalDateTime": "2015-06-13T18:10",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "1297",
+            "duration": 130,
+            "origin": "DAL",
+            "destination": "MDW",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "4416",
+            "duration": 175,
+            "origin": "MDW",
+            "destination": "ATL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "W",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 27700,
+            "discountedFareValue": 27700,
+            "accrualPoints": 1420,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22200,
+            "discountedFareValue": 22200,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-13T13:30",
+        "arrivalDateTime": "2015-06-13T18:55",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "3818",
+            "duration": 60,
+            "origin": "DAL",
+            "destination": "HOU",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "4230",
+            "duration": 185,
+            "origin": "HOU",
+            "destination": "ATL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "UNAVAILABLE",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 0,
+            "discountedFareValue": 0,
+            "accrualPoints": 0,
+            "unavailabilityReason": "INSUFFICIENT_INVENTORY"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22200,
+            "discountedFareValue": 22200,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-13T14:30",
+        "arrivalDateTime": "2015-06-13T20:30",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "1418",
+            "duration": 60,
+            "origin": "DAL",
+            "destination": "HOU",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "2146",
+            "duration": 185,
+            "origin": "HOU",
+            "destination": "ATL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "N",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 13500,
+            "discountedFareValue": 13500,
+            "accrualPoints": 627,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-13T15:35",
+        "arrivalDateTime": "2015-06-13T20:45",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "1070",
+            "duration": 60,
+            "origin": "DAL",
+            "destination": "SAT",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "2303",
+            "duration": 205,
+            "origin": "SAT",
+            "destination": "ATL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "S",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 16300,
+            "discountedFareValue": 16300,
+            "accrualPoints": 784,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-13T16:00",
+        "arrivalDateTime": "2015-06-13T21:45",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "4598",
+            "duration": 65,
+            "origin": "DAL",
+            "destination": "HOU",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "1389",
+            "duration": 180,
+            "origin": "HOU",
+            "destination": "ATL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "N",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 13500,
+            "discountedFareValue": 13500,
+            "accrualPoints": 627,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-13T16:10",
+        "arrivalDateTime": "2015-06-13T20:45",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "1962",
+            "duration": 275,
+            "origin": "DAL",
+            "destination": "ATL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "N",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 13050,
+            "discountedFareValue": 13050,
+            "accrualPoints": 627,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 31800,
+            "discountedFareValue": 31800,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33400,
+            "discountedFareValue": 33400,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-13T17:35",
+        "arrivalDateTime": "2015-06-13T20:45",
+        "numberOfStops": 0,
+        "segments": [
+          {
+            "flightNumber": "3357",
+            "duration": 190,
+            "origin": "DAL",
+            "destination": "ATL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "T",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 8900,
+            "discountedFareValue": 8900,
+            "accrualPoints": 418,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 31400,
+            "discountedFareValue": 31400,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33000,
+            "discountedFareValue": 33000,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      }
+    ]
+  },
+  "inbound": {
+    "sort": "BY_DEPARTURE_TIME",
+    "flightProducts": [
+      {
+        "departureDateTime": "2015-06-17T05:45",
+        "arrivalDateTime": "2015-06-17T06:55",
+        "numberOfStops": 0,
+        "segments": [
+          {
+            "flightNumber": "270",
+            "duration": 70,
+            "origin": "ATL",
+            "destination": "DAL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "T",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 8900,
+            "discountedFareValue": 8900,
+            "accrualPoints": 418,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 31400,
+            "discountedFareValue": 31400,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33000,
+            "discountedFareValue": 33000,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-17T07:20",
+        "arrivalDateTime": "2015-06-17T11:00",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "1321",
+            "duration": 60,
+            "origin": "ATL",
+            "destination": "HOU",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "16",
+            "duration": 60,
+            "origin": "HOU",
+            "destination": "DAL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "S",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 16300,
+            "discountedFareValue": 16300,
+            "accrualPoints": 784,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-17T07:20",
+        "arrivalDateTime": "2015-06-17T10:00",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "1321",
+            "duration": 60,
+            "origin": "ATL",
+            "destination": "HOU",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "12",
+            "duration": 60,
+            "origin": "HOU",
+            "destination": "DAL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "M",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 18600,
+            "discountedFareValue": 18600,
+            "accrualPoints": 912,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-17T08:30",
+        "arrivalDateTime": "2015-06-17T11:25",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "1812",
+            "duration": 80,
+            "origin": "ATL",
+            "destination": "AUS",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "857",
+            "duration": 55,
+            "origin": "AUS",
+            "destination": "DAL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "N",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 13500,
+            "discountedFareValue": 13500,
+            "accrualPoints": 627,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-17T08:35",
+        "arrivalDateTime": "2015-06-17T11:15",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "2944",
+            "duration": 40,
+            "origin": "ATL",
+            "destination": "MSY",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "1532",
+            "duration": 80,
+            "origin": "MSY",
+            "destination": "DAL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "N",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 13500,
+            "discountedFareValue": 13500,
+            "accrualPoints": 627,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-17T08:35",
+        "arrivalDateTime": "2015-06-17T11:30",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "1440",
+            "duration": 45,
+            "origin": "ATL",
+            "destination": "STL",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "4656",
+            "duration": 95,
+            "origin": "STL",
+            "destination": "DAL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "M",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 18600,
+            "discountedFareValue": 18600,
+            "accrualPoints": 912,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-17T11:10",
+        "arrivalDateTime": "2015-06-17T12:25",
+        "numberOfStops": 0,
+        "segments": [
+          {
+            "flightNumber": "4439",
+            "duration": 75,
+            "origin": "ATL",
+            "destination": "DAL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "N",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 9900,
+            "discountedFareValue": 9900,
+            "accrualPoints": 474,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 31400,
+            "discountedFareValue": 31400,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33000,
+            "discountedFareValue": 33000,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-17T11:25",
+        "arrivalDateTime": "2015-06-17T15:00",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "4127",
+            "duration": 70,
+            "origin": "ATL",
+            "destination": "HOU",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "32",
+            "duration": 60,
+            "origin": "HOU",
+            "destination": "DAL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "S",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 16300,
+            "discountedFareValue": 16300,
+            "accrualPoints": 784,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-17T13:30",
+        "arrivalDateTime": "2015-06-17T16:05",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "42",
+            "duration": 35,
+            "origin": "ATL",
+            "destination": "MSY",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "300",
+            "duration": 80,
+            "origin": "MSY",
+            "destination": "DAL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "N",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 13500,
+            "discountedFareValue": 13500,
+            "accrualPoints": 627,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-17T13:40",
+        "arrivalDateTime": "2015-06-17T16:55",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "45",
+            "duration": 195,
+            "origin": "ATL",
+            "destination": "DAL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "S",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 15850,
+            "discountedFareValue": 15850,
+            "accrualPoints": 784,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 31800,
+            "discountedFareValue": 31800,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33400,
+            "discountedFareValue": 33400,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-17T15:25",
+        "arrivalDateTime": "2015-06-17T16:50",
+        "numberOfStops": 0,
+        "segments": [
+          {
+            "flightNumber": "4275",
+            "duration": 85,
+            "origin": "ATL",
+            "destination": "DAL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "S",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 10800,
+            "discountedFareValue": 10800,
+            "accrualPoints": 524,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 31400,
+            "discountedFareValue": 31400,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33000,
+            "discountedFareValue": 33000,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-17T15:25",
+        "arrivalDateTime": "2015-06-17T19:05",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "3327",
+            "duration": 40,
+            "origin": "ATL",
+            "destination": "MSY",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "566",
+            "duration": 80,
+            "origin": "MSY",
+            "destination": "DAL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "S",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 16300,
+            "discountedFareValue": 16300,
+            "accrualPoints": 784,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-17T15:40",
+        "arrivalDateTime": "2015-06-17T19:20",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "741",
+            "duration": 90,
+            "origin": "ATL",
+            "destination": "TPA",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "817",
+            "duration": 90,
+            "origin": "TPA",
+            "destination": "DAL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "W",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 27700,
+            "discountedFareValue": 27700,
+            "accrualPoints": 1420,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-17T17:05",
+        "arrivalDateTime": "2015-06-17T20:30",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "170",
+            "duration": 75,
+            "origin": "ATL",
+            "destination": "HOU",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "56",
+            "duration": 60,
+            "origin": "HOU",
+            "destination": "DAL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "S",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 16300,
+            "discountedFareValue": 16300,
+            "accrualPoints": 784,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-17T17:05",
+        "arrivalDateTime": "2015-06-17T20:55",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "170",
+            "duration": 75,
+            "origin": "ATL",
+            "destination": "HOU",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "58",
+            "duration": 55,
+            "origin": "HOU",
+            "destination": "DAL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "O",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 23800,
+            "discountedFareValue": 23800,
+            "accrualPoints": 1202,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-17T19:00",
+        "arrivalDateTime": "2015-06-17T21:55",
+        "numberOfStops": 1,
+        "segments": [
+          {
+            "flightNumber": "576",
+            "duration": 70,
+            "origin": "ATL",
+            "destination": "HOU",
+            "operatingCarrierCode": "WN"
+          },
+          {
+            "flightNumber": "60",
+            "duration": 55,
+            "origin": "HOU",
+            "destination": "DAL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "W",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 27700,
+            "discountedFareValue": 27700,
+            "accrualPoints": 1420,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 32250,
+            "discountedFareValue": 32250,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33850,
+            "discountedFareValue": 33850,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      },
+      {
+        "departureDateTime": "2015-06-17T21:05",
+        "arrivalDateTime": "2015-06-17T22:25",
+        "numberOfStops": 0,
+        "segments": [
+          {
+            "flightNumber": "1341",
+            "duration": 80,
+            "origin": "ATL",
+            "destination": "DAL",
+            "operatingCarrierCode": "WN"
+          }
+        ],
+        "fareProducts": [
+          {
+            "fareType": "Dollars",
+            "fareClass": "N",
+            "fareProductName": "Wanna Get Away",
+            "fareValue": 9900,
+            "discountedFareValue": 9900,
+            "accrualPoints": 474,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Y",
+            "fareProductName": "Anytime",
+            "fareValue": 31400,
+            "discountedFareValue": 31400,
+            "accrualPoints": 2790,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "K",
+            "fareProductName": "Business Select",
+            "fareValue": 33000,
+            "discountedFareValue": 33000,
+            "accrualPoints": 3526,
+            "unavailabilityReason": "NONE"
+          },
+          {
+            "fareType": "Dollars",
+            "fareClass": "Q",
+            "fareProductName": "Senior",
+            "fareValue": 22650,
+            "discountedFareValue": 22650,
+            "accrualPoints": 1138,
+            "unavailabilityReason": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

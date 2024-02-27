@@ -1,0 +1,33 @@
+.air-upgrade-bound {
+  &--type {
+    @include large;
+    @include bold;
+    @include gray5;
+    @include mb3;
+    @include pt5;
+  }
+
+  &--no-upgrade-msg,
+  &--select {
+    @include bgwhite;
+    @include p5;
+
+    &-message-header {
+      @include pblue;
+    }
+
+    &-message-body {
+      @include pt2;
+      @include block;
+      @include gray5;
+      @include medium;
+      @include lineheight10;
+      @include regular;
+    }
+
+    &-message-header,
+    &-message-body {
+      @include pl5;
+    }
+  }
+}

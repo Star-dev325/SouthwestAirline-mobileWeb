@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cancellationTitle should render with companionComponent 1`] = `
+<div>
+  <div
+    class="gray5 bold large pt5"
+  >
+    <label>
+      Cancelled
+    </label>
+  </div>
+</div>
+`;
+
+exports[`cancellationTitle should render with default props without companionComponent 1`] = `
+<div>
+  <div
+    class="gray5 bold large pt5 px5"
+  >
+    <label>
+      Cancelled
+    </label>
+  </div>
+</div>
+`;

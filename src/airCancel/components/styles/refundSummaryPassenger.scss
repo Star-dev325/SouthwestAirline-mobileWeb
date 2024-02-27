@@ -1,0 +1,14 @@
+.refund-summary-passengers .label-container--content {
+  @include mt0;
+}
+
+.air-cancel-summary-form {
+  .passenger-name {
+    @include overflow-hidden;
+    @include ellipsis;
+  }
+
+  .label-container--label {
+    width: max-content;
+  }
+}

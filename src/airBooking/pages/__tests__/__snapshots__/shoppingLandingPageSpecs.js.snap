@@ -1,0 +1,714 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShoppingLandingPage multiSelectGroup should pass multiSelectGroup as an empty object when isMultiSelectGroupEnabled is false 1`] = `
+<div>
+  <Connect(PageHeader)
+    noBottomPadding={true}
+  >
+    Book a Flight
+    <Link
+      className="right white regular page-header--right-button"
+      to="/air/booking/recent"
+    >
+      Recent
+    </Link>
+  </Connect(PageHeader)>
+  <Container>
+    <Connect(WithForm(AirBookingShoppingSearchForm))
+      MWEB_HOMEPAGE_REDESIGN={false}
+      allAirports={Array []}
+      analyticsTrackViewTabFn={[Function]}
+      calendarScheduleMessage=""
+      corporateBookingSwitchInfo={
+        Object {
+          "label": "SWABIZ",
+        }
+      }
+      formId="AIR_BOOKING_SHOPPING_SEARCH_FORM"
+      isLoggedIn={false}
+      isMultiSelectGroupEnabled={true}
+      isWebView={false}
+      lastBookableDate="2018-08-08"
+      multiSelectGroup={
+        Object {
+          "isSelected": true,
+          "origin": Array [
+            "BOS",
+            "BDL",
+          ],
+        }
+      }
+      onDestinationSelectorClicked={[Function]}
+      onSelectPassengerClicked={[Function]}
+      onSubmit={[Function]}
+      onUnmount={[Function]}
+      recentlySearched={Array []}
+      searchRequest={
+        Object {
+          "adultPassengersCount": 1,
+          "currencyType": "USD",
+          "departureDate": "2017-11-10",
+          "destination": "AUS",
+          "isRoundTrip": true,
+          "lapInfantPassengersCount": 0,
+          "numberOfAdults": 1,
+          "origin": "ATL",
+          "promoCode": "",
+          "returnDate": "2017-11-13",
+          "tripType": "roundTrip",
+        }
+      }
+      updateFormDataValueFn={[Function]}
+      updateFormFieldFn={[Function]}
+      updateSelectedAirportInfoFn={[Function]}
+    />
+  </Container>
+  <PageFooterWcmSourced
+    className="book-flight--page-footer"
+    footerLinkRows={Array []}
+  />
+</div>
+`;
+
+exports[`ShoppingLandingPage multiSelectGroup should pass multiSelectGroup blank when isMultiSelectGroupEnabled is false 1`] = `
+<div>
+  <Connect(PageHeader)
+    noBottomPadding={true}
+  >
+    Book a Flight
+    <Link
+      className="right white regular page-header--right-button"
+      to="/air/booking/recent"
+    >
+      Recent
+    </Link>
+  </Connect(PageHeader)>
+  <Container>
+    <Connect(WithForm(AirBookingShoppingSearchForm))
+      MWEB_HOMEPAGE_REDESIGN={false}
+      allAirports={Array []}
+      analyticsTrackViewTabFn={[Function]}
+      calendarScheduleMessage=""
+      corporateBookingSwitchInfo={
+        Object {
+          "label": "SWABIZ",
+        }
+      }
+      formId="AIR_BOOKING_SHOPPING_SEARCH_FORM"
+      isLoggedIn={false}
+      isMultiSelectGroupEnabled={true}
+      isWebView={false}
+      lastBookableDate="2018-08-08"
+      multiSelectGroup={
+        Object {
+          "isSelected": true,
+          "origin": Array [
+            "BOS",
+            "BDL",
+          ],
+        }
+      }
+      onDestinationSelectorClicked={[Function]}
+      onSelectPassengerClicked={[Function]}
+      onSubmit={[Function]}
+      onUnmount={[Function]}
+      recentlySearched={Array []}
+      searchRequest={
+        Object {
+          "adultPassengersCount": 1,
+          "currencyType": "USD",
+          "departureDate": "2017-11-10",
+          "destination": "AUS",
+          "isRoundTrip": true,
+          "lapInfantPassengersCount": 0,
+          "numberOfAdults": 1,
+          "origin": "ATL",
+          "promoCode": "",
+          "returnDate": "2017-11-13",
+          "tripType": "roundTrip",
+        }
+      }
+      updateFormDataValueFn={[Function]}
+      updateFormFieldFn={[Function]}
+      updateSelectedAirportInfoFn={[Function]}
+    />
+  </Container>
+  <PageFooterWcmSourced
+    className="book-flight--page-footer"
+    footerLinkRows={Array []}
+  />
+</div>
+`;
+
+exports[`ShoppingLandingPage multiSelectGroup should pass multiSelectGroup data when isMultiSelectGroupEnabled is true 1`] = `
+<div>
+  <Connect(PageHeader)
+    noBottomPadding={true}
+  >
+    Book a Flight
+    <Link
+      className="right white regular page-header--right-button"
+      to="/air/booking/recent"
+    >
+      Recent
+    </Link>
+  </Connect(PageHeader)>
+  <Container>
+    <Connect(WithForm(AirBookingShoppingSearchForm))
+      MWEB_HOMEPAGE_REDESIGN={false}
+      allAirports={Array []}
+      analyticsTrackViewTabFn={[Function]}
+      calendarScheduleMessage=""
+      corporateBookingSwitchInfo={
+        Object {
+          "label": "SWABIZ",
+        }
+      }
+      formId="AIR_BOOKING_SHOPPING_SEARCH_FORM"
+      isLoggedIn={false}
+      isMultiSelectGroupEnabled={true}
+      isWebView={false}
+      lastBookableDate="2018-08-08"
+      multiSelectGroup={
+        Object {
+          "isSelected": true,
+          "origin": Array [
+            "BOS",
+            "BDL",
+          ],
+        }
+      }
+      onDestinationSelectorClicked={[Function]}
+      onSelectPassengerClicked={[Function]}
+      onSubmit={[Function]}
+      onUnmount={[Function]}
+      recentlySearched={Array []}
+      searchRequest={
+        Object {
+          "adultPassengersCount": 1,
+          "currencyType": "USD",
+          "departureDate": "2017-11-10",
+          "destination": "AUS",
+          "isRoundTrip": true,
+          "lapInfantPassengersCount": 0,
+          "numberOfAdults": 1,
+          "origin": "ATL",
+          "promoCode": "",
+          "returnDate": "2017-11-13",
+          "tripType": "roundTrip",
+        }
+      }
+      updateFormDataValueFn={[Function]}
+      updateFormFieldFn={[Function]}
+      updateSelectedAirportInfoFn={[Function]}
+    />
+  </Container>
+  <PageFooterWcmSourced
+    className="book-flight--page-footer"
+    footerLinkRows={Array []}
+  />
+</div>
+`;
+
+exports[`ShoppingLandingPage render PageFooterWcmSourced should not show PageFooterWcmSourced when webview is true 1`] = `
+<div>
+  <Connect(PageHeader)
+    noBottomPadding={true}
+  >
+    Book a Flight
+    <Link
+      className="right white regular page-header--right-button"
+      to="/air/booking/recent"
+    >
+      Recent
+    </Link>
+  </Connect(PageHeader)>
+  <Container>
+    <Connect(WithForm(AirBookingShoppingSearchForm))
+      MWEB_HOMEPAGE_REDESIGN={false}
+      allAirports={Array []}
+      analyticsTrackViewTabFn={[Function]}
+      calendarScheduleMessage=""
+      corporateBookingSwitchInfo={
+        Object {
+          "label": "SWABIZ",
+        }
+      }
+      formId="AIR_BOOKING_SHOPPING_SEARCH_FORM"
+      isLoggedIn={false}
+      isMultiSelectGroupEnabled={true}
+      isWebView={true}
+      lastBookableDate="2018-08-08"
+      multiSelectGroup={Object {}}
+      onDestinationSelectorClicked={[Function]}
+      onSelectPassengerClicked={[Function]}
+      onSubmit={[Function]}
+      onUnmount={[Function]}
+      recentlySearched={Array []}
+      searchRequest={
+        Object {
+          "adultPassengersCount": 1,
+          "currencyType": "USD",
+          "departureDate": "2017-11-10",
+          "destination": "AUS",
+          "isRoundTrip": true,
+          "lapInfantPassengersCount": 0,
+          "numberOfAdults": 1,
+          "origin": "ATL",
+          "promoCode": "",
+          "returnDate": "2017-11-13",
+          "tripType": "roundTrip",
+        }
+      }
+      updateFormDataValueFn={[Function]}
+      updateFormFieldFn={[Function]}
+      updateSelectedAirportInfoFn={[Function]}
+    />
+  </Container>
+</div>
+`;
+
+exports[`ShoppingLandingPage render PageFooterWcmSourced should show PageFooterWcmSourced by default 1`] = `
+<div>
+  <Connect(PageHeader)
+    noBottomPadding={true}
+  >
+    Book a Flight
+    <Link
+      className="right white regular page-header--right-button"
+      to="/air/booking/recent"
+    >
+      Recent
+    </Link>
+  </Connect(PageHeader)>
+  <Container>
+    <Connect(WithForm(AirBookingShoppingSearchForm))
+      MWEB_HOMEPAGE_REDESIGN={false}
+      allAirports={Array []}
+      analyticsTrackViewTabFn={[Function]}
+      calendarScheduleMessage=""
+      corporateBookingSwitchInfo={
+        Object {
+          "label": "SWABIZ",
+        }
+      }
+      formId="AIR_BOOKING_SHOPPING_SEARCH_FORM"
+      isLoggedIn={false}
+      isMultiSelectGroupEnabled={true}
+      isWebView={false}
+      lastBookableDate="2018-08-08"
+      multiSelectGroup={Object {}}
+      onDestinationSelectorClicked={[Function]}
+      onSelectPassengerClicked={[Function]}
+      onSubmit={[Function]}
+      onUnmount={[Function]}
+      recentlySearched={Array []}
+      searchRequest={
+        Object {
+          "adultPassengersCount": 1,
+          "currencyType": "USD",
+          "departureDate": "2017-11-10",
+          "destination": "AUS",
+          "isRoundTrip": true,
+          "lapInfantPassengersCount": 0,
+          "numberOfAdults": 1,
+          "origin": "ATL",
+          "promoCode": "",
+          "returnDate": "2017-11-13",
+          "tripType": "roundTrip",
+        }
+      }
+      updateFormDataValueFn={[Function]}
+      updateFormFieldFn={[Function]}
+      updateSelectedAirportInfoFn={[Function]}
+    />
+  </Container>
+  <PageFooterWcmSourced
+    className="book-flight--page-footer"
+    footerLinkRows={
+      Array [
+        Object {
+          "linkListItems": Array [
+            Object {
+              "linkTarget": "https://www.southwest.com/?ref=LinkMobileWeb&clk=LinkMobileWeb",
+              "linkText": "View full site",
+              "linkType": "browser",
+            },
+            Object {
+              "linkTarget": "/contact-us",
+              "linkText": "Contact us",
+              "linkType": "browser",
+            },
+            Object {
+              "linkTarget": "https://southwest.qa6.southwest.com/faq/",
+              "linkText": "FAQ",
+              "linkType": "browser",
+            },
+          ],
+        },
+        Object {
+          "linkListItems": Array [
+            Object {
+              "linkTarget": "/terms-and-conditions?clk=GNAVTC",
+              "linkText": "Terms & Conditions",
+              "linkType": "browser",
+            },
+            Object {
+              "linkTarget": "/privacy-policy?clk=GNAVPRIVACY",
+              "linkText": "Privacy Policy",
+              "linkType": "browser",
+            },
+          ],
+        },
+        Object {
+          "linkListItems": Array [
+            Object {
+              "linkTarget": "https://www.southwest.com/dataprivacyrequest/",
+              "linkText": "Do Not Sell My Info",
+              "linkType": "browser",
+            },
+          ],
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`ShoppingLandingPage render should render form, page footer, set active tab to round trip, and not render corporate booking selection 1`] = `
+<div>
+  <Connect(PageHeader)
+    noBottomPadding={true}
+  >
+    Book a Flight
+    <Link
+      className="right white regular page-header--right-button"
+      to="/air/booking/recent"
+    >
+      Recent
+    </Link>
+  </Connect(PageHeader)>
+  <Container>
+    <Connect(WithForm(AirBookingShoppingSearchForm))
+      MWEB_HOMEPAGE_REDESIGN={false}
+      allAirports={Array []}
+      analyticsTrackViewTabFn={[Function]}
+      calendarScheduleMessage=""
+      corporateBookingSwitchInfo={
+        Object {
+          "label": "SWABIZ",
+        }
+      }
+      formId="AIR_BOOKING_SHOPPING_SEARCH_FORM"
+      isLoggedIn={false}
+      isMultiSelectGroupEnabled={true}
+      isWebView={false}
+      lastBookableDate="2018-08-08"
+      multiSelectGroup={Object {}}
+      onDestinationSelectorClicked={[Function]}
+      onSelectPassengerClicked={[Function]}
+      onSubmit={[Function]}
+      onUnmount={[Function]}
+      recentlySearched={Array []}
+      searchRequest={
+        Object {
+          "adultPassengersCount": 1,
+          "currencyType": "USD",
+          "departureDate": "2017-11-10",
+          "destination": "AUS",
+          "isRoundTrip": true,
+          "lapInfantPassengersCount": 0,
+          "numberOfAdults": 1,
+          "origin": "ATL",
+          "promoCode": "",
+          "returnDate": "2017-11-13",
+          "tripType": "roundTrip",
+        }
+      }
+      updateFormDataValueFn={[Function]}
+      updateFormFieldFn={[Function]}
+      updateSelectedAirportInfoFn={[Function]}
+    />
+  </Container>
+  <PageFooterWcmSourced
+    className="book-flight--page-footer"
+    footerLinkRows={Array []}
+  />
+</div>
+`;
+
+exports[`ShoppingLandingPage render when user is logged in should indicate not to show corporate booking switch if corporateBookingSwitch is empty 1`] = `
+<Container>
+  <Connect(WithForm(AirBookingShoppingSearchForm))
+    MWEB_HOMEPAGE_REDESIGN={false}
+    allAirports={Array []}
+    analyticsTrackViewTabFn={[Function]}
+    calendarScheduleMessage=""
+    corporateBookingSwitchInfo={Object {}}
+    formId="AIR_BOOKING_SHOPPING_SEARCH_FORM"
+    isLoggedIn={true}
+    isMultiSelectGroupEnabled={true}
+    isWebView={false}
+    lastBookableDate="2018-08-08"
+    multiSelectGroup={Object {}}
+    onDestinationSelectorClicked={[Function]}
+    onSelectPassengerClicked={[Function]}
+    onSubmit={[Function]}
+    onUnmount={[Function]}
+    recentlySearched={Array []}
+    searchRequest={
+      Object {
+        "adultPassengersCount": 1,
+        "currencyType": "USD",
+        "departureDate": "2017-11-10",
+        "destination": "AUS",
+        "isRoundTrip": true,
+        "lapInfantPassengersCount": 0,
+        "numberOfAdults": 1,
+        "origin": "ATL",
+        "promoCode": "",
+        "returnDate": "2017-11-13",
+        "tripType": "roundTrip",
+      }
+    }
+    updateFormDataValueFn={[Function]}
+    updateFormFieldFn={[Function]}
+    updateSelectedAirportInfoFn={[Function]}
+  />
+</Container>
+`;
+
+exports[`ShoppingLandingPage render when user is logged in should indicate not to show corporate booking switch if corporateInfo is empty 1`] = `
+<Container>
+  <Connect(WithForm(AirBookingShoppingSearchForm))
+    MWEB_HOMEPAGE_REDESIGN={false}
+    allAirports={Array []}
+    analyticsTrackViewTabFn={[Function]}
+    calendarScheduleMessage=""
+    corporateBookingSwitchInfo={
+      Object {
+        "label": "SWABIZ",
+        "learnMoreUrl": "",
+        "nonCorporateLearnMoreUrl": "",
+      }
+    }
+    formId="AIR_BOOKING_SHOPPING_SEARCH_FORM"
+    isLoggedIn={true}
+    isMultiSelectGroupEnabled={true}
+    isWebView={false}
+    lastBookableDate="2018-08-08"
+    multiSelectGroup={Object {}}
+    onDestinationSelectorClicked={[Function]}
+    onSelectPassengerClicked={[Function]}
+    onSubmit={[Function]}
+    onUnmount={[Function]}
+    recentlySearched={Array []}
+    searchRequest={
+      Object {
+        "adultPassengersCount": 1,
+        "currencyType": "USD",
+        "departureDate": "2017-11-10",
+        "destination": "AUS",
+        "isRoundTrip": true,
+        "lapInfantPassengersCount": 0,
+        "numberOfAdults": 1,
+        "origin": "ATL",
+        "promoCode": "",
+        "returnDate": "2017-11-13",
+        "tripType": "roundTrip",
+      }
+    }
+    updateFormDataValueFn={[Function]}
+    updateFormFieldFn={[Function]}
+    updateSelectedAirportInfoFn={[Function]}
+  />
+</Container>
+`;
+
+exports[`ShoppingLandingPage render when user is logged in should indicate not to show corporate booking switch if corporateInfo is empty 2`] = `
+<Container>
+  <Connect(WithForm(AirBookingShoppingSearchForm))
+    MWEB_HOMEPAGE_REDESIGN={false}
+    allAirports={Array []}
+    analyticsTrackViewTabFn={[Function]}
+    calendarScheduleMessage=""
+    corporateBookingSwitchInfo={
+      Object {
+        "label": "SWABIZ",
+        "learnMoreUrl": "",
+        "nonCorporateLearnMoreUrl": "",
+      }
+    }
+    formId="AIR_BOOKING_SHOPPING_SEARCH_FORM"
+    isLoggedIn={true}
+    isMultiSelectGroupEnabled={true}
+    isWebView={false}
+    lastBookableDate="2018-08-08"
+    multiSelectGroup={Object {}}
+    onDestinationSelectorClicked={[Function]}
+    onSelectPassengerClicked={[Function]}
+    onSubmit={[Function]}
+    onUnmount={[Function]}
+    recentlySearched={Array []}
+    searchRequest={
+      Object {
+        "adultPassengersCount": 1,
+        "currencyType": "USD",
+        "departureDate": "2017-11-10",
+        "destination": "AUS",
+        "isRoundTrip": true,
+        "lapInfantPassengersCount": 0,
+        "numberOfAdults": 1,
+        "origin": "ATL",
+        "promoCode": "",
+        "returnDate": "2017-11-13",
+        "tripType": "roundTrip",
+      }
+    }
+    updateFormDataValueFn={[Function]}
+    updateFormFieldFn={[Function]}
+    updateSelectedAirportInfoFn={[Function]}
+  />
+</Container>
+`;
+
+exports[`ShoppingLandingPage render when user is logged in should indicate not to show corporate booking switch when in a webview 1`] = `
+<Container>
+  <Connect(WithForm(AirBookingShoppingSearchForm))
+    MWEB_HOMEPAGE_REDESIGN={false}
+    allAirports={Array []}
+    analyticsTrackViewTabFn={[Function]}
+    calendarScheduleMessage=""
+    corporateBookingSwitchInfo={
+      Object {
+        "label": "SWABIZ",
+        "learnMoreUrl": "",
+        "nonCorporateLearnMoreUrl": "",
+      }
+    }
+    formId="AIR_BOOKING_SHOPPING_SEARCH_FORM"
+    isLoggedIn={true}
+    isMultiSelectGroupEnabled={true}
+    isWebView={true}
+    lastBookableDate="2018-08-08"
+    multiSelectGroup={Object {}}
+    onDestinationSelectorClicked={[Function]}
+    onSelectPassengerClicked={[Function]}
+    onSubmit={[Function]}
+    onUnmount={[Function]}
+    recentlySearched={Array []}
+    searchRequest={
+      Object {
+        "adultPassengersCount": 1,
+        "currencyType": "USD",
+        "departureDate": "2017-11-10",
+        "destination": "AUS",
+        "isRoundTrip": true,
+        "lapInfantPassengersCount": 0,
+        "numberOfAdults": 1,
+        "origin": "ATL",
+        "promoCode": "",
+        "returnDate": "2017-11-13",
+        "tripType": "roundTrip",
+      }
+    }
+    updateFormDataValueFn={[Function]}
+    updateFormFieldFn={[Function]}
+    updateSelectedAirportInfoFn={[Function]}
+  />
+</Container>
+`;
+
+exports[`ShoppingLandingPage render when user is logged in should indicate to show corporate booking switch if mbox response indicates to hide 1`] = `
+<Container>
+  <Connect(WithForm(AirBookingShoppingSearchForm))
+    MWEB_HOMEPAGE_REDESIGN={false}
+    allAirports={Array []}
+    analyticsTrackViewTabFn={[Function]}
+    calendarScheduleMessage=""
+    corporateBookingSwitchInfo={
+      Object {
+        "label": "SWABIZ",
+        "learnMoreUrl": "",
+        "nonCorporateLearnMoreUrl": "",
+      }
+    }
+    formId="AIR_BOOKING_SHOPPING_SEARCH_FORM"
+    isLoggedIn={true}
+    isMultiSelectGroupEnabled={true}
+    isWebView={false}
+    lastBookableDate="2018-08-08"
+    multiSelectGroup={Object {}}
+    onDestinationSelectorClicked={[Function]}
+    onSelectPassengerClicked={[Function]}
+    onSubmit={[Function]}
+    onUnmount={[Function]}
+    recentlySearched={Array []}
+    searchRequest={
+      Object {
+        "adultPassengersCount": 1,
+        "currencyType": "USD",
+        "departureDate": "2017-11-10",
+        "destination": "AUS",
+        "isRoundTrip": true,
+        "lapInfantPassengersCount": 0,
+        "numberOfAdults": 1,
+        "origin": "ATL",
+        "promoCode": "",
+        "returnDate": "2017-11-13",
+        "tripType": "roundTrip",
+      }
+    }
+    updateFormDataValueFn={[Function]}
+    updateFormFieldFn={[Function]}
+    updateSelectedAirportInfoFn={[Function]}
+  />
+</Container>
+`;
+
+exports[`ShoppingLandingPage render when user is logged in should indicate to show corporate booking switch if mbox response indicates to show 1`] = `
+<Container>
+  <Connect(WithForm(AirBookingShoppingSearchForm))
+    MWEB_HOMEPAGE_REDESIGN={false}
+    allAirports={Array []}
+    analyticsTrackViewTabFn={[Function]}
+    calendarScheduleMessage=""
+    corporateBookingSwitchInfo={
+      Object {
+        "label": "SWABIZ",
+        "learnMoreUrl": "",
+        "nonCorporateLearnMoreUrl": "",
+      }
+    }
+    formId="AIR_BOOKING_SHOPPING_SEARCH_FORM"
+    isLoggedIn={true}
+    isMultiSelectGroupEnabled={true}
+    isWebView={false}
+    lastBookableDate="2018-08-08"
+    multiSelectGroup={Object {}}
+    onDestinationSelectorClicked={[Function]}
+    onSelectPassengerClicked={[Function]}
+    onSubmit={[Function]}
+    onUnmount={[Function]}
+    recentlySearched={Array []}
+    searchRequest={
+      Object {
+        "adultPassengersCount": 1,
+        "currencyType": "USD",
+        "departureDate": "2017-11-10",
+        "destination": "AUS",
+        "isRoundTrip": true,
+        "lapInfantPassengersCount": 0,
+        "numberOfAdults": 1,
+        "origin": "ATL",
+        "promoCode": "",
+        "returnDate": "2017-11-13",
+        "tripType": "roundTrip",
+      }
+    }
+    updateFormDataValueFn={[Function]}
+    updateFormFieldFn={[Function]}
+    updateSelectedAirportInfoFn={[Function]}
+  />
+</Container>
+`;

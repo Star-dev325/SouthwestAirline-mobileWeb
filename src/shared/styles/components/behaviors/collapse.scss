@@ -1,0 +1,26 @@
+.collapse {
+  display: none;
+
+  &.in {
+    @include block;
+  }
+
+  tr {
+    &.in {
+      display: table-row;
+    }
+  }
+
+  tbody {
+    &.in {
+      display: table-row-group;
+    }
+  }
+}
+
+.collapsing {
+  @include relative;
+  @include overflow-hidden;
+  @include collapsing-animation;
+  height: 0;
+}

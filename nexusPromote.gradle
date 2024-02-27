@@ -1,0 +1,71 @@
+apply plugin: 'maven-publish'
+
+group = 'com.swacorp.dotcom.mobile'
+version = System.getenv('APP_VERSION')
+
+def nexusUrl = project.version.endsWith('-SNAPSHOT')
+  ? 'https://nexus-tools.swacorp.com/ECOM/content/repositories/snapshots/'
+  :  'https://nexus-tools.swacorp.com/ECOM/content/repositories/releases/'
+
+def nexusUserName = System.getenv('NEXUS_COMMON_CREDS_USR')
+def nexusPassword = System.getenv('NEXUS_COMMON_CREDS_PSW')
+
+if(!nexusUserName || !nexusPassword) {
+  throw new RuntimeException("*** Must set NEXUS_COMMON_CREDS_USR and NEXUS_COMMON_CREDS_PSW environment variables. ***");
+}
+
+if(!hasProperty('filesToUpload') || !filesToUpload) {
+  throw new RuntimeException("Must provide artifact directory containing file to upload");
+}
+
+def artifactFolder = new File("${filesToUpload}");
+
+publishing {
+  publications {
+    mobileWebApp(MavenPublication) {
+      artifacts {
+        artifactId 'southwest-web'
+        version version
+        getFilesToPublish(artifactFolder).each  {file ->
+          artifact (file) {
+            classifier = getClassifierFromFileName(file.name)
+            extension = 'tar.gz'
+          }
+        }
+      }
+    }
+  }
+  repositories {
+    maven {
+      url nexusUrl
+      credentials {
+
+        username nexusUserName
+        password nexusPassword
+      }
+    }
+  }
+}
+
+
+import groovy.io.FileType
+def getFilesToPublish( artifactFolder) {
+  def list = []
+
+  artifactFolder.eachFileRecurse (FileType.FILES) { file ->
+    if(file.name.matches(".*gz") ) {
+      list << file
+      println("add ${file.name} to list")
+    }
+  }
+  return list
+}
+
+def getClassifierFromFileName(fileName) {
+  if(fileName.equals('app.tar.gz')) {
+    return null // don't add a classifier to our main artifact
+  }
+
+  //sample qa3.tar.gz
+  return fileName - '.tar.gz'
+}

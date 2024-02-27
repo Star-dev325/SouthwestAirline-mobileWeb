@@ -1,0 +1,24 @@
+.price-difference-form {
+  @include mx5;
+
+  &--payment {
+    @include mt6;
+    @include mx5;
+    @include my5;
+
+    &_label {
+      @include bold;
+      @include gray5;
+      @include large;
+    }
+  }
+
+  &--payment-form-section {
+    @include mt6;
+  }
+
+  &--without-margin {
+    @include mt0;
+    @include mx5;
+  }
+}

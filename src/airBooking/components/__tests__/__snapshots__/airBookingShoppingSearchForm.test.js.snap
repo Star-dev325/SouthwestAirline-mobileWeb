@@ -1,0 +1,4551 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AirBookingShoppingSearchForm multiSelectGroup should pass multiSelectGroup 1`] = `
+<div>
+  <form
+    class="book-flight-form  form widget"
+    name="air-booking-shopping-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="field"
+      >
+        <ul
+          class="nav nav--justified"
+        >
+          <li
+            class="nav--item active"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ROUND_TRIP
+            </button>
+          </li>
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ONE_WAY
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fields search-fields py2 grouped"
+      >
+        <div
+          class="field search-fields--left"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="from"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  From
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i
+          class="airport-icon icon icon_airplane"
+        />
+        <div
+          class="field search-fields--right"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="to"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  To
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field gray4"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/10
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/17
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__RETURN_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py6 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="passenger-amount-field"
+          >
+            <div
+              class="flex flex-column flex5"
+            >
+              <div
+                class="passenger-amount-field--passenger-with-lap-child"
+              >
+                Passengers
+              </div>
+              <span
+                class="passenger-amount-field--description"
+              >
+                SHARED__LAP_CHILD__TITLE_DESCRIPTION_TEXT
+              </span>
+            </div>
+            <i
+              class="passenger-amount-field--icon icon icon_passenger"
+            />
+            <div
+              class="passenger-amount-field--action flex5"
+            >
+              <div
+                class="passenger-amount-field--column"
+              >
+                <span
+                  class="selected-passengers-count"
+                >
+                  1
+                </span>
+                <span
+                  class="select-passenger-desc"
+                >
+                  SHARED__LAP_CHILD__TITLE_SELECT_PASSENGERS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill transparent segment"
+        >
+          <div
+            class="fields book-flight-form--prompt-code"
+          >
+            <div
+              class="field promo-code-field"
+            >
+              <div
+                class="fluid input small"
+              >
+                <input
+                  class=""
+                  name="promoCode"
+                  placeholder="AIR_BOOKING__SEARCH_FLIGHTS__PROMO_CODE"
+                  value=""
+                />
+              </div>
+            </div>
+            <div>
+              Mocked MoneyOrPointsSwitchButtonField
+            </div>
+          </div>
+        </div>
+        <div
+          class="transparent segment"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            role="submit"
+            type="submit"
+          >
+            AIR_BOOKING__SEARCH_FLIGHTS__FIND_FLIGHTS
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirBookingShoppingSearchForm passengerCountValue being passed from props should return adultsPlusChildrenCount as 1 if adultCount or lapChildCount is undefined 1`] = `
+<div>
+  <form
+    class="book-flight-form  form widget"
+    name="air-booking-shopping-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="field"
+      >
+        <ul
+          class="nav nav--justified"
+        >
+          <li
+            class="nav--item active"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ROUND_TRIP
+            </button>
+          </li>
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ONE_WAY
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fields search-fields py2 grouped"
+      >
+        <div
+          class="field search-fields--left"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="from"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  From
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i
+          class="airport-icon icon icon_airplane"
+        />
+        <div
+          class="field search-fields--right"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="to"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  To
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field gray4"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/10
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/17
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__RETURN_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py6 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="passenger-amount-field"
+          >
+            <div
+              class="flex flex-column flex5"
+            >
+              <div
+                class="passenger-amount-field--passenger-with-lap-child"
+              >
+                Passengers
+              </div>
+              <span
+                class="passenger-amount-field--description"
+              >
+                SHARED__LAP_CHILD__TITLE_DESCRIPTION_TEXT
+              </span>
+            </div>
+            <i
+              class="passenger-amount-field--icon icon icon_passenger"
+            />
+            <div
+              class="passenger-amount-field--action flex5"
+            >
+              <div
+                class="passenger-amount-field--column"
+              >
+                <span
+                  class="selected-passengers-count"
+                >
+                  1
+                </span>
+                <span
+                  class="select-passenger-desc"
+                >
+                  SHARED__LAP_CHILD__TITLE_SELECT_PASSENGERS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py4 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="checkbox-button low-fare-calendar--container relative flex checkbox-button flex-cross-center"
+            name="useLowFareCalendar"
+          >
+            <div
+              class="low-fare-calendar--checkbox"
+            >
+              <span
+                class="checkbox-button--mark"
+              >
+                <i
+                  class="absolute xlarge bgtransp icon icon_check"
+                />
+              </span>
+            </div>
+            <div
+              class="low-fare-calendar--label"
+            >
+              <div
+                class="checkbox-button--children flex-equal-width ml2"
+              >
+                <p
+                  class="low-fare-calendar-text"
+                >
+                  AIR_BOOKING__LOW_FARE_CALENDAR
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill transparent segment"
+        >
+          <div
+            class="fields book-flight-form--prompt-code"
+          >
+            <div
+              class="field promo-code-field"
+            >
+              <div
+                class="fluid input small"
+              >
+                <input
+                  class=""
+                  name="promoCode"
+                  placeholder="AIR_BOOKING__SEARCH_FLIGHTS__PROMO_CODE"
+                  value=""
+                />
+              </div>
+            </div>
+            <div>
+              Mocked MoneyOrPointsSwitchButtonField
+            </div>
+          </div>
+        </div>
+        <div
+          class="transparent segment"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            role="submit"
+            type="submit"
+          >
+            AIR_BOOKING__SEARCH_FLIGHTS__FIND_FLIGHTS
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirBookingShoppingSearchForm passengerCountValue being passed from props should return adultsPlusChildrenCount as 2 if 1 adult and 1 lap child are selected 1`] = `
+<div>
+  <form
+    class="book-flight-form  form widget"
+    name="air-booking-shopping-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="field"
+      >
+        <ul
+          class="nav nav--justified"
+        >
+          <li
+            class="nav--item active"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ROUND_TRIP
+            </button>
+          </li>
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ONE_WAY
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fields search-fields py2 grouped"
+      >
+        <div
+          class="field search-fields--left"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="from"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  From
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i
+          class="airport-icon icon icon_airplane"
+        />
+        <div
+          class="field search-fields--right"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="to"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  To
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field gray4"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/10
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/17
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__RETURN_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py6 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="passenger-amount-field"
+          >
+            <div
+              class="flex flex-column flex5"
+            >
+              <div
+                class="passenger-amount-field--passenger-with-lap-child"
+              >
+                Passengers
+              </div>
+              <span
+                class="passenger-amount-field--description"
+              >
+                SHARED__LAP_CHILD__TITLE_DESCRIPTION_TEXT
+              </span>
+            </div>
+            <i
+              class="passenger-amount-field--icon icon icon_passenger"
+            />
+            <div
+              class="passenger-amount-field--action flex5"
+            >
+              <div
+                class="passenger-amount-field--column"
+              >
+                <span
+                  class="selected-passengers-count"
+                >
+                  2
+                </span>
+                <span
+                  class="select-passenger-desc"
+                >
+                  SHARED__LAP_CHILD__TITLE_SELECT_PASSENGERS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py4 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="checkbox-button low-fare-calendar--container relative flex checkbox-button flex-cross-center"
+            name="useLowFareCalendar"
+          >
+            <div
+              class="low-fare-calendar--checkbox"
+            >
+              <span
+                class="checkbox-button--mark"
+              >
+                <i
+                  class="absolute xlarge bgtransp icon icon_check"
+                />
+              </span>
+            </div>
+            <div
+              class="low-fare-calendar--label"
+            >
+              <div
+                class="checkbox-button--children flex-equal-width ml2"
+              >
+                <p
+                  class="low-fare-calendar-text"
+                >
+                  AIR_BOOKING__LOW_FARE_CALENDAR
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill transparent segment"
+        >
+          <div
+            class="fields book-flight-form--prompt-code"
+          >
+            <div
+              class="field promo-code-field"
+            >
+              <div
+                class="fluid input small"
+              >
+                <input
+                  class=""
+                  name="promoCode"
+                  placeholder="AIR_BOOKING__SEARCH_FLIGHTS__PROMO_CODE"
+                  value=""
+                />
+              </div>
+            </div>
+            <div>
+              Mocked MoneyOrPointsSwitchButtonField
+            </div>
+          </div>
+        </div>
+        <div
+          class="transparent segment"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            role="submit"
+            type="submit"
+          >
+            AIR_BOOKING__SEARCH_FLIGHTS__FIND_FLIGHTS
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirBookingShoppingSearchForm render disablePlus & disableMinus should disableMinus when passenger count less than 1 1`] = `
+<div>
+  <form
+    class="book-flight-form  form widget"
+    name="air-booking-shopping-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="field"
+      >
+        <ul
+          class="nav nav--justified"
+        >
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ROUND_TRIP
+            </button>
+          </li>
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ONE_WAY
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fields search-fields py2 grouped"
+      >
+        <div
+          class="field search-fields--left"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="from"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  From
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i
+          class="airport-icon icon icon_airplane"
+        />
+        <div
+          class="field search-fields--right"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="to"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  To
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field gray4"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/10
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py6 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="passenger-amount-field"
+          >
+            <div
+              class="flex flex-column flex5"
+            >
+              <div
+                class="passenger-amount-field--passenger-with-lap-child"
+              >
+                Passengers
+              </div>
+              <span
+                class="passenger-amount-field--description"
+              >
+                SHARED__LAP_CHILD__TITLE_DESCRIPTION_TEXT
+              </span>
+            </div>
+            <i
+              class="passenger-amount-field--icon icon icon_passenger"
+            />
+            <div
+              class="passenger-amount-field--action flex5"
+            >
+              <div
+                class="passenger-amount-field--column"
+              >
+                <span
+                  class="selected-passengers-count"
+                >
+                  1
+                </span>
+                <span
+                  class="select-passenger-desc"
+                >
+                  SHARED__LAP_CHILD__TITLE_SELECT_PASSENGERS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py4 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="checkbox-button low-fare-calendar--container relative flex checkbox-button flex-cross-center"
+            name="useLowFareCalendar"
+          >
+            <div
+              class="low-fare-calendar--checkbox"
+            >
+              <span
+                class="checkbox-button--mark"
+              >
+                <i
+                  class="absolute xlarge bgtransp icon icon_check"
+                />
+              </span>
+            </div>
+            <div
+              class="low-fare-calendar--label"
+            >
+              <div
+                class="checkbox-button--children flex-equal-width ml2"
+              >
+                <p
+                  class="low-fare-calendar-text"
+                >
+                  AIR_BOOKING__LOW_FARE_CALENDAR
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill transparent segment"
+        >
+          <div
+            class="fields book-flight-form--prompt-code"
+          >
+            <div
+              class="field promo-code-field"
+            >
+              <div
+                class="fluid input small"
+              >
+                <input
+                  class=""
+                  name="promoCode"
+                  placeholder="AIR_BOOKING__SEARCH_FLIGHTS__PROMO_CODE"
+                  value=""
+                />
+              </div>
+            </div>
+            <div>
+              Mocked MoneyOrPointsSwitchButtonField
+            </div>
+          </div>
+        </div>
+        <div
+          class="transparent segment"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            role="submit"
+            type="submit"
+          >
+            AIR_BOOKING__SEARCH_FLIGHTS__FIND_FLIGHTS
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirBookingShoppingSearchForm render disablePlus & disableMinus should disablePlus when passenger count greater than 8 1`] = `
+<div>
+  <form
+    class="book-flight-form  form widget"
+    name="air-booking-shopping-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="field"
+      >
+        <ul
+          class="nav nav--justified"
+        >
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ROUND_TRIP
+            </button>
+          </li>
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ONE_WAY
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fields search-fields py2 grouped"
+      >
+        <div
+          class="field search-fields--left"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="from"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  From
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i
+          class="airport-icon icon icon_airplane"
+        />
+        <div
+          class="field search-fields--right"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="to"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  To
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field gray4"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/10
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py6 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="passenger-amount-field"
+          >
+            <div
+              class="flex flex-column flex5"
+            >
+              <div
+                class="passenger-amount-field--passenger-with-lap-child"
+              >
+                Passengers
+              </div>
+              <span
+                class="passenger-amount-field--description"
+              >
+                SHARED__LAP_CHILD__TITLE_DESCRIPTION_TEXT
+              </span>
+            </div>
+            <i
+              class="passenger-amount-field--icon icon icon_passenger"
+            />
+            <div
+              class="passenger-amount-field--action flex5"
+            >
+              <div
+                class="passenger-amount-field--column"
+              >
+                <span
+                  class="selected-passengers-count"
+                >
+                  1
+                </span>
+                <span
+                  class="select-passenger-desc"
+                >
+                  SHARED__LAP_CHILD__TITLE_SELECT_PASSENGERS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py4 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="checkbox-button low-fare-calendar--container relative flex checkbox-button flex-cross-center"
+            name="useLowFareCalendar"
+          >
+            <div
+              class="low-fare-calendar--checkbox"
+            >
+              <span
+                class="checkbox-button--mark"
+              >
+                <i
+                  class="absolute xlarge bgtransp icon icon_check"
+                />
+              </span>
+            </div>
+            <div
+              class="low-fare-calendar--label"
+            >
+              <div
+                class="checkbox-button--children flex-equal-width ml2"
+              >
+                <p
+                  class="low-fare-calendar-text"
+                >
+                  AIR_BOOKING__LOW_FARE_CALENDAR
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill transparent segment"
+        >
+          <div
+            class="fields book-flight-form--prompt-code"
+          >
+            <div
+              class="field promo-code-field"
+            >
+              <div
+                class="fluid input small"
+              >
+                <input
+                  class=""
+                  name="promoCode"
+                  placeholder="AIR_BOOKING__SEARCH_FLIGHTS__PROMO_CODE"
+                  value=""
+                />
+              </div>
+            </div>
+            <div>
+              Mocked MoneyOrPointsSwitchButtonField
+            </div>
+          </div>
+        </div>
+        <div
+          class="transparent segment"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            role="submit"
+            type="submit"
+          >
+            AIR_BOOKING__SEARCH_FLIGHTS__FIND_FLIGHTS
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirBookingShoppingSearchForm render disablePlus & disableMinus should enable plus and minus button when passenger count available 1`] = `
+<div>
+  <form
+    class="book-flight-form  form widget"
+    name="air-booking-shopping-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="field"
+      >
+        <ul
+          class="nav nav--justified"
+        >
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ROUND_TRIP
+            </button>
+          </li>
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ONE_WAY
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fields search-fields py2 grouped"
+      >
+        <div
+          class="field search-fields--left"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="from"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  From
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i
+          class="airport-icon icon icon_airplane"
+        />
+        <div
+          class="field search-fields--right"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="to"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  To
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field gray4"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/10
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py6 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="passenger-amount-field"
+          >
+            <div
+              class="flex flex-column flex5"
+            >
+              <div
+                class="passenger-amount-field--passenger-with-lap-child"
+              >
+                Passengers
+              </div>
+              <span
+                class="passenger-amount-field--description"
+              >
+                SHARED__LAP_CHILD__TITLE_DESCRIPTION_TEXT
+              </span>
+            </div>
+            <i
+              class="passenger-amount-field--icon icon icon_passenger"
+            />
+            <div
+              class="passenger-amount-field--action flex5"
+            >
+              <div
+                class="passenger-amount-field--column"
+              >
+                <span
+                  class="selected-passengers-count"
+                >
+                  1
+                </span>
+                <span
+                  class="select-passenger-desc"
+                >
+                  SHARED__LAP_CHILD__TITLE_SELECT_PASSENGERS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py4 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="checkbox-button low-fare-calendar--container relative flex checkbox-button flex-cross-center"
+            name="useLowFareCalendar"
+          >
+            <div
+              class="low-fare-calendar--checkbox"
+            >
+              <span
+                class="checkbox-button--mark"
+              >
+                <i
+                  class="absolute xlarge bgtransp icon icon_check"
+                />
+              </span>
+            </div>
+            <div
+              class="low-fare-calendar--label"
+            >
+              <div
+                class="checkbox-button--children flex-equal-width ml2"
+              >
+                <p
+                  class="low-fare-calendar-text"
+                >
+                  AIR_BOOKING__LOW_FARE_CALENDAR
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill transparent segment"
+        >
+          <div
+            class="fields book-flight-form--prompt-code"
+          >
+            <div
+              class="field promo-code-field"
+            >
+              <div
+                class="fluid input small"
+              >
+                <input
+                  class=""
+                  name="promoCode"
+                  placeholder="AIR_BOOKING__SEARCH_FLIGHTS__PROMO_CODE"
+                  value=""
+                />
+              </div>
+            </div>
+            <div>
+              Mocked MoneyOrPointsSwitchButtonField
+            </div>
+          </div>
+        </div>
+        <div
+          class="transparent segment"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            role="submit"
+            type="submit"
+          >
+            AIR_BOOKING__SEARCH_FLIGHTS__FIND_FLIGHTS
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirBookingShoppingSearchForm render promo code field should be disabled when the LFC calendar is checked 1`] = `
+<div>
+  <form
+    class="book-flight-form  form widget"
+    name="air-booking-shopping-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="field"
+      >
+        <ul
+          class="nav nav--justified"
+        >
+          <li
+            class="nav--item active"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ROUND_TRIP
+            </button>
+          </li>
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ONE_WAY
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fields search-fields py2 grouped"
+      >
+        <div
+          class="field search-fields--left"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="from"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  From
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i
+          class="airport-icon icon icon_airplane"
+        />
+        <div
+          class="field search-fields--right"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="to"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  To
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field gray4"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/10
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/17
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__RETURN_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py6 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="passenger-amount-field"
+          >
+            <div
+              class="flex flex-column flex5"
+            >
+              <div
+                class="passenger-amount-field--passenger-with-lap-child"
+              >
+                Passengers
+              </div>
+              <span
+                class="passenger-amount-field--description"
+              >
+                SHARED__LAP_CHILD__TITLE_DESCRIPTION_TEXT
+              </span>
+            </div>
+            <i
+              class="passenger-amount-field--icon icon icon_passenger"
+            />
+            <div
+              class="passenger-amount-field--action flex5"
+            >
+              <div
+                class="passenger-amount-field--column"
+              >
+                <span
+                  class="selected-passengers-count"
+                >
+                  1
+                </span>
+                <span
+                  class="select-passenger-desc"
+                >
+                  SHARED__LAP_CHILD__TITLE_SELECT_PASSENGERS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py4 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="checkbox-button low-fare-calendar--container relative flex checkbox-button checkbox-button--row_checked flex-cross-center"
+            name="useLowFareCalendar"
+          >
+            <div
+              class="low-fare-calendar--checkbox"
+            >
+              <span
+                class="checkbox-button--mark checkbox-button_checked"
+              >
+                <i
+                  class="absolute xlarge bgtransp icon icon_check"
+                />
+              </span>
+            </div>
+            <div
+              class="low-fare-calendar--label"
+            >
+              <div
+                class="checkbox-button--children flex-equal-width ml2"
+              >
+                <p
+                  class="low-fare-calendar-text low-fare-calendar-text_selected"
+                >
+                  AIR_BOOKING__LOW_FARE_CALENDAR
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill transparent segment"
+        >
+          <div
+            class="fields book-flight-form--prompt-code"
+          >
+            <div
+              class="field promo-code-field"
+            >
+              <div
+                class="disabled-field fluid input small"
+              >
+                <input
+                  class=""
+                  disabled=""
+                  name="promoCode"
+                  placeholder="AIR_BOOKING__SEARCH_FLIGHTS__PROMO_CODE"
+                  value=""
+                />
+              </div>
+            </div>
+            <div>
+              Mocked MoneyOrPointsSwitchButtonField
+            </div>
+          </div>
+        </div>
+        <div
+          class="transparent segment"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            role="submit"
+            type="submit"
+          >
+            AIR_BOOKING__SEARCH_FLIGHTS__FIND_FLIGHTS
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirBookingShoppingSearchForm render promo code field should not be disabled when the LFC calendar is not checked 1`] = `
+<div>
+  <form
+    class="book-flight-form  form widget"
+    name="air-booking-shopping-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="field"
+      >
+        <ul
+          class="nav nav--justified"
+        >
+          <li
+            class="nav--item active"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ROUND_TRIP
+            </button>
+          </li>
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ONE_WAY
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fields search-fields py2 grouped"
+      >
+        <div
+          class="field search-fields--left"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="from"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  From
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i
+          class="airport-icon icon icon_airplane"
+        />
+        <div
+          class="field search-fields--right"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="to"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  To
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field gray4"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/10
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/17
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__RETURN_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py6 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="passenger-amount-field"
+          >
+            <div
+              class="flex flex-column flex5"
+            >
+              <div
+                class="passenger-amount-field--passenger-with-lap-child"
+              >
+                Passengers
+              </div>
+              <span
+                class="passenger-amount-field--description"
+              >
+                SHARED__LAP_CHILD__TITLE_DESCRIPTION_TEXT
+              </span>
+            </div>
+            <i
+              class="passenger-amount-field--icon icon icon_passenger"
+            />
+            <div
+              class="passenger-amount-field--action flex5"
+            >
+              <div
+                class="passenger-amount-field--column"
+              >
+                <span
+                  class="selected-passengers-count"
+                >
+                  1
+                </span>
+                <span
+                  class="select-passenger-desc"
+                >
+                  SHARED__LAP_CHILD__TITLE_SELECT_PASSENGERS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py4 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="checkbox-button low-fare-calendar--container relative flex checkbox-button flex-cross-center"
+            name="useLowFareCalendar"
+          >
+            <div
+              class="low-fare-calendar--checkbox"
+            >
+              <span
+                class="checkbox-button--mark"
+              >
+                <i
+                  class="absolute xlarge bgtransp icon icon_check"
+                />
+              </span>
+            </div>
+            <div
+              class="low-fare-calendar--label"
+            >
+              <div
+                class="checkbox-button--children flex-equal-width ml2"
+              >
+                <p
+                  class="low-fare-calendar-text"
+                >
+                  AIR_BOOKING__LOW_FARE_CALENDAR
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill transparent segment"
+        >
+          <div
+            class="fields book-flight-form--prompt-code"
+          >
+            <div
+              class="field promo-code-field"
+            >
+              <div
+                class="fluid input small"
+              >
+                <input
+                  class=""
+                  name="promoCode"
+                  placeholder="AIR_BOOKING__SEARCH_FLIGHTS__PROMO_CODE"
+                  value=""
+                />
+              </div>
+            </div>
+            <div>
+              Mocked MoneyOrPointsSwitchButtonField
+            </div>
+          </div>
+        </div>
+        <div
+          class="transparent segment"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            role="submit"
+            type="submit"
+          >
+            AIR_BOOKING__SEARCH_FLIGHTS__FIND_FLIGHTS
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirBookingShoppingSearchForm render should render air booking shopping search form 1`] = `
+<div>
+  <form
+    class="book-flight-form  form widget"
+    name="air-booking-shopping-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="field"
+      >
+        <ul
+          class="nav nav--justified"
+        >
+          <li
+            class="nav--item active"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ROUND_TRIP
+            </button>
+          </li>
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ONE_WAY
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fields search-fields py2 grouped"
+      >
+        <div
+          class="field search-fields--left"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="from"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  From
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i
+          class="airport-icon icon icon_airplane"
+        />
+        <div
+          class="field search-fields--right"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="to"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  To
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field gray4"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/10
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/17
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__RETURN_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py6 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="passenger-amount-field"
+          >
+            <div
+              class="flex flex-column flex5"
+            >
+              <div
+                class="passenger-amount-field--passenger-with-lap-child"
+              >
+                Passengers
+              </div>
+              <span
+                class="passenger-amount-field--description"
+              >
+                SHARED__LAP_CHILD__TITLE_DESCRIPTION_TEXT
+              </span>
+            </div>
+            <i
+              class="passenger-amount-field--icon icon icon_passenger"
+            />
+            <div
+              class="passenger-amount-field--action flex5"
+            >
+              <div
+                class="passenger-amount-field--column"
+              >
+                <span
+                  class="selected-passengers-count"
+                >
+                  1
+                </span>
+                <span
+                  class="select-passenger-desc"
+                >
+                  SHARED__LAP_CHILD__TITLE_SELECT_PASSENGERS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py4 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="checkbox-button low-fare-calendar--container relative flex checkbox-button flex-cross-center"
+            name="useLowFareCalendar"
+          >
+            <div
+              class="low-fare-calendar--checkbox"
+            >
+              <span
+                class="checkbox-button--mark"
+              >
+                <i
+                  class="absolute xlarge bgtransp icon icon_check"
+                />
+              </span>
+            </div>
+            <div
+              class="low-fare-calendar--label"
+            >
+              <div
+                class="checkbox-button--children flex-equal-width ml2"
+              >
+                <p
+                  class="low-fare-calendar-text"
+                >
+                  AIR_BOOKING__LOW_FARE_CALENDAR
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill transparent segment"
+        >
+          <div
+            class="fields book-flight-form--prompt-code"
+          >
+            <div
+              class="field promo-code-field"
+            >
+              <div
+                class="fluid input small"
+              >
+                <input
+                  class=""
+                  name="promoCode"
+                  placeholder="AIR_BOOKING__SEARCH_FLIGHTS__PROMO_CODE"
+                  value=""
+                />
+              </div>
+            </div>
+            <div>
+              Mocked MoneyOrPointsSwitchButtonField
+            </div>
+          </div>
+        </div>
+        <div
+          class="transparent segment"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            role="submit"
+            type="submit"
+          >
+            AIR_BOOKING__SEARCH_FLIGHTS__FIND_FLIGHTS
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirBookingShoppingSearchForm render webview should not render Corporate Booking Selection 1`] = `
+<div>
+  <form
+    class="book-flight-form  form widget"
+    name="air-booking-shopping-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="field"
+      >
+        <ul
+          class="nav nav--justified"
+        >
+          <li
+            class="nav--item active"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ROUND_TRIP
+            </button>
+          </li>
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ONE_WAY
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fields search-fields py2 grouped"
+      >
+        <div
+          class="field search-fields--left"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="from"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  From
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i
+          class="airport-icon icon icon_airplane"
+        />
+        <div
+          class="field search-fields--right"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="to"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  To
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field gray4"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/10
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/17
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__RETURN_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py6 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="passenger-amount-field"
+          >
+            <div
+              class="flex flex-column flex5"
+            >
+              <div
+                class="passenger-amount-field--passenger-with-lap-child"
+              >
+                Passengers
+              </div>
+              <span
+                class="passenger-amount-field--description"
+              >
+                SHARED__LAP_CHILD__TITLE_DESCRIPTION_TEXT
+              </span>
+            </div>
+            <i
+              class="passenger-amount-field--icon icon icon_passenger"
+            />
+            <div
+              class="passenger-amount-field--action flex5"
+            >
+              <div
+                class="passenger-amount-field--column"
+              >
+                <span
+                  class="selected-passengers-count"
+                >
+                  1
+                </span>
+                <span
+                  class="select-passenger-desc"
+                >
+                  SHARED__LAP_CHILD__TITLE_SELECT_PASSENGERS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill transparent segment"
+        >
+          <div
+            class="fields book-flight-form--prompt-code"
+          >
+            <div
+              class="field promo-code-field"
+            >
+              <div
+                class="fluid input small"
+              >
+                <input
+                  class=""
+                  name="promoCode"
+                  placeholder="AIR_BOOKING__SEARCH_FLIGHTS__PROMO_CODE"
+                  value=""
+                />
+              </div>
+            </div>
+            <div>
+              Mocked MoneyOrPointsSwitchButtonField
+            </div>
+          </div>
+        </div>
+        <div
+          class="transparent segment"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            role="submit"
+            type="submit"
+          >
+            AIR_BOOKING__SEARCH_FLIGHTS__FIND_FLIGHTS
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirBookingShoppingSearchForm render webview should not render low fare calendar section 1`] = `
+<div>
+  <form
+    class="book-flight-form  form widget"
+    name="air-booking-shopping-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="field"
+      >
+        <ul
+          class="nav nav--justified"
+        >
+          <li
+            class="nav--item active"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ROUND_TRIP
+            </button>
+          </li>
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ONE_WAY
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fields search-fields py2 grouped"
+      >
+        <div
+          class="field search-fields--left"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="from"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  From
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i
+          class="airport-icon icon icon_airplane"
+        />
+        <div
+          class="field search-fields--right"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="to"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  To
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field gray4"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/10
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/17
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__RETURN_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py6 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="passenger-amount-field"
+          >
+            <div
+              class="flex flex-column flex5"
+            >
+              <div
+                class="passenger-amount-field--passenger-with-lap-child"
+              >
+                Passengers
+              </div>
+              <span
+                class="passenger-amount-field--description"
+              >
+                SHARED__LAP_CHILD__TITLE_DESCRIPTION_TEXT
+              </span>
+            </div>
+            <i
+              class="passenger-amount-field--icon icon icon_passenger"
+            />
+            <div
+              class="passenger-amount-field--action flex5"
+            >
+              <div
+                class="passenger-amount-field--column"
+              >
+                <span
+                  class="selected-passengers-count"
+                >
+                  1
+                </span>
+                <span
+                  class="select-passenger-desc"
+                >
+                  SHARED__LAP_CHILD__TITLE_SELECT_PASSENGERS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill transparent segment"
+        >
+          <div
+            class="fields book-flight-form--prompt-code"
+          >
+            <div
+              class="field promo-code-field"
+            >
+              <div
+                class="fluid input small"
+              >
+                <input
+                  class=""
+                  name="promoCode"
+                  placeholder="AIR_BOOKING__SEARCH_FLIGHTS__PROMO_CODE"
+                  value=""
+                />
+              </div>
+            </div>
+            <div>
+              Mocked MoneyOrPointsSwitchButtonField
+            </div>
+          </div>
+        </div>
+        <div
+          class="transparent segment"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            role="submit"
+            type="submit"
+          >
+            AIR_BOOKING__SEARCH_FLIGHTS__FIND_FLIGHTS
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirBookingShoppingSearchForm when CorporateBookingSelection when airBookingShoppingSearchForm when MWEB_HOMEPAGE_REDESIGN is false should render air booking shopping with className book-flight-form 1`] = `
+<div>
+  <form
+    class="book-flight-form  form widget"
+    name="air-booking-shopping-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="field"
+      >
+        <ul
+          class="nav nav--justified"
+        >
+          <li
+            class="nav--item active"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ROUND_TRIP
+            </button>
+          </li>
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ONE_WAY
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fields search-fields py2 grouped"
+      >
+        <div
+          class="field search-fields--left"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="from"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  From
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i
+          class="airport-icon icon icon_airplane"
+        />
+        <div
+          class="field search-fields--right"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="to"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  To
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field gray4"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/10
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/17
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__RETURN_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py6 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="passenger-amount-field"
+          >
+            <div
+              class="flex flex-column flex5"
+            >
+              <div
+                class="passenger-amount-field--passenger-with-lap-child"
+              >
+                Passengers
+              </div>
+              <span
+                class="passenger-amount-field--description"
+              >
+                SHARED__LAP_CHILD__TITLE_DESCRIPTION_TEXT
+              </span>
+            </div>
+            <i
+              class="passenger-amount-field--icon icon icon_passenger"
+            />
+            <div
+              class="passenger-amount-field--action flex5"
+            >
+              <div
+                class="passenger-amount-field--column"
+              >
+                <span
+                  class="selected-passengers-count"
+                >
+                  1
+                </span>
+                <span
+                  class="select-passenger-desc"
+                >
+                  SHARED__LAP_CHILD__TITLE_SELECT_PASSENGERS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py4 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="checkbox-button low-fare-calendar--container relative flex checkbox-button flex-cross-center"
+            name="useLowFareCalendar"
+          >
+            <div
+              class="low-fare-calendar--checkbox"
+            >
+              <span
+                class="checkbox-button--mark"
+              >
+                <i
+                  class="absolute xlarge bgtransp icon icon_check"
+                />
+              </span>
+            </div>
+            <div
+              class="low-fare-calendar--label"
+            >
+              <div
+                class="checkbox-button--children flex-equal-width ml2"
+              >
+                <p
+                  class="low-fare-calendar-text"
+                >
+                  AIR_BOOKING__LOW_FARE_CALENDAR
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill transparent segment"
+        >
+          <div
+            class="fields book-flight-form--prompt-code"
+          >
+            <div
+              class="field promo-code-field"
+            >
+              <div
+                class="fluid input small"
+              >
+                <input
+                  class=""
+                  name="promoCode"
+                  placeholder="AIR_BOOKING__SEARCH_FLIGHTS__PROMO_CODE"
+                  value=""
+                />
+              </div>
+            </div>
+            <div>
+              Mocked MoneyOrPointsSwitchButtonField
+            </div>
+          </div>
+        </div>
+        <div
+          class="transparent segment"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            role="submit"
+            type="submit"
+          >
+            AIR_BOOKING__SEARCH_FLIGHTS__FIND_FLIGHTS
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirBookingShoppingSearchForm when CorporateBookingSelection when airBookingShoppingSearchForm when MWEB_HOMEPAGE_REDESIGN is true should render air booking shopping with className homepage-redesign 1`] = `
+<div>
+  <form
+    class="book-flight-form homepage-redesign form widget"
+    name="air-booking-shopping-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="field"
+      >
+        <ul
+          class="nav nav--justified"
+        >
+          <li
+            class="nav--item nav--item_homepage-redesign active"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ROUND_TRIP
+            </button>
+          </li>
+          <li
+            class="nav--item nav--item_homepage-redesign"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ONE_WAY
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fields search-fields py2 grouped"
+      >
+        <div
+          class="field search-fields--left"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="from"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  From
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  <i
+                    class="form-field--description-error-icon icon icon_exclamation-circle"
+                  />
+                  SHARED__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i
+          class="airport-icon icon icon_airplane"
+        />
+        <div
+          class="field search-fields--right"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="to"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  To
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  <i
+                    class="form-field--description-error-icon icon icon_exclamation-circle"
+                  />
+                  SHARED__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field gray4"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date bold"
+                >
+                  8/10
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              >
+                <div
+                  class="form-calendar-field--date bold"
+                >
+                  8/17
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py4 flex grouped"
+      >
+        <div
+          class="field halfwidth"
+        >
+          <div
+            class="passenger-amount-field"
+          >
+            <div
+              class="flex flex-column flex5"
+            >
+              <div
+                class="passenger-amount-field--passenger-with-lap-child"
+              >
+                Passengers
+              </div>
+              <span
+                class="passenger-amount-field--description"
+              >
+                SHARED__LAP_CHILD__TITLE_DESCRIPTION_TEXT
+              </span>
+            </div>
+            <div
+              class="passenger-amount-field--action flex5"
+            >
+              <div
+                class="passenger-amount-field--column"
+              >
+                <span
+                  class="selected-passengers-count"
+                >
+                  1
+                </span>
+                <span
+                  class="select-passenger-desc"
+                >
+                  SHARED__LAP_CHILD__TITLE_SELECT_PASSENGERS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          Mocked MoneyOrPointsSwitchButtonField
+        </div>
+      </div>
+      <div
+        class="fields py4 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="checkbox-button low-fare-calendar--container relative flex checkbox-button flex-cross-center"
+            name="useLowFareCalendar"
+          >
+            <div
+              class="low-fare-calendar--checkbox"
+            >
+              <span
+                class="checkbox-button--mark"
+              >
+                <i
+                  class="absolute xlarge bgtransp icon icon_check"
+                />
+              </span>
+            </div>
+            <div
+              class="low-fare-calendar--label"
+            >
+              <div
+                class="checkbox-button--children flex-equal-width ml2"
+              >
+                <p
+                  class="low-fare-calendar-text"
+                >
+                  AIR_BOOKING__LOW_FARE_CALENDAR
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill transparent segment"
+        >
+          <div
+            class="fields book-flight-form--prompt-code"
+          >
+            <div
+              class="field promo-code-field"
+            >
+              <div
+                class="fluid input small"
+              >
+                <input
+                  class=""
+                  name="promoCode"
+                  placeholder="AIR_BOOKING__SEARCH_FLIGHTS__PROMO_CODE"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="transparent segment"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            role="submit"
+            type="submit"
+          >
+            AIR_BOOKING__SEARCH_FLIGHTS__FIND_FLIGHTS
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirBookingShoppingSearchForm when CorporateBookingSelection when logged in should render 1`] = `
+<div>
+  <form
+    class="book-flight-form  form widget"
+    name="air-booking-shopping-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="field"
+      >
+        <ul
+          class="nav nav--justified"
+        >
+          <li
+            class="nav--item active"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ROUND_TRIP
+            </button>
+          </li>
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ONE_WAY
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fields search-fields py2 grouped"
+      >
+        <div
+          class="field search-fields--left"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="from"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  From
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i
+          class="airport-icon icon icon_airplane"
+        />
+        <div
+          class="field search-fields--right"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="to"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  To
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field gray4"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/10
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/17
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__RETURN_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py6 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="passenger-amount-field"
+          >
+            <div
+              class="flex flex-column flex5"
+            >
+              <div
+                class="passenger-amount-field--passenger-with-lap-child"
+              >
+                Passengers
+              </div>
+              <span
+                class="passenger-amount-field--description"
+              >
+                SHARED__LAP_CHILD__TITLE_DESCRIPTION_TEXT
+              </span>
+            </div>
+            <i
+              class="passenger-amount-field--icon icon icon_passenger"
+            />
+            <div
+              class="passenger-amount-field--action flex5"
+            >
+              <div
+                class="passenger-amount-field--column"
+              >
+                <span
+                  class="selected-passengers-count"
+                >
+                  1
+                </span>
+                <span
+                  class="select-passenger-desc"
+                >
+                  SHARED__LAP_CHILD__TITLE_SELECT_PASSENGERS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py4 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="checkbox-button low-fare-calendar--container relative flex checkbox-button flex-cross-center"
+            name="useLowFareCalendar"
+          >
+            <div
+              class="low-fare-calendar--checkbox"
+            >
+              <span
+                class="checkbox-button--mark"
+              >
+                <i
+                  class="absolute xlarge bgtransp icon icon_check"
+                />
+              </span>
+            </div>
+            <div
+              class="low-fare-calendar--label"
+            >
+              <div
+                class="checkbox-button--children flex-equal-width ml2"
+              >
+                <p
+                  class="low-fare-calendar-text"
+                >
+                  AIR_BOOKING__LOW_FARE_CALENDAR
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py4 grouped"
+      >
+        <div
+          class="corporate-booking-selection flex p3"
+        >
+          <div
+            class="corporate-booking-selection--info-container flex"
+          >
+            <img
+              class="corporate-booking-selection--icon"
+              src="/content/mkt/images/landing_pages/ic-bag.svg"
+            />
+            <div
+              class="corporate-booking-selection--text-content"
+            >
+              <div
+                class="corporate-booking-selection--label bold"
+              >
+                SWABIZ
+              </div>
+              <div>
+                <div
+                  class="corporate-booking-selection--learn-more"
+                >
+                  AIR_BOOKING__CORPORATE_BOOKING__LEARN_MORE
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pr6 pt2"
+          >
+            <button
+              class="toggle-switch button"
+              type="button"
+            >
+              <div
+                class="toggle-switch--slider"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill transparent segment"
+        >
+          <div
+            class="fields book-flight-form--prompt-code"
+          >
+            <div
+              class="field promo-code-field"
+            >
+              <div
+                class="fluid input small"
+              >
+                <input
+                  class=""
+                  name="promoCode"
+                  placeholder="AIR_BOOKING__SEARCH_FLIGHTS__PROMO_CODE"
+                  value=""
+                />
+              </div>
+            </div>
+            <div>
+              Mocked MoneyOrPointsSwitchButtonField
+            </div>
+          </div>
+        </div>
+        <div
+          class="transparent segment"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            role="submit"
+            type="submit"
+          >
+            AIR_BOOKING__SEARCH_FLIGHTS__FIND_FLIGHTS
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirBookingShoppingSearchForm when CorporateBookingSelection when not logged in should not render 1`] = `
+<div>
+  <form
+    class="book-flight-form  form widget"
+    name="air-booking-shopping-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="field"
+      >
+        <ul
+          class="nav nav--justified"
+        >
+          <li
+            class="nav--item active"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ROUND_TRIP
+            </button>
+          </li>
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ONE_WAY
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fields search-fields py2 grouped"
+      >
+        <div
+          class="field search-fields--left"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="from"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  From
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i
+          class="airport-icon icon icon_airplane"
+        />
+        <div
+          class="field search-fields--right"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="to"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  To
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field gray4"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/10
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/17
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__RETURN_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py6 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="passenger-amount-field"
+          >
+            <div
+              class="flex flex-column flex5"
+            >
+              <div
+                class="passenger-amount-field--passenger-with-lap-child"
+              >
+                Passengers
+              </div>
+              <span
+                class="passenger-amount-field--description"
+              >
+                SHARED__LAP_CHILD__TITLE_DESCRIPTION_TEXT
+              </span>
+            </div>
+            <i
+              class="passenger-amount-field--icon icon icon_passenger"
+            />
+            <div
+              class="passenger-amount-field--action flex5"
+            >
+              <div
+                class="passenger-amount-field--column"
+              >
+                <span
+                  class="selected-passengers-count"
+                >
+                  1
+                </span>
+                <span
+                  class="select-passenger-desc"
+                >
+                  SHARED__LAP_CHILD__TITLE_SELECT_PASSENGERS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py4 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="checkbox-button low-fare-calendar--container relative flex checkbox-button flex-cross-center"
+            name="useLowFareCalendar"
+          >
+            <div
+              class="low-fare-calendar--checkbox"
+            >
+              <span
+                class="checkbox-button--mark"
+              >
+                <i
+                  class="absolute xlarge bgtransp icon icon_check"
+                />
+              </span>
+            </div>
+            <div
+              class="low-fare-calendar--label"
+            >
+              <div
+                class="checkbox-button--children flex-equal-width ml2"
+              >
+                <p
+                  class="low-fare-calendar-text"
+                >
+                  AIR_BOOKING__LOW_FARE_CALENDAR
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill transparent segment"
+        >
+          <div
+            class="fields book-flight-form--prompt-code"
+          >
+            <div
+              class="field promo-code-field"
+            >
+              <div
+                class="fluid input small"
+              >
+                <input
+                  class=""
+                  name="promoCode"
+                  placeholder="AIR_BOOKING__SEARCH_FLIGHTS__PROMO_CODE"
+                  value=""
+                />
+              </div>
+            </div>
+            <div>
+              Mocked MoneyOrPointsSwitchButtonField
+            </div>
+          </div>
+        </div>
+        <div
+          class="transparent segment"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            role="submit"
+            type="submit"
+          >
+            AIR_BOOKING__SEARCH_FLIGHTS__FIND_FLIGHTS
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirBookingShoppingSearchForm when CorporateBookingSelection when without lap child should render 1`] = `
+<div>
+  <form
+    class="book-flight-form  form widget"
+    name="air-booking-shopping-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="field"
+      >
+        <ul
+          class="nav nav--justified"
+        >
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ROUND_TRIP
+            </button>
+          </li>
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ONE_WAY
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fields search-fields py2 grouped"
+      >
+        <div
+          class="field search-fields--left"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="from"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  From
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i
+          class="airport-icon icon icon_airplane"
+        />
+        <div
+          class="field search-fields--right"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="to"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  To
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field gray4"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/10
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py6 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="passenger-amount-field"
+          >
+            <div
+              class="flex flex-column flex5"
+            >
+              <div
+                class="passenger-amount-field--passenger-with-lap-child"
+              >
+                Passengers
+              </div>
+              <span
+                class="passenger-amount-field--description"
+              >
+                SHARED__LAP_CHILD__TITLE_DESCRIPTION_TEXT
+              </span>
+            </div>
+            <i
+              class="passenger-amount-field--icon icon icon_passenger"
+            />
+            <div
+              class="passenger-amount-field--action flex5"
+            >
+              <div
+                class="passenger-amount-field--column"
+              >
+                <span
+                  class="selected-passengers-count"
+                >
+                  1
+                </span>
+                <span
+                  class="select-passenger-desc"
+                >
+                  SHARED__LAP_CHILD__TITLE_SELECT_PASSENGERS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py4 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="checkbox-button low-fare-calendar--container relative flex checkbox-button flex-cross-center"
+            name="useLowFareCalendar"
+          >
+            <div
+              class="low-fare-calendar--checkbox"
+            >
+              <span
+                class="checkbox-button--mark"
+              >
+                <i
+                  class="absolute xlarge bgtransp icon icon_check"
+                />
+              </span>
+            </div>
+            <div
+              class="low-fare-calendar--label"
+            >
+              <div
+                class="checkbox-button--children flex-equal-width ml2"
+              >
+                <p
+                  class="low-fare-calendar-text"
+                >
+                  AIR_BOOKING__LOW_FARE_CALENDAR
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py4 grouped"
+      >
+        <div
+          class="corporate-booking-selection flex p3"
+        >
+          <div
+            class="corporate-booking-selection--info-container flex"
+          >
+            <img
+              class="corporate-booking-selection--icon"
+              src="/content/mkt/images/landing_pages/ic-bag.svg"
+            />
+            <div
+              class="corporate-booking-selection--text-content"
+            >
+              <div
+                class="corporate-booking-selection--label bold"
+              >
+                SWABIZ
+              </div>
+              <div>
+                <div
+                  class="corporate-booking-selection--learn-more"
+                >
+                  AIR_BOOKING__CORPORATE_BOOKING__LEARN_MORE
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pr6 pt2"
+          >
+            <button
+              class="toggle-switch button"
+              type="button"
+            >
+              <div
+                class="toggle-switch--slider"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill transparent segment"
+        >
+          <div
+            class="fields book-flight-form--prompt-code"
+          >
+            <div
+              class="field promo-code-field"
+            >
+              <div
+                class="fluid input small"
+              >
+                <input
+                  class=""
+                  name="promoCode"
+                  placeholder="AIR_BOOKING__SEARCH_FLIGHTS__PROMO_CODE"
+                  value=""
+                />
+              </div>
+            </div>
+            <div>
+              Mocked MoneyOrPointsSwitchButtonField
+            </div>
+          </div>
+        </div>
+        <div
+          class="transparent segment"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            role="submit"
+            type="submit"
+          >
+            AIR_BOOKING__SEARCH_FLIGHTS__FIND_FLIGHTS
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirBookingShoppingSearchForm when CorporateBookingSelection when without lap child should render when searchRequest does not contain numberOfLapInfants value 1`] = `
+<div>
+  <form
+    class="book-flight-form  form widget"
+    name="air-booking-shopping-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="field"
+      >
+        <ul
+          class="nav nav--justified"
+        >
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ROUND_TRIP
+            </button>
+          </li>
+          <li
+            class="nav--item"
+          >
+            <button
+              class="button--link "
+            >
+              AIR_BOOKING__SEARCH_FLIGHTS__ONE_WAY
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="fields search-fields py2 grouped"
+      >
+        <div
+          class="field search-fields--left"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="from"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  From
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i
+          class="airport-icon icon icon_airplane"
+        />
+        <div
+          class="field search-fields--right"
+        >
+          <div
+            class="airport-selector airport-selector_native-horizontal"
+            data-qa="to"
+          >
+            <div
+              class="form-field--container"
+            >
+              <div
+                class="form-field--text-container"
+              >
+                <div
+                  class="form-field--placeholder"
+                >
+                  To
+                </div>
+                <div
+                  class="form-field--description"
+                >
+                  AIR_BOOKING__AIRPORT_SELECTOR__DESCRIPTION
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field gray4"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date"
+                >
+                  8/10
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py6 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="passenger-amount-field"
+          >
+            <div
+              class="flex flex-column flex5"
+            >
+              <div
+                class="passenger-amount-field--passenger-with-lap-child"
+              >
+                Passengers
+              </div>
+              <span
+                class="passenger-amount-field--description"
+              >
+                SHARED__LAP_CHILD__TITLE_DESCRIPTION_TEXT
+              </span>
+            </div>
+            <i
+              class="passenger-amount-field--icon icon icon_passenger"
+            />
+            <div
+              class="passenger-amount-field--action flex5"
+            >
+              <div
+                class="passenger-amount-field--column"
+              >
+                <span
+                  class="selected-passengers-count"
+                >
+                  1
+                </span>
+                <span
+                  class="select-passenger-desc"
+                >
+                  SHARED__LAP_CHILD__TITLE_SELECT_PASSENGERS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py4 grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="checkbox-button low-fare-calendar--container relative flex checkbox-button flex-cross-center"
+            name="useLowFareCalendar"
+          >
+            <div
+              class="low-fare-calendar--checkbox"
+            >
+              <span
+                class="checkbox-button--mark"
+              >
+                <i
+                  class="absolute xlarge bgtransp icon icon_check"
+                />
+              </span>
+            </div>
+            <div
+              class="low-fare-calendar--label"
+            >
+              <div
+                class="checkbox-button--children flex-equal-width ml2"
+              >
+                <p
+                  class="low-fare-calendar-text"
+                >
+                  AIR_BOOKING__LOW_FARE_CALENDAR
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields py4 grouped"
+      >
+        <div
+          class="corporate-booking-selection flex p3"
+        >
+          <div
+            class="corporate-booking-selection--info-container flex"
+          >
+            <img
+              class="corporate-booking-selection--icon"
+              src="/content/mkt/images/landing_pages/ic-bag.svg"
+            />
+            <div
+              class="corporate-booking-selection--text-content"
+            >
+              <div
+                class="corporate-booking-selection--label bold"
+              >
+                SWABIZ
+              </div>
+              <div>
+                <div
+                  class="corporate-booking-selection--learn-more"
+                >
+                  AIR_BOOKING__CORPORATE_BOOKING__LEARN_MORE
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pr6 pt2"
+          >
+            <button
+              class="toggle-switch button"
+              type="button"
+            >
+              <div
+                class="toggle-switch--slider"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill transparent segment"
+        >
+          <div
+            class="fields book-flight-form--prompt-code"
+          >
+            <div
+              class="field promo-code-field"
+            >
+              <div
+                class="fluid input small"
+              >
+                <input
+                  class=""
+                  name="promoCode"
+                  placeholder="AIR_BOOKING__SEARCH_FLIGHTS__PROMO_CODE"
+                  value=""
+                />
+              </div>
+            </div>
+            <div>
+              Mocked MoneyOrPointsSwitchButtonField
+            </div>
+          </div>
+        </div>
+        <div
+          class="transparent segment"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            role="submit"
+            type="submit"
+          >
+            AIR_BOOKING__SEARCH_FLIGHTS__FIND_FLIGHTS
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;

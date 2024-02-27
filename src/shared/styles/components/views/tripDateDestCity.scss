@@ -1,0 +1,17 @@
+.trip-date-dest-city--city-name {
+  @include pb1;
+  font-size: 1.3rem;
+}
+
+.trip-date-dest-city--trip-date {
+  @include block;
+  @include pb1;
+  font-size: 1.3rem;
+}
+
+.trip-date-dest-city--destination-airport {
+  @include pdkblue;
+  @include bold;
+  margin-top: 0.1rem;
+  font-size: 1.3em;
+}

@@ -1,0 +1,78 @@
+// Refer to sass/colors.scss for colours
+
+// BORDERS
+// Default border colour is $gray3 (#ccc)
+// OVerride colour by using border direction classes (.bd[t|r|b|l]) with a .bdgray[1|2|4|5] class
+// e.g. for a very dark right border use class="bdr bdgray5"
+.bd          { @include bd;          }
+.bdt         { @include bdt;         }
+.bdr         { @include bdr;         }
+.bdb         { @include bdb;         }
+.bdl         { @include bdl;         }
+
+.bd3         { @include bd3;         }
+.bdt3        { @include bdt3;        }
+.bdr3        { @include bdr3;        }
+.bdb3        { @include bdb3;        }
+.bdl3        { @include bdl3;        }
+
+.bdgray1     { @include bdgray1;     }
+.bdgray2     { @include bdgray2;     }
+.bdgray3     { @include bdgray3;     }
+.bdgray4     { @include bdgray4;     }
+.bdgray5     { @include bdgray5;     }
+.bdpblue     { @include bdpblue;     }
+.bdpdkblue   { @include bdpdkblue;   }
+.bdsdkblue   { @include bdsdkblue;   }
+.bdsltblue   { @include bdsltblue;   }
+.bdyellow    { @include bdyellow;    }
+.bdteal      { @include bdteal;      }
+.bdorange    { @include bdorange;    }
+.bdpdkyellow { @include bdpdkyellow; }
+.bdpltyellow { @include bdpltyellow; }
+.bdsyellow   { @include bdsyellow;   }
+.bdgreen     { @include bdgreen;     }
+.bdgreen2    { @include bdgreen2;     }
+.bdsblue     { @include bdsblue;     }
+.bdltblue    { @include bdltblue;    }
+.bdwhite     { @include bdwhite;     }
+.bdblack     { @include bdblack;     }
+.bdred       { @include bdred;       }
+
+.border-none { @include border-none; }
+
+.error-border {
+  @include bd;
+  @include bdred;
+}
+
+// ROUNDED CORNERS
+// .rd[number] will round all corners
+// .rdr[number] will top-right and bottom-right corners
+.rd2         { @include rd2;         }
+.rdt2        { @include rdt2;        }
+.rdr2        { @include rdr2;        }
+.rdb2        { @include rdb2;        }
+.rdl2        { @include rdl2;        }
+
+.rd3         { @include rd3;         }
+.rdt3        { @include rdt3;        }
+.rdr3        { @include rdr3;        }
+.rdb3        { @include rdb3;        }
+.rdl3        { @include rdl3;        }
+
+.rd4         { @include rd4;         }
+.rdt4        { @include rdt4;        }
+.rdr4        { @include rdr4;        }
+.rdb4        { @include rdb4;        }
+.rdl4        { @include rdl4;        }
+
+.rd10        { @include rd10 ;       }
+.rdt10       { @include rdt10;       }
+.rdr10       { @include rdr10;       }
+.rdb10       { @include rdb10;       }
+.rdl10       { @include rdl10;       }
+
+.square      { @include square;      }
+.circle      { @include circle;      }
+.olnone      { @include olnone;      }

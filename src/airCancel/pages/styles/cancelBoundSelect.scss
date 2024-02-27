@@ -1,0 +1,22 @@
+.cancel-select-bound {
+  .flight-cancel--intro {
+    @include p5;
+
+    p {
+      @include gray5;
+      line-height: 1.6rem;
+    }
+  }
+
+  .segment {
+    background: none;
+  }
+
+  .split-pnr-confirmation-message {
+    @include p7;
+
+    .icon_ic-info {
+      @include white;
+    }
+  }
+}

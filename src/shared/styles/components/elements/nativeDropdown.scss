@@ -1,0 +1,24 @@
+.native-dropdown {
+  @include relative;
+  @include bgwhite;
+  border: 1px solid $gray2;
+
+  .dropdown {
+    @include relative;
+    @include bgtransp;
+    @include fullwidth;
+    @include border-none;
+    z-index: 3;
+    padding: 1.5rem 2rem;
+    font-size: 1.8rem;
+  }
+
+  .icon_caret-down {
+    @include absolute;
+    @include gray4;
+    right: 3rem;
+    top: 50%;
+    margin-top: -1.05rem;
+    font-size: 2.1rem;
+  }
+}

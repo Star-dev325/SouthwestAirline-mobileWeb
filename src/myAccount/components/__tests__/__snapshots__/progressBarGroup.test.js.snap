@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBarGroup should render correct component 1`] = `
+<div>
+  <div
+    class="progress-bar-group"
+  >
+    <div
+      class="segment"
+    >
+      <div
+        class="progress-bar-group--label"
+      >
+        <span />
+        <strong>
+           
+          
+        </strong>
+        <sup>
+          ®
+        </sup>
+      </div>
+      <div
+        class="progress-bar-group--status"
+      >
+        <div
+          class="progress-bar-group--status-col progress-bar-group--status-col-graph"
+        >
+          <div
+            class="progress-bar-group--status-graph"
+          >
+            <div
+              class="donut-progress-bar"
+              style="width: 0px; height: 0px;"
+            >
+              <svg
+                height="0"
+                width="0"
+              >
+                <path
+                  d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                  fill="transparent"
+                  stroke="#e6e7e8"
+                  stroke-width="10"
+                />
+                <path
+                  class="donut-progress-bar--fill teal"
+                  d="M 3.5 -3.5 A -5 -5 0 0 0 3.5 -3.5"
+                  fill="transparent"
+                  stroke-width="10"
+                />
+              </svg>
+            </div>
+            <i
+              class="teal icon icon_pts"
+            />
+          </div>
+          <div
+            class="progress-bar-group--status-text"
+          >
+            <label
+              class="label"
+            />
+            <p
+              class="desc"
+            >
+              undefined 
+              <sup>
+                †
+              </sup>
+            </p>
+          </div>
+        </div>
+        <div
+          class="progress-bar-group--status-col"
+        />
+        <div
+          class="progress-bar-group--status-col progress-bar-group--status-col-graph"
+        >
+          <div
+            class="progress-bar-group--status-graph"
+          >
+            <div
+              class="donut-progress-bar"
+              style="width: 0px; height: 0px;"
+            >
+              <svg
+                height="0"
+                width="0"
+              >
+                <path
+                  d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                  fill="transparent"
+                  stroke="#e6e7e8"
+                  stroke-width="10"
+                />
+                <path
+                  class="donut-progress-bar--fill teal"
+                  d="M 3.5 -3.5 A -5 -5 0 0 0 3.5 -3.5"
+                  fill="transparent"
+                  stroke-width="10"
+                />
+              </svg>
+            </div>
+            <i
+              class="teal icon icon_airplane-depart"
+            />
+          </div>
+          <div
+            class="progress-bar-group--status-text"
+          >
+            <label
+              class="label"
+            >
+              0
+            </label>
+            <p
+              class="desc"
+            >
+              undefined 0
+              <sup>
+                †
+              </sup>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="call-to-companion"
+      >
+        <p
+          class="call-to-companion--description"
+        />
+        <div
+          class="progress-bar-group--expression-info"
+        >
+          <sup>
+            †
+          </sup>
+          <p />
+          <br />
+          <p
+            class="ml2"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

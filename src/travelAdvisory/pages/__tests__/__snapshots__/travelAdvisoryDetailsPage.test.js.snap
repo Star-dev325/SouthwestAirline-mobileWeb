@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TravelAdvisoryDetailsPage should render route items 1`] = `
+<div>
+  <div>
+    <div
+      class="travel-advisory-detail"
+    >
+      <h2
+        class="travel-advisory-detail--title"
+      >
+        <i
+          class="travel-advisory-detail--title-icon icon icon_exclamation-circle"
+        />
+        <span
+          class="travel-advisory-detail--title-text"
+        >
+          title1
+        </span>
+      </h2>
+      <div
+        class="travel-advisory-detail--info"
+      >
+        info
+      </div>
+      <div />
+    </div>
+    <div>
+      <div
+        class="nav-item travel-advisory-detail--route-item"
+      >
+        <span
+          class="travel-advisory-detail--flight-status"
+        >
+          TRAVEL_ADVISORY__FLIGHT_STATUS_TITLE
+        </span>
+        <i
+          class="icon icon_keyboard-arrow-right"
+        />
+      </div>
+      <div
+        class="nav-item travel-advisory-detail--route-item"
+      >
+        <span
+          class="travel-advisory-detail--my-trips"
+        >
+          TRAVEL_ADVISORY__MY_TRIPS_TITLE
+        </span>
+        <i
+          class="icon icon_keyboard-arrow-right"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

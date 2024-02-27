@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Button should render as link 1`] = `
+<Button
+  href="www.test.com"
+  target="_blank"
+>
+  <a
+    className="button button_link"
+    href="www.test.com"
+    target="_blank"
+    type="button"
+  />
+</Button>
+`;
+
+exports[`Button Button should render circular 1`] = `
+<Button
+  circular={true}
+>
+  <button
+    className="button circular"
+    onClick={[Function]}
+    type="button"
+  />
+</Button>
+`;
+
+exports[`Button Button should render fluid 1`] = `
+<Button
+  fluid={true}
+>
+  <button
+    className="button button--fluid"
+    onClick={[Function]}
+    type="button"
+  />
+</Button>
+`;
+
+exports[`Button Button should render with color 1`] = `
+<Button
+  color="red"
+>
+  <button
+    className="button button--red"
+    onClick={[Function]}
+    type="button"
+  />
+</Button>
+`;
+
+exports[`Button Button should render with icon 1`] = `
+<Button
+  icon="cloud"
+  iconLabeled="right"
+>
+  <button
+    className="icon button labeled right"
+    onClick={[Function]}
+    type="button"
+  >
+    <Icon
+      type="cloud"
+    >
+      <i
+        className="icon icon_cloud"
+      />
+    </Icon>
+  </button>
+</Button>
+`;
+
+exports[`Button Button should render with size 1`] = `
+<Button
+  size="big"
+>
+  <button
+    className="button big"
+    onClick={[Function]}
+    type="button"
+  />
+</Button>
+`;
+
+exports[`Button should render correctly 1`] = `
+<Button>
+  <button
+    className="button"
+    onClick={[Function]}
+    type="button"
+  />
+</Button>
+`;

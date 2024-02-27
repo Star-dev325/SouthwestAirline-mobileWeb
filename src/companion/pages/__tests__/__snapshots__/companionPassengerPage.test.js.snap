@@ -1,0 +1,326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompanionPassengerPage should passing correct companion info prop to companion passenger form 1`] = `
+<div
+  class="companion-personal-info"
+>
+  <div
+    class="companion-personal-info--label"
+  >
+    <span
+      class="companion-personal-info--name block nowrap overflow-hidden ellipsis"
+      data-qa="userName"
+    >
+      Companion Fang
+    </span>
+  </div>
+  <div
+    class="companion-personal-info--label"
+    data-qa="companion-personal-info--birth-date"
+  >
+    <div
+      class="label-container pt4"
+    >
+      <div
+        class="label-container--label"
+      >
+        COMPANION_DATE_OF_BIRTH
+      </div>
+      <div
+        class="label-container--content"
+      >
+        <p>
+          2/05/1995
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="companion-personal-info--label"
+    data-qa="companion-personal-info--gender"
+  >
+    <div
+      class="label-container pt4"
+    >
+      <div
+        class="label-container--label"
+      >
+        COMPANION_GENDER
+      </div>
+      <div
+        class="label-container--content"
+      >
+        <p>
+          F
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CompanionPassengerPage should show passenger form 1`] = `
+<form
+  class="companion-personal-form form"
+  name="COMPANION_PASSENGER_PERSONAL_INFO_FORM"
+  novalidate=""
+>
+  <fieldset>
+    <div
+      class="px5 pt5"
+    >
+      <div>
+        <p
+          class="large pb4 gray5 bold"
+        >
+          COMPANION_PERSONAL_INFO
+        </p>
+        <div
+          class="companion-personal-info"
+        >
+          <div
+            class="companion-personal-info--label"
+          >
+            <span
+              class="companion-personal-info--name block nowrap overflow-hidden ellipsis"
+              data-qa="userName"
+            >
+              Companion Fang
+            </span>
+          </div>
+          <div
+            class="companion-personal-info--label"
+            data-qa="companion-personal-info--birth-date"
+          >
+            <div
+              class="label-container pt4"
+            >
+              <div
+                class="label-container--label"
+              >
+                COMPANION_DATE_OF_BIRTH
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <p>
+                  2/05/1995
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="companion-personal-info--label"
+            data-qa="companion-personal-info--gender"
+          >
+            <div
+              class="label-container pt4"
+            >
+              <div
+                class="label-container--label"
+              >
+                COMPANION_GENDER
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <p>
+                  F
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div />
+      <div>
+        <div
+          class="fields contact-method grouped"
+        >
+          <label
+            class="fields--label"
+          >
+            SHARED__CONTACT_METHOD__LABEL
+          </label>
+          <div
+            class="field"
+          >
+            <a
+              class="nav-item-link nav-item-field"
+              name="contactMethodContent"
+            >
+              <div
+                class="fullwidth"
+              >
+                <span />
+                <div
+                  class="nav-item-field-value"
+                  data-qa="nav-item-field-value"
+                >
+                  SHARED__CONTACT_METHOD_OPTION__DOMESTIC_OPTIONS_EMAIL, a@gmail.com
+                </div>
+              </div>
+              <i
+                class="nav-item-link--icon icon icon_keyboard-arrow-right"
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          class="fields form-fields--receipt-email grouped"
+        >
+          <label
+            class="fields--label"
+          >
+            COMPANION_EMAIL_RECEIPT_TO
+          </label>
+          <div
+            class="field"
+          >
+            <div
+              class="input"
+            >
+              <input
+                class=""
+                name="emailReceiptTo"
+                placeholder="Email address"
+                type="email"
+                value="aterris@example.com"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          data-qa="share-itinerary-email"
+        >
+          <div>
+            <div
+              class="fields form-fields--receipt-email grouped"
+            >
+              <label
+                class="fields--label"
+              >
+                SHARED__SHARE_ITINERARY_WITH
+              </label>
+              <div
+                class="field"
+              >
+                <div
+                  class="input"
+                >
+                  <input
+                    class=""
+                    name="shareItineraryEmail"
+                    placeholder="Email address (optional)"
+                    value="test@test.com"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="py4 gray5 medium"
+              data-qa="itineraries-message"
+            >
+              SHARED__SHARE_ITINERARY__ITINERARIES_MESSAGE
+            </div>
+          </div>
+        </div>
+        <div
+          class="mb6"
+        >
+          <div>
+            <div
+              class="fields grouped"
+            >
+              <label
+                class="fields--label"
+              >
+                SHARED__REDRESS_UNKNOWN_TRAVELER_FIELDS__SECURE_TRAVELER_INFO
+              </label>
+              <div
+                class="field"
+              >
+                <div
+                  class="input"
+                >
+                  <input
+                    class=""
+                    maxlength="25"
+                    name="knownTravelerNumber"
+                    placeholder="SHARED__REDRESS_UNKNOWN_TRAVELER_FIELDS__KNOWN_TRAVELER_NUMBER"
+                    value="12345678"
+                  />
+                </div>
+              </div>
+              <div
+                class="field"
+              >
+                <div
+                  class="input"
+                >
+                  <input
+                    class=""
+                    maxlength="13"
+                    name="redressNumber"
+                    placeholder="SHARED__REDRESS_UNKNOWN_TRAVELER_FIELDS__REDRESS_NUMBER"
+                    type="tel"
+                    value="123456"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mb6"
+        >
+          <div
+            class="fields grouped"
+          >
+            <a
+              class="nav-item-link special-assistance-item"
+            >
+              <div>
+                SHARED__SPECIAL_ASSISTANCE__FIELD
+              </div>
+              <div
+                class="special-assistance-item--option-label"
+              >
+                (Optional)
+              </div>
+              <i
+                class="nav-item-link--icon icon icon_keyboard-arrow-right"
+              />
+            </a>
+            <p
+              class="sa-flight-in-progress-message"
+            >
+              SHARED__SPECIAL_ASSISTANCE__SA_FLIGHT_IN_PROGRESS_MESSAGE
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class=" mb6 p5 bgpblue bdt bdsdkblue companion-personal-form--footer"
+    >
+      <button
+        class="continue button button--fluid larger button--yellow"
+        type="submit"
+      >
+        SHARED__BUTTON_TEXT__CONTINUE
+      </button>
+    </div>
+  </fieldset>
+</form>
+`;
+
+exports[`CompanionPassengerPage should show progress bar 1`] = `
+<span
+  class="step-item--inner"
+>
+  <i
+    class="completed-check icon icon_check"
+  />
+</span>
+`;

@@ -1,0 +1,58 @@
+.early-bird-flight-summary-footer--passenger-info {
+  @include inline-block;
+  @include flex;
+  @include flex-main-between;
+  @include fullwidth;
+
+  .formatted-currency {
+    @include right;
+    @include larger;
+    @include gray5;
+    @include regular;
+    @include flex3;
+    @include align-right;
+  }
+
+  &:not(:first-child) {
+    @include mt2;
+  }
+}
+
+.early-bird-flight-summary-footer--passenger-name {
+  @include pdkblue;
+  @include larger;
+  @include truncate;
+}
+
+.early-bird-flight-summary-footer--subtotal {
+  @include inline-block;
+  @include relative;
+  @include fullwidth;
+
+  .formatted-currency {
+    @include right;
+    font-size: 2.5rem;
+  }
+}
+
+.early-bird-flight-summary-footer--subtotal-title {
+  @include absolute;
+  @include larger;
+  @include gray5;
+  @include b0;
+}
+
+.early-bird-flight-summary-footer--passenger-currency {
+  @include right;
+  @include larger;
+  @include gray5;
+  @include regular;
+  @include flex3;
+  @include align-right;
+}
+
+.early-bird-flight-summary-footer--subtotal-currency {
+  @include bold;
+  @include right;
+  font-size: 2.5rem;
+}

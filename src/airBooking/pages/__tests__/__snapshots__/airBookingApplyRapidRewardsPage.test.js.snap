@@ -1,0 +1,2433 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AirBookingApplyRapidRewardsPage should display placement when response contain paymentBanner 1`] = `
+<div>
+  <div
+    class="apply-rapid-rewards-page"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SPLIT_PAY_PAGE__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="button"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__CANCEL
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          >
+            <div
+              class="flex-placement visible"
+              id="loggedin_user_details_1_flex"
+            >
+              <div
+                class=""
+                id="loggedin_user_details_1_flex_text_block_1"
+                style="color: rgb(41, 66, 153);"
+              >
+                <em
+                  class=""
+                >
+                  Hi, 
+                </em>
+                <span
+                  class=""
+                >
+                  points 
+                </span>
+                <b
+                  class=""
+                >
+                   
+                </b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form
+      class="form"
+      name="apply-rapid-rewards-points--form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="field"
+        >
+          <div
+            class="apply-rapid-reward-points-radio-input rr-points-list"
+          >
+            <p
+              class="rr-points-list--title"
+              data-qa="rr-points-list--title"
+            >
+              SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+            </p>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  6,815 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $235.00 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  3,408 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $117.50 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  1,704 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $58.75 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="apply-points-section segment"
+        >
+          <button
+            class="apply-points-button points-button-disabled button button--fluid larger button--grey"
+            role="submit"
+            type="submit"
+          >
+            Apply points
+          </button>
+          <p
+            class="split-pay-disclaimer"
+          >
+            SPLIT_PAY_PAGE__TERMS_AND_CONDITIONS
+          </p>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`AirBookingApplyRapidRewardsPage should display split pay message message when splitPayMessage exists 1`] = `
+<div>
+  <div
+    class="apply-rapid-rewards-page"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SPLIT_PAY_PAGE__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="button"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__CANCEL
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    <div
+      class="split-pay-message"
+    >
+      <b>
+        You do not have enough points to use with cash + points at this time
+      </b>
+       
+
+ For more information, visit our 
+      <a
+        href="https://mobile.dev10.southwest.com/help"
+        target="_blank"
+      >
+        help center
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AirBookingApplyRapidRewardsPage should display wcm offer and options when there is paymentBanner placement and splitPayOptions array 1`] = `
+<div>
+  <div
+    class="apply-rapid-rewards-page"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SPLIT_PAY_PAGE__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="button"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__CANCEL
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          >
+            <div
+              class="flex-placement visible"
+              id="loggedin_user_details_1_flex"
+            >
+              <div
+                class=""
+                id="loggedin_user_details_1_flex_text_block_1"
+                style="color: rgb(41, 66, 153);"
+              >
+                <em
+                  class=""
+                >
+                  Hi, 
+                </em>
+                <span
+                  class=""
+                >
+                  points 
+                </span>
+                <b
+                  class=""
+                >
+                   
+                </b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form
+      class="form"
+      name="apply-rapid-rewards-points--form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="field"
+        >
+          <div
+            class="apply-rapid-reward-points-radio-input rr-points-list"
+          >
+            <p
+              class="rr-points-list--title"
+              data-qa="rr-points-list--title"
+            >
+              SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+            </p>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  6,815 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $235.00 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  3,408 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $117.50 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  1,704 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $58.75 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="apply-points-section segment"
+        >
+          <button
+            class="apply-points-button points-button-disabled button button--fluid larger button--grey"
+            role="submit"
+            type="submit"
+          >
+            Apply points
+          </button>
+          <p
+            class="split-pay-disclaimer"
+          >
+            SPLIT_PAY_PAGE__TERMS_AND_CONDITIONS
+          </p>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`AirBookingApplyRapidRewardsPage should not display placement when response does not contain paymentBanner 1`] = `
+<div>
+  <div
+    class="apply-rapid-rewards-page"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SPLIT_PAY_PAGE__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="button"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__CANCEL
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    <form
+      class="form"
+      name="apply-rapid-rewards-points--form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="field"
+        >
+          <div
+            class="apply-rapid-reward-points-radio-input rr-points-list"
+          >
+            <p
+              class="rr-points-list--title"
+              data-qa="rr-points-list--title"
+            >
+              SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+            </p>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  6,815 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $235.00 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  3,408 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $117.50 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  1,704 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $58.75 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="apply-points-section segment"
+        >
+          <button
+            class="apply-points-button points-button-disabled button button--fluid larger button--grey"
+            role="submit"
+            type="submit"
+          >
+            Apply points
+          </button>
+          <p
+            class="split-pay-disclaimer"
+          >
+            SPLIT_PAY_PAGE__TERMS_AND_CONDITIONS
+          </p>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`AirBookingApplyRapidRewardsPage should not display split pay message message when splitPayMessage is falsy 1`] = `
+<div>
+  <div
+    class="apply-rapid-rewards-page"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SPLIT_PAY_PAGE__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="button"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__CANCEL
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    <form
+      class="form"
+      name="apply-rapid-rewards-points--form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="field"
+        >
+          <div
+            class="apply-rapid-reward-points-radio-input rr-points-list"
+          >
+            <p
+              class="rr-points-list--title"
+              data-qa="rr-points-list--title"
+            >
+              SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+            </p>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  6,815 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $235.00 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  3,408 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $117.50 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  1,704 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $58.75 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="apply-points-section segment"
+        >
+          <button
+            class="apply-points-button points-button-disabled button button--fluid larger button--grey"
+            role="submit"
+            type="submit"
+          >
+            Apply points
+          </button>
+          <p
+            class="split-pay-disclaimer"
+          >
+            SPLIT_PAY_PAGE__TERMS_AND_CONDITIONS
+          </p>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`AirBookingApplyRapidRewardsPage should not display wcm offer and options when placements is null and splitPayOptionsExists flag is false 1`] = `
+<div>
+  <div
+    class="apply-rapid-rewards-page"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SPLIT_PAY_PAGE__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="button"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__CANCEL
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    <form
+      class="form"
+      name="apply-rapid-rewards-points--form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="field"
+        >
+          <div
+            class="apply-rapid-reward-points-radio-input rr-points-list"
+          >
+            <p
+              class="rr-points-list--title"
+              data-qa="rr-points-list--title"
+            >
+              SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+            </p>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  6,815 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $235.00 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  3,408 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $117.50 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  1,704 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $58.75 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="apply-points-section segment"
+        >
+          <button
+            class="apply-points-button points-button-disabled button button--fluid larger button--grey"
+            role="submit"
+            type="submit"
+          >
+            Apply points
+          </button>
+          <p
+            class="split-pay-disclaimer"
+          >
+            SPLIT_PAY_PAGE__TERMS_AND_CONDITIONS
+          </p>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`AirBookingApplyRapidRewardsPage should not render page header when isWebView is true 1`] = `
+<div>
+  <div
+    class="apply-rapid-rewards-page"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SPLIT_PAY_PAGE__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="button"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__CANCEL
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    <form
+      class="form"
+      name="apply-rapid-rewards-points--form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="field"
+        >
+          <div
+            class="apply-rapid-reward-points-radio-input rr-points-list"
+          >
+            <p
+              class="rr-points-list--title"
+              data-qa="rr-points-list--title"
+            >
+              SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+            </p>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  6,815 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $235.00 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  3,408 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $117.50 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  1,704 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $58.75 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="apply-points-section segment"
+        >
+          <button
+            class="apply-points-button points-button-disabled button button--fluid larger button--grey"
+            role="submit"
+            type="submit"
+          >
+            Apply points
+          </button>
+          <p
+            class="split-pay-disclaimer"
+          >
+            SPLIT_PAY_PAGE__TERMS_AND_CONDITIONS
+          </p>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`AirBookingApplyRapidRewardsPage should not render priceTotal component when priceTotals is provided and no points have been applied 1`] = `
+<div>
+  <div
+    class="apply-rapid-rewards-page"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SPLIT_PAY_PAGE__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="button"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__CANCEL
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    <form
+      class="form"
+      name="apply-rapid-rewards-points--form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="field"
+        >
+          <div
+            class="apply-rapid-reward-points-radio-input rr-points-list"
+          >
+            <p
+              class="rr-points-list--title"
+              data-qa="rr-points-list--title"
+            >
+              SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+            </p>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  6,815 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $235.00 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  3,408 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $117.50 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  1,704 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $58.75 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="apply-points-section segment"
+        >
+          <button
+            class="apply-points-button points-button-disabled button button--fluid larger button--grey"
+            role="submit"
+            type="submit"
+          >
+            Apply points
+          </button>
+          <p
+            class="split-pay-disclaimer"
+          >
+            SPLIT_PAY_PAGE__TERMS_AND_CONDITIONS
+          </p>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`AirBookingApplyRapidRewardsPage should not render priceTotal component when totals object is unavailable 1`] = `
+<div>
+  <div
+    class="apply-rapid-rewards-page"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SPLIT_PAY_PAGE__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="button"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__CANCEL
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    <form
+      class="form"
+      name="apply-rapid-rewards-points--form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="field"
+        >
+          <div
+            class="apply-rapid-reward-points-radio-input rr-points-list"
+          >
+            <p
+              class="rr-points-list--title"
+              data-qa="rr-points-list--title"
+            >
+              SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+            </p>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  6,815 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $235.00 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  3,408 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $117.50 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  1,704 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $58.75 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="apply-points-section segment"
+        >
+          <button
+            class="apply-points-button points-button-disabled button button--fluid larger button--grey"
+            role="submit"
+            type="submit"
+          >
+            Apply points
+          </button>
+          <p
+            class="split-pay-disclaimer"
+          >
+            SPLIT_PAY_PAGE__TERMS_AND_CONDITIONS
+          </p>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`AirBookingApplyRapidRewardsPage should not render travel funds section when travelFunds is falsy 1`] = `
+<div>
+  <div
+    class="apply-rapid-rewards-page"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SPLIT_PAY_PAGE__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="button"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__CANCEL
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    <form
+      class="form"
+      name="apply-rapid-rewards-points--form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="field"
+        >
+          <div
+            class="apply-rapid-reward-points-radio-input rr-points-list"
+          >
+            <p
+              class="rr-points-list--title"
+              data-qa="rr-points-list--title"
+            >
+              SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+            </p>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  6,815 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $235.00 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  3,408 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $117.50 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  1,704 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $58.75 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="apply-points-section segment"
+        >
+          <button
+            class="apply-points-button points-button-disabled button button--fluid larger button--grey"
+            role="submit"
+            type="submit"
+          >
+            Apply points
+          </button>
+          <p
+            class="split-pay-disclaimer"
+          >
+            SPLIT_PAY_PAGE__TERMS_AND_CONDITIONS
+          </p>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`AirBookingApplyRapidRewardsPage should render correct component 1`] = `
+<body>
+  <div>
+    <div
+      class="apply-rapid-rewards-page"
+    >
+      <div>
+        <div
+          class="page-header action-bar"
+          id=""
+        >
+          <ul
+            class="action-bar-buttons action-bar--left-buttons"
+          />
+          <div
+            class="action-bar--container"
+          >
+            <div
+              class="action-bar--title"
+            >
+              <span
+                class="action-bar--main-title"
+              >
+                SPLIT_PAY_PAGE__TITLE
+              </span>
+              <span
+                class="action-bar--sub-title"
+              />
+            </div>
+          </div>
+          <ul
+            class="action-bar-buttons action-bar--right-buttons"
+          >
+            <li
+              class="action-bar-buttons--item"
+            >
+              <button
+                class="button"
+                type="button"
+              >
+                SHARED__BUTTON_TEXT__CANCEL
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div />
+      </div>
+      <form
+        class="form"
+        name="apply-rapid-rewards-points--form"
+        novalidate=""
+      >
+        <fieldset>
+          <div
+            class="field"
+          >
+            <div
+              class="apply-rapid-reward-points-radio-input rr-points-list"
+            >
+              <p
+                class="rr-points-list--title"
+                data-qa="rr-points-list--title"
+              >
+                SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+              </p>
+              <div
+                aria-disabled="false"
+                class="apply-rapid-reward-points-radio-input rr-points-list-item"
+                data-qa="rr-points-list-item"
+                role="button"
+                tabindex="0"
+              >
+                <i
+                  class="rr-points-list--points-icon icon icon_points"
+                  data-qa="rr-points-list--points-icon"
+                />
+                <div
+                  class="rr-points-list--item-text"
+                >
+                  <span>
+                    6,815 points
+                     =
+                  </span>
+                  <span
+                    class="rr-points-list--point-to-dollar-amount"
+                  >
+                    $235.00 OFF
+                  </span>
+                </div>
+                <div>
+                  <span
+                    class="radio-button--mark"
+                  >
+                    <span
+                      class="radio-input--mark rr-points-list--radio-item"
+                    />
+                  </span>
+                </div>
+              </div>
+              <div
+                aria-disabled="false"
+                class="apply-rapid-reward-points-radio-input rr-points-list-item"
+                data-qa="rr-points-list-item"
+                role="button"
+                tabindex="0"
+              >
+                <i
+                  class="rr-points-list--points-icon icon icon_points"
+                  data-qa="rr-points-list--points-icon"
+                />
+                <div
+                  class="rr-points-list--item-text"
+                >
+                  <span>
+                    3,408 points
+                     =
+                  </span>
+                  <span
+                    class="rr-points-list--point-to-dollar-amount"
+                  >
+                    $117.50 OFF
+                  </span>
+                </div>
+                <div>
+                  <span
+                    class="radio-button--mark"
+                  >
+                    <span
+                      class="radio-input--mark rr-points-list--radio-item"
+                    />
+                  </span>
+                </div>
+              </div>
+              <div
+                aria-disabled="false"
+                class="apply-rapid-reward-points-radio-input rr-points-list-item"
+                data-qa="rr-points-list-item"
+                role="button"
+                tabindex="0"
+              >
+                <i
+                  class="rr-points-list--points-icon icon icon_points"
+                  data-qa="rr-points-list--points-icon"
+                />
+                <div
+                  class="rr-points-list--item-text"
+                >
+                  <span>
+                    1,704 points
+                     =
+                  </span>
+                  <span
+                    class="rr-points-list--point-to-dollar-amount"
+                  >
+                    $58.75 OFF
+                  </span>
+                </div>
+                <div>
+                  <span
+                    class="radio-button--mark"
+                  >
+                    <span
+                      class="radio-input--mark rr-points-list--radio-item"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="apply-points-section segment"
+          >
+            <button
+              class="apply-points-button points-button-disabled button button--fluid larger button--grey"
+              role="submit"
+              type="submit"
+            >
+              Apply points
+            </button>
+            <p
+              class="split-pay-disclaimer"
+            >
+              SPLIT_PAY_PAGE__TERMS_AND_CONDITIONS
+            </p>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`AirBookingApplyRapidRewardsPage should render travel funds section when travelFunds exists 1`] = `
+<div>
+  <div
+    class="apply-rapid-rewards-page"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SPLIT_PAY_PAGE__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="button"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__CANCEL
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    <form
+      class="form"
+      name="apply-rapid-rewards-points--form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="field"
+        >
+          <div
+            class="apply-rapid-reward-points-radio-input rr-points-list"
+          >
+            <p
+              class="rr-points-list--title"
+              data-qa="rr-points-list--title"
+            >
+              SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+            </p>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  6,815 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $235.00 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  3,408 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $117.50 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  1,704 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $58.75 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="apply-points-section segment"
+        >
+          <button
+            class="apply-points-button points-button-disabled button button--fluid larger button--grey"
+            role="submit"
+            type="submit"
+          >
+            Apply points
+          </button>
+          <p
+            class="split-pay-disclaimer"
+          >
+            SPLIT_PAY_PAGE__TERMS_AND_CONDITIONS
+          </p>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`AirBookingApplyRapidRewardsPage should render updated priceTotal component when totals object is provided and funds applied 1`] = `
+<div>
+  <div
+    class="apply-rapid-rewards-page"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SPLIT_PAY_PAGE__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="button"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__CANCEL
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    <form
+      class="form"
+      name="apply-rapid-rewards-points--form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="field"
+        >
+          <div
+            class="apply-rapid-reward-points-radio-input rr-points-list"
+          >
+            <p
+              class="rr-points-list--title"
+              data-qa="rr-points-list--title"
+            >
+              SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+            </p>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  6,815 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $235.00 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  3,408 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $117.50 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              aria-disabled="false"
+              class="apply-rapid-reward-points-radio-input rr-points-list-item"
+              data-qa="rr-points-list-item"
+              role="button"
+              tabindex="0"
+            >
+              <i
+                class="rr-points-list--points-icon icon icon_points"
+                data-qa="rr-points-list--points-icon"
+              />
+              <div
+                class="rr-points-list--item-text"
+              >
+                <span>
+                  1,704 points
+                   =
+                </span>
+                <span
+                  class="rr-points-list--point-to-dollar-amount"
+                >
+                  $58.75 OFF
+                </span>
+              </div>
+              <div>
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark rr-points-list--radio-item"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="apply-points-section segment"
+        >
+          <button
+            class="apply-points-button points-button-disabled button button--fluid larger button--grey"
+            role="submit"
+            type="submit"
+          >
+            Apply points
+          </button>
+          <p
+            class="split-pay-disclaimer"
+          >
+            SPLIT_PAY_PAGE__TERMS_AND_CONDITIONS
+          </p>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;

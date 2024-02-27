@@ -1,0 +1,524 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`airport list groups component Alphabet Selector should display alphabet 1`] = `
+<div>
+  <div
+    class="airport-list-groups"
+  >
+    <div>
+      <div
+        class="airport-group-container"
+      >
+        <div
+          class="airport-group-header"
+        >
+          A
+        </div>
+        <ul
+          class="airport-group"
+        >
+          <li
+            class="flex"
+          >
+            <div
+              class="flex-auto"
+            >
+              <span
+                class=""
+              >
+                Akron-Canton, OH - CAK
+              </span>
+            </div>
+          </li>
+          <li
+            class="flex"
+          >
+            <div
+              class="flex-auto"
+            >
+              <span
+                class=""
+              >
+                Albany, NY - ALB
+              </span>
+            </div>
+          </li>
+          <li
+            class="flex"
+          >
+            <div
+              class="flex-auto"
+            >
+              <span
+                class=""
+              >
+                Albany, NY - ALB
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div
+        class="airport-group-container"
+      >
+        <div
+          class="airport-group-header"
+        >
+          D
+        </div>
+        <ul
+          class="airport-group"
+        >
+          <li
+            class="flex"
+          >
+            <div
+              class="flex-auto"
+            >
+              <span
+                class=""
+              >
+                Denver, CO - DEN
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="alphabet-selector disable-scrolling"
+    >
+      <div
+        data-qa="alpha-select-letter"
+      >
+        A
+      </div>
+      <div
+        data-qa="alpha-select-letter"
+      >
+        D
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`airport list groups component multiSelectGroups should render airport list with group id 1`] = `
+<div>
+  <div
+    class="airport-list-groups"
+  >
+    <div>
+      <div
+        class="airport-group-container"
+      >
+        <div
+          class="airport-group-header"
+        >
+          TestGroup
+        </div>
+        <ul
+          class="airport-group"
+        >
+          <li
+            class="flex"
+          >
+            <div
+              class="flex-auto"
+            >
+              <span
+                class=""
+              >
+                Akron-Canton, OH - CAK
+              </span>
+            </div>
+          </li>
+          <li
+            class="flex"
+          >
+            <div
+              class="flex-auto"
+            >
+              <span
+                class=""
+              >
+                Albany, NY - ALB
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div
+        class="airport-group-container"
+      >
+        <div
+          class="airport-group-header"
+        >
+          D
+        </div>
+        <ul
+          class="airport-group"
+        >
+          <li
+            class="flex"
+          >
+            <div
+              class="flex-auto"
+            >
+              <span
+                class=""
+              >
+                Denver, CO - DEN
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="alphabet-selector disable-scrolling"
+    />
+  </div>
+</div>
+`;
+
+exports[`airport list groups component recentAirportSearches should filter recentAirports List when multiSelectGroup is false 1`] = `
+Object {
+  "container": <div>
+    <div
+      class="airport-list-groups"
+    >
+      <div
+        class="airport-group-container"
+      >
+        <div
+          class="airport-group-header"
+        >
+          Recent Searches
+        </div>
+        <ul
+          class="airport-group"
+        >
+          <li
+            class="flex"
+          >
+            <div
+              class="flex-auto"
+            >
+              <span
+                class=""
+              >
+                Denver, CO - DEN
+              </span>
+            </div>
+            <i
+              class="gray4 right recent-search-remove-icon icon icon_remove"
+              data-qa="recent-search-remove-button"
+            />
+          </li>
+          <li
+            class="flex"
+          >
+            <div
+              class="flex-auto"
+            >
+              <span
+                class=""
+              >
+                Akron-Canton, OH - CAK
+              </span>
+            </div>
+            <i
+              class="gray4 right recent-search-remove-icon icon icon_remove"
+              data-qa="recent-search-remove-button"
+            />
+          </li>
+          <li
+            class="flex"
+          >
+            <div
+              class="flex-auto"
+            >
+              <span
+                class=""
+              >
+                Albany, NY - ALB
+              </span>
+            </div>
+            <i
+              class="gray4 right recent-search-remove-icon icon icon_remove"
+              data-qa="recent-search-remove-button"
+            />
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div
+          class="airport-group-container"
+        >
+          <div
+            class="airport-group-header"
+          >
+            A
+          </div>
+          <ul
+            class="airport-group"
+          >
+            <li
+              class="flex"
+            >
+              <div
+                class="flex-auto"
+              >
+                <span
+                  class=""
+                >
+                  Akron-Canton, OH - CAK
+                </span>
+              </div>
+            </li>
+            <li
+              class="flex"
+            >
+              <div
+                class="flex-auto"
+              >
+                <span
+                  class=""
+                >
+                  Albany, NY - ALB
+                </span>
+              </div>
+            </li>
+            <li
+              class="flex"
+            >
+              <div
+                class="flex-auto"
+              >
+                <span
+                  class=""
+                >
+                  Albany, NY - ALB
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div
+          class="airport-group-container"
+        >
+          <div
+            class="airport-group-header"
+          >
+            D
+          </div>
+          <ul
+            class="airport-group"
+          >
+            <li
+              class="flex"
+            >
+              <div
+                class="flex-auto"
+              >
+                <span
+                  class=""
+                >
+                  Denver, CO - DEN
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="alphabet-selector disable-scrolling"
+      />
+    </div>
+  </div>,
+}
+`;
+
+exports[`airport list groups component recentAirportSearches should render full recentAirports List when isMultiSelectGroup is true 1`] = `
+Object {
+  "container": <div>
+    <div
+      class="airport-list-groups"
+    >
+      <div
+        class="airport-group-container"
+      >
+        <div
+          class="airport-group-header"
+        >
+          Recent Searches
+        </div>
+        <ul
+          class="airport-group"
+        >
+          <li
+            class="flex"
+          >
+            <div
+              class="flex-auto"
+            >
+              <span
+                class=""
+              >
+                Denver, CO - DEN
+              </span>
+            </div>
+            <i
+              class="gray4 right recent-search-remove-icon icon icon_remove"
+              data-qa="recent-search-remove-button"
+            />
+          </li>
+          <li
+            class="flex"
+          >
+            <div
+              class="flex-auto"
+            >
+              <span
+                class=""
+              >
+                Akron-Canton, OH - CAK
+              </span>
+            </div>
+            <i
+              class="gray4 right recent-search-remove-icon icon icon_remove"
+              data-qa="recent-search-remove-button"
+            />
+          </li>
+          <li
+            class="flex"
+          >
+            <div
+              class="flex-auto"
+            >
+              <span
+                class=""
+              >
+                Albany, NY - ALB
+              </span>
+            </div>
+            <i
+              class="gray4 right recent-search-remove-icon icon icon_remove"
+              data-qa="recent-search-remove-button"
+            />
+          </li>
+          <li
+            class="flex"
+          >
+            <div
+              class="flex-auto"
+            >
+              <span
+                class=""
+              >
+                New York - AL, NY
+              </span>
+            </div>
+            <i
+              class="gray4 right recent-search-remove-icon icon icon_remove"
+              data-qa="recent-search-remove-button"
+            />
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div
+          class="airport-group-container"
+        >
+          <div
+            class="airport-group-header"
+          >
+            A
+          </div>
+          <ul
+            class="airport-group"
+          >
+            <li
+              class="flex"
+            >
+              <div
+                class="flex-auto"
+              >
+                <span
+                  class=""
+                >
+                  Akron-Canton, OH - CAK
+                </span>
+              </div>
+            </li>
+            <li
+              class="flex"
+            >
+              <div
+                class="flex-auto"
+              >
+                <span
+                  class=""
+                >
+                  Albany, NY - ALB
+                </span>
+              </div>
+            </li>
+            <li
+              class="flex"
+            >
+              <div
+                class="flex-auto"
+              >
+                <span
+                  class=""
+                >
+                  Albany, NY - ALB
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div
+          class="airport-group-container"
+        >
+          <div
+            class="airport-group-header"
+          >
+            D
+          </div>
+          <ul
+            class="airport-group"
+          >
+            <li
+              class="flex"
+            >
+              <div
+                class="flex-auto"
+              >
+                <span
+                  class=""
+                >
+                  Denver, CO - DEN
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="alphabet-selector disable-scrolling"
+      />
+    </div>
+  </div>,
+}
+`;

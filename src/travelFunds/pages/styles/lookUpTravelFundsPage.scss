@@ -1,0 +1,44 @@
+.look-up-travel-funds {
+  .look-up-travel-funds--message-container {
+    @include p0;
+  }
+
+  .look-up-travel-funds--message {
+    @include p5;
+    @include large;
+    @include white;
+    @include bgpdkblue;
+  }
+
+  .look-up-travel-funds--selector {
+    @include p5;
+    @include pb0;
+  }
+
+  .look-up-travel-funds--results {
+    @include mb8;
+    @include mt6;
+  }
+
+  .travel-funds--disclaimer {
+    @include gray5;
+    @include medium;
+    @include px5;
+    margin: 1rem 0;
+  }
+
+  .travel-funds-terms-link,
+  .travel-funds-faqs-link {
+    @include p5;
+    @include block;
+  }
+}
+
+.associate-funds-message {
+  @include flex-cross-center;
+
+  .info-banner-container--header {
+    @include larger;
+    @include regular;
+  }
+}

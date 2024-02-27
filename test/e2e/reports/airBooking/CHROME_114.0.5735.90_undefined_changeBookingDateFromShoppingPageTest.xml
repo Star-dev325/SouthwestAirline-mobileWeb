@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="airBooking.changeBookingDateFromShoppingPageTest"
+    errors="0" failures="0" hostname="" id="" package="airBooking" skipped="0"
+    tests="3" time="56.15" timestamp="Fri, 15 Dec 2023 00:40:13 GMT">
+  
+    <testcase name="Go to air booking from home page" classname="airBooking.changeBookingDateFromShoppingPageTest" time="31.54" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find flight for one passenger from Dallas to Austin with Dollars" classname="airBooking.changeBookingDateFromShoppingPageTest" time="21.67" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Change booking date to next day" classname="airBooking.changeBookingDateFromShoppingPageTest" time="2.946" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,33 @@
+.smaller      { @include smaller;      }
+.small        { @include small;        }
+.medium       { @include medium;       }
+.large        { @include large;        }
+.larger       { @include larger;       }
+.xlarge       { @include xlarge;       }
+.xxlarge      { @include xxlarge;      }
+.xxxlarge     { @include xxxlarge;     }
+
+.bold         { @include bold;         }
+.regular      { @include regular;      }
+.italic       { @include italic;       }
+.not-italic   { @include not-italic;   }
+.caps         { @include caps;         }
+
+.align-left   { @include align-left;   }
+.center       { @include center;       }
+.align-right  { @include align-right;  }
+.justify      { @include justify;      }
+
+.lineheight10 { @include lineheight10; }
+.lineheight12 { @include lineheight12; }
+.lineheight14 { @include lineheight14; }
+.lineheight16 { @include lineheight16; }
+.lineheight20 { @include lineheight20; }
+
+.nowrap       { @include nowrap;       }
+.word-wrap    { @include word-wrap;    }
+.word-break   { @include word-break;   }
+.ellipsis     { @include ellipsis;     }
+
+.southwest-sans   { @include southwest-sans; }
+.fairwater-script { @include fairwater-script; }

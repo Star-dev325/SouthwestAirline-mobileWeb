@@ -1,0 +1,25 @@
+@mixin relative {
+  position: relative;
+}
+@mixin absolute {
+  position: absolute;
+}
+@mixin fixed {
+  position: fixed;
+}
+@mixin sticky {
+  position: sticky;
+}
+
+@mixin t0 {
+  top: 0;
+}
+@mixin r0 {
+  right: 0;
+}
+@mixin b0 {
+  bottom: 0;
+}
+@mixin l0 {
+  left: 0;
+}

@@ -1,0 +1,14 @@
+.shopping-sort-filter-form {
+  @include align-left;
+  @include bgwhite;
+
+  &-checkbox {
+    @include larger;
+    line-height: 3.5rem;
+  }
+}
+
+.shopping-sort-filter-label {
+  @include gray5;
+  @include pt5;
+}

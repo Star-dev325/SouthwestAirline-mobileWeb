@@ -1,0 +1,23 @@
+.link-bar {
+  @include block;
+  @include p4;
+  @include bgwhite;
+  @include relative;
+  @include bd;
+  @include pdkblue;
+  @include mb4;
+
+  .icon_keyboard-arrow-right {
+    @include absolute;
+    @include xxlarge;
+    @include gray3;
+
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+  }
+}
+
+a.link-bar {
+  @include pdkblue;
+}

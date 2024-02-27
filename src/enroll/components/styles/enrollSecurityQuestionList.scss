@@ -1,0 +1,45 @@
+.enroll-security-questions-list {
+  h3 {
+    @include gray5;
+    @include regular;
+    @include m0;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    border-bottom: 2px solid $gray3;
+  }
+
+  ul {
+    @include pdkblue;
+    @include bgwhite;
+    @include p0;
+    @include m0;
+    font-size: 1.2em;
+
+    li {
+      @include table;
+      @include flex-cross-center;
+      @include relative;
+      @include fullwidth;
+      list-style-type: none;
+      padding: 1em;
+    }
+  }
+
+  .question-list-item-container {
+    @include flex;
+    @include flex-main-between;
+    @include flex-cross-center;
+    border-bottom: 2px solid $gray3;
+
+    i {
+      @include mr4;
+      @include mt1;
+      font-size: 1.5em;
+    }
+  }
+
+  .question-content {
+    @include inline-block;
+    width: 80%;
+  }
+}

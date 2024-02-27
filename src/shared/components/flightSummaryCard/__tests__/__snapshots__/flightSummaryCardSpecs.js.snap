@@ -1,0 +1,661 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flightSummaryCard when there is a disrupted bound message should render correctly when disrupted bound message icon is undefined 1`] = `
+<div
+  className="flight-summary-card rd3 overflow-hidden"
+>
+  <div
+    className="flight-summary-card--disrupted-bound-message"
+  >
+    <Message
+      className=""
+    >
+      test
+    </Message>
+  </div>
+  <FlightSummaryCardHeader
+    departureDate="Tue, Jul 25, 2017"
+    isReturning={false}
+  />
+  <div
+    className="flight-summary-content"
+  >
+    <div
+      className="pricing-summary--group"
+    >
+      <FlightInfo
+        flights={
+          Array [
+            Object {
+              "aircraftInfo": undefined,
+              "flightNumber": "233",
+            },
+          ]
+        }
+        isTotalTravelDuration={true}
+        travelTime="1h 55m"
+      />
+      <ItineraryVertical
+        boundDetail={
+          Object {
+            "arrivalAirport": Object {
+              "code": "ATL",
+              "country": null,
+              "name": "Atlanta",
+              "state": "GA",
+            },
+            "arrivalStatus": null,
+            "arrivalStatusType": null,
+            "arrivalTime": "12:30",
+            "boundType": "DEPARTING",
+            "departureAirport": Object {
+              "code": "DAL",
+              "country": null,
+              "name": "Dallas (Love)",
+              "state": "TX",
+            },
+            "departureDate": "2017-07-25",
+            "departureStatus": null,
+            "departureStatusType": null,
+            "departureTime": "07:35",
+            "disruptedBoundMessage": Object {
+              "icon": undefined,
+              "label": "test",
+            },
+            "fareProductDetails": Object {
+              "fareRulesUrl": "https://mobile.southwest.com/fare-rules/anytime",
+              "label": "Anytime",
+            },
+            "fareType": "Anytime",
+            "flights": Array [
+              Object {
+                "number": "233",
+                "wifiOnBoard": false,
+              },
+            ],
+            "isNextDayArrival": false,
+            "passengerTypeCounts": Object {
+              "adult": 1,
+            },
+            "passengers": Array [
+              Object {
+                "count": 1,
+                "fareType": "Anytime",
+                "type": "Passenger",
+              },
+            ],
+            "stops": Array [],
+            "travelTime": "1h 55m",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`flightSummaryCard when there is a disrupted bound message should render with disrupted FLIX bound message 1`] = `
+<div
+  className="flight-summary-card rd3 overflow-hidden"
+>
+  <div
+    className="flight-summary-card--disrupted-bound-message"
+  >
+    <Message
+      className="red-circle-exclamation"
+      status="error"
+    >
+      Departing flight canceled
+    </Message>
+  </div>
+  <FlightSummaryCardHeader
+    departureDate="Tue, Jul 25, 2017"
+    isReturning={false}
+  />
+  <div
+    className="flight-summary-content"
+  >
+    <div
+      className="pricing-summary--group"
+    >
+      <FlightInfo
+        flights={
+          Array [
+            Object {
+              "aircraftInfo": undefined,
+              "flightNumber": "233",
+            },
+          ]
+        }
+        isTotalTravelDuration={true}
+        travelTime="1h 55m"
+      />
+      <ItineraryVertical
+        boundDetail={
+          Object {
+            "arrivalAirport": Object {
+              "code": "ATL",
+              "country": null,
+              "name": "Atlanta",
+              "state": "GA",
+            },
+            "arrivalStatus": null,
+            "arrivalStatusType": null,
+            "arrivalTime": "12:30",
+            "boundType": "DEPARTING",
+            "departureAirport": Object {
+              "code": "DAL",
+              "country": null,
+              "name": "Dallas (Love)",
+              "state": "TX",
+            },
+            "departureDate": "2017-07-25",
+            "departureStatus": null,
+            "departureStatusType": null,
+            "departureTime": "07:35",
+            "disruptedBoundMessage": Object {
+              "icon": "WARNING",
+              "label": "Departing flight canceled",
+            },
+            "fareProductDetails": Object {
+              "fareRulesUrl": "https://mobile.southwest.com/fare-rules/anytime",
+              "label": "Anytime",
+            },
+            "fareType": "Anytime",
+            "flights": Array [
+              Object {
+                "number": "233",
+                "wifiOnBoard": false,
+              },
+            ],
+            "isNextDayArrival": false,
+            "passengerTypeCounts": Object {
+              "adult": 1,
+            },
+            "passengers": Array [
+              Object {
+                "count": 1,
+                "fareType": "Anytime",
+                "type": "Passenger",
+              },
+            ],
+            "stops": Array [],
+            "travelTime": "1h 55m",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`flightSummaryCard when there is a disrupted bound message should render with disrupted OPR bound message 1`] = `
+<div
+  className="flight-summary-card rd3 overflow-hidden"
+>
+  <div
+    className="flight-summary-card--disrupted-bound-message"
+  >
+    <Message
+      className="green-circle-check"
+      status="success"
+    >
+      New departing flight
+    </Message>
+  </div>
+  <FlightSummaryCardHeader
+    departureDate="Tue, Jul 25, 2017"
+    isReturning={false}
+  />
+  <div
+    className="flight-summary-content"
+  >
+    <div
+      className="pricing-summary--group"
+    >
+      <FlightInfo
+        flights={
+          Array [
+            Object {
+              "aircraftInfo": undefined,
+              "flightNumber": "233",
+            },
+          ]
+        }
+        isTotalTravelDuration={true}
+        travelTime="1h 55m"
+      />
+      <ItineraryVertical
+        boundDetail={
+          Object {
+            "arrivalAirport": Object {
+              "code": "ATL",
+              "country": null,
+              "name": "Atlanta",
+              "state": "GA",
+            },
+            "arrivalStatus": null,
+            "arrivalStatusType": null,
+            "arrivalTime": "12:30",
+            "boundType": "DEPARTING",
+            "departureAirport": Object {
+              "code": "DAL",
+              "country": null,
+              "name": "Dallas (Love)",
+              "state": "TX",
+            },
+            "departureDate": "2017-07-25",
+            "departureStatus": null,
+            "departureStatusType": null,
+            "departureTime": "07:35",
+            "disruptedBoundMessage": Object {
+              "icon": "green-circle-check",
+              "label": "New departing flight",
+            },
+            "fareProductDetails": Object {
+              "fareRulesUrl": "https://mobile.southwest.com/fare-rules/anytime",
+              "label": "Anytime",
+            },
+            "fareType": "Anytime",
+            "flights": Array [
+              Object {
+                "number": "233",
+                "wifiOnBoard": false,
+              },
+            ],
+            "isNextDayArrival": false,
+            "passengerTypeCounts": Object {
+              "adult": 1,
+            },
+            "passengers": Array [
+              Object {
+                "count": 1,
+                "fareType": "Anytime",
+                "type": "Passenger",
+              },
+            ],
+            "stops": Array [],
+            "travelTime": "1h 55m",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`flightSummaryCard when there is a early bird purchased should render with early bird purchased 1`] = `
+<div
+  className="flight-summary-card rd3 overflow-hidden"
+>
+  <FlightSummaryCardHeader
+    departureDate="Tue, Jul 25, 2017"
+    isReturning={false}
+  />
+  <div
+    className="flight-summary-content"
+  >
+    <div
+      className="pricing-summary--group"
+    >
+      <div
+        className=""
+      >
+        <div
+          className="flight-summary-card--early-bird-purchased"
+        >
+          <Icon
+            className="yellow"
+            type="early-bird"
+          />
+          <p
+            className="flight-summary-card--early-bird-purchased-label"
+          >
+            EarlyBird Check-In®
+          </p>
+        </div>
+        <div
+          className="flight-summary-card--early-bird-purchased-passengers"
+        >
+          <p
+            className="flight-summary-card--early-bird-purchased-passenger-label"
+          >
+            PASSENGER(S)
+          </p>
+          <p
+            className="flight-summary-card--early-bird-purchased-passenger-name"
+            key="0"
+          >
+            Mable Phillips
+          </p>
+          <p
+            className="flight-summary-card--early-bird-purchased-passenger-name"
+            key="1"
+          >
+            Tom Jerry
+          </p>
+          <p
+            className="flight-summary-card--early-bird-purchased-passenger-name"
+            key="2"
+          >
+            Benny Hill
+          </p>
+        </div>
+      </div>
+      <FlightInfo
+        flights={
+          Array [
+            Object {
+              "aircraftInfo": undefined,
+              "flightNumber": "233",
+            },
+          ]
+        }
+        isTotalTravelDuration={true}
+        travelTime="1h 55m"
+      />
+      <ItineraryVertical
+        boundDetail={
+          Object {
+            "arrivalAirport": Object {
+              "code": "ATL",
+              "country": null,
+              "name": "Atlanta",
+              "state": "GA",
+            },
+            "arrivalStatus": null,
+            "arrivalStatusType": null,
+            "arrivalTime": "12:30",
+            "boundType": "DEPARTING",
+            "departureAirport": Object {
+              "code": "DAL",
+              "country": null,
+              "name": "Dallas (Love)",
+              "state": "TX",
+            },
+            "departureDate": "2017-07-25",
+            "departureStatus": null,
+            "departureStatusType": null,
+            "departureTime": "07:35",
+            "earlyBirdPurchased": Object {
+              "icon": "earlyBird",
+              "iconColor": "primary-yellow",
+              "label": "EarlyBird Check-In®",
+              "passengerLabel": "PASSENGER(S)",
+              "passengersList": Array [
+                "Mable Phillips",
+                "Tom Jerry",
+                "Benny Hill",
+              ],
+            },
+            "fareProductDetails": Object {
+              "fareRulesUrl": "https://mobile.southwest.com/fare-rules/anytime",
+              "label": "Anytime",
+            },
+            "fareType": "Anytime",
+            "flights": Array [
+              Object {
+                "number": "233",
+                "wifiOnBoard": false,
+              },
+            ],
+            "isNextDayArrival": false,
+            "passengerTypeCounts": Object {
+              "adult": 1,
+            },
+            "passengers": Array [
+              Object {
+                "count": 1,
+                "fareType": "Anytime",
+                "type": "Passenger",
+              },
+            ],
+            "stops": Array [],
+            "travelTime": "1h 55m",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`flightSummaryCard when there is a early bird purchased should render with early bird purchased correctly when AIRCRAFT_TYPE_VIEWRES is true 1`] = `
+<div
+  className="flight-summary-card rd3 overflow-hidden"
+>
+  <FlightSummaryCardHeader
+    departureDate="Tue, Jul 25, 2017"
+    isReturning={false}
+  />
+  <div
+    className="flight-summary-content"
+  >
+    <div
+      className="pricing-summary--group"
+    >
+      <div
+        className="pb5"
+      >
+        <div
+          className="flight-summary-card--early-bird-purchased"
+        >
+          <Icon
+            className="yellow"
+            type="early-bird"
+          />
+          <p
+            className="flight-summary-card--early-bird-purchased-label"
+          >
+            EarlyBird Check-In®
+          </p>
+        </div>
+        <div
+          className="flight-summary-card--early-bird-purchased-passengers"
+        >
+          <p
+            className="flight-summary-card--early-bird-purchased-passenger-label"
+          >
+            PASSENGER(S)
+          </p>
+          <p
+            className="flight-summary-card--early-bird-purchased-passenger-name"
+            key="0"
+          >
+            Mable Phillips
+          </p>
+          <p
+            className="flight-summary-card--early-bird-purchased-passenger-name"
+            key="1"
+          >
+            Tom Jerry
+          </p>
+          <p
+            className="flight-summary-card--early-bird-purchased-passenger-name"
+            key="2"
+          >
+            Benny Hill
+          </p>
+        </div>
+      </div>
+      <FlightInfo
+        AIRCRAFT_TYPE_VIEWRES={true}
+        flights={
+          Array [
+            Object {
+              "aircraftInfo": undefined,
+              "flightNumber": "233",
+            },
+          ]
+        }
+        isTotalTravelDuration={true}
+        travelTime="1h 55m"
+      />
+      <ItineraryVertical
+        boundDetail={
+          Object {
+            "arrivalAirport": Object {
+              "code": "ATL",
+              "country": null,
+              "name": "Atlanta",
+              "state": "GA",
+            },
+            "arrivalStatus": null,
+            "arrivalStatusType": null,
+            "arrivalTime": "12:30",
+            "boundType": "DEPARTING",
+            "departureAirport": Object {
+              "code": "DAL",
+              "country": null,
+              "name": "Dallas (Love)",
+              "state": "TX",
+            },
+            "departureDate": "2017-07-25",
+            "departureStatus": null,
+            "departureStatusType": null,
+            "departureTime": "07:35",
+            "earlyBirdPurchased": Object {
+              "icon": "earlyBird",
+              "iconColor": "primary-yellow",
+              "label": "EarlyBird Check-In®",
+              "passengerLabel": "PASSENGER(S)",
+              "passengersList": Array [
+                "Mable Phillips",
+                "Tom Jerry",
+                "Benny Hill",
+              ],
+            },
+            "fareProductDetails": Object {
+              "fareRulesUrl": "https://mobile.southwest.com/fare-rules/anytime",
+              "label": "Anytime",
+            },
+            "fareType": "Anytime",
+            "flights": Array [
+              Object {
+                "number": "233",
+                "wifiOnBoard": false,
+              },
+            ],
+            "isNextDayArrival": false,
+            "passengerTypeCounts": Object {
+              "adult": 1,
+            },
+            "passengers": Array [
+              Object {
+                "count": 1,
+                "fareType": "Anytime",
+                "type": "Passenger",
+              },
+            ],
+            "stops": Array [],
+            "travelTime": "1h 55m",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`flightSummaryCard when there is a early bird purchased should render with early bird purchased without passengers when passengerLabel and passengersList do not exist 1`] = `
+<div
+  className="flight-summary-card rd3 overflow-hidden"
+>
+  <FlightSummaryCardHeader
+    departureDate="Tue, Jul 25, 2017"
+    isReturning={false}
+  />
+  <div
+    className="flight-summary-content"
+  >
+    <div
+      className="pricing-summary--group"
+    >
+      <div
+        className=""
+      >
+        <div
+          className="flight-summary-card--early-bird-purchased"
+        >
+          <Icon
+            className="yellow"
+            type="early-bird"
+          />
+          <p
+            className="flight-summary-card--early-bird-purchased-label"
+          >
+            EarlyBird Check-In®
+          </p>
+        </div>
+      </div>
+      <FlightInfo
+        flights={
+          Array [
+            Object {
+              "aircraftInfo": undefined,
+              "flightNumber": "233",
+            },
+          ]
+        }
+        isTotalTravelDuration={true}
+        travelTime="1h 55m"
+      />
+      <ItineraryVertical
+        boundDetail={
+          Object {
+            "arrivalAirport": Object {
+              "code": "ATL",
+              "country": null,
+              "name": "Atlanta",
+              "state": "GA",
+            },
+            "arrivalStatus": null,
+            "arrivalStatusType": null,
+            "arrivalTime": "12:30",
+            "boundType": "DEPARTING",
+            "departureAirport": Object {
+              "code": "DAL",
+              "country": null,
+              "name": "Dallas (Love)",
+              "state": "TX",
+            },
+            "departureDate": "2017-07-25",
+            "departureStatus": null,
+            "departureStatusType": null,
+            "departureTime": "07:35",
+            "earlyBirdPurchased": Object {
+              "icon": "earlyBird",
+              "iconColor": "primary-yellow",
+              "label": "EarlyBird Check-In®",
+            },
+            "fareProductDetails": Object {
+              "fareRulesUrl": "https://mobile.southwest.com/fare-rules/anytime",
+              "label": "Anytime",
+            },
+            "fareType": "Anytime",
+            "flights": Array [
+              Object {
+                "number": "233",
+                "wifiOnBoard": false,
+              },
+            ],
+            "isNextDayArrival": false,
+            "passengerTypeCounts": Object {
+              "adult": 1,
+            },
+            "passengers": Array [
+              Object {
+                "count": 1,
+                "fareType": "Anytime",
+                "type": "Passenger",
+              },
+            ],
+            "stops": Array [],
+            "travelTime": "1h 55m",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

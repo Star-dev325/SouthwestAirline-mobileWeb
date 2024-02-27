@@ -1,0 +1,26 @@
+.page-footer-wcm {
+  @include gray5;
+  @include lineheight20;
+  @include pt0;
+  @include px5;
+  @include flex;
+  @include flex-column;
+
+  .page-footer-wcm--row {
+    @include flex;
+    @include flex-row;
+  }
+
+  a {
+    @include pblue;
+    @include large;
+  }
+
+  .page-footer-wcm--copyright {
+    @include medium;
+  }
+}
+
+.page-footer-wcm--divider {
+  @include mx2;
+}

@@ -1,0 +1,2932 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enhancedStandbyPage should not render LabelText when cancel Standby Listing not available 1`] = `
+<div>
+  <div
+    class="enhanced-standby-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <span
+          class="page-title"
+        >
+          STANDBY__TITLE
+        </span>
+        <a
+          class="page-header--right-button"
+        >
+          SHARED__FLIGHT_STATUS__REFRESH
+        </a>
+      </div>
+      <div />
+    </div>
+    <div>
+      <div
+        class="flight-search-summary enhanced-flight-search-summary"
+      >
+        <h5
+          class="page header attached flight-search-summary"
+        >
+          <p
+            class="sub header date"
+          >
+            SHARED__FLIGHTS_SUMMARY_HEADER__TODAYS_DATE:  Thu, Nov 17, 2022
+          </p>
+          <p
+            class="sub header description"
+          >
+            <a
+              href="https://www.southwest.com/airfare-types-benefits/sameday-standby-change"
+              target="_blank"
+            >
+              Standby FAQs 
+            </a>
+             | 
+            <a
+              href="https://www.southwest.com/airfare-types-benefits/sameday-standby-change"
+              target="_blank"
+            >
+              What are my chances I'll make it? 
+            </a>
+          </p>
+        </h5>
+      </div>
+      <div
+        class="standby-container-parent custom-container"
+      >
+        <div
+          class="standby-container"
+        >
+          <div
+            class="standby-container--header"
+          >
+            175 seats available
+          </div>
+          <div
+            class="standby-container--title"
+          >
+            <div
+              class="standby-container--title-destination-description"
+            >
+              Hilo
+            </div>
+            <div
+              class="standby-container--title-airport-info-detail"
+            >
+              Honolulu (Oahu), HI (HNL)
+               
+              STANDBY__TO
+              <br />
+              Hilo, HI (ITO)
+            </div>
+          </div>
+          <div
+            class="standby-body--flight-info"
+          >
+            <div
+              class="label-container standby-body--flight-info-label"
+            >
+              <div
+                class="label-container--label"
+              >
+                Flight
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <span
+                  class="standby-body--flight-info-flight-number flight-number"
+                >
+                  <span>
+                    1476
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-times"
+            >
+              <div
+                class="flight-times--col flight-times--col-label"
+              >
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    Departs
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          7:25
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-times--col flight-times-icon"
+              >
+                <i
+                  class="icon icon_airplane"
+                />
+              </div>
+              <div
+                class="flight-times--col flight-times--col-label"
+              >
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    Arrives
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          8:25
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="standby-container--last-update-time"
+          >
+            STANDBY__LAST_UPDATED 11/17/2022 12:00:00 AM
+          </div>
+          <div
+            class="standby-container--list"
+          >
+            <div
+              class="standby-body--standby-list"
+            >
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle confirmed"
+                  >
+                    <i
+                      class="confirm-check icon icon_check"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name standby-list--item-name-pnr"
+                  >
+                    CLAYB / BR
+                  </span>
+                  <span
+                    class="standby-list--item-cleared"
+                  >
+                    CLEARED
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle confirmed"
+                  >
+                    <i
+                      class="confirm-check icon icon_check"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / LI
+                  </span>
+                  <span
+                    class="standby-list--item-cleared"
+                  >
+                    CLEARED
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      3
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name standby-list--item-name-pnr"
+                  >
+                    CLAYB / GI
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      4
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / CL
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      5
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / RY
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="standby-disclaimer"
+        data-qa="standby-disclaimer"
+      >
+        Standby position subject to change without notice. Seat availability is not guaranteed. Please see a Customer Service Agent for full details of standby position and any questions regarding fare difference, taxes, or fees you may be required to pay.
+      </div>
+      <div
+        class="standby-wcm"
+      >
+        <a
+          href="https://www.southwest.com/help/changes-and-cancellations/same-day-change-same-day-standby "
+          target="_blank"
+        >
+          Standby list policies and information 
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`enhancedStandbyPage should not render LabelText when cancel standby listing label text not available 1`] = `
+<div>
+  <div
+    class="enhanced-standby-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <span
+          class="page-title"
+        >
+          STANDBY__TITLE
+        </span>
+        <a
+          class="page-header--right-button"
+        >
+          SHARED__FLIGHT_STATUS__REFRESH
+        </a>
+      </div>
+      <div />
+    </div>
+    <div>
+      <div
+        class="flight-search-summary enhanced-flight-search-summary"
+      >
+        <h5
+          class="page header attached flight-search-summary"
+        >
+          <p
+            class="sub header date"
+          >
+            SHARED__FLIGHTS_SUMMARY_HEADER__TODAYS_DATE:  Thu, Nov 17, 2022
+          </p>
+          <p
+            class="sub header description"
+          >
+            <a
+              href="https://www.southwest.com/airfare-types-benefits/sameday-standby-change"
+              target="_blank"
+            >
+              Standby FAQs 
+            </a>
+             | 
+            <a
+              href="https://www.southwest.com/airfare-types-benefits/sameday-standby-change"
+              target="_blank"
+            >
+              What are my chances I'll make it? 
+            </a>
+          </p>
+        </h5>
+      </div>
+      <div
+        class="standby-container-parent custom-container"
+      >
+        <div
+          class="standby-container"
+        >
+          <div
+            class="standby-container--header"
+          >
+            175 seats available
+          </div>
+          <div
+            class="standby-container--title"
+          >
+            <div
+              class="standby-container--title-destination-description"
+            >
+              Hilo
+            </div>
+            <div
+              class="standby-container--title-airport-info-detail"
+            >
+              Honolulu (Oahu), HI (HNL)
+               
+              STANDBY__TO
+              <br />
+              Hilo, HI (ITO)
+            </div>
+          </div>
+          <div
+            class="standby-body--flight-info"
+          >
+            <div
+              class="label-container standby-body--flight-info-label"
+            >
+              <div
+                class="label-container--label"
+              >
+                Flight
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <span
+                  class="standby-body--flight-info-flight-number flight-number"
+                >
+                  <span>
+                    1476
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-times"
+            >
+              <div
+                class="flight-times--col flight-times--col-label"
+              >
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    Departs
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          7:25
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-times--col flight-times-icon"
+              >
+                <i
+                  class="icon icon_airplane"
+                />
+              </div>
+              <div
+                class="flight-times--col flight-times--col-label"
+              >
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    Arrives
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          8:25
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="standby-container--last-update-time"
+          >
+            STANDBY__LAST_UPDATED 11/17/2022 12:00:00 AM
+          </div>
+          <div
+            class="standby-container--list"
+          >
+            <div
+              class="standby-body--standby-list"
+            >
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle confirmed"
+                  >
+                    <i
+                      class="confirm-check icon icon_check"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name standby-list--item-name-pnr"
+                  >
+                    CLAYB / BR
+                  </span>
+                  <span
+                    class="standby-list--item-cleared"
+                  >
+                    CLEARED
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle confirmed"
+                  >
+                    <i
+                      class="confirm-check icon icon_check"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / LI
+                  </span>
+                  <span
+                    class="standby-list--item-cleared"
+                  >
+                    CLEARED
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      3
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name standby-list--item-name-pnr"
+                  >
+                    CLAYB / GI
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      4
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / CL
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      5
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / RY
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="standby-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          role="submit"
+          type="submit"
+        >
+          Cancel standby listing
+        </button>
+      </div>
+      <div
+        class="standby-disclaimer"
+        data-qa="standby-disclaimer"
+      >
+        Standby position subject to change without notice. Seat availability is not guaranteed. Please see a Customer Service Agent for full details of standby position and any questions regarding fare difference, taxes, or fees you may be required to pay.
+      </div>
+      <div
+        class="standby-wcm"
+      >
+        <a
+          href="https://www.southwest.com/help/changes-and-cancellations/same-day-change-same-day-standby "
+          target="_blank"
+        >
+          Standby list policies and information 
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`enhancedStandbyPage should not render LabelText when cancelBound label text is not available 1`] = `
+<div>
+  <div
+    class="enhanced-standby-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <span
+          class="page-title"
+        >
+          STANDBY__TITLE
+        </span>
+        <a
+          class="page-header--right-button"
+        >
+          SHARED__FLIGHT_STATUS__REFRESH
+        </a>
+      </div>
+      <div />
+    </div>
+    <div>
+      <div
+        class="flight-search-summary enhanced-flight-search-summary"
+      >
+        <h5
+          class="page header attached flight-search-summary"
+        >
+          <p
+            class="sub header date"
+          >
+            SHARED__FLIGHTS_SUMMARY_HEADER__TODAYS_DATE:  Thu, Nov 17, 2022
+          </p>
+          <p
+            class="sub header description"
+          >
+            <a
+              href="https://www.southwest.com/airfare-types-benefits/sameday-standby-change"
+              target="_blank"
+            >
+              Standby FAQs 
+            </a>
+             | 
+            <a
+              href="https://www.southwest.com/airfare-types-benefits/sameday-standby-change"
+              target="_blank"
+            >
+              What are my chances I'll make it? 
+            </a>
+          </p>
+        </h5>
+      </div>
+      <div
+        class="standby-container-parent custom-container"
+      >
+        <div
+          class="standby-container"
+        >
+          <div
+            class="standby-container--header"
+          >
+            175 seats available
+          </div>
+          <div
+            class="standby-container--title"
+          >
+            <div
+              class="standby-container--title-destination-description"
+            >
+              Hilo
+            </div>
+            <div
+              class="standby-container--title-airport-info-detail"
+            >
+              Honolulu (Oahu), HI (HNL)
+               
+              STANDBY__TO
+              <br />
+              Hilo, HI (ITO)
+            </div>
+          </div>
+          <div
+            class="standby-body--flight-info"
+          >
+            <div
+              class="label-container standby-body--flight-info-label"
+            >
+              <div
+                class="label-container--label"
+              >
+                Flight
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <span
+                  class="standby-body--flight-info-flight-number flight-number"
+                >
+                  <span>
+                    1476
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-times"
+            >
+              <div
+                class="flight-times--col flight-times--col-label"
+              >
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    Departs
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          7:25
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-times--col flight-times-icon"
+              >
+                <i
+                  class="icon icon_airplane"
+                />
+              </div>
+              <div
+                class="flight-times--col flight-times--col-label"
+              >
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    Arrives
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          8:25
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="standby-container--last-update-time"
+          >
+            STANDBY__LAST_UPDATED 11/17/2022 12:00:00 AM
+          </div>
+          <div
+            class="standby-container--list"
+          >
+            <div
+              class="standby-body--standby-list"
+            >
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle confirmed"
+                  >
+                    <i
+                      class="confirm-check icon icon_check"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name standby-list--item-name-pnr"
+                  >
+                    CLAYB / BR
+                  </span>
+                  <span
+                    class="standby-list--item-cleared"
+                  >
+                    CLEARED
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle confirmed"
+                  >
+                    <i
+                      class="confirm-check icon icon_check"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / LI
+                  </span>
+                  <span
+                    class="standby-list--item-cleared"
+                  >
+                    CLEARED
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      3
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name standby-list--item-name-pnr"
+                  >
+                    CLAYB / GI
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      4
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / CL
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      5
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / RY
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="standby-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          role="submit"
+          type="submit"
+        >
+          Cancel standby listing
+        </button>
+      </div>
+      <div
+        class="standby-disclaimer"
+        data-qa="standby-disclaimer"
+      >
+        Standby position subject to change without notice. Seat availability is not guaranteed. Please see a Customer Service Agent for full details of standby position and any questions regarding fare difference, taxes, or fees you may be required to pay.
+      </div>
+      <div
+        class="standby-wcm"
+      >
+        <a
+          href="https://www.southwest.com/help/changes-and-cancellations/same-day-change-same-day-standby "
+          target="_blank"
+        >
+          Standby list policies and information 
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`enhancedStandbyPage should not render disclaimer link when it is not avaialble 1`] = `
+<div>
+  <div
+    class="enhanced-standby-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <span
+          class="page-title"
+        >
+          STANDBY__TITLE
+        </span>
+        <a
+          class="page-header--right-button"
+        >
+          SHARED__FLIGHT_STATUS__REFRESH
+        </a>
+      </div>
+      <div />
+    </div>
+    <div>
+      <div
+        class="flight-search-summary enhanced-flight-search-summary"
+      >
+        <h5
+          class="page header attached flight-search-summary"
+        >
+          <p
+            class="sub header date"
+          >
+            SHARED__FLIGHTS_SUMMARY_HEADER__TODAYS_DATE:  Thu, Nov 17, 2022
+          </p>
+          <p
+            class="sub header description"
+          >
+            <a
+              href="https://www.southwest.com/airfare-types-benefits/sameday-standby-change"
+              target="_blank"
+            >
+              Standby FAQs 
+            </a>
+             | 
+            <a
+              href="https://www.southwest.com/airfare-types-benefits/sameday-standby-change"
+              target="_blank"
+            >
+              What are my chances I'll make it? 
+            </a>
+          </p>
+        </h5>
+      </div>
+      <div
+        class="standby-container-parent custom-container"
+      >
+        <div
+          class="standby-container"
+        >
+          <div
+            class="standby-container--header"
+          >
+            175 seats available
+          </div>
+          <div
+            class="standby-container--title"
+          >
+            <div
+              class="standby-container--title-destination-description"
+            >
+              Hilo
+            </div>
+            <div
+              class="standby-container--title-airport-info-detail"
+            >
+              Honolulu (Oahu), HI (HNL)
+               
+              STANDBY__TO
+              <br />
+              Hilo, HI (ITO)
+            </div>
+          </div>
+          <div
+            class="standby-body--flight-info"
+          >
+            <div
+              class="label-container standby-body--flight-info-label"
+            >
+              <div
+                class="label-container--label"
+              >
+                Flight
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <span
+                  class="standby-body--flight-info-flight-number flight-number"
+                >
+                  <span>
+                    1476
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-times"
+            >
+              <div
+                class="flight-times--col flight-times--col-label"
+              >
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    Departs
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          7:25
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-times--col flight-times-icon"
+              >
+                <i
+                  class="icon icon_airplane"
+                />
+              </div>
+              <div
+                class="flight-times--col flight-times--col-label"
+              >
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    Arrives
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          8:25
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="standby-container--last-update-time"
+          >
+            STANDBY__LAST_UPDATED 11/17/2022 12:00:00 AM
+          </div>
+          <div
+            class="standby-container--list"
+          >
+            <div
+              class="standby-body--standby-list"
+            >
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle confirmed"
+                  >
+                    <i
+                      class="confirm-check icon icon_check"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name standby-list--item-name-pnr"
+                  >
+                    CLAYB / BR
+                  </span>
+                  <span
+                    class="standby-list--item-cleared"
+                  >
+                    CLEARED
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle confirmed"
+                  >
+                    <i
+                      class="confirm-check icon icon_check"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / LI
+                  </span>
+                  <span
+                    class="standby-list--item-cleared"
+                  >
+                    CLEARED
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      3
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name standby-list--item-name-pnr"
+                  >
+                    CLAYB / GI
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      4
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / CL
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      5
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / RY
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="standby-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          role="submit"
+          type="submit"
+        >
+          Cancel standby listing
+        </button>
+      </div>
+      <div
+        class="standby-disclaimer"
+        data-qa="standby-disclaimer"
+      >
+        Standby position subject to change without notice. Seat availability is not guaranteed. Please see a Customer Service Agent for full details of standby position and any questions regarding fare difference, taxes, or fees you may be required to pay.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`enhancedStandbyPage should not render disclaimer text when it is not avaialble 1`] = `
+<div>
+  <div
+    class="enhanced-standby-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <span
+          class="page-title"
+        >
+          STANDBY__TITLE
+        </span>
+        <a
+          class="page-header--right-button"
+        >
+          SHARED__FLIGHT_STATUS__REFRESH
+        </a>
+      </div>
+      <div />
+    </div>
+    <div>
+      <div
+        class="flight-search-summary enhanced-flight-search-summary"
+      >
+        <h5
+          class="page header attached flight-search-summary"
+        >
+          <p
+            class="sub header date"
+          >
+            SHARED__FLIGHTS_SUMMARY_HEADER__TODAYS_DATE:  Thu, Nov 17, 2022
+          </p>
+          <p
+            class="sub header description"
+          >
+            <a
+              href="https://www.southwest.com/airfare-types-benefits/sameday-standby-change"
+              target="_blank"
+            >
+              Standby FAQs 
+            </a>
+             | 
+            <a
+              href="https://www.southwest.com/airfare-types-benefits/sameday-standby-change"
+              target="_blank"
+            >
+              What are my chances I'll make it? 
+            </a>
+          </p>
+        </h5>
+      </div>
+      <div
+        class="standby-container-parent custom-container"
+      >
+        <div
+          class="standby-container"
+        >
+          <div
+            class="standby-container--header"
+          >
+            175 seats available
+          </div>
+          <div
+            class="standby-container--title"
+          >
+            <div
+              class="standby-container--title-destination-description"
+            >
+              Hilo
+            </div>
+            <div
+              class="standby-container--title-airport-info-detail"
+            >
+              Honolulu (Oahu), HI (HNL)
+               
+              STANDBY__TO
+              <br />
+              Hilo, HI (ITO)
+            </div>
+          </div>
+          <div
+            class="standby-body--flight-info"
+          >
+            <div
+              class="label-container standby-body--flight-info-label"
+            >
+              <div
+                class="label-container--label"
+              >
+                Flight
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <span
+                  class="standby-body--flight-info-flight-number flight-number"
+                >
+                  <span>
+                    1476
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-times"
+            >
+              <div
+                class="flight-times--col flight-times--col-label"
+              >
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    Departs
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          7:25
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-times--col flight-times-icon"
+              >
+                <i
+                  class="icon icon_airplane"
+                />
+              </div>
+              <div
+                class="flight-times--col flight-times--col-label"
+              >
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    Arrives
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          8:25
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="standby-container--last-update-time"
+          >
+            STANDBY__LAST_UPDATED 11/17/2022 12:00:00 AM
+          </div>
+          <div
+            class="standby-container--list"
+          >
+            <div
+              class="standby-body--standby-list"
+            >
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle confirmed"
+                  >
+                    <i
+                      class="confirm-check icon icon_check"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name standby-list--item-name-pnr"
+                  >
+                    CLAYB / BR
+                  </span>
+                  <span
+                    class="standby-list--item-cleared"
+                  >
+                    CLEARED
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle confirmed"
+                  >
+                    <i
+                      class="confirm-check icon icon_check"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / LI
+                  </span>
+                  <span
+                    class="standby-list--item-cleared"
+                  >
+                    CLEARED
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      3
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name standby-list--item-name-pnr"
+                  >
+                    CLAYB / GI
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      4
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / CL
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      5
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / RY
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="standby-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          role="submit"
+          type="submit"
+        >
+          Cancel standby listing
+        </button>
+      </div>
+      <div
+        class="standby-wcm"
+      >
+        <a
+          href="https://www.southwest.com/help/changes-and-cancellations/same-day-change-same-day-standby "
+          target="_blank"
+        >
+          Standby list policies and information 
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`enhancedStandbyPage should not render standby page with header 1`] = `
+<div>
+  <div
+    class="enhanced-standby-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <span
+          class="page-title"
+        >
+          STANDBY__TITLE
+        </span>
+        <a
+          class="page-header--right-button"
+        >
+          SHARED__FLIGHT_STATUS__REFRESH
+        </a>
+      </div>
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`enhancedStandbyPage should not render standby page with seats available text 1`] = `
+<div>
+  <div
+    class="enhanced-standby-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <span
+          class="page-title"
+        >
+          STANDBY__TITLE
+        </span>
+        <a
+          class="page-header--right-button"
+        >
+          SHARED__FLIGHT_STATUS__REFRESH
+        </a>
+      </div>
+      <div />
+    </div>
+    <div>
+      <div
+        class="flight-search-summary enhanced-flight-search-summary"
+      >
+        <h5
+          class="page header attached flight-search-summary"
+        >
+          <p
+            class="sub header date"
+          >
+            SHARED__FLIGHTS_SUMMARY_HEADER__TODAYS_DATE:  Thu, Nov 17, 2022
+          </p>
+          <p
+            class="sub header description"
+          >
+            <a
+              href="https://www.southwest.com/airfare-types-benefits/sameday-standby-change"
+              target="_blank"
+            >
+              Standby FAQs 
+            </a>
+             | 
+            <a
+              href="https://www.southwest.com/airfare-types-benefits/sameday-standby-change"
+              target="_blank"
+            >
+              What are my chances I'll make it? 
+            </a>
+          </p>
+        </h5>
+      </div>
+      <div
+        class="standby-container-parent custom-container"
+      >
+        <div
+          class="standby-container"
+        >
+          <div
+            class="standby-container--title"
+          >
+            <div
+              class="standby-container--title-destination-description"
+            >
+              Hilo
+            </div>
+            <div
+              class="standby-container--title-airport-info-detail"
+            >
+              Honolulu (Oahu), HI (HNL)
+               
+              STANDBY__TO
+              <br />
+              Hilo, HI (ITO)
+            </div>
+          </div>
+          <div
+            class="standby-body--flight-info"
+          >
+            <div
+              class="label-container standby-body--flight-info-label"
+            >
+              <div
+                class="label-container--label"
+              >
+                Flight
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <span
+                  class="standby-body--flight-info-flight-number flight-number"
+                >
+                  <span>
+                    1476
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-times"
+            >
+              <div
+                class="flight-times--col flight-times--col-label"
+              >
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    Departs
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          7:25
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-times--col flight-times-icon"
+              >
+                <i
+                  class="icon icon_airplane"
+                />
+              </div>
+              <div
+                class="flight-times--col flight-times--col-label"
+              >
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    Arrives
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          8:25
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="standby-container--last-update-time"
+          >
+            STANDBY__LAST_UPDATED 11/17/2022 12:00:00 AM
+          </div>
+          <div
+            class="standby-container--list"
+          >
+            <div
+              class="standby-body--standby-list"
+            >
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle confirmed"
+                  >
+                    <i
+                      class="confirm-check icon icon_check"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name standby-list--item-name-pnr"
+                  >
+                    CLAYB / BR
+                  </span>
+                  <span
+                    class="standby-list--item-cleared"
+                  >
+                    CLEARED
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle confirmed"
+                  >
+                    <i
+                      class="confirm-check icon icon_check"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / LI
+                  </span>
+                  <span
+                    class="standby-list--item-cleared"
+                  >
+                    CLEARED
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      3
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name standby-list--item-name-pnr"
+                  >
+                    CLAYB / GI
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      4
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / CL
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      5
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / RY
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="standby-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          role="submit"
+          type="submit"
+        >
+          Cancel standby listing
+        </button>
+      </div>
+      <div
+        class="standby-disclaimer"
+        data-qa="standby-disclaimer"
+      >
+        Standby position subject to change without notice. Seat availability is not guaranteed. Please see a Customer Service Agent for full details of standby position and any questions regarding fare difference, taxes, or fees you may be required to pay.
+      </div>
+      <div
+        class="standby-wcm"
+      >
+        <a
+          href="https://www.southwest.com/help/changes-and-cancellations/same-day-change-same-day-standby "
+          target="_blank"
+        >
+          Standby list policies and information 
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`enhancedStandbyPage should render standby page 1`] = `
+<div>
+  <div
+    class="enhanced-standby-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <span
+          class="page-title"
+        >
+          STANDBY__TITLE
+        </span>
+        <a
+          class="page-header--right-button"
+        >
+          SHARED__FLIGHT_STATUS__REFRESH
+        </a>
+      </div>
+      <div />
+    </div>
+    <div>
+      <div
+        class="flight-search-summary enhanced-flight-search-summary"
+      >
+        <h5
+          class="page header attached flight-search-summary"
+        >
+          <p
+            class="sub header date"
+          >
+            SHARED__FLIGHTS_SUMMARY_HEADER__TODAYS_DATE:  Thu, Nov 17, 2022
+          </p>
+          <p
+            class="sub header description"
+          >
+            <a
+              href="https://www.southwest.com/airfare-types-benefits/sameday-standby-change"
+              target="_blank"
+            >
+              Standby FAQs 
+            </a>
+             | 
+            <a
+              href="https://www.southwest.com/airfare-types-benefits/sameday-standby-change"
+              target="_blank"
+            >
+              What are my chances I'll make it? 
+            </a>
+          </p>
+        </h5>
+      </div>
+      <div
+        class="standby-container-parent custom-container"
+      >
+        <div
+          class="standby-container"
+        >
+          <div
+            class="standby-container--header"
+          >
+            175 seats available
+          </div>
+          <div
+            class="standby-container--title"
+          >
+            <div
+              class="standby-container--title-destination-description"
+            >
+              Hilo
+            </div>
+            <div
+              class="standby-container--title-airport-info-detail"
+            >
+              Honolulu (Oahu), HI (HNL)
+               
+              STANDBY__TO
+              <br />
+              Hilo, HI (ITO)
+            </div>
+          </div>
+          <div
+            class="standby-body--flight-info"
+          >
+            <div
+              class="label-container standby-body--flight-info-label"
+            >
+              <div
+                class="label-container--label"
+              >
+                Flight
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <span
+                  class="standby-body--flight-info-flight-number flight-number"
+                >
+                  <span>
+                    1476
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-times"
+            >
+              <div
+                class="flight-times--col flight-times--col-label"
+              >
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    Departs
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          7:25
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-times--col flight-times-icon"
+              >
+                <i
+                  class="icon icon_airplane"
+                />
+              </div>
+              <div
+                class="flight-times--col flight-times--col-label"
+              >
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    Arrives
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          8:25
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="standby-container--last-update-time"
+          >
+            STANDBY__LAST_UPDATED 11/17/2022 12:00:00 AM
+          </div>
+          <div
+            class="standby-container--list"
+          >
+            <div
+              class="standby-body--standby-list"
+            >
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle confirmed"
+                  >
+                    <i
+                      class="confirm-check icon icon_check"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name standby-list--item-name-pnr"
+                  >
+                    CLAYB / BR
+                  </span>
+                  <span
+                    class="standby-list--item-cleared"
+                  >
+                    CLEARED
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle confirmed"
+                  >
+                    <i
+                      class="confirm-check icon icon_check"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / LI
+                  </span>
+                  <span
+                    class="standby-list--item-cleared"
+                  >
+                    CLEARED
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      3
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name standby-list--item-name-pnr"
+                  >
+                    CLAYB / GI
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      4
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / CL
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      5
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / RY
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="standby-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          role="submit"
+          type="submit"
+        >
+          Cancel standby listing
+        </button>
+      </div>
+      <div
+        class="standby-disclaimer"
+        data-qa="standby-disclaimer"
+      >
+        Standby position subject to change without notice. Seat availability is not guaranteed. Please see a Customer Service Agent for full details of standby position and any questions regarding fare difference, taxes, or fees you may be required to pay.
+      </div>
+      <div
+        class="standby-wcm"
+      >
+        <a
+          href="https://www.southwest.com/help/changes-and-cancellations/same-day-change-same-day-standby "
+          target="_blank"
+        >
+          Standby list policies and information 
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`enhancedStandbyPage should render standby page with cancel bound 1`] = `
+<div>
+  <div
+    class="enhanced-standby-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <span
+          class="page-title"
+        >
+          STANDBY__TITLE
+        </span>
+        <a
+          class="page-header--right-button"
+        >
+          SHARED__FLIGHT_STATUS__REFRESH
+        </a>
+      </div>
+      <div />
+    </div>
+    <div>
+      <div
+        class="flight-search-summary enhanced-flight-search-summary"
+      >
+        <h5
+          class="page header attached flight-search-summary"
+        >
+          <p
+            class="sub header date"
+          >
+            SHARED__FLIGHTS_SUMMARY_HEADER__TODAYS_DATE:  Thu, Nov 17, 2022
+          </p>
+          <p
+            class="sub header description"
+          >
+            <a
+              href="https://www.southwest.com/airfare-types-benefits/sameday-standby-change"
+              target="_blank"
+            >
+              Standby FAQs 
+            </a>
+             | 
+            <a
+              href="https://www.southwest.com/airfare-types-benefits/sameday-standby-change"
+              target="_blank"
+            >
+              What are my chances I'll make it? 
+            </a>
+          </p>
+        </h5>
+      </div>
+      <div
+        class="standby-container-parent custom-container"
+      >
+        <div
+          class="standby-container"
+        >
+          <div
+            class="standby-container--header"
+          >
+            175 seats available
+          </div>
+          <div
+            class="standby-container--title"
+          >
+            <div
+              class="standby-container--title-destination-description"
+            >
+              Hilo
+            </div>
+            <div
+              class="standby-container--title-airport-info-detail"
+            >
+              Honolulu (Oahu), HI (HNL)
+               
+              STANDBY__TO
+              <br />
+              Hilo, HI (ITO)
+            </div>
+          </div>
+          <div
+            class="standby-body--flight-info"
+          >
+            <div
+              class="label-container standby-body--flight-info-label"
+            >
+              <div
+                class="label-container--label"
+              >
+                Flight
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <span
+                  class="standby-body--flight-info-flight-number flight-number"
+                >
+                  <span>
+                    1476
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              class="flight-times"
+            >
+              <div
+                class="flight-times--col flight-times--col-label"
+              >
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    Departs
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          7:25
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-times--col flight-times-icon"
+              >
+                <i
+                  class="icon icon_airplane"
+                />
+              </div>
+              <div
+                class="flight-times--col flight-times--col-label"
+              >
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    Arrives
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          8:25
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="standby-container--last-update-time"
+          >
+            STANDBY__LAST_UPDATED 11/17/2022 12:00:00 AM
+          </div>
+          <div
+            class="standby-container--list"
+          >
+            <div
+              class="standby-body--standby-list"
+            >
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle confirmed"
+                  >
+                    <i
+                      class="confirm-check icon icon_check"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name standby-list--item-name-pnr"
+                  >
+                    CLAYB / BR
+                  </span>
+                  <span
+                    class="standby-list--item-cleared"
+                  >
+                    CLEARED
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle confirmed"
+                  >
+                    <i
+                      class="confirm-check icon icon_check"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / LI
+                  </span>
+                  <span
+                    class="standby-list--item-cleared"
+                  >
+                    CLEARED
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      3
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name standby-list--item-name-pnr"
+                  >
+                    CLAYB / GI
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      4
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / CL
+                  </span>
+                </div>
+              </div>
+              <div
+                class="standby-list--item enhanced-standby-list--item"
+              >
+                <div
+                  class="standby-list--item-left"
+                >
+                  <div
+                    class="standby-list--item-circle unconfirmed"
+                  >
+                    <span
+                      class="standby-list--item-number"
+                    >
+                      5
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standby-list--item-right"
+                >
+                  <span
+                    class="standby-list--item-name"
+                  >
+                    CLAYB / RY
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="standby-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          role="submit"
+          type="submit"
+        >
+          Cancel standby listing
+        </button>
+      </div>
+      <div
+        class="standby-disclaimer"
+        data-qa="standby-disclaimer"
+      >
+        Standby position subject to change without notice. Seat availability is not guaranteed. Please see a Customer Service Agent for full details of standby position and any questions regarding fare difference, taxes, or fees you may be required to pay.
+      </div>
+      <div
+        class="standby-wcm"
+      >
+        <a
+          href="https://www.southwest.com/help/changes-and-cancellations/same-day-change-same-day-standby "
+          target="_blank"
+        >
+          Standby list policies and information 
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

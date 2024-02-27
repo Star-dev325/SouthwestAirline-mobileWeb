@@ -1,0 +1,135 @@
+{
+  "revision": "20160922163211906",
+  "offerKey": "promotions_los_angeles_sale_160906_offers",
+  "offerStart": "20160906",
+  "offerEnd": "20161219",
+  "bookingStart": "20161204",
+  "intlTarget": "https://www.southwest.com/flight/shortcut/low-fare-search.html",
+  "offer": {
+    "saleDetails": [
+      {
+        "offerDetails": "<p>We're excited to bring new international service from LAX to sunny Mexico destinations. Service begins December 4, 2016. Get there with a sale fare! Book by September 19, 2016. Travel valid December 4, 2016 through March 2, 2017.</p>",
+        "offerImage": "/content/mkt/images/hero_shots/app_slp_hero_lax_160906.jpg"
+      },
+      {
+        "tcName": "Terms & Conditions",
+        "tcContent": "<p>Purchase from September 6 through September 19, 2016, 11:59 p.m. for the respective time zone of the originating city.<br />International travel valid December 4, 2016, through March 2, 2017.<br />Sale fares to international destinations blacked out December 24 - 26, 2016; sale fares from international destinations blacked out December 31, 2016 - January 2, 2017.<br />Travel to Cancun, Cabo San Lucas/Los Cabos and Puerto Vallarta is valid only on Sundays through Wednesdays. Travel from Cancun, Cabo San Lucas/Los Cabos and Puerto Vallarta is valid only on Tuesdays through Fridays.<br />Fares valid on nonstop service only.<br />Displayed prices include all U.S. and international government taxes and fees.<br />Points bookings do not include taxes, fees, and other government/airport charges of at least $5.60 per one way flight.<br />Seats and days are limited. Fares may vary by destination, flight, and day of week and won't be available on some flights that operate during very busy travel times and holiday periods.<br />Travel is available for one-way Wanna Get Away&reg; fares.<br />Fares may be combined with other Southwest Airlines&reg; combinable fares. If combining with other fares, the most restrictive fare's rules apply.<br />Sale fares may be available on other days of week, but not guaranteed.<br />Fares are nonrefundable but may be applied toward future travel on Southwest Airlines&reg;, so long as you cancel your reservations at least ten minutes prior to the scheduled departure of your flight. Failure to cancel prior to departure will result in forfeiture of remaining funds on the reservation.<br />Any change in itinerary may result in an increase in fare. Standby travel requires an upgrade to the Anytime fare.<br />Fares are subject to change until ticketed.<br />Offer applies to published, scheduled service only.</p>"
+      }
+    ],
+    "offerOD": [
+      {
+        "origin": "CUN",
+        "destinations": [
+          {
+            "isIntl": false,
+            "dest": "LAX",
+            "priceDollars": {
+              "USD": "147",
+              "CAD": "",
+              "MXN": ""
+            },
+            "pricePnts": "5688",
+            "fbcCode": "TCNUNNR"
+          }
+        ]
+      },
+      {
+        "origin": "LAX",
+        "destinations": [
+          {
+            "isIntl": false,
+            "dest": "DAL",
+            "priceDollars": {
+              "USD": "129",
+              "CAD": "",
+              "MXN": ""
+            },
+            "pricePnts": "5688",
+            "fbcCode": "TCNUNNR"
+          },
+          {
+            "isIntl": true,
+            "dest": "MEX",
+            "priceDollars": {
+              "USD": "125",
+              "CAD": "",
+              "MXN": ""
+            },
+            "pricePnts": "",
+            "fbcCode": ""
+          },
+          {
+            "isIntl": true,
+            "dest": "PVR",
+            "priceDollars": {
+              "USD": "129",
+              "CAD": "",
+              "MXN": ""
+            },
+            "pricePnts": "5688",
+            "fbcCode": "TCNUNNR"
+          },
+          {
+            "isIntl": true,
+            "dest": "SJD",
+            "priceDollars": {
+              "USD": "129",
+              "CAD": "",
+              "MXN": ""
+            },
+            "pricePnts": "5688",
+            "fbcCode": "TCNUNNR"
+          }
+        ]
+      },
+      {
+        "origin": "PVR",
+        "destinations": [
+          {
+            "isIntl": false,
+            "dest": "LAX",
+            "priceDollars": {
+              "USD": "152",
+              "CAD": "",
+              "MXN": ""
+            },
+            "pricePnts": "5688",
+            "fbcCode": "TCNUNNR"
+          }
+        ]
+      },
+      {
+        "origin": "SJD",
+        "destinations": [
+          {
+            "isIntl": false,
+            "dest": "LAX",
+            "priceDollars": {
+              "USD": "155",
+              "CAD": "",
+              "MXN": ""
+            },
+            "pricePnts": "5688",
+            "fbcCode": "TCNUNNR"
+          }
+        ]
+      },
+      {
+        "origin": "MEX",
+        "destinations": [
+          {
+            "isIntl": true,
+            "dest": "HOU",
+            "priceDollars": {
+              "USD": "163",
+              "CAD": "",
+              "MXN": ""
+            },
+            "pricePnts": "",
+            "fbcCode": ""
+          }
+        ]
+      }
+    ]
+  }
+}

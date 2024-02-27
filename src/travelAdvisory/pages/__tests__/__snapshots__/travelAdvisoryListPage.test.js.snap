@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TravelAdvisoryListPage should render 3 items with title when there are 3 advisories 1`] = `
+<div>
+  <div
+    class="travel-advisory-list"
+  >
+    <div>
+      <div
+        class="nav-item travel-advisory-item"
+      >
+        <i
+          class="travel-advisory-item--title-icon icon icon_exclamation-circle"
+        />
+        <span
+          class="travel-advisory-item--title"
+        >
+          title1
+        </span>
+        <i
+          class="icon icon_keyboard-arrow-right"
+        />
+      </div>
+      <div
+        class="nav-item travel-advisory-item"
+      >
+        <i
+          class="travel-advisory-item--title-icon icon icon_exclamation-circle"
+        />
+        <span
+          class="travel-advisory-item--title"
+        >
+          title2
+        </span>
+        <i
+          class="icon icon_keyboard-arrow-right"
+        />
+      </div>
+      <div
+        class="nav-item travel-advisory-item"
+      >
+        <i
+          class="travel-advisory-item--title-icon icon icon_exclamation-circle"
+        />
+        <span
+          class="travel-advisory-item--title"
+        >
+          title3
+        </span>
+        <i
+          class="icon icon_keyboard-arrow-right"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,31 @@
+.purchase-summary-page .booking .bottom-promo {
+  @include bgpdkblue;
+  @include p0;
+  @include pt4;
+}
+
+.is-webview {
+  &.purchase-summary-page {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .purchase-summary-form {
+        @include bggray2;
+
+        margin-top: $tablet-content-frame-margin-top;
+      }
+
+      .purchase-summary-form,
+      .review-footer,
+      .dynamic-placement,
+      .bottom-promo {
+        @include mx-auto;
+        @include tablet-content-frame-lg;
+      }
+
+      .review-footer {
+        margin-bottom: $tablet-content-frame-margin-bottom;
+      }
+    }
+  }
+}

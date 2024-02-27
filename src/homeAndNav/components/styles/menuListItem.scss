@@ -1,0 +1,98 @@
+.menu-list-item--heading {
+  @include left;
+  padding: 1rem 0;
+}
+
+.menu-list-item--heading-icon {
+  @include gray5;
+  font-size: 2rem;
+}
+
+.menu-list--fly-southwest,
+.menu-list--contact-us,
+.menu-list--get-the-app-link {
+  .menu-list-item--heading-title {
+    @include larger;
+  }
+}
+
+.menu-list-item--heading-title {
+  @include inline-block;
+  @include pblue;
+  @include xxlarge;
+  @include bold;
+}
+
+.menu-list-item--body-item {
+  @include larger;
+  @include pdkblue;
+  padding: 1rem 0 1rem 3rem;
+
+  .icon {
+    @include pblue;
+  }
+}
+
+.menu-list--border-bottom {
+  border-bottom: 1px solid $gray2;
+  margin: 0 -1.5rem;
+  padding: 0 1.5rem;
+}
+
+.menu-list--border-top {
+  border-top: 1px solid $gray2;
+  margin: 0 -1.5rem;
+  padding: 0 1.5rem;
+}
+
+.menu-list-item--heading-title-nav-bold {
+  @include xxlarge;
+  @include bold;
+  @include pblue;
+}
+
+.menu-list-item--heading-title-nav-semi-bold {
+  @include xlarge;
+  @include bold;
+  @include pblue;
+}
+
+.menu-list-item--body-item-title-nav-bold {
+  @include xxlarge;
+  @include bold;
+  @include pblue;
+}
+
+.menu-list-item--body-item-title-nav-semi-bold {
+  @include xlarge;
+  @include bold;
+  @include pblue;
+}
+
+.menu-list-item--body-item-title-nav-normal {
+  @include xlarge;
+  @include regular;
+  @include pdkblue;
+}
+
+.menu-list-item--heading-title-nav-normal-no-children {
+  @include larger;
+  @include regular;
+  @include pdkblue;
+}
+
+.menu-list-item--icon-left-align {
+  .menu-list-item--body-item {
+    @include flex;
+    @include flex-row-reverse;
+    @include flex-cross-center;
+    @include flex-main-end;
+
+    .icon_call-us,
+    .icon_email-us,
+    .icon_chat-with-us,
+    .icon_ic-feedback {
+      padding-left: 0;
+    }
+  }
+}

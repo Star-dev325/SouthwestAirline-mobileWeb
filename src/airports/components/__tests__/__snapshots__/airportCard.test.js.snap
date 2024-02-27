@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AirportCard airport label display should className italics if airport is international airport 1`] = `
+<div>
+  <li
+    class="flex"
+  >
+    <div
+      class="flex-auto"
+    >
+      <span
+        class="italics"
+      >
+        Akron-Canton-displayName, OH - CAK
+      </span>
+    </div>
+  </li>
+</div>
+`;
+
+exports[`AirportCard airport label display should not use "airportGroupName - airportGroupSelected" to displayed as label when airportGroupSelected is empty 1`] = `
+<div>
+  <li
+    class="flex"
+  >
+    <div
+      class="flex-auto"
+    >
+      <span
+        class=""
+      >
+        Boston (Logan), MA - BOS
+      </span>
+    </div>
+  </li>
+</div>
+`;
+
+exports[`AirportCard airport label display should not use "airportGroupName - airportGroupSelected" to displayed as label when handleMultiSelectRecentSearch is not passed 1`] = `
+<div>
+  <li
+    class="flex"
+  >
+    <div
+      class="flex-auto"
+    >
+      <span
+        class=""
+      >
+        Boston (Logan), MA - BOS
+      </span>
+    </div>
+  </li>
+</div>
+`;
+
+exports[`AirportCard airport label display should use "airportGroupName - airportGroupSelected" to displayed as label 1`] = `
+<div>
+  <li
+    class="flex"
+  >
+    <div
+      class="flex-auto"
+    >
+      <span
+        class=""
+      >
+        Boston Area Airports - BOS, BDL, MHT, PVD
+      </span>
+    </div>
+  </li>
+</div>
+`;
+
+exports[`AirportCard airport label display should use 'displayName, cityState - code' to displayed as label 1`] = `
+<div>
+  <li
+    class="flex"
+  >
+    <div
+      class="flex-auto"
+    >
+      <span
+        class=""
+      >
+        Akron-Canton-displayName, OH - CAK
+      </span>
+    </div>
+  </li>
+</div>
+`;

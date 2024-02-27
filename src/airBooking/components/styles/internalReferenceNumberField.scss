@@ -1,0 +1,29 @@
+.internal-reference-number {
+  @include mb4;
+
+  &--value {
+    @include truncate;
+    width: 95%;
+  }
+
+  .field {
+    @include mb4;
+    @include mt4;
+  }
+
+  .fields--label {
+    @include bold;
+    @include large;
+    color: $gray5;
+  }
+
+  .no-irn-selected span {
+    @include gray3;
+  }
+
+  .nav-item-field {
+    &.nav-item-link {
+      padding: 0 1.3rem 0 1.4rem;
+    }
+  }
+}

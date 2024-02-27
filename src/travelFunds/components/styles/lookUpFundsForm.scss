@@ -1,0 +1,18 @@
+.look-up-funds-form {
+  @include p5;
+
+  .segment {
+    @include bggray2;
+    @include p0;
+  }
+
+  .field {
+    @include mb5;
+  }
+
+  &--special-note {
+    @include gray5;
+    @include medium;
+    margin: 1rem 0 2rem 0;
+  }
+}

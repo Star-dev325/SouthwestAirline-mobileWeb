@@ -1,0 +1,87 @@
+.flight-time-passengers-card {
+  @include bgwhite;
+
+  .flight-time-passengers-card--title {
+    @include flex;
+    @include p6;
+
+    .flight-time-passengers-card--date {
+      @include flex-basis0;
+      @include flex-grow1;
+      @include flex-shrink1;
+    }
+
+    .flight-time-passengers-card--month,
+    .flight-time-passengers-card--place {
+      @include bold;
+      @include larger;
+    }
+
+    .flight-time-passengers-card--day,
+    .flight-time-passengers-card--time {
+      @include gray5;
+      @include large;
+    }
+  }
+
+  .flight-time-passengers-card--flight {
+    @include flex;
+  }
+
+  .icon-airplane {
+    @include ml6;
+    @include mr6;
+    @include xxlarge;
+  }
+
+  .flight-time-passengers-card--divider {
+    @include bdb;
+    @include bdgray2;
+    @include mb2;
+    @include mx6;
+  }
+
+  .flight-time-passengers-card--passenger-title {
+    @include gray5;
+    @include medium;
+    @include p6;
+    @include pb0;
+  }
+
+  .flight-time-passengers-card--icon-col {
+    @include table-cell;
+    @include flex-item-center;
+    @include align-middle;
+    padding: 0 0.25em;
+
+    .flight-time-passengers-card-flight-icon {
+      @include sltblue;
+      font-size: 1.5em;
+    }
+  }
+
+  .flight-time-passengers-card--section {
+    @include pb5;
+
+    .flight-time-passengers-card--passengers {
+      @include px6;
+
+      &:not(:first-child) {
+        @include mt5;
+      }
+
+      &-detail {
+        &-name {
+          @include large;
+          @include mt2;
+        }
+
+        &-number {
+          @include gray5;
+          @include medium;
+          @include mt1;
+        }
+      }
+    }
+  }
+}

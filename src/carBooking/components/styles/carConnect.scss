@@ -1,0 +1,16 @@
+.car-connect {
+  .pickup,
+  .dropoff {
+    @include xxxlarge;
+    @include pdkblue;
+    @include bold;
+    @include align-middle;
+  }
+
+  .icon_car {
+    @include larger;
+    @include align-middle;
+    @include sltblue;
+    margin: 0 1rem;
+  }
+}

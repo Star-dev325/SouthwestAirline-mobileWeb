@@ -1,0 +1,77 @@
+{
+  "revision": "20151209105043618",
+  "styledPage": {
+    "title": "In The Airport",
+    "heroContainer": {
+      "type": "hero",
+      "image": "/content/mkt/images/static_pages/travel_experience/swa_mw_fs_intheair_hero.png",
+      "altText": ""
+    },
+    "body": [
+      {
+        "type": "section",
+        "sectionTitle": "Free Live TV.",
+        "heading": "",
+        "mediaType": "image",
+        "image": "/content/mkt/images/static_pages/travel_experience/swa_mw_fs_intheair_livetv_icon.png",
+        "altText": "",
+        "imagePlacement": "inline",
+        "sectionText": "<p>Enjoy 13 live channels and up to 75 television episodes on-demand during your flight free of charge, compliments of Chase Rapid Rewards<sup>&reg;</sup> Visa and Budget Rent A Car.</p>",
+        "callToAction": {
+          "ctaType": "none",
+          "ctaText": "",
+          "linkType": "none",
+          "target": ""
+        }
+      },
+      {
+        "type": "section",
+        "sectionTitle": "On cloud nine with WiFi.",
+        "heading": "",
+        "mediaType": "image",
+        "image": "/content/mkt/images/static_pages/travel_experience/swa_mw_fs_intheair_wifi_icon.png",
+        "altText": "",
+        "imagePlacement": "inline",
+        "sectionText": "<p>Enjoy free content on your device, including a flight tracker, shopping, games, and all <strong>southwest.com</strong> has to offer. If you'd like to surf the web, check your e-mail, or update your Facebook status on the fly, you can purchase full WiFi access for only $8 all day, per device. Look for the \"Southwest Airlines Hotspot\" stickers onboard or a Flight Attendant will alert you if a wireless network is available on your flight.</p>",
+        "callToAction": {
+          "ctaType": "none",
+          "ctaText": "",
+          "linkType": "none",
+          "target": ""
+        }
+      },
+      {
+        "type": "section",
+        "sectionTitle": "Flying high with comfort and style.",
+        "heading": "",
+        "mediaType": "image",
+        "image": "/content/mkt/images/static_pages/travel_experience/swa_mw_fs_intheair_flyinghigh_icon.png",
+        "altText": "",
+        "imagePlacement": "inline",
+        "sectionText": "<p>Our new eco-friendly Evolve cabin interiors were designed with a focus on sustainability, as well as providing maximum comfort and enhanced personal space. From carbon-neutral carpet and lighter E-leather seats to more knee room and better lumbar support, our new modern look is both earth-friendly and you-friendly.</p>",
+        "callToAction": {
+          "ctaType": "none",
+          "ctaText": "",
+          "linkType": "none",
+          "target": ""
+        }
+      },
+      {
+        "type": "section",
+        "sectionTitle": "Fuel up.",
+        "heading": "",
+        "mediaType": "image",
+        "image": "/content/mkt/images/static_pages/travel_experience/swa_mw_fs_intheair_fuelup_icon.png",
+        "altText": "",
+        "imagePlacement": "inline",
+        "sectionText": "<p>Enjoy 13 live channels and up to 75 television episodes on-demand during your flight free of charge, compliments of Chase Rapid Rewards<sup>&reg;</sup> Visa and Budget Rent A Car.</p>",
+        "callToAction": {
+          "ctaType": "none",
+          "ctaText": "",
+          "linkType": "none",
+          "target": ""
+        }
+      }
+    ]
+  }
+}

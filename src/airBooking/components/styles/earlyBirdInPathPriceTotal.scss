@@ -1,0 +1,11 @@
+.early-bird-in-path--price-total {
+  @include flex;
+  @include mt5;
+  @include flex-main-between;
+  @include lineheight16;
+  @include medium;
+
+  .currency {
+    @include large;
+  }
+}

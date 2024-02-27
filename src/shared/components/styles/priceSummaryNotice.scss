@@ -1,0 +1,7 @@
+.price-summary-notice {
+  @include p4;
+
+  a {
+    @include pblue;
+  }
+}

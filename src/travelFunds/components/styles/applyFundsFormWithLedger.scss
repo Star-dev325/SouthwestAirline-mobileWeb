@@ -1,0 +1,43 @@
+.apply-travel-funds {
+  &--selector {
+    @include p5;
+    @include pb0;
+  }
+
+  &--results {
+    @include my4;
+  }
+
+  &--disclaimer {
+    @include gray5;
+    @include mb3;
+    @include medium;
+    @include pre-wrap;
+    @include px5;
+  }
+
+  .learn-more-link {
+    @include p5;
+    @include pblue;
+  }
+
+  &--footer {
+    @include mt5;
+  }
+}
+
+.change-travel-funds--totals {
+  @include white;
+
+  p {
+    @include px5;
+  }
+
+  .change-travel-funds--price-ledger-lines {
+    @include flex;
+    @include flex-column;
+    @include my4;
+    @include large;
+    @include pr5;
+  }
+}

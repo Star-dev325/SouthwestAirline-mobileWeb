@@ -1,0 +1,69 @@
+.travel-information-form {
+  @include m0;
+
+  .segment {
+    @include bggray2;
+  }
+
+  .travel-information-form--save-button {
+    @include bgpblue;
+    @include mt3;
+  }
+
+  input[disabled] {
+    @include gray4;
+    @include bgwhite;
+    opacity: 1;
+  }
+}
+
+.travel-information-form--passenger {
+  @include p5;
+  @include bgwhite;
+}
+
+.travel-information-form--passenger-label {
+  @include gray4;
+  font-size: 1.1rem;
+  padding-bottom: 0.5rem;
+}
+
+.travel-information-form--passenger-name {
+  @include pdkblue;
+  @include xlarge;
+  @include block;
+  @include truncate;
+}
+
+.travel-information-form--title {
+  @include inline-block;
+  @include bold;
+  @include gray5;
+  @include fullwidth;
+  @include pt5;
+}
+
+.travel-information-form--info {
+  .field {
+    @include mt3;
+  }
+
+  .fields {
+    @include mt6;
+  }
+}
+
+.travel-information-form-sa-message {
+  @include mt3;
+  @include gray4;
+  @include medium;
+}
+
+.travel-information-form--special-assistance {
+  @include mt3;
+}
+
+.travel-information-form--ktn-redress-subtitle {
+  @include gray4;
+  margin: 0.8rem 0 0 2px;
+}

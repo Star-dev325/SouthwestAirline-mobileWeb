@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PtsGroup should render 1`] = `
+<div>
+  <div
+    class="points-group"
+  >
+    <div
+      class="points-group--col-infos"
+    >
+      <label
+        class="points-group--col-infos-label"
+      >
+        label
+      </label>
+      <span
+        class="pblue"
+        data-qa="view-benefits"
+      >
+        MY_ACCOUNT__PTS_GROUP__VIEW_BENEFITS
+      </span>
+    </div>
+    <div
+      class="points-group--col-points align-right"
+    >
+      <label
+        class="points-group--col-points-label"
+      >
+        33,000
+      </label>
+      <span>
+        MY_ACCOUNT__PTS_GROUP__PTS
+      </span>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,51 @@
+.hazmat-declaration-page {
+  @include large;
+  @include bgpdkblue;
+  padding-top: 4rem;
+  padding-bottom: 3.2rem;
+
+  .hazmat-declaration-page--title {
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+  }
+
+  .hazmat-declaration-page--notification {
+    @include flex-column;
+    @include bgsblue;
+    @include white;
+    @include pl7;
+    @include pr7;
+    @include medium;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    border-radius: 0 0 4px 4px;
+  }
+
+  .title {
+    @include center;
+    @include xxxlarge;
+    @include pt5;
+  }
+
+  .hazmat-warning {
+    @include pt4;
+  }
+
+  .hazmat-ack {
+    @include pt4;
+    @include pb6;
+  }
+
+  .hazmat-disagree {
+    @include sltblue;
+    @include center;
+    @include pt6;
+    @include pb6;
+  }
+
+  .brand-bar-img {
+    @include align-bottom;
+    @include fullwidth;
+    height: 4px;
+  }
+}

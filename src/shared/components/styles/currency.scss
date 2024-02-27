@@ -1,0 +1,17 @@
+.currency {
+  .money-sign {
+    @include align-top;
+    font-size: 60%;
+  }
+
+  .points-sign {
+    @include ml1;
+    font-size: 60%;
+  }
+
+  &.strike-through {
+    @include medium;
+    @include regular;
+    text-decoration: line-through;
+  }
+}

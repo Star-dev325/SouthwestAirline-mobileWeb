@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#clickSave components should render header message 1`] = `
+<div
+  className="email-enroll--sub-header"
+>
+  <p
+    className="medium"
+  >
+    You'll get the latest news, information, and promotional offers from Southwest® all in one sweet email. Just enter your information to get on the list!
+  </p>
+</div>
+`;

@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DynamicWaiverMessages should render the component correctly when stationsMessage body is undefined 1`] = `
+<div>
+  <div
+    class="dynamic-waiver-messages"
+  >
+    <div
+      class="pt5 bggray2 red"
+    >
+      <p
+        class="dynamic-waiver-messages--station-header"
+      >
+        For your returning flight:
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DynamicWaiverMessages should render the component with splitPnrDynamicWaiverDepartureStationsMessage when it exists 1`] = `
+<div>
+  <div
+    class="dynamic-waiver-messages"
+  >
+    <div
+      class="pt5 bggray2 red"
+    >
+      <p
+        class="dynamic-waiver-messages--station-header"
+      >
+        For your departing flight:
+      </p>
+      <p>
+        Departure Airport: New York/Newark, NJ (EWR) , or New York (LaGuardia), NY (LGA) , or Long Island/Islip, NY (ISP) 
+      </p>
+      <p>
+        
+Arrival Airport: Cancun, Mexico (CUN) 
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DynamicWaiverMessages should render the component with splitPnrDynamicWaiverReturnStationsMessage when it exists 1`] = `
+<div>
+  <div
+    class="dynamic-waiver-messages"
+  >
+    <div
+      class="pt5 bggray2 red"
+    >
+      <p
+        class="dynamic-waiver-messages--station-header"
+      >
+        For your returning flight:
+      </p>
+      <p>
+        Departure Airport: Cancun, Mexico (CUN) 
+      </p>
+      <p>
+        
+Arrival Airport: New York/Newark, NJ (EWR) , or New York (LaGuardia), NY (LGA) , or Long Island/Islip, NY (ISP) 
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DynamicWaiverMessages should render the component with splitPnrDynamicWaiverSummaryMessage when it exists 1`] = `
+<div>
+  <div
+    class="dynamic-waiver-messages"
+  >
+    <div
+      class="bggray2 red"
+    >
+      <div
+        class="dynamic-waiver-messages--summary-message"
+      >
+        <i
+          class="dynamic-waiver-messages--summary-message-icon icon icon_travel-alert"
+        />
+        <p
+          class="bold"
+        >
+          You may change your travel date/time at no additional cost.
+        </p>
+      </div>
+      <p>
+        Circumstances beyond our control (weather, etc.) are creating disruptions to our scheduled service and a flight(s) on which you are currently booked may be adversely affected. To minimize your inconvenience, we are offering the one time opportunity to change your flight date(s) and/or time(s) at no additional cost in accordance with our established reaccommodation practices.
+      </p>
+    </div>
+  </div>
+</div>
+`;

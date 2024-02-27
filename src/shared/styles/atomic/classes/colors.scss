@@ -1,0 +1,76 @@
+// Refer to sass/colors.scss for colours
+// bg = background
+
+// BLUES
+// p = primary, s = secondary
+// dk = dark, lt = light
+.pblue         { @include pblue;     }
+.bgpblue       { @include bgpblue;   }
+
+.pdkblue       { @include pdkblue;   }
+.bgpdkblue     { @include bgpdkblue; }
+
+.sblue         { @include sblue;     }
+.bgsblue       { @include bgsblue;   }
+
+.sdkblue       { @include sdkblue;   }
+.bgsdkblue     { @include bgsdkblue; }
+
+.sltblue       { @include sltblue;   }
+.bgsltblue     { @include bgsltblue; }
+
+.ltblue        { @include ltblue;    }
+.bgltblue      { @include bgltblue;  }
+
+// GRAYSCALE
+.white         { @include white;     }
+.bgwhite       { @include bgwhite;   }
+
+.gray1         { @include gray1;     }
+.bggray1       { @include bggray1;   }
+
+.gray2         { @include gray2;     }
+.bggray2       { @include bggray2;   }
+
+.gray3         { @include gray3;     }
+.bggray3       { @include bggray3;   }
+
+.gray4         { @include gray4;     }
+.bggray4       { @include bggray4;   }
+
+.gray5         { @include gray5;     }
+.bggray5       { @include bggray5;   }
+
+// OTHER COLOURS
+.black         { @include black;     }
+
+.green         { @include green;     }
+.bggreen       { @include bggreen;   }
+
+.green2        { @include green2;    }
+.bggreen2      { @include bggreen2;  }
+
+.yellow        { @include yellow;    }
+.bgyellow      { @include bgyellow;  }
+
+.orange        { @include orange;    }
+.bgorange      { @include bgorange;  }
+
+.red           { @include red;       }
+.bgred         { @include bgred;     }
+
+.teal          { @include teal;      }
+.bgteal        { @include bgteal;    }
+
+.pdkyellow     { @include pdkyellow; }
+.bgpdkyellow   { @include bgpdkyellow; }
+
+.pltyellow     { @include pltyellow; }
+.bgpltyellow   { @include pltyellow; }
+
+.syellow       { @include syellow;   }
+.bgsyellow     { @include bgsyellow; }
+
+.bgtransp      { @include bgtransp;    }
+
+.color-inherit { @include color-inherit; }

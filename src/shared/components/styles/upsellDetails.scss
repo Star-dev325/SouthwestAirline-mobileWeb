@@ -1,0 +1,48 @@
+.upsell-details {
+  @include bgwhite;
+
+  &--header {
+    @include flex;
+    @include lineheight16;
+    @include medium;
+    @include mt1;
+    @include pt6;
+    @include flex-cross-center;
+
+    img {
+      width: 80px;
+      height: 80px;
+    }
+
+    &-offer-text {
+      @include gray5;
+      @include medium;
+      @include lineheight10;
+      @include pt2;
+    }
+  }
+
+  &--content {
+    @include p4;
+
+    .features-list {
+      @include pl6;
+      @include pb6;
+
+      .features-list--item {
+        @include large;
+        @include pt1;
+
+        .features-list--text {
+          @include p2;
+          @include block;
+        }
+      }
+
+      li::before {
+        @include green;
+        @include xxxlarge;
+      }
+    }
+  }
+}

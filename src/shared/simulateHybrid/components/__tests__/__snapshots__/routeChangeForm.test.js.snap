@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RouteChangeForm should render with the correct fields 1`] = `
+<div>
+  <div
+    class="my4"
+  >
+    <label
+      for="route"
+    >
+      Route
+    </label>
+    <div
+      class="input"
+    >
+      <input
+        class=""
+        id="route"
+        name="route"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="my4"
+  >
+    <label
+      for="payload"
+    >
+      Payload
+    </label>
+    <div
+      class="text-area-container"
+    >
+      <textarea
+        class="text-area "
+        id="payload"
+      />
+    </div>
+  </div>
+</div>
+`;

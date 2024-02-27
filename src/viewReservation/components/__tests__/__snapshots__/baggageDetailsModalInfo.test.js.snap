@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaggageDetailsModalInfo should render the component correctly 1`] = `
+<div>
+  <div
+    class="baggage-details--modal-info-content"
+  >
+    <i
+      class="baggage-details--modal-info-icon icon icon_number-circle-one"
+    />
+    <p
+      class="baggage-details--modal-info-text"
+    >
+      Bring your bags to the airport kiosk at least 45 minutes prior to departure.
+    </p>
+  </div>
+</div>
+`;

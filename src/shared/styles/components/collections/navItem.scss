@@ -1,0 +1,31 @@
+.nav-item {
+  @include relative;
+  @include p0;
+  font-size: 1.2em;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+  cursor: pointer;
+
+  & > .icon {
+    @include absolute;
+    @include r0;
+    @include gray3;
+    top: 50%;
+    height: 1.3em;
+    width: 1.3em;
+    margin-top: -0.6em;
+  }
+}
+
+.nav-item--icon-fixed {
+  @include pr0;
+}
+
+.nav-item--no-icon {
+  @include pr0;
+  @include pb0;
+
+  & > .icon {
+    display: none;
+  }
+}

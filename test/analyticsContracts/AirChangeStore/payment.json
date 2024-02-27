@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "payment": {
+      "type": "object",
+      "properties": {
+        "saveNewCardSelected": { "type": "boolean" },
+        "type": { "type": "string" }
+      },
+      "additionalProperties": false,
+      "required": [
+        "saveNewCardSelected"
+      ]
+    }
+  },
+  "required": [
+    "payment"
+  ]
+}

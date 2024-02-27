@@ -1,0 +1,67 @@
+// CORE COLORS (DO NOT EDIT, DO NOT ADD)
+
+// Blues
+// p = primary, s = secondary
+// dk = dark, lt = light
+$pblue: #304cb2; // primary         blue
+$pdkblue: #111b40; // primary   dark  blue
+$sblue: #294299; // secondary       blue
+$sdkblue: #1a2c80; // secondary dark  blue
+$ltblue: #ecf4fc; // light           blue
+$sltblue: #a4baf2; // secondary light blue
+
+// Grayscale
+$white: #ffffff; // neutral   white
+$black: #000000; // neutral   black
+$gray1: #f5f5f5; // neutral   gray  1
+$gray2: #e6e7e8; // neutral   gray  2
+$gray3: #cccccc; // neutral   gray  3
+$gray4: #8f8f8f; // neutral   gray  4
+$gray5: #636363; // secondary gray
+
+// Other colours
+$green: #008522; // another green
+$green2: #008020; // secondary green
+$yellow: #ffbf27; // primary   yellow
+$orange: #ff792e; // secondary orange
+$red: #d5152e; // primary   red
+$teal: #0076a5; // secondary teal
+
+// END CORE COLORS
+
+// Variations
+$pdkyellow: #c08700; // primary dark yellow
+$pltyellow: #ffecc0; // primary light yellow
+$syellow: #ffca4f; // secondary yellow
+
+// transparencies
+$opacity10: rgba(0, 0, 0, 0.1);
+$opacity20: rgba(0, 0, 0, 0.2);
+$opacity30: rgba(0, 0, 0, 0.3);
+$opacity40: rgba(0, 0, 0, 0.4);
+$opacity60: rgba(0, 0, 0, 0.6);
+$opacity80: rgba(0, 0, 0, 0.8);
+// $opacity100 is actually pure black, #000.
+// Don't use this without a good reason - it's not an official colour.
+// Use $pdkblue instead.
+$opacity100: rgba(0, 0, 0, 1);
+
+$white-opacity0: rgba(255, 255, 255, 0);
+$white-opacity50: rgba(255, 255, 255, 0.5);
+$white-opacity90: rgba(255, 255, 255, 0.9);
+
+// ONE-OFFS
+$vibrant-blue: #1574fb; // only used as popup link text colour
+$sltblue-hover: #00b2f3; // default link hover colour
+$link-color: #009fda; // currently only used in /my-account/enroll-rapid-rewards
+$blue-current: #5b6b99; // use on /check-in/boarding-pass
+$upcoming-trips-icon-color: #414a64; // used on /view-reservation/trip-details
+$airport-list-tap: rgba(240, 240, 240, 0.3);
+$special-assistance-tap: rgba(240, 240, 240, 0.3);
+$review-border: rgba(55, 63, 94, 0.4); //used on review-footer border
+$refund-border: #60a572; //used on air-cancel/air-change refund-summary
+$form-field-border: #d8d8d8; // used for form field borders
+$mbp-bg-blue: #2f4cb6; // used for top gradient color on mobile boarding pass
+$mbp-bg-dkblue: #101b41; // used for bottom gradient color on mobile boarding pass
+$mbp-bg-grey:  #f4f4f4; // used for lap infant mobile boarding pass
+

@@ -1,0 +1,18 @@
+.early-bird-price-total {
+  @include bgpblue;
+  @include p5;
+  @include white;
+
+  .price-line--title {
+    @include xxlarge;
+    @include regular;
+  }
+
+  .price-amount {
+    @include small;
+  }
+}
+
+.early-bird-price-total--price-notes {
+  @include medium;
+}

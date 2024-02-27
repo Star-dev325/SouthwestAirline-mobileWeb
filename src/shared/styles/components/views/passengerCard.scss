@@ -1,0 +1,89 @@
+.passenger-card {
+  @include bgwhite;
+  @include p5;
+  @include rd2;
+  @include bdt;
+  @include bdpdkblue;
+
+  &.extra {
+    padding: 0 1em;
+  }
+
+  .lap-child-icon {
+    @include swa-icons('lap-child.svg', 30px, 34px);
+    @include mr5;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .tsa-precheck-icon {
+    @include swa-icons('tsa-pre.svg', 6em, 1.5em);
+    @include medium;
+    background-position: left top;
+  }
+}
+
+.passenger-card--info {
+  @include pdkblue;
+  font-size: 1.3em;
+}
+
+.passenger-card--passenger {
+  @include block;
+}
+
+.passenger-card--label {
+  @include flex;
+  @include mb2;
+  @include gray5;
+  font-size: 0.7em;
+}
+
+.passenger-card--content {
+  @include flex;
+}
+
+.passenger-card--confirmation {
+  @include block;
+}
+
+.passenger-card--confirmation-info {
+  @include large;
+}
+
+.passenger-card--boarding-info {
+  @include flex;
+  @include flex-main-around;
+  @include center;
+  @include py5;
+  @include mt3;
+  @include bgltblue;
+
+  .boarding-info--item-label {
+    @include gray5;
+  }
+
+  .boarding-info--item-content {
+    @include green;
+    @include xxxlarge;
+    @include bold;
+    @include align-middle;
+  }
+}
+
+.passenger-card--special-assistance {
+  @include mt3;
+
+  i {
+    @include mr2;
+  }
+
+  .special-assistance-message {
+    @include gray5;
+    font-size: 0.8em;
+  }
+}
+
+.passenger-card--upgraded-boarding-btn {
+  @include mt5;
+}

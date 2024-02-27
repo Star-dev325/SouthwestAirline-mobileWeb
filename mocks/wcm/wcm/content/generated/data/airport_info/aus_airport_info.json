@@ -1,0 +1,54 @@
+{
+  "revision": "20150504141421865",
+  "airport_info": {
+    "id": "AUS",
+    "display_name": "Austin&#44; TX - AUS",
+    "airport_city_image": "/content/mkt/images/airport_info/AUS2_aiport_info.jpg",
+    "airport_city_alt_text": "Picture representing AUS",
+    "alert": {
+      "active": false,
+      "icon": "/content/mkt/images/airport_info/travel_advisory.png",
+      "title": "Airport Alert",
+      "text": ""
+    },
+    "body": [
+      {
+        "title": "TERMINAL AND GATE",
+        "icon": "",
+        "icon_alt_text": "",
+        "heading": "Main Terminal",
+        "text": "<p>Gates 7-12<br /><ul><li>Fly By Checkin</li><li>Fly By Security</li></ul>\n</p>"
+      },
+      {
+        "title": "TICKET COUNTER HOURS",
+        "icon": "/content/mkt/images/airport_info/bag_on_belt_icon.png",
+        "heading": "",
+        "text": "<p><strong>Monday-Sunday</strong></p>\n<p>Opens 120 minutes before first departure</p>"
+      },
+      {
+        "title": "TSA",
+        "icon": "",
+        "heading": "<a href=\"http://apps.tsa.dhs.gov/mytsa/wait_times_detail.aspx\">Check current TSA wait times</a>",
+        "text": "<p>Don't forget your boarding pass or security documents, and a valid government-issued ID - the Transportation Security Administration (TSA) will need them at the security checkpoints.</p>"
+      },
+      {
+        "title": "TRAVEL TIPS",
+        "icon": "/content/mkt/images/airport_info/info_bubble_icon.png",
+        "heading": "Mon-Fri:",
+        "text": "<p>120 Minutes</p>"
+      },
+      {
+        "title": "AMENITIES",
+        "icon": "/content/mkt/images/airport_info/plug_icon.png",
+        "heading": "",
+        "text": "<p><ul><li>Power Station Available</li><li>Skycap</li></ul>\n</p>"
+      },
+      {
+        "title": "AIRPORT DETAILS",
+        "icon": "",
+        "heading": "",
+        "text": "<p><strong>Service Animal Relief Area:</strong> Located on the east side of the terminal-ground level, near the car rental area</p>\n<p>Learn more about <a href=\"//www.ci.austin.tx.us/austinairport/\" target=\"_blank\">Austin International&nbsp;Airport</a></p>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+.success-banner {
+  @include flex;
+  @include pt3;
+  @include pb4;
+  @include pr4;
+  @include bgpdkblue;
+  @include white;
+
+  .icon_check-circle {
+    @include circle;
+    @include bggreen;
+    @include white;
+    @include bold;
+    @include xxxlarge;
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+}
+
+.success-banner--message {
+  @include large;
+  @include pl4;
+  @include pt2;
+}

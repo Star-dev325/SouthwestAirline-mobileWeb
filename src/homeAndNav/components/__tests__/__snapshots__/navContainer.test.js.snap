@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavContainer #onLinkClick should pass onLogoutClick function to MenuList 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="nav-container"
+      >
+        <div
+          class="drawer-login"
+        >
+          <div
+            class="drawer-login--placeholder"
+          >
+            <i
+              class="drawer-login--icon_profile icon icon_profile"
+            />
+            <div
+              class="drawer-login--reminder"
+            >
+              <div>
+                <div
+                  class="bold inline"
+                >
+                  HOME_AND_NAV__NAV_DRAWER__LOGIN_OR_ENROLL
+                </div>
+                <div
+                  class="inline"
+                >
+                  HOME_AND_NAV__NAV_DRAWER__TO_MANAGE
+                </div>
+              </div>
+              <div>
+                HOME_AND_NAV__NAV_DRAWER__YOUR_TRIPS
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="menu-list"
+        >
+          <div
+            class="container menu-list--border-bottom menu-list-item--heading-title-nav-bold"
+            data-qa="menu-list-home"
+          >
+            <div
+              class="menu-list-item--heading float-none"
+            >
+              <i
+                class="menu-list-item--heading-icon mr4 icon icon_home"
+              />
+              <span
+                class="menu-list-item--heading-title"
+              >
+                Home
+              </span>
+            </div>
+          </div>
+          <div
+            class="accordion menu-list--border-bottom menu-list-item--heading-title-nav-bold"
+          >
+            <div
+              class="accordion--heading"
+            >
+              <div
+                class="menu-list-item--heading"
+              >
+                <i
+                  class="menu-list-item--heading-icon mr4 icon icon_car"
+                />
+                <span
+                  class="menu-list-item--heading-title-nav-bold"
+                >
+                  Car
+                </span>
+              </div>
+              <i
+                class="icon icon_openeddrawer"
+              />
+            </div>
+            <div
+              class="accordion--body"
+              style="height: auto;"
+            >
+              <ul
+                class="menu-list-item--body"
+              >
+                <div
+                  class="menu-list-item--body-item"
+                >
+                  <li
+                    class="inline"
+                    data-link="/car/booking"
+                    data-qa="menu-list-car-book-a-car"
+                  >
+                    Book a Car
+                  </li>
+                </div>
+                <div
+                  class="menu-list-item--body-item"
+                >
+                  <li
+                    class="inline"
+                    data-link="/view-reservation"
+                    data-qa="menu-list-car-lookup-reservations"
+                  >
+                    Look Up Reservations
+                  </li>
+                </div>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="container menu-list-item--heading-title-nav-normal-no-children"
+          >
+            <div
+              class="menu-list-item--heading float-none"
+            >
+              <span
+                class="menu-list-item--heading-title-nav-normal-no-children"
+              >
+                CHANGE TOGGLES
+              </span>
+            </div>
+          </div>
+          <div
+            class="container menu-list-item--heading-title-nav-normal-no-children"
+          >
+            <div
+              class="menu-list-item--heading float-none"
+            >
+              <span
+                class="menu-list-item--heading-title-nav-normal-no-children"
+              >
+                ENVIRONMENT SETTINGS
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="menu-footer"
+        >
+          <span
+            class="menu-footer--copyright"
+          >
+            ©
+            2024
+             
+            HOME_AND_NAV__MENU_LIST__SOUTHWEST_AIRLINES
+          </span>
+          <span
+            class="menu-footer--copyright"
+          >
+            HOME_AND_NAV__MENU_LIST__RIGHTS_RESERVED
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

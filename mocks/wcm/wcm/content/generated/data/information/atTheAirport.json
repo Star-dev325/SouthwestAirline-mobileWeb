@@ -1,0 +1,62 @@
+{
+  "revision": "20151209105043618",
+  "styledPage": {
+    "title": "At the Airport",
+    "heroContainer": {
+      "type": "hero",
+      "image": "/content/mkt/images/static_pages/travel_experience/swa_mw_fs_atairport_hero.png",
+      "altText": ""
+    },
+    "body": [
+      {
+        "type": "section",
+        "sectionTitle": "Bags fly free.",
+        "heading": "",
+        "mediaType": "image",
+        "image": "/content/mkt/images/static_pages/travel_experience/swa_mw_fs_atairport_bff_icon.png",
+        "altText": "",
+        "imagePlacement": "inline",
+        "sectionText": "<p>Pack more shoes or buy more souvenirs. With us, your first and second checked bags fly free.* Even your skis and golf bags!</p>",
+        "callToAction": {
+          "ctaType": "none",
+          "ctaText": "",
+          "linkType": "none",
+          "target": ""
+        },
+        "disclaimers": [{ "disclaimerText": "*First and second checked bags. Weight and size limitations apply." }]
+      },
+      {
+        "type": "section",
+        "sectionTitle": "Make changes on the fly.",
+        "heading": "",
+        "mediaType": "image",
+        "image": "/content/mkt/images/static_pages/travel_experience/swa_mw_fs_atairport_kiosk_icon.png",
+        "altText": "",
+        "imagePlacement": "inline",
+        "sectionText": "<p>If you're at the airport and need to change your flight, there are many places you can do so quickly and easily:</p>\n<ul>\n<li>Southwest's Mobile Site or App</li>\n<li>Self-Service Kiosk</li>\n<li>Ticket Counter</li>\n<li>Departure Gate </li>\n</ul>\n",
+        "callToAction": {
+          "ctaType": "none",
+          "ctaText": "",
+          "linkType": "none",
+          "target": ""
+        }
+      },
+      {
+        "type": "section",
+        "sectionTitle": "Airport 101.",
+        "heading": "",
+        "mediaType": "image",
+        "image": "/content/mkt/images/static_pages/travel_experience/swa_mw_fs_atairport_101_icon.png",
+        "altText": "",
+        "imagePlacement": "inline",
+        "sectionText": "<p>Wondering what time you should arrive at the airport? Or curious about the products and services available there?</p>\n<div>\n<p>We've got all the info you want in one place.</p>",
+        "callToAction": {
+          "ctaType": "text",
+          "ctaText": "Airport information",
+          "linkType": "app",
+          "target": "airroutes"
+        }
+      }
+    ]
+  }
+}

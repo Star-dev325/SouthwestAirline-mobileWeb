@@ -1,0 +1,40 @@
+{
+  "revision": "20150304105043618",
+  "overlay": {
+    "title": "Cancellation Policy and Info",
+    "body": [
+      {
+        "type": "heading",
+        "value": "Refunds"
+      },
+      {
+        "type": "text",
+        "value": "<p>Refunds and Travel Funds issues from this cancellation will follow existing  Travel Funds rules.</p>\n<div id=\"_mcePaste\" class=\"mcePaste\" style=\"position: absolute; left: -40px; top: -25px; width: 1px; height: 1px; overflow: hidden;\"></div>"
+      },
+      {
+        "type": "heading",
+        "value": "Rapid Rewards Award or Promocert Coupon"
+      },
+      {
+        "type": "text",
+        "value": "<p>If your reservation was purchased using a Rapid Rewardss Award or Promocert  Coupon, you may use the Rapid Rewards Award or Promocert Coupon to make another  reservation, but be aware that it will maintain the original expiration  date.</p>\n<div id=\"_mcePaste\" class=\"mcePaste\" style=\"position: absolute; left: -40px; top: -25px; width: 1px; height: 1px; overflow: hidden;\"></div>"
+      },
+      {
+        "type": "heading",
+        "value": "EarlyBird Check-In®"
+      },
+      {
+        "type": "text",
+        "value": "<p>By canceling this reservation you will lose EarlyBird Check-In® status and  the funds will not be refunded from this purchase.</p>\n<div id=\"_mcePaste\" class=\"mcePaste\" style=\"position: absolute; left: -40px; top: -25px; width: 1px; height: 1px; overflow: hidden;\"></div>"
+      },
+      {
+        "type": "heading",
+        "value": "Companion"
+      },
+      {
+        "type": "text",
+        "value": "<p>We have found a companion itinerary associated to the member itinerary. By  canceling the member itinerary you will also cancel the companion itinerary. If  you would like to cancel the companion itinerary only, retrieve the companion  reservation by using the companion's confirmation numbers.</p>\n<div id=\"_mcePaste\" class=\"mcePaste\" style=\"position: absolute; left: -40px; top: -25px; width: 1px; height: 1px; overflow: hidden;\"></div>"
+      }
+    ]
+  }
+}

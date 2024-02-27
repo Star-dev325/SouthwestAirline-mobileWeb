@@ -1,0 +1,7 @@
+.text-area-container {
+  @extend %input;
+}
+
+textarea.text-area {
+  resize: none;
+}

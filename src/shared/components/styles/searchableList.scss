@@ -1,0 +1,56 @@
+.searchable-list {
+  @include flex;
+  @include flex-column;
+  @include fullheight;
+  @include bgwhite;
+
+  .nav-item-link {
+    @include bdb;
+  }
+}
+
+.searchable-list-code--results {
+  @include relative;
+  @include overflow-y-auto;
+  flex: 1;
+}
+
+.searchable-list-code {
+  @include pl0;
+  @include mt0;
+  @include no-bullets;
+  @include ml5;
+  @include large;
+}
+
+.searchable-list-code--item {
+  @include flex;
+  @include py4;
+  @include bdb;
+
+  .disabled {
+    @include flex10;
+    @include gray4;
+    font-style: italic;
+  }
+}
+
+.searchable-list-code--empty {
+  @include fullwidth;
+  @include gray5;
+  @include center;
+  @include xxlarge;
+  padding-top: 16rem;
+}
+
+.searchable-list-code--shadow {
+  @include fullwidth;
+  @include fullheight;
+  @include fixed;
+  @include t0;
+  @include l0;
+  @include bgpdkblue;
+  display: none;
+  z-index: 1000;
+  opacity: 0.2;
+}

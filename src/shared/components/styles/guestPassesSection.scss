@@ -1,0 +1,49 @@
+.guest-passes-review {
+  @include xlarge;
+  @include bgwhite;
+  @include bdt;
+  @include mx5;
+  @include mt4;
+  @include bd;
+  @include bdl;
+  @include mb4;
+
+  &--item {
+    @include bold;
+    @include green;
+    @include bdb;
+    @include p5;
+  }
+
+  &--sub-item {
+    @include bgwhite;
+  }
+
+  &--sub-item_text {
+    @include pt5;
+    @include pl5;
+    @include pb5;
+    @include large;
+    @include gray4;
+  }
+}
+
+.guest-passes-confirmation {
+  @include bggreen;
+  @include pl5;
+  @include pr5;
+  @include pb5;
+
+  &--item {
+    @include white;
+    @include xlarge;
+    @include bold;
+    @include pb4;
+  }
+
+  &--sub-item_text {
+    @include medium;
+    @include white;
+    @include align-right;
+  }
+}

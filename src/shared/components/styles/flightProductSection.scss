@@ -1,0 +1,91 @@
+.flight-product-section--header {
+  @include flex;
+  @include flex-cross-center;
+  @include flex-main-between;
+  @include bdb3;
+  @include pb3;
+}
+
+.flight-product-section--container {
+  @include relative;
+  @include fullwidth;
+  @include pdkblue;
+  @include flex;
+  @include flex-row;
+  @include flex-cross-start;
+  margin: 1.7rem 0 1rem 0;
+
+  .main-col {
+    flex: 1;
+  }
+
+  .fare-col {
+    @include ml3;
+    width: 10.5rem;
+
+    .fare-container {
+      @include fullwidth;
+      border: 1px solid $sltblue;
+      border-radius: 1px;
+      height: 65px;
+
+      &.unavailable {
+        border-color: $gray3;
+      }
+    }
+
+    .fare-content {
+      @include bold;
+      @include center;
+      @include p2;
+      @include pblue;
+      @include fullwidth;
+      @include fullheight;
+
+      &.unavailable {
+        @include flex;
+        @include flex-cross-center;
+        @include flex-main-center;
+        @include gray5;
+      }
+    }
+
+    .currency {
+      @include xxlarge;
+
+      &.strike-through {
+        @include gray5;
+        @include medium;
+        @include regular;
+      }
+    }
+
+    .original-price {
+      white-space: nowrap;
+    }
+
+    .intl-points-taxes {
+      @include flex;
+      @include flex-main-center;
+    }
+
+    .intl-points-taxes--currency {
+      @include italic;
+      @include medium;
+      white-space: nowrap;
+    }
+  }
+
+  .features-list {
+    @include pl3;
+
+    li::before {
+      @include pt1;
+      @include small;
+    }
+
+    .features-list--text {
+      @include large;
+    }
+  }
+}

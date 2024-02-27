@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimulateHybridForm should render with the default route change form 1`] = `
+<div>
+  <form
+    class="form"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="my4"
+      >
+        <label
+          for="message"
+        >
+          Message
+        </label>
+        <div
+          class="select-input formatted input"
+        >
+          <span
+            class="formatted-input formatted-input--fill"
+          >
+            <select
+              class="dropdown"
+              data-qa="select-dropdown"
+              id="message"
+              name="message"
+            >
+              <option
+                data-qa="dqa-enabled-option"
+                value="ROUTE_CHANGE"
+              >
+                Route Change
+              </option>
+              <option
+                data-qa="dqa-enabled-option"
+                value="FAKE_MESSAGE"
+              >
+                Fake Message
+              </option>
+            </select>
+          </span>
+          <input
+            class=""
+            icon="caret-down"
+            id="message"
+            name="message"
+          />
+          <i
+            class="icon icon_caret-down"
+          />
+        </div>
+      </div>
+      <button>
+        ROUTE_CHANGE
+      </button>
+      <button
+        class="button button--fluid larger button--yellow"
+        role="submit"
+        type="submit"
+      >
+        Send Message
+      </button>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`SimulateHybridForm should switch forms when they are updated 1`] = `
+<div>
+  <form
+    class="form"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="my4"
+      >
+        <label
+          for="message"
+        >
+          Message
+        </label>
+        <div
+          class="select-input formatted input"
+        >
+          <span
+            class="formatted-input formatted-input--fill"
+          >
+            <select
+              class="dropdown"
+              data-qa="select-dropdown"
+              id="message"
+              name="message"
+            >
+              <option
+                data-qa="dqa-enabled-option"
+                value="ROUTE_CHANGE"
+              >
+                Route Change
+              </option>
+              <option
+                data-qa="dqa-enabled-option"
+                value="FAKE_MESSAGE"
+              >
+                Fake Message
+              </option>
+            </select>
+          </span>
+          <input
+            class=""
+            icon="caret-down"
+            id="message"
+            name="message"
+          />
+          <i
+            class="icon icon_caret-down"
+          />
+        </div>
+      </div>
+      <button>
+        FAKE_MESSAGE
+      </button>
+      <button
+        class="button button--fluid larger button--yellow"
+        role="submit"
+        type="submit"
+      >
+        Send Message
+      </button>
+    </fieldset>
+  </form>
+</div>
+`;

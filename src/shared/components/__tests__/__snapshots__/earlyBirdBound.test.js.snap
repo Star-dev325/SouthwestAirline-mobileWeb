@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EarlyBirdBound early-bird eligibility A-List icon should not show A-List icon when a passenger is not A-list/A-list preferred  1`] = `null`;
+
+exports[`EarlyBirdBound early-bird eligibility A-List icon should show A-List icon 1`] = `
+<i
+  class="icon_a-list right"
+/>
+`;
+
+exports[`EarlyBirdBound early-bird eligibility flight info should be available with blue text when this bound is eligible to buy early-bird 1`] = `
+<div
+  class="larger sdkblue"
+  data-qa="early-bird-bound--flight-info"
+>
+  AUS - DAL
+</div>
+`;
+
+exports[`EarlyBirdBound early-bird eligibility flight info should be available with blue text when this bound is eligible to buy early-bird 2`] = `null`;
+
+exports[`EarlyBirdBound early-bird eligibility flight info should be disable with gray text when this bound is ineligible to buy early-bird 1`] = `
+<div
+  class="larger gray4"
+  data-qa="early-bird-bound--flight-info"
+>
+  AUS - DAL
+</div>
+`;
+
+exports[`EarlyBirdBound early-bird eligibility flight info should be disable with gray text when this bound is ineligible to buy early-bird 2`] = `
+<div
+  class="flex flex-main-between early-bird-bound--passenger early-bird-bound--passenger_ineligible"
+>
+  <div>
+    <div
+      class="sdkblue larger passenger-type"
+      data-qa="early-bird-bound--pax-type"
+    >
+      Included*
+      <i
+        class="icon_a-list right"
+      />
+    </div>
+    <div
+      class="gray4 italic medium"
+      data-qa="early-bird-bound--fare-product-type"
+    >
+      Wanna Get Away
+    </div>
+  </div>
+  <div
+    class="early-bird-bound--currency sdkblue"
+  >
+    <div
+      class="currency"
+    >
+      <span
+        class="money-sign"
+      >
+        $
+      </span>
+      <span
+        data-qa="total-amount"
+      >
+        0.00
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EarlyBirdBound early-bird eligibility passenger type should show passenger eligibility reason when passenger is ineligible 1`] = `"Included*"`;
+
+exports[`EarlyBirdBound early-bird eligibility passenger type should show passenger type when passenger is eligible 1`] = `"1 Adult"`;
+
+exports[`EarlyBirdBound early-bird eligibility price of per passenger should have correct price when eligible to buy early-bird 1`] = `"$15.00"`;
+
+exports[`EarlyBirdBound early-bird eligibility price of per passenger should have correct price when ineligible to buy early-bird 1`] = `"$0.00"`;
+
+exports[`EarlyBirdBound flight info should render props 1`] = `
+<div>
+  <div
+    class="flex flex-main-between bgwhite px5 py3 bdb"
+  >
+    <div
+      class="flex4"
+    >
+      <div
+        class="larger sdkblue"
+        data-qa="early-bird-bound--flight-info"
+      >
+        AUS - DAL
+      </div>
+      <div
+        class="gray4 medium"
+        data-qa="early-bird-bound--flight-number"
+      >
+        #2795
+      </div>
+    </div>
+    <div
+      class="flex8"
+    >
+      <div
+        class="flex flex-main-between early-bird-bound--passenger"
+      >
+        <div>
+          <div
+            class="sdkblue larger passenger-type"
+            data-qa="early-bird-bound--pax-type"
+          >
+            1 Adult
+          </div>
+          <div
+            class="gray4 italic medium"
+            data-qa="early-bird-bound--fare-product-type"
+          >
+            Wanna Get Away
+          </div>
+        </div>
+        <div
+          class="early-bird-bound--currency sdkblue"
+        >
+          <div
+            class="currency"
+          >
+            <span
+              class="money-sign"
+            >
+              $
+            </span>
+            <span
+              data-qa="total-amount"
+            >
+              15.00
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EarlyBirdBound flight info should show fare product type 1`] = `"Wanna Get Away"`;
+
+exports[`EarlyBirdBound flight info should show flight number 1`] = `"#2795"`;
+
+exports[`EarlyBirdBound flight info should show pax type 1`] = `"1 Adult"`;
+
+exports[`EarlyBirdBound flight info should show the origin destination 1`] = `"AUS - DAL"`;

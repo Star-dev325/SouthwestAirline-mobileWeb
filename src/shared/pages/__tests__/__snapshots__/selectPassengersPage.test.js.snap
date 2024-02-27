@@ -1,0 +1,415 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectPassengersPage should render the page correctly 1`] = `
+<div>
+  <div
+    class="select-passengers"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        SHARED__SELECT_PASSENGERS__PAGE_TITLE
+      </div>
+      <div />
+    </div>
+    <form
+      class="form"
+      name="TestId"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="select-passengers-form--content-container"
+        >
+          <div
+            class="select-passengers-form--intro"
+          >
+            <p>
+              There are multiple passengers on this reservation. 
+              <b>
+                Select all the passengers you want to change.
+              </b>
+            </p>
+          </div>
+          <div
+            class="fields grouped"
+          >
+            <div
+              class="field"
+            >
+              <div
+                class="passenger-checkbox"
+              >
+                <div
+                  class="passenger-checkbox--container"
+                >
+                  <div
+                    class="passenger-checkbox--name"
+                  >
+                    Sammy Travels
+                  </div>
+                  <div
+                    class="passenger-checkbox--passenger-type-and-button-container"
+                  >
+                    <button
+                      class="toggle-switch button"
+                      type="button"
+                    >
+                      <div
+                        class="toggle-switch--slider"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="field"
+            >
+              <div
+                class="passenger-checkbox"
+              >
+                <div
+                  class="passenger-checkbox--container"
+                >
+                  <div
+                    class="passenger-checkbox--name"
+                  >
+                    Andy Travels
+                  </div>
+                  <div
+                    class="passenger-checkbox--passenger-type-and-button-container"
+                  >
+                    <button
+                      class="toggle-switch button"
+                      type="button"
+                    >
+                      <div
+                        class="toggle-switch--slider"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="select-passengers-form--continue-button"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            type="submit"
+          >
+            SHARED__SELECT_PASSENGERS__BUTTON_TEXT__CONTINUE_TO_SELECT_FLIGHTS
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`SelectPassengersPage should render the page with DynamicWaiverMessages when messages exist 1`] = `
+<div>
+  <div
+    class="select-passengers"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        SHARED__SELECT_PASSENGERS__PAGE_TITLE
+      </div>
+      <div />
+    </div>
+    <div
+      class="dynamic-waiver-messages"
+    >
+      <div
+        class="bggray2 red"
+      >
+        <div
+          class="dynamic-waiver-messages--summary-message"
+        >
+          <i
+            class="dynamic-waiver-messages--summary-message-icon icon icon_travel-alert"
+          />
+          <p
+            class="bold"
+          >
+            You may change your travel date/time at no additional cost.
+          </p>
+        </div>
+        <p>
+          Circumstances beyond our control (weather, etc.) are creating disruptions to our scheduled service and a flight(s) on which you are currently booked may be adversely affected. To minimize your inconvenience, we are offering the one time opportunity to change your flight date(s) and/or time(s) at no additional cost in accordance with our established reaccommodation practices.
+        </p>
+      </div>
+      <div
+        class="pt5 bggray2 red"
+      >
+        <p
+          class="dynamic-waiver-messages--station-header"
+        >
+          For your departing flight:
+        </p>
+        <p>
+          Departure Airport: New York/Newark, NJ (EWR) , or New York (LaGuardia), NY (LGA) , or Long Island/Islip, NY (ISP) 
+        </p>
+        <p>
+          
+Arrival Airport: Cancun, Mexico (CUN) 
+        </p>
+      </div>
+      <div
+        class="pt5 bggray2 red"
+      >
+        <p
+          class="dynamic-waiver-messages--station-header"
+        >
+          For your returning flight:
+        </p>
+        <p>
+          Departure Airport: Cancun, Mexico (CUN) 
+        </p>
+        <p>
+          
+Arrival Airport: New York/Newark, NJ (EWR) , or New York (LaGuardia), NY (LGA) , or Long Island/Islip, NY (ISP) 
+        </p>
+      </div>
+    </div>
+    <form
+      class="form"
+      name="TestId"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="select-passengers-form--content-container"
+        >
+          <div
+            class="select-passengers-form--intro"
+          >
+            <p>
+              There are multiple passengers on this reservation. 
+              <b>
+                Select all the passengers you want to change.
+              </b>
+            </p>
+          </div>
+          <div
+            class="fields grouped"
+          >
+            <div
+              class="field"
+            >
+              <div
+                class="passenger-checkbox"
+              >
+                <div
+                  class="passenger-checkbox--container"
+                >
+                  <div
+                    class="passenger-checkbox--name"
+                  >
+                    Sammy Travels
+                  </div>
+                  <div
+                    class="passenger-checkbox--passenger-type-and-button-container"
+                  >
+                    <button
+                      class="toggle-switch button"
+                      type="button"
+                    >
+                      <div
+                        class="toggle-switch--slider"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="field"
+            >
+              <div
+                class="passenger-checkbox"
+              >
+                <div
+                  class="passenger-checkbox--container"
+                >
+                  <div
+                    class="passenger-checkbox--name"
+                  >
+                    Andy Travels
+                  </div>
+                  <div
+                    class="passenger-checkbox--passenger-type-and-button-container"
+                  >
+                    <button
+                      class="toggle-switch button"
+                      type="button"
+                    >
+                      <div
+                        class="toggle-switch--slider"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="select-passengers-form--continue-button"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            type="submit"
+          >
+            SHARED__SELECT_PASSENGERS__BUTTON_TEXT__CONTINUE_TO_SELECT_FLIGHTS
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`SelectPassengersPage should render the page with header message when headerMessage exists 1`] = `
+<div>
+  <div
+    class="select-passengers"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        SHARED__SELECT_PASSENGERS__PAGE_TITLE
+      </div>
+      <div />
+    </div>
+    <div
+      class="swa-message bgpdkblue white information"
+    >
+      <span
+        class="icon-container"
+      >
+        <i
+          class="icon icon_ic-info"
+        />
+      </span>
+      <span
+        class="message--text"
+      >
+        There are minors or children on this reservation.
+        <div
+          class="select-passengers--header-message-body"
+        >
+          • You must have at least one (1) adult on this reservation to accompany minors and children.
+• Minors and children cannot split off this reservation by themselves.
+• If you would like your children or minors to travel as unaccompanied minors, you must cancel their reservation and rebook them.
+        </div>
+      </span>
+    </div>
+    <form
+      class="form"
+      name="TestId"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="select-passengers-form--content-container"
+        >
+          <div
+            class="select-passengers-form--intro"
+          >
+            <p>
+              There are multiple passengers on this reservation. 
+              <b>
+                Select all the passengers you want to change.
+              </b>
+            </p>
+          </div>
+          <div
+            class="fields grouped"
+          >
+            <div
+              class="field"
+            >
+              <div
+                class="passenger-checkbox"
+              >
+                <div
+                  class="passenger-checkbox--container"
+                >
+                  <div
+                    class="passenger-checkbox--name"
+                  >
+                    Sammy Travels
+                  </div>
+                  <div
+                    class="passenger-checkbox--passenger-type-and-button-container"
+                  >
+                    <button
+                      class="toggle-switch button"
+                      type="button"
+                    >
+                      <div
+                        class="toggle-switch--slider"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="field"
+            >
+              <div
+                class="passenger-checkbox"
+              >
+                <div
+                  class="passenger-checkbox--container"
+                >
+                  <div
+                    class="passenger-checkbox--name"
+                  >
+                    Andy Travels
+                  </div>
+                  <div
+                    class="passenger-checkbox--passenger-type-and-button-container"
+                  >
+                    <button
+                      class="toggle-switch button"
+                      type="button"
+                    >
+                      <div
+                        class="toggle-switch--slider"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="select-passengers-form--continue-button"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            type="submit"
+          >
+            SHARED__SELECT_PASSENGERS__BUTTON_TEXT__CONTINUE_TO_SELECT_FLIGHTS
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;

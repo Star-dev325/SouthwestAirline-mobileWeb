@@ -1,0 +1,108 @@
+.flight-product-list-page {
+  @include bgpdkblue;
+
+  .flight-product-list {
+    .container {
+      .item {
+        margin: 1.4rem 0;
+      }
+    }
+
+    .flight-product-list--explain {
+      @include flex;
+    }
+
+    .flight-product-list--explain-text {
+      @include block;
+      flex: 7;
+
+      .explain-bags {
+        @include white;
+        @include medium;
+        @include bold;
+      }
+
+      .explain-taxes {
+        @include mt2;
+        @include gray3;
+        @include medium;
+        padding-right: 0.1rem;
+      }
+    }
+
+    .flight-product-list--switch-button {
+      @include block;
+      flex: 3;
+      width: 30%;
+
+      .switch-button {
+        margin-top: 0.6rem;
+      }
+
+      .switch-button--item {
+        padding: 0.6rem;
+      }
+    }
+  }
+
+  .page-header {
+    @include table;
+    @include bgsblue;
+    @include fullwidth;
+    @include p0;
+
+    .selection-title {
+      @include table-cell;
+      @include align-middle;
+      @include regular;
+      padding: 1.5rem;
+    }
+
+    .selection-title--info {
+      margin-left: 0.4rem;
+    }
+
+    .sort-select {
+      @include table-cell;
+      @include p0;
+      @include white;
+      @include bgsblue;
+      @include right;
+      @include large;
+      @include regular;
+      @include border-none;
+      @include square;
+      @include align-middle;
+      @include left-divider;
+      width: auto;
+      box-shadow: none;
+
+      select.dropdown {
+        @include white;
+        @include large;
+        @include border-none;
+        @include block;
+        @include bgtransp;
+        @include mr4;
+        white-space: normal;
+        padding: 1.5rem;
+      }
+
+      .icon_caret-down {
+        @include white;
+        @include xlarge;
+        right: 0.5rem;
+        margin-top: -0.9rem;
+      }
+    }
+  }
+}
+
+.step-banner-wrapper {
+  @include my0;
+  @include mx4;
+
+  .step-banner {
+    margin: 0.8rem -1rem 0;
+  }
+}

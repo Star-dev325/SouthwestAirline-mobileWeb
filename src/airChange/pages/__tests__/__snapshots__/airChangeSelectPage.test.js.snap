@@ -1,0 +1,1792 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`airChangeSelectPage Reaccom scenario render should render expected component 1`] = `
+<div>
+  <div
+    class="flight-change"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        AIR_CHANGE__TITLE
+      </div>
+      <div />
+    </div>
+    <div />
+    <form
+      class="form"
+      name="AIR_CHANGE_SELECT_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="bgwhite bdb bdt"
+        >
+          <div
+            class="flight-abstraction--bound"
+            data-qa="bound"
+          >
+            <div
+              class="flight-abstraction--table"
+            >
+              <div
+                class="field"
+              >
+                <div
+                  class="px5 relative flex checkbox-button checkbox-button--row_checked flex-cross-center"
+                  name="firstbound"
+                >
+                  <div
+                    class="flex2 flex flex-main-center"
+                  >
+                    <span
+                      class="checkbox-button--mark checkbox-button_checked"
+                    >
+                      <i
+                        class="absolute xlarge bgtransp icon icon_check"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="flex10"
+                  >
+                    <div
+                      class="checkbox-button--children flex-equal-width ml2"
+                    >
+                      <div
+                        data-qa="air-change-flight-selection-departure"
+                      >
+                        <div
+                          class="mb5 nowrap"
+                          data-qa="flight-abstraction-itinerary"
+                        >
+                          <div
+                            class="flex flex-cross-center"
+                          >
+                            <div
+                              class="bold"
+                              data-qa="flight-abstraction-departure-date-label"
+                            >
+                              Departure
+                            </div>
+                            <div
+                              class="regular ml2"
+                            >
+                               
+                              - 
+                              Tue, Apr 17, 2018
+                            </div>
+                          </div>
+                          <p
+                            class="regular"
+                          >
+                            From: 
+                            Boise, ID - BOI
+                          </p>
+                          <p
+                            class="regular"
+                          >
+                            To: 
+                            Austin, TX - AUS
+                          </p>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <div
+                            class="pr3 inline-block align-top flight-abstraction--flight-number"
+                          >
+                            <h4
+                              class="gray4 regular small"
+                            >
+                              SHARED__BOUND_SELECT__FLIGHT
+                            </h4>
+                            <p
+                              class="bold larger"
+                            >
+                              194/285
+                            </p>
+                          </div>
+                          <div
+                            class="inline-block nowrap"
+                          >
+                            <div
+                              class="inline-block"
+                              data-qa="departs-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__DEPARTS
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  3:00
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                            <div
+                              class="xlarge relative inline-block flight--icon-airplane-wrapper"
+                            >
+                              <i
+                                class="mt4 icon icon_airplane"
+                              />
+                            </div>
+                            <div
+                              class="inline-block"
+                              data-qa="arrives-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__ARRIVES
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  11:45
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="segment"
+        >
+          <button
+            class="change button button--fluid larger button--yellow"
+            data-qa="air-change-select-bound-continue-button"
+            type="submit"
+          >
+            SHARED__BUTTON_TEXT__CONTINUE
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`airChangeSelectPage Reaccom scenario render should render reaccom-change-flight-both-eligible-message 1`] = `
+<div>
+  <div
+    class="flight-change"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        AIR_CHANGE__TITLE
+      </div>
+      <div />
+    </div>
+    <div>
+      <div
+        class="flight-change-msg bg-"
+      >
+        <div
+          class="swa-message msg-header information"
+        >
+          <span
+            class="icon-container"
+          >
+            <i
+              class="icon icon_ic-info"
+            />
+          </span>
+          <span
+            class="message--text"
+          >
+            <b
+              class="flight-change-msg--header text-default"
+            >
+              Are You Sure??
+            </b>
+          </span>
+        </div>
+        <p
+          class="flight-change-msg--body text-default"
+        >
+          If you proceed, any corporate discounts may not apply and your TMC/Travel Agency may be unable to make further charges.
+        </p>
+      </div>
+    </div>
+    <form
+      class="form"
+      name="AIR_CHANGE_SELECT_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="bgwhite bdb bdt"
+        />
+        <div
+          class="segment"
+        >
+          <button
+            class="change button button--fluid larger button--yellow"
+            data-qa="air-change-select-bound-continue-button"
+            type="submit"
+          >
+            SHARED__BUTTON_TEXT__CONTINUE
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`airChangeSelectPage Reaccom scenario render should render reaccom-change-message 1`] = `
+<div>
+  <div
+    class="flight-change"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        AIR_CHANGE__TITLE
+      </div>
+      <div />
+    </div>
+    <div>
+      <div
+        class="flight-change-msg bg-"
+      >
+        <p
+          class="text-default"
+        >
+          The selected flight(s) may be modified at no additional cost.
+        </p>
+      </div>
+    </div>
+    <form
+      class="form"
+      name="AIR_CHANGE_SELECT_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="bgwhite bdb bdt"
+        >
+          <div
+            class="flight-abstraction--bound"
+            data-qa="bound"
+          >
+            <div
+              class="flight-abstraction--table"
+            >
+              <div
+                class="field"
+              >
+                <div
+                  class="px5 relative flex checkbox-button checkbox-button--row_checked flex-cross-center"
+                  name="firstbound"
+                >
+                  <div
+                    class="flex2 flex flex-main-center"
+                  >
+                    <span
+                      class="checkbox-button--mark checkbox-button_checked"
+                    >
+                      <i
+                        class="absolute xlarge bgtransp icon icon_check"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="flex10"
+                  >
+                    <div
+                      class="checkbox-button--children flex-equal-width ml2"
+                    >
+                      <div
+                        data-qa="air-change-flight-selection-departure"
+                      >
+                        <div
+                          class="mb5 nowrap"
+                          data-qa="flight-abstraction-itinerary"
+                        >
+                          <div
+                            class="flex flex-cross-center"
+                          >
+                            <div
+                              class="bold"
+                              data-qa="flight-abstraction-departure-date-label"
+                            >
+                              Departure
+                            </div>
+                            <div
+                              class="regular ml2"
+                            >
+                               
+                              - 
+                              Tue, Apr 17, 2018
+                            </div>
+                          </div>
+                          <p
+                            class="regular"
+                          >
+                            From: 
+                            Boise, ID - BOI
+                          </p>
+                          <p
+                            class="regular"
+                          >
+                            To: 
+                            Austin, TX - AUS
+                          </p>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <div
+                            class="pr3 inline-block align-top flight-abstraction--flight-number"
+                          >
+                            <h4
+                              class="gray4 regular small"
+                            >
+                              SHARED__BOUND_SELECT__FLIGHT
+                            </h4>
+                            <p
+                              class="bold larger"
+                            >
+                              194/285
+                            </p>
+                          </div>
+                          <div
+                            class="inline-block nowrap"
+                          >
+                            <div
+                              class="inline-block"
+                              data-qa="departs-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__DEPARTS
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  3:00
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                            <div
+                              class="xlarge relative inline-block flight--icon-airplane-wrapper"
+                            >
+                              <i
+                                class="mt4 icon icon_airplane"
+                              />
+                            </div>
+                            <div
+                              class="inline-block"
+                              data-qa="arrives-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__ARRIVES
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  11:45
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="segment"
+        >
+          <button
+            class="change button button--fluid larger button--yellow"
+            data-qa="air-change-select-bound-continue-button"
+            type="submit"
+          >
+            SHARED__BUTTON_TEXT__CONTINUE
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`airChangeSelectPage Reaccom scenario render should render reaccom-change-message with default values 1`] = `
+<div>
+  <div
+    class="flight-change"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        AIR_CHANGE__TITLE
+      </div>
+      <div />
+    </div>
+    <div>
+      <div
+        class="flight-change-msg bg-"
+      >
+        <div
+          class="swa-message p0 information"
+        >
+          <span
+            class="icon-container"
+          >
+            <i
+              class="icon icon_ic-info"
+            />
+          </span>
+          <span
+            class="message--text"
+          >
+            <p
+              class="flight-change-msg--body text-default"
+            >
+              The selected flight(s) may be modified at no additional cost.
+            </p>
+          </span>
+        </div>
+      </div>
+    </div>
+    <form
+      class="form"
+      name="AIR_CHANGE_SELECT_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="bgwhite bdb bdt"
+        />
+        <div
+          class="segment"
+        >
+          <button
+            class="change button button--fluid larger button--yellow"
+            data-qa="air-change-select-bound-continue-button"
+            type="submit"
+          >
+            SHARED__BUTTON_TEXT__CONTINUE
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`airChangeSelectPage Reaccom scenario render should render reaccom-gds-notice-message 1`] = `
+<div>
+  <div
+    class="flight-change"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        AIR_CHANGE__TITLE
+      </div>
+      <div />
+    </div>
+    <div>
+      <div
+        class="flight-change-msg bg-neutral-white"
+      >
+        <div
+          class="swa-message msg-header information"
+        >
+          <span
+            class="icon-container"
+          >
+            <i
+              class="icon icon_ic-info"
+            />
+          </span>
+          <span
+            class="message--text"
+          >
+            <b
+              class="flight-change-msg--header text-primary-blue"
+            >
+              Are You Sure??
+            </b>
+          </span>
+        </div>
+        <p
+          class="flight-change-msg--body text-primary-blue"
+        >
+          If you proceed, any corporate discounts may not apply and your TMC/Travel Agency may be unable to make further charges.
+        </p>
+      </div>
+    </div>
+    <form
+      class="form"
+      name="AIR_CHANGE_SELECT_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="bgwhite bdb bdt"
+        >
+          <div
+            class="flight-abstraction--bound"
+            data-qa="bound"
+          >
+            <div
+              class="flight-abstraction--table"
+            >
+              <div
+                class="field"
+              >
+                <div
+                  class="px5 relative flex checkbox-button checkbox-button--row_checked flex-cross-center"
+                  name="firstbound"
+                >
+                  <div
+                    class="flex2 flex flex-main-center"
+                  >
+                    <span
+                      class="checkbox-button--mark checkbox-button_checked"
+                    >
+                      <i
+                        class="absolute xlarge bgtransp icon icon_check"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="flex10"
+                  >
+                    <div
+                      class="checkbox-button--children flex-equal-width ml2"
+                    >
+                      <div
+                        data-qa="air-change-flight-selection-departure"
+                      >
+                        <div
+                          class="mb5 nowrap"
+                          data-qa="flight-abstraction-itinerary"
+                        >
+                          <div
+                            class="flex flex-cross-center"
+                          >
+                            <div
+                              class="bold"
+                              data-qa="flight-abstraction-departure-date-label"
+                            >
+                              Departure
+                            </div>
+                            <div
+                              class="regular ml2"
+                            >
+                               
+                              - 
+                              Tue, Apr 17, 2018
+                            </div>
+                          </div>
+                          <p
+                            class="regular"
+                          >
+                            From: 
+                            Boise, ID - BOI
+                          </p>
+                          <p
+                            class="regular"
+                          >
+                            To: 
+                            Austin, TX - AUS
+                          </p>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <div
+                            class="pr3 inline-block align-top flight-abstraction--flight-number"
+                          >
+                            <h4
+                              class="gray4 regular small"
+                            >
+                              SHARED__BOUND_SELECT__FLIGHT
+                            </h4>
+                            <p
+                              class="bold larger"
+                            >
+                              194/285
+                            </p>
+                          </div>
+                          <div
+                            class="inline-block nowrap"
+                          >
+                            <div
+                              class="inline-block"
+                              data-qa="departs-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__DEPARTS
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  3:00
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                            <div
+                              class="xlarge relative inline-block flight--icon-airplane-wrapper"
+                            >
+                              <i
+                                class="mt4 icon icon_airplane"
+                              />
+                            </div>
+                            <div
+                              class="inline-block"
+                              data-qa="arrives-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__ARRIVES
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  11:45
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="segment"
+        >
+          <button
+            class="change button button--fluid larger button--yellow"
+            data-qa="air-change-select-bound-continue-button"
+            type="submit"
+          >
+            SHARED__BUTTON_TEXT__CONTINUE
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`airChangeSelectPage Reaccom scenario render should render split pnr confirmation message 1`] = `
+<div>
+  <div
+    class="flight-change"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        AIR_CHANGE__TITLE
+      </div>
+      <div />
+    </div>
+    <div>
+      <div
+        class="flight-change-msg bg-neutral-white"
+      >
+        <div
+          class="swa-message msg-header information"
+        >
+          <span
+            class="icon-container"
+          >
+            <i
+              class="icon icon_ic-info"
+            />
+          </span>
+          <span
+            class="message--text"
+          >
+            <b
+              class="flight-change-msg--header text-primary-blue"
+            >
+              Your new confirmation number # PPUWKZ
+            </b>
+          </span>
+        </div>
+        <p
+          class="flight-change-msg--body text-primary-blue"
+        />
+      </div>
+    </div>
+    <form
+      class="form"
+      name="AIR_CHANGE_SELECT_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="bgwhite bdb bdt"
+        >
+          <div
+            class="flight-abstraction--bound"
+            data-qa="bound"
+          >
+            <div
+              class="flight-abstraction--table"
+            >
+              <div
+                class="field"
+              >
+                <div
+                  class="px5 relative flex checkbox-button flex-cross-center"
+                  name="firstbound"
+                >
+                  <div
+                    class="flex2 flex flex-main-center"
+                  >
+                    <span
+                      class="checkbox-button--mark"
+                    >
+                      <i
+                        class="absolute xlarge bgtransp icon icon_check"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="flex10"
+                  >
+                    <div
+                      class="checkbox-button--children flex-equal-width ml2"
+                    >
+                      <div
+                        data-qa="air-change-flight-selection-departure"
+                      >
+                        <div
+                          class="mb5 nowrap"
+                          data-qa="flight-abstraction-itinerary"
+                        >
+                          <div
+                            class="flex flex-cross-center"
+                          >
+                            <div
+                              class="bold"
+                              data-qa="flight-abstraction-departure-date-label"
+                            >
+                              Departure
+                            </div>
+                            <div
+                              class="regular ml2"
+                            >
+                               
+                              - 
+                              Tue, Apr 17, 2018
+                            </div>
+                          </div>
+                          <p
+                            class="regular"
+                          >
+                            From: 
+                            Boise, ID - BOI
+                          </p>
+                          <p
+                            class="regular"
+                          >
+                            To: 
+                            Austin, TX - AUS
+                          </p>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <div
+                            class="pr3 inline-block align-top flight-abstraction--flight-number"
+                          >
+                            <h4
+                              class="gray4 regular small"
+                            >
+                              SHARED__BOUND_SELECT__FLIGHT
+                            </h4>
+                            <p
+                              class="bold larger"
+                            >
+                              194/285
+                            </p>
+                          </div>
+                          <div
+                            class="inline-block nowrap"
+                          >
+                            <div
+                              class="inline-block"
+                              data-qa="departs-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__DEPARTS
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  3:00
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                            <div
+                              class="xlarge relative inline-block flight--icon-airplane-wrapper"
+                            >
+                              <i
+                                class="mt4 icon icon_airplane"
+                              />
+                            </div>
+                            <div
+                              class="inline-block"
+                              data-qa="arrives-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__ARRIVES
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  11:45
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="segment"
+        >
+          <button
+            class="change button button--fluid larger button--yellow"
+            data-qa="air-change-select-bound-continue-button"
+            type="submit"
+          >
+            SHARED__BUTTON_TEXT__CONTINUE
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`airChangeSelectPage message should render change-gds-notice-message 1`] = `
+<div>
+  <div
+    class="flight-change"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        AIR_CHANGE__TITLE
+      </div>
+      <div />
+    </div>
+    <div />
+    <form
+      class="form"
+      name="AIR_CHANGE_SELECT_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="bgwhite bdb bdt"
+        >
+          <div
+            class="flight-abstraction--bound"
+            data-qa="bound"
+          >
+            <div
+              class="flight-abstraction--table"
+            >
+              <div
+                class="field"
+              >
+                <div
+                  class="px5 relative flex checkbox-button flex-cross-center"
+                  name="firstbound"
+                >
+                  <div
+                    class="flex2 flex flex-main-center"
+                  >
+                    <span
+                      class="checkbox-button--mark"
+                    >
+                      <i
+                        class="absolute xlarge bgtransp icon icon_check"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="flex10"
+                  >
+                    <div
+                      class="checkbox-button--children flex-equal-width ml2"
+                    >
+                      <div
+                        data-qa="air-change-flight-selection-departure"
+                      >
+                        <div
+                          class="mb5 nowrap"
+                          data-qa="flight-abstraction-itinerary"
+                        >
+                          <div
+                            class="flex flex-cross-center"
+                          >
+                            <div
+                              class="bold"
+                              data-qa="flight-abstraction-departure-date-label"
+                            >
+                              Departure
+                            </div>
+                            <div
+                              class="regular ml2"
+                            >
+                               
+                              - 
+                              Tue, Apr 17, 2018
+                            </div>
+                          </div>
+                          <p
+                            class="regular"
+                          >
+                            From: 
+                            Boise, ID - BOI
+                          </p>
+                          <p
+                            class="regular"
+                          >
+                            To: 
+                            Austin, TX - AUS
+                          </p>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <div
+                            class="pr3 inline-block align-top flight-abstraction--flight-number"
+                          >
+                            <h4
+                              class="gray4 regular small"
+                            >
+                              SHARED__BOUND_SELECT__FLIGHT
+                            </h4>
+                            <p
+                              class="bold larger"
+                            >
+                              194/285
+                            </p>
+                          </div>
+                          <div
+                            class="inline-block nowrap"
+                          >
+                            <div
+                              class="inline-block"
+                              data-qa="departs-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__DEPARTS
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  3:00
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                            <div
+                              class="xlarge relative inline-block flight--icon-airplane-wrapper"
+                            >
+                              <i
+                                class="mt4 icon icon_airplane"
+                              />
+                            </div>
+                            <div
+                              class="inline-block"
+                              data-qa="arrives-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__ARRIVES
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  11:45
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="segment"
+        >
+          <button
+            class="change button button--fluid larger button--yellow"
+            data-qa="air-change-select-bound-continue-button"
+            type="submit"
+          >
+            SHARED__BUTTON_TEXT__CONTINUE
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`airChangeSelectPage message should render change-gds-notice-message with header 1`] = `
+<div>
+  <div
+    class="flight-change"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        AIR_CHANGE__TITLE
+      </div>
+      <div />
+    </div>
+    <div />
+    <form
+      class="form"
+      name="AIR_CHANGE_SELECT_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="bgwhite bdb bdt"
+        >
+          <div
+            class="flight-abstraction--bound"
+            data-qa="bound"
+          >
+            <div
+              class="flight-abstraction--table"
+            >
+              <div
+                class="field"
+              >
+                <div
+                  class="px5 relative flex checkbox-button flex-cross-center"
+                  name="firstbound"
+                >
+                  <div
+                    class="flex2 flex flex-main-center"
+                  >
+                    <span
+                      class="checkbox-button--mark"
+                    >
+                      <i
+                        class="absolute xlarge bgtransp icon icon_check"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="flex10"
+                  >
+                    <div
+                      class="checkbox-button--children flex-equal-width ml2"
+                    >
+                      <div
+                        data-qa="air-change-flight-selection-departure"
+                      >
+                        <div
+                          class="mb5 nowrap"
+                          data-qa="flight-abstraction-itinerary"
+                        >
+                          <div
+                            class="flex flex-cross-center"
+                          >
+                            <div
+                              class="bold"
+                              data-qa="flight-abstraction-departure-date-label"
+                            >
+                              Departure
+                            </div>
+                            <div
+                              class="regular ml2"
+                            >
+                               
+                              - 
+                              Tue, Apr 17, 2018
+                            </div>
+                          </div>
+                          <p
+                            class="regular"
+                          >
+                            From: 
+                            Boise, ID - BOI
+                          </p>
+                          <p
+                            class="regular"
+                          >
+                            To: 
+                            Austin, TX - AUS
+                          </p>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <div
+                            class="pr3 inline-block align-top flight-abstraction--flight-number"
+                          >
+                            <h4
+                              class="gray4 regular small"
+                            >
+                              SHARED__BOUND_SELECT__FLIGHT
+                            </h4>
+                            <p
+                              class="bold larger"
+                            >
+                              194/285
+                            </p>
+                          </div>
+                          <div
+                            class="inline-block nowrap"
+                          >
+                            <div
+                              class="inline-block"
+                              data-qa="departs-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__DEPARTS
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  3:00
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                            <div
+                              class="xlarge relative inline-block flight--icon-airplane-wrapper"
+                            >
+                              <i
+                                class="mt4 icon icon_airplane"
+                              />
+                            </div>
+                            <div
+                              class="inline-block"
+                              data-qa="arrives-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__ARRIVES
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  11:45
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="segment"
+        >
+          <button
+            class="change button button--fluid larger button--yellow"
+            data-qa="air-change-select-bound-continue-button"
+            type="submit"
+          >
+            SHARED__BUTTON_TEXT__CONTINUE
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`airChangeSelectPage passenger details should render passenger details 1`] = `
+<div>
+  <div
+    class="flight-change"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        AIR_CHANGE__TITLE
+      </div>
+      <div />
+    </div>
+    <div />
+    <form
+      class="form"
+      name="AIR_CHANGE_SELECT_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="bgwhite bdb bdt"
+        >
+          <div
+            class="flight-abstraction--bound"
+            data-qa="bound"
+          >
+            <div
+              class="flight-abstraction--table"
+            >
+              <div
+                class="field"
+              >
+                <div
+                  class="px5 relative flex checkbox-button flex-cross-center"
+                  name="firstbound"
+                >
+                  <div
+                    class="flex2 flex flex-main-center"
+                  >
+                    <span
+                      class="checkbox-button--mark"
+                    >
+                      <i
+                        class="absolute xlarge bgtransp icon icon_check"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="flex10"
+                  >
+                    <div
+                      class="checkbox-button--children flex-equal-width ml2"
+                    >
+                      <div
+                        data-qa="air-change-flight-selection-departure"
+                      >
+                        <div
+                          class="mb5 nowrap"
+                          data-qa="flight-abstraction-itinerary"
+                        >
+                          <div
+                            class="flex flex-cross-center"
+                          >
+                            <div
+                              class="bold"
+                              data-qa="flight-abstraction-departure-date-label"
+                            >
+                              Departure
+                            </div>
+                            <div
+                              class="regular ml2"
+                            >
+                               
+                              - 
+                              Tue, Apr 17, 2018
+                            </div>
+                          </div>
+                          <p
+                            class="regular"
+                          >
+                            From: 
+                            Boise, ID - BOI
+                          </p>
+                          <p
+                            class="regular"
+                          >
+                            To: 
+                            Austin, TX - AUS
+                          </p>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <div
+                            class="pr3 inline-block align-top flight-abstraction--flight-number"
+                          >
+                            <h4
+                              class="gray4 regular small"
+                            >
+                              SHARED__BOUND_SELECT__FLIGHT
+                            </h4>
+                            <p
+                              class="bold larger"
+                            >
+                              194/285
+                            </p>
+                          </div>
+                          <div
+                            class="inline-block nowrap"
+                          >
+                            <div
+                              class="inline-block"
+                              data-qa="departs-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__DEPARTS
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  3:00
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                            <div
+                              class="xlarge relative inline-block flight--icon-airplane-wrapper"
+                            >
+                              <i
+                                class="mt4 icon icon_airplane"
+                              />
+                            </div>
+                            <div
+                              class="inline-block"
+                              data-qa="arrives-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__ARRIVES
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  11:45
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="passenger-details"
+        >
+          <div
+            class="disclaimer"
+          >
+            Flight changes apply to all passengers on this reservation. If you need to make changes to one person on your itinerary, please call , 
+            <a
+              href="tel:18004359792"
+            >
+              1 800 I FLY SWA( 1-800-435-9792)
+            </a>
+            .
+          </div>
+          <div
+            class="passenger-list-wrap"
+          >
+            <div
+              class="passenger-list"
+            >
+              PASSENGER(S)
+            </div>
+            <span
+              class="passenger-name"
+            >
+              Tesla Awesome
+            </span>
+            <span
+              class="passenger-name"
+            >
+              Tesla Smart
+            </span>
+          </div>
+        </div>
+        <div
+          class="segment"
+        >
+          <button
+            class="change button button--fluid larger button--yellow"
+            data-qa="air-change-select-bound-continue-button"
+            type="submit"
+          >
+            SHARED__BUTTON_TEXT__CONTINUE
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`airChangeSelectPage render should render expected component 1`] = `
+<div>
+  <div
+    class="flight-change"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        AIR_CHANGE__TITLE
+      </div>
+      <div />
+    </div>
+    <div />
+    <form
+      class="form"
+      name="AIR_CHANGE_SELECT_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="bgwhite bdb bdt"
+        >
+          <div
+            class="flight-abstraction--bound"
+            data-qa="bound"
+          >
+            <div
+              class="flight-abstraction--table"
+            >
+              <div
+                class="field"
+              >
+                <div
+                  class="px5 relative flex checkbox-button flex-cross-center"
+                  name="firstbound"
+                >
+                  <div
+                    class="flex2 flex flex-main-center"
+                  >
+                    <span
+                      class="checkbox-button--mark"
+                    >
+                      <i
+                        class="absolute xlarge bgtransp icon icon_check"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="flex10"
+                  >
+                    <div
+                      class="checkbox-button--children flex-equal-width ml2"
+                    >
+                      <div
+                        data-qa="air-change-flight-selection-departure"
+                      >
+                        <div
+                          class="mb5 nowrap"
+                          data-qa="flight-abstraction-itinerary"
+                        >
+                          <div
+                            class="flex flex-cross-center"
+                          >
+                            <div
+                              class="bold"
+                              data-qa="flight-abstraction-departure-date-label"
+                            >
+                              Departure
+                            </div>
+                            <div
+                              class="regular ml2"
+                            >
+                               
+                              - 
+                              Tue, Apr 17, 2018
+                            </div>
+                          </div>
+                          <p
+                            class="regular"
+                          >
+                            From: 
+                            Boise, ID - BOI
+                          </p>
+                          <p
+                            class="regular"
+                          >
+                            To: 
+                            Austin, TX - AUS
+                          </p>
+                        </div>
+                        <div
+                          class="nowrap"
+                        >
+                          <div
+                            class="pr3 inline-block align-top flight-abstraction--flight-number"
+                          >
+                            <h4
+                              class="gray4 regular small"
+                            >
+                              SHARED__BOUND_SELECT__FLIGHT
+                            </h4>
+                            <p
+                              class="bold larger"
+                            >
+                              194/285
+                            </p>
+                          </div>
+                          <div
+                            class="inline-block nowrap"
+                          >
+                            <div
+                              class="inline-block"
+                              data-qa="departs-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__DEPARTS
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  3:00
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                            <div
+                              class="xlarge relative inline-block flight--icon-airplane-wrapper"
+                            >
+                              <i
+                                class="mt4 icon icon_airplane"
+                              />
+                            </div>
+                            <div
+                              class="inline-block"
+                              data-qa="arrives-time"
+                            >
+                              <h4
+                                class="gray4 regular small"
+                              >
+                                SHARED__BOUND_SELECT__ARRIVES
+                              </h4>
+                              <p
+                                class="bold"
+                              >
+                                <span
+                                  class="xxlarge"
+                                >
+                                  11:45
+                                </span>
+                                <span
+                                  class="small"
+                                >
+                                  PM
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="segment"
+        >
+          <button
+            class="change button button--fluid larger button--yellow"
+            data-qa="air-change-select-bound-continue-button"
+            type="submit"
+          >
+            SHARED__BUTTON_TEXT__CONTINUE
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;

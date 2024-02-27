@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="airCancel.airCancelWithCompanionTest"
+    errors="0" failures="0" hostname="" id="" package="airCancel" skipped="0"
+    tests="3" time="39.67" timestamp="Fri, 15 Dec 2023 00:58:51 GMT">
+  
+    <testcase name="Login user" classname="airCancel.airCancelWithCompanionTest" time="36.33" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Lookup flight reservation with confirmation number" classname="airCancel.airCancelWithCompanionTest" time="3.007" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Call SWA message appears in place of Change/Cancel Button" classname="airCancel.airCancelWithCompanionTest" time="0.3350" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

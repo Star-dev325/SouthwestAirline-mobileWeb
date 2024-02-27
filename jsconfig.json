@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es2016",
+    "jsx": "preserve",
+    "checkJs": true
+  },
+  "exclude": [
+    "node_modules",
+    "backstop_data",
+    "nightwatch-screenshots",
+    ".vscode",
+    "build",
+    ".git",
+    "dist",
+    "doc",
+    "bin",
+    "nexusPromote",
+    ".temp",
+    ".idea",
+    ".dump",
+    "ide",
+    "chapi"
+  ],
+  "paths": {
+    "*": ["*", "./src/*"]
+  }
+}

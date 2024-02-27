@@ -1,0 +1,38 @@
+.passenger-info-summary {
+  @include bggray2;
+}
+
+.passenger-info-summary--item {
+  @include block;
+  @include relative;
+  @include bgwhite;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.passenger-info-summary--item-text {
+  @include fullwidth;
+}
+
+.passenger-info-summary--item-rapid-rewards {
+  @include block;
+  @include gray4;
+  @include medium;
+}
+
+.passenger-info-summary--item-rapid-rewards:empty {
+  display: none;
+}
+
+.arrow-right-icon {
+  @include block;
+  @include absolute;
+  right: 3%;
+  top: 30%;
+}
+
+.arrow-right-icon .icon[type='keyboard-arrow-right'] {
+  @include align-middle;
+  @include gray4;
+  font-size: 1.5em;
+}

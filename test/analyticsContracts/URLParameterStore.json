@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "clk": {
+      "type": "string"
+    },
+    "f": {
+      "type": "string"
+    },
+    "int": {
+      "type": "string"
+    },
+    "ref": {
+      "type": "string"
+    },
+    "rmid": {
+      "type": "string"
+    },
+    "rrid": {
+      "type": "string"
+    },
+    "rr_number": {
+      "type": "string"
+    },
+    "rsd": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
+    },
+    "vast": {
+      "type": "string"
+    }
+  }
+}

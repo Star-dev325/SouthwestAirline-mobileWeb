@@ -1,0 +1,58 @@
+.early-bird-review {
+  .icon_airplane {
+    @include large;
+  }
+
+  .review-footer--links {
+    @include m0;
+    @include large;
+  }
+}
+
+.early-bird-review--trip-detail {
+  @include my5;
+}
+
+.early-bird-review--trip-title {
+  @include large;
+  @include gray4;
+  @include px5;
+  @include pb3;
+}
+
+.early-bird-review--trip-money-info {
+  @include mb5;
+  @include bgwhite;
+  @include larger;
+  @include flex;
+  @include flex-main-between;
+  @include p5;
+}
+
+.early-bird-review--trip-money-info-price {
+  @include smaller;
+}
+
+.early-bird-review--payment-method {
+  @include relative;
+  @include bdt;
+  @include bdb;
+  @include bgwhite;
+  @include larger;
+  @include p5;
+
+  .icon_keyboard-arrow-right {
+    @include absolute;
+    @include gray3;
+    @include xxlarge;
+    right: 1.4rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.early-bird-review--credit-card {
+  @include larger;
+  @include mt1;
+  @include gray4;
+}

@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AirUpgradeBoundList should render a list of AirUpgradeBounds 1`] = `
+<div>
+  <form>
+    <div
+      class="air-upgrade-select-bounds-form--bound-list"
+    >
+      <div
+        class="air-upgrade-bound"
+      >
+        <div
+          class="air-upgrade-bound--type"
+        >
+          DEPARTING
+        </div>
+        <div
+          class="flight-brief-summary bgwhite bdb p5"
+        >
+          <div
+            class="flex xlarge pdkblue bold"
+          >
+            <div
+              class="flex4"
+            >
+              Dec 29
+            </div>
+            <div
+              class="flex2"
+            >
+              DAL
+            </div>
+            <div
+              class="flex2 flight-brief-summary--airplane center"
+            >
+              <i
+                class="mt3 icon icon_airplane"
+              />
+            </div>
+            <div
+              class="flex2"
+            >
+              HOU
+            </div>
+          </div>
+          <div
+            class="flex large gray4"
+          >
+            <div
+              class="flex4"
+            >
+              Wednesday
+            </div>
+            <div
+              class="flex2 flight-time"
+            >
+              <div
+                class="flight-time--time"
+              >
+                <span>
+                  9:10
+                </span>
+                <span
+                  class="time-period"
+                >
+                  AM
+                </span>
+              </div>
+            </div>
+            <div
+              class="flex2"
+            />
+            <div
+              class="flight-brief-summary--summary-group"
+            >
+              <div
+                class="flex2 flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    3:40
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    PM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="air-upgrade-bound--select"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="relative flex checkbox-button flex-cross-center"
+              name="mockId1"
+            >
+              <div>
+                <span
+                  class="checkbox-button--mark"
+                >
+                  <i
+                    class="absolute xlarge bgtransp icon icon_check"
+                  />
+                </span>
+              </div>
+              <div>
+                <div
+                  class="checkbox-button--children flex-equal-width ml2"
+                >
+                  <div
+                    class="air-upgrade-bound--select-message-header"
+                  >
+                    Upgrade all passengers to Business Select®
+                  </div>
+                  <div
+                    class="air-upgrade-bound--select-message-body"
+                  >
+                    and earn 6,937 more points
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="air-upgrade-bound"
+      >
+        <div
+          class="air-upgrade-bound--type"
+        >
+          RETURNING
+        </div>
+        <div
+          class="flight-brief-summary bgwhite bdb p5"
+        >
+          <div
+            class="flex xlarge pdkblue bold"
+          >
+            <div
+              class="flex4"
+            >
+              Jan 5
+            </div>
+            <div
+              class="flex2"
+            >
+              HOU
+            </div>
+            <div
+              class="flex2 flight-brief-summary--airplane center"
+            >
+              <i
+                class="mt3 icon icon_airplane"
+              />
+            </div>
+            <div
+              class="flex2"
+            >
+              DAL
+            </div>
+          </div>
+          <div
+            class="flex large gray4"
+          >
+            <div
+              class="flex4"
+            >
+              Wednesday
+            </div>
+            <div
+              class="flex2 flight-time"
+            >
+              <div
+                class="flight-time--time"
+              >
+                <span>
+                  9:05
+                </span>
+                <span
+                  class="time-period"
+                >
+                  AM
+                </span>
+              </div>
+            </div>
+            <div
+              class="flex2"
+            />
+            <div
+              class="flight-brief-summary--summary-group"
+            >
+              <div
+                class="flex2 flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    1:30
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    PM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="air-upgrade-bound--select"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="relative flex checkbox-button flex-cross-center"
+              name="mockId2"
+            >
+              <div>
+                <span
+                  class="checkbox-button--mark"
+                >
+                  <i
+                    class="absolute xlarge bgtransp icon icon_check"
+                  />
+                </span>
+              </div>
+              <div>
+                <div
+                  class="checkbox-button--children flex-equal-width ml2"
+                >
+                  <div
+                    class="air-upgrade-bound--select-message-header"
+                  >
+                    Upgrade all passengers to Business Select®
+                  </div>
+                  <div
+                    class="air-upgrade-bound--select-message-body"
+                  >
+                    and earn 6,937 more points
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

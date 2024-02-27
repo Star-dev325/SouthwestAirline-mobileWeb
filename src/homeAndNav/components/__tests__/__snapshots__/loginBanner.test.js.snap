@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginBannerClose should render correctly 1`] = `
+<div>
+  <div
+    class="login-banner"
+  >
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          >
+            <div
+              class="flex-placement visible"
+              id="encourageLogin_flex"
+              style="background-color: rgb(255, 255, 255); background-size: cover; text-decoration: none; display: block; width: 750px; font-family: Southwest Sans, Arial, sans-serif; height: 150px;"
+            >
+              <img
+                alt="Profile"
+                class=""
+                height="40px"
+                id="encourageLogin_flex_graphic_1"
+                src="/content/mkt/images/icons/icon_profile.png"
+                style="top: 20px; left: 20px; width: 39px; position: absolute; height: 40px;"
+                width="39px"
+              />
+              <div
+                class=""
+                id="encourageLogin_flex_text_block_2"
+                style="color: rgb(48, 76, 178); top: 18px; left: 80px; font-weight: bold; font-size: 32px; font-family: Southwest Sans, Arial, sans-serif; position: absolute;"
+              >
+                <span
+                  class=""
+                >
+                  HAVE AN ACCOUNT? LOG IN
+                </span>
+              </div>
+              <div
+                class=""
+                id="encourageLogin_flex_text_block_3"
+                style="color: rgb(0, 0, 0); top: 55px; left: 80px; font-size: 32px; font-family: Southwest Sans, Arial, sans-serif; position: absolute;"
+              >
+                <span
+                  class=""
+                >
+                  Earn points when you book and your trip stays in your account for easy access.
+                </span>
+              </div>
+              <div
+                class=""
+                id="encourageLogin_flex_text_block_4"
+                style="top: 10px; position: absolute; right: 20px;"
+              >
+                <span
+                  class=""
+                />
+                <i
+                  class="login-banner-close-icon icon icon_delete"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="up-arrow"
+    />
+  </div>
+</div>
+`;

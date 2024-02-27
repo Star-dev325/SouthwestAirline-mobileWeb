@@ -1,0 +1,22 @@
+.button-with-plus-icon-and-text {
+  @include align-left;
+  @include border-none;
+  box-shadow: none;
+  padding: 1.7rem 1.5rem 0.5rem 0;
+
+  &--icon {
+    @include circle;
+    @include bgpblue;
+    @include mr3;
+    @include white;
+    @include bold;
+    font-size: 4rem;
+    padding: 0.1rem 1rem;
+  }
+
+  &--text {
+    @include inline-block;
+    position: relative;
+    top: -0.85rem;
+  }
+}

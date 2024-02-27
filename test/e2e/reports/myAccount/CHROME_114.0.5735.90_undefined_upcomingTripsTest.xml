@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="17">
+
+  <testsuite name="myAccount.upcomingTripsTest"
+    errors="0" failures="0" hostname="" id="" package="myAccount" skipped="0"
+    tests="17" time="95.21" timestamp="Fri, 15 Dec 2023 01:55:10 GMT">
+  
+    <testcase name="Go MyAccount home page" classname="myAccount.upcomingTripsTest" time="38.09" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify MyAccount home page" classname="myAccount.upcomingTripsTest" time="4.423" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Clicking on next up takes you to trip details" classname="myAccount.upcomingTripsTest" time="0.6840" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify flight trip details page" classname="myAccount.upcomingTripsTest" time="2.220" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify change flight button and back" classname="myAccount.upcomingTripsTest" time="5.030" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go Upcoming trips page" classname="myAccount.upcomingTripsTest" time="1.020" assertions="0">
+    </testcase>
+  
+    <testcase name="Tap Trips number banner" classname="myAccount.upcomingTripsTest" time="4.174" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Upcoming trips page and take you to the first upcoming car trip" classname="myAccount.upcomingTripsTest" time="3.764" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify car trip details page" classname="myAccount.upcomingTripsTest" time="1.043" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go Upcoming trips page again" classname="myAccount.upcomingTripsTest" time="0.3090" assertions="0">
+    </testcase>
+  
+    <testcase name="Verify check in button in upcoming trips page and back" classname="myAccount.upcomingTripsTest" time="2.557" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify view boarding pass button in upcoming trips page" classname="myAccount.upcomingTripsTest" time="0.5670" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Hazmat Declaration page and tap Continue button" classname="myAccount.upcomingTripsTest" time="1.206" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify boarding pass page and back" classname="myAccount.upcomingTripsTest" time="0.4950" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify view boarding passes button in upcoming trips page and back" classname="myAccount.upcomingTripsTest" time="2.089" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Upcoming trips page" classname="myAccount.upcomingTripsTest" time="16.25" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="refresh should back to upcoming trips page" classname="myAccount.upcomingTripsTest" time="11.29" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

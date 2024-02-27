@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="9">
+
+  <testsuite name="airBooking.anonymousGuestPurchaseTest"
+    errors="0" failures="1" hostname="" id="" package="airBooking" skipped="2"
+    tests="9" time="96.92" timestamp="Fri, 15 Dec 2023 00:31:38 GMT">
+  
+    <testcase name="Go to air booking from nav drawer" classname="airBooking.anonymousGuestPurchaseTest" time="34.55" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find one-way flight from Austin to Atlanta with Points" classname="airBooking.anonymousGuestPurchaseTest" time="19.02" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select flights" classname="airBooking.anonymousGuestPurchaseTest" time="2.117" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check reprice / price summary and continue" classname="airBooking.anonymousGuestPurchaseTest" time="4.848" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter adult passenger details" classname="airBooking.anonymousGuestPurchaseTest" time="7.657" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Fill payment information" classname="airBooking.anonymousGuestPurchaseTest" time="18.09" assertions="18">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Fill out contact information" classname="airBooking.anonymousGuestPurchaseTest" time="10.64" assertions="1">  <failure message="Timed out while waiting for element &lt;.contact-method .icon&gt; to be present for 10000 milliseconds.">    at Object.module.exports.command (/Users/x311032/spa-mobile-web/test/e2e/commands/clickVisible.js:2:8)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Purchase flight" classname="airBooking.anonymousGuestPurchaseTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="On confirmation Page" classname="airBooking.anonymousGuestPurchaseTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

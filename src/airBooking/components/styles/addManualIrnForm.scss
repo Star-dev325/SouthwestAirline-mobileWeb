@@ -1,0 +1,16 @@
+.add-manual-internal-reference-number {
+  &--message {
+    @include mt3;
+    @include gray4;
+    @include medium;
+    @include center;
+  }
+
+  .field {
+    @include mt6;
+  }
+
+  .action-bar--title {
+    width: fit-content;
+  }
+}

@@ -1,0 +1,31 @@
+.stops-detail {
+  @include medium;
+  @include lineheight14;
+  @include italic;
+
+  &.stops-detail--non-stop {
+    @include bold;
+  }
+
+  &.stops-detail--with-icon {
+    .stops-detail--icon {
+      @include lineheight14;
+
+      & > .icon {
+        @include inline-block;
+        @include relative;
+        @include p0;
+        @include m0;
+        @include sltblue;
+        @include circle;
+        top: 0.2em;
+        font-size: 1.4em;
+        background: none;
+
+        &.stop-highlight {
+          @include red;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.travel-advisory-nav-item {
+  @include p4;
+  @include bgwhite;
+  line-height: 4.56rem;
+}
+
+.travel-advisory-nav-item--alert-icon {
+  @include pblue;
+  font-size: 2rem;
+}
+
+.travel-advisory-nav-item--content {
+  @include inline-block;
+  @include ml4;
+  @include pdkblue;
+  @include bold;
+  font-size: 1.3rem;
+}
+
+.travel-advisory-nav-item--arrow-icon {
+  @include gray2;
+  @include align-middle;
+  @include right;
+  line-height: 4.56rem;
+  font-size: 2rem;
+}

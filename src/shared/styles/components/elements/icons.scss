@@ -1,0 +1,44 @@
+.icon[hidden] {
+  display: none;
+}
+
+.right-icon {
+  margin-left: 5px;
+}
+
+.icon_airplane {
+  @include sltblue;
+}
+
+.icon_color-stopwatch {
+  &::before {
+    content: none;
+  }
+  @include swa-icons('stopwatch_icon.svg', 1em, 1em);
+}
+
+.icon_exclamation-circle {
+  @include xxxlarge;
+  @include red;
+
+  &.warning {
+    @include pblue;
+  }
+}
+
+.error {
+  .icon_exclamation-circle {
+    &.warning {
+      @include red;
+    }
+  }
+}
+
+.icon_check-circle {
+  @include xxxlarge;
+  @include green;
+}
+
+.icon_plus-icon {
+  @include arial-font-family;
+}

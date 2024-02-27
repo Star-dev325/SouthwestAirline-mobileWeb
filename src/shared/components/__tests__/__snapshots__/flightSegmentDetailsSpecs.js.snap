@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightSegmentDetails overnight should not show overnight indicator when isOvernight is false 1`] = `null`;
+
+exports[`FlightSegmentDetails overnight should show overnight indicator when isOvernight is true 1`] = `
+<div
+  className="multi-day-indicator multi-day-indicator--overnight-red"
+  data-qa="overnight-indicator"
+>
+  <Icon
+    className="multi-day-indicator--icon multi-day-indicator--icon-small"
+    type="next-day-indicator"
+  >
+    <i
+      className="multi-day-indicator--icon multi-day-indicator--icon-small icon icon_next-day-indicator"
+    />
+  </Icon>
+  <p
+    className="multi-day-indicator--font-small"
+  >
+    Overnight
+  </p>
+</div>
+`;

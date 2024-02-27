@@ -1,0 +1,270 @@
+{
+  "revision": "20201014174725024",
+  "fare_details": {
+    "heading": "Fare Details",
+    "descriptions": [
+      {
+        "title": "Business Select®",
+        "secondary_title": "12x",
+        "tertiary_title": "pts per dollar",
+        "color": "#304cb2",
+        "text_color": "white",
+        "attributes": [
+          {
+            "attribute": "Two bags fly free®*",
+            "attribute_description": "First and second checked bags. Weight and size limits apply.",
+            "value": true
+          },
+          {
+            "attribute": "No change fees**",
+            "attribute_description": "Fare difference may apply.",
+            "value": true
+          },
+          {
+            "attribute": "Reusable funds for up to 12 months",
+            "attribute_description": "If you cancel your flight, 100% of your ticket can be applied to future travel.",
+            "value": true
+          },
+          {
+            "attribute": "Transferable Flight Credit",
+            "attribute_description": "Flight credit can be transferred to someone else.",
+            "value": true
+          },
+          {
+            "attribute": "Refundable (2) (That money is all yours.)",
+            "attribute_description": "Refundable, as long as you cancel your reservation at least ten (10) minutes prior to the scheduled departure of your flight. If you cancel, you’re eligible to receive 100% of your ticket value as a refund to your original form of payment. Southwest residual travel funds from a previous reservation that are applied toward a Business Select Fare will be refunded as residual travel funds. ",
+            "value": true
+          },
+          {
+            "attribute": "Same-day change (3)",
+            "attribute_description": "To take advantage of these benefits, see a Southwest agent at the airport. If there’s an open seat on a different flight on the same day as your original flight and it’s between the same cities, our agent can book a seat on the new flight for you free  of airline charges. If there isn’t an open seat, ask an agent to add you to the same-day standby list. If there are any government taxes and fees associated with these itinerary changes, you will be required to pay those. Your original boarding position is not guaranteed.",
+            "value": true
+          },
+          {
+            "attribute": "Same-day standby (3)",
+            "attribute_description": "To take advantage of these benefits, see a Southwest agent at the airport. If there’s an open seat on a different flight on the same day as your original flight and it’s between the same cities, our agent can book a seat on the new flight for you free  of airline charges. If there isn’t an open seat, ask an agent to add you to the same-day standby list. If there are any government taxes and fees associated with these itinerary changes, you will be required to pay those. Your original boarding position is not guaranteed.",
+            "value": true
+          },
+          {
+            "attribute": "Fly By® priority lane (4)",
+            "attribute_suffix": "(Priority Security Line)",
+            "attribute_description": "This priority lane gets you to the front of the ticket counter faster. A-List or A-List Preferred Members already enjoy the Fly By® priority lane.\n",
+            "value": true
+          },
+          {
+            "attribute": "Fly By® security lane (4)",
+            "attribute_description": "This priority lane gets you through the security line faster. A-List or A-List Preferred Members enjoy this benefit too.\n",
+            "value": true
+          },
+          {
+            "attribute": "Complimentary premium drink",
+            "value": true
+          },
+          {
+            "attribute": "Priority boarding A1-A15",
+            "value": true
+          }
+        ]
+      },
+      {
+        "title": "Anytime",
+        "secondary_title": "10x",
+        "tertiary_title": "pts per dollar",
+        "color": "#a4baf2",
+        "text_color": "#000000",
+        "attributes": [
+          {
+            "attribute": "Two bags fly free®*",
+            "attribute_description": "First and second checked bags. Weight and size limits apply.",
+            "value": true
+          },
+          {
+            "attribute": "No change fees**",
+            "attribute_description": "Fare difference may apply.",
+            "value": true
+          },
+          {
+            "attribute": "Reusable funds for up to 12 months",
+            "attribute_description": "If you cancel your flight, 100% of your ticket can be applied to future travel.",
+            "value": true
+          },
+          {
+            "attribute": "Transferable Flight Credit",
+            "attribute_description": "Flight credit can be transferred to someone else.",
+            "value": true
+          },
+          {
+            "attribute": "Refundable (2) (That money is all yours.)",
+            "attribute_description": "Refundable, as long as you cancel your reservation at least ten (10) minutes prior to the scheduled departure of your flight. If you cancel, you’re eligible to receive 100% of your ticket value as a refund to your original form of payment. Southwest residual travel funds from a previous reservation that are applied toward a Business Select Fare will be refunded as residual travel funds. ",
+            "value": true
+          },
+          {
+            "attribute": "Same-day change (3)",
+            "attribute_description": "To take advantage of these benefits, see a Southwest agent at the airport. If there’s an open seat on a different flight on the same day as your original flight and it’s between the same cities, our agent can book a seat on the new flight for you free  of airline charges. If there isn’t an open seat, ask an agent to add you to the same-day standby list. If there are any government taxes and fees associated with these itinerary changes, you will be required to pay those. Your original boarding position is not guaranteed.",
+            "value": true
+          },
+          {
+            "attribute": "Same-day standby (3)",
+            "attribute_description": "To take advantage of these benefits, see a Southwest agent at the airport. If there’s an open seat on a different flight on the same day as your original flight and it’s between the same cities, our agent can book a seat on the new flight for you free  of airline charges. If there isn’t an open seat, ask an agent to add you to the same-day standby list. If there are any government taxes and fees associated with these itinerary changes, you will be required to pay those. Your original boarding position is not guaranteed.",
+            "value": true
+          },
+          {
+            "attribute": "Fly By® priority lane (4)",
+            "attribute_suffix": "(Priority Security Line)",
+            "attribute_description": "This priority lane gets you to the front of the ticket counter faster. A-List or A-List Preferred Members already enjoy the Fly By® priority lane.\n\n",
+            "value": false
+          },
+          {
+            "attribute": "Fly By® security lane (4)",
+            "attribute_description": "This priority lane gets you through the security line faster. A-List or A-List Preferred Members enjoy this benefit too.\n\n",
+            "value": false
+          },
+          {
+            "attribute": "Complimentary premium drink",
+            "value": false
+          },
+          {
+            "attribute": "Priority boarding A1-A15",
+            "value": false
+          }
+        ]
+      },
+      {
+        "title": "Wanna Get Away Plus",
+        "stylized_title": [
+          {
+            "label": "Wanna Get Away"
+          },
+          {
+            "label": " plus",
+            "font": "Fairwater Script"
+          }
+        ],
+        "secondary_title": "8x",
+        "tertiary_title": "pts per dollar",
+        "color": "#d5152e",
+        "text_color": "#ffffff",
+        "attributes": [
+          {
+            "attribute": "Two bags fly free®*",
+            "attribute_description": "First and second checked bags. Weight and size limits apply.",
+            "value": true
+          },
+          {
+            "attribute": "No change fees**",
+            "attribute_description": "Fare difference may apply.",
+            "value": true
+          },
+          {
+            "attribute": "Reusable funds for up to 12 months",
+            "attribute_description": "If you cancel your flight, 100% of your ticket can be applied to future travel.",
+            "value": true
+          },
+          {
+            "attribute": "Transferable Flight Credit",
+            "attribute_description": "Flight credit can be transferred to someone else.",
+            "value": true
+          },
+          {
+            "attribute": "Refundable (2) (That money is all yours.)",
+            "attribute_description": "Refundable, as long as you cancel your reservation at least ten (10) minutes prior to the scheduled departure of your flight. If you cancel, you’re eligible to receive 100% of your ticket value as a refund to your original form of payment. Southwest residual travel funds from a previous reservation that are applied toward a Business Select Fare will be refunded as residual travel funds. ",
+            "value": false
+          },
+          {
+            "attribute": "Same-day change (3)",
+            "attribute_description": "To take advantage of these benefits, see a Southwest agent at the airport. If there’s an open seat on a different flight on the same day as your original flight and it’s between the same cities, our agent can book a seat on the new flight for you free  of airline charges. If there isn’t an open seat, ask an agent to add you to the same-day standby list. If there are any government taxes and fees associated with these itinerary changes, you will be required to pay those. Your original boarding position is not guaranteed.",
+            "value": false
+          },
+          {
+            "attribute": "Same-day standby (3)",
+            "attribute_description": "To take advantage of these benefits, see a Southwest agent at the airport. If there’s an open seat on a different flight on the same day as your original flight and it’s between the same cities, our agent can book a seat on the new flight for you free  of airline charges. If there isn’t an open seat, ask an agent to add you to the same-day standby list. If there are any government taxes and fees associated with these itinerary changes, you will be required to pay those. Your original boarding position is not guaranteed.",
+            "value": false
+          },
+          {
+            "attribute": "Fly By® priority lane (4)",
+            "attribute_suffix": "(Priority Security Line)",
+            "attribute_description": "This priority lane gets you to the front of the ticket counter faster. A-List or A-List Preferred Members already enjoy the Fly By® priority lane.\n\n",
+            "value": false
+          },
+          {
+            "attribute": "Fly By® security lane (4)",
+            "attribute_description": "This priority lane gets you through the security line faster. A-List or A-List Preferred Members enjoy this benefit too.\n\n",
+            "value": false
+          },
+          {
+            "attribute": "Complimentary premium drink",
+            "value": false
+          },
+          {
+            "attribute": "Priority boarding A1-A15",
+            "value": false
+          }
+        ]
+      },
+      {
+        "title": "Wanna Get Away®",
+        "secondary_title": "6x",
+        "tertiary_title": "pts per dollar",
+        "color": "#ffbf27",
+        "text_color": "#000000",
+        "attributes": [
+          {
+            "attribute": "Two bags fly free®*",
+            "attribute_description": "First and second checked bags. Weight and size limits apply.",
+            "value": true
+          },
+          {
+            "attribute": "No change fees**",
+            "attribute_description": "Fare difference may apply.",
+            "value": true
+          },
+          {
+            "attribute": "Reusable funds for up to 12 months",
+            "attribute_description": "If you cancel your flight, 100% of your ticket can be applied to future travel.",
+            "value": true
+          },
+          {
+            "attribute": "Transferable Flight Credit",
+            "attribute_description": "Flight credit can be transferred to someone else.",
+            "value": false
+          },
+          {
+            "attribute": "Refundable (2) (That money is all yours.)",
+            "attribute_description": "Refundable, as long as you cancel your reservation at least ten (10) minutes prior to the scheduled departure of your flight. If you cancel, you’re eligible to receive 100% of your ticket value as a refund to your original form of payment. Southwest residual travel funds from a previous reservation that are applied toward a Business Select Fare will be refunded as residual travel funds. ",
+            "value": false
+          },
+          {
+            "attribute": "Same-day change (3)",
+            "attribute_description": "To take advantage of these benefits, see a Southwest agent at the airport. If there’s an open seat on a different flight on the same day as your original flight and it’s between the same cities, our agent can book a seat on the new flight for you free  of airline charges. If there isn’t an open seat, ask an agent to add you to the same-day standby list. If there are any government taxes and fees associated with these itinerary changes, you will be required to pay those. Your original boarding position is not guaranteed.",
+            "value": false
+          },
+          {
+            "attribute": "Same-day standby (3)",
+            "attribute_description": "To take advantage of these benefits, see a Southwest agent at the airport. If there’s an open seat on a different flight on the same day as your original flight and it’s between the same cities, our agent can book a seat on the new flight for you free  of airline charges. If there isn’t an open seat, ask an agent to add you to the same-day standby list. If there are any government taxes and fees associated with these itinerary changes, you will be required to pay those. Your original boarding position is not guaranteed.",
+            "value": false
+          },
+          {
+            "attribute": "Fly By® priority lane (4)",
+            "attribute_suffix": "(Priority Security Line)",
+            "attribute_description": "This priority lane gets you to the front of the ticket counter faster. A-List or A-List Preferred Members already enjoy the Fly By® priority lane.\n",
+            "value": false
+          },
+          {
+            "attribute": "Fly By® security lane (4)",
+            "attribute_description": "This priority lane gets you through the security line faster. A-List or A-List Preferred Members enjoy this benefit too.",
+            "value": false
+          },
+          {
+            "attribute": "Complimentary premium drink",
+            "attribute_description": "Due to COVID-19, drink service is currently suspended.",
+            "value": false
+          },
+          {
+            "attribute": "Priority boarding A1-A15",
+            "value": false
+          }
+        ]
+      }
+    ]
+  }
+}

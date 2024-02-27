@@ -1,0 +1,69 @@
+.airport-selector .input {
+  @include gray4;
+  @include bold;
+}
+
+.error .airport-selector .input {
+  @include red;
+}
+
+.airport-selector--formatted-airport {
+  @include py3;
+  @include pr1;
+  @include bold;
+  @include pdkblue;
+  @include xxlarge;
+}
+
+.airport-selector--formatted-airport_disabled {
+  @include gray4;
+}
+
+.airport-selector_native-horizontal {
+  .form-field--container {
+    @include py5;
+    height: auto;
+  }
+
+  .form-field--placeholder {
+    @include gray4;
+    font-size: 3.1rem;
+  }
+
+  .form-field--description {
+    @include gray4;
+    @include mt2;
+  }
+}
+
+.error {
+  .airport-selector--placeholder,
+  .form-field--placeholder {
+    @include red;
+  }
+}
+
+.homepage-redesign {
+  .form-field--description-error-icon {
+    display: none;
+  }
+
+  .error {
+    .form-field--description {
+      @include red;
+
+      &-error-icon {
+        @include inline-block;
+        @include pr2;
+        @include medium;
+      }
+    }
+  }
+}
+
+.airport-selector--airport-description {
+  @include gray4;
+  @include large;
+  @include regular;
+  @include px2;
+}

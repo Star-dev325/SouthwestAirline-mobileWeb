@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`earlyBirdCheckInPage and not render promoTop01 if it does not exist 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="early-bird-check-in"
+      >
+        <div>
+          <div
+            class="page-header"
+            id=""
+          >
+            EarlyBird Check-In®
+          </div>
+          <div />
+        </div>
+        <div>
+          <div
+            class="early-bird-check-in-banner"
+          >
+            <img
+              alt="EarlyBird"
+              class="early-bird-check-in-banner--background-image"
+              src="test/image/url"
+            />
+          </div>
+        </div>
+        <div
+          class="reservation-retrieval-form"
+        >
+          <div
+            class="custom-container"
+          >
+            <form
+              class="form widget"
+              name="EARLY_BIRD_CHECK_IN_FORM"
+              novalidate=""
+            >
+              <fieldset>
+                <div
+                  class="fields divided grouped"
+                >
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="reservation-retrieval-form--record-locator input huge"
+                    >
+                      <input
+                        class=""
+                        name="recordLocator"
+                        placeholder="SHARED__PLACEHOLDER__CONFIRMATION_NUMBER"
+                        value="M23VX8"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="firstName"
+                        placeholder="SHARED__PLACEHOLDER__FIRST_NAME"
+                        value="s"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="lastName"
+                        placeholder="SHARED__PLACEHOLDER__LAST_NAME"
+                        value="Jackie"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="segment"
+                  >
+                    <button
+                      class="button button--fluid large button--yellow"
+                      role="submit"
+                      type="submit"
+                    >
+                      VIEW_RESERVATION__RETRIEVE_RESERVATION
+                    </button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`earlyBirdCheckInPage and render promoTop01 if it exists 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="early-bird-check-in"
+      >
+        <div>
+          <div
+            class="page-header"
+            id=""
+          >
+            EarlyBird Check-In®
+          </div>
+          <div />
+        </div>
+        <div
+          data-qa="observed-viewport"
+        >
+          <div
+            class="dynamic-placement"
+          >
+            <div
+              class="shimmer"
+            >
+              <div
+                class="shimmer--children"
+              >
+                <div
+                  class="image-placement"
+                >
+                  <div
+                    data-qa="placement-link"
+                  >
+                    <img
+                      alt="imageForegroundAltTextTop"
+                      class="image-placement--background-image"
+                      src="promoImageBackgroundTop"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="reservation-retrieval-form"
+        >
+          <div
+            class="custom-container"
+          >
+            <form
+              class="form widget"
+              name="EARLY_BIRD_CHECK_IN_FORM"
+              novalidate=""
+            >
+              <fieldset>
+                <div
+                  class="fields divided grouped"
+                >
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="reservation-retrieval-form--record-locator input huge"
+                    >
+                      <input
+                        class=""
+                        name="recordLocator"
+                        placeholder="SHARED__PLACEHOLDER__CONFIRMATION_NUMBER"
+                        value="M23VX8"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="firstName"
+                        placeholder="SHARED__PLACEHOLDER__FIRST_NAME"
+                        value="s"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="lastName"
+                        placeholder="SHARED__PLACEHOLDER__LAST_NAME"
+                        value="Jackie"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="segment"
+                  >
+                    <button
+                      class="button button--fluid large button--yellow"
+                      role="submit"
+                      type="submit"
+                    >
+                      VIEW_RESERVATION__RETRIEVE_RESERVATION
+                    </button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

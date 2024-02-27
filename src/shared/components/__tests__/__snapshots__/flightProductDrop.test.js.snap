@@ -1,0 +1,1227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightProductDrop should render page with changeUnAvailableText 1`] = `
+<div>
+  <div>
+    <div
+      class="flight-product-drop"
+    >
+      <div
+        class="flight-product-drop--divider"
+      />
+      <div
+        class="flight-product-drop--body"
+      >
+        <div
+          class="flight-product-drop--header flight-product-drop--header_standby"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Standby
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will keep your current flight until you board the new standby flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--button-available flight-product-drop--header_content flight-product-drop--header_content-standby"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="flight-product-drop--standby-text"
+          >
+            <sup
+              class="flight-product-drop--money-sign"
+            >
+              $
+            </sup>
+            <span>
+              0
+            </span>
+          </span>
+        </div>
+        <div
+          class="flight-product-drop--header flight-product-drop--header_change"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Confirmed Seat
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will move you to the new flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--unavailable-text flight-product-drop--header_content flight-product-drop--header_content-change"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="flight-product-drop--unavailable-text"
+          >
+            Sold Out
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductDrop should render page with standbyLabelText 1`] = `
+<div>
+  <div>
+    <div
+      class="flight-product-drop"
+    >
+      <div
+        class="flight-product-drop--divider"
+      />
+      <div
+        class="flight-product-drop--body"
+      >
+        <div
+          class="flight-product-drop--header flight-product-drop--header_standby"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Standby
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will keep your current flight until you board the new standby flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--button-available flight-product-drop--header_content flight-product-drop--header_content-standby"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="flight-product-drop--standby-text"
+          >
+            <sup
+              class="flight-product-drop--money-sign"
+            >
+              $
+            </sup>
+            <span>
+              0
+            </span>
+          </span>
+        </div>
+        <div
+          class="flight-product-drop--footer flight-product-drop--footer_standby"
+        >
+          <div
+            class="flight-product-drop--footer_label-text"
+          >
+            CURRENTLY LISTED
+          </div>
+          <div
+            class="flight-product-drop--footer_label-details"
+          >
+            DAL to ABQ - 4
+          </div>
+          <div
+            class="flight-product-drop--footer_label-details"
+          >
+            DAL to ABQ - 14
+          </div>
+        </div>
+        <div
+          class="flight-product-drop--header flight-product-drop--header_change"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Confirmed Seat
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will move you to the new flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--button-available flight-product-drop--header_content flight-product-drop--header_content-change"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            SHARED__COMMON__FROM
+          </div>
+          <div
+            class="flight-product-drop--header_content-price-difference"
+          >
+            <span>
+              +
+            </span>
+            <sup
+              class="flight-product-drop--money-sign"
+            >
+              $
+            </sup>
+            <span>
+              20
+            </span>
+          </div>
+          <div
+            class="flight-product-drop--header_content-points-tax"
+          >
+            <sup>
+              $
+            </sup>
+            <span>
+              0
+            </span>
+          </div>
+        </div>
+        <div
+          class="flight-product-drop--footer flight-product-drop--footer_change"
+        >
+          <div
+            class="flight-product-drop--footer_label-text"
+          >
+            SEATS AVAILABLE
+          </div>
+          <div
+            class="flight-product-drop--footer_label-details"
+          >
+            DAL to ABQ - 33
+          </div>
+          <div
+            class="flight-product-drop--footer_label-details"
+          >
+            DAL to ABQ - 27
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductDrop should render page with standbyUnavailableText 1`] = `
+<div>
+  <div>
+    <div
+      class="flight-product-drop"
+    >
+      <div
+        class="flight-product-drop--divider"
+      />
+      <div
+        class="flight-product-drop--body"
+      >
+        <div
+          class="flight-product-drop--header flight-product-drop--header_standby"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Stand by
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will keep your current flight until you board the new standby flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--unavailable-text flight-product-drop--header_content flight-product-drop--header_content-standby"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="flight-product-drop--unavailable-text"
+          >
+            See agent
+          </span>
+        </div>
+        <div
+          class="flight-product-drop--footer flight-product-drop--footer_standby"
+        >
+          <div
+            class="flight-product-drop--footer_label-text"
+          >
+            CURRENTLY LISTED
+          </div>
+          <div
+            class="flight-product-drop--footer_label-details"
+          >
+            DAL to ABQ - 4
+          </div>
+          <div
+            class="flight-product-drop--footer_label-details"
+          >
+            DAL to ABQ - 14
+          </div>
+        </div>
+        <div
+          class="flight-product-drop--header flight-product-drop--header_change"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Confirmed Seat
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will move you to the new flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--button-available flight-product-drop--header_content flight-product-drop--header_content-change"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            SHARED__COMMON__FROM
+          </div>
+          <div
+            class="flight-product-drop--header_content-price-difference"
+          >
+            <span>
+              +
+            </span>
+            <sup
+              class="flight-product-drop--money-sign"
+            >
+              $
+            </sup>
+            <span>
+              20
+            </span>
+          </div>
+          <div
+            class="flight-product-drop--header_content-points-tax"
+          >
+            <sup>
+              $
+            </sup>
+            <span>
+              0
+            </span>
+          </div>
+        </div>
+        <div
+          class="flight-product-drop--footer flight-product-drop--footer_change"
+        >
+          <div
+            class="flight-product-drop--footer_label-text"
+          >
+            SEATS AVAILABLE
+          </div>
+          <div
+            class="flight-product-drop--footer_label-details"
+          >
+            DAL to ABQ - 33
+          </div>
+          <div
+            class="flight-product-drop--footer_label-details"
+          >
+            DAL to ABQ - 27
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductDrop should render page with standbyUnavailableText and with empty sameDayFlightDetails 1`] = `
+<div>
+  <div>
+    <div
+      class="flight-product-drop"
+    >
+      <div
+        class="flight-product-drop--divider"
+      />
+      <div
+        class="flight-product-drop--body"
+      >
+        <div
+          class="flight-product-drop--header flight-product-drop--header_standby"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Stand by
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will keep your current flight until you board the new standby flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--button-available flight-product-drop--header_content flight-product-drop--header_content-standby"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="flight-product-drop--standby-text"
+          >
+            <sup
+              class="flight-product-drop--money-sign"
+            >
+              $
+            </sup>
+            <span>
+              0
+            </span>
+          </span>
+        </div>
+        <div
+          class="flight-product-drop--header flight-product-drop--header_change"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Confirmed Seat
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will move you to the new flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--unavailable-text flight-product-drop--header_content flight-product-drop--header_content-change"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="flight-product-drop--unavailable-text"
+          >
+            Sold out
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductDrop should render page with startingFromPriceDiffPointsTax 1`] = `
+<div>
+  <div>
+    <div
+      class="flight-product-drop"
+    >
+      <div
+        class="flight-product-drop--divider"
+      />
+      <div
+        class="flight-product-drop--body"
+      >
+        <div
+          class="flight-product-drop--header flight-product-drop--header_standby"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Standby
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will keep your current flight until you board the new standby flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--button-available flight-product-drop--header_content flight-product-drop--header_content-standby"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="flight-product-drop--standby-text"
+          >
+            <sup
+              class="flight-product-drop--money-sign"
+            >
+              $
+            </sup>
+            <span>
+              0
+            </span>
+          </span>
+        </div>
+        <div
+          class="flight-product-drop--header flight-product-drop--header_change"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Confirmed Seat
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will move you to the new flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--button-available flight-product-drop--header_content flight-product-drop--header_content-change"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            SHARED__COMMON__FROM
+          </div>
+          <div
+            class="flight-product-drop--header_content-price-difference"
+          >
+            <span>
+              +
+            </span>
+            <sup
+              class="flight-product-drop--money-sign"
+            >
+              $
+            </sup>
+            <span>
+              10
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductDrop should render page with startingFromPriceDiffPointsTax with purchaseWithPoints is false 1`] = `
+<div>
+  <div>
+    <div
+      class="flight-product-drop"
+    >
+      <div
+        class="flight-product-drop--divider"
+      />
+      <div
+        class="flight-product-drop--body"
+      >
+        <div
+          class="flight-product-drop--header flight-product-drop--header_standby"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Standby
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will keep your current flight until you board the new standby flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--button-available flight-product-drop--header_content flight-product-drop--header_content-standby"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="flight-product-drop--standby-text"
+          >
+            <sup
+              class="flight-product-drop--money-sign"
+            >
+              $
+            </sup>
+            <span>
+              0
+            </span>
+          </span>
+        </div>
+        <div
+          class="flight-product-drop--header flight-product-drop--header_change"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Confirmed Seat
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will move you to the new flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--button-available flight-product-drop--header_content flight-product-drop--header_content-change"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            SHARED__COMMON__FROM
+          </div>
+          <div
+            class="flight-product-drop--header_content-price-difference"
+          >
+            <span>
+              +
+            </span>
+            <sup
+              class="flight-product-drop--money-sign"
+            >
+              $
+            </sup>
+            <span>
+              20
+            </span>
+          </div>
+          <div
+            class="flight-product-drop--header_content-points-tax"
+          >
+            <sup>
+              $
+            </sup>
+            <span>
+              0
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductDrop should render page with startingFromPriceDiffPointsTax with purchaseWithPoints is true and tax is false 1`] = `
+<div>
+  <div>
+    <div
+      class="flight-product-drop"
+    >
+      <div
+        class="flight-product-drop--divider"
+      />
+      <div
+        class="flight-product-drop--body"
+      >
+        <div
+          class="flight-product-drop--header flight-product-drop--header_standby"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Standby
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will keep your current flight until you board the new standby flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--button-available flight-product-drop--header_content flight-product-drop--header_content-standby"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="flight-product-drop--standby-text"
+          >
+            <span>
+              0
+            </span>
+            <span
+              class="flight-product-drop--points-sign"
+            >
+              SHARED__COMMON__POINTS_TEXT
+            </span>
+          </span>
+        </div>
+        <div
+          class="flight-product-drop--header flight-product-drop--header_change"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Confirmed Seat
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will move you to the new flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--button-available flight-product-drop--header_content flight-product-drop--header_content-change"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            SHARED__COMMON__FROM
+          </div>
+          <div
+            class="flight-product-drop--header_content-price-difference"
+          >
+            <span>
+              +
+            </span>
+            <span>
+              10
+            </span>
+            <span
+              class="flight-product-drop--points-sign"
+            >
+              SHARED__COMMON__POINTS_TEXT
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductDrop should render page with startingFromPriceDiffPointsTax with purchaseWithPoints true 1`] = `
+<div>
+  <div>
+    <div
+      class="flight-product-drop"
+    >
+      <div
+        class="flight-product-drop--divider"
+      />
+      <div
+        class="flight-product-drop--body"
+      >
+        <div
+          class="flight-product-drop--header flight-product-drop--header_standby"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Standby
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will keep your current flight until you board the new standby flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--button-available flight-product-drop--header_content flight-product-drop--header_content-standby"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="flight-product-drop--standby-text"
+          >
+            <span>
+              0
+            </span>
+            <span
+              class="flight-product-drop--points-sign"
+            >
+              SHARED__COMMON__POINTS_TEXT
+            </span>
+          </span>
+        </div>
+        <div
+          class="flight-product-drop--header flight-product-drop--header_change"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Confirmed Seat
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will move you to the new flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--button-available flight-product-drop--header_content flight-product-drop--header_content-change"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            SHARED__COMMON__FROM
+          </div>
+          <div
+            class="flight-product-drop--header_content-price-difference"
+          >
+            <span>
+              +
+            </span>
+            <span>
+              20
+            </span>
+            <span
+              class="flight-product-drop--points-sign"
+            >
+              SHARED__COMMON__POINTS_TEXT
+            </span>
+          </div>
+          <div
+            class="flight-product-drop--header_content-points-tax"
+          >
+            <sup>
+              $
+            </sup>
+            <span>
+              0
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductDrop should render page with startingPriceDifference 1`] = `
+<div>
+  <div>
+    <div
+      class="flight-product-drop"
+    >
+      <div
+        class="flight-product-drop--divider"
+      />
+      <div
+        class="flight-product-drop--body"
+      >
+        <div
+          class="flight-product-drop--header flight-product-drop--header_standby"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Standby
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will keep your current flight until you board the new standby flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--unavailable-text flight-product-drop--header_content flight-product-drop--header_content-standby"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="flight-product-drop--unavailable-text"
+          >
+            See agent
+          </span>
+        </div>
+        <div
+          class="flight-product-drop--header flight-product-drop--header_change"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Confirmed Seat
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will move you to the new flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--button-available flight-product-drop--header_content flight-product-drop--header_content-change"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            SHARED__COMMON__FROM
+          </div>
+          <div
+            class="flight-product-drop--header_content-price-difference"
+          >
+            <span>
+              +
+            </span>
+            <sup
+              class="flight-product-drop--money-sign"
+            >
+              $
+            </sup>
+            <span>
+              15
+            </span>
+          </div>
+          <div
+            class="flight-product-drop--header_content-points-tax"
+          >
+            <span>
+              +
+            </span>
+            <sup>
+              $
+            </sup>
+            <span>
+              60
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductDrop should render with standby button subtext 1`] = `
+<div>
+  <div>
+    <div
+      class="flight-product-drop"
+    >
+      <div
+        class="flight-product-drop--divider"
+      />
+      <div
+        class="flight-product-drop--body"
+      >
+        <div
+          class="flight-product-drop--header flight-product-drop--header_standby"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Standby
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will keep your current flight until you board the new standby flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--button-available flight-product-drop--header_content flight-product-drop--header_content-standby"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="flight-product-drop--standby-text"
+          >
+            <sup
+              class="flight-product-drop--money-sign"
+            >
+              $
+            </sup>
+            <span>
+              0
+            </span>
+          </span>
+          <span
+            class="flight-product-drop--standby-subtext"
+          >
+            Taxes may apply
+          </span>
+        </div>
+        <div
+          class="flight-product-drop--footer flight-product-drop--footer_standby"
+        >
+          <div
+            class="flight-product-drop--footer_label-text"
+          >
+            CURRENTLY LISTED
+          </div>
+          <div
+            class="flight-product-drop--footer_label-details"
+          >
+            DAL to ABQ - 4
+          </div>
+          <div
+            class="flight-product-drop--footer_label-details"
+          >
+            DAL to ABQ - 14
+          </div>
+        </div>
+        <div
+          class="flight-product-drop--header flight-product-drop--header_change"
+        >
+          <label
+            class="flight-product-drop--header_label"
+          >
+            Confirmed Seat
+          </label>
+          <p
+            class="flight-product-drop--header_description "
+          >
+            We will move you to the new flight
+          </p>
+        </div>
+        <div
+          class="flight-product-drop--button-available flight-product-drop--header_content flight-product-drop--header_content-change"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            SHARED__COMMON__FROM
+          </div>
+          <div
+            class="flight-product-drop--header_content-price-difference"
+          >
+            <span>
+              +
+            </span>
+            <sup
+              class="flight-product-drop--money-sign"
+            >
+              $
+            </sup>
+            <span>
+              20
+            </span>
+          </div>
+          <div
+            class="flight-product-drop--header_content-points-tax"
+          >
+            <sup>
+              $
+            </sup>
+            <span>
+              0
+            </span>
+          </div>
+        </div>
+        <div
+          class="flight-product-drop--footer flight-product-drop--footer_change"
+        >
+          <div
+            class="flight-product-drop--footer_label-text"
+          >
+            SEATS AVAILABLE
+          </div>
+          <div
+            class="flight-product-drop--footer_label-details"
+          >
+            DAL to ABQ - 33
+          </div>
+          <div
+            class="flight-product-drop--footer_label-details"
+          >
+            DAL to ABQ - 27
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductDrop when sameDay change is not allowed should render flight details page with change unavailable text 1`] = `
+<div>
+  <div>
+    <div
+      class="flight-product-drop"
+    >
+      <div
+        class="flight-product-drop--divider"
+      />
+      <div
+        class="flight-product-drop--standby-only-body"
+      >
+        <div
+          class="flight-product-drop--standby-only-body_title"
+        >
+          Stand by
+        </div>
+        <div
+          class="flight-product-drop--standby-only-body_description"
+        >
+          We will keep your current flight until you board the new standby flight
+        </div>
+        <div
+          class="flight-product-drop--standby-only-body_button"
+        >
+          <button
+            class="button button--fluid larger button--blue"
+            role="submit"
+            type="submit"
+          >
+            <sup
+              class="flight-product-drop--money-sign"
+            >
+              $
+            </sup>
+            <span>
+              0
+            </span>
+          </button>
+        </div>
+        <div
+          class="flight-product-drop--flight-card-details"
+        >
+          <div
+            class="flex6"
+          >
+            <div
+              class="flight-product-drop--flight-card-details_label-text"
+            >
+              CURRENTLY LISTED
+            </div>
+            <div
+              class="flight-product-drop--flight-card-details_label-details"
+            >
+              DAL to ABQ - 4
+            </div>
+            <div
+              class="flight-product-drop--flight-card-details_label-details"
+            >
+              DAL to ABQ - 14
+            </div>
+          </div>
+          <div
+            class="flex6"
+          >
+            <div
+              class="flight-product-drop--flight-card-details_label-text"
+            >
+              SEATS AVAILABLE
+            </div>
+            <div
+              class="flight-product-drop--flight-card-details_label-details"
+            >
+              DAL to ABQ - 33
+            </div>
+            <div
+              class="flight-product-drop--flight-card-details_label-details"
+            >
+              DAL to ABQ - 27
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductDrop when sameDay change is not allowed should render flight details page with multiple inventory  1`] = `
+<div>
+  <div>
+    <div
+      class="flight-product-drop"
+    >
+      <div
+        class="flight-product-drop--divider"
+      />
+      <div
+        class="flight-product-drop--standby-only-body"
+      >
+        <div
+          class="flight-product-drop--standby-only-body_title"
+        >
+          Stand by
+        </div>
+        <div
+          class="flight-product-drop--standby-only-body_description"
+        >
+          We will keep your current flight until you board the new standby flight
+        </div>
+        <div
+          class="flight-product-drop--standby-only-body_button"
+        >
+          <div
+            class="flight-product-drop--standby-only-body_button-unavailable-text"
+          >
+            See agent
+          </div>
+        </div>
+        <div
+          class="flight-product-drop--flight-card-details"
+        >
+          <div
+            class="flex6"
+          >
+            <div
+              class="flight-product-drop--flight-card-details_label-text"
+            >
+              CURRENTLY LISTED
+            </div>
+            <div
+              class="flight-product-drop--flight-card-details_label-details"
+            >
+              DAL to ABQ - 4
+            </div>
+            <div
+              class="flight-product-drop--flight-card-details_label-details"
+            >
+              DAL to ABQ - 14
+            </div>
+          </div>
+          <div
+            class="flex6"
+          >
+            <div
+              class="flight-product-drop--flight-card-details_label-text"
+            >
+              SEATS AVAILABLE
+            </div>
+            <div
+              class="flight-product-drop--flight-card-details_label-details"
+            >
+              DAL to ABQ - 33
+            </div>
+            <div
+              class="flight-product-drop--flight-card-details_label-details"
+            >
+              DAL to ABQ - 27
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductDrop when sameDay change is not allowed should render flight details page with standby unavailable text  1`] = `
+<div>
+  <div>
+    <div
+      class="flight-product-drop"
+    >
+      <div
+        class="flight-product-drop--divider"
+      />
+      <div
+        class="flight-product-drop--standby-only-body"
+      >
+        <div
+          class="flight-product-drop--standby-only-body_title"
+        >
+          Stand by
+        </div>
+        <div
+          class="flight-product-drop--standby-only-body_description"
+        >
+          We will keep your current flight until you board the new standby flight
+        </div>
+        <div
+          class="flight-product-drop--standby-only-body_button"
+        >
+          <div
+            class="flight-product-drop--standby-only-body_button-unavailable-text"
+          >
+            See agent
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

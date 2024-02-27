@@ -1,0 +1,38 @@
+$border-color: rgba(255, 255, 255, 0.3);
+
+.refund-total-item_amount-due {
+  @include px5;
+  @include bgpblue;
+}
+
+.refund-total-item_credit {
+  @include px5;
+  @include bggreen;
+}
+
+.refund-total-item--body {
+  @include py5;
+  @include white;
+}
+
+.refund-total-item_amount-due + .refund-total-item_amount-due,
+.refund-total-item_credit + .refund-total-item_credit {
+  .refund-total-item--body {
+    border-top: 1px solid $border-color;
+  }
+}
+
+.refund-total-item--border-bottom {
+  border-bottom: 1px solid $refund-border;
+}
+
+.refund-total-item--bottom {
+  @include flex;
+  @include medium;
+  min-height: 1.9rem;
+}
+
+.refund-total-item-currency {
+  @include bold;
+  font-size: 3.1rem;
+}

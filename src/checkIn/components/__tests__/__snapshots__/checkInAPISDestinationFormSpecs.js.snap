@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckInAPISDestinationForm Contact Tracing should render 1`] = `
+<div
+  className="apis-destination-page include-contact-tracing"
+>
+  <Form
+    className="apis-form"
+    formId="formId"
+    name="destination"
+    onSubmit={[Function]}
+  >
+    <PageHeaderWithButtons
+      leftButtons={
+        Array [
+          Object {
+            "name": "Cancel",
+            "onClick": [Function],
+          },
+        ]
+      }
+      rightButtons={
+        Array [
+          Object {
+            "name": "Done",
+            "type": "submit",
+          },
+        ]
+      }
+      title="Contact Tracing"
+    />
+    <Segments>
+      <Segment>
+        <div
+          className="contact-tracing-form--info-header"
+        >
+          Collection notice header goes here
+        </div>
+        <div
+          className="contact-tracing-form--info"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Collection notice info goes here <a href=\\"http://example.com\\">A link</a>",
+            }
+          }
+        />
+      </Segment>
+      <ContactTracingFields
+        destinationConfig={
+          Object {
+            "contactEmailLabel": "Email address",
+            "contactPhone1Label": "Phone number 1",
+            "contactPhone2Label": "Phone number 2",
+          }
+        }
+      />
+      <Segment
+        label="Destination Address"
+        ordinality="secondary"
+      >
+        <DestinationAddressFields
+          isoCountryCode=""
+          onCountrySelected={[Function]}
+        />
+      </Segment>
+      <Segment
+        className="contact-tracing-form--terms-and-conditions"
+      >
+        <div
+          className="contact-tracing-form--info-header"
+        >
+          Terms and conditions header goes here
+        </div>
+        <div
+          className="contact-tracing-form--info"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Terms and conditions info goes here <a href=\\"http://example.com\\">A link</a>",
+            }
+          }
+        />
+      </Segment>
+    </Segments>
+  </Form>
+</div>
+`;
+
+exports[`CheckInAPISDestinationForm Contact Tracing should render with use for all radio button 1`] = `
+<div
+  className="apis-destination-page include-contact-tracing"
+>
+  <Form
+    className="apis-form"
+    formId="formId"
+    name="destination"
+    onSubmit={[Function]}
+  >
+    <PageHeaderWithButtons
+      leftButtons={
+        Array [
+          Object {
+            "name": "Cancel",
+            "onClick": [Function],
+          },
+        ]
+      }
+      rightButtons={
+        Array [
+          Object {
+            "name": "Done",
+            "type": "submit",
+          },
+        ]
+      }
+      title="Contact Tracing"
+    />
+    <Segments>
+      <Segment>
+        <div
+          className="contact-tracing-form--info-header"
+        >
+          Collection notice header goes here
+        </div>
+        <div
+          className="contact-tracing-form--info"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Collection notice info goes here <a href=\\"http://example.com\\">A link</a>",
+            }
+          }
+        />
+      </Segment>
+      <ContactTracingFields
+        destinationConfig={
+          Object {
+            "contactEmailLabel": "Email address",
+            "contactPhone1Label": "Phone number 1",
+            "contactPhone2Label": "Phone number 2",
+          }
+        }
+      />
+      <Segment
+        label="Destination Address"
+        ordinality="secondary"
+      >
+        <DestinationAddressFields
+          isoCountryCode=""
+          onCountrySelected={[Function]}
+        />
+      </Segment>
+      <Segment>
+        <WithField(FormRadioField)
+          className="mt5"
+          label="Use the contact tracing information for all passengers"
+          name="contactTracingSaveForAllPassengers"
+        />
+      </Segment>
+      <Segment
+        className="contact-tracing-form--terms-and-conditions"
+      >
+        <div
+          className="contact-tracing-form--info-header"
+        >
+          Terms and conditions header goes here
+        </div>
+        <div
+          className="contact-tracing-form--info"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Terms and conditions info goes here <a href=\\"http://example.com\\">A link</a>",
+            }
+          }
+        />
+      </Segment>
+    </Segments>
+  </Form>
+</div>
+`;

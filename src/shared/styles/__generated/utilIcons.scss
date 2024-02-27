@@ -1,0 +1,90 @@
+@font-face {
+  font-family:'iconfont';
+  src: font-url('iconfont.eot');
+  src: font-url('iconfont.woff2') format('woff2'),
+       font-url('iconfont.woff') format('woff'),
+       font-url('iconfont.ttf') format('truetype');
+}
+
+.icon{
+    @include use-font-icon();
+}
+
+
+.icon_add:before { content: $icon-var-add;}
+.icon_airplane-depart:before { content: $icon-var-airplane-depart;}
+.icon_airplane-return:before { content: $icon-var-airplane-return;}
+.icon_airplane:before { content: $icon-var-airplane;}
+.icon_bag:before { content: $icon-var-bag;}
+.icon_bullet:before { content: $icon-var-bullet;}
+.icon_calender:before { content: $icon-var-calender;}
+.icon_call-us:before { content: $icon-var-call-us;}
+.icon_car-booking-time:before { content: $icon-var-car-booking-time;}
+.icon_car:before { content: $icon-var-car;}
+.icon_caret-down:before { content: $icon-var-caret-down;}
+.icon_chat-with-us:before { content: $icon-var-chat-with-us;}
+.icon_check-circle:before { content: $icon-var-check-circle;}
+.icon_check-native:before { content: $icon-var-check-native;}
+.icon_check:before { content: $icon-var-check;}
+.icon_clipboard-circle:before { content: $icon-var-clipboard-circle;}
+.icon_closeddrawer:before { content: $icon-var-closeddrawer;}
+.icon_current-location:before { content: $icon-var-current-location;}
+.icon_delete:before { content: $icon-var-delete;}
+.icon_early-bird:before { content: $icon-var-early-bird;}
+.icon_email-us:before { content: $icon-var-email-us;}
+.icon_exclamation-circle:before { content: $icon-var-exclamation-circle;}
+.icon_exclamation:before { content: $icon-var-exclamation;}
+.icon_facebook-2:before { content: $icon-var-facebook-2;}
+.icon_flight:before { content: $icon-var-flight;}
+.icon_hamburger:before { content: $icon-var-hamburger;}
+.icon_home-checkin:before { content: $icon-var-home-checkin;}
+.icon_home-flight-status:before { content: $icon-var-home-flight-status;}
+.icon_home-manage:before { content: $icon-var-home-manage;}
+.icon_home-rapid-rewards:before { content: $icon-var-home-rapid-rewards;}
+.icon_home-special-offers-tag:before { content: $icon-var-home-special-offers-tag;}
+.icon_home:before { content: $icon-var-home;}
+.icon_hotel:before { content: $icon-var-hotel;}
+.icon_ic-error:before { content: $icon-var-ic-error;}
+.icon_ic-external-link:before { content: $icon-var-ic-external-link;}
+.icon_ic-feedback:before { content: $icon-var-ic-feedback;}
+.icon_ic-info:before { content: $icon-var-ic-info;}
+.icon_keyboard-arrow-down:before { content: $icon-var-keyboard-arrow-down;}
+.icon_keyboard-arrow-left:before { content: $icon-var-keyboard-arrow-left;}
+.icon_keyboard-arrow-right:before { content: $icon-var-keyboard-arrow-right;}
+.icon_keyboard-arrow-up:before { content: $icon-var-keyboard-arrow-up;}
+.icon_location-arrow:before { content: $icon-var-location-arrow;}
+.icon_marker-depart:before { content: $icon-var-marker-depart;}
+.icon_marker-return:before { content: $icon-var-marker-return;}
+.icon_minus-normal:before { content: $icon-var-minus-normal;}
+.icon_minus:before { content: $icon-var-minus;}
+.icon_next-day-indicator:before { content: $icon-var-next-day-indicator;}
+.icon_number-circle-eight:before { content: $icon-var-number-circle-eight;}
+.icon_number-circle-five:before { content: $icon-var-number-circle-five;}
+.icon_number-circle-four:before { content: $icon-var-number-circle-four;}
+.icon_number-circle-nine:before { content: $icon-var-number-circle-nine;}
+.icon_number-circle-one:before { content: $icon-var-number-circle-one;}
+.icon_number-circle-seven:before { content: $icon-var-number-circle-seven;}
+.icon_number-circle-six:before { content: $icon-var-number-circle-six;}
+.icon_number-circle-three:before { content: $icon-var-number-circle-three;}
+.icon_number-circle-two:before { content: $icon-var-number-circle-two;}
+.icon_openeddrawer:before { content: $icon-var-openeddrawer;}
+.icon_passenger:before { content: $icon-var-passenger;}
+.icon_pencil:before { content: $icon-var-pencil;}
+.icon_pin:before { content: $icon-var-pin;}
+.icon_plus-normal:before { content: $icon-var-plus-normal;}
+.icon_plus:before { content: $icon-var-plus;}
+.icon_points:before { content: $icon-var-points;}
+.icon_profile:before { content: $icon-var-profile;}
+.icon_pts:before { content: $icon-var-pts;}
+.icon_refresh:before { content: $icon-var-refresh;}
+.icon_remove:before { content: $icon-var-remove;}
+.icon_search:before { content: $icon-var-search;}
+.icon_sortFilter:before { content: $icon-var-sortFilter;}
+.icon_stops:before { content: $icon-var-stops;}
+.icon_travel-alert:before { content: $icon-var-travel-alert;}
+.icon_twitter-2:before { content: $icon-var-twitter-2;}
+.icon_two-bags:before { content: $icon-var-two-bags;}
+.icon_user:before { content: $icon-var-user;}
+.icon_vacation:before { content: $icon-var-vacation;}
+.icon_wherewefly:before { content: $icon-var-wherewefly;}
+.icon_young-traveler-circle:before { content: $icon-var-young-traveler-circle;}

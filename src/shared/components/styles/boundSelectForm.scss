@@ -1,0 +1,41 @@
+.passenger-details {
+  .disclaimer {
+    @include pt5;
+    @include px5;
+    @include pb3;
+    @include medium;
+    @include gray5;
+  }
+
+  a {
+    @include pblue;
+  }
+
+  .passenger-list-wrap {
+    @include bgwhite;
+    @include pt4;
+    @include pb4;
+    @include px5;
+    @include bdb;
+    @include bdt;
+
+    .passenger-list {
+      @include gray5;
+      @include medium;
+      @include mb3;
+    }
+
+    .passenger-name {
+      @include mb3;
+      @include xlarge;
+      @include block;
+      @include nowrap;
+      @include overflow-hidden;
+      @include ellipsis;
+
+      &:last-child {
+        @include mb0;
+      }
+    }
+  }
+}

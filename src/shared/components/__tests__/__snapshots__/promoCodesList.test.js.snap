@@ -1,0 +1,321 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PromoCodesList should not filter the array in the component 1`] = `
+<div>
+  <div
+    class="promo-codes-list"
+  />
+</div>
+`;
+
+exports[`PromoCodesList should render PromoListItem component for active promo codes 1`] = `
+<div
+  class="promo-codes--item"
+  data-qa="active-promo-codes"
+>
+  <div
+    class="promo-codes--outer-container"
+  >
+    <div
+      class="promo-codes--image_dollar credit-card--image left mr2"
+    />
+    <div
+      class="promo-codes-item--info-container"
+    >
+      <div
+        class="promo-codes--text"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="promo-codes--title row--col active-promo-code"
+          >
+            ABCDEFGHI
+          </div>
+          <div
+            class="promo-codes--discount row--col active-discount"
+          >
+            20% Off
+          </div>
+        </div>
+        <div
+          class="additional-info-container"
+        >
+          Expiration: 11/01/2022
+        </div>
+        <div
+          class="promo-code-description"
+        >
+          This is a promo code
+        </div>
+        <button
+          class="button--link promo-codes-terms-link"
+        >
+          SHARED__PROMO_CODES__TERMS_AND_CONDITIONS
+        </button>
+        <div
+          class="row promo-code-expired"
+        />
+      </div>
+    </div>
+  </div>
+  <button
+    class="promo-codes--book-flight-button button button--fluid larger button--blue"
+    type="button"
+  >
+    SHARED__PROMO_CODE__BOOK_FLIGHT_TITLE
+  </button>
+</div>
+`;
+
+exports[`PromoCodesList should render PromoListItem component for expired promo codes 1`] = `
+<div
+  class="promo-codes--item"
+  data-qa="expired-promo-codes"
+>
+  <div
+    class="promo-codes--outer-container"
+  >
+    <div
+      class="promo-codes--image_points-inactive credit-card--image left mr2"
+    />
+    <div
+      class="promo-codes-item--info-container"
+    >
+      <div
+        class="promo-codes--text"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="promo-codes--title row--col used-promo-code"
+          >
+            E53QJE8UVM
+          </div>
+          <div
+            class="promo-codes--discount row--col used-expired-discount"
+          >
+            20% Off
+          </div>
+        </div>
+        <div
+          class="row promo-code-expired"
+        >
+          <div
+            class="date-section"
+          >
+            SHARED__PROMO_CODE__EXPIRED
+             
+            Expiration: 08/28/2022
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PromoCodesList should render PromoListItem component for used promo codes 1`] = `
+<div
+  class="promo-codes--item"
+  data-qa="used-promo-codes"
+>
+  <div
+    class="promo-codes--outer-container"
+  >
+    <div
+      class="promo-codes--image_dollar-points-inactive credit-card--image left mr2"
+    />
+    <div
+      class="promo-codes-item--info-container"
+    >
+      <div
+        class="promo-codes--text"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="promo-codes--title row--col used-promo-code"
+          >
+            ABCDEFGHI
+          </div>
+          <div
+            class="promo-codes--discount row--col used-expired-discount"
+          >
+            20% Off
+          </div>
+        </div>
+        <div
+          class="row promo-code-expired"
+        >
+          SHARED__PROMO_CODE__USED
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PromoCodesList should render correct component 1`] = `
+<div>
+  <div
+    class="promo-codes-list"
+  >
+    <div
+      class="promo-codes--item"
+      data-qa="active-promo-codes"
+    >
+      <div
+        class="promo-codes--outer-container"
+      >
+        <div
+          class="promo-codes--image_dollar credit-card--image left mr2"
+        />
+        <div
+          class="promo-codes-item--info-container"
+        >
+          <div
+            class="promo-codes--text"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="promo-codes--title row--col active-promo-code"
+              >
+                ABCDEFGHI
+              </div>
+              <div
+                class="promo-codes--discount row--col active-discount"
+              >
+                20% Off
+              </div>
+            </div>
+            <div
+              class="additional-info-container"
+            >
+              Expiration: 11/01/2022
+            </div>
+            <div
+              class="promo-code-description"
+            >
+              This is a promo code
+            </div>
+            <button
+              class="button--link promo-codes-terms-link"
+            >
+              SHARED__PROMO_CODES__TERMS_AND_CONDITIONS
+            </button>
+            <div
+              class="row promo-code-expired"
+            />
+          </div>
+        </div>
+      </div>
+      <button
+        class="promo-codes--book-flight-button button button--fluid larger button--blue"
+        type="button"
+      >
+        SHARED__PROMO_CODE__BOOK_FLIGHT_TITLE
+      </button>
+    </div>
+    <p
+      class="sections"
+    >
+      SHARED__PROMO_CODE__USED_TITLE
+    </p>
+    <div
+      class="promo-codes--item"
+      data-qa="used-promo-codes"
+    >
+      <div
+        class="promo-codes--outer-container"
+      >
+        <div
+          class="promo-codes--image_dollar-points-inactive credit-card--image left mr2"
+        />
+        <div
+          class="promo-codes-item--info-container"
+        >
+          <div
+            class="promo-codes--text"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="promo-codes--title row--col used-promo-code"
+              >
+                ABCDEFGHI
+              </div>
+              <div
+                class="promo-codes--discount row--col used-expired-discount"
+              >
+                20% Off
+              </div>
+            </div>
+            <div
+              class="row promo-code-expired"
+            >
+              SHARED__PROMO_CODE__USED
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p
+      class="sections"
+    >
+      SHARED__PROMO_CODE__EXPIRED_TITLE
+    </p>
+    <div
+      class="promo-codes--item"
+      data-qa="expired-promo-codes"
+    >
+      <div
+        class="promo-codes--outer-container"
+      >
+        <div
+          class="promo-codes--image_points-inactive credit-card--image left mr2"
+        />
+        <div
+          class="promo-codes-item--info-container"
+        >
+          <div
+            class="promo-codes--text"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="promo-codes--title row--col used-promo-code"
+              >
+                E53QJE8UVM
+              </div>
+              <div
+                class="promo-codes--discount row--col used-expired-discount"
+              >
+                20% Off
+              </div>
+            </div>
+            <div
+              class="row promo-code-expired"
+            >
+              <div
+                class="date-section"
+              >
+                SHARED__PROMO_CODE__EXPIRED
+                 
+                Expiration: 08/28/2022
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

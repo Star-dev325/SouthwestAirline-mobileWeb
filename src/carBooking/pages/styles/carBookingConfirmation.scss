@@ -1,0 +1,53 @@
+.car-booking-confirmation {
+  .price-details-segment:last-child {
+    border-bottom: 0;
+  }
+
+  .icon-container {
+    @include xxlarge;
+  }
+}
+
+.is-webview {
+  .car-booking-confirmation {
+    @include for-tablet-and-up {
+      @include bg-car-booking;
+      @include fullwidth;
+      @include absolute;
+      @include t0;
+      @include b0;
+      @include overflow-y-scroll;
+      padding-bottom: 40px;
+    }
+
+    .swa-message {
+      @include for-tablet-and-up {
+        @include tablet-content-frame-lg;
+        margin: 0 auto;
+      }
+    }
+
+    .car-booking-driver-card {
+      @include for-tablet-and-up {
+        @include bggray1;
+        @include tablet-content-frame-lg;
+        margin: 40px auto 0;
+        padding: 2px 10px;
+      }
+    }
+
+    .carbooking-total-price {
+      @include for-tablet-and-up {
+        @include tablet-content-frame-lg;
+        margin: auto;
+      }
+    }
+
+    .confirm-footer {
+      @include for-tablet-and-up {
+        @include tablet-content-frame-lg;
+        margin: 20px auto;
+      }
+    }
+  }
+}

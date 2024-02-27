@@ -1,0 +1,18 @@
+{
+  "name": "mweb-deploy",
+  "version": "0.0.1",
+  "description": "Deploy mweb via Rundeck",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.0.6",
+    "chalk": "^1.1.1",
+    "commander": "^2.9.0",
+    "lodash": "^3.10.1",
+    "restling": "^0.9.1",
+    "shelljs": "^0.5.3",
+    "xml2js": "^0.4.19"
+  },
+  "bin": {
+    "mweb-deploy": "./index.js"
+  }
+}

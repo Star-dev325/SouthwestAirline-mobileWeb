@@ -1,0 +1,2407 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reLoginModal when render should not render cancel button 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="session-expired-login-form login-page attach-full re-login-modal"
+        >
+          <div>
+            <div
+              class="page-header action-bar"
+              id=""
+            >
+              <ul
+                class="action-bar-buttons action-bar--left-buttons"
+              />
+              <div
+                class="action-bar--container"
+              >
+                <div
+                  class="action-bar--title"
+                >
+                  <span
+                    class="action-bar--main-title"
+                  >
+                    LOGIN__LOGIN_PAGE__TITLE
+                  </span>
+                  <span
+                    class="action-bar--sub-title"
+                  />
+                </div>
+              </div>
+              <ul
+                class="action-bar-buttons action-bar--right-buttons"
+              />
+            </div>
+            <div />
+          </div>
+          <div
+            class="custom-container"
+          >
+            <form
+              class="relogin-form form"
+              name="sessionExpiredLogin"
+              novalidate=""
+            >
+              <fieldset>
+                <div
+                  class="fields"
+                >
+                  <div
+                    class="input"
+                  >
+                    <div
+                      class="input--like"
+                    >
+                      accountNumber
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="password"
+                        placeholder="Password"
+                        type="password"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="mt4 flex6"
+                    />
+                    <div
+                      class="flex6 mt5 align-right"
+                    >
+                      <a
+                        class="pblue log-in-help"
+                        href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+                        target="_blank"
+                      >
+                        LOGIN__LOGIN_HELP
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="field mt4"
+                >
+                  <button
+                    class="button button--fluid larger button--yellow"
+                    id="login-btn"
+                    role="submit"
+                    type="submit"
+                  >
+                    LOGIN__LOGIN_PAGE__BUTTON_TEXT
+                  </button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="session-expired-login-form login-page attach-full re-login-modal"
+      >
+        <div>
+          <div
+            class="page-header action-bar"
+            id=""
+          >
+            <ul
+              class="action-bar-buttons action-bar--left-buttons"
+            />
+            <div
+              class="action-bar--container"
+            >
+              <div
+                class="action-bar--title"
+              >
+                <span
+                  class="action-bar--main-title"
+                >
+                  LOGIN__LOGIN_PAGE__TITLE
+                </span>
+                <span
+                  class="action-bar--sub-title"
+                />
+              </div>
+            </div>
+            <ul
+              class="action-bar-buttons action-bar--right-buttons"
+            />
+          </div>
+          <div />
+        </div>
+        <div
+          class="custom-container"
+        >
+          <form
+            class="relogin-form form"
+            name="sessionExpiredLogin"
+            novalidate=""
+          >
+            <fieldset>
+              <div
+                class="fields"
+              >
+                <div
+                  class="input"
+                >
+                  <div
+                    class="input--like"
+                  >
+                    accountNumber
+                  </div>
+                </div>
+                <div
+                  class="field"
+                >
+                  <div
+                    class="input huge"
+                  >
+                    <input
+                      class=""
+                      name="password"
+                      placeholder="Password"
+                      type="password"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="mt4 flex6"
+                  />
+                  <div
+                    class="flex6 mt5 align-right"
+                  >
+                    <a
+                      class="pblue log-in-help"
+                      href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+                      target="_blank"
+                    >
+                      LOGIN__LOGIN_HELP
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="field mt4"
+              >
+                <button
+                  class="button button--fluid larger button--yellow"
+                  id="login-btn"
+                  role="submit"
+                  type="submit"
+                >
+                  LOGIN__LOGIN_PAGE__BUTTON_TEXT
+                </button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`reLoginModal when render should not render continue as guest if continue as guest call back function is null 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="session-expired-login-form login-page attach-full re-login-modal"
+        >
+          <div>
+            <div
+              class="page-header action-bar"
+              id=""
+            >
+              <ul
+                class="action-bar-buttons action-bar--left-buttons"
+              />
+              <div
+                class="action-bar--container"
+              >
+                <div
+                  class="action-bar--title"
+                >
+                  <span
+                    class="action-bar--main-title"
+                  >
+                    LOGIN__LOGIN_PAGE__TITLE
+                  </span>
+                  <span
+                    class="action-bar--sub-title"
+                  />
+                </div>
+              </div>
+              <ul
+                class="action-bar-buttons action-bar--right-buttons"
+              />
+            </div>
+            <div />
+          </div>
+          <div
+            class="custom-container"
+          >
+            <form
+              class="relogin-form form"
+              name="sessionExpiredLogin"
+              novalidate=""
+            >
+              <fieldset>
+                <div
+                  class="fields"
+                >
+                  <div
+                    class="input"
+                  >
+                    <div
+                      class="input--like"
+                    >
+                      accountNumber
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="password"
+                        placeholder="Password"
+                        type="password"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="mt4 flex6"
+                    />
+                    <div
+                      class="flex6 mt5 align-right"
+                    >
+                      <a
+                        class="pblue log-in-help"
+                        href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+                        target="_blank"
+                      >
+                        LOGIN__LOGIN_HELP
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="field mt4"
+                >
+                  <button
+                    class="button button--fluid larger button--yellow"
+                    id="login-btn"
+                    role="submit"
+                    type="submit"
+                  >
+                    LOGIN__LOGIN_PAGE__BUTTON_TEXT
+                  </button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="session-expired-login-form login-page attach-full re-login-modal"
+      >
+        <div>
+          <div
+            class="page-header action-bar"
+            id=""
+          >
+            <ul
+              class="action-bar-buttons action-bar--left-buttons"
+            />
+            <div
+              class="action-bar--container"
+            >
+              <div
+                class="action-bar--title"
+              >
+                <span
+                  class="action-bar--main-title"
+                >
+                  LOGIN__LOGIN_PAGE__TITLE
+                </span>
+                <span
+                  class="action-bar--sub-title"
+                />
+              </div>
+            </div>
+            <ul
+              class="action-bar-buttons action-bar--right-buttons"
+            />
+          </div>
+          <div />
+        </div>
+        <div
+          class="custom-container"
+        >
+          <form
+            class="relogin-form form"
+            name="sessionExpiredLogin"
+            novalidate=""
+          >
+            <fieldset>
+              <div
+                class="fields"
+              >
+                <div
+                  class="input"
+                >
+                  <div
+                    class="input--like"
+                  >
+                    accountNumber
+                  </div>
+                </div>
+                <div
+                  class="field"
+                >
+                  <div
+                    class="input huge"
+                  >
+                    <input
+                      class=""
+                      name="password"
+                      placeholder="Password"
+                      type="password"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="mt4 flex6"
+                  />
+                  <div
+                    class="flex6 mt5 align-right"
+                  >
+                    <a
+                      class="pblue log-in-help"
+                      href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+                      target="_blank"
+                    >
+                      LOGIN__LOGIN_HELP
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="field mt4"
+              >
+                <button
+                  class="button button--fluid larger button--yellow"
+                  id="login-btn"
+                  role="submit"
+                  type="submit"
+                >
+                  LOGIN__LOGIN_PAGE__BUTTON_TEXT
+                </button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`reLoginModal when render should not render continue as guest if current location is not matched with stored location 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="session-expired-login-form login-page attach-full re-login-modal"
+        >
+          <div>
+            <div
+              class="page-header action-bar"
+              id=""
+            >
+              <ul
+                class="action-bar-buttons action-bar--left-buttons"
+              />
+              <div
+                class="action-bar--container"
+              >
+                <div
+                  class="action-bar--title"
+                >
+                  <span
+                    class="action-bar--main-title"
+                  >
+                    LOGIN__LOGIN_PAGE__TITLE
+                  </span>
+                  <span
+                    class="action-bar--sub-title"
+                  />
+                </div>
+              </div>
+              <ul
+                class="action-bar-buttons action-bar--right-buttons"
+              />
+            </div>
+            <div />
+          </div>
+          <div
+            class="custom-container"
+          >
+            <form
+              class="relogin-form form"
+              name="sessionExpiredLogin"
+              novalidate=""
+            >
+              <fieldset>
+                <div
+                  class="fields"
+                >
+                  <div
+                    class="input"
+                  >
+                    <div
+                      class="input--like"
+                    >
+                      accountNumber
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="password"
+                        placeholder="Password"
+                        type="password"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="mt4 flex6"
+                    />
+                    <div
+                      class="flex6 mt5 align-right"
+                    >
+                      <a
+                        class="pblue log-in-help"
+                        href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+                        target="_blank"
+                      >
+                        LOGIN__LOGIN_HELP
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="field mt4"
+                >
+                  <button
+                    class="button button--fluid larger button--yellow"
+                    id="login-btn"
+                    role="submit"
+                    type="submit"
+                  >
+                    LOGIN__LOGIN_PAGE__BUTTON_TEXT
+                  </button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="session-expired-login-form login-page attach-full re-login-modal"
+      >
+        <div>
+          <div
+            class="page-header action-bar"
+            id=""
+          >
+            <ul
+              class="action-bar-buttons action-bar--left-buttons"
+            />
+            <div
+              class="action-bar--container"
+            >
+              <div
+                class="action-bar--title"
+              >
+                <span
+                  class="action-bar--main-title"
+                >
+                  LOGIN__LOGIN_PAGE__TITLE
+                </span>
+                <span
+                  class="action-bar--sub-title"
+                />
+              </div>
+            </div>
+            <ul
+              class="action-bar-buttons action-bar--right-buttons"
+            />
+          </div>
+          <div />
+        </div>
+        <div
+          class="custom-container"
+        >
+          <form
+            class="relogin-form form"
+            name="sessionExpiredLogin"
+            novalidate=""
+          >
+            <fieldset>
+              <div
+                class="fields"
+              >
+                <div
+                  class="input"
+                >
+                  <div
+                    class="input--like"
+                  >
+                    accountNumber
+                  </div>
+                </div>
+                <div
+                  class="field"
+                >
+                  <div
+                    class="input huge"
+                  >
+                    <input
+                      class=""
+                      name="password"
+                      placeholder="Password"
+                      type="password"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="mt4 flex6"
+                  />
+                  <div
+                    class="flex6 mt5 align-right"
+                  >
+                    <a
+                      class="pblue log-in-help"
+                      href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+                      target="_blank"
+                    >
+                      LOGIN__LOGIN_HELP
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="field mt4"
+              >
+                <button
+                  class="button button--fluid larger button--yellow"
+                  id="login-btn"
+                  role="submit"
+                  type="submit"
+                >
+                  LOGIN__LOGIN_PAGE__BUTTON_TEXT
+                </button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`reLoginModal when render should render cancel button if allowed 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="session-expired-login-form login-page attach-full re-login-modal"
+        >
+          <div>
+            <div
+              class="page-header action-bar"
+              id=""
+            >
+              <ul
+                class="action-bar-buttons action-bar--left-buttons"
+              />
+              <div
+                class="action-bar--container"
+              >
+                <div
+                  class="action-bar--title"
+                >
+                  <span
+                    class="action-bar--main-title"
+                  >
+                    LOGIN__LOGIN_PAGE__TITLE
+                  </span>
+                  <span
+                    class="action-bar--sub-title"
+                  />
+                </div>
+              </div>
+              <ul
+                class="action-bar-buttons action-bar--right-buttons"
+              >
+                <li
+                  class="action-bar-buttons--item"
+                >
+                  <button
+                    class="button"
+                    type="button"
+                  >
+                    LOGIN__LOGIN_PAGE__CANCEL_BUTTON
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div />
+          </div>
+          <div
+            class="custom-container"
+          >
+            <form
+              class="relogin-form form"
+              name="sessionExpiredLogin"
+              novalidate=""
+            >
+              <fieldset>
+                <div
+                  class="fields"
+                >
+                  <div
+                    class="input"
+                  >
+                    <div
+                      class="input--like"
+                    >
+                      accountNumber
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="password"
+                        placeholder="Password"
+                        type="password"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="mt4 flex6"
+                    />
+                    <div
+                      class="flex6 mt5 align-right"
+                    >
+                      <a
+                        class="pblue log-in-help"
+                        href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+                        target="_blank"
+                      >
+                        LOGIN__LOGIN_HELP
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="field mt4"
+                >
+                  <button
+                    class="button button--fluid larger button--yellow"
+                    id="login-btn"
+                    role="submit"
+                    type="submit"
+                  >
+                    LOGIN__LOGIN_PAGE__BUTTON_TEXT
+                  </button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="session-expired-login-form login-page attach-full re-login-modal"
+      >
+        <div>
+          <div
+            class="page-header action-bar"
+            id=""
+          >
+            <ul
+              class="action-bar-buttons action-bar--left-buttons"
+            />
+            <div
+              class="action-bar--container"
+            >
+              <div
+                class="action-bar--title"
+              >
+                <span
+                  class="action-bar--main-title"
+                >
+                  LOGIN__LOGIN_PAGE__TITLE
+                </span>
+                <span
+                  class="action-bar--sub-title"
+                />
+              </div>
+            </div>
+            <ul
+              class="action-bar-buttons action-bar--right-buttons"
+            >
+              <li
+                class="action-bar-buttons--item"
+              >
+                <button
+                  class="button"
+                  type="button"
+                >
+                  LOGIN__LOGIN_PAGE__CANCEL_BUTTON
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div />
+        </div>
+        <div
+          class="custom-container"
+        >
+          <form
+            class="relogin-form form"
+            name="sessionExpiredLogin"
+            novalidate=""
+          >
+            <fieldset>
+              <div
+                class="fields"
+              >
+                <div
+                  class="input"
+                >
+                  <div
+                    class="input--like"
+                  >
+                    accountNumber
+                  </div>
+                </div>
+                <div
+                  class="field"
+                >
+                  <div
+                    class="input huge"
+                  >
+                    <input
+                      class=""
+                      name="password"
+                      placeholder="Password"
+                      type="password"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="mt4 flex6"
+                  />
+                  <div
+                    class="flex6 mt5 align-right"
+                  >
+                    <a
+                      class="pblue log-in-help"
+                      href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+                      target="_blank"
+                    >
+                      LOGIN__LOGIN_HELP
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="field mt4"
+              >
+                <button
+                  class="button button--fluid larger button--yellow"
+                  id="login-btn"
+                  role="submit"
+                  type="submit"
+                >
+                  LOGIN__LOGIN_PAGE__BUTTON_TEXT
+                </button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`reLoginModal when render should render continue as guest if its allowed 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="session-expired-login-form login-page attach-full re-login-modal"
+        >
+          <div>
+            <div
+              class="page-header action-bar"
+              id=""
+            >
+              <ul
+                class="action-bar-buttons action-bar--left-buttons"
+              />
+              <div
+                class="action-bar--container"
+              >
+                <div
+                  class="action-bar--title"
+                >
+                  <span
+                    class="action-bar--main-title"
+                  >
+                    LOGIN__LOGIN_PAGE__TITLE
+                  </span>
+                  <span
+                    class="action-bar--sub-title"
+                  />
+                </div>
+              </div>
+              <ul
+                class="action-bar-buttons action-bar--right-buttons"
+              />
+            </div>
+            <div />
+          </div>
+          <div
+            class="custom-container"
+          >
+            <form
+              class="relogin-form form"
+              name="sessionExpiredLogin"
+              novalidate=""
+            >
+              <fieldset>
+                <div
+                  class="fields"
+                >
+                  <div
+                    class="input"
+                  >
+                    <div
+                      class="input--like"
+                    >
+                      accountNumber
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="password"
+                        placeholder="Password"
+                        type="password"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="mt4 flex6"
+                    />
+                    <div
+                      class="flex6 mt5 align-right"
+                    >
+                      <a
+                        class="pblue log-in-help"
+                        href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+                        target="_blank"
+                      >
+                        LOGIN__LOGIN_HELP
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="field mt4"
+                >
+                  <button
+                    class="button button--fluid larger button--yellow"
+                    id="login-btn"
+                    role="submit"
+                    type="submit"
+                  >
+                    LOGIN__LOGIN_PAGE__BUTTON_TEXT
+                  </button>
+                </div>
+                <div
+                  class="field center mt4"
+                >
+                  <button
+                    class="button--link continue-as-guest"
+                  >
+                    LOGIN__CONTINUE_AS_GUEST
+                  </button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="session-expired-login-form login-page attach-full re-login-modal"
+      >
+        <div>
+          <div
+            class="page-header action-bar"
+            id=""
+          >
+            <ul
+              class="action-bar-buttons action-bar--left-buttons"
+            />
+            <div
+              class="action-bar--container"
+            >
+              <div
+                class="action-bar--title"
+              >
+                <span
+                  class="action-bar--main-title"
+                >
+                  LOGIN__LOGIN_PAGE__TITLE
+                </span>
+                <span
+                  class="action-bar--sub-title"
+                />
+              </div>
+            </div>
+            <ul
+              class="action-bar-buttons action-bar--right-buttons"
+            />
+          </div>
+          <div />
+        </div>
+        <div
+          class="custom-container"
+        >
+          <form
+            class="relogin-form form"
+            name="sessionExpiredLogin"
+            novalidate=""
+          >
+            <fieldset>
+              <div
+                class="fields"
+              >
+                <div
+                  class="input"
+                >
+                  <div
+                    class="input--like"
+                  >
+                    accountNumber
+                  </div>
+                </div>
+                <div
+                  class="field"
+                >
+                  <div
+                    class="input huge"
+                  >
+                    <input
+                      class=""
+                      name="password"
+                      placeholder="Password"
+                      type="password"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="mt4 flex6"
+                  />
+                  <div
+                    class="flex6 mt5 align-right"
+                  >
+                    <a
+                      class="pblue log-in-help"
+                      href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+                      target="_blank"
+                    >
+                      LOGIN__LOGIN_HELP
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="field mt4"
+              >
+                <button
+                  class="button button--fluid larger button--yellow"
+                  id="login-btn"
+                  role="submit"
+                  type="submit"
+                >
+                  LOGIN__LOGIN_PAGE__BUTTON_TEXT
+                </button>
+              </div>
+              <div
+                class="field center mt4"
+              >
+                <button
+                  class="button--link continue-as-guest"
+                >
+                  LOGIN__CONTINUE_AS_GUEST
+                </button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`reLoginModal when render should render if reLoginCallbackFunctions object is null 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="session-expired-login-form login-page attach-full re-login-modal"
+        >
+          <div>
+            <div
+              class="page-header action-bar"
+              id=""
+            >
+              <ul
+                class="action-bar-buttons action-bar--left-buttons"
+              />
+              <div
+                class="action-bar--container"
+              >
+                <div
+                  class="action-bar--title"
+                >
+                  <span
+                    class="action-bar--main-title"
+                  >
+                    LOGIN__LOGIN_PAGE__TITLE
+                  </span>
+                  <span
+                    class="action-bar--sub-title"
+                  />
+                </div>
+              </div>
+              <ul
+                class="action-bar-buttons action-bar--right-buttons"
+              />
+            </div>
+            <div />
+          </div>
+          <div
+            class="custom-container"
+          >
+            <form
+              class="relogin-form form"
+              name="sessionExpiredLogin"
+              novalidate=""
+            >
+              <fieldset>
+                <div
+                  class="fields"
+                >
+                  <div
+                    class="input"
+                  >
+                    <div
+                      class="input--like"
+                    >
+                      accountNumber
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="password"
+                        placeholder="Password"
+                        type="password"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="mt4 flex6"
+                    />
+                    <div
+                      class="flex6 mt5 align-right"
+                    >
+                      <a
+                        class="pblue log-in-help"
+                        href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+                        target="_blank"
+                      >
+                        LOGIN__LOGIN_HELP
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="field mt4"
+                >
+                  <button
+                    class="button button--fluid larger button--yellow"
+                    id="login-btn"
+                    role="submit"
+                    type="submit"
+                  >
+                    LOGIN__LOGIN_PAGE__BUTTON_TEXT
+                  </button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="session-expired-login-form login-page attach-full re-login-modal"
+      >
+        <div>
+          <div
+            class="page-header action-bar"
+            id=""
+          >
+            <ul
+              class="action-bar-buttons action-bar--left-buttons"
+            />
+            <div
+              class="action-bar--container"
+            >
+              <div
+                class="action-bar--title"
+              >
+                <span
+                  class="action-bar--main-title"
+                >
+                  LOGIN__LOGIN_PAGE__TITLE
+                </span>
+                <span
+                  class="action-bar--sub-title"
+                />
+              </div>
+            </div>
+            <ul
+              class="action-bar-buttons action-bar--right-buttons"
+            />
+          </div>
+          <div />
+        </div>
+        <div
+          class="custom-container"
+        >
+          <form
+            class="relogin-form form"
+            name="sessionExpiredLogin"
+            novalidate=""
+          >
+            <fieldset>
+              <div
+                class="fields"
+              >
+                <div
+                  class="input"
+                >
+                  <div
+                    class="input--like"
+                  >
+                    accountNumber
+                  </div>
+                </div>
+                <div
+                  class="field"
+                >
+                  <div
+                    class="input huge"
+                  >
+                    <input
+                      class=""
+                      name="password"
+                      placeholder="Password"
+                      type="password"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="mt4 flex6"
+                  />
+                  <div
+                    class="flex6 mt5 align-right"
+                  >
+                    <a
+                      class="pblue log-in-help"
+                      href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+                      target="_blank"
+                    >
+                      LOGIN__LOGIN_HELP
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="field mt4"
+              >
+                <button
+                  class="button button--fluid larger button--yellow"
+                  id="login-btn"
+                  role="submit"
+                  type="submit"
+                >
+                  LOGIN__LOGIN_PAGE__BUTTON_TEXT
+                </button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`reLoginModal when render should render login form 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="session-expired-login-form login-page attach-full re-login-modal"
+        >
+          <div>
+            <div
+              class="page-header action-bar"
+              id=""
+            >
+              <ul
+                class="action-bar-buttons action-bar--left-buttons"
+              />
+              <div
+                class="action-bar--container"
+              >
+                <div
+                  class="action-bar--title"
+                >
+                  <span
+                    class="action-bar--main-title"
+                  >
+                    LOGIN__LOGIN_PAGE__TITLE
+                  </span>
+                  <span
+                    class="action-bar--sub-title"
+                  />
+                </div>
+              </div>
+              <ul
+                class="action-bar-buttons action-bar--right-buttons"
+              />
+            </div>
+            <div />
+          </div>
+          <div
+            class="custom-container"
+          >
+            <form
+              class="relogin-form form"
+              name="sessionExpiredLogin"
+              novalidate=""
+            >
+              <fieldset>
+                <div
+                  class="fields"
+                >
+                  <div
+                    class="input"
+                  >
+                    <div
+                      class="input--like"
+                    >
+                      accountNumber
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="password"
+                        placeholder="Password"
+                        type="password"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="mt4 flex6"
+                    />
+                    <div
+                      class="flex6 mt5 align-right"
+                    >
+                      <a
+                        class="pblue log-in-help"
+                        href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+                        target="_blank"
+                      >
+                        LOGIN__LOGIN_HELP
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="field mt4"
+                >
+                  <button
+                    class="button button--fluid larger button--yellow"
+                    id="login-btn"
+                    role="submit"
+                    type="submit"
+                  >
+                    LOGIN__LOGIN_PAGE__BUTTON_TEXT
+                  </button>
+                </div>
+                <div
+                  class="field center mt4"
+                >
+                  <button
+                    class="button--link continue-as-guest"
+                  >
+                    LOGIN__CONTINUE_AS_GUEST
+                  </button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="session-expired-login-form login-page attach-full re-login-modal"
+      >
+        <div>
+          <div
+            class="page-header action-bar"
+            id=""
+          >
+            <ul
+              class="action-bar-buttons action-bar--left-buttons"
+            />
+            <div
+              class="action-bar--container"
+            >
+              <div
+                class="action-bar--title"
+              >
+                <span
+                  class="action-bar--main-title"
+                >
+                  LOGIN__LOGIN_PAGE__TITLE
+                </span>
+                <span
+                  class="action-bar--sub-title"
+                />
+              </div>
+            </div>
+            <ul
+              class="action-bar-buttons action-bar--right-buttons"
+            />
+          </div>
+          <div />
+        </div>
+        <div
+          class="custom-container"
+        >
+          <form
+            class="relogin-form form"
+            name="sessionExpiredLogin"
+            novalidate=""
+          >
+            <fieldset>
+              <div
+                class="fields"
+              >
+                <div
+                  class="input"
+                >
+                  <div
+                    class="input--like"
+                  >
+                    accountNumber
+                  </div>
+                </div>
+                <div
+                  class="field"
+                >
+                  <div
+                    class="input huge"
+                  >
+                    <input
+                      class=""
+                      name="password"
+                      placeholder="Password"
+                      type="password"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="mt4 flex6"
+                  />
+                  <div
+                    class="flex6 mt5 align-right"
+                  >
+                    <a
+                      class="pblue log-in-help"
+                      href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+                      target="_blank"
+                    >
+                      LOGIN__LOGIN_HELP
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="field mt4"
+              >
+                <button
+                  class="button button--fluid larger button--yellow"
+                  id="login-btn"
+                  role="submit"
+                  type="submit"
+                >
+                  LOGIN__LOGIN_PAGE__BUTTON_TEXT
+                </button>
+              </div>
+              <div
+                class="field center mt4"
+              >
+                <button
+                  class="button--link continue-as-guest"
+                >
+                  LOGIN__CONTINUE_AS_GUEST
+                </button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`reLoginModal when render should render null if reLoginModal object is null 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div />
+    </div>
+  </body>,
+  "container": <div>
+    <div />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`reLoginModal when submit the form should prefill the accountNumber from UserStore 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="session-expired-login-form login-page attach-full re-login-modal"
+        >
+          <div>
+            <div
+              class="page-header action-bar"
+              id=""
+            >
+              <ul
+                class="action-bar-buttons action-bar--left-buttons"
+              />
+              <div
+                class="action-bar--container"
+              >
+                <div
+                  class="action-bar--title"
+                >
+                  <span
+                    class="action-bar--main-title"
+                  >
+                    LOGIN__LOGIN_PAGE__TITLE
+                  </span>
+                  <span
+                    class="action-bar--sub-title"
+                  />
+                </div>
+              </div>
+              <ul
+                class="action-bar-buttons action-bar--right-buttons"
+              />
+            </div>
+            <div />
+          </div>
+          <div
+            class="custom-container"
+          >
+            <form
+              class="relogin-form form"
+              name="sessionExpiredLogin"
+              novalidate=""
+            >
+              <fieldset>
+                <div
+                  class="fields"
+                >
+                  <div
+                    class="input"
+                  >
+                    <div
+                      class="input--like"
+                    >
+                      accountNumber
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="password"
+                        placeholder="Password"
+                        type="password"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="mt4 flex6"
+                    />
+                    <div
+                      class="flex6 mt5 align-right"
+                    >
+                      <a
+                        class="pblue log-in-help"
+                        href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+                        target="_blank"
+                      >
+                        LOGIN__LOGIN_HELP
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="field mt4"
+                >
+                  <button
+                    class="button button--fluid larger button--yellow"
+                    id="login-btn"
+                    role="submit"
+                    type="submit"
+                  >
+                    LOGIN__LOGIN_PAGE__BUTTON_TEXT
+                  </button>
+                </div>
+                <div
+                  class="field center mt4"
+                >
+                  <button
+                    class="button--link continue-as-guest"
+                  >
+                    LOGIN__CONTINUE_AS_GUEST
+                  </button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="session-expired-login-form login-page attach-full re-login-modal"
+      >
+        <div>
+          <div
+            class="page-header action-bar"
+            id=""
+          >
+            <ul
+              class="action-bar-buttons action-bar--left-buttons"
+            />
+            <div
+              class="action-bar--container"
+            >
+              <div
+                class="action-bar--title"
+              >
+                <span
+                  class="action-bar--main-title"
+                >
+                  LOGIN__LOGIN_PAGE__TITLE
+                </span>
+                <span
+                  class="action-bar--sub-title"
+                />
+              </div>
+            </div>
+            <ul
+              class="action-bar-buttons action-bar--right-buttons"
+            />
+          </div>
+          <div />
+        </div>
+        <div
+          class="custom-container"
+        >
+          <form
+            class="relogin-form form"
+            name="sessionExpiredLogin"
+            novalidate=""
+          >
+            <fieldset>
+              <div
+                class="fields"
+              >
+                <div
+                  class="input"
+                >
+                  <div
+                    class="input--like"
+                  >
+                    accountNumber
+                  </div>
+                </div>
+                <div
+                  class="field"
+                >
+                  <div
+                    class="input huge"
+                  >
+                    <input
+                      class=""
+                      name="password"
+                      placeholder="Password"
+                      type="password"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="mt4 flex6"
+                  />
+                  <div
+                    class="flex6 mt5 align-right"
+                  >
+                    <a
+                      class="pblue log-in-help"
+                      href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+                      target="_blank"
+                    >
+                      LOGIN__LOGIN_HELP
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="field mt4"
+              >
+                <button
+                  class="button button--fluid larger button--yellow"
+                  id="login-btn"
+                  role="submit"
+                  type="submit"
+                >
+                  LOGIN__LOGIN_PAGE__BUTTON_TEXT
+                </button>
+              </div>
+              <div
+                class="field center mt4"
+              >
+                <button
+                  class="button--link continue-as-guest"
+                >
+                  LOGIN__CONTINUE_AS_GUEST
+                </button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`reLoginModal when submit the form when isAccountNumberEditable is true should use the userNameOrAccountNumber 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div />
+    </div>
+  </body>,
+  "container": <div>
+    <div />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

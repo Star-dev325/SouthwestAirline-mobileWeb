@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LowFareSelection should have a selection class when provided 1`] = `
+<div
+  class="low-fare-calendar-page--selection inbound"
+>
+  <div
+    class="header"
+  >
+    Select Depart
+  </div>
+  <div
+    class="value"
+  >
+    - -
+  </div>
+</div>
+`;
+
+exports[`LowFareSelection should render not show a date when it is not provided 1`] = `
+<div
+  class="value"
+>
+  - -
+</div>
+`;
+
+exports[`LowFareSelection should render the date and bounds when a date is provided 1`] = `
+<div
+  class="value"
+>
+  Sun, Feb 2, 2020 (ALB - AUS)
+</div>
+`;

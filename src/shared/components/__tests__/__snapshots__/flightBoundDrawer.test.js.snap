@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flightBound should contain unavailable text if bound is unavailable 1`] = `
+<div>
+  <div
+    class="flight-bound--container"
+  >
+    <span>
+      MDW
+      <i
+        class="flight-bound--icon icon icon_airplane"
+      />
+      AUS
+    </span>
+    <span
+      class="flight-bound--unavailable"
+    >
+      AIR_BOOKING_MULTI_SELECT_GROUP_UNAVAILABLE
+    </span>
+  </div>
+</div>
+`;
+
+exports[`flightBound should match the snapshot 1`] = `
+<div>
+  <div
+    class="flight-bound--container"
+  >
+    <span>
+      MDW
+      <i
+        class="flight-bound--icon icon icon_airplane"
+      />
+      AUS
+    </span>
+    <span
+      class=""
+    >
+      <i
+        class="collapse-bound--icon icon icon_closeddrawer"
+      />
+    </span>
+  </div>
+</div>
+`;

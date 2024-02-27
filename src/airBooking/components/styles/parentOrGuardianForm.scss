@@ -1,0 +1,39 @@
+.parent-or-guardian-form {
+  &--container {
+    @include bggray2;
+    @include p5;
+
+    .fields {
+      @include large;
+    }
+
+    .fields--label {
+      @include bold;
+      @include gray5;
+      @include large;
+      @include pb5;
+    }
+
+    .input {
+      @include mt4;
+      @include regular;
+    }
+  }
+
+  &--info-text {
+    @include gray5;
+    @include medium;
+  }
+
+  &--disclaimer-text {
+    @include gray5;
+    @include medium;
+    @include pre-wrap;
+    @include pt5;
+  }
+
+  &--continue-button {
+    @include bgpblue;
+    @include p5;
+  }
+}

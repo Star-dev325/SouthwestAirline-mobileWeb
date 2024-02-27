@@ -1,0 +1,28 @@
+.passenger-price {
+  @include table;
+  @include fullwidth;
+}
+
+.passenger-price--fare-type {
+  @include sblue;
+  @include medium;
+  @include italic;
+  margin-left: 0.35rem;
+}
+
+.passenger-price--number-and-type {
+  font-size: 1.56rem;
+}
+
+.passenger-price--info {
+  @include flex;
+  @include flex-row;
+  @include flex-main-between;
+}
+
+.passenger-price_new-price {
+  @include black;
+  @include medium;
+  @include italic;
+  margin-left: 0.35rem;
+}

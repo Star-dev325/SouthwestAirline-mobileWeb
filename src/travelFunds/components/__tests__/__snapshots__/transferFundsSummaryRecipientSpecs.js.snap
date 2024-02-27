@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransferFundsSummaryRecipient should render the component 1`] = `
+<Fragment>
+  <div
+    className="receiver"
+  >
+    <CreditCardImage
+      cardType="TRAVEL_FUNDS_CONFIRMATION"
+    />
+  </div>
+  <div
+    className="transfer-funds-summary--detail-col"
+  >
+    <div
+      className="transfer-funds-summary--detail-col-receiver-name"
+    >
+      Arthur Shelby
+    </div>
+    <div
+      className="transfer-funds-summary--detail-col-rr-number"
+    >
+      Rapid Rewards #601940404
+    </div>
+    <div
+      className="transfer-funds-summary--detail-col-email"
+    >
+      Email address: a@s.com
+    </div>
+    <br />
+    <div
+      className="transfer-funds-summary--detail-col-personal-message"
+    >
+      <div>
+        Personal Message:
+      </div>
+      <div>
+        <p
+          className="transfer-funds-summary--detail-col-personal-message-paragraph"
+        >
+          This is a personal message
+        </p>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

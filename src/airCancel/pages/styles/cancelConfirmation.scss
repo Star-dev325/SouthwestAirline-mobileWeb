@@ -1,0 +1,76 @@
+.cancel-confirmation {
+  .refund-summary-passengers {
+    @include mt4;
+    @include mx5;
+    @include mb5;
+    @include bgwhite;
+    @include bd;
+    @include rd2;
+    @include p0;
+  }
+
+  .refund-summary-passengers > div {
+    @include mt0;
+    border: 0;
+  }
+
+  .receipt-email-container {
+    @include bgwhite;
+    @include m5;
+    @include p5;
+    @include bd;
+  }
+}
+
+.cancel-bound-confirmation {
+  .refund-summary-passengers {
+    @include mt4;
+    @include mx5;
+    @include bgwhite;
+    @include rd2;
+    @include p0;
+    @include bdt;
+    @include bdl;
+    @include bdr;
+  }
+
+  .passenger-name {
+    @include overflow-hidden;
+    @include ellipsis;
+  }
+
+  .label-container--label {
+    width: max-content;
+  }
+
+  .flight-info-summary {
+    @include mx5;
+    @include bdt;
+    @include bdl;
+    @include bdr;
+  }
+
+  .refund-summary {
+    @include mt5;
+  }
+
+  .refund-summary-passengers > div {
+    @include mt0;
+    border: 0;
+  }
+
+  .receipt-email-container {
+    @include bgwhite;
+    @include m5;
+    @include p5;
+    @include bd;
+    @include overflow-hidden;
+
+    &--text {
+      @include ellipsis;
+      @include gray4;
+      @include larger;
+      @include overflow-hidden;
+    }
+  }
+}

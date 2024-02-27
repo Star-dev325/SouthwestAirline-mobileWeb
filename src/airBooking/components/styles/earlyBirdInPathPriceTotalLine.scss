@@ -1,0 +1,8 @@
+.early-bird-in-path--price-total-line {
+  @include mt5;
+
+  .formatted-currency {
+    @include large;
+    @include lineheight16;
+  }
+}

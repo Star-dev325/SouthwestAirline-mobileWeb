@@ -1,0 +1,28 @@
+version: '3.4'
+
+services:
+  postgres:
+    build: ./postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=sonar
+      - POSTGRES_PASS=s0n@r
+      - POSTGRES_DB=sonar
+    networks:
+      - sonar_network
+
+  sonarqube:
+    build: ./sonar
+    restart: always
+    ports:
+      - 9000:9000
+      - 9092:9092
+    networks:
+      - sonar_network
+    environment:
+      - SONARQUBE_JDBC_USERNAME=sonar
+      - SONARQUBE_JDBC_PASSWORD=s0n@r
+      - SONARQUBE_JDBC_URL=jdbc:postgresql://postgres:5432/sonar
+
+networks:
+  sonar_network:

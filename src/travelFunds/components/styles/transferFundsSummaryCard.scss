@@ -1,0 +1,178 @@
+.transfer-funds-summary-card {
+  @include mx4;
+  border: 1px solid $form-field-border;
+
+  .transfer-funds-summary--title {
+    @include bgpdkblue;
+    @include white;
+    @include px5;
+    @include py3;
+    @include xlarge;
+    @include bold;
+    @include mt4;
+  }
+
+  .transfer-funds-summary {
+    @include relative;
+    @include px5;
+    @include py7;
+    @include bgwhite;
+    @include pdkblue;
+
+    &--row {
+      @include flex;
+      @include flex-row;
+      @include relative;
+      @include fullwidth;
+      min-height: 6em;
+      z-index: 1;
+    }
+
+    &--card-and-vert-line-row {
+      @include flex;
+      @include flex-column;
+    }
+
+    &--vert-line-after-card {
+      @include absolute;
+      @include t0;
+      @include b0;
+      @include overflow-y-auto;
+      content: '';
+      width: 0;
+      left: 2em;
+      border-left: 0.2em solid $sltblue;
+      margin-top: 50px;
+    }
+
+    &--vert-line-col {
+      min-height: 6em;
+
+      &::before {
+        @include absolute;
+        @include t0;
+        @include b0;
+        @include overflow-y-auto;
+        content: '';
+        width: 0;
+        left: 2em;
+        border-left: 0.2em solid $sltblue;
+      }
+
+      &.itinerary-vertical--vert-line-col-none-line {
+        &::before {
+          content: none;
+        }
+      }
+
+      &.itinerary-vertical--vert-line-col-none {
+        width: 1.4em;
+
+        .stop-circle {
+          display: none;
+        }
+      }
+    }
+
+    &--detail-col {
+      @include flex-column;
+      @include flex-grow1;
+      @include overflow-hidden;
+
+      &-email,
+      &-receiver-name,
+      &-sender-name {
+        @include xlarge;
+        @include truncate;
+      }
+
+      &-rr-number,
+      &-email,
+      &-pnr,
+      &-personal-message,
+      &-expiration {
+        @include mt2;
+        @include gray5;
+        @include medium;
+      }
+
+      &-personal-message {
+        &-paragraph {
+          overflow-wrap: break-word;
+        }
+      }
+
+      &-rr-number,
+      &-pnr,
+      &-expiration {
+        display: flex;
+      }
+    }
+
+    .credit-card--image {
+      @include mr5;
+      @include relative;
+      height: 50px;
+      width: 50px;
+      z-index: 2;
+    }
+
+    &--bold-amount {
+      @include xlarge;
+      @include bold;
+      @include mr2;
+    }
+
+    &--col {
+      @include align-top;
+      @include relative;
+    }
+
+    &--col-line {
+      @include relative;
+
+      &::before {
+        @include absolute;
+        content: '';
+        top: -1px;
+        left: 0.3em;
+        right: 0.3em;
+        border-top: 1px solid $gray3;
+      }
+    }
+
+    &--circle {
+      @include inline-block;
+      @include relative;
+      @include bgwhite;
+      @include circle;
+      margin-left: 1.6em;
+      width: 1em;
+      height: 1em;
+      top: 2em;
+      border: 1px solid $sltblue;
+
+      &::after {
+        @include absolute;
+        @include b0;
+        border-top: 1px solid $sltblue;
+        content: '';
+        width: 3rem;
+        left: 1em;
+        margin-left: -1px;
+        top: 50%;
+        margin-top: -1px;
+      }
+    }
+
+    &--to-text {
+      @include mt2;
+      @include gray5;
+      @include medium;
+      @include italic;
+      padding-left: 5.4em;
+      position: relative;
+      top: 0.2em;
+    }
+  }
+}

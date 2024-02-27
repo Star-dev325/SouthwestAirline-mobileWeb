@@ -1,0 +1,17 @@
+.early-bird-confirmation {
+  .flight-summary-card {
+    @include ml0;
+    @include mr0;
+    @include mb0;
+    @include mt5;
+  }
+}
+
+.early-bird-confirmation--message {
+  @include p4;
+  @include large;
+
+  .icon-container {
+    font-size: 2.6rem;
+  }
+}

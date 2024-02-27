@@ -1,0 +1,10 @@
+.same-day-purchase-confirmation {
+  @include bgpdkblue;
+
+  .same-day-purchase-confirmation--sub-title {
+    @include bold;
+    @include p4;
+    @include xlarge;
+    @include white;
+  }
+}

@@ -1,0 +1,9 @@
+export default {
+  SHARED__VIEW_RESERVATION__BOTTOM_LINKS_POPUP_ADD_ANOTHER_CAR: 'Add another car',
+  SHARED__VIEW_RESERVATION__BOTTOM_LINKS_POPUP_CANCEL_CAR_RESERVATION: 'Cancel car reservation',
+  SHARED__VIEW_RESERVATION__CANCELLATION_BUTTONS_CANCEL_RESERVATION: 'Cancel Reservation',
+  SHARED__VIEW_RESERVATION__CANCELLATION_BUTTONS_DO_NOT_CANCEL: 'Do Not Cancel',
+  SHARED__VIEW_RESERVATION__CANCELLATION_CONFIRMATION_MESSAGE:
+    "Things come up, and we understand that. So, we'll cancel your reservation - free of charge. Just say the word.",
+  SHARED__VIEW_RESERVATION__CANCELLATION_CONFIRMATION_TITLE: 'Please confirm your cancellation'
+};

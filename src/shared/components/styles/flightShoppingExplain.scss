@@ -1,0 +1,35 @@
+.flight-shopping-explain {
+  @include flex;
+}
+
+.flight-shopping-explain--text {
+  @include block;
+}
+
+.flight-shopping-explain--bags {
+  @include white;
+  @include medium;
+  @include bold;
+}
+
+.flight-shopping-explain--taxes {
+  @include mt2;
+  @include gray3;
+  @include medium;
+  @include pr1;
+}
+
+.flight-shopping-explain--switch-button {
+  @include block;
+  @include flex3;
+  margin-left: auto;
+
+  .switch-button {
+    @include mt3;
+  }
+
+  .switch-button--item {
+    @include py2;
+    @include px4;
+  }
+}

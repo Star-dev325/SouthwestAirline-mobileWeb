@@ -1,0 +1,29 @@
+.phone-number-field--international {
+  .input {
+    @include py0;
+    @include pl0;
+    @include pr5;
+  }
+
+  .input--label {
+    @include flex-item-stretch;
+    @include flex;
+    @include flex-cross-center;
+    @include mr4;
+    @include pl5;
+    @include pr4;
+    @include bdr;
+    @include pblue;
+    @include larger;
+  }
+
+  input {
+    @include py4;
+  }
+}
+
+fieldset[disabled] {
+  .input--label {
+    @include gray4;
+  }
+}

@@ -1,0 +1,6 @@
+.search-flights {
+  &--form-input {
+    @include ml6;
+    @include mr6;
+  }
+}

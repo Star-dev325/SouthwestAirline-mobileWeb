@@ -1,0 +1,42 @@
+.select-company-page {
+  &--list {
+    @include bdt;
+    @include bdb;
+    @include mt6;
+  }
+
+  &--company-selection-card {
+    @include bgwhite;
+    @include py6;
+    @include px5;
+    @include bdt;
+    @include flex;
+    @include relative;
+
+    &:first-child {
+      @include border-none;
+    }
+  }
+
+  &--company-selection-text {
+    @include flex11;
+    pointer-events: none;
+  }
+
+  &--company-name {
+    @include pdkblue;
+    @include xlarge;
+    @include bold;
+    pointer-events: none;
+  }
+
+  &--company-id {
+    @include gray5;
+    @include large;
+    pointer-events: none;
+  }
+
+  &--company-selection-item {
+    @include flex1;
+  }
+}

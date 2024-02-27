@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="12">
+
+  <testsuite name="login.loginTest"
+    errors="0" failures="0" hostname="" id="" package="login" skipped="0"
+    tests="12" time="70.25" timestamp="Fri, 15 Dec 2023 01:49:17 GMT">
+  
+    <testcase name="Login user" classname="login.loginTest" time="35.43" assertions="19">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify home page after login" classname="login.loginTest" time="0.2020" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Analytics for UserStore" classname="login.loginTest" time="0.02800" assertions="0">
+    </testcase>
+  
+    <testcase name="Verify Analytics for LocaleStore" classname="login.loginTest" time="0.02400" assertions="0">
+    </testcase>
+  
+    <testcase name="Go to airbooking page" classname="login.loginTest" time="17.48" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Logout user" classname="login.loginTest" time="0.5170" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify home page after logout" classname="login.loginTest" time="3.004" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click browser back multiple times" classname="login.loginTest" time="3.731" assertions="0">
+    </testcase>
+  
+    <testcase name="User is still on home page" classname="login.loginTest" time="0.5780" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Logout and go to flight status list page" classname="login.loginTest" time="5.236" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Login success" classname="login.loginTest" time="3.662" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify click back on flightStatus page will leave current page" classname="login.loginTest" time="0.3630" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

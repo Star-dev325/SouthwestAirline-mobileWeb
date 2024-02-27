@@ -1,0 +1,36 @@
+.highlighted-features {
+  @include bgsltblue;
+  @include flex;
+  @include flex-main-between;
+  @include flex-wrap;
+  @include pdkblue;
+  @include mt4;
+  @include p4;
+  border-radius: 2px;
+  border: solid 1px $pblue;
+  font-size: 1.3rem;
+
+  & > div {
+    @include py1;
+    @include flex;
+    @include flex-cross-center;
+    flex: 1 1 50%;
+  }
+
+  .feature-icon {
+    @include mr2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 18px;
+    width: 18px;
+  }
+
+  .feature-icon--dollar-circle {
+    background-image: image-url('DollarCircle.svg');
+  }
+
+  .feature-icon--suitcase {
+    background-image: image-url('Suitcase.svg');
+  }
+}

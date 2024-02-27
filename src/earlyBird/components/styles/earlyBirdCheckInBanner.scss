@@ -1,0 +1,7 @@
+.early-bird-check-in-banner {
+  min-height: 270px;
+}
+
+.early-bird-check-in-banner--background-image {
+  @include fullwidth;
+}

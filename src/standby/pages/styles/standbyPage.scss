@@ -1,0 +1,53 @@
+.standby {
+  @include pb4;
+  @include bgpdkblue;
+
+  .standby-container {
+    @include bgwhite;
+    @include rd2;
+
+    .standby-body--standby-list {
+      @include pl4;
+    }
+  }
+
+  .flight-times {
+    width: 65%;
+  }
+
+  .standby-wcm {
+    @include m5;
+
+    a {
+      @include sltblue;
+      @include large;
+    }
+  }
+
+  .standby-disclaimer {
+    @include m5;
+    @include white;
+  }
+
+  .standby-container--last-update-time {
+    @include red;
+    @include pl4;
+    @include py3;
+
+    border-top: 1px solid $gray2;
+  }
+
+  .standby-body--flight-info {
+    @include flex;
+    @include p3;
+  }
+
+  .standby-body--flight-info-label {
+    @include flex4;
+  }
+
+  .standby-body--flight-info-flight-number {
+    @include xxlarge;
+    @include bold;
+  }
+}

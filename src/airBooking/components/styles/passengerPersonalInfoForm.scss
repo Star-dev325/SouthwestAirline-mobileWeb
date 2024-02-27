@@ -1,0 +1,161 @@
+.passenger-personal-info-form {
+  @extend %passenger-personal-info-form;
+}
+
+.young-traveler-dialog--title {
+  @include align-left;
+  @include fontsize24;
+}
+
+.young-traveler-dialog--body {
+  @include align-left;
+  @include pre-wrap;
+
+  a {
+    @include pblue;
+  }
+}
+
+.link-toggler {
+  @include pblue;
+  @include medium;
+  margin: 1rem 0;
+}
+
+%passenger-personal-info-form {
+  @include m0;
+
+  .radio-input.switch-button {
+    @include mt4;
+  }
+
+  .helper-text {
+    @include medium;
+    @include gray5;
+    @include inline-block;
+    margin: 1rem 0 -1rem;
+  }
+
+  .grouped.fields {
+    @include mt6;
+  }
+
+  .input {
+    @include mt4;
+    @include regular;
+  }
+
+  .fields--label {
+    @include large;
+    @include bold;
+    @include gray5;
+  }
+
+  .error {
+    .dropdown,
+    .button--fluid {
+      @include red;
+    }
+  }
+
+  .segment {
+    @include bggray2;
+    padding: 1.6rem 1.2rem;
+
+    &.secondary.fill {
+      @include p0;
+
+      .fields--label {
+        margin-left: 1.2rem;
+      }
+    }
+
+    &.blue {
+      @include bgpblue;
+    }
+  }
+}
+
+.passenger-personal-info-form--international-travel-text {
+  @include my4;
+  @include medium;
+  @include gray5;
+}
+
+.passenger-personal-info-form--new-contact-method {
+  @include bgwhite;
+  @include bd;
+  @include rd4;
+}
+
+.frequent-traveler {
+  &--container {
+    @include bggray2;
+  }
+
+  &--button {
+    @include bgwhite;
+    @include fullwidth;
+  }
+}
+
+.save-frequent-traveler {
+  &--checkbox-field {
+    @include bd;
+    @include bgwhite;
+    @include flex;
+    @include flex-cross-center;
+    @include flex-main-between;
+    @include flex-row-reverse;
+    @include large;
+    @include pdkblue;
+    @include p4;
+    @include rd3;
+  }
+
+  &--disclaimer {
+    @include pt3;
+    @include medium;
+    @include gray5;
+  }
+}
+
+.lap-child-personal-info {
+  @include pt0;
+
+  &--helper-text {
+    @include gray5;
+    @include inline-block;
+    @include large;
+    @include pt4;
+    @include mt0;
+    @include regular;
+  }
+
+  a {
+    @include pblue;
+    @include ml1;
+  }
+
+  &--text-above {
+    @include pt6;
+  }
+}
+
+.lap-child-personal-info-form {
+  @include bold;
+  @include larger;
+
+  &--helper-text {
+    @include larger;
+    @include pt0;
+    @include gray5;
+    @include inline-block;
+    @include mt0;
+    @include regular;
+  }
+
+  &:nth-of-type(2) {
+    @include mt4;
+  }
+}

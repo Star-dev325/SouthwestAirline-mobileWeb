@@ -1,0 +1,27 @@
+.wcm-content {
+  @include gray5;
+  margin: 1em;
+  font-size: 1.54rem;
+
+  a {
+    @include pblue;
+  }
+
+  ul {
+    margin-top: 0.5em;
+    padding-left: 1.1em;
+  }
+
+  .heading {
+    @include xlarge;
+    @include bold;
+    @include my4;
+    @include pdkblue;
+  }
+}
+
+.hide-header {
+  #header {
+    @include hide;
+  }
+}

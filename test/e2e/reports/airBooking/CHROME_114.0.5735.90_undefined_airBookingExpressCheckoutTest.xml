@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="11">
+
+  <testsuite name="airBooking.airBookingExpressCheckoutTest"
+    errors="0" failures="0" hostname="" id="" package="airBooking" skipped="0"
+    tests="11" time="103.2" timestamp="Fri, 15 Dec 2023 00:27:06 GMT">
+  
+    <testcase name="Go to air booking from nav drawer" classname="airBooking.airBookingExpressCheckoutTest" time="33.34" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find flight for one passenger from Dallas to Austin with Dollars" classname="airBooking.airBookingExpressCheckoutTest" time="20.87" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select flights" classname="airBooking.airBookingExpressCheckoutTest" time="2.182" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click continue button on price page" classname="airBooking.airBookingExpressCheckoutTest" time="3.401" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter adult passenger details" classname="airBooking.airBookingExpressCheckoutTest" time="5.878" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="login from login banner" classname="airBooking.airBookingExpressCheckoutTest" time="15.73" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Using browser back" classname="airBooking.airBookingExpressCheckoutTest" time="0.5920" assertions="0">
+    </testcase>
+  
+    <testcase name="Go to passenger page with pre-fill passegner info" classname="airBooking.airBookingExpressCheckoutTest" time="1.098" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to payment page with pre-fill saved credit card info" classname="airBooking.airBookingExpressCheckoutTest" time="2.369" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select new credit card and filling in the information with a non-us phone number and continue" classname="airBooking.airBookingExpressCheckoutTest" time="16.59" assertions="20">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to purchase summary page" classname="airBooking.airBookingExpressCheckoutTest" time="1.192" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

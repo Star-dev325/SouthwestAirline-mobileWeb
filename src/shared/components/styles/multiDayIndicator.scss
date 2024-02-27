@@ -1,0 +1,40 @@
+.multi-day-indicator {
+  @include fullwidth;
+  @include flex;
+  @include flex-cross-center;
+  @include regular;
+}
+
+.multi-day-indicator--overnight-orange {
+  @include orange;
+}
+
+.multi-day-indicator--overnight-red {
+  @include red;
+}
+
+.multi-day-indicator--nextday-green {
+  @include green;
+}
+
+.multi-day-indicator--icon {
+  padding-left: 0.2rem;
+}
+
+.multi-day-indicator--icon-small {
+  @include small;
+}
+
+.multi-day-indicator--icon-smaller {
+  @include smaller;
+}
+
+.multi-day-indicator--font-small {
+  @include pl1;
+  @include medium;
+}
+
+.multi-day-indicator--font-smaller {
+  @include pl1;
+  @include small;
+}

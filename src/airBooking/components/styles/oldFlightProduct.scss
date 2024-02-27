@@ -1,0 +1,115 @@
+.flight-product-list {
+  .formatted-currency {
+    @include px3;
+    @include bold;
+    @include xxlarge;
+
+    &.strike-through {
+      @include medium;
+      @include regular;
+
+      text-decoration: line-through;
+    }
+  }
+}
+
+.lowest-flag {
+  @include bggreen;
+  @include white;
+  @include small;
+  @include bold;
+  @include p1;
+  @include center;
+  @include rd10;
+  @include ml5;
+  @include mr5;
+}
+
+.flight-product--header {
+  .aside-col.disable {
+    .formatted-currency {
+      @include medium;
+      @include regular;
+    }
+  }
+}
+
+.fare-product-list--item {
+  .lowest-flag {
+    @include ml4;
+    @include mr4;
+  }
+
+  .fare-purchase-info_fare-type {
+    @include bold;
+    @include large;
+  }
+
+  .fare-purchase-info {
+    @include table;
+    @include fullwidth;
+    height: 6em;
+
+    .formatted-currency--points {
+      @include larger;
+
+      &.strike-through {
+        @include medium;
+      }
+    }
+
+    &.fare-purchase-info--selectable {
+      &:hover {
+        cursor: pointer;
+      }
+
+      .aside-col {
+        @include relative;
+        @include bgyellow;
+        @include pdkblue;
+      }
+    }
+
+    .main-col {
+      @include flex;
+      @include flex-main-between;
+      @include flex-cross-center;
+      @include px4;
+      height: inherit;
+
+      .label {
+        @include white;
+        @include bgpblue;
+        @include medium;
+        @include rd10;
+        @include center;
+        height: 1.5em;
+        width: 5rem;
+        line-height: 1.5em;
+      }
+    }
+
+    .aside-col {
+      @include table-cell;
+      @include align-middle;
+      @include center;
+      @include bggray2;
+      @include gray5;
+      width: 10rem;
+      z-index: 1;
+
+      .value {
+        padding: 0.2em 0.5em;
+      }
+
+      .icon {
+        @include absolute;
+        @include r0;
+        font-size: 2em;
+        top: 50%;
+        transform: translateY(-50%);
+        color: darken($yellow, 25%);
+      }
+    }
+  }
+}

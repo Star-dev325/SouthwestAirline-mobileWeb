@@ -1,0 +1,29 @@
+.fund-type-selector {
+  @include fullwidth;
+  @include flex;
+  @include flex-cross-center;
+  @include bgsblue;
+  @include overflow-hidden;
+  height: 48px;
+  border-radius: 2px;
+
+  .selector-button {
+    @include fullheight;
+    @include flex;
+    @include flex-cross-center;
+    @include flex-main-center;
+    @include white;
+    @include large;
+    @include bold;
+    flex: 1;
+
+    &.center-button {
+      border-right: solid 1px $pblue;
+      border-left: solid 1px $pblue;
+    }
+
+    &.active {
+      @include bgsdkblue;
+    }
+  }
+}

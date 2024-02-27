@@ -1,0 +1,112 @@
+.is-webview .action-bar {
+  @include fixed;
+
+  .action-bar--right-buttons li {
+    width: 100px;
+  }
+
+  .action-bar--left-buttons li {
+    width: 100px;
+  }
+}
+
+.action-bar {
+  &:not(.attach-top) {
+    @include relative;
+  }
+
+  .icon_keyboard-arrow-left {
+    @include relative;
+    @include inline-block;
+    @include xxxlarge;
+    @include white;
+  }
+}
+
+.action-bar--container {
+  height: 2rem;
+}
+
+.action-bar--title {
+  @include absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.action-bar--sub-title {
+  @include ml2;
+  @include regular;
+}
+
+.action-bar--title-align-center {
+  @include center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .action-bar--title {
+    @include block;
+  }
+
+  .action-bar--sub-title {
+    @include block;
+    @include medium;
+    @include ml0;
+  }
+}
+
+.action-bar-buttons {
+  @include center;
+  @include absolute;
+  @include t0;
+  @include b0;
+  @include m0;
+
+  li {
+    @include fullheight;
+    width: 6.7rem;
+  }
+}
+
+.action-bar--left-buttons {
+  @include l0;
+
+  .action-bar-buttons--item {
+    @include bdr;
+    @include bdpdkblue;
+  }
+}
+
+.action-bar--right-buttons {
+  @include r0;
+
+  .action-bar-buttons--item {
+    @include bdl;
+    @include bdpdkblue;
+  }
+}
+
+.action-bar-buttons--item {
+  @include inline-block;
+  @include flex;
+
+  button {
+    @include inline-block;
+    @include flex-equal-width;
+    @include px0;
+    @include regular;
+    @include border-none;
+    @include fullheight;
+    @include bgtransp;
+    @include olnone;
+  }
+}
+
+.goback-link {
+  @include inline-block;
+  @include absolute;
+  @include l0;
+  @include white;
+  @include xxxlarge;
+  top: 50%;
+  transform: translateY(-50%);
+}

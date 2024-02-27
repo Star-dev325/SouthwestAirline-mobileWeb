@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WCMStyledPageSection when imagePlacement= "" should render section component 1`] = `
+<div>
+  <div
+    class="wcm-styled-page-section larger gray5"
+  >
+    <div
+      class="m6 xxlarge bold pdkblue"
+    >
+      test section title
+    </div>
+    <h5
+      class="regular m6 large"
+    >
+      test heading text
+    </h5>
+    <div>
+      <div
+        class="mx6 mb6"
+      >
+        test section text
+      </div>
+      <div />
+      <div
+        class="m6 grey2 italic large"
+        data-qa="disclaimers"
+      >
+        <p
+          class="mt6 mb6"
+        >
+          test disclaimer
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WCMStyledPageSection when imagePlacement= "below" should render section component 1`] = `
+<div>
+  <div
+    class="wcm-styled-page-section larger gray5"
+  >
+    <div
+      class="m6 xxlarge bold pdkblue"
+    >
+      test section title
+    </div>
+    <h5
+      class="regular m6 large"
+    >
+      test heading text
+    </h5>
+    <div>
+      <div
+        class="mx6 mb6"
+      >
+        test section text
+      </div>
+      <div />
+      <div
+        class="m6 grey2 italic large"
+        data-qa="disclaimers"
+      >
+        <p
+          class="mt6 mb6"
+        >
+          test disclaimer
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WCMStyledPageSection when imagePlacement= "inline" should render section component 1`] = `
+<div>
+  <div
+    class="wcm-styled-page-section larger gray5"
+  >
+    <div
+      class="m6 xxlarge bold pdkblue"
+    >
+      test section title
+    </div>
+    <h5
+      class="regular m6 large"
+    >
+      test heading text
+    </h5>
+    <div
+      class="flex"
+    >
+      <div
+        class="flex4"
+      >
+        <div>
+          <img
+            alt=""
+            class="fit pl6 pr3"
+            data-qa="wcm-image-inline"
+            src=""
+          />
+        </div>
+      </div>
+      <div
+        class="flex8"
+      >
+        <div>
+          <div
+            class="mx6 mb6"
+          >
+            test section text
+          </div>
+          <div />
+          <div
+            class="m6 grey2 italic large"
+            data-qa="disclaimers"
+          >
+            <p
+              class="mt6 mb6"
+            >
+              test disclaimer
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

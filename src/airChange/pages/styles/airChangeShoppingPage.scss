@@ -1,0 +1,10 @@
+.air-change-shopping-page {
+  .reaccom-banner {
+    @include p4;
+  }
+
+  .reaccom-banner--body {
+    @include block;
+    @include medium;
+  }
+}

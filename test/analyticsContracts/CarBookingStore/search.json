@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": [
+    "search"
+  ],
+  "properties": {
+    "search": {
+      "type": "object",
+      "properties": {
+        "pickupLocation": {
+          "type": "string"
+        },
+        "pickupDate": {
+          "type": "string"
+        },
+        "pickupTime": {
+          "type": "string"
+        },
+        "dropoffLocation": {
+          "type": "string"
+        },
+        "dropoffDate": {
+          "type": "string"
+        },
+        "dropoffTime": {
+          "type": "string"
+        },
+        "vehicleType": {
+          "type": "string"
+        },
+        "discount1": {
+          "type": "object"
+        },
+        "discount2": {
+          "type": "object"
+        },
+        "carCompany": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "pickupLocation",
+        "pickupDate",
+        "pickupTime",
+        "dropoffLocation",
+        "dropoffDate",
+        "dropoffTime",
+        "vehicleType",
+        "discount1",
+        "discount2",
+        "carCompany"
+      ]
+    }
+  }
+}

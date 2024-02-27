@@ -1,0 +1,18 @@
+{
+  "revision": "20141106105043618",
+  "product_feature": {
+    "imagetype": "background",
+    "image": "/content/mkt/images/RR.png",
+    "icon_class": "icon_class",
+    "icon_image": "",
+    "alt_text": "RR",
+    "product_heading": "REWARD YOURSELF",
+    "product_description": "<strong>Become</strong> a Rapid Rewards Member today and earn profits for every dollar you spend with Southwest and our partners",
+    "product_attributes": [
+      { "attribute": "No <em>blackout dates</em>" },
+      { "attribute": "Unlimited reward seats" },
+      { "attribute": "Points that don't expire" }
+    ],
+    "product_tagline": "Let us reward you..."
+  }
+}

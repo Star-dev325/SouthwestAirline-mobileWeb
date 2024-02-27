@@ -1,0 +1,89 @@
+$spinner-box-width: 80px;
+$spinner-box-height: 80px;
+$spinner-box-margin-left: -($spinner-box-width / 2);
+$spinner-box-margin-top: -($spinner-box-height / 2);
+
+$spinner-image-width: 44px;
+$spinner-image-height: 44px;
+$spinner-image-margin-left: -($spinner-image-width / 2);
+$spinner-image-margin-top: -($spinner-image-height / 2);
+
+.dimmer,
+.dimmer-web-view {
+  @include fixed;
+  @include fullwidth;
+  @include fullheight;
+  @include t0;
+  @include l0;
+  z-index: $spinner-z-index;
+
+  &.dimmer-with-message {
+    background-color: $opacity100;
+    opacity: 0.75;
+  }
+
+  .loading-spinner {
+    @include fixed;
+    @include fullwidth;
+    top: 50%;
+    left: 50%;
+    margin-top: $spinner-box-margin-top;
+    margin-left: $spinner-box-margin-left;
+    background-repeat: no-repeat;
+    height: $spinner-box-height;
+    z-index: $spinner-image-z-index;
+  }
+
+  .loading-spinner-img {
+    @include fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: $spinner-image-margin-left;
+    margin-top: $spinner-image-margin-top;
+    width: $spinner-image-width;
+    height: $spinner-image-height;
+    z-index: $spinner-image-z-index;
+  }
+
+  .loading-spinner-message {
+    @include bold;
+    @include center;
+    @include fixed;
+    @include fullwidth;
+    @include large;
+    @include white;
+    top: calc(50% + 4.5rem);
+  }
+}
+
+.dimmer {
+  background-color: $opacity100;
+  opacity: 0.5;
+
+  &.darker {
+    opacity: 0.75;
+  }
+
+  .loading-spinner {
+    background-image: image-url('loading_spinner.gif');
+  }
+}
+
+.dimmer-web-view {
+  .loading-spinner {
+    background-size: 80px;
+    background-color: $opacity80;
+    border-radius: 10px;
+    width: 80px;
+  }
+}
+
+.rotate {
+  animation: rotate 1s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}

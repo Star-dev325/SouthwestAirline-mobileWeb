@@ -1,0 +1,47 @@
+.select-passengers-form {
+  &--content-container {
+    padding-bottom: $select-passengers-continue-button-height + 2rem;
+  }
+
+  &--intro {
+    @include p5;
+    @include gray5;
+    @include large;
+  }
+
+  &--texts-container {
+    @include px5;
+    @include py6;
+  }
+
+  &--confirmation-text {
+    @include larger;
+    @include pdkblue;
+  }
+
+  &--additional-text {
+    @include gray5;
+    @include large;
+    @include pt5;
+  }
+
+  &--email-field {
+    @include px2;
+  }
+
+  &--email-field-label {
+    @include gray5;
+    @include pb4;
+    @include bold;
+  }
+
+  &--continue-button {
+    @include p5;
+    @include bgpblue;
+    @include fixed;
+    @include l0;
+    @include b0;
+    @include fullwidth;
+    height: $select-passengers-continue-button-height;
+  }
+}

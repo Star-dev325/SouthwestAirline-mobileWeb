@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EnrollConfirmationPage should render welcome message 1`] = `
+<div>
+  <div
+    class="enroll-confirmation-page"
+  >
+    <div
+      class="enroll-confirmation__bg"
+    >
+      <div>
+        <div
+          class="page-header"
+          id=""
+        >
+          Confirmation
+        </div>
+        <div />
+      </div>
+      <div
+        class="custom-container"
+      >
+        <div
+          class="swa-message success huge"
+        >
+          <span
+            class="icon-container"
+          >
+            <i
+              class="icon icon_check"
+            />
+          </span>
+          <span
+            class="message--text"
+          >
+            ENROLL_WELCOME
+            , 
+            Fred
+            !
+          </span>
+        </div>
+        <p
+          class="congratulation-text"
+        >
+          ENROLL_CONGRATULATION_TEXT_1
+          <sup>
+            ®
+          </sup>
+          ENROLL_CONGRATULATION_TEXT_2
+        </p>
+        <div
+          class="confirmation-cards-page--wrapper"
+        >
+          <div
+            class="enroll-confirmation-page--cards"
+          >
+            <img
+              class="enroll-confirmation-page--cards-logo"
+              src="/content/mkt/images/landing_pages/swa_logo_light.svg"
+            />
+            <span
+              class="enroll-confirmation-page--cards-tm"
+            >
+              ENROLL_RAPID_REWARDS
+            </span>
+            <div
+              class="enroll-confirmation-page--cards-user-info"
+            >
+              <div
+                class="username"
+              >
+                Fred Flintstone
+              </div>
+              <div
+                class="account-number"
+              >
+                601005646
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="goto-login"
+        >
+          <span>
+            ENROLL_LOG_IN
+          </span>
+          <i
+            class="icon icon_keyboard-arrow-right"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="11">
+
+  <testsuite name="airChange.airChangeForRoundTripCvvVerified"
+    errors="0" failures="1" hostname="" id="" package="airChange" skipped="5"
+    tests="11" time="52.78" timestamp="Fri, 15 Dec 2023 01:00:05 GMT">
+  
+    <testcase name="Login user" classname="airChange.airChangeForRoundTripCvvVerified" time="33.04" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View flight reservation through with confirmation number" classname="airChange.airChangeForRoundTripCvvVerified" time="3.342" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Choose the change flight option" classname="airChange.airChangeForRoundTripCvvVerified" time="1.541" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select the outbound to change" classname="airChange.airChangeForRoundTripCvvVerified" time="1.397" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go the shopping page" classname="airChange.airChangeForRoundTripCvvVerified" time="2.508" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select new flight product for upgrade" classname="airChange.airChangeForRoundTripCvvVerified" time="10.95" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;div[data-qa=&#34;flight-products&#34;] .flight-product-section:nth-child(4)&gt; to be present for 10000 milliseconds.">    at Object.module.exports.command (/Users/x311032/spa-mobile-web/test/e2e/commands/clickVisible.js:2:8)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Click continue button on Pricing Summary Page" classname="airChange.airChangeForRoundTripCvvVerified">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Show Review Page" classname="airChange.airChangeForRoundTripCvvVerified">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Select card with unverified CVV" classname="airChange.airChangeForRoundTripCvvVerified">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Select card with verified CVV" classname="airChange.airChangeForRoundTripCvvVerified">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Show Confirmation Page" classname="airChange.airChangeForRoundTripCvvVerified">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

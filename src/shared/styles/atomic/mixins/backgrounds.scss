@@ -1,0 +1,22 @@
+@mixin bg-flight-status {
+  @include bgpdkblue;
+  background-image: url('/content/mkt/images/landing_pages/flightStatus/backgroundFlightStatus.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@mixin bg-car-booking {
+  @include bgpdkblue;
+  background-image: url('/content/mkt/images/landing_pages/carBooking/backgroundBookCar.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@mixin bg-booking-flight {
+  // Leaving mixin for implementation of dynamic WCM controlled image background after FIT state is turned off
+  @include bgpdkblue;
+}

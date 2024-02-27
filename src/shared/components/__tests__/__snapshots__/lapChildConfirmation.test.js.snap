@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LapChildConfirmation render should render lap child booking confirmation 1`] = `
+<div>
+  <div
+    class="confirmation-trip-header-lap-child"
+  >
+    <div
+      class="confirmation-trip-header-lap-child--lap-child-icon"
+    />
+    <div
+      class="confirmation-trip-header-lap-child--lap-child-info"
+    >
+      <span
+        class="confirmation-trip-header-lap-child--lap-child-title"
+      >
+        VIEW_RESERVATION__BOARDING_INFO__LAP_CHILD_TITLE
+      </span>
+      <span
+        class="confirmation-trip-header-lap-child--lap-child-name"
+      >
+        Baby Bond
+      </span>
+    </div>
+  </div>
+  <div
+    class="confirmation-trip-header--grey-box-message"
+  >
+    <span
+      class="confirmation-trip-header--content-link"
+    >
+      A birth certificate or other government-issued identification bearing the birth date of each Lap Child is required upon request. 
+      <a
+        href="https://www.southwest.com/faq/age-verified"
+        target="_blank"
+      >
+        Learn More
+      </a>
+    </span>
+  </div>
+</div>
+`;

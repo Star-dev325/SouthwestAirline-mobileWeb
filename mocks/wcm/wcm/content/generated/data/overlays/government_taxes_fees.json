@@ -1,0 +1,12 @@
+{
+  "revision": "20150304105043618",
+  "overlay": {
+    "title": "Government Taxes and Fees",
+    "body": [
+      {
+        "type": "text",
+        "value": "<div class=\"myCurrentTripSubHeader\">Fares include:</div>\n<div class=\"popup_content_container\">\n<ul>\n<li>\n<div class=\"myCurrentTripPopupDetailsContainer\">Excise Taxes, including:</div>\n<ul>\n<li>\n<div class=\"myCurrentTripPopupDetailsContainer\">7.5% of Base Fare for domestic  travel within the Continental United States</div>\n</li>\n<li>\n<div class=\"myCurrentTripPopupDetailsContainer\">U.S. Transportation Tax of $17.50  each way for travel between the Continental United States and Puerto  Rico</div>\n</li>\n</ul>\n</li>\n<li>\n<div class=\"myCurrentTripPopupDetailsContainer\">Federal segment fee of $4.00 that  will be imposed on each flight segment. Flight segment is defined as a takeoff  and a landing.</div>\n</li>\n<li>\n<div class=\"myCurrentTripPopupDetailsContainer\">Government-imposed September 11th  Security Fee of $5.60 per one-way trip.</div>\n</li>\n<li>\n<div class=\"myCurrentTripPopupDetailsContainer\">Airport assessed Passenger  Facility Charges (PFCs) of up to $18.</div>\n</li>\n</ul>\n</div>\n<div class=\"myCurrentTripSubHeader\">Points Redemptions do not include:</div>\n<ul>\n<li>\n<div class=\"myCurrentTripSubHeader\">Government-imposed September 11th Security Fee  of $5.60 per one-way trip.</div>\n</li>\n</ul>\n<div id=\"_mcePaste\" class=\"mcePaste\" style=\"position: absolute; left: -40px; top: -25px; width: 1px; height: 1px; overflow: hidden;\"></div>"
+      }
+    ]
+  }
+}

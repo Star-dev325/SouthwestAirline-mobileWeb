@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransferFundsSummaryCard should render the component with a personal message 1`] = `
+<div
+  className="transfer-funds-summary-card"
+>
+  <div
+    className="transfer-funds-summary--title"
+  >
+    Transfer summary
+  </div>
+  <div
+    className="transfer-funds-summary"
+  >
+    <div
+      className="transfer-funds-summary--row"
+    >
+      <TransferFundsSummarySender
+        originalTravelFund={
+          Object {
+            "displayName": "Thomas Shelby",
+            "expirationDate": "2030-10-20",
+            "fundIdentifier": "1010AA",
+            "leisureFund": true,
+            "recipientInfoText": "mock recipient info text",
+            "transferableAmount": Object {
+              "amount": "100.00",
+              "currencyCode": "USD",
+              "currencySymbol": "$",
+            },
+            "travelFundType": "TRAVEL_FUNDS",
+          }
+        }
+        transferredAmount={
+          Object {
+            "amount": "100.00",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          }
+        }
+      />
+    </div>
+    <div
+      className="transfer-funds-summary--row"
+    >
+      <div
+        className="transfer-funds-summary--vert-line-col"
+      >
+        <div
+          className="transfer-funds-summary--circle"
+        />
+        <div
+          className="transfer-funds-summary--to-text"
+        >
+          Transferred to
+        </div>
+      </div>
+    </div>
+    <div
+      className="transfer-funds-summary--row"
+    >
+      <TransferFundsSummaryRecipient
+        recipientDetails={
+          Object {
+            "accountNumber": "601940404",
+            "displayName": "Arthur Shelby",
+            "emailAddress": "a@s.com",
+            "personalMessage": "This is a personal message",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TransferFundsSummaryCard should render the component without a personal message 1`] = `
+<div
+  className="transfer-funds-summary-card"
+>
+  <div
+    className="transfer-funds-summary--title"
+  >
+    Transfer summary
+  </div>
+  <div
+    className="transfer-funds-summary"
+  >
+    <div
+      className="transfer-funds-summary--row"
+    >
+      <TransferFundsSummarySender
+        originalTravelFund={
+          Object {
+            "displayName": "Thomas Shelby",
+            "expirationDate": "2030-10-20",
+            "fundIdentifier": "1010AA",
+            "leisureFund": true,
+            "recipientInfoText": "mock recipient info text",
+            "transferableAmount": Object {
+              "amount": "100.00",
+              "currencyCode": "USD",
+              "currencySymbol": "$",
+            },
+            "travelFundType": "TRAVEL_FUNDS",
+          }
+        }
+        transferredAmount={
+          Object {
+            "amount": "100.00",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          }
+        }
+      />
+    </div>
+    <div
+      className="transfer-funds-summary--row"
+    >
+      <div
+        className="transfer-funds-summary--vert-line-col"
+      >
+        <div
+          className="transfer-funds-summary--circle"
+        />
+        <div
+          className="transfer-funds-summary--to-text"
+        >
+          Transferred to
+        </div>
+      </div>
+    </div>
+    <div
+      className="transfer-funds-summary--row"
+    >
+      <TransferFundsSummaryRecipient
+        recipientDetails={
+          Object {
+            "accountNumber": "601940404",
+            "displayName": "Arthur Shelby",
+            "emailAddress": "a@s.com",
+            "personalMessage": null,
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="19">
+
+  <testsuite name="flightStatus.flightStatusSearchTest"
+    errors="0" failures="1" hostname="" id="" package="flightStatus" skipped="17"
+    tests="19" time="51.04" timestamp="Fri, 15 Dec 2023 01:46:33 GMT">
+  
+    <testcase name="go to flight status from homepage" classname="flightStatus.flightStatusSearchTest" time="37.99" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Fill up flight status form" classname="flightStatus.flightStatusSearchTest" time="13.05" assertions="17">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;[data-qa=&#34;fromAirport&#34;]&gt; contains text: &#34;DAL&#34;.">    at Object.Fill up flight status form (/Users/x311032/spa-mobile-web/test/e2e/tests/flightStatus/flightStatusSearchTest.js:40:15)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Go back to home" classname="flightStatus.flightStatusSearchTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Go to flight status" classname="flightStatus.flightStatusSearchTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="See empty flight search form" classname="flightStatus.flightStatusSearchTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Search a flight status" classname="flightStatus.flightStatusSearchTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Search Analytics" classname="flightStatus.flightStatusSearchTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Select a flight from search results list" classname="flightStatus.flightStatusSearchTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify flight details page" classname="flightStatus.flightStatusSearchTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify flight details analytics" classname="flightStatus.flightStatusSearchTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Go to home page and enter the flight status flow" classname="flightStatus.flightStatusSearchTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Re-run the most recent saved search and verify" classname="flightStatus.flightStatusSearchTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click the latest recent record" classname="flightStatus.flightStatusSearchTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify the flight status page was prefilled" classname="flightStatus.flightStatusSearchTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Navigate to recent search list page" classname="flightStatus.flightStatusSearchTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Refresh the flight status landing page" classname="flightStatus.flightStatusSearchTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click the latest recent record again" classname="flightStatus.flightStatusSearchTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify the flight status page was prefilled with the selected data" classname="flightStatus.flightStatusSearchTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify going back takes you to the previous page (home) and not the recent searches page" classname="flightStatus.flightStatusSearchTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

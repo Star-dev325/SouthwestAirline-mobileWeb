@@ -1,0 +1,3198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FundResultItem should not render conditional elements when they do not have data 1`] = `
+<div
+  className="fund-results-list--item"
+>
+  <div
+    className="fund-results-list--outer-container"
+  >
+    <CreditCardImage
+      cardType="TRAVEL_FUNDS"
+      showIcon={false}
+    />
+    <div
+      className="fund-results-list-item--info-container"
+    >
+      <div
+        className="fund-results-list-item--main-info"
+      >
+        <div
+          className="fund-results-list--text"
+        >
+          <div>
+            <p
+              className="fund-result-title pdkblue larger"
+            >
+              Bobby Hill
+            </p>
+          </div>
+          <div
+            className="additional-info-container"
+          >
+            <div>
+              OC2EHW
+            </div>
+          </div>
+        </div>
+        <div
+          className="fund-results-list--amount-container"
+        >
+          <Currency
+            amount="1,234.56"
+            className="fund-results-list--available-amount"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FundResultItem should not render conditional elements when they do not have data 2`] = `
+<div
+  className="fund-results-list--item"
+>
+  <div
+    className="fund-results-list--outer-container"
+  >
+    <CreditCardImage
+      cardType="TRAVEL_FUNDS"
+      showIcon={false}
+    />
+    <div
+      className="fund-results-list-item--info-container"
+    >
+      <div
+        className="fund-results-list-item--main-info"
+      >
+        <div
+          className="fund-results-list--text"
+        >
+          <div>
+            <p
+              className="fund-result-title pdkblue larger"
+            >
+              Bobby Hill
+            </p>
+            <p
+              className="last-four-digits-text gray5"
+            >
+              Last 4 digits: 
+              <span
+                className="bold"
+              >
+                1234
+              </span>
+            </p>
+          </div>
+          <div
+            className="additional-info-container"
+          >
+            <div>
+              OC2EHW
+            </div>
+            <div>
+              Expiration:
+               
+              09/15/2019
+            </div>
+            <div>
+              Remaining:
+               
+              <Currency
+                amount="1.23"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="fund-results-list--amount-container"
+        >
+          <Currency
+            amount="1,234.56"
+            className="fund-results-list--available-amount"
+          />
+        </div>
+        <Icon
+          className="fund-results-list--removal-button"
+          onClick={[Function]}
+          type="remove"
+        />
+      </div>
+      <p
+        className="fund-results-list--error-message"
+      >
+        Fake error message
+      </p>
+      <div
+        className="fund-results-list--billing-info"
+      >
+        <div
+          className="align-left"
+        >
+          <p
+            className="billing-col-title"
+          >
+            CARDHOLDER
+          </p>
+          <p
+            className="card-holder"
+          >
+            Hank Hill
+          </p>
+        </div>
+        <div
+          className="align-right"
+        >
+          <p
+            className="billing-col-title"
+          >
+            BILLING ADDRESS
+          </p>
+          <p
+            className="street-one"
+          >
+            Street Address Line 1
+          </p>
+          <p
+            className="location-info"
+          >
+            Addison, TX 12345
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FundResultItem should not render street and location if they are not provided 1`] = `
+<div
+  className="fund-results-list--item"
+>
+  <div
+    className="fund-results-list--outer-container"
+  >
+    <CreditCardImage
+      cardType="TRAVEL_FUNDS"
+      showIcon={false}
+    />
+    <div
+      className="fund-results-list-item--info-container"
+    >
+      <div
+        className="fund-results-list-item--main-info"
+      >
+        <div
+          className="fund-results-list--text"
+        >
+          <div>
+            <p
+              className="fund-result-title pdkblue larger"
+            >
+              Bobby Hill
+            </p>
+          </div>
+          <div
+            className="additional-info-container"
+          >
+            <div>
+              OC2EHW
+            </div>
+            <div>
+              Expiration:
+               
+              09/15/2019
+            </div>
+            <div>
+              Remaining:
+               
+              <Currency
+                amount="1.23"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="fund-results-list--amount-container"
+        >
+          <Currency
+            amount="1,234.56"
+            className="fund-results-list--available-amount"
+          />
+        </div>
+        <Icon
+          className="fund-results-list--removal-button"
+          onClick={[Function]}
+          type="remove"
+        />
+      </div>
+      <p
+        className="fund-results-list--error-message"
+      >
+        Fake error message
+      </p>
+      <div
+        className="fund-results-list--billing-info"
+      >
+        <div
+          className="align-left"
+        >
+          <p
+            className="billing-col-title"
+          >
+            CARDHOLDER
+          </p>
+          <p
+            className="card-holder"
+          />
+        </div>
+        <div
+          className="align-right"
+        >
+          <p
+            className="billing-col-title"
+          >
+            BILLING ADDRESS
+          </p>
+          <p
+            className="street-one"
+          >
+            Street Address Line 1
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FundResultItem should render correct image for leisure fund type 1`] = `
+<div
+  className="travel-fund--image_rtf-leisure credit-card--image left mr2"
+/>
+`;
+
+exports[`FundResultItem should render correct image for non-leisure fund type 1`] = `
+<div
+  className="travel-fund--image_rtf-not-leisure credit-card--image left mr2"
+/>
+`;
+
+exports[`FundResultItem should render correct image for travel fund type 1`] = `
+<div
+  className="travel-fund--image_rtf credit-card--image left mr2"
+/>
+`;
+
+exports[`FundResultItem should render expirationDateString when it exists 1`] = `
+<div
+  className="fund-results-list--item"
+>
+  <div
+    className="fund-results-list--outer-container"
+  >
+    <CreditCardImage
+      cardType="TRAVEL_FUNDS"
+      showIcon={false}
+    />
+    <div
+      className="fund-results-list-item--info-container"
+    >
+      <div
+        className="fund-results-list-item--main-info"
+      >
+        <div
+          className="fund-results-list--text"
+        >
+          <div>
+            <p
+              className="fund-result-title pdkblue larger"
+            >
+              Bobby Hill
+            </p>
+            <p
+              className="last-four-digits-text gray5"
+            >
+              Last 4 digits: 
+              <span
+                className="bold"
+              >
+                1234
+              </span>
+            </p>
+          </div>
+          <div
+            className="additional-info-container"
+          >
+            <div>
+              OC2EHW
+            </div>
+            <div>
+               
+              Expiration: None
+               
+            </div>
+            <div>
+              Remaining:
+               
+              <Currency
+                amount="1.23"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="fund-results-list--amount-container"
+        >
+          <Currency
+            amount="1,234.56"
+            className="fund-results-list--available-amount"
+          />
+        </div>
+        <Icon
+          className="fund-results-list--removal-button"
+          onClick={[Function]}
+          type="remove"
+        />
+      </div>
+      <p
+        className="fund-results-list--error-message"
+      >
+        Fake error message
+      </p>
+      <div
+        className="fund-results-list--billing-info"
+      >
+        <div
+          className="align-left"
+        >
+          <p
+            className="billing-col-title"
+          >
+            CARDHOLDER
+          </p>
+          <p
+            className="card-holder"
+          >
+            Hank Hill
+          </p>
+        </div>
+        <div
+          className="align-right"
+        >
+          <p
+            className="billing-col-title"
+          >
+            BILLING ADDRESS
+          </p>
+          <p
+            className="street-one"
+          >
+            Street Address Line 1
+          </p>
+          <p
+            className="street-two"
+          >
+            Street Address Line 2
+          </p>
+          <p
+            className="location-info"
+          >
+            Addison, TX 12345
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FundResultItem should render required fields and conditional elements when they have data 1`] = `
+<div
+  className="fund-results-list--item"
+>
+  <div
+    className="fund-results-list--outer-container"
+  >
+    <CreditCardImage
+      cardType="TRAVEL_FUNDS"
+      showIcon={false}
+    />
+    <div
+      className="fund-results-list-item--info-container"
+    >
+      <div
+        className="fund-results-list-item--main-info"
+      >
+        <div
+          className="fund-results-list--text"
+        >
+          <div>
+            <p
+              className="fund-result-title pdkblue larger"
+            >
+              Bobby Hill
+            </p>
+            <p
+              className="last-four-digits-text gray5"
+            >
+              Last 4 digits: 
+              <span
+                className="bold"
+              >
+                1234
+              </span>
+            </p>
+          </div>
+          <div
+            className="additional-info-container"
+          >
+            <div>
+              OC2EHW
+            </div>
+            <div>
+              Expiration:
+               
+              09/15/2019
+            </div>
+            <div>
+              Remaining:
+               
+              <Currency
+                amount="1.23"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="fund-results-list--amount-container"
+        >
+          <Currency
+            amount="1,234.56"
+            className="fund-results-list--available-amount"
+          />
+        </div>
+        <Icon
+          className="fund-results-list--removal-button"
+          onClick={[Function]}
+          type="remove"
+        />
+      </div>
+      <p
+        className="fund-results-list--error-message"
+      >
+        Fake error message
+      </p>
+      <div
+        className="fund-results-list--billing-info"
+      >
+        <div
+          className="align-left"
+        >
+          <p
+            className="billing-col-title"
+          >
+            CARDHOLDER
+          </p>
+          <p
+            className="card-holder"
+          >
+            Hank Hill
+          </p>
+        </div>
+        <div
+          className="align-right"
+        >
+          <p
+            className="billing-col-title"
+          >
+            BILLING ADDRESS
+          </p>
+          <p
+            className="street-one"
+          >
+            Street Address Line 1
+          </p>
+          <p
+            className="street-two"
+          >
+            Street Address Line 2
+          </p>
+          <p
+            className="location-info"
+          >
+            Addison, TX 12345
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FundResultItem transferability should display associate link if available and call function when clicked 1`] = `
+<div
+  className="fund-results-list--item"
+>
+  <div
+    className="fund-results-list--outer-container"
+  >
+    <CreditCardImage
+      cardType="TRAVEL_FUNDS"
+      showIcon={false}
+    />
+    <div
+      className="fund-results-list-item--info-container"
+    >
+      <div
+        className="fund-results-list-item--main-info"
+      >
+        <div
+          className="fund-results-list--text"
+        >
+          <div>
+            <p
+              className="fund-result-title pdkblue larger"
+            >
+              Bobby Hill
+            </p>
+            <p
+              className="last-four-digits-text gray5"
+            >
+              Last 4 digits: 
+              <span
+                className="bold"
+              >
+                1234
+              </span>
+            </p>
+          </div>
+          <div
+            className="additional-info-container"
+          >
+            <div>
+              OC2EHW
+            </div>
+            <div>
+              Expiration:
+               
+              09/15/2019
+            </div>
+            <div>
+              Remaining:
+               
+              <Currency
+                amount="1.23"
+              />
+            </div>
+            <div>
+              100.00 is eligible for transfer
+            </div>
+          </div>
+        </div>
+        <div
+          className="fund-results-list--amount-container"
+        >
+          <Currency
+            amount="1,234.56"
+            className="fund-results-list--available-amount"
+          />
+        </div>
+        <Icon
+          className="fund-results-list--removal-button"
+          onClick={[Function]}
+          type="remove"
+        />
+      </div>
+      <p
+        className="fund-results-list--error-message"
+      >
+        Fake error message
+      </p>
+      <div
+        className="fund-results-list--billing-info"
+      >
+        <div
+          className="align-left"
+        >
+          <p
+            className="billing-col-title"
+          >
+            CARDHOLDER
+          </p>
+          <p
+            className="card-holder"
+          >
+            Hank Hill
+          </p>
+        </div>
+        <div
+          className="align-right"
+        >
+          <p
+            className="billing-col-title"
+          >
+            BILLING ADDRESS
+          </p>
+          <p
+            className="street-one"
+          >
+            Street Address Line 1
+          </p>
+          <p
+            className="street-two"
+          >
+            Street Address Line 2
+          </p>
+          <p
+            className="location-info"
+          >
+            Addison, TX 12345
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a
+    className="pblue fund-results-list--associate-link"
+    onClick={[Function]}
+  >
+    Associate Fund Link
+  </a>
+</div>
+`;
+
+exports[`FundResultItem transferability should display cash + points as eligible funds after applying 1`] = `
+<FundResultItem
+  appliedAmount={
+    Object {
+      "amount": "1,234.56",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  appliedPointsAmount={
+    Object {
+      "amount": "1,234.56",
+      "currencyCode": "PTS",
+      "currencySymbol": "PTS",
+    }
+  }
+  billingInfo={
+    Object {
+      "amountApplied": Object {
+        "amount": "123.45",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "billingAddress": Object {
+        "location": "Addison, TX 12345",
+        "streetOne": "Street Address Line 1",
+        "streetTwo": "Street Address Line 2",
+      },
+      "cardHolderName": "Hank Hill",
+      "cardType": "VISA",
+      "lastFourDigits": "1234",
+    }
+  }
+  displayName="Bobby Hill"
+  errorMessage="Fake error message"
+  expirationDate="2019-09-15"
+  fundIdentifier="OC2EHW"
+  fundType="SPLIT_PAYMENT"
+  onClickAssociateFundLinkFn={[Function]}
+  onClickValidateTransferLinkFn={[Function]}
+  pointsRemaining="Remaining balance 92,315 pts"
+  remainingAmount={
+    Object {
+      "amount": "1.23",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  removalId="1"
+  removeFundFn={[Function]}
+>
+  <div
+    className="fund-results-list--item"
+  >
+    <div
+      className="fund-results-list--outer-container"
+    >
+      <CreditCardImage
+        cardType="SPLIT_PAYMENT"
+        showIcon={true}
+      >
+        <Icon
+          className="travel-fund--points-icon"
+          type="points"
+        >
+          <i
+            className="travel-fund--points-icon icon icon_points"
+          />
+        </Icon>
+      </CreditCardImage>
+      <div
+        className="fund-results-list-item--info-container"
+      >
+        <div
+          className="fund-results-list-item--main-info"
+        >
+          <div
+            className="fund-results-list--text"
+          >
+            <div>
+              <p
+                className="fund-result-title pdkblue larger"
+              >
+                Bobby Hill
+              </p>
+              <p
+                className="last-four-digits-text gray5"
+              >
+                Last 4 digits: 
+                <span
+                  className="bold"
+                >
+                  1234
+                </span>
+              </p>
+            </div>
+            <div
+              className="additional-info-container"
+            >
+              <div>
+                Remaining balance 92,315 pts
+              </div>
+            </div>
+          </div>
+          <div
+            className="fund-results-list--amount-container"
+          >
+            <Currency
+              amount="1,234.56"
+              className="fund-results-list--available-amount"
+              currencyCode="PTS"
+              currencySymbol="PTS"
+              showPts={true}
+            >
+              <div
+                className="currency fund-results-list--available-amount"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  1,234.56
+                </span>
+                <span
+                  className="points-sign"
+                >
+                  PTS
+                </span>
+              </div>
+            </Currency>
+            <Currency
+              amount="1,234.56"
+              className="fund-results-list--dollar-amount"
+              currencyCode="USD"
+              currencySymbol="$"
+            >
+              <div
+                className="currency fund-results-list--dollar-amount"
+              >
+                <span
+                  className="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  1,234.56
+                </span>
+              </div>
+            </Currency>
+          </div>
+          <Icon
+            className="fund-results-list--removal-button"
+            onClick={[Function]}
+            type="remove"
+          >
+            <i
+              className="fund-results-list--removal-button icon icon_remove"
+              onClick={[Function]}
+            />
+          </Icon>
+        </div>
+        <p
+          className="fund-results-list--error-message"
+        >
+          Fake error message
+        </p>
+        <div
+          className="fund-results-list--billing-info"
+        >
+          <div
+            className="align-left"
+          >
+            <p
+              className="billing-col-title"
+            >
+              CARDHOLDER
+            </p>
+            <p
+              className="card-holder"
+            >
+              Hank Hill
+            </p>
+          </div>
+          <div
+            className="align-right"
+          >
+            <p
+              className="billing-col-title"
+            >
+              BILLING ADDRESS
+            </p>
+            <p
+              className="street-one"
+            >
+              Street Address Line 1
+            </p>
+            <p
+              className="street-two"
+            >
+              Street Address Line 2
+            </p>
+            <p
+              className="location-info"
+            >
+              Addison, TX 12345
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</FundResultItem>
+`;
+
+exports[`FundResultItem transferability should display cash + points as eligible funds after applying on confirmation with appliedpoints 1`] = `
+<FundResultItem
+  appliedAmount={
+    Object {
+      "amount": "1,234.56",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  appliedPoints={
+    Object {
+      "amount": "1,234.56",
+      "currencyCode": "PTS",
+      "currencySymbol": "PTS",
+    }
+  }
+  billingInfo={
+    Object {
+      "amountApplied": Object {
+        "amount": "123.45",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "billingAddress": Object {
+        "location": "Addison, TX 12345",
+        "streetOne": "Street Address Line 1",
+        "streetTwo": "Street Address Line 2",
+      },
+      "cardHolderName": "Hank Hill",
+      "cardType": "VISA",
+      "lastFourDigits": "1234",
+    }
+  }
+  displayName="Bobby Hill"
+  errorMessage="Fake error message"
+  expirationDate="2019-09-15"
+  fundIdentifier="OC2EHW"
+  fundType="SPLIT_PAYMENT"
+  onClickAssociateFundLinkFn={[Function]}
+  onClickValidateTransferLinkFn={[Function]}
+  pointsRemaining="Remaining balance 92,315 pts"
+  remainingAmount={
+    Object {
+      "amount": "1.23",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  removalId="1"
+  removeFundFn={[Function]}
+>
+  <div
+    className="fund-results-list--item"
+  >
+    <div
+      className="fund-results-list--outer-container"
+    >
+      <CreditCardImage
+        cardType="SPLIT_PAYMENT"
+        showIcon={true}
+      >
+        <Icon
+          className="travel-fund--points-icon"
+          type="points"
+        >
+          <i
+            className="travel-fund--points-icon icon icon_points"
+          />
+        </Icon>
+      </CreditCardImage>
+      <div
+        className="fund-results-list-item--info-container"
+      >
+        <div
+          className="fund-results-list-item--main-info"
+        >
+          <div
+            className="fund-results-list--text"
+          >
+            <div>
+              <p
+                className="fund-result-title pdkblue larger"
+              >
+                Bobby Hill
+              </p>
+              <p
+                className="last-four-digits-text gray5"
+              >
+                Last 4 digits: 
+                <span
+                  className="bold"
+                >
+                  1234
+                </span>
+              </p>
+            </div>
+            <div
+              className="additional-info-container"
+            >
+              <div>
+                Remaining balance 92,315 pts
+              </div>
+            </div>
+          </div>
+          <div
+            className="fund-results-list--amount-container"
+          >
+            <Currency
+              amount="1,234.56"
+              className="fund-results-list--available-amount"
+              currencyCode="PTS"
+              currencySymbol="PTS"
+              showPts={true}
+            >
+              <div
+                className="currency fund-results-list--available-amount"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  1,234.56
+                </span>
+                <span
+                  className="points-sign"
+                >
+                  PTS
+                </span>
+              </div>
+            </Currency>
+            <Currency
+              amount="1,234.56"
+              className="fund-results-list--dollar-amount"
+              currencyCode="USD"
+              currencySymbol="$"
+            >
+              <div
+                className="currency fund-results-list--dollar-amount"
+              >
+                <span
+                  className="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  1,234.56
+                </span>
+              </div>
+            </Currency>
+          </div>
+          <Icon
+            className="fund-results-list--removal-button"
+            onClick={[Function]}
+            type="remove"
+          >
+            <i
+              className="fund-results-list--removal-button icon icon_remove"
+              onClick={[Function]}
+            />
+          </Icon>
+        </div>
+        <p
+          className="fund-results-list--error-message"
+        >
+          Fake error message
+        </p>
+        <div
+          className="fund-results-list--billing-info"
+        >
+          <div
+            className="align-left"
+          >
+            <p
+              className="billing-col-title"
+            >
+              CARDHOLDER
+            </p>
+            <p
+              className="card-holder"
+            >
+              Hank Hill
+            </p>
+          </div>
+          <div
+            className="align-right"
+          >
+            <p
+              className="billing-col-title"
+            >
+              BILLING ADDRESS
+            </p>
+            <p
+              className="street-one"
+            >
+              Street Address Line 1
+            </p>
+            <p
+              className="street-two"
+            >
+              Street Address Line 2
+            </p>
+            <p
+              className="location-info"
+            >
+              Addison, TX 12345
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</FundResultItem>
+`;
+
+exports[`FundResultItem transferability should display the correct grey box message if a name mismatch occurs after logging in 1`] = `
+<FundResultItem
+  appliedAmount={
+    Object {
+      "amount": "1,234.56",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  billingInfo={
+    Object {
+      "amountApplied": Object {
+        "amount": "123.45",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "billingAddress": Object {
+        "location": "Addison, TX 12345",
+        "streetOne": "Street Address Line 1",
+        "streetTwo": "Street Address Line 2",
+      },
+      "cardHolderName": "Hank Hill",
+      "cardType": "VISA",
+      "lastFourDigits": "1234",
+    }
+  }
+  displayName="Bobby Hill"
+  errorMessage="Fake error message"
+  expirationDate="2019-09-15"
+  fundIdentifier="OC2EHW"
+  fundType="TRAVEL_FUNDS"
+  greyBoxMessage={
+    Object {
+      "body": "The name on your account does not match name of the travel fund",
+      "header": "Not eligible for transfer",
+      "key": "GREY_BOX_UNAVAILABLE_FUNDS_NAME_MISMATCH",
+    }
+  }
+  onClickAssociateFundLinkFn={[Function]}
+  onClickValidateTransferLinkFn={[Function]}
+  remainingAmount={
+    Object {
+      "amount": "1.23",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  removalId="1"
+  removeFundFn={[Function]}
+>
+  <div
+    className="fund-results-list--item"
+  >
+    <div
+      className="fund-results-list--outer-container"
+    >
+      <CreditCardImage
+        cardType="TRAVEL_FUNDS"
+        showIcon={false}
+      >
+        <div
+          className="travel-fund--image_rtf credit-card--image left mr2"
+        />
+      </CreditCardImage>
+      <div
+        className="fund-results-list-item--info-container"
+      >
+        <div
+          className="fund-results-list-item--main-info"
+        >
+          <div
+            className="fund-results-list--text"
+          >
+            <div>
+              <p
+                className="fund-result-title pdkblue larger"
+              >
+                Bobby Hill
+              </p>
+              <p
+                className="last-four-digits-text gray5"
+              >
+                Last 4 digits: 
+                <span
+                  className="bold"
+                >
+                  1234
+                </span>
+              </p>
+            </div>
+            <div
+              className="additional-info-container"
+            >
+              <div>
+                OC2EHW
+              </div>
+              <div>
+                Expiration:
+                 
+                09/15/2019
+              </div>
+              <div>
+                Remaining:
+                 
+                <Currency
+                  amount="1.23"
+                  currencyCode="USD"
+                  currencySymbol="$"
+                >
+                  <div
+                    className="currency"
+                  >
+                    <span
+                      className="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      1.23
+                    </span>
+                  </div>
+                </Currency>
+              </div>
+            </div>
+          </div>
+          <div
+            className="fund-results-list--amount-container"
+          >
+            <Currency
+              amount="1,234.56"
+              className="fund-results-list--available-amount"
+              currencyCode="USD"
+              currencySymbol="$"
+            >
+              <div
+                className="currency fund-results-list--available-amount"
+              >
+                <span
+                  className="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  1,234.56
+                </span>
+              </div>
+            </Currency>
+          </div>
+          <Icon
+            className="fund-results-list--removal-button"
+            onClick={[Function]}
+            type="remove"
+          >
+            <i
+              className="fund-results-list--removal-button icon icon_remove"
+              onClick={[Function]}
+            />
+          </Icon>
+        </div>
+        <p
+          className="fund-results-list--error-message"
+        >
+          Fake error message
+        </p>
+        <div
+          className="fund-results-list--billing-info"
+        >
+          <div
+            className="align-left"
+          >
+            <p
+              className="billing-col-title"
+            >
+              CARDHOLDER
+            </p>
+            <p
+              className="card-holder"
+            >
+              Hank Hill
+            </p>
+          </div>
+          <div
+            className="align-right"
+          >
+            <p
+              className="billing-col-title"
+            >
+              BILLING ADDRESS
+            </p>
+            <p
+              className="street-one"
+            >
+              Street Address Line 1
+            </p>
+            <p
+              className="street-two"
+            >
+              Street Address Line 2
+            </p>
+            <p
+              className="location-info"
+            >
+              Addison, TX 12345
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="fund-results-list--grey-box-message"
+    >
+      <div
+        className="header"
+      >
+        Not eligible for transfer
+      </div>
+      <div
+        className="body"
+      >
+        The name on your account does not match name of the travel fund
+      </div>
+    </div>
+  </div>
+</FundResultItem>
+`;
+
+exports[`FundResultItem transferability should display the correct grey box message if a user looks up a fund that has already been transferred once 1`] = `
+<FundResultItem
+  appliedAmount={
+    Object {
+      "amount": "1,234.56",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  billingInfo={
+    Object {
+      "amountApplied": Object {
+        "amount": "123.45",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "billingAddress": Object {
+        "location": "Addison, TX 12345",
+        "streetOne": "Street Address Line 1",
+        "streetTwo": "Street Address Line 2",
+      },
+      "cardHolderName": "Hank Hill",
+      "cardType": "VISA",
+      "lastFourDigits": "1234",
+    }
+  }
+  displayName="Bobby Hill"
+  errorMessage="Fake error message"
+  expirationDate="2019-09-15"
+  fundIdentifier="OC2EHW"
+  fundType="TRAVEL_FUNDS"
+  greyBoxMessage={
+    Object {
+      "body": "This fund was previously transferred and only 1 transfer of a travel fund is allowed",
+      "header": "Not eligible for transfer",
+      "key": "GREY_BOX_UNAVAILABLE_FUNDS_TRANSFER_INELIGIBLE",
+    }
+  }
+  onClickAssociateFundLinkFn={[Function]}
+  onClickValidateTransferLinkFn={[Function]}
+  remainingAmount={
+    Object {
+      "amount": "1.23",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  removalId="1"
+  removeFundFn={[Function]}
+>
+  <div
+    className="fund-results-list--item"
+  >
+    <div
+      className="fund-results-list--outer-container"
+    >
+      <CreditCardImage
+        cardType="TRAVEL_FUNDS"
+        showIcon={false}
+      >
+        <div
+          className="travel-fund--image_rtf credit-card--image left mr2"
+        />
+      </CreditCardImage>
+      <div
+        className="fund-results-list-item--info-container"
+      >
+        <div
+          className="fund-results-list-item--main-info"
+        >
+          <div
+            className="fund-results-list--text"
+          >
+            <div>
+              <p
+                className="fund-result-title pdkblue larger"
+              >
+                Bobby Hill
+              </p>
+              <p
+                className="last-four-digits-text gray5"
+              >
+                Last 4 digits: 
+                <span
+                  className="bold"
+                >
+                  1234
+                </span>
+              </p>
+            </div>
+            <div
+              className="additional-info-container"
+            >
+              <div>
+                OC2EHW
+              </div>
+              <div>
+                Expiration:
+                 
+                09/15/2019
+              </div>
+              <div>
+                Remaining:
+                 
+                <Currency
+                  amount="1.23"
+                  currencyCode="USD"
+                  currencySymbol="$"
+                >
+                  <div
+                    className="currency"
+                  >
+                    <span
+                      className="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      1.23
+                    </span>
+                  </div>
+                </Currency>
+              </div>
+            </div>
+          </div>
+          <div
+            className="fund-results-list--amount-container"
+          >
+            <Currency
+              amount="1,234.56"
+              className="fund-results-list--available-amount"
+              currencyCode="USD"
+              currencySymbol="$"
+            >
+              <div
+                className="currency fund-results-list--available-amount"
+              >
+                <span
+                  className="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  1,234.56
+                </span>
+              </div>
+            </Currency>
+          </div>
+          <Icon
+            className="fund-results-list--removal-button"
+            onClick={[Function]}
+            type="remove"
+          >
+            <i
+              className="fund-results-list--removal-button icon icon_remove"
+              onClick={[Function]}
+            />
+          </Icon>
+        </div>
+        <p
+          className="fund-results-list--error-message"
+        >
+          Fake error message
+        </p>
+        <div
+          className="fund-results-list--billing-info"
+        >
+          <div
+            className="align-left"
+          >
+            <p
+              className="billing-col-title"
+            >
+              CARDHOLDER
+            </p>
+            <p
+              className="card-holder"
+            >
+              Hank Hill
+            </p>
+          </div>
+          <div
+            className="align-right"
+          >
+            <p
+              className="billing-col-title"
+            >
+              BILLING ADDRESS
+            </p>
+            <p
+              className="street-one"
+            >
+              Street Address Line 1
+            </p>
+            <p
+              className="street-two"
+            >
+              Street Address Line 2
+            </p>
+            <p
+              className="location-info"
+            >
+              Addison, TX 12345
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="fund-results-list--grey-box-message"
+    >
+      <div
+        className="header"
+      >
+        Not eligible for transfer
+      </div>
+      <div
+        className="body"
+      >
+        This fund was previously transferred and only 1 transfer of a travel fund is allowed
+      </div>
+    </div>
+  </div>
+</FundResultItem>
+`;
+
+exports[`FundResultItem transferability should display the correct grey box message if a user looks up a fund that is not eligible for transfer due to the fare class (WGA or WGA+) 1`] = `
+<FundResultItem
+  appliedAmount={
+    Object {
+      "amount": "1,234.56",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  billingInfo={
+    Object {
+      "amountApplied": Object {
+        "amount": "123.45",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "billingAddress": Object {
+        "location": "Addison, TX 12345",
+        "streetOne": "Street Address Line 1",
+        "streetTwo": "Street Address Line 2",
+      },
+      "cardHolderName": "Hank Hill",
+      "cardType": "VISA",
+      "lastFourDigits": "1234",
+    }
+  }
+  displayName="Bobby Hill"
+  errorMessage="Fake error message"
+  expirationDate="2019-09-15"
+  fundIdentifier="OC2EHW"
+  fundType="TRAVEL_FUNDS"
+  greyBoxMessage={
+    Object {
+      "body": "The fare purchased did not qualify to allow the fund to be transferred",
+      "header": "Not eligible for transfer",
+      "key": "GREY_BOX_UNAVAILABLE_FUNDS_TRANSFER_INELIGIBLE",
+    }
+  }
+  onClickAssociateFundLinkFn={[Function]}
+  onClickValidateTransferLinkFn={[Function]}
+  remainingAmount={
+    Object {
+      "amount": "1.23",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  removalId="1"
+  removeFundFn={[Function]}
+>
+  <div
+    className="fund-results-list--item"
+  >
+    <div
+      className="fund-results-list--outer-container"
+    >
+      <CreditCardImage
+        cardType="TRAVEL_FUNDS"
+        showIcon={false}
+      >
+        <div
+          className="travel-fund--image_rtf credit-card--image left mr2"
+        />
+      </CreditCardImage>
+      <div
+        className="fund-results-list-item--info-container"
+      >
+        <div
+          className="fund-results-list-item--main-info"
+        >
+          <div
+            className="fund-results-list--text"
+          >
+            <div>
+              <p
+                className="fund-result-title pdkblue larger"
+              >
+                Bobby Hill
+              </p>
+              <p
+                className="last-four-digits-text gray5"
+              >
+                Last 4 digits: 
+                <span
+                  className="bold"
+                >
+                  1234
+                </span>
+              </p>
+            </div>
+            <div
+              className="additional-info-container"
+            >
+              <div>
+                OC2EHW
+              </div>
+              <div>
+                Expiration:
+                 
+                09/15/2019
+              </div>
+              <div>
+                Remaining:
+                 
+                <Currency
+                  amount="1.23"
+                  currencyCode="USD"
+                  currencySymbol="$"
+                >
+                  <div
+                    className="currency"
+                  >
+                    <span
+                      className="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      1.23
+                    </span>
+                  </div>
+                </Currency>
+              </div>
+            </div>
+          </div>
+          <div
+            className="fund-results-list--amount-container"
+          >
+            <Currency
+              amount="1,234.56"
+              className="fund-results-list--available-amount"
+              currencyCode="USD"
+              currencySymbol="$"
+            >
+              <div
+                className="currency fund-results-list--available-amount"
+              >
+                <span
+                  className="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  1,234.56
+                </span>
+              </div>
+            </Currency>
+          </div>
+          <Icon
+            className="fund-results-list--removal-button"
+            onClick={[Function]}
+            type="remove"
+          >
+            <i
+              className="fund-results-list--removal-button icon icon_remove"
+              onClick={[Function]}
+            />
+          </Icon>
+        </div>
+        <p
+          className="fund-results-list--error-message"
+        >
+          Fake error message
+        </p>
+        <div
+          className="fund-results-list--billing-info"
+        >
+          <div
+            className="align-left"
+          >
+            <p
+              className="billing-col-title"
+            >
+              CARDHOLDER
+            </p>
+            <p
+              className="card-holder"
+            >
+              Hank Hill
+            </p>
+          </div>
+          <div
+            className="align-right"
+          >
+            <p
+              className="billing-col-title"
+            >
+              BILLING ADDRESS
+            </p>
+            <p
+              className="street-one"
+            >
+              Street Address Line 1
+            </p>
+            <p
+              className="street-two"
+            >
+              Street Address Line 2
+            </p>
+            <p
+              className="location-info"
+            >
+              Addison, TX 12345
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="fund-results-list--grey-box-message"
+    >
+      <div
+        className="header"
+      >
+        Not eligible for transfer
+      </div>
+      <div
+        className="body"
+      >
+        The fare purchased did not qualify to allow the fund to be transferred
+      </div>
+    </div>
+  </div>
+</FundResultItem>
+`;
+
+exports[`FundResultItem transferability should display the correct grey box message if a user searches for an RTF with a different name (not the account holder name) and associateFund 1`] = `
+<FundResultItem
+  appliedAmount={
+    Object {
+      "amount": "1,234.56",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  billingInfo={
+    Object {
+      "amountApplied": Object {
+        "amount": "123.45",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "billingAddress": Object {
+        "location": "Addison, TX 12345",
+        "streetOne": "Street Address Line 1",
+        "streetTwo": "Street Address Line 2",
+      },
+      "cardHolderName": "Hank Hill",
+      "cardType": "VISA",
+      "lastFourDigits": "1234",
+    }
+  }
+  displayName="Bobby Hill"
+  errorMessage="Fake error message"
+  expirationDate="2019-09-15"
+  fundIdentifier="OC2EHW"
+  fundType="TRAVEL_FUNDS"
+  greyBoxMessage={
+    Object {
+      "body": "The name on your account does not match name of the travel fund",
+      "header": "Not eligible for transfer",
+      "key": "GREY_BOX_UNAVAILABLE_FUNDS_NAME_MISMATCH",
+    }
+  }
+  onClickAssociateFundLinkFn={[Function]}
+  onClickValidateTransferLinkFn={[Function]}
+  remainingAmount={
+    Object {
+      "amount": "1.23",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  removalId="1"
+  removeFundFn={[Function]}
+>
+  <div
+    className="fund-results-list--item"
+  >
+    <div
+      className="fund-results-list--outer-container"
+    >
+      <CreditCardImage
+        cardType="TRAVEL_FUNDS"
+        showIcon={false}
+      >
+        <div
+          className="travel-fund--image_rtf credit-card--image left mr2"
+        />
+      </CreditCardImage>
+      <div
+        className="fund-results-list-item--info-container"
+      >
+        <div
+          className="fund-results-list-item--main-info"
+        >
+          <div
+            className="fund-results-list--text"
+          >
+            <div>
+              <p
+                className="fund-result-title pdkblue larger"
+              >
+                Bobby Hill
+              </p>
+              <p
+                className="last-four-digits-text gray5"
+              >
+                Last 4 digits: 
+                <span
+                  className="bold"
+                >
+                  1234
+                </span>
+              </p>
+            </div>
+            <div
+              className="additional-info-container"
+            >
+              <div>
+                OC2EHW
+              </div>
+              <div>
+                Expiration:
+                 
+                09/15/2019
+              </div>
+              <div>
+                Remaining:
+                 
+                <Currency
+                  amount="1.23"
+                  currencyCode="USD"
+                  currencySymbol="$"
+                >
+                  <div
+                    className="currency"
+                  >
+                    <span
+                      className="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      1.23
+                    </span>
+                  </div>
+                </Currency>
+              </div>
+            </div>
+          </div>
+          <div
+            className="fund-results-list--amount-container"
+          >
+            <Currency
+              amount="1,234.56"
+              className="fund-results-list--available-amount"
+              currencyCode="USD"
+              currencySymbol="$"
+            >
+              <div
+                className="currency fund-results-list--available-amount"
+              >
+                <span
+                  className="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  1,234.56
+                </span>
+              </div>
+            </Currency>
+          </div>
+          <Icon
+            className="fund-results-list--removal-button"
+            onClick={[Function]}
+            type="remove"
+          >
+            <i
+              className="fund-results-list--removal-button icon icon_remove"
+              onClick={[Function]}
+            />
+          </Icon>
+        </div>
+        <p
+          className="fund-results-list--error-message"
+        >
+          Fake error message
+        </p>
+        <div
+          className="fund-results-list--billing-info"
+        >
+          <div
+            className="align-left"
+          >
+            <p
+              className="billing-col-title"
+            >
+              CARDHOLDER
+            </p>
+            <p
+              className="card-holder"
+            >
+              Hank Hill
+            </p>
+          </div>
+          <div
+            className="align-right"
+          >
+            <p
+              className="billing-col-title"
+            >
+              BILLING ADDRESS
+            </p>
+            <p
+              className="street-one"
+            >
+              Street Address Line 1
+            </p>
+            <p
+              className="street-two"
+            >
+              Street Address Line 2
+            </p>
+            <p
+              className="location-info"
+            >
+              Addison, TX 12345
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="fund-results-list--grey-box-message"
+    >
+      <div
+        className="header"
+      >
+        Not eligible for transfer
+      </div>
+      <div
+        className="body"
+      >
+        The name on your account does not match name of the travel fund
+      </div>
+    </div>
+  </div>
+</FundResultItem>
+`;
+
+exports[`FundResultItem transferability should display the correct grey box message if user logs in with a different RR# 1`] = `
+<FundResultItem
+  appliedAmount={
+    Object {
+      "amount": "1,234.56",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  billingInfo={
+    Object {
+      "amountApplied": Object {
+        "amount": "123.45",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "billingAddress": Object {
+        "location": "Addison, TX 12345",
+        "streetOne": "Street Address Line 1",
+        "streetTwo": "Street Address Line 2",
+      },
+      "cardHolderName": "Hank Hill",
+      "cardType": "VISA",
+      "lastFourDigits": "1234",
+    }
+  }
+  displayName="Bobby Hill"
+  errorMessage="Fake error message"
+  expirationDate="2019-09-15"
+  fundIdentifier="OC2EHW"
+  fundType="TRAVEL_FUNDS"
+  greyBoxMessage={
+    Object {
+      "body": "The account you're logged in with does not match the account of the travel fund",
+      "header": "Not eligible for transfer",
+      "key": "GREY_BOX_UNAVAILABLE_FUNDS_RR_MISMATCH",
+    }
+  }
+  onClickAssociateFundLinkFn={[Function]}
+  onClickValidateTransferLinkFn={[Function]}
+  remainingAmount={
+    Object {
+      "amount": "1.23",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  removalId="1"
+  removeFundFn={[Function]}
+>
+  <div
+    className="fund-results-list--item"
+  >
+    <div
+      className="fund-results-list--outer-container"
+    >
+      <CreditCardImage
+        cardType="TRAVEL_FUNDS"
+        showIcon={false}
+      >
+        <div
+          className="travel-fund--image_rtf credit-card--image left mr2"
+        />
+      </CreditCardImage>
+      <div
+        className="fund-results-list-item--info-container"
+      >
+        <div
+          className="fund-results-list-item--main-info"
+        >
+          <div
+            className="fund-results-list--text"
+          >
+            <div>
+              <p
+                className="fund-result-title pdkblue larger"
+              >
+                Bobby Hill
+              </p>
+              <p
+                className="last-four-digits-text gray5"
+              >
+                Last 4 digits: 
+                <span
+                  className="bold"
+                >
+                  1234
+                </span>
+              </p>
+            </div>
+            <div
+              className="additional-info-container"
+            >
+              <div>
+                OC2EHW
+              </div>
+              <div>
+                Expiration:
+                 
+                09/15/2019
+              </div>
+              <div>
+                Remaining:
+                 
+                <Currency
+                  amount="1.23"
+                  currencyCode="USD"
+                  currencySymbol="$"
+                >
+                  <div
+                    className="currency"
+                  >
+                    <span
+                      className="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      1.23
+                    </span>
+                  </div>
+                </Currency>
+              </div>
+            </div>
+          </div>
+          <div
+            className="fund-results-list--amount-container"
+          >
+            <Currency
+              amount="1,234.56"
+              className="fund-results-list--available-amount"
+              currencyCode="USD"
+              currencySymbol="$"
+            >
+              <div
+                className="currency fund-results-list--available-amount"
+              >
+                <span
+                  className="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  1,234.56
+                </span>
+              </div>
+            </Currency>
+          </div>
+          <Icon
+            className="fund-results-list--removal-button"
+            onClick={[Function]}
+            type="remove"
+          >
+            <i
+              className="fund-results-list--removal-button icon icon_remove"
+              onClick={[Function]}
+            />
+          </Icon>
+        </div>
+        <p
+          className="fund-results-list--error-message"
+        >
+          Fake error message
+        </p>
+        <div
+          className="fund-results-list--billing-info"
+        >
+          <div
+            className="align-left"
+          >
+            <p
+              className="billing-col-title"
+            >
+              CARDHOLDER
+            </p>
+            <p
+              className="card-holder"
+            >
+              Hank Hill
+            </p>
+          </div>
+          <div
+            className="align-right"
+          >
+            <p
+              className="billing-col-title"
+            >
+              BILLING ADDRESS
+            </p>
+            <p
+              className="street-one"
+            >
+              Street Address Line 1
+            </p>
+            <p
+              className="street-two"
+            >
+              Street Address Line 2
+            </p>
+            <p
+              className="location-info"
+            >
+              Addison, TX 12345
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="fund-results-list--grey-box-message"
+    >
+      <div
+        className="header"
+      >
+        Not eligible for transfer
+      </div>
+      <div
+        className="body"
+      >
+        The account you're logged in with does not match the account of the travel fund
+      </div>
+    </div>
+  </div>
+</FundResultItem>
+`;
+
+exports[`FundResultItem transferability should display the correct grey box message if user searches for an RTF NOT associated to the logged in account RR# 1`] = `
+<FundResultItem
+  appliedAmount={
+    Object {
+      "amount": "1,234.56",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  billingInfo={
+    Object {
+      "amountApplied": Object {
+        "amount": "123.45",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "billingAddress": Object {
+        "location": "Addison, TX 12345",
+        "streetOne": "Street Address Line 1",
+        "streetTwo": "Street Address Line 2",
+      },
+      "cardHolderName": "Hank Hill",
+      "cardType": "VISA",
+      "lastFourDigits": "1234",
+    }
+  }
+  displayName="Bobby Hill"
+  errorMessage="Fake error message"
+  expirationDate="2019-09-15"
+  fundIdentifier="OC2EHW"
+  fundType="TRAVEL_FUNDS"
+  greyBoxMessage={
+    Object {
+      "body": "The account you're logged in with does not match the account of the travel fund",
+      "header": "Not eligible for transfer",
+      "key": "GREY_BOX_UNAVAILABLE_FUNDS_RR_MISMATCH",
+    }
+  }
+  onClickAssociateFundLinkFn={[Function]}
+  onClickValidateTransferLinkFn={[Function]}
+  remainingAmount={
+    Object {
+      "amount": "1.23",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  removalId="1"
+  removeFundFn={[Function]}
+>
+  <div
+    className="fund-results-list--item"
+  >
+    <div
+      className="fund-results-list--outer-container"
+    >
+      <CreditCardImage
+        cardType="TRAVEL_FUNDS"
+        showIcon={false}
+      >
+        <div
+          className="travel-fund--image_rtf credit-card--image left mr2"
+        />
+      </CreditCardImage>
+      <div
+        className="fund-results-list-item--info-container"
+      >
+        <div
+          className="fund-results-list-item--main-info"
+        >
+          <div
+            className="fund-results-list--text"
+          >
+            <div>
+              <p
+                className="fund-result-title pdkblue larger"
+              >
+                Bobby Hill
+              </p>
+              <p
+                className="last-four-digits-text gray5"
+              >
+                Last 4 digits: 
+                <span
+                  className="bold"
+                >
+                  1234
+                </span>
+              </p>
+            </div>
+            <div
+              className="additional-info-container"
+            >
+              <div>
+                OC2EHW
+              </div>
+              <div>
+                Expiration:
+                 
+                09/15/2019
+              </div>
+              <div>
+                Remaining:
+                 
+                <Currency
+                  amount="1.23"
+                  currencyCode="USD"
+                  currencySymbol="$"
+                >
+                  <div
+                    className="currency"
+                  >
+                    <span
+                      className="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      1.23
+                    </span>
+                  </div>
+                </Currency>
+              </div>
+            </div>
+          </div>
+          <div
+            className="fund-results-list--amount-container"
+          >
+            <Currency
+              amount="1,234.56"
+              className="fund-results-list--available-amount"
+              currencyCode="USD"
+              currencySymbol="$"
+            >
+              <div
+                className="currency fund-results-list--available-amount"
+              >
+                <span
+                  className="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  1,234.56
+                </span>
+              </div>
+            </Currency>
+          </div>
+          <Icon
+            className="fund-results-list--removal-button"
+            onClick={[Function]}
+            type="remove"
+          >
+            <i
+              className="fund-results-list--removal-button icon icon_remove"
+              onClick={[Function]}
+            />
+          </Icon>
+        </div>
+        <p
+          className="fund-results-list--error-message"
+        >
+          Fake error message
+        </p>
+        <div
+          className="fund-results-list--billing-info"
+        >
+          <div
+            className="align-left"
+          >
+            <p
+              className="billing-col-title"
+            >
+              CARDHOLDER
+            </p>
+            <p
+              className="card-holder"
+            >
+              Hank Hill
+            </p>
+          </div>
+          <div
+            className="align-right"
+          >
+            <p
+              className="billing-col-title"
+            >
+              BILLING ADDRESS
+            </p>
+            <p
+              className="street-one"
+            >
+              Street Address Line 1
+            </p>
+            <p
+              className="street-two"
+            >
+              Street Address Line 2
+            </p>
+            <p
+              className="location-info"
+            >
+              Addison, TX 12345
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="fund-results-list--grey-box-message"
+    >
+      <div
+        className="header"
+      >
+        Not eligible for transfer
+      </div>
+      <div
+        className="body"
+      >
+        The account you're logged in with does not match the account of the travel fund
+      </div>
+    </div>
+  </div>
+</FundResultItem>
+`;
+
+exports[`FundResultItem transferability should display transfer button if available and call function when clicked 1`] = `
+<div
+  className="fund-results-list--item"
+>
+  <div
+    className="fund-results-list--outer-container"
+  >
+    <CreditCardImage
+      cardType="TRAVEL_FUNDS"
+      showIcon={false}
+    />
+    <div
+      className="fund-results-list-item--info-container"
+    >
+      <div
+        className="fund-results-list-item--main-info"
+      >
+        <div
+          className="fund-results-list--text"
+        >
+          <div>
+            <p
+              className="fund-result-title pdkblue larger"
+            >
+              Bobby Hill
+            </p>
+            <p
+              className="last-four-digits-text gray5"
+            >
+              Last 4 digits: 
+              <span
+                className="bold"
+              >
+                1234
+              </span>
+            </p>
+          </div>
+          <div
+            className="additional-info-container"
+          >
+            <div>
+              OC2EHW
+            </div>
+            <div>
+              Expiration:
+               
+              09/15/2019
+            </div>
+            <div>
+              Remaining:
+               
+              <Currency
+                amount="1.23"
+              />
+            </div>
+            <div>
+              100.00 is eligible for transfer
+            </div>
+          </div>
+        </div>
+        <div
+          className="fund-results-list--amount-container"
+        >
+          <Currency
+            amount="1,234.56"
+            className="fund-results-list--available-amount"
+          />
+        </div>
+        <Icon
+          className="fund-results-list--removal-button"
+          onClick={[Function]}
+          type="remove"
+        />
+      </div>
+      <p
+        className="fund-results-list--error-message"
+      >
+        Fake error message
+      </p>
+      <div
+        className="fund-results-list--billing-info"
+      >
+        <div
+          className="align-left"
+        >
+          <p
+            className="billing-col-title"
+          >
+            CARDHOLDER
+          </p>
+          <p
+            className="card-holder"
+          >
+            Hank Hill
+          </p>
+        </div>
+        <div
+          className="align-right"
+        >
+          <p
+            className="billing-col-title"
+          >
+            BILLING ADDRESS
+          </p>
+          <p
+            className="street-one"
+          >
+            Street Address Line 1
+          </p>
+          <p
+            className="street-two"
+          >
+            Street Address Line 2
+          </p>
+          <p
+            className="location-info"
+          >
+            Addison, TX 12345
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <Button
+    className="fund-results-list--transfer-button"
+    color="blue"
+    fluid={true}
+    onClick={[Function]}
+    size="larger"
+  >
+    Validate Transfer Link
+  </Button>
+</div>
+`;
+
+exports[`FundResultItem transferability should display transferable text if available 1`] = `
+<div
+  className="fund-results-list--item"
+>
+  <div
+    className="fund-results-list--outer-container"
+  >
+    <CreditCardImage
+      cardType="TRAVEL_FUNDS"
+      showIcon={false}
+    />
+    <div
+      className="fund-results-list-item--info-container"
+    >
+      <div
+        className="fund-results-list-item--main-info"
+      >
+        <div
+          className="fund-results-list--text"
+        >
+          <div>
+            <p
+              className="fund-result-title pdkblue larger"
+            >
+              Bobby Hill
+            </p>
+            <p
+              className="last-four-digits-text gray5"
+            >
+              Last 4 digits: 
+              <span
+                className="bold"
+              >
+                1234
+              </span>
+            </p>
+          </div>
+          <div
+            className="additional-info-container"
+          >
+            <div>
+              OC2EHW
+            </div>
+            <div>
+              Expiration:
+               
+              09/15/2019
+            </div>
+            <div>
+              Remaining:
+               
+              <Currency
+                amount="1.23"
+              />
+            </div>
+            <div>
+              100.00 is eligible for transfer
+            </div>
+          </div>
+        </div>
+        <div
+          className="fund-results-list--amount-container"
+        >
+          <Currency
+            amount="1,234.56"
+            className="fund-results-list--available-amount"
+          />
+        </div>
+        <Icon
+          className="fund-results-list--removal-button"
+          onClick={[Function]}
+          type="remove"
+        />
+      </div>
+      <p
+        className="fund-results-list--error-message"
+      >
+        Fake error message
+      </p>
+      <div
+        className="fund-results-list--billing-info"
+      >
+        <div
+          className="align-left"
+        >
+          <p
+            className="billing-col-title"
+          >
+            CARDHOLDER
+          </p>
+          <p
+            className="card-holder"
+          >
+            Hank Hill
+          </p>
+        </div>
+        <div
+          className="align-right"
+        >
+          <p
+            className="billing-col-title"
+          >
+            BILLING ADDRESS
+          </p>
+          <p
+            className="street-one"
+          >
+            Street Address Line 1
+          </p>
+          <p
+            className="street-two"
+          >
+            Street Address Line 2
+          </p>
+          <p
+            className="location-info"
+          >
+            Addison, TX 12345
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FundResultItem transferability should not display a grey box message if the greyBoxMessage object property is null 1`] = `
+<div
+  className="fund-results-list--item"
+>
+  <div
+    className="fund-results-list--outer-container"
+  >
+    <CreditCardImage
+      cardType="TRAVEL_FUNDS"
+      showIcon={false}
+    />
+    <div
+      className="fund-results-list-item--info-container"
+    >
+      <div
+        className="fund-results-list-item--main-info"
+      >
+        <div
+          className="fund-results-list--text"
+        >
+          <div>
+            <p
+              className="fund-result-title pdkblue larger"
+            >
+              Bobby Hill
+            </p>
+            <p
+              className="last-four-digits-text gray5"
+            >
+              Last 4 digits: 
+              <span
+                className="bold"
+              >
+                1234
+              </span>
+            </p>
+          </div>
+          <div
+            className="additional-info-container"
+          >
+            <div>
+              OC2EHW
+            </div>
+            <div>
+              Expiration:
+               
+              09/15/2019
+            </div>
+            <div>
+              Remaining:
+               
+              <Currency
+                amount="1.23"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="fund-results-list--amount-container"
+        >
+          <Currency
+            amount="1,234.56"
+            className="fund-results-list--available-amount"
+          />
+        </div>
+        <Icon
+          className="fund-results-list--removal-button"
+          onClick={[Function]}
+          type="remove"
+        />
+      </div>
+      <p
+        className="fund-results-list--error-message"
+      >
+        Fake error message
+      </p>
+      <div
+        className="fund-results-list--billing-info"
+      >
+        <div
+          className="align-left"
+        >
+          <p
+            className="billing-col-title"
+          >
+            CARDHOLDER
+          </p>
+          <p
+            className="card-holder"
+          >
+            Hank Hill
+          </p>
+        </div>
+        <div
+          className="align-right"
+        >
+          <p
+            className="billing-col-title"
+          >
+            BILLING ADDRESS
+          </p>
+          <p
+            className="street-one"
+          >
+            Street Address Line 1
+          </p>
+          <p
+            className="street-two"
+          >
+            Street Address Line 2
+          </p>
+          <p
+            className="location-info"
+          >
+            Addison, TX 12345
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FundResultItem transferability should not display remaining pts balance if there are no points remaining 1`] = `
+<FundResultItem
+  appliedAmount={
+    Object {
+      "amount": "1,234.56",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  appliedPointsAmount={
+    Object {
+      "amount": "1,234.56",
+      "currencyCode": "PTS",
+      "currencySymbol": "PTS",
+    }
+  }
+  billingInfo={
+    Object {
+      "amountApplied": Object {
+        "amount": "123.45",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "billingAddress": Object {
+        "location": "Addison, TX 12345",
+        "streetOne": "Street Address Line 1",
+        "streetTwo": "Street Address Line 2",
+      },
+      "cardHolderName": "Hank Hill",
+      "cardType": "VISA",
+      "lastFourDigits": "1234",
+    }
+  }
+  displayName="Bobby Hill"
+  errorMessage="Fake error message"
+  expirationDate="2019-09-15"
+  fundIdentifier="OC2EHW"
+  fundType="TRAVEL_FUNDS"
+  onClickAssociateFundLinkFn={[Function]}
+  onClickValidateTransferLinkFn={[Function]}
+  remainingAmount={
+    Object {
+      "amount": "1.23",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+  removalId="1"
+  removeFundFn={[Function]}
+>
+  <div
+    className="fund-results-list--item"
+  >
+    <div
+      className="fund-results-list--outer-container"
+    >
+      <CreditCardImage
+        cardType="TRAVEL_FUNDS"
+        showIcon={false}
+      >
+        <div
+          className="travel-fund--image_rtf credit-card--image left mr2"
+        />
+      </CreditCardImage>
+      <div
+        className="fund-results-list-item--info-container"
+      >
+        <div
+          className="fund-results-list-item--main-info"
+        >
+          <div
+            className="fund-results-list--text"
+          >
+            <div>
+              <p
+                className="fund-result-title pdkblue larger"
+              >
+                Bobby Hill
+              </p>
+              <p
+                className="last-four-digits-text gray5"
+              >
+                Last 4 digits: 
+                <span
+                  className="bold"
+                >
+                  1234
+                </span>
+              </p>
+            </div>
+            <div
+              className="additional-info-container"
+            >
+              <div>
+                OC2EHW
+              </div>
+              <div>
+                Expiration:
+                 
+                09/15/2019
+              </div>
+              <div>
+                Remaining:
+                 
+                <Currency
+                  amount="1.23"
+                  currencyCode="USD"
+                  currencySymbol="$"
+                >
+                  <div
+                    className="currency"
+                  >
+                    <span
+                      className="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      1.23
+                    </span>
+                  </div>
+                </Currency>
+              </div>
+            </div>
+          </div>
+          <div
+            className="fund-results-list--amount-container"
+          >
+            <Currency
+              amount="1,234.56"
+              className="fund-results-list--available-amount"
+              currencyCode="USD"
+              currencySymbol="$"
+            >
+              <div
+                className="currency fund-results-list--available-amount"
+              >
+                <span
+                  className="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  1,234.56
+                </span>
+              </div>
+            </Currency>
+          </div>
+          <Icon
+            className="fund-results-list--removal-button"
+            onClick={[Function]}
+            type="remove"
+          >
+            <i
+              className="fund-results-list--removal-button icon icon_remove"
+              onClick={[Function]}
+            />
+          </Icon>
+        </div>
+        <p
+          className="fund-results-list--error-message"
+        >
+          Fake error message
+        </p>
+        <div
+          className="fund-results-list--billing-info"
+        >
+          <div
+            className="align-left"
+          >
+            <p
+              className="billing-col-title"
+            >
+              CARDHOLDER
+            </p>
+            <p
+              className="card-holder"
+            >
+              Hank Hill
+            </p>
+          </div>
+          <div
+            className="align-right"
+          >
+            <p
+              className="billing-col-title"
+            >
+              BILLING ADDRESS
+            </p>
+            <p
+              className="street-one"
+            >
+              Street Address Line 1
+            </p>
+            <p
+              className="street-two"
+            >
+              Street Address Line 2
+            </p>
+            <p
+              className="location-info"
+            >
+              Addison, TX 12345
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</FundResultItem>
+`;
+
+exports[`FundResultItem transferability should not display transferable text, button, or link if not available 1`] = `
+<div
+  className="fund-results-list--item"
+>
+  <div
+    className="fund-results-list--outer-container"
+  >
+    <CreditCardImage
+      cardType="TRAVEL_FUNDS"
+      showIcon={false}
+    />
+    <div
+      className="fund-results-list-item--info-container"
+    >
+      <div
+        className="fund-results-list-item--main-info"
+      >
+        <div
+          className="fund-results-list--text"
+        >
+          <div>
+            <p
+              className="fund-result-title pdkblue larger"
+            >
+              Bobby Hill
+            </p>
+            <p
+              className="last-four-digits-text gray5"
+            >
+              Last 4 digits: 
+              <span
+                className="bold"
+              >
+                1234
+              </span>
+            </p>
+          </div>
+          <div
+            className="additional-info-container"
+          >
+            <div>
+              OC2EHW
+            </div>
+            <div>
+              Expiration:
+               
+              09/15/2019
+            </div>
+            <div>
+              Remaining:
+               
+              <Currency
+                amount="1.23"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="fund-results-list--amount-container"
+        >
+          <Currency
+            amount="1,234.56"
+            className="fund-results-list--available-amount"
+          />
+        </div>
+        <Icon
+          className="fund-results-list--removal-button"
+          onClick={[Function]}
+          type="remove"
+        />
+      </div>
+      <p
+        className="fund-results-list--error-message"
+      >
+        Fake error message
+      </p>
+      <div
+        className="fund-results-list--billing-info"
+      >
+        <div
+          className="align-left"
+        >
+          <p
+            className="billing-col-title"
+          >
+            CARDHOLDER
+          </p>
+          <p
+            className="card-holder"
+          >
+            Hank Hill
+          </p>
+        </div>
+        <div
+          className="align-right"
+        >
+          <p
+            className="billing-col-title"
+          >
+            BILLING ADDRESS
+          </p>
+          <p
+            className="street-one"
+          >
+            Street Address Line 1
+          </p>
+          <p
+            className="street-two"
+          >
+            Street Address Line 2
+          </p>
+          <p
+            className="location-info"
+          >
+            Addison, TX 12345
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

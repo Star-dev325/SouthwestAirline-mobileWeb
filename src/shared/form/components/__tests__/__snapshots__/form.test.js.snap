@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form disabled form should have disabled fieldset when pass prop disabled is true 1`] = `
+<div>
+  <form
+    class="form"
+    name="form"
+    novalidate=""
+  >
+    <fieldset
+      disabled=""
+    />
+  </form>
+</div>
+`;
+
+exports[`Form disabled form should not have disabled fieldset when not pass disabled prop 1`] = `
+<div>
+  <form
+    class="form"
+    name="form"
+    novalidate=""
+  >
+    <fieldset />
+  </form>
+</div>
+`;

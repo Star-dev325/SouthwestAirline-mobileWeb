@@ -1,0 +1,7 @@
+.shopping-dropdown {
+  @include left-divider;
+
+  .button-dropdown--label {
+    @include p5;
+  }
+}

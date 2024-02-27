@@ -1,0 +1,43 @@
+.airport-info {
+  .alert {
+    @include p5;
+  }
+
+  .item-collection {
+    @include px5;
+    @include pb5;
+
+    .item {
+      @include relative;
+      @include py5;
+      @include bdb;
+
+      ul {
+        @include mb0;
+        @include mt4;
+      }
+
+      .icon-width {
+        width: 2rem;
+      }
+
+      .icon-height {
+        height: 2.5rem;
+      }
+    }
+  }
+
+  a {
+    @include pblue;
+
+    &::after {
+      @include inline-block;
+      margin-left: 0.35rem;
+      padding: 0 1.4rem 0.91rem 0.35rem;
+      content: '';
+      background-size: 1.4rem;
+      background-image: url('/content/mkt/images/airport_info/icons/arrow_link.png');
+      background-repeat: no-repeat;
+    }
+  }
+}

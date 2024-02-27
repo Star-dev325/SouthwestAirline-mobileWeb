@@ -1,0 +1,15 @@
+.lazy-loaded-car {
+  .manage-car-reservation,
+  .car-reservation-card--title,
+  .car-reservation-card--body {
+    @include mx0;
+  }
+
+  .manage-car-reservation-with-details {
+    @include pb4;
+
+    &:last-child {
+      @include pb0;
+    }
+  }
+}

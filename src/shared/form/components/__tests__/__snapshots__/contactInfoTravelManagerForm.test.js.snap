@@ -1,0 +1,380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`contact info travel manager form domestic contact info method should render correct components 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <form
+        class="contact-method form"
+        name="CONTACT_INFO_TRAVEL_MANAGER_METHOD_FORM"
+        novalidate=""
+      >
+        <fieldset>
+          <div>
+            <div
+              class="page-header action-bar"
+              id=""
+            >
+              <ul
+                class="action-bar-buttons action-bar--left-buttons"
+              >
+                <li
+                  class="action-bar-buttons--item"
+                >
+                  <button
+                    class="button"
+                    type="button"
+                  >
+                    SHARED__BUTTON_TEXT__CANCEL
+                  </button>
+                </li>
+              </ul>
+              <div
+                class="action-bar--container"
+              >
+                <div
+                  class="action-bar--title-align-center action-bar--title"
+                >
+                  <span
+                    class="action-bar--main-title"
+                  >
+                    SHARED__CONTACT_INFO_TRAVEL_MANAGER__PAGE_HEADER_TITLE
+                  </span>
+                  <span
+                    class="action-bar--sub-title"
+                  />
+                </div>
+              </div>
+              <ul
+                class="action-bar-buttons action-bar--right-buttons"
+              >
+                <li
+                  class="action-bar-buttons--item"
+                >
+                  <button
+                    class="button"
+                    type="submit"
+                  >
+                    SHARED__BUTTON_TEXT__DONE
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div />
+          </div>
+          <div
+            class="contact-method--content"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="notification-field"
+              >
+                <div
+                  class="field"
+                >
+                  <div
+                    class="contact-method-item flex-cross-center flex-row-reverse relative flex checkbox-button flex-cross-center"
+                    name="declineNotifications"
+                  >
+                    <div>
+                      <span
+                        class="checkbox-button--mark"
+                      >
+                        <i
+                          class="absolute xlarge bgtransp icon icon_check"
+                        />
+                      </span>
+                    </div>
+                    <div>
+                      <div
+                        class="checkbox-button--children flex-equal-width"
+                      >
+                        <p
+                          class="gray5"
+                        >
+                          SHARED_PLACEHOLDER_CONTACT_INFO_TRAVEL_MANAGER_TOGGLE
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="contact-method-communication"
+            >
+              <label
+                class="fields--label"
+              >
+                SHARED__CONTACT_METHOD_FIELD_LABELS__CHOOSE_METHOD
+              </label>
+              <div
+                class="field"
+              >
+                <ul
+                  class="contact-method-options"
+                >
+                  <li
+                    class="contact-method-item"
+                  >
+                    <span>
+                      Phone
+                    </span>
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark"
+                      />
+                    </span>
+                  </li>
+                  <li
+                    class="contact-method-item"
+                  >
+                    <span>
+                      Email
+                    </span>
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark"
+                      />
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+      <div>
+        <div>
+          CountryCodeSelect
+        </div>
+      </div>
+      <div
+        class="contact-method--disclaimer-text dom-message"
+      >
+        <p>
+          TEXT
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <form
+      class="contact-method form"
+      name="CONTACT_INFO_TRAVEL_MANAGER_METHOD_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div>
+          <div
+            class="page-header action-bar"
+            id=""
+          >
+            <ul
+              class="action-bar-buttons action-bar--left-buttons"
+            >
+              <li
+                class="action-bar-buttons--item"
+              >
+                <button
+                  class="button"
+                  type="button"
+                >
+                  SHARED__BUTTON_TEXT__CANCEL
+                </button>
+              </li>
+            </ul>
+            <div
+              class="action-bar--container"
+            >
+              <div
+                class="action-bar--title-align-center action-bar--title"
+              >
+                <span
+                  class="action-bar--main-title"
+                >
+                  SHARED__CONTACT_INFO_TRAVEL_MANAGER__PAGE_HEADER_TITLE
+                </span>
+                <span
+                  class="action-bar--sub-title"
+                />
+              </div>
+            </div>
+            <ul
+              class="action-bar-buttons action-bar--right-buttons"
+            >
+              <li
+                class="action-bar-buttons--item"
+              >
+                <button
+                  class="button"
+                  type="submit"
+                >
+                  SHARED__BUTTON_TEXT__DONE
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div />
+        </div>
+        <div
+          class="contact-method--content"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="notification-field"
+            >
+              <div
+                class="field"
+              >
+                <div
+                  class="contact-method-item flex-cross-center flex-row-reverse relative flex checkbox-button flex-cross-center"
+                  name="declineNotifications"
+                >
+                  <div>
+                    <span
+                      class="checkbox-button--mark"
+                    >
+                      <i
+                        class="absolute xlarge bgtransp icon icon_check"
+                      />
+                    </span>
+                  </div>
+                  <div>
+                    <div
+                      class="checkbox-button--children flex-equal-width"
+                    >
+                      <p
+                        class="gray5"
+                      >
+                        SHARED_PLACEHOLDER_CONTACT_INFO_TRAVEL_MANAGER_TOGGLE
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="contact-method-communication"
+          >
+            <label
+              class="fields--label"
+            >
+              SHARED__CONTACT_METHOD_FIELD_LABELS__CHOOSE_METHOD
+            </label>
+            <div
+              class="field"
+            >
+              <ul
+                class="contact-method-options"
+              >
+                <li
+                  class="contact-method-item"
+                >
+                  <span>
+                    Phone
+                  </span>
+                  <span
+                    class="radio-button--mark"
+                  >
+                    <span
+                      class="radio-input--mark"
+                    />
+                  </span>
+                </li>
+                <li
+                  class="contact-method-item"
+                >
+                  <span>
+                    Email
+                  </span>
+                  <span
+                    class="radio-button--mark"
+                  >
+                    <span
+                      class="radio-input--mark"
+                    />
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <div>
+      <div>
+        CountryCodeSelect
+      </div>
+    </div>
+    <div
+      class="contact-method--disclaimer-text dom-message"
+    >
+      <p>
+        TEXT
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

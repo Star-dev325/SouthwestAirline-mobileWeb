@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PassengerAmountField should render PassengerAmountField when MWEB_HOMEPAGE_REDESIGN is false 1`] = `
+<PassengerAmountField
+  MWEB_HOMEPAGE_REDESIGN={false}
+  adultsPlusChildrenCount={1}
+  clearError={[Function]}
+  name="passenger-amount-field"
+  onChange={[Function]}
+  onSelectPassengerClicked={[Function]}
+  passengerCountValue={
+    Object {
+      "adultCount": 1,
+      "lapChildCount": 0,
+      "valueUpdated": false,
+    }
+  }
+  paxType="Passenger"
+  value={1}
+>
+  <div
+    className="passenger-amount-field"
+    onClick={[Function]}
+  >
+    <div
+      className="flex flex-column flex5"
+    >
+      <div
+        className="passenger-amount-field--passenger-with-lap-child"
+      >
+        Passengers
+      </div>
+      <span
+        className="passenger-amount-field--description"
+      >
+        Includes Lap Children
+      </span>
+    </div>
+    <Icon
+      className="passenger-amount-field--icon"
+      type="passenger"
+    >
+      <i
+        className="passenger-amount-field--icon icon icon_passenger"
+      />
+    </Icon>
+    <div
+      className="passenger-amount-field--action flex5"
+    >
+      <div
+        className="passenger-amount-field--column"
+      >
+        <span
+          className="selected-passengers-count"
+        >
+          1
+        </span>
+        <span
+          className="select-passenger-desc"
+        >
+          Select Passengers
+        </span>
+      </div>
+    </div>
+  </div>
+</PassengerAmountField>
+`;
+
+exports[`PassengerAmountField should render PassengerAmountField when MWEB_HOMEPAGE_REDESIGN is true 1`] = `
+<PassengerAmountField
+  MWEB_HOMEPAGE_REDESIGN={true}
+  adultsPlusChildrenCount={1}
+  clearError={[Function]}
+  name="passenger-amount-field"
+  onChange={[Function]}
+  onSelectPassengerClicked={[Function]}
+  passengerCountValue={
+    Object {
+      "adultCount": 1,
+      "lapChildCount": 0,
+      "valueUpdated": false,
+    }
+  }
+  paxType="Passenger"
+  value={1}
+>
+  <div
+    className="passenger-amount-field"
+    onClick={[Function]}
+  >
+    <div
+      className="flex flex-column flex5"
+    >
+      <div
+        className="passenger-amount-field--passenger-with-lap-child"
+      >
+        Passengers
+      </div>
+      <span
+        className="passenger-amount-field--description"
+      >
+        Includes Lap Children
+      </span>
+    </div>
+    <div
+      className="passenger-amount-field--action flex5"
+    >
+      <div
+        className="passenger-amount-field--column"
+      >
+        <span
+          className="selected-passengers-count"
+        >
+          1
+        </span>
+        <span
+          className="select-passenger-desc"
+        >
+          Select Passengers
+        </span>
+      </div>
+    </div>
+  </div>
+</PassengerAmountField>
+`;
+
+exports[`PassengerAmountField when lapChild toggle is turned on should render Passenger when single passenger is selected 1`] = `
+<PassengerAmountField
+  MWEB_HOMEPAGE_REDESIGN={false}
+  adultsPlusChildrenCount={1}
+  clearError={[Function]}
+  name="passenger-amount-field"
+  onChange={[Function]}
+  onSelectPassengerClicked={[Function]}
+  passengerCountValue={
+    Object {
+      "adultCount": 1,
+      "lapChildCount": 0,
+      "valueUpdated": true,
+    }
+  }
+  paxType="Passenger"
+  value={0}
+>
+  <div
+    className="passenger-amount-field"
+    onClick={[Function]}
+  >
+    <div
+      className="flex flex-column flex5"
+    >
+      <div
+        className="passenger-amount-field--passenger-with-lap-child"
+      >
+        Passengers
+      </div>
+      <span
+        className="passenger-amount-field--description"
+      >
+        Includes Lap Children
+      </span>
+    </div>
+    <Icon
+      className="passenger-amount-field--icon"
+      type="passenger"
+    >
+      <i
+        className="passenger-amount-field--icon icon icon_passenger"
+      />
+    </Icon>
+    <div
+      className="passenger-amount-field--action flex5"
+    >
+      <div
+        className="passenger-amount-field--column"
+      >
+        <span
+          className="selected-passengers-count--bold"
+        >
+          1
+        </span>
+        <span
+          className="select-passenger-desc"
+        >
+          Passenger
+        </span>
+      </div>
+    </div>
+  </div>
+</PassengerAmountField>
+`;
+
+exports[`PassengerAmountField when lapChild toggle is turned on should render Passengers when multiple passengers are selected 1`] = `
+<PassengerAmountField
+  MWEB_HOMEPAGE_REDESIGN={false}
+  adultsPlusChildrenCount={2}
+  clearError={[Function]}
+  name="passenger-amount-field"
+  onChange={[Function]}
+  onSelectPassengerClicked={[Function]}
+  passengerCountValue={
+    Object {
+      "adultCount": 1,
+      "lapChildCount": 0,
+      "valueUpdated": true,
+    }
+  }
+  paxType="Passenger"
+  value={0}
+>
+  <div
+    className="passenger-amount-field"
+    onClick={[Function]}
+  >
+    <div
+      className="flex flex-column flex5"
+    >
+      <div
+        className="passenger-amount-field--passenger-with-lap-child"
+      >
+        Passengers
+      </div>
+      <span
+        className="passenger-amount-field--description"
+      >
+        Includes Lap Children
+      </span>
+    </div>
+    <Icon
+      className="passenger-amount-field--icon"
+      type="passenger"
+    >
+      <i
+        className="passenger-amount-field--icon icon icon_passenger"
+      />
+    </Icon>
+    <div
+      className="passenger-amount-field--action flex5"
+    >
+      <div
+        className="passenger-amount-field--column"
+      >
+        <span
+          className="selected-passengers-count--bold"
+        >
+          2
+        </span>
+        <span
+          className="select-passenger-desc"
+        >
+          Passengers
+        </span>
+      </div>
+    </div>
+  </div>
+</PassengerAmountField>
+`;

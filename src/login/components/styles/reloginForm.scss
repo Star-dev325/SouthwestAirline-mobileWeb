@@ -1,0 +1,7 @@
+.relogin-form {
+  &--prompt-point-message {
+    @include center;
+    @include large;
+    @include gray4;
+  }
+}

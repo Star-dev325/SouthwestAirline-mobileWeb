@@ -1,0 +1,413 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DynamicPlacement flex placement display type with shouldCheckBootstrap when value is true should render loading shimmer with ImagePlacement display type 1`] = `
+<div
+  className="dynamic-placement"
+>
+  <LoadingShimmer
+    shouldDisplay={true}
+    styles={Object {}}
+  >
+    <ImagePlacement
+      contentBlockId=""
+      displayType="block-placement"
+      handlePlacementLinkFn={[Function]}
+      imageForegroundAltText=""
+      isChaseCombo={true}
+      isChasePlacement={true}
+      isChasePrequal={true}
+      isWebView={true}
+      linkType="app"
+      onClick={[Function]}
+      placementData={
+        Object {
+          "contentLoadingState": "skeleton",
+        }
+      }
+      placementKey="mockPlacementKey"
+      promoImageBackground="backgroundImage"
+      referrer="referrer"
+      shouldCheckBootstrapData={true}
+      shouldObserveViewPort={false}
+      target="target"
+      viewPortThreshold={0.1}
+    />
+  </LoadingShimmer>
+</div>
+`;
+
+exports[`DynamicPlacement flex placement display type with shouldCheckBootstrap when value is true should render loading shimmer with LegacyChaseAd display type 1`] = `
+<div
+  className="dynamic-placement"
+>
+  <LoadingShimmer
+    shouldDisplay={true}
+    styles={Object {}}
+  >
+    <ChaseInstantCredit
+      buttonText="Learn more"
+      contentBlockId=""
+      displayType="legacy-chase-ad"
+      handlePlacementLinkFn={[Function]}
+      isChaseCombo={false}
+      isChasePlacement={false}
+      isChasePrequal={false}
+      isLoggedIn={true}
+      linkType="webview"
+      mathLine1TextValueLeft="You pay today"
+      mathLine2TextValueLeft="Credit on your statement"
+      mathLine3TextValueLeft="Total after statement credit"
+      onClick={[Function]}
+      partnerImage="/partnerImage.png"
+      placementData={
+        Object {
+          "contentLoadingState": "skeleton",
+        }
+      }
+      placementKey="mockPlacementKey"
+      primaryTextValue="Get $200 statement credit"
+      returnUrl="returnUrl"
+      secondaryTextValue="after first purchase & earn 10,000 bonus points"
+      shouldCheckBootstrapData={true}
+      shouldObserveViewPort={false}
+      statementCredit={200}
+      styles={
+        Object {
+          "adType": "math",
+          "backgroundColor": "bgpblue",
+          "buttonType": "button--grey",
+          "mathLine1ColorLeft": "white",
+          "mathLine1ColorRight": "white",
+          "mathLine1StyleLeft": "",
+          "mathLine1StyleRight": "",
+          "mathLine2ColorLeft": "yellow",
+          "mathLine2ColorRight": "yellow",
+          "mathLine2StyleLeft": "",
+          "mathLine2StyleRight": "",
+          "mathLine3ColorLeft": "white",
+          "mathLine3ColorRight": "white",
+          "mathLine3StyleLeft": "bold",
+          "mathLine3StyleRight": "bold",
+          "primaryTextColor": "yellow",
+          "primaryTextStyle": "bold, italic",
+          "secondaryTextColor": "yellow",
+          "secondaryTextStyle": "italic",
+          "topMessageBackgroundColor": "bggreen",
+          "topMessageTextColor": "white",
+          "topMessageTextStyle": "bold",
+        }
+      }
+      target="https://xldadm01:4700/?app=mWeb"
+      topMessageTextValue="You're pre-qualified!"
+      totalFare={
+        Object {
+          "amount": "1,311.11",
+          "currencyCode": "USD",
+          "currencySymbol": "$",
+        }
+      }
+      viewPortThreshold={0.5}
+    />
+  </LoadingShimmer>
+</div>
+`;
+
+exports[`DynamicPlacement flex placement display type with shouldCheckBootstrap when value is true should render loading shimmer with MobileHero display type 1`] = `
+<div
+  className="dynamic-placement"
+>
+  <LoadingShimmer
+    shouldDisplay={true}
+    styles={Object {}}
+  >
+    <ImagePlacement
+      contentBlockId=""
+      displayType="mobile_hero"
+      handlePlacementLinkFn={[Function]}
+      imageForegroundAltText=""
+      isChaseCombo={true}
+      isChasePlacement={true}
+      isChasePrequal={true}
+      isWebView={true}
+      linkType="app"
+      onClick={[Function]}
+      placementData={
+        Object {
+          "contentLoadingState": "skeleton",
+        }
+      }
+      placementKey="mockPlacementKey"
+      promoImageBackground="backgroundImage"
+      referrer="referrer"
+      shouldCheckBootstrapData={true}
+      shouldObserveViewPort={false}
+      target="target"
+      viewPortThreshold={0.1}
+    />
+  </LoadingShimmer>
+</div>
+`;
+
+exports[`DynamicPlacement flex placement display type with shouldCheckBootstrap when value is true should render loading shimmer with shouldDisplay false and placement with fade-in when props placement is defined 1`] = `
+<div
+  className="dynamic-placement"
+>
+  <LoadingShimmer
+    shouldDisplay={false}
+    styles={Object {}}
+  >
+    <Memo(FlexPlacementComponent)
+      additionalProps={
+        Object {
+          "scaleFactor": 1,
+          "templateData": Object {
+            "companionRemainingPoints": "0",
+            "destinationAirport": "",
+            "earlyBirdTotalPrice": 25,
+            "earlyBirdUnitPrice": 12,
+            "redeemablePoints": "0",
+            "templateKey": "value",
+          },
+        }
+      }
+      className="visible--animated"
+      configuredCommands={
+        Object {
+          "CLOSE_BUTTON": [Function],
+          "CROSS_SELL_CAR_LINK": [Function],
+          "EARLY_BIRD_PRICING_BREAKDOWN": [Function],
+          "EARLY_BIRD_SWITCH": [Function],
+          "PLACEMENT_LINK": [Function],
+          "SEE_PACKAGES": [Function],
+        }
+      }
+      displayType="flex-placement"
+      handlePlacementLinkFn={[Function]}
+      notAbsolutelyPositioned={
+        Object {
+          "a": true,
+          "b": true,
+          "br": true,
+          "caption": true,
+          "col": true,
+          "colgroup": true,
+          "em": true,
+          "h1": true,
+          "h2": true,
+          "i": true,
+          "iframe": true,
+          "li": true,
+          "p": true,
+          "play-button": true,
+          "section": true,
+          "span": true,
+          "strong": true,
+          "sub": true,
+          "sup": true,
+          "tbody": true,
+          "td": true,
+          "tfoot": true,
+          "th": true,
+          "thead": true,
+          "tr": true,
+          "u": true,
+        }
+      }
+      placement={
+        Object {
+          "childContent": Array [],
+          "flexSettings": Object {
+            "shouldScalePlacement": true,
+          },
+          "props": Object {
+            "display": "block",
+          },
+          "styles": Object {
+            "backgroundColor": "#1a2c80",
+            "width": "100px",
+          },
+          "templateKeys": Array [
+            "templateKey",
+          ],
+          "type": "a",
+        }
+      }
+      placementData={
+        Object {
+          "linkType": "webview",
+        }
+      }
+      placementKey="mockPlacementKey"
+      shouldCheckBootstrapData={true}
+      supportedElements={
+        Object {
+          "a": "a",
+          "b": "b",
+          "br": "br",
+          "caption": "caption",
+          "col": "col",
+          "colgroup": "colgroup",
+          "div": "div",
+          "em": "em",
+          "h1": "h1",
+          "h2": "h2",
+          "i": "i",
+          "iframe": "iframe",
+          "img": "img",
+          "li": "li",
+          "p": "p",
+          "section": "section",
+          "span": "span",
+          "strong": "strong",
+          "sub": "sub",
+          "sup": "sup",
+          "table": "table",
+          "tbody": "tbody",
+          "td": "td",
+          "tfoot": "tfoot",
+          "th": "th",
+          "thead": "thead",
+          "tr": "tr",
+          "u": "u",
+          "ul": "ul",
+        }
+      }
+    />
+  </LoadingShimmer>
+</div>
+`;
+
+exports[`DynamicPlacement flex placement display type with shouldCheckBootstrap when value is true should render loading shimmer with shouldDisplay true and adjustedStyles when contentLoadingState is skeleton 1`] = `
+<div
+  className="dynamic-placement"
+>
+  <LoadingShimmer
+    shouldDisplay={true}
+    styles={
+      Object {
+        "backgroundColor": "#1a2c80",
+        "width": "100px",
+      }
+    }
+  >
+    <Memo(FlexPlacementComponent)
+      additionalProps={
+        Object {
+          "scaleFactor": 1,
+          "templateData": Object {
+            "companionRemainingPoints": "0",
+            "destinationAirport": "",
+            "earlyBirdTotalPrice": 25,
+            "earlyBirdUnitPrice": 12,
+            "redeemablePoints": "0",
+            "templateKey": "value",
+          },
+        }
+      }
+      className="invisible--animated"
+      configuredCommands={
+        Object {
+          "CLOSE_BUTTON": [Function],
+          "CROSS_SELL_CAR_LINK": [Function],
+          "EARLY_BIRD_PRICING_BREAKDOWN": [Function],
+          "EARLY_BIRD_SWITCH": [Function],
+          "PLACEMENT_LINK": [Function],
+          "SEE_PACKAGES": [Function],
+        }
+      }
+      displayType="flex-placement"
+      handlePlacementLinkFn={[Function]}
+      notAbsolutelyPositioned={
+        Object {
+          "a": true,
+          "b": true,
+          "br": true,
+          "caption": true,
+          "col": true,
+          "colgroup": true,
+          "em": true,
+          "h1": true,
+          "h2": true,
+          "i": true,
+          "iframe": true,
+          "li": true,
+          "p": true,
+          "play-button": true,
+          "section": true,
+          "span": true,
+          "strong": true,
+          "sub": true,
+          "sup": true,
+          "tbody": true,
+          "td": true,
+          "tfoot": true,
+          "th": true,
+          "thead": true,
+          "tr": true,
+          "u": true,
+        }
+      }
+      placement={
+        Object {
+          "childContent": Array [],
+          "flexSettings": Object {
+            "shouldScalePlacement": true,
+          },
+          "props": Object {
+            "display": "block",
+          },
+          "styles": Object {
+            "backgroundColor": "#1a2c80",
+            "width": "100px",
+          },
+          "templateKeys": Array [
+            "templateKey",
+          ],
+          "type": "a",
+        }
+      }
+      placementData={
+        Object {
+          "contentLoadingState": "skeleton",
+          "linkType": "webview",
+        }
+      }
+      placementKey="mockPlacementKey"
+      shouldCheckBootstrapData={true}
+      supportedElements={
+        Object {
+          "a": "a",
+          "b": "b",
+          "br": "br",
+          "caption": "caption",
+          "col": "col",
+          "colgroup": "colgroup",
+          "div": "div",
+          "em": "em",
+          "h1": "h1",
+          "h2": "h2",
+          "i": "i",
+          "iframe": "iframe",
+          "img": "img",
+          "li": "li",
+          "p": "p",
+          "section": "section",
+          "span": "span",
+          "strong": "strong",
+          "sub": "sub",
+          "sup": "sup",
+          "table": "table",
+          "tbody": "tbody",
+          "td": "td",
+          "tfoot": "tfoot",
+          "th": "th",
+          "thead": "thead",
+          "tr": "tr",
+          "u": "u",
+          "ul": "ul",
+        }
+      }
+    />
+  </LoadingShimmer>
+</div>
+`;

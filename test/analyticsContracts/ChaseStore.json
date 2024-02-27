@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "chase": {
+            "type": "object",
+            "properties": {
+                "chasebannershown": { "type": "boolean" },
+                "chaseflowcompleted": { "type": "boolean" }
+            },
+            "additionalProperties": true,
+            "required": [
+                "chasebannershown",
+                "chaseflowcompleted"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+      "chase"
+    ]
+  }
+  

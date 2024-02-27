@@ -1,0 +1,2523 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightProductSection render with showPriceDifference set to false dollars fare product should have the right fareType info 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container"
+      >
+        <div
+          className="fare-content bdb3 bdpblue"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div>
+            <div
+              className="original-price"
+            >
+               
+            </div>
+            <Currency
+              amount="428.98"
+              className="final-price"
+            />
+            <div
+              className="intl-points-taxes"
+            >
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="pt4 black bold center"
+        data-qa="earn-points"
+      >
+        Earn 2,316 pts
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to false dollars fare product should not show the tax value 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container"
+      >
+        <div
+          className="fare-content bdb3 bdpblue"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div>
+            <div
+              className="original-price"
+            >
+               
+            </div>
+            <Currency
+              amount="428.98"
+              className="final-price"
+            />
+            <div
+              className="intl-points-taxes"
+            >
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="pt4 black bold center"
+        data-qa="earn-points"
+      >
+        Earn 2,316 pts
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to false dollars fare product should show alternative default unavailable & Unselectable with fare purchase info 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container unavailable"
+      >
+        <div
+          className="fare-content unavailable"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          No longer available
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to false dollars fare product should show available & Unselectable fare purchase info 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container unavailable"
+      >
+        <div
+          className="fare-content unavailable"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          Available
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to false dollars fare product should show available & selectable fair info 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container"
+      >
+        <div
+          className="fare-content bdb3 bdpblue"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div>
+            <div
+              className="original-price"
+            >
+               
+            </div>
+            <Currency
+              amount="428.98"
+              className="final-price"
+            />
+            <div
+              className="intl-points-taxes"
+            >
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="pt4 black bold center"
+        data-qa="earn-points"
+      >
+        Earn 2,316 pts
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to false dollars fare product should show invalid departure fair info 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container unavailable"
+      >
+        <div
+          className="fare-content unavailable"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          Invalid w/ return date
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to false dollars fare product should show invalid return fair info 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container unavailable"
+      >
+        <div
+          className="fare-content unavailable"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          Invalid w/ depart date
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to false dollars fare product should show sold out fair info 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container unavailable"
+      >
+        <div
+          className="fare-content unavailable"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          Sold Out
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to false dollars fare product should show the number of fares left when seats is low and with lowest fare 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+    <div
+      className="red bold"
+    >
+      4 left
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container"
+      >
+        <div
+          className="fare-content bdb3 bdpblue"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div>
+            <div
+              className="original-price"
+            >
+               
+            </div>
+            <Currency
+              amount="428.98"
+              className="final-price"
+            />
+            <div
+              className="intl-points-taxes"
+            >
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="pt4 black bold center"
+        data-qa="earn-points"
+      >
+        Earn 2,316 pts
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to false dollars fare product should show unavailable & Unselectable with no fare purchase info 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container unavailable"
+      >
+        <div
+          className="fare-content unavailable"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          Unavailable
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to false dollars fare product should show unavailable fair info 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container unavailable"
+      >
+        <div
+          className="fare-content unavailable"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          UNAVAILABLE
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to false points fare product should have the right fareType info and points cost should display 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container"
+      >
+        <div
+          className="fare-content bdb3 bdpblue"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div>
+            <div
+              className="original-price"
+            >
+               
+            </div>
+            <Currency
+              amount="19,000"
+              className="final-price"
+              currencyCode="PTS"
+            />
+            <div
+              className="intl-points-taxes"
+            >
+              +
+              <Currency
+                amount="34.06"
+                className="intl-points-taxes--currency"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to false with promoCode should display the discountedFareValue and should strike-through the totalFareCents 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container"
+      >
+        <div
+          className="fare-content bdb3 bdpblue"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div>
+            <Currency
+              amount="19,000"
+              className="original-price"
+              currencyCode="PTS"
+              strikeThrough={true}
+            />
+            <Currency
+              amount="18,000"
+              className="final-price"
+              currencyCode="PTS"
+            />
+            <div
+              className="intl-points-taxes"
+            >
+              +
+              <Currency
+                amount="34.06"
+                className="intl-points-taxes--currency"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to false with promoCode should not display discounted price when promo code applied but the price of flight is not discounted 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container"
+      >
+        <div
+          className="fare-content bdb3 bdpblue"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div>
+            <div
+              className="original-price"
+            >
+               
+            </div>
+            <Currency
+              amount="19,000"
+              className="final-price"
+              currencyCode="PTS"
+            />
+            <div
+              className="intl-points-taxes"
+            >
+              +
+              <Currency
+                amount="34.06"
+                className="intl-points-taxes--currency"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to true dollars fare product should have the right fareType info 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container"
+      >
+        <div
+          className="fare-content bdb3 bdpblue"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div>
+            <div
+              className="original-price"
+            >
+               
+            </div>
+            <Currency
+              amount="5"
+              className="final-price"
+              sign="-"
+            />
+            <div
+              className="intl-points-taxes"
+            >
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="pt4 black bold center"
+        data-qa="earn-points"
+      >
+        Earn 2,316 pts
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to true dollars fare product should not show the number of fares left when seats is enough 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container"
+      >
+        <div
+          className="fare-content bdb3 bdpblue"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div>
+            <div
+              className="original-price"
+            >
+               
+            </div>
+            <Currency
+              amount="5"
+              className="final-price"
+              sign="-"
+            />
+            <div
+              className="intl-points-taxes"
+            >
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="pt4 black bold center"
+        data-qa="earn-points"
+      >
+        Earn 2,316 pts
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to true dollars fare product should not show the tax value 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container"
+      >
+        <div
+          className="fare-content bdb3 bdpblue"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div>
+            <div
+              className="original-price"
+            >
+               
+            </div>
+            <Currency
+              amount="5"
+              className="final-price"
+              sign="-"
+            />
+            <div
+              className="intl-points-taxes"
+            >
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="pt4 black bold center"
+        data-qa="earn-points"
+      >
+        Earn 2,316 pts
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to true dollars fare product should show available & Unselectable fare purchase info 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container unavailable"
+      >
+        <div
+          className="fare-content unavailable"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          Available
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to true dollars fare product should show available & selectable fair info 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container"
+      >
+        <div
+          className="fare-content bdb3 bdpblue"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div>
+            <div
+              className="original-price"
+            >
+               
+            </div>
+            <Currency
+              amount="5"
+              className="final-price"
+              sign="-"
+            />
+            <div
+              className="intl-points-taxes"
+            >
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="pt4 black bold center"
+        data-qa="earn-points"
+      >
+        Earn 2,316 pts
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to true dollars fare product should show invalid departure fair info 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container unavailable"
+      >
+        <div
+          className="fare-content unavailable"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          Invalid w/ return date
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to true dollars fare product should show invalid return fair info 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container unavailable"
+      >
+        <div
+          className="fare-content unavailable"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          Invalid w/ depart date
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to true dollars fare product should show sold out fair info 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container unavailable"
+      >
+        <div
+          className="fare-content unavailable"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          Sold Out
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to true dollars fare product should show the number of fares left when seats is low and with lowest fare 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+    <div
+      className="red bold"
+    >
+      4 left
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container"
+      >
+        <div
+          className="fare-content bdb3 bdpblue"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div>
+            <div
+              className="original-price"
+            >
+               
+            </div>
+            <Currency
+              amount="5"
+              className="final-price"
+              sign="-"
+            />
+            <div
+              className="intl-points-taxes"
+            >
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="pt4 black bold center"
+        data-qa="earn-points"
+      >
+        Earn 2,316 pts
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to true dollars fare product should show unavailable fair info 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container unavailable"
+      >
+        <div
+          className="fare-content unavailable"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          UNAVAILABLE
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to true points fare product should have the right fareType info and points diff should display 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container"
+      >
+        <div
+          className="fare-content bdb3 bdpblue"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div>
+            <div
+              className="original-price"
+            >
+               
+            </div>
+            <Currency
+              amount="1,234"
+              className="final-price"
+              currencyCode="PTS"
+              sign="+"
+            />
+            <div
+              className="intl-points-taxes"
+            >
+              <Currency
+                amount="5"
+                className="intl-points-taxes--currency"
+                sign="+"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to true points fare product should show the points tax value 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container"
+      >
+        <div
+          className="fare-content bdb3 bdpblue"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div>
+            <div
+              className="original-price"
+            >
+               
+            </div>
+            <Currency
+              amount="1,234"
+              className="final-price"
+              currencyCode="PTS"
+              sign="+"
+            />
+            <div
+              className="intl-points-taxes"
+            >
+              <Currency
+                amount="5"
+                className="intl-points-taxes--currency"
+                sign="+"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection render with showPriceDifference set to true with promoCode should display the discountedFareValue 1`] = `
+<div
+  className="flight-product-section"
+  data-qa="BUS"
+  onClick={[Function]}
+>
+  <div
+    className="flight-product-section--header bdpblue"
+    style={
+      Object {
+        "borderColor": undefined,
+      }
+    }
+  >
+    <div
+      className="xlarge bold"
+    >
+      <_default
+        defaultText="Business Select"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-product-section--container"
+  >
+    <div
+      className="main-col"
+    >
+      <FeaturesList
+        features={
+          Array [
+            Object {
+              "icon": "circle",
+              "label": "All the benefits of Anytime, plus:",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Priority Boarding A1-A15",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Security Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Fly By® Priority Lane",
+              "suffix": "4",
+            },
+            Object {
+              "icon": "plus",
+              "label": "Premium drink",
+              "suffix": "4",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="fare-col"
+    >
+      <div
+        className="fare-container"
+      >
+        <div
+          className="fare-content bdb3 bdpblue"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div>
+            <div
+              className="original-price"
+            >
+               
+            </div>
+            <Currency
+              amount="4,321"
+              className="final-price"
+              currencyCode="PTS"
+              sign="-"
+            />
+            <div
+              className="intl-points-taxes"
+            >
+              <Currency
+                amount="0"
+                className="intl-points-taxes--currency"
+                sign={null}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FlightProductSection should render stylized label 1`] = `
+<div
+  className="flight-product-section--header bdred"
+  style={
+    Object {
+      "borderColor": undefined,
+    }
+  }
+>
+  <div
+    className="xlarge bold"
+  >
+    <_default
+      defaultText="Wanna Get Away Plus"
+      value={
+        Array [
+          Object {
+            "inverseLabelColor": "neutral-white",
+            "label": "Wanna Get Away",
+            "primaryLabelColor": "primary-dark-blue",
+          },
+          Object {
+            "font": "Fairwater Script",
+            "inverseLabelColor": "neutral-white",
+            "label": " plus",
+            "primaryLabelColor": "primary-red",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;

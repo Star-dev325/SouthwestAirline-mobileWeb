@@ -1,0 +1,81 @@
+.enroll-contact-info-form {
+  @include m0;
+
+  .fields {
+    @include large;
+  }
+
+  .fields--label {
+    @include bold;
+    @include large;
+    @include gray5;
+    @include mb5;
+  }
+
+  .input {
+    @include regular;
+    @include mt4;
+  }
+
+  .segment {
+    @include bggray2;
+    @include mb5;
+
+    &.secondary.fill {
+      @include p0;
+
+      .fields--label {
+        @include inline-block;
+        @include ml5;
+      }
+    }
+
+    &.blue {
+      @include bgpblue;
+      padding: 1.6rem 1.2rem;
+    }
+  }
+
+  .email-subscriptions-fields {
+    .field {
+      @include bdt;
+      @include bdb;
+      @include square;
+      margin-top: -1px;
+    }
+
+    .checkbox-button {
+      @include regular;
+      @include py4;
+      @include px5;
+      @include bgwhite;
+    }
+
+    .helper-text {
+      @include m0;
+      @include pl0;
+      @include pr0;
+      @include pt5;
+
+      a {
+        @include pblue;
+        @include ml5;
+      }
+    }
+
+    .helper-text-ses {
+      @include medium;
+      @include pt2;
+
+      a {
+        @include pblue;
+      }
+    }
+
+    .children-ses {
+      @include mt1;
+      margin-left: 8px;
+      height: 37px;
+    }
+  }
+}

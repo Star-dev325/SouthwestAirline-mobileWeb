@@ -1,0 +1,10 @@
+.blank-page-footer {
+  @include flex;
+  @include flex-column-reverse;
+  @include fullheight;
+
+  .footer-details {
+    @include gray5;
+    @include m6;
+  }
+}

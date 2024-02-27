@@ -1,0 +1,21 @@
+#swa-mobile-web .page.content.results {
+  padding: 1em 1.5em 2em 1.5em;
+}
+
+#swa-mobile-web .page.content .pad-right {
+  padding-left: 3em;
+}
+
+.page.header.attached {
+  @include pb0;
+  height: auto;
+  padding-top: 1em;
+}
+
+.time-period {
+  font-size: 0.6em;
+}
+
+.time-period--subtext {
+  font-size: 0.75em;
+}

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="12">
+
+  <testsuite name="viewReservation.viewAirReservationTest"
+    errors="0" failures="0" hostname="" id="" package="viewReservation" skipped="0"
+    tests="12" time="74.19" timestamp="Fri, 15 Dec 2023 02:14:02 GMT">
+  
+    <testcase name="Verify View Reservation home page" classname="viewReservation.viewAirReservationTest" time="39.34" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to upcoming trips page and back" classname="viewReservation.viewAirReservationTest" time="4.195" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find flight reservation through confirmation number" classname="viewReservation.viewAirReservationTest" time="3.935" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="when user click browser back" classname="viewReservation.viewAirReservationTest" time="4.216" assertions="0">
+    </testcase>
+  
+    <testcase name="Cached form data should be prefilled in air reservation form" classname="viewReservation.viewAirReservationTest" time="0.3720" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="User go to view reservation page by click link" classname="viewReservation.viewAirReservationTest" time="4.128" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Cached form data should be clean out" classname="viewReservation.viewAirReservationTest" time="0.1830" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter flight reservation again and submit" classname="viewReservation.viewAirReservationTest" time="1.895" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify view trip details page" classname="viewReservation.viewAirReservationTest" time="1.476" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Air View Reservation Analytics Store is valid after searching successfully" classname="viewReservation.viewAirReservationTest" time="0.05600" assertions="0">
+    </testcase>
+  
+    <testcase name="Search history section should be presented" classname="viewReservation.viewAirReservationTest" time="0.8480" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Refresh view reservation page and history section should be presented again" classname="viewReservation.viewAirReservationTest" time="13.55" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

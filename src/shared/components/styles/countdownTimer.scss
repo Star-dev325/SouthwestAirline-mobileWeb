@@ -1,0 +1,16 @@
+.countdown-timer-container {
+  @include flex;
+  @include flex-cross-center;
+  @include p4;
+  @include pl8;
+  @include bgsdkblue;
+  @include white;
+  @include large;
+
+  &--countdown {
+    @include bold;
+    @include pl4;
+    @include inline-block;
+    @include xlarge;
+  }
+}

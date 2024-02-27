@@ -1,0 +1,94 @@
+.flight-search-summary {
+  @include flex;
+  @include flex-row;
+  @include m0;
+  @include white;
+  @include bgpdkblue;
+  @include regular;
+}
+
+.flight-search-summary.header {
+  @include flex-column;
+  @include m0;
+  font-size: 1.2em;
+  border-right: 0;
+  border-left: 0;
+
+  &.attached {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .sub.header {
+    @include white;
+    @include larger;
+    @include lineheight12;
+    margin: 0.1rem;
+  }
+
+  .sub.header.to {
+    @include white;
+    @include larger;
+    @include lineheight12;
+    margin-top: 0;
+    margin-bottom: 0.1rem;
+  }
+
+  .sub.date {
+    @include bold;
+    margin-bottom: 0.4em;
+    font-size: 1.15rem;
+  }
+}
+
+.is-webview {
+  .flight-search-summary {
+    @include flex;
+    @include flex-row;
+    @include flex-main-between;
+
+    @include for-tablet-and-up {
+      background: none;
+    }
+  }
+
+  .flight-search-summary.header {
+    @include flex-column;
+
+    @include for-tablet-and-up {
+      background: none;
+    }
+
+    &.attached {
+      @include for-tablet-and-up {
+        padding-left: 1.5em;
+      }
+    }
+  }
+
+  .flight-search-summary.share-button {
+    @include flex-column;
+    @include flex-main-end;
+    @include regular;
+    @include large;
+    @include sltblue;
+    padding-right: 1.5em;
+  }
+}
+
+.enhanced-flight-search-summary {
+  .header {
+    &.sub {
+      &.date {
+        @include large;
+      }
+
+      &.description {
+        a {
+          @include medium;
+          @include sltblue;
+        }
+      }
+    }
+  }
+}

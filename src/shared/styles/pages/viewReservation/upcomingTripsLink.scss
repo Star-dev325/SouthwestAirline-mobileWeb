@@ -1,0 +1,26 @@
+.upcoming-trips-link {
+  @include block;
+  @include relative;
+  @include white;
+  border-bottom: 1px solid $pblue;
+  height: 4em;
+  line-height: 4em;
+  padding-left: 1.4em;
+
+  & > span {
+    font-size: 1.68rem;
+  }
+
+  &:hover {
+    @include white;
+  }
+
+  .icon {
+    @include absolute;
+    @include xxxlarge;
+    right: 0.7rem;
+    top: 50%;
+    margin-top: -0.4em;
+    color: $upcoming-trips-icon-color;
+  }
+}

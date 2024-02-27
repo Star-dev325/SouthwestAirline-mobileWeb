@@ -1,0 +1,10 @@
+{
+  "artifact": "spa-mobile-web",
+  "created": "Mon, Jan 29, 2024 12:50 PM",
+  "majorVersion": "63",
+  "version": "63.0.0-SNAPSHOT",
+  "sites": [
+    "mobile"
+  ],
+  "git": "7f73a003e43cc1117ff6b2b6a957db04438bf70f Mon, Jan 29, 2024 11:15 AM"
+}

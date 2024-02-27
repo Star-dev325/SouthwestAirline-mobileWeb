@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AirCancelSelectPassengersPage render should render correctly when splitPnrDetails value is null 1`] = `
+<div>
+  <div
+    class="select-passengers"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        SHARED__SELECT_PASSENGERS__PAGE_TITLE
+      </div>
+      <div />
+    </div>
+    <form
+      class="form"
+      name="AIR_CANCEL_SELECT_PASSENGERS_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="select-passengers-form--content-container"
+        >
+          <div
+            class="fields grouped"
+          />
+        </div>
+        <div
+          class="select-passengers-form--continue-button"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            type="submit"
+          >
+            SHARED__SELECT_PASSENGERS__BUTTON_TEXT__CONTINUE_TO_REVIEW
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`AirCancelSelectPassengersPage render should render the page correctly 1`] = `
+<div>
+  <div
+    class="select-passengers"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        SHARED__SELECT_PASSENGERS__PAGE_TITLE
+      </div>
+      <div />
+    </div>
+    <form
+      class="form"
+      name="AIR_CANCEL_SELECT_PASSENGERS_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="select-passengers-form--content-container"
+        >
+          <div
+            class="select-passengers-form--intro"
+          >
+            <p>
+              There are multiple passengers on this reservation. 
+              <br />
+              <b>
+                Select all the passengers you want to cancel.
+              </b>
+            </p>
+          </div>
+          <div
+            class="fields grouped"
+          >
+            <div
+              class="field"
+            >
+              <div
+                class="passenger-checkbox"
+              >
+                <div
+                  class="passenger-checkbox--container"
+                >
+                  <div
+                    class="passenger-checkbox--name"
+                  >
+                    Sammy Travels
+                  </div>
+                  <div
+                    class="passenger-checkbox--passenger-type-and-button-container"
+                  >
+                    <button
+                      class="toggle-switch toggle-switch_checked button"
+                      type="button"
+                    >
+                      <div
+                        class="toggle-switch--slider toggle-switch--slider_checked"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="field"
+            >
+              <div
+                class="passenger-checkbox"
+              >
+                <div
+                  class="passenger-checkbox--container"
+                >
+                  <div
+                    class="passenger-checkbox--name"
+                  >
+                    Andy Travels
+                  </div>
+                  <div
+                    class="passenger-checkbox--passenger-type-and-button-container"
+                  >
+                    <button
+                      class="toggle-switch toggle-switch_checked button"
+                      type="button"
+                    >
+                      <div
+                        class="toggle-switch--slider toggle-switch--slider_checked"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="select-passengers-form--continue-button"
+        >
+          <button
+            class="button button--fluid larger button--yellow"
+            type="submit"
+          >
+            SHARED__SELECT_PASSENGERS__BUTTON_TEXT__CONTINUE_TO_REVIEW
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;

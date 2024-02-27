@@ -1,0 +1,29 @@
+.early-bird-origin-destination-card--title {
+  @include pt4;
+  @include pb2;
+  @include px5;
+  @include gray5;
+  @include bold;
+  @include medium;
+}
+
+.early-bird-origin-destination-card--detail {
+  @include bdt;
+  @include mb2;
+}
+
+.early-bird-origin-destination-card {
+  .flight-brief-card,
+  .early-bird-passenger-checkbox {
+    @include relative;
+
+    &::after {
+      @include bdb;
+      @include absolute;
+      @include r0;
+      @include b0;
+      @include l0;
+      content: '';
+    }
+  }
+}

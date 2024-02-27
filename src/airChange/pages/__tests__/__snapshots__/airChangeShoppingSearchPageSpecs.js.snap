@@ -1,0 +1,553 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`airChangeShoppingSearchPage click to search for flights reaccom scenario should render page properly for ARNK pnrs 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <AirChangeShoppingSearchPage
+    allAirports={
+      Array [
+        Object {
+          "airportName": "Los Angeles",
+          "airportSearchName": "California, Irvine, Long Beach, Hollywood, Palm Springs, Malibu, City of Angels, Las Angeles, Disney, Burbank, Orange County, Santa Ana, Ontario, Universal Studios, LGB",
+          "cityName": "Los Angeles,Burbank,Ontario,Orange County",
+          "cityState": "CA",
+          "code": "LAX",
+          "countryCode": "US",
+          "displayName": "Los Angeles",
+          "latitude": "33.9425",
+          "longitude": "-118.408",
+          "marketingCarriers": Array [
+            "WN",
+          ],
+          "shortDisplayName": "Los Angeles",
+        },
+        Object {
+          "airportName": "Las Vegas",
+          "airportSearchName": "Las Vegas, NV - LAS",
+          "cityName": "Las Vegas",
+          "cityState": "NV",
+          "code": "LAS",
+          "countryCode": "US",
+          "displayName": "Las Vegas",
+          "latitude": "36.0801",
+          "longitude": "-115.152",
+          "marketingCarriers": Array [
+            "WN",
+          ],
+          "shortDisplayName": "Las Vegas",
+        },
+      ]
+    }
+    changeFlightPageResponse={
+      Object {
+        "_links": Object {
+          "changeShopping": Object {
+            "body": Object {
+              "outbound": Object {
+                "boundReference": "boundReference",
+                "date": "2018-05-12",
+                "destination-airport": "AUS",
+                "isChangeBound": true,
+                "original-airport": "DAL",
+              },
+            },
+            "href": "change shopping request href",
+            "method": "POST",
+          },
+        },
+        "_meta": Object {
+          "hasUnaccompaniedMinor": false,
+        },
+        "boundSelections": Array [
+          Object {
+            "boundReference": "bound1",
+            "flight": "194/285",
+            "flightType": "Departure",
+            "fromAirport": "Boise, ID - BOI",
+            "fromAirportCode": "BOI",
+            "hasInactiveBags": false,
+            "isSelectable": true,
+            "originalDate": "2018-04-17",
+            "productId": "product1",
+            "showWarningIcon": false,
+            "timeArrives": "23:45",
+            "timeDeparts": "15:00",
+            "toAirport": "Austin, TX - AUS",
+            "toAirportCode": "AUS",
+          },
+        ],
+        "dynamicWaivers": Array [],
+        "messages": Array [],
+        "selectionMode": "ALL",
+      }
+    }
+    clearSelectedProductsFn={[Function]}
+    defaultLastBookableDate=""
+    hideDialogFn={[Function]}
+    history={
+      Object {
+        "location": Object {
+          "pathname": "/air/change/index.html",
+        },
+      }
+    }
+    initFormData={
+      Object {
+        "departureAndReturnDate": Object {
+          "departureDate": "2018-05-06",
+          "returnDate": "2018-05-10",
+        },
+        "from": "LAS",
+        "to": "LAX",
+      }
+    }
+    isOpenJawReservation={false}
+    isReaccom={true}
+    loadAirportsFn={[Function]}
+    loadRecentlySearchedFn={[Function]}
+    push={[Function]}
+    reaccomFlightPageResponse={
+      Object {
+        "_links": Object {
+          "reaccomProducts": Object {
+            "body": undefined,
+          },
+        },
+        "_meta": Object {
+          "allowARNKPnrs": true,
+        },
+        "boundSelections": Array [
+          Object {
+            "boundReference": "bound1",
+            "flight": "194/285",
+            "flightType": "Departure",
+            "fromAirport": "Boise, ID - BOI",
+            "fromAirportCode": "BOI",
+            "hasInactiveBags": false,
+            "isSelectable": true,
+            "originalDate": "2018-04-17",
+            "productId": "product1",
+            "showWarningIcon": false,
+            "timeArrives": "23:45",
+            "timeDeparts": "15:00",
+            "toAirport": "Austin, TX - AUS",
+            "toAirportCode": "AUS",
+          },
+          Object {
+            "boundReference": "bound1",
+            "flight": "194/285",
+            "flightType": "RETURN",
+            "fromAirport": "Boise, ID - BOI",
+            "fromAirportCode": "BOI",
+            "hasInactiveBags": false,
+            "isSelectable": true,
+            "originalDate": "2018-05-17",
+            "productId": "product1",
+            "showWarningIcon": false,
+            "timeArrives": "23:45",
+            "timeDeparts": "15:00",
+            "toAirport": "Austin, TX - AUS",
+            "toAirportCode": "AUS",
+          },
+        ],
+        "flightSearchMessage": Object {
+          "body": "You may search a nearby airport or an airport in another city for more flights options.",
+          "header": null,
+          "icon": "INFO",
+          "inverseThemeColor": "primary-dark-blue",
+          "key": "",
+          "primaryThemeColor": "neutral-white",
+          "textColor": null,
+        },
+        "selectedBounds": Object {
+          "firstbound": true,
+          "secondbound": true,
+        },
+      }
+    }
+    recentlySearched={Array []}
+    searchForFlightsFn={[Function]}
+    searchForReaccomFlightsFn={[Function]}
+    searchOptions={
+      Object {
+        "departureBoundDisabled": false,
+        "earliestBookableDate": undefined,
+        "lastBookableDate": undefined,
+        "returnBoundDisabled": false,
+        "tripType": "roundTrip",
+      }
+    }
+    selectedBounds={
+      Object {
+        "firstbound": true,
+        "secondbound": true,
+      }
+    }
+    showDialogFn={[Function]}
+    toggles={Object {}}
+    updateSelectedAirportInfoFn={[Function]}
+    updateShouldForbidForwardFn={[Function]}
+  >
+    <div>
+      <Connect(PageHeader)>
+        <PageHeader
+          hidden={false}
+          isWebView={false}
+          noPadding={false}
+        >
+          <div>
+            <div
+              className="page-header"
+              id=""
+            >
+              Change Flight
+            </div>
+            <Connect(ErrorHeaderContainer)>
+              <ErrorHeaderContainer
+                errorMessage={null}
+                hasError={false}
+              >
+                <div />
+              </ErrorHeaderContainer>
+            </Connect(ErrorHeaderContainer)>
+          </div>
+        </PageHeader>
+      </Connect(PageHeader)>
+      <Message
+        className="bgpdkblue white"
+        status="information"
+      >
+        <div
+          className="swa-message bgpdkblue white information"
+        >
+          <span
+            className="icon-container"
+          >
+            <Icon
+              type="ic-info"
+            >
+              <i
+                className="icon icon_ic-info"
+              />
+            </Icon>
+          </span>
+          <span
+            className="message--text"
+          >
+            <div
+              className="air-change-shopping-search-page--header-message-body"
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "You may search a nearby airport or an airport in another city for more flights options.",
+                }
+              }
+            />
+          </span>
+        </div>
+      </Message>
+      <Container>
+        <div
+          className="custom-container"
+          style={
+            Object {
+              "height": undefined,
+            }
+          }
+        >
+          <Connect(WithForm(AirChangeShoppingSearchForm))
+            allAirports={
+              Array [
+                Object {
+                  "airportName": "Los Angeles",
+                  "airportSearchName": "California, Irvine, Long Beach, Hollywood, Palm Springs, Malibu, City of Angels, Las Angeles, Disney, Burbank, Orange County, Santa Ana, Ontario, Universal Studios, LGB",
+                  "cityName": "Los Angeles,Burbank,Ontario,Orange County",
+                  "cityState": "CA",
+                  "code": "LAX",
+                  "countryCode": "US",
+                  "displayName": "Los Angeles",
+                  "latitude": "33.9425",
+                  "longitude": "-118.408",
+                  "marketingCarriers": Array [
+                    "WN",
+                  ],
+                  "shortDisplayName": "Los Angeles",
+                },
+                Object {
+                  "airportName": "Las Vegas",
+                  "airportSearchName": "Las Vegas, NV - LAS",
+                  "cityName": "Las Vegas",
+                  "cityState": "NV",
+                  "code": "LAS",
+                  "countryCode": "US",
+                  "displayName": "Las Vegas",
+                  "latitude": "36.0801",
+                  "longitude": "-115.152",
+                  "marketingCarriers": Array [
+                    "WN",
+                  ],
+                  "shortDisplayName": "Las Vegas",
+                },
+              ]
+            }
+            allowARNKPnrs={true}
+            formId="AIR_CHANGE_SHOPPING_SEARCH_FORM"
+            initialFormData={
+              Object {
+                "departureAndReturnDate": Object {
+                  "departureDate": "2018-05-06",
+                  "returnDate": "2018-05-10",
+                },
+                "from": "LAS",
+                "to": "LAX",
+              }
+            }
+            isReaccomCoTerminalEligible={false}
+            isRoundTrip={true}
+            lastBookableDate={null}
+            onSubmit={[Function]}
+            recentlySearched={Array []}
+            searchOptions={
+              Object {
+                "departureBoundDisabled": false,
+                "earliestBookableDate": undefined,
+                "lastBookableDate": undefined,
+                "returnBoundDisabled": false,
+                "tripType": "roundTrip",
+              }
+            }
+            selectedBounds={
+              Object {
+                "firstbound": true,
+                "secondbound": true,
+              }
+            }
+            updateSelectedAirportInfoFn={[Function]}
+          >
+            <WithForm(AirChangeShoppingSearchForm)
+              allAirports={
+                Array [
+                  Object {
+                    "airportName": "Los Angeles",
+                    "airportSearchName": "California, Irvine, Long Beach, Hollywood, Palm Springs, Malibu, City of Angels, Las Angeles, Disney, Burbank, Orange County, Santa Ana, Ontario, Universal Studios, LGB",
+                    "cityName": "Los Angeles,Burbank,Ontario,Orange County",
+                    "cityState": "CA",
+                    "code": "LAX",
+                    "countryCode": "US",
+                    "displayName": "Los Angeles",
+                    "latitude": "33.9425",
+                    "longitude": "-118.408",
+                    "marketingCarriers": Array [
+                      "WN",
+                    ],
+                    "shortDisplayName": "Los Angeles",
+                  },
+                  Object {
+                    "airportName": "Las Vegas",
+                    "airportSearchName": "Las Vegas, NV - LAS",
+                    "cityName": "Las Vegas",
+                    "cityState": "NV",
+                    "code": "LAS",
+                    "countryCode": "US",
+                    "displayName": "Las Vegas",
+                    "latitude": "36.0801",
+                    "longitude": "-115.152",
+                    "marketingCarriers": Array [
+                      "WN",
+                    ],
+                    "shortDisplayName": "Las Vegas",
+                  },
+                ]
+              }
+              allowARNKPnrs={true}
+              asyncActionFinishFn={[Function]}
+              asyncActionStartFn={[Function]}
+              clearFormDataByIdFn={[Function]}
+              formId="AIR_CHANGE_SHOPPING_SEARCH_FORM"
+              hideErrorHeaderMsgFn={[Function]}
+              initialFormData={
+                Object {
+                  "departureAndReturnDate": Object {
+                    "departureDate": "2018-05-06",
+                    "returnDate": "2018-05-10",
+                  },
+                  "from": "LAS",
+                  "to": "LAX",
+                }
+              }
+              isReaccomCoTerminalEligible={false}
+              isRoundTrip={true}
+              lastBookableDate={null}
+              onSubmit={[Function]}
+              recentlySearched={Array []}
+              restrictFormChangeToFieldNameFn={[Function]}
+              searchOptions={
+                Object {
+                  "departureBoundDisabled": false,
+                  "earliestBookableDate": undefined,
+                  "lastBookableDate": undefined,
+                  "returnBoundDisabled": false,
+                  "tripType": "roundTrip",
+                }
+              }
+              selectedBounds={
+                Object {
+                  "firstbound": true,
+                  "secondbound": true,
+                }
+              }
+              showDialogFn={[Function]}
+              showErrorHeaderMsgFn={[Function]}
+              unrestrictFormChangeToFieldNameFn={[Function]}
+              updateFormFieldDataValueFn={[Function]}
+              updateSelectedAirportInfoFn={[Function]}
+            >
+              <AirChangeShoppingSearchForm
+                allAirports={
+                  Array [
+                    Object {
+                      "airportName": "Los Angeles",
+                      "airportSearchName": "California, Irvine, Long Beach, Hollywood, Palm Springs, Malibu, City of Angels, Las Angeles, Disney, Burbank, Orange County, Santa Ana, Ontario, Universal Studios, LGB",
+                      "cityName": "Los Angeles,Burbank,Ontario,Orange County",
+                      "cityState": "CA",
+                      "code": "LAX",
+                      "countryCode": "US",
+                      "displayName": "Los Angeles",
+                      "latitude": "33.9425",
+                      "longitude": "-118.408",
+                      "marketingCarriers": Array [
+                        "WN",
+                      ],
+                      "shortDisplayName": "Los Angeles",
+                    },
+                    Object {
+                      "airportName": "Las Vegas",
+                      "airportSearchName": "Las Vegas, NV - LAS",
+                      "cityName": "Las Vegas",
+                      "cityState": "NV",
+                      "code": "LAS",
+                      "countryCode": "US",
+                      "displayName": "Las Vegas",
+                      "latitude": "36.0801",
+                      "longitude": "-115.152",
+                      "marketingCarriers": Array [
+                        "WN",
+                      ],
+                      "shortDisplayName": "Las Vegas",
+                    },
+                  ]
+                }
+                allowARNKPnrs={true}
+                asyncActionFinishFn={[Function]}
+                asyncActionStartFn={[Function]}
+                clearFormDataByIdFn={[Function]}
+                formData={
+                  Object {
+                    "departureAndReturnDate": Object {
+                      "departureDate": "2018-05-06",
+                      "returnDate": "2018-05-10",
+                    },
+                    "from": "LAS",
+                    "to": "LAX",
+                  }
+                }
+                formId="AIR_CHANGE_SHOPPING_SEARCH_FORM"
+                hideErrorHeaderMsgFn={[Function]}
+                initialFormData={
+                  Object {
+                    "departureAndReturnDate": Object {
+                      "departureDate": "2018-05-06",
+                      "returnDate": "2018-05-10",
+                    },
+                    "from": "LAS",
+                    "to": "LAX",
+                  }
+                }
+                isReaccomCoTerminalEligible={false}
+                isRoundTrip={true}
+                lastBookableDate={null}
+                onChange={[Function]}
+                onSubmit={[Function]}
+                recentlySearched={Array []}
+                restrictFormChangeToFieldNameFn={[Function]}
+                searchOptions={
+                  Object {
+                    "departureBoundDisabled": false,
+                    "earliestBookableDate": undefined,
+                    "lastBookableDate": undefined,
+                    "returnBoundDisabled": false,
+                    "tripType": "roundTrip",
+                  }
+                }
+                selectedBounds={
+                  Object {
+                    "firstbound": true,
+                    "secondbound": true,
+                  }
+                }
+                showDialogFn={[Function]}
+                showErrorHeaderMsgFn={[Function]}
+                unrestrictFormChangeToFieldNameFn={[Function]}
+                updateFormFieldDataValueFn={[Function]}
+                updateSelectedAirportInfoFn={[Function]}
+              >
+                <Form
+                  className="book-flight-form"
+                  disabled={false}
+                  formId="AIR_CHANGE_SHOPPING_SEARCH_FORM"
+                  isWidget={true}
+                  name="air-change-flight-search"
+                  onSubmit={[Function]}
+                  stopSubmitPropagation={false}
+                >
+                  <form
+                    className="book-flight-form form widget"
+                    name="air-change-flight-search"
+                    noValidate={true}
+                    onSubmit={[Function]}
+                  >
+                    <fieldset
+                      disabled={false}
+                    >
+                      <AirChangeShoppingSearchARNKLayout>
+                        <div
+                          className="air-change-shopping-search-arnk-layout--button"
+                        >
+                          <Button
+                            color="yellow"
+                            fluid={true}
+                            role="submit"
+                            size="larger"
+                            type="submit"
+                          >
+                            <button
+                              className="button button--fluid larger button--yellow"
+                              onClick={[Function]}
+                              role="submit"
+                              type="submit"
+                            >
+                              Find flights
+                            </button>
+                          </Button>
+                        </div>
+                      </AirChangeShoppingSearchARNKLayout>
+                    </fieldset>
+                  </form>
+                </Form>
+              </AirChangeShoppingSearchForm>
+            </WithForm(AirChangeShoppingSearchForm)>
+          </Connect(WithForm(AirChangeShoppingSearchForm))>
+        </div>
+      </Container>
+    </div>
+  </AirChangeShoppingSearchPage>
+</Provider>
+`;

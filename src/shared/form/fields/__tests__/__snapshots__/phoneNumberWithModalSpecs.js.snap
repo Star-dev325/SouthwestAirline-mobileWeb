@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Phone Number With Modal should render default props 1`] = `
+<div>
+  <WithFields(PhoneNumberFields)
+    isISOCountryCode={true}
+    nameForPhoneCountryCode="countryCode"
+    nameForPhoneNumber="phoneNumber"
+    names={
+      Array [
+        "countryCode",
+        "phoneNumber",
+      ]
+    }
+    onLabelClick={[Function]}
+  />
+  <Connect(FullScreenModal)
+    id="COUNTRY_CODE"
+  >
+    <PhoneCountryCodeList
+      onCancel={[Function]}
+      onCountryCodeSelect={[Function]}
+    />
+  </Connect(FullScreenModal)>
+</div>
+`;
+
+exports[`Phone Number With Modal should render non-iso props 1`] = `
+<div>
+  <WithFields(PhoneNumberFields)
+    className="non-iso-codes"
+    isISOCountryCode={false}
+    nameForPhoneCountryCode="testCaseCountryCode"
+    nameForPhoneNumber="testCasePhoneNumber"
+    names={
+      Array [
+        "testCaseCountryCode",
+        "testCasePhoneNumber",
+      ]
+    }
+    onLabelClick={[Function]}
+  />
+  <Connect(FullScreenModal)
+    id="TEST_CASE_COUNTRY_CODE"
+  >
+    <PhoneCountryCodeList
+      onCancel={[Function]}
+      onCountryCodeSelect={[Function]}
+    />
+  </Connect(FullScreenModal)>
+</div>
+`;

@@ -1,0 +1,20 @@
+.flight-select-fare--container {
+  &-header {
+    @include bgwhite;
+    @include pt4;
+    @include px4;
+
+    &-disclaimer {
+      @include bgltblue;
+      @include mb5;
+      @include px4;
+      @include py4;
+    }
+  }
+
+  &-footer {
+    @include px4;
+    @include py5;
+    @include white;
+  }
+}

@@ -1,0 +1,21 @@
+.credit-cards-bottom-bar {
+  @include flex;
+  @include flex-main-between;
+  @include px2;
+  @include py4;
+  @include large;
+  @include bggray1;
+  @include bdt;
+  @include fixed;
+  @include l0;
+  @include r0;
+  @include b0;
+
+  &--button {
+    @include gray4;
+
+    &_active {
+      @include pblue;
+    }
+  }
+}

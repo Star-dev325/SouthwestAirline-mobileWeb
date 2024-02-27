@@ -1,0 +1,16 @@
+.special-assistance-item {
+  @include rd4;
+  @include bd;
+  @include bgwhite;
+}
+
+.special-assistance-item--option-label {
+  @include gray3;
+  @include medium;
+}
+
+.sa-flight-in-progress-message {
+  @include mt3;
+  @include gray4;
+  @include medium;
+}

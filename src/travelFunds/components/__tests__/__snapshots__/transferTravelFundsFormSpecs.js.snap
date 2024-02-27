@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransferTravelFundsForm should render the form 1`] = `
+<Connect(WithForm(TransferTravelFundsForm))
+  formId="123456"
+  initialFormData={
+    Object {
+      "additionalReceipt": "t@s.com",
+      "firstName": "Thomas",
+      "lastName": "Shelby",
+      "personalMessage": "this is the personal message",
+      "rapidRewardsNumber": "123456",
+      "recipientEmailAddress": "arthur@shelby.com",
+    }
+  }
+  onSubmit={[Function]}
+  onSubmitLabel="Transfer Travel Funds"
+  personalMsgMaxChar={340}
+  receiptEmailAddress="email@address.com"
+  recipientInfoText="mock recipient info text"
+  transferableAmount={
+    Object {
+      "amount": "100.00",
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+    }
+  }
+/>
+`;

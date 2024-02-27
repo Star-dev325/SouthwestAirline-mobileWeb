@@ -1,0 +1,8 @@
+.accordion--heading {
+  @include clearfix;
+}
+
+.accordion--body {
+  @include overflow-hidden;
+  transition: height ease 0.4s;
+}

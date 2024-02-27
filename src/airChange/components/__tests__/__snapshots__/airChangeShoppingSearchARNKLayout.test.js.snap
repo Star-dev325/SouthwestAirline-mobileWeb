@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AirChangeShoppingSearchARNKLayout render should render page properly 1`] = `
+<div>
+  <div
+    class="air-change-shopping-search-arnk-layout--button"
+  >
+    <button
+      class="button button--fluid larger button--yellow"
+      role="submit"
+      type="submit"
+    >
+      AIR_CHANGE__SHOPPING_SEARCH_PAGE__FIND_FLIGHTS_BUTTON
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,89 @@
+@startuml
+title Booking Flow (Happy Path) - Ceptor & Hybrid\nv5\n<size:12>Assumptions:\n<size:12>- User has completed prior steps of booking flow\n<size:12>- has no errors
+actor User
+
+User --> Native: initiate booking flow
+Native -> mWeb: open webView (hybrid)
+User --> mWeb: complete flow until summary page
+== Purchase Summary Page ==
+mWeb -> ceptor: **[1]** create CeptorWrapper \n- setConfigParams()\n- setAFPParams()
+note left
+Purchase Page is Loading
+end note
+ceptor -> mWeb: CeptorWrapper instance
+
+mWeb -> ceptor: **[2]** call getAvailablePaymentMethods()
+note left
+Display Payment Method Options
+end note
+ceptor -> mWeb: available PaymentMethods
+
+mWeb -> ceptor: **[2]** call getAvailablePaymentMethods() or update() for any data changes
+note left
+Track Updates
+end note
+ceptor -> mWeb: updated available PaymentMethods
+
+User --> mWeb: Select Uplift and click Purchase
+mWeb -> externalPaymentPage: **[3]** redirect to External Payment Page with data:\n- persistenceIdentifier\n-redirectUrl
+note left
+Redirect
+end note
+
+== External Payment Page ==
+externalPaymentPage -> ceptor: **[4]** recreate CeptorWrapper Instance\n- setConfigParams
+note right
+Create CeptorWrapper instance
+end note
+ceptor -> externalPaymentPage: CeptorWrapper instance
+
+externalPaymentPage -> ceptor: **[5]** call retrieveParams\n- pass persistenceIdentifier
+note right
+Retrieve AFP Params
+end note
+ceptor -> externalPaymentPage: AFP Params object
+
+externalPaymentPage -> ceptor: **[6]** call getavailable\n- pass AFP Params\n- pass callback
+note right
+Setup CeptorWrapper
+end note
+ceptor -> externalPaymentPage: Available Payment Methods Response
+
+externalPaymentPage -> ceptor: **[7]** call select() and update()
+note right
+setup iFrame
+end note
+ceptor -> externalPaymentPage: initialize and unpause iFrame
+
+User --> externalPaymentPage: complete loan application
+
+ceptor -> externalPaymentPage: **[8]** call callback function\nwhen loan application complete \nand set tokenAvailable = true
+note right
+Redirect to Purchase Page
+end note
+User --> externalPaymentPage: click Complete Booking
+externalPaymentPage -> Native: deep link back into app via returnUrl\n- re-present and refresh webView \nwith queryParams
+
+== Purchase Summary Page ==
+mWeb -> mWeb: **[9]** retrieve AFP Params object \nfrom persisted app state in session storage
+note left
+Initialize CeptorConfig
+end note
+
+mWeb -> ceptor: **[10]** call getavailable\n- pass AFP Params\n- pass callback
+note left
+Setup CeptorWrapper
+end note
+ceptor -> mWeb: Available Payment Methods Response
+
+mWeb -> ceptor: **[11]** call getUatpCard()\n- pass in finalAmount
+note left
+Retrieve UATP Card
+end note
+ceptor -> mWeb: UATP Card Details
+
+mWeb -> mWeb: **[12]** Submit purchase
+mWeb -> ceptor: call confirm()
+mWeb -> Native: exit webView (hybrid)
+
+@enduml

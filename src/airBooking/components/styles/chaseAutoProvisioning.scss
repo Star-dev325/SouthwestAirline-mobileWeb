@@ -1,0 +1,24 @@
+.chase-auto-provisioning {
+  @include bgwhite;
+  @include px5;
+  @include py6;
+  @include flex;
+  @include flex-row;
+  @include flex-cross-start;
+}
+
+.chase--text-container {
+  @include flex;
+  @include flex-column;
+  @include pl4;
+
+  .chase--header {
+    @include bold;
+    @include xlarge;
+  }
+
+  .chase--body {
+    @include medium;
+    @include pt1;
+  }
+}

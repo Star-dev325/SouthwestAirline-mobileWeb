@@ -1,0 +1,24 @@
+{
+  "revision": "20150304105043618",
+  "overlay": {
+    "title": "Fare Rules",
+    "body": [
+      {
+        "type": "heading",
+        "value": "Sample Fare Rules Text"
+      },
+      {
+        "type": "text",
+        "value": "<p><strong>Certain items, if brought onboard, must be transported in your carry-on luggage.</strong><br />For example, spare lithium batteries for portable electronic devices and cigarette lighters must be removed from checked or gate-checked baggage and carried onboard the aircraft.</p>\n<p>Federal laws forbids the carriage of hazardous materials aboard aircraft, in your luggage or on your person. A violation can result in 5 years imprisonment and penalties of $250,000 or more (49 U.S.C. 5124). Hazardous materials include explosives, compressed gases, flammable liquids and solids, oxidizers, poisons, corrosives and radioactive materials.</p>\n<p>EXAMPLES:<br />Paints, light fluid, fireworks, self-defense sprays, oxygen bottles and radio-pharmaceuticals. There are special exceptions for small quantities (up to 70 ounces total) of medicinal and toilet articles carried in your luggage and certain smoking materials carried on your person.</p>\n<p>If you have more questions regarding items acceptable for travel, visit our <a href=\"https://interwovendev/html/customer-service/baggage/special-luggage-pol.html\" target=\"_blank\">FAQ</a>.</p>"
+      },
+      {
+        "type": "heading",
+        "value": "Fare &amp; Rules"
+      },
+      {
+        "type": "text",
+        "value": "<p>Rules and Fares</p>\n<p>Southwest Airlines currently prohibits self-defense sprays on any flight regardless if it is checked or carried on.</p>\n<p><strong>Please see the TSA's web site for a <a href=\"http://www.tsa.gov/traveler-information/prohibited-items\" target=\"_blank\">list of prohibited items</a>.</strong></p>"
+      }
+    ]
+  }
+}

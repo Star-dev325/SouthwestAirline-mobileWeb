@@ -1,0 +1,7 @@
+export default {
+  FEMALE: 'F',
+  MALE: 'M',
+  MALE_FULL: 'MALE',
+  FEMALE_FULL: 'FEMALE',
+  UNAVAILABLE: 'UNAVAILABLE'
+};

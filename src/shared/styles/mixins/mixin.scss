@@ -1,0 +1,88 @@
+$shadow-dropdown-color: rgba(0, 0, 0, 0.25);
+
+@mixin swa-icons($background: null, $width: 1.4em, $height: 1.4em) {
+  @include left;
+  background-image: image-url('#{$background}');
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: $width;
+  height: $height;
+  margin-right: 5px;
+  background-size: contain;
+}
+
+@mixin header {
+  @include white;
+  @include bgsblue;
+  @include large;
+  @include bold;
+  @include square;
+  padding: 1.5rem;
+}
+
+@mixin clearfix {
+  &::before,
+  &::after {
+    @include table;
+    content: '';
+  }
+
+  &::after {
+    @include overflow-hidden;
+    clear: both;
+  }
+}
+
+@mixin aspect-ratio($width, $height) {
+  @include relative;
+
+  &::before {
+    @include block;
+    @include fullwidth;
+    content: '';
+    padding-top: ($height / $width) * 100%;
+  }
+}
+
+@mixin card-shadow {
+  box-shadow: 0 0.25rem 0.25rem $shadow-dropdown-color;
+}
+
+@mixin truncate-text($width) {
+  @include inline-block;
+  @include overflow-hidden;
+  @include ellipsis;
+  @include nowrap;
+  width: $width;
+}
+
+@mixin attach-top {
+  @include absolute;
+  @include t0;
+  @include l0;
+  @include r0;
+}
+
+@mixin wrap-word {
+  @include word-wrap;
+  @include word-break;
+  white-space: normal;
+}
+
+@mixin left-divider {
+  border-left: 1px solid $pdkblue;
+}
+
+@mixin arial-font-family {
+  font-family: 'Arial', 'MS Trebuchet', sans-serif;
+}
+
+@mixin truncate {
+  @include overflow-hidden;
+  @include ellipsis;
+  @include nowrap;
+}
+
+@mixin background-inherit {
+  background: inherit;
+}

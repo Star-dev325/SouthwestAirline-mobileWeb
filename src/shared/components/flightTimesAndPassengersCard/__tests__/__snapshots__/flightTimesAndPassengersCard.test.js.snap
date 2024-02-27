@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flightTimesAndPassengersCard should render flight time card component 1`] = `
+<div>
+  <div>
+    <div
+      class="flight-time-passengers-card"
+    >
+      <div
+        class="flight-time-passengers-card--title"
+      >
+        <div
+          class="flight-time-passengers-card--date"
+        >
+          <div
+            class="flight-time-passengers-card--month"
+          >
+            Oct 27
+          </div>
+          <div
+            class="flight-time-passengers-card--day"
+          >
+            Thursday
+          </div>
+        </div>
+        <div
+          class="flight-time-passengers-card--flight"
+        >
+          <div
+            class="flight-time-passengers-card--from"
+          >
+            <div
+              class="flight-time-passengers-card--place"
+            >
+              PHX
+            </div>
+            <div
+              class="flight-time-passengers-card--time"
+            >
+              03:30 PM
+            </div>
+          </div>
+          <div
+            class="flight-time-passengers-card--icon-col flight-time-passengers-card-flight-icon"
+          >
+            <i
+              class="icon-airplane icon icon_airplane"
+            />
+          </div>
+          <div
+            class="flight-time-passengers-card--to"
+          >
+            <div
+              class="flight-time-passengers-card--place"
+            >
+              DEN
+            </div>
+            <div
+              class="flight-time-passengers-card--time"
+            >
+              06:30 PM
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flight-time-passengers-card--divider"
+      />
+      <div
+        class="flight-time-passengers-card--passenger-title"
+      >
+        SAME_DAY__PRICING_TITLE__PASSENGERS
+      </div>
+      <div
+        class="flight-time-passengers-card--section"
+      >
+        <div
+          class="flight-time-passengers-card--passengers"
+        >
+          <div
+            class="flight-time-passengers-card--passengers-detail"
+          >
+            <div
+              class="flight-time-passengers-card--passengers-detail-name"
+            >
+              Tesla Awesome
+            </div>
+            <div
+              class="flight-time-passengers-card--passengers-detail-number"
+            >
+              MY_ACCOUNT__HEADER__RR_NUMBER 601655902
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-time-passengers-card--passengers"
+        >
+          <div
+            class="flight-time-passengers-card--passengers-detail"
+          >
+            <div
+              class="flight-time-passengers-card--passengers-detail-name"
+            >
+              Tesla Great
+            </div>
+            <div
+              class="flight-time-passengers-card--passengers-detail-number"
+            >
+              MY_ACCOUNT__HEADER__RR_NUMBER 601755209
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

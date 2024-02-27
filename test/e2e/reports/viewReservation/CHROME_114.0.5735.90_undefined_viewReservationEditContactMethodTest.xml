@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="22">
+
+  <testsuite name="viewReservation.viewReservationEditContactMethodTest"
+    errors="0" failures="0" hostname="" id="" package="viewReservation" skipped="0"
+    tests="22" time="97.66" timestamp="Fri, 15 Dec 2023 02:19:11 GMT">
+  
+    <testcase name="Go to view reservation page" classname="viewReservation.viewReservationEditContactMethodTest" time="29.15" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find flight reservation through confirmation number" classname="viewReservation.viewReservationEditContactMethodTest" time="5.293" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify view trip details page" classname="viewReservation.viewReservationEditContactMethodTest" time="0.09500" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to boarding details page" classname="viewReservation.viewReservationEditContactMethodTest" time="2.640" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click and go to edit contact method page" classname="viewReservation.viewReservationEditContactMethodTest" time="0.9510" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Change contact method" classname="viewReservation.viewReservationEditContactMethodTest" time="3.507" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to edit contact method page" classname="viewReservation.viewReservationEditContactMethodTest" time="1.641" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Browser back to boarding details page" classname="viewReservation.viewReservationEditContactMethodTest" time="3.152" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Browser forward to contact method page" classname="viewReservation.viewReservationEditContactMethodTest" time="0.9530" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="refresh on contact method to checkIn search reservation page" classname="viewReservation.viewReservationEditContactMethodTest" time="15.11" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Go again to view reservation page" classname="viewReservation.viewReservationEditContactMethodTest" time="6.999" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find flight reservation" classname="viewReservation.viewReservationEditContactMethodTest" time="2.957" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify day of travel contact method on trip details page" classname="viewReservation.viewReservationEditContactMethodTest" time="0.05200" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="click link to contact method page" classname="viewReservation.viewReservationEditContactMethodTest" time="0.9420" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="refresh on contact method to view reservation search reservation page" classname="viewReservation.viewReservationEditContactMethodTest" time="4.300" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="login" classname="viewReservation.viewReservationEditContactMethodTest" time="6.778" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to MyAccount home page" classname="viewReservation.viewReservationEditContactMethodTest" time="5.016" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Clicking on next go to trip details" classname="viewReservation.viewReservationEditContactMethodTest" time="0.7430" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to contact method page" classname="viewReservation.viewReservationEditContactMethodTest" time="0.5880" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Browser back to trip details page" classname="viewReservation.viewReservationEditContactMethodTest" time="0.2510" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Browser forward go to contact method page" classname="viewReservation.viewReservationEditContactMethodTest" time="0.3370" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="refresh on contact method to Upcoming trips page" classname="viewReservation.viewReservationEditContactMethodTest" time="6.196" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

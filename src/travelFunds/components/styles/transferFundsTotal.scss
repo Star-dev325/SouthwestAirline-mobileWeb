@@ -1,0 +1,20 @@
+.transfer-funds-total {
+  @include white;
+  @include bgpblue;
+  @include px5;
+  @include py3;
+  @include mt5;
+  @include regular;
+
+  &--amount {
+    @include px0;
+    @include caps;
+    @include xlarge;
+  }
+
+  &--travel-funds-text {
+    @include flex;
+    @include flex-row-reverse;
+    @include large;
+  }
+}

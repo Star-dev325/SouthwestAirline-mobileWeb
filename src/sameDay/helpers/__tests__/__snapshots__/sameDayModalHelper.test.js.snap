@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getShowStandbyDialogOptions should render popup with correct details 1`] = `
+Object {
+  "bodyClassName": "standby-faq-modal",
+  "className": "same-day-shopping-page",
+  "contentView": <React.Fragment>
+    <div
+      className="standby-faq-modal--modal-content-view"
+    >
+      <Icon
+        className="standby-faq-modal--modal-content-view_modal-info-icon"
+        type="bullet"
+      />
+      <span
+        className="standby-faq-modal--modal-content-view_modal-info-text"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Same day standby is only allowed on flights that depart <b>earlier</b> than your original itinerary. You cannot standby for flights that depart after your original departure time.",
+          }
+        }
+      />
+    </div>
+    <div
+      className="standby-faq-modal--modal-content-view"
+    >
+      <Icon
+        className="standby-faq-modal--modal-content-view_modal-info-icon"
+        type="bullet"
+      />
+      <span
+        className="standby-faq-modal--modal-content-view_modal-info-text"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "You can standby from a non-stop to a non-stop (including direct flights with no connections)",
+          }
+        }
+      />
+    </div>
+    <div
+      className="standby-faq-modal--modal-content-view"
+    >
+      <Icon
+        className="standby-faq-modal--modal-content-view_modal-info-icon"
+        type="bullet"
+      />
+      <span
+        className="standby-faq-modal--modal-content-view_modal-info-text"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "You can standby from a connecting flight to another connecting flight if the midpoint does not change",
+          }
+        }
+      />
+    </div>
+    <div
+      className="standby-faq-modal--modal-content-view"
+    >
+      <Icon
+        className="standby-faq-modal--modal-content-view_modal-info-icon"
+        type="bullet"
+      />
+      <span
+        className="standby-faq-modal--modal-content-view_modal-info-text"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "You cannot standby on a connecting trip if you are holding inventory on a non-stop. Vice versa, you cannot standby for a non-stop trip if you were originally holding inventory on a connecting flight",
+          }
+        }
+      />
+    </div>
+    <div
+      className="standby-faq-modal--modal-content-view"
+    >
+      <Icon
+        className="standby-faq-modal--modal-content-view_modal-info-icon"
+        type="bullet"
+      />
+      <span
+        className="standby-faq-modal--modal-content-view_modal-info-text"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Your <b>original</b> trip must be at least 30 minutes before departure in order to standby on other trips.",
+          }
+        }
+      />
+    </div>
+    <div
+      className="standby-faq-modal--modal-content-view"
+    >
+      <Icon
+        className="standby-faq-modal--modal-content-view_modal-info-icon"
+        type="bullet"
+      />
+      <span
+        className="standby-faq-modal--modal-content-view_modal-info-text"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Your <b>standby</b> flight must be at least 30 minutes before departure in order to choose for standby travel",
+          }
+        }
+      />
+    </div>
+  </React.Fragment>,
+  "headClassName": "head-faq-modal",
+  "name": "sameday-standby-list-faqs",
+  "title": "Listing for Standby has finally landed, but you may have to see an agent to list for them.",
+  "titleClassName": "title-faq-modal",
+  "verticalLinks": Object {
+    "hideCloseButton": true,
+    "links": Array [
+      Object {
+        "label": "Got it",
+        "onClick": [Function],
+        "style": "primary",
+      },
+      Object {
+        "label": "See more standby FAQs",
+        "onClick": [Function],
+        "style": "secondary",
+      },
+    ],
+  },
+}
+`;

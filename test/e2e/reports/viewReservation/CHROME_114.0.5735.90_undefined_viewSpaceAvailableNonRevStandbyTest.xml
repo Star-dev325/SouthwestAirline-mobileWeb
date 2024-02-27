@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="11">
+
+  <testsuite name="viewReservation.viewSpaceAvailableNonRevStandbyTest"
+    errors="0" failures="0" hostname="" id="" package="viewReservation" skipped="0"
+    tests="11" time="73.86" timestamp="Fri, 15 Dec 2023 02:24:13 GMT">
+  
+    <testcase name="Verify View Reservation home page" classname="viewReservation.viewSpaceAvailableNonRevStandbyTest" time="38.61" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to upcoming trips page and back" classname="viewReservation.viewSpaceAvailableNonRevStandbyTest" time="4.398" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find flight reservation through confirmation number" classname="viewReservation.viewSpaceAvailableNonRevStandbyTest" time="4.027" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="when user click browser back" classname="viewReservation.viewSpaceAvailableNonRevStandbyTest" time="4.392" assertions="0">
+    </testcase>
+  
+    <testcase name="Cached form data should be prefilled in air reservation form" classname="viewReservation.viewSpaceAvailableNonRevStandbyTest" time="0.2700" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="User go to view reservation page by click link" classname="viewReservation.viewSpaceAvailableNonRevStandbyTest" time="4.143" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Cached form data should be clean out" classname="viewReservation.viewSpaceAvailableNonRevStandbyTest" time="0.1870" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter flight reservation again and submit" classname="viewReservation.viewSpaceAvailableNonRevStandbyTest" time="1.864" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify view trip details page" classname="viewReservation.viewSpaceAvailableNonRevStandbyTest" time="1.575" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search history section should be presented" classname="viewReservation.viewSpaceAvailableNonRevStandbyTest" time="0.6580" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Refresh view reservation page and history section should be presented again" classname="viewReservation.viewSpaceAvailableNonRevStandbyTest" time="13.73" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

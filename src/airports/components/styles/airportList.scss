@@ -1,0 +1,107 @@
+.airports-container {
+  @include bgwhite;
+}
+
+.airport-list {
+  @include flex;
+  @include flex-column;
+  @include fullheight;
+  @include bgwhite;
+}
+
+.airport-list .page-header span {
+  @include white;
+}
+
+.airport-list .airport-group-container .airport-group span {
+  @include pdkblue;
+}
+
+.airport-list .airport-search-bar--cancel {
+  @include pblue;
+}
+
+.airport-list--results {
+  @include relative;
+  @include overflow-y-auto;
+  flex: 1;
+
+  &.no-header {
+    .airport-group-header {
+      display: none;
+    }
+  }
+}
+
+.airport-list--results_shadow {
+  @include fullwidth;
+  @include fullheight;
+  @include fixed;
+  @include t0;
+  @include l0;
+  @include bgpdkblue;
+  display: none;
+  z-index: 1000;
+  opacity: 0.2;
+}
+
+.airport-list--results_empty {
+  @include fullwidth;
+  @include gray5;
+  @include center;
+  padding-top: 28%;
+  font-size: 2.5rem;
+}
+
+.options-list--with-shadow {
+  .options-list--results {
+    @include overflow-hidden;
+  }
+
+  .options-list--results_shadow {
+    @include block;
+  }
+
+  .options-search-bar {
+    @include relative;
+    z-index: 1001;
+  }
+}
+
+.is-webview {
+  &.flight-status-search,
+  &.car-booking_search {
+    .airport-list {
+      .airport-search-bar {
+        @include for-tablet-and-up {
+          @include tablet-content-frame;
+          margin: 40px auto 0;
+        }
+      }
+
+      .airport-list--results {
+        @include for-tablet-and-up {
+          @include bgwhite;
+          @include tablet-content-frame;
+          margin: auto;
+        }
+      }
+    }
+  }
+
+  &.flight-status-search {
+    .airport-list {
+      @include for-tablet-and-up {
+        @include bg-flight-status;
+      }
+    }
+  }
+
+  &.car-booking_search {
+    .airport-list {
+      @include for-tablet-and-up {
+        @include bg-car-booking;
+      }
+    }
+  }
+}

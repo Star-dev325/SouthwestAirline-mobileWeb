@@ -1,0 +1,12 @@
+{
+  "revision": "20150304105043618",
+  "overlay": {
+    "title": "Conditions of Contract",
+    "body": [
+      {
+        "type": "text",
+        "value": "<p>Southwest Airlines Co. - Notice of Incorporated Terms - Air transportation operated by Southwest Airlines is subject to Southwest Airlines Passenger Contract of Carnage, the terms of which are incorporated by reference. Incorporated terms include but are not limited to: (1) Limits on liability for loss, damage to, or delayed delivery of passenger baggage, including fragile, perishable, and certain other irreplaceable and/or high value goods or contents, as specified in Article 75 of the Contract of Carriage. Baggage liability for covered items(except disability assistive devices) is limited to $3000 per fare-paying Customer unless excess valuation coverage is purchased. (2) Claims restrictions, including timeperiods in which Customers must file a claim or bring an action against Southwest. (3) Our rights to change terms of the Contract. (4) Rules on reservations, checkin times, refusal to carry, and smoking. (5) Our rights and limits of liability for delay or failure to perform service, including schedule changes, substitution of alternate air carriers or aircraft, and rerouting. (6) Overbooking: If we deny you boarding due to an oversale and you have obtained your boarding pass and are present and available for boarding in the departure gate area at least ten minutes before scheduled departure, with few exceptions, we compensate you.</p>\n<p>You may inspect Southwest's Contract of Carriage and Customer Service Commitment at any Southwest ticket counter or online at southwest,com, or obtain a copy by sending a request to: Southwest Airlines, V.P. Customer Relations, PO Box 36647, Dallas, TX 75235-1647. Note: When traveling on any flight operated by another carrier, that operating carrier&rsquo;s contract of carriage applies.</p>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+.reaccom-banner {
+  @include flex;
+  @include pb4;
+  @include white;
+  @include bgpdkblue;
+  @include inline-block;
+}
+
+.reaccom-banner-container {
+  @include medium;
+  @include pb4;
+  flex: 5;
+}
+
+.reaccom-banner-container--alert-icon {
+  @include circle;
+  @include bgred;
+  @include white;
+  @include bold;
+  @include xxxlarge;
+  width: 2.8rem;
+}
+
+.reaccom-banner-container--header {
+  @include block;
+  @include xxlarge;
+  @include flex-item-center;
+  @include pl5;
+}
+
+.reaccom-banner--body {
+  @include block;
+  @include large;
+}

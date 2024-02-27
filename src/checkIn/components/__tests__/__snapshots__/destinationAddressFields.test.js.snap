@@ -1,0 +1,344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Destination Address Fields should render default correctly 1`] = `
+<div
+  className="destination-address"
+>
+  <WithField(FormNavItemField)
+    name="isoCountryCode"
+    onNavItemClick={[Function]}
+    placeholder="Country"
+  />
+  <WithField(FormInputField)
+    maxLength={35}
+    name="addressLine"
+    placeholder="Street address"
+  />
+  <WithField(FormInputField)
+    name="city"
+    placeholder="City"
+  />
+  <WithField(FormSelectField)
+    className="province-field_us"
+    name="stateProvinceRegion"
+    options={
+      Array [
+        Object {
+          "label": "Alabama",
+          "value": "AL",
+        },
+        Object {
+          "label": "Alaska",
+          "value": "AK",
+        },
+        Object {
+          "label": "American Samoa",
+          "value": "AS",
+        },
+        Object {
+          "label": "Arizona",
+          "value": "AZ",
+        },
+        Object {
+          "label": "Arkansas",
+          "value": "AR",
+        },
+        Object {
+          "label": "Armed Forces Americas (except Canada)",
+          "value": "AA",
+        },
+        Object {
+          "label": "Armed Forces",
+          "value": "AE",
+        },
+        Object {
+          "label": "Armed Forces Pacific",
+          "value": "AP",
+        },
+        Object {
+          "label": "California",
+          "value": "CA",
+        },
+        Object {
+          "label": "Colorado",
+          "value": "CO",
+        },
+        Object {
+          "label": "Connecticut",
+          "value": "CT",
+        },
+        Object {
+          "label": "Delaware",
+          "value": "DE",
+        },
+        Object {
+          "label": "District of Columbia",
+          "value": "DC",
+        },
+        Object {
+          "label": "Federated States of Micronesia",
+          "value": "FM",
+        },
+        Object {
+          "label": "Florida",
+          "value": "FL",
+        },
+        Object {
+          "label": "Georgia",
+          "value": "GA",
+        },
+        Object {
+          "label": "Guam",
+          "value": "GU",
+        },
+        Object {
+          "label": "Hawaii",
+          "value": "HI",
+        },
+        Object {
+          "label": "Idaho",
+          "value": "ID",
+        },
+        Object {
+          "label": "Illinois",
+          "value": "IL",
+        },
+        Object {
+          "label": "Indiana",
+          "value": "IN",
+        },
+        Object {
+          "label": "Iowa",
+          "value": "IA",
+        },
+        Object {
+          "label": "Kansas",
+          "value": "KS",
+        },
+        Object {
+          "label": "Kentucky",
+          "value": "KY",
+        },
+        Object {
+          "label": "Louisiana",
+          "value": "LA",
+        },
+        Object {
+          "label": "Maine",
+          "value": "ME",
+        },
+        Object {
+          "label": "Marshall Islands",
+          "value": "MH",
+        },
+        Object {
+          "label": "Maryland",
+          "value": "MD",
+        },
+        Object {
+          "label": "Massachusetts",
+          "value": "MA",
+        },
+        Object {
+          "label": "Michigan",
+          "value": "MI",
+        },
+        Object {
+          "label": "Minnesota",
+          "value": "MN",
+        },
+        Object {
+          "label": "Mississippi",
+          "value": "MS",
+        },
+        Object {
+          "label": "Missouri",
+          "value": "MO",
+        },
+        Object {
+          "label": "Montana",
+          "value": "MT",
+        },
+        Object {
+          "label": "Nebraska",
+          "value": "NE",
+        },
+        Object {
+          "label": "Nevada",
+          "value": "NV",
+        },
+        Object {
+          "label": "New Hampshire",
+          "value": "NH",
+        },
+        Object {
+          "label": "New Jersey",
+          "value": "NJ",
+        },
+        Object {
+          "label": "New Mexico",
+          "value": "NM",
+        },
+        Object {
+          "label": "New York",
+          "value": "NY",
+        },
+        Object {
+          "label": "North Carolina",
+          "value": "NC",
+        },
+        Object {
+          "label": "North Dakota",
+          "value": "ND",
+        },
+        Object {
+          "label": "Northern Mariana Islands",
+          "value": "MP",
+        },
+        Object {
+          "label": "Ohio",
+          "value": "OH",
+        },
+        Object {
+          "label": "Oklahoma",
+          "value": "OK",
+        },
+        Object {
+          "label": "Oregon",
+          "value": "OR",
+        },
+        Object {
+          "label": "Palau",
+          "value": "PW",
+        },
+        Object {
+          "label": "Pennsylvania",
+          "value": "PA",
+        },
+        Object {
+          "label": "Puerto Rico",
+          "value": "PR",
+        },
+        Object {
+          "label": "Rhode Island",
+          "value": "RI",
+        },
+        Object {
+          "label": "South Carolina",
+          "value": "SC",
+        },
+        Object {
+          "label": "South Dakota",
+          "value": "SD",
+        },
+        Object {
+          "label": "Tennessee",
+          "value": "TN",
+        },
+        Object {
+          "label": "Texas",
+          "value": "TX",
+        },
+        Object {
+          "label": "Utah",
+          "value": "UT",
+        },
+        Object {
+          "label": "Vermont",
+          "value": "VT",
+        },
+        Object {
+          "label": "Virgin Islands",
+          "value": "VI",
+        },
+        Object {
+          "label": "Virginia",
+          "value": "VA",
+        },
+        Object {
+          "label": "Washington",
+          "value": "WA",
+        },
+        Object {
+          "label": "West Virginia",
+          "value": "WV",
+        },
+        Object {
+          "label": "Wisconsin",
+          "value": "WI",
+        },
+        Object {
+          "label": "Wyoming",
+          "value": "WY",
+        },
+      ]
+    }
+    placeholder="State"
+    required={true}
+    size="large"
+  />
+  <WithField(FormInputField)
+    mask="99999"
+    maskChar={null}
+    maxLength={5}
+    name="zipOrPostalCode"
+    placeholder="ZIP code"
+    size="large"
+    type="tel"
+  />
+  <Connect(FullScreenModal)
+    id="countryList"
+  >
+    <CountryList
+      onCancel={[Function]}
+      onSelectedCountry={[Function]}
+      selectedIsoCountryCode="US"
+      title="Select Country"
+    />
+  </Connect(FullScreenModal)>
+</div>
+`;
+
+exports[`Destination Address Fields should render international correctly 1`] = `
+<div
+  className="destination-address"
+>
+  <WithField(FormNavItemField)
+    name="isoCountryCode"
+    onNavItemClick={[Function]}
+    placeholder="Country"
+  />
+  <WithField(FormInputField)
+    maxLength={35}
+    name="addressLine"
+    placeholder="Street address"
+  />
+  <WithField(FormInputField)
+    name="city"
+    placeholder="City"
+  />
+  <WithField(FormInputField)
+    className="province-field_international"
+    name="stateProvinceRegion"
+    placeholder="State/Province/Region"
+    size="large"
+  />
+  <WithField(FormInputField)
+    maxLength={10}
+    name="zipOrPostalCode"
+    placeholder="Postal Code"
+    size="large"
+    type={null}
+  />
+  <Connect(FullScreenModal)
+    id="countryList"
+  >
+    <CountryList
+      onCancel={[Function]}
+      onSelectedCountry={[Function]}
+      selectedIsoCountryCode="NZ"
+      title="Select Country"
+    />
+  </Connect(FullScreenModal)>
+</div>
+`;

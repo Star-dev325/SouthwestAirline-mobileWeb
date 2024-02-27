@@ -1,0 +1,13 @@
+.car-reservation--vendor-logo {
+  max-width: 5rem;
+  max-height: 2.3rem;
+}
+
+.car-reservation-detail--currency {
+  @include inline-block;
+  @include ml2;
+}
+
+.car-reservation-detail .special-rate {
+  margin-bottom: -0.5rem;
+}

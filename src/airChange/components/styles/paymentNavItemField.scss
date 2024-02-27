@@ -1,0 +1,15 @@
+.payment-nav-item-field {
+  @include bgwhite;
+  @include bd;
+  @include ml0;
+  @include mt4;
+  @include gray3;
+
+  a.nav-item-link {
+    @include gray3;
+  }
+
+  .phone-number-field {
+    color: $black;
+  }
+}

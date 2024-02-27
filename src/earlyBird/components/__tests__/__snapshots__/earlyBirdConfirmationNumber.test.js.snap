@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`earlyBirdConfirmationNumber should render 1`] = `
+<div>
+  <div
+    class="early-bird-receipt-info"
+  >
+    <div
+      class="early-bird-receipt-info--confirmation"
+    >
+      <h4
+        class="early-bird-receipt-info--title"
+      >
+        EARLY_BIRD_CONFIRMATION_TITLE
+      </h4>
+      <label
+        class="early-bird-receipt-info--number"
+      />
+    </div>
+  </div>
+</div>
+`;

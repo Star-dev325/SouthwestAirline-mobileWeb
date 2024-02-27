@@ -1,0 +1,76 @@
+.same-day-price-difference {
+  .price-difference {
+    &-page--title {
+      @include center;
+    }
+
+    &--description {
+      @include bgwhite;
+      @include p5;
+      @include flex;
+
+      .icon_ic-info {
+        @include sblue;
+        @include mr2;
+      }
+    }
+  }
+
+  .price-difference-section {
+    @include mx5;
+
+    &--title {
+      @include p4;
+      @include pl0;
+      @include large;
+      @include bold;
+      @include gray5;
+    }
+  }
+
+  .price-difference-credit-section {
+    @include mx5;
+    @include mt6;
+    @include bgwhite;
+    @include py5;
+    @include px6;
+
+    &--price-line {
+      .price-line--title {
+        @include green;
+        @include larger;
+        @include bold;
+      }
+
+      .price-line--currency_total {
+        @include green;
+        @include xxlarge;
+      }
+    }
+
+    &--description {
+      @include gray5;
+      @include medium;
+      @include mt3;
+      @include mb3;
+      @include pr8;
+    }
+  }
+
+  .footer {
+    margin-top: 1rem;
+  }
+
+  &--basic-banner {
+    @include mx5;
+
+    &_icon {
+      @include sdkblue;
+      @include xxxlarge;
+    }
+
+    &_subtitle {
+      @include not-italic;
+    }
+  }
+}

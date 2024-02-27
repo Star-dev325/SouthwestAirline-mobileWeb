@@ -1,0 +1,124 @@
+.mbp {
+  @include flex-auto;
+  @include flex-column;
+  @include arial-font-family;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white;
+}
+
+.mbp-flex-col {
+  flex: 1;
+}
+
+.mbp-security-header {
+  margin-bottom: 20px;
+
+  .mbp-security-title {
+    @include pb4;
+    font-size: 16px;
+  }
+}
+
+.mbp-maininfo {
+  @include flex;
+  @include flex-main-between;
+}
+
+.mbp-barcode {
+  @include flex;
+  @include flex-main-center;
+  @include flex-cross-center;
+}
+
+.mbp-drinkcoupon {
+  @include fullwidth;
+  @include relative;
+  @include align-left;
+  @include larger;
+
+  @media only screen and (max-width: 320px) {
+    @include small;
+  }
+
+  &--logo {
+    @include fullwidth;
+    @include fullheight;
+    margin-bottom: 20px;
+  }
+
+  &--header {
+    @include bold;
+    @include absolute;
+    @include yellow;
+    left: 30%;
+    margin-right: 10px;
+    top: 15%;
+  }
+
+  &--text {
+    @include absolute;
+    left: 30%;
+    margin-right: 10px;
+    top: 30%;
+  }
+}
+
+.mbp-subinfo {
+  @include flex;
+  @include flex-main-between;
+  padding-bottom: 20px;
+  background: inherit;
+}
+
+.mbp-label {
+  padding-bottom: 5px;
+}
+
+.mbp-info {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mbp-info-white {
+  font-size: 16px;
+}
+
+.large-font {
+  font-size: 53px;
+}
+
+.mbp-label-small {
+  font-size: 11px;
+  padding-bottom: 6px;
+  text-align: left;
+}
+
+.add-to-apple-wallet {
+  flex: auto;
+}
+
+.add-to-apple-wallet-img {
+  width: 142px;
+  height: 44px;
+  float: right;
+}
+
+.add-to-google-pay {
+  flex: auto;
+}
+
+.add-to-google-pay-img {
+  width: 200px;
+  height: 36px;
+  float: right;
+}
+
+.no-info {
+  letter-spacing: 2px;
+}

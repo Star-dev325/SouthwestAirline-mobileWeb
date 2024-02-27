@@ -1,0 +1,49 @@
+.view-reservation-page {
+  @include bgpdkblue;
+
+  .nav.nav--justified .nav--item {
+    &:first-child {
+      border-top-left-radius: 4px;
+    }
+
+    &:last-of-type {
+      border-top-right-radius: 4px;
+    }
+  }
+
+  .form > .fields,
+  .form > .fields .field:last-child .ui.segment {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  .nav--item > a {
+    @include px4;
+    @include py5;
+    @include pblue;
+    @include lineheight10;
+    font-size: 0.9em;
+  }
+
+  .nav--item.active > a {
+    @include gray5;
+  }
+
+  .view-reservation {
+    .reservation-retrieval-form {
+      & > .custom-container {
+        @include p0;
+      }
+
+      .field {
+        .input {
+          @include square;
+        }
+      }
+
+      .select-input {
+        min-height: 4.42rem;
+      }
+    }
+  }
+}

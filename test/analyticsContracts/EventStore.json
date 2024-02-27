@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "addedEmergencyContact": { "type": "boolean"},
+    "addedKTN": { "type": "boolean"},
+    "addedPassport": { "type": "boolean"},
+    "addedRR": { "type": "boolean"},
+    "addedRedress": { "type": "boolean"},
+    "edited" : {
+      "editedKTN": {"type":  "boolean"},
+      "editedRedress": {"type":  "boolean"}
+    }
+  },
+  "required": []
+}

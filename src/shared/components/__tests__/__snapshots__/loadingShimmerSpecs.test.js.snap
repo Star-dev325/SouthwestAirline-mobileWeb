@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingShimmer when shouldDisplay is false should not render animate and effect elements 1`] = `
+<LoadingShimmer
+  shouldDisplay={false}
+>
+  <div
+    className="shimmer"
+    style={
+      Object {
+        "height": undefined,
+        "width": undefined,
+      }
+    }
+  >
+    <div
+      className="shimmer--children"
+    >
+      <div
+        id="test-div"
+        style={
+          Object {
+            "height": "1px",
+            "width": "1px",
+          }
+        }
+      />
+    </div>
+  </div>
+</LoadingShimmer>
+`;
+
+exports[`LoadingShimmer when shouldDisplay is true should render with height and width 1`] = `
+<LoadingShimmer
+  shouldDisplay={true}
+  styles={
+    Object {
+      "height": "1px",
+      "width": "1px",
+    }
+  }
+>
+  <div
+    className="shimmer bggray2"
+    style={
+      Object {
+        "height": "1px",
+        "width": "1px",
+      }
+    }
+  >
+    <div
+      className="shimmer--animate"
+    >
+      <div
+        className="shimmer--effect"
+      />
+      <div
+        className="shimmer--effect"
+      />
+    </div>
+    <div
+      className="shimmer--children"
+    >
+      <div />
+    </div>
+  </div>
+</LoadingShimmer>
+`;

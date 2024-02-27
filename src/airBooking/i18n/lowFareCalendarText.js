@@ -1,0 +1,6 @@
+export default {
+  AIR_BOOKING__LOW_FARE_CALENDAR__HEADER: 'Low Fare Calendar:',
+  AIR_BOOKING__LOW_FARE: 'Low Fare',
+  AIR_BOOKING__LOW_FARE_UPPERCASE: 'LOW FARE',
+  AIR_BOOKING__SELECT_FLIGHTS: 'Select flights'
+};

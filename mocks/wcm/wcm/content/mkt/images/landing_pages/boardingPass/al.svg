@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="24px" viewBox="0 0 52 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>SWA-iOS-BP-AL</title>
+    <g id="SWA-iOS-BP-AL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ALP">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="52" height="24" rx="6"></rect>
+            <text id="A-List" font-family="SouthwestSans-Bold, Southwest Sans" font-size="12" font-weight="bold" fill="#111B40">
+                <tspan x="11" y="16">A-List</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

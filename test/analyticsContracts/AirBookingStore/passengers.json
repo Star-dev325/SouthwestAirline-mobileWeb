@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "passengers": {
+      "type": "array",
+      "minItems": "1",
+      "items": {
+        "type": "object",
+        "properties": {
+          "birthYear": { "type": "string" },
+          "gender": {
+            "type": "string",
+            "enum": ["Male", "Female"]
+          },
+          "accountNumber": { "type": "string" },
+          "redressNumber": { "type": "boolean" },
+          "knownTravelerNumber": { "type": "boolean" },
+          "senior": { "type": "boolean" },
+          "receiptEmail": { "type": "string|undefined" }
+        },
+        "additionalProperties": false,
+        "required": [
+          "birthYear",
+          "gender",
+          "accountNumber",
+          "redressNumber",
+          "knownTravelerNumber",
+          "senior",
+          "receiptEmail"
+        ]
+      }
+    }
+  },
+  "required": [
+    "passengers"
+  ]
+}

@@ -1,0 +1,28 @@
+.flight-brief-summary .flight-time--time {
+  @include large;
+  @include gray4;
+  @include regular;
+}
+
+.flight-brief-summary--airplane {
+  @include relative;
+  top: 0.5em;
+}
+
+.flight-brief-summary {
+  &--summary-group {
+    @include flex-column;
+    @include flex;
+  }
+
+  &--overnight-indicator {
+    @include flex;
+    @include medium;
+    @include not-italic;
+    @include red;
+
+    &-icon {
+      @include lineheight14;
+    }
+  }
+}

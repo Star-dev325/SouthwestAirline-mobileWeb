@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactInfoTravelManagerFields should render the placeholder when value is not exist 1`] = `
+<div>
+  <form>
+    <div
+      class="fields grouped"
+    >
+      <label
+        class="fields--label"
+      >
+        SHARED__CONTACT_INFO_TRAVEL_MANAGER__LABEL
+      </label>
+      <div
+        class="field"
+      >
+        <a
+          class="nav-item-link nav-item-field nav-item-field no-duty-of-care-info-selected"
+          name="contactInfoTravelManagerContent"
+        >
+          <div
+            class="fullwidth"
+          >
+            <span>
+              SHARED__CONTACT_INFO_TRAVEL_MANAGER__ADD SHARED__CONTACT_METHOD__OPTIONAL
+            </span>
+            <div
+              class="nav-item-field-value"
+              data-qa="nav-item-field-value"
+            />
+          </div>
+          <i
+            class="nav-item-link--icon icon icon_keyboard-arrow-right"
+          />
+        </a>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`ContactInfoTravelManagerFields should render when value is exist 1`] = `
+<div>
+  <form>
+    <div
+      class="fields grouped"
+    >
+      <label
+        class="fields--label"
+      >
+        SHARED__CONTACT_INFO_TRAVEL_MANAGER__LABEL
+      </label>
+      <div
+        class="field"
+      >
+        <a
+          class="nav-item-link nav-item-field nav-item-field "
+          name="contactInfoTravelManagerContent"
+        >
+          <div
+            class="fullwidth"
+          >
+            <span />
+            <div
+              class="nav-item-field-value"
+              data-qa="nav-item-field-value"
+            >
+              (1) 123-456-7890
+            </div>
+          </div>
+          <i
+            class="nav-item-link--icon icon icon_keyboard-arrow-right"
+          />
+        </a>
+      </div>
+    </div>
+  </form>
+</div>
+`;

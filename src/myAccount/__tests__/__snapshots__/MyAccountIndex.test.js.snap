@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`myAccount Index should render default props 1`] = `
+<body>
+  <div>
+    <div
+      class="my-account"
+    >
+      <div>
+        <div>
+          <div
+            class="page-header"
+            id=""
+          >
+            MY_ACCOUNT__PAGE_HEADER_TITLE
+          </div>
+          <div />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

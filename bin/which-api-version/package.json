@@ -1,0 +1,21 @@
+{
+  "name": "which-api-version",
+  "version": "1.0.0",
+  "description": "Reports which version of the APIs is running in an environment",
+  "main": "whichApiVersion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install -s",
+    "start": "node ./whichApiVersion.js"
+  },
+  "author": "",
+  "private": true,
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "commander": "^2.9.0",
+    "dayjs": "^1.11.1",
+    "q": "^1.4.1",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}

@@ -1,0 +1,72 @@
+.standby-list-page {
+  @include bgpdkblue;
+}
+
+.standby-list--item {
+  @include flex;
+  @include flex-main-between;
+  @include flex-cross-center;
+
+  .standby-list--item-left {
+    @include center;
+    @include large;
+    width: 2.2rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+
+    .standby-list--item-circle {
+      @include circle;
+      @include fullheight;
+      @include flex;
+      @include flex-cross-center;
+      @include flex-main-center;
+    }
+
+    .confirmed {
+      @include bggreen;
+      @include white;
+    }
+
+    .unconfirmed {
+      @include bgsltblue;
+      @include black;
+      @include bold;
+    }
+  }
+
+  .standby-list--item-right {
+    @include flex11;
+    @include py5;
+    border-bottom: 1px solid $gray2;
+
+    .standby-list--item-name {
+      @include xlarge;
+    }
+  }
+
+  .standby-list--item-cleared {
+    @include bold;
+    @include green2;
+  }
+}
+
+.enhanced-standby-list--item {
+  .standby-list--item-right {
+    @include flex;
+    @include py6;
+
+    .standby-list--item-name {
+      @include flex-basis0;
+      @include flex-grow1;
+      @include flex-shrink1;
+      @include gray5;
+      @include large;
+      @include pl4;
+
+      &.standby-list--item-name-pnr {
+        @include bold;
+        @include pdkblue;
+      }
+    }
+  }
+}

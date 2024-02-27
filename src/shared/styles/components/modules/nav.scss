@@ -1,0 +1,76 @@
+.nav {
+  @include p0;
+  @include m0;
+  @include no-bullets;
+}
+
+.nav--item {
+  @include inline-block;
+  @include bggray1;
+  @include bold;
+  @include bd;
+  transition: 0.15s ease;
+
+  & > button {
+    @include block;
+    @include p5;
+    @include medium;
+    @include lineheight10;
+  }
+
+  &.active {
+    @include bgwhite;
+    border-color: $white;
+
+    & > button {
+      @include gray4;
+    }
+  }
+
+  &.disabled {
+    @include bgwhite;
+
+    & > button {
+      @include gray3;
+    }
+
+    &:hover {
+      cursor: not-allowed;
+    }
+  }
+
+  &_homepage-redesign {
+    @include border-none;
+    @include bdb;
+    @include bgwhite;
+
+    button {
+      @include gray4;
+    }
+
+    &.active {
+      @include bdb3;
+      @include bdpblue;
+
+      button {
+        @include pblue;
+      }
+    }
+  }
+}
+
+.nav.nav--justified {
+  @include flex;
+  @include fullwidth;
+
+  .nav--item {
+    @include block;
+    @include center;
+    flex: 1;
+    -webkit-tap-highlight-color: transparent;
+
+    & > button {
+      @include mx-auto;
+    }
+  }
+}

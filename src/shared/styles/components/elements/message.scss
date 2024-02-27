@@ -1,0 +1,44 @@
+.swa-message {
+  @include xxlarge;
+  @include p5;
+
+  .icon-container {
+    @include flex;
+    @include circle;
+    @include p1;
+    @include left;
+  }
+
+  .message--text {
+    @include white;
+    @include bold;
+    @include block;
+    padding-left: 4rem;
+  }
+
+  &.success {
+    .icon-container {
+      @include green;
+      @include bgwhite;
+      @include p1;
+      @include circle;
+    }
+  }
+
+  &.error {
+    .icon-container {
+      @include white;
+      @include bgred;
+    }
+  }
+
+  &.information {
+    .icon-container {
+      font-size: 3rem;
+    }
+
+    .message--text {
+      padding-left: 5rem;
+    }
+  }
+}

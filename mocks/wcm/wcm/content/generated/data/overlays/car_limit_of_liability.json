@@ -1,0 +1,12 @@
+{
+  "revision": "20150304105043618",
+  "overlay": {
+    "title": "Limit of Liability",
+    "body": [
+      {
+        "type": "text",
+        "value": "<p>Car rental company is solely responsible for fulfilling Customer's car rental reservation, including but not limited to availability of vehicles, pricing and payment for rentals, and the quality of service provided to the Customer making the reservation.</p>"
+      }
+    ]
+  }
+}

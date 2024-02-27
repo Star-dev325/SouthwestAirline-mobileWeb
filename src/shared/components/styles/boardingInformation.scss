@@ -1,0 +1,52 @@
+%info {
+  @include bold;
+  @include green;
+  @include xxxlarge;
+}
+
+.boarding-information {
+  @include bgltblue;
+
+  &--item-row {
+    @include fullwidth;
+    @include flex;
+    @include flex-main-around;
+  }
+
+  &--item {
+    @include center;
+    @include inline-block;
+
+    &-label {
+      @include gray5;
+      @include caps;
+    }
+
+    &-info {
+      @extend %info;
+    }
+
+    &-info_right {
+      @extend %info;
+      @include align-right;
+    }
+  }
+}
+
+.boarding-information--without-gate {
+  .without-gate--item-row {
+    @include ml5;
+  }
+
+  .without-gate--item-label {
+    @include italic;
+    @include gray5;
+  }
+
+  .without-gate--item-content {
+    @include green;
+    @include xxxlarge;
+    @include bold;
+    @include align-middle;
+  }
+}

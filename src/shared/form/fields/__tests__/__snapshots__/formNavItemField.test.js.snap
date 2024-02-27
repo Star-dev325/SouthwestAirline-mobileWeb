@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`formNavItemField should provide icon and iconClassName to NavItemLink 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <a
+        class="nav-item-link nav-item-field"
+        name="navItem"
+      >
+        <div
+          class="fullwidth"
+        >
+          <span>
+            placeholder
+          </span>
+          <div
+            class="nav-item-field-value"
+            data-qa="nav-item-field-value"
+          >
+            nav item value
+          </div>
+        </div>
+        <i
+          class="class icon icon_a"
+        />
+      </a>
+    </div>
+  </form>
+</div>
+`;

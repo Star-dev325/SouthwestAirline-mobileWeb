@@ -1,0 +1,7 @@
+export default {
+  SHARED__HEADER_BUTTON__CANCEL: 'Cancel',
+  SHARED__HEADER_BUTTON__EDIT: 'Edit',
+  SHARED__HEADER_BUTTON__LOGIN_LONG: 'Log in / Enroll',
+  SHARED__HEADER_BUTTON__LOGIN_SHORT: 'Log in',
+  SHARED__HEADER_BUTTON__LOGOUT: 'Log out'
+};

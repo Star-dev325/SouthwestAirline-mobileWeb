@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeaturesList should render correct styles with icon  1`] = `
+<div>
+  <ul
+    class="features-list"
+  >
+    <li
+      class="icon icon_check features-list--item"
+    >
+      <span
+        class="features-list--text"
+      >
+        The Feature
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`FeaturesList should render correct styles without icon  1`] = `
+<div>
+  <ul
+    class="features-list"
+  >
+    <li
+      class="icon icon_undefined features-list--no-icon"
+    >
+      <span
+        class="features-list--text"
+      >
+        The Feature
+      </span>
+    </li>
+  </ul>
+</div>
+`;

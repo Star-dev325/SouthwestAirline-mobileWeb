@@ -1,0 +1,27 @@
+.inline          { @include inline;          }
+.block           { @include block;           }
+.inline-block    { @include inline-block;    }
+.table           { @include table;           }
+.table-cell      { @include table-cell;      }
+.table-row       { @include table-row;       }
+.table-header-group { @include table-header-group; }
+.hide            { @include hide;            }
+
+.invisible       { @include invisible;       }
+.visible         { @include visible;         }
+.opacity-zero    { @include opacity-zero;    }
+
+.overflow-hidden { @include overflow-hidden; }
+.overflow-scroll { @include overflow-scroll; }
+.overflow-auto   { @include overflow-auto;   }
+
+.float-none      { @include float-none;      }
+.left            { @include left ;           }
+.right           { @include right;           }
+
+.fit             { @include fit;             }
+.fullwidth       { @include fullwidth;       }
+.halfwidth       { @include halfwidth;       }
+.fullheight      { @include fullheight;      }
+
+.no-bullets      { @include no-bullets;      }

@@ -1,0 +1,63 @@
+@media (max-width: 320px) {
+  .not-enough-points-dialog .button {
+    @include larger;
+  }
+}
+
+.pricing-summary-page {
+  .dynamic-placement .image-placement {
+    padding: 0.75em;
+  }
+}
+
+.is-webview {
+  &.pricing-summary-page {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .pricing-summary--content {
+        margin-top: $tablet-content-frame-margin-top;
+        padding-top: 0.75rem;
+
+        .image-placement:first-child {
+          @include mt0;
+        }
+      }
+
+      .pricing-summary--content,
+      .pricing-summary--promos {
+        @include tablet-content-frame-lg;
+        @include mx-auto;
+        @include bggray2;
+      }
+
+      .pricing-summary--promos {
+        margin-bottom: $tablet-content-frame-margin-bottom;
+        padding-bottom: 0.75rem;
+
+        .dynamic-placement .image-placement {
+          @include mb0;
+        }
+      }
+
+      .pricing-summary-notice {
+        @include bggray2;
+      }
+
+      .flight-summary-header {
+        @include flex;
+
+        .flight-summary-title,
+        .flight-day {
+          @include flex;
+          @include flex6;
+          @include flex-item-baseline;
+        }
+      }
+
+      .flight-summary-card {
+        @include mt0;
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StylizedLabel should render default text 1`] = `
+<span
+  key="0"
+  style={
+    Object {
+      "fontFamily": undefined,
+    }
+  }
+>
+  defaultText
+</span>
+`;
+
+exports[`StylizedLabel should render stylized label with fonts 1`] = `
+Array [
+  <span
+    key="0"
+    style={
+      Object {
+        "fontFamily": undefined,
+      }
+    }
+  >
+    one
+  </span>,
+  <span
+    key="1"
+    style={
+      Object {
+        "fontFamily": "Fairwater Script",
+      }
+    }
+  >
+    two
+  </span>,
+  <span
+    key="2"
+    style={
+      Object {
+        "fontFamily": "Southwest Sans",
+      }
+    }
+  >
+    three
+  </span>,
+]
+`;
+
+exports[`StylizedLabel should render stylized label with primary label colors 1`] = `
+Array [
+  <span
+    className="brandColor1"
+    key="0"
+    style={
+      Object {
+        "fontFamily": undefined,
+      }
+    }
+  >
+    one
+  </span>,
+  <span
+    className="brandColor2"
+    key="1"
+    style={
+      Object {
+        "fontFamily": undefined,
+      }
+    }
+  >
+    two
+  </span>,
+]
+`;

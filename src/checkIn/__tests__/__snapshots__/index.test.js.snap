@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckIn should render CheckIn route page 1`] = `
+<div>
+  <div
+    class="check-in"
+  >
+    <div>
+      View CheckIn Page
+    </div>
+  </div>
+</div>
+`;

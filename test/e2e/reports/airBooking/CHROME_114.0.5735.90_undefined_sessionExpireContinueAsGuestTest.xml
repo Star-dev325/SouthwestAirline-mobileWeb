@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="13">
+
+  <testsuite name="airBooking.sessionExpireContinueAsGuestTest"
+    errors="0" failures="0" hostname="" id="" package="airBooking" skipped="0"
+    tests="13" time="100.4" timestamp="Fri, 15 Dec 2023 00:55:34 GMT">
+  
+    <testcase name="Login user to do authenticated check" classname="airBooking.sessionExpireContinueAsGuestTest" time="51.77" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to air booking from nav drawer" classname="airBooking.sessionExpireContinueAsGuestTest" time="3.817" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find flight for one passenger from Dallas to Austin with Dollars" classname="airBooking.sessionExpireContinueAsGuestTest" time="13.75" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select flights" classname="airBooking.sessionExpireContinueAsGuestTest" time="2.235" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click continue button on price page" classname="airBooking.sessionExpireContinueAsGuestTest" time="13.47" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Back to flight products page" classname="airBooking.sessionExpireContinueAsGuestTest" time="3.353" assertions="0">
+    </testcase>
+  
+    <testcase name="Select flights again" classname="airBooking.sessionExpireContinueAsGuestTest" time="2.147" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click continue button on price page again" classname="airBooking.sessionExpireContinueAsGuestTest" time="3.868" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Using browser back" classname="airBooking.sessionExpireContinueAsGuestTest" time="0.1010" assertions="0">
+    </testcase>
+  
+    <testcase name="Click continue button from pricing page" classname="airBooking.sessionExpireContinueAsGuestTest" time="0.6330" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to passenger page with pre-fill passegner info" classname="airBooking.sessionExpireContinueAsGuestTest" time="0.1840" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to purchase summary page" classname="airBooking.sessionExpireContinueAsGuestTest" time="0.6020" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Session expire on edit mode and click update" classname="airBooking.sessionExpireContinueAsGuestTest" time="4.468" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

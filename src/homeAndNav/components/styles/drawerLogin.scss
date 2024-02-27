@@ -1,0 +1,29 @@
+.drawer-login {
+  @include relative;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-bottom: 1px solid $gray2;
+
+  .icon_keyboard-arrow-right {
+    width: 15px;
+  }
+}
+
+.drawer-login--placeholder {
+  @include table;
+}
+
+.drawer-login--reminder {
+  @include table-cell;
+  @include pl4;
+  @include align-middle;
+  @include pdkblue;
+  @include italic;
+  font-size: 1.3rem;
+}
+
+.drawer-login--icon_profile {
+  @include table-cell;
+  @include gray5;
+  @include align-middle;
+  font-size: 2rem;
+}

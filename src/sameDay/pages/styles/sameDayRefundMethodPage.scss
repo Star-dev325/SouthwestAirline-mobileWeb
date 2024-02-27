@@ -1,0 +1,141 @@
+.same-day-refund-method {
+
+  &--payment-nav-item-field {
+    @include bdl-none;
+    @include bdr-none;
+    @include m0;
+  }
+
+  .same-day-refund-method-credit-section {
+    @include bgwhite;
+    @include mt6;
+    @include px6;
+    @include py5;
+    @include mx5;
+
+    &--description {
+      @include gray5;
+      @include mb3;
+      @include medium;
+      @include mt3;
+      @include pr8;
+    }
+  }
+
+  &--form-title {
+    text-align: left;
+  }
+
+  &--form-body {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  &--form-option {
+    @include large;
+  }
+
+  &--form-option_first {
+    @include mb4;
+  }
+
+  &--price-line {
+    &-title {
+      @include bold;
+      @include green;
+      @include larger;
+    }
+
+    &-currency-total {
+      @include green;
+      @include xxlarge;
+    }
+  }
+
+  &--footer {
+    @include absolute;
+    @include align-right;
+    @include b0;
+    @include fullwidth;
+  }
+
+  &--divider {
+    @include bdb;
+    @include bdgray2;
+    @include mt6;
+  }
+
+  .price-difference-credit-section {
+    @include bgwhite;
+    @include mt6;
+
+    &--total-due {
+      @include mx5;
+      @include py5;
+    }
+
+    &--no-margin-top-with-border {
+      @include bdt;
+      @include mt0;
+    }
+
+    &--price-line {
+      @include px6;
+
+      .price-line--title {
+        @include black;
+        @include bold;
+        @include larger;
+      }
+
+      .price-line--currency_total {
+        @include black;
+        @include xxlarge;
+      }
+    }
+
+    &--description {
+      @include gray5;
+      @include mb3;
+      @include medium;
+      @include mt3;
+      @include pr8;
+      @include px6;
+    }
+  }
+
+  .same-day-standby-price-difference {
+    &--footer {
+      @include absolute;
+      @include b0;
+      @include fullwidth;
+    }
+  }
+
+  .same-day-refund-method-list {
+
+    &-section {
+      @include bgwhite;
+      @include p6;
+      @include pt0;
+      @include mx5;
+
+      &-title {
+        @include gray5;
+        @include medium;
+        @include pb0;
+      }
+
+      &--error-text {
+        @include red;
+      }
+
+      &--text {
+        @include larger;
+        @include mt1;
+        @include pb0;
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.my-rapid-rewards-snapshot {
+  .pts-group {
+    @include mb4;
+  }
+
+  .segment-border-top {
+    border-top: 1px solid $gray2;
+  }
+
+  .progress-bar-group {
+    @include mb4;
+
+    &:last-child {
+      @include mb0;
+    }
+  }
+
+  .segment + .panel {
+    margin-top: 0.8em;
+  }
+
+  .call-to-companion {
+    @include center;
+    @include gray5;
+    padding: 0 0 1em;
+
+    .button {
+      @include px0;
+    }
+
+    .companion-pass-info-container {
+      @include py2;
+      @include px6;
+      @include gray4;
+    }
+
+    .read-more-link {
+      @include pblue;
+      @include larger;
+      @include pl0;
+      @include medium;
+    }
+
+    .earn-boost {
+      @include overflow-hidden;
+      @include ellipsis;
+      @include lineheight10;
+      @include block;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+  }
+
+  .call-to-companion--description {
+    padding: 1em 2em;
+  }
+
+  .expression-info {
+    @include gray5;
+
+    p {
+      @include inline;
+      @include m0;
+    }
+  }
+}

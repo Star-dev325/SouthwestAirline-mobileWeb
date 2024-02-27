@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BoundSelectForm passenger details should not show passenger details when passenger details not exist 1`] = `null`;
+
+exports[`BoundSelectForm passenger details should show passenger details when passenger details exist 1`] = `
+<div
+  className="passenger-details"
+>
+  <div
+    className="disclaimer"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Flight changes apply to all passengers on this reservation. If you need to make changes to one person on your itinerary, please call , <a href=\\"tel:18004359792\\">1 800 I FLY SWA( 1-800-435-9792)</a>.",
+      }
+    }
+  />
+  <div
+    className="passenger-list-wrap"
+  >
+    <div
+      className="passenger-list"
+    >
+      PASSENGER(S)
+    </div>
+    <span
+      className="passenger-name"
+      key="0"
+    >
+      Tesla Awesome
+    </span>
+    <span
+      className="passenger-name"
+      key="1"
+    >
+      Tesla Smart
+    </span>
+  </div>
+</div>
+`;
+
+exports[`BoundSelectForm radio interaction when selectType is radio should render  1`] = `
+Array [
+  <FormRadioMarkField
+    callback={[Function]}
+    className="field bound-selection-field"
+    clearError={[Function]}
+    name="firstbound"
+    onChange={[Function]}
+    size="large"
+    value={true}
+  >
+    <div
+      className="field bound-selection-field"
+    >
+      <div
+        className="flex2 flex flex-main-center"
+        onClick={[Function]}
+      >
+        <RadioButtonMark
+          isChecked={true}
+        >
+          <span
+            className="radio-button--mark"
+          >
+            <span
+              className="radio-input--mark active"
+            />
+          </span>
+        </RadioButtonMark>
+      </div>
+    </div>
+  </FormRadioMarkField>,
+  <FormRadioMarkField
+    callback={[Function]}
+    className="field bound-selection-field"
+    clearError={[Function]}
+    name="secondbound"
+    onChange={[Function]}
+    size="large"
+    value={false}
+  >
+    <div
+      className="field bound-selection-field"
+    >
+      <div
+        className="flex2 flex flex-main-center"
+        onClick={[Function]}
+      >
+        <RadioButtonMark
+          isChecked={false}
+        >
+          <span
+            className="radio-button--mark"
+          >
+            <span
+              className="radio-input--mark"
+            />
+          </span>
+        </RadioButtonMark>
+      </div>
+    </div>
+  </FormRadioMarkField>,
+]
+`;

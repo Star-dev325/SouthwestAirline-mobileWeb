@@ -1,0 +1,13 @@
+.is-webview {
+  &.air-booking-passenger-passport-page {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .passport-form {
+        @include bggray2;
+        @include tablet-content-frame-lg;
+        @include tablet-content-margins;
+      }
+    }
+  }
+}

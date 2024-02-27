@@ -1,0 +1,1732 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarShoppingResultsPage not render should not render when prop CarResults is null 1`] = `
+<div>
+  <div
+    data-qa="car-shopping-result"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex-grow1"
+          >
+            <b>
+              CAR_BOOKING__RESULTS__HEADER
+            </b>
+            <em
+              class="car-shopping-results-date-range-container"
+            >
+              Fri, Mar 23 to Mon, Mar 26
+            </em>
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+    <div
+      class="car-shopping-results-container"
+    >
+      <div
+        class="mt6"
+        data-qa="promo-code-banner"
+      />
+      <div
+        class="px4 pb6"
+      >
+        <div
+          class="car-shopping-results-message"
+        >
+          CAR_BOOKING__RESULTS__TOTAL_MESSAGE
+          CAR_BOOKING__RESULTS__TAXES_FEES_MESSAGE
+        </div>
+        <div />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CarShoppingResultsPage render should display the page header 1`] = `
+<div>
+  <div
+    data-qa="car-shopping-result"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex-grow1"
+          >
+            <b>
+              CAR_BOOKING__RESULTS__HEADER
+            </b>
+            <em
+              class="car-shopping-results-date-range-container"
+            >
+              Fri, Mar 23 to Mon, Mar 26
+            </em>
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+    <div
+      class="car-shopping-results-container"
+    >
+      <div
+        class="car-type-strip mt6"
+      >
+        <div>
+          <i
+            class="xxxlarge yellow l0 icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <ul
+          class="car-type-strip--content"
+        >
+          <li
+            class="car-type-strip--item"
+          >
+            <div>
+              <div>
+                Compact
+              </div>
+              <div>
+                <i>
+                  from 
+                </i>
+                <div
+                  class="currency car-type-strip--currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    35
+                  </span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            class="car-type-strip--item active"
+          >
+            <div>
+              <div>
+                Mid-size
+              </div>
+              <div>
+                <i>
+                  from 
+                </i>
+                <div
+                  class="currency car-type-strip--currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    37
+                  </span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            class="car-type-strip--item"
+          >
+            <div>
+              <div>
+                Full-size
+              </div>
+              <div>
+                <i>
+                  from 
+                </i>
+                <div
+                  class="currency car-type-strip--currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    37
+                  </span>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div>
+          <i
+            class="xxxlarge yellow r0 icon icon_keyboard-arrow-right"
+          />
+        </div>
+      </div>
+      <div
+        class="mt6"
+        data-qa="promo-code-banner"
+      />
+      <div
+        class="px4 pb6"
+      >
+        <div
+          class="car-shopping-results-message"
+        >
+          CAR_BOOKING__RESULTS__TOTAL_MESSAGE
+          CAR_BOOKING__RESULTS__TAXES_FEES_MESSAGE
+        </div>
+        <div>
+          <div
+            class="car-result"
+            data-qa="car-result-available"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Hertz_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pl3 green pb2"
+              >
+                Earn up to 600 points
+              </div>
+              <div
+                class="rapid-rewards-partners"
+              >
+                CAR_BOOKING__RAPID_REWARDS_PARTNERS__COPY
+              </div>
+            </div>
+            <div
+              class="bgyellow rdr2 flex4 p4 flex flex-column flex-main-between"
+            >
+              <div />
+              <div
+                class="pb4 center"
+              >
+                <div
+                  class="currency available-car-vendor--currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    36.93
+                  </span>
+                </div>
+                <div
+                  class="italic"
+                >
+                  CAR_BOOKING__RESULT__PER_DAY
+                </div>
+              </div>
+              <div
+                class="center"
+              >
+                <div
+                  class="currency inline"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    110.79
+                  </span>
+                </div>
+                <span
+                  class="medium italic inline-block pl2"
+                >
+                  CAR_BOOKING__RESULT__TOTAL
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-available"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Avis_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pl3 green pb2"
+              >
+                Earn up to 600 points
+              </div>
+              <div
+                class="rapid-rewards-partners"
+              >
+                CAR_BOOKING__RAPID_REWARDS_PARTNERS__COPY
+              </div>
+            </div>
+            <div
+              class="bgyellow rdr2 flex4 p4 flex flex-column flex-main-between"
+            >
+              <div />
+              <div
+                class="pb4 center"
+              >
+                <div
+                  class="currency available-car-vendor--currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    36.97
+                  </span>
+                </div>
+                <div
+                  class="italic"
+                >
+                  CAR_BOOKING__RESULT__PER_DAY
+                </div>
+              </div>
+              <div
+                class="center"
+              >
+                <div
+                  class="currency inline"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    110.91
+                  </span>
+                </div>
+                <span
+                  class="medium italic inline-block pl2"
+                >
+                  CAR_BOOKING__RESULT__TOTAL
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-available"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/National_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pl3 green pb2"
+              >
+                Earn up to 600 points
+              </div>
+              <div
+                class="rapid-rewards-partners"
+              >
+                CAR_BOOKING__RAPID_REWARDS_PARTNERS__COPY
+              </div>
+            </div>
+            <div
+              class="bgyellow rdr2 flex4 p4 flex flex-column flex-main-between"
+            >
+              <div />
+              <div
+                class="pb4 center"
+              >
+                <div
+                  class="currency available-car-vendor--currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    90.07
+                  </span>
+                </div>
+                <div
+                  class="italic"
+                >
+                  CAR_BOOKING__RESULT__PER_DAY
+                </div>
+              </div>
+              <div
+                class="center"
+              >
+                <div
+                  class="currency inline"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    270.19
+                  </span>
+                </div>
+                <span
+                  class="medium italic inline-block pl2"
+                >
+                  CAR_BOOKING__RESULT__TOTAL
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-available"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Enterprise_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="bgyellow rdr2 flex4 p4 flex flex-column flex-main-between"
+            >
+              <div />
+              <div
+                class="pb4 center"
+              >
+                <div
+                  class="currency available-car-vendor--currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    72.96
+                  </span>
+                </div>
+                <div
+                  class="italic"
+                >
+                  CAR_BOOKING__RESULT__PER_DAY
+                </div>
+              </div>
+              <div
+                class="center"
+              >
+                <div
+                  class="currency inline"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    218.86
+                  </span>
+                </div>
+                <span
+                  class="medium italic inline-block pl2"
+                >
+                  CAR_BOOKING__RESULT__TOTAL
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-unavailable"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Alamo_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pl3 green pb2"
+              >
+                Earn up to 600 points
+              </div>
+              <div
+                class="rapid-rewards-partners"
+              >
+                CAR_BOOKING__RAPID_REWARDS_PARTNERS__COPY
+              </div>
+            </div>
+            <div
+              class="bggray2 rdr2 flex4 p4 flex flex-main-center flex-cross-center"
+            >
+              <div
+                class="gray5"
+              >
+                CAR_BOOKING__RESULT__UNAVAILABLE
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-unavailable"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Budget_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pl3 green pb2"
+              >
+                Earn up to 600 points
+              </div>
+              <div
+                class="rapid-rewards-partners"
+              >
+                CAR_BOOKING__RAPID_REWARDS_PARTNERS__COPY
+              </div>
+            </div>
+            <div
+              class="bggray2 rdr2 flex4 p4 flex flex-main-center flex-cross-center"
+            >
+              <div
+                class="gray5"
+              >
+                CAR_BOOKING__RESULT__UNAVAILABLE
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-unavailable"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Dollar_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pl3 green pb2"
+              >
+                Earn up to 600 points
+              </div>
+              <div
+                class="rapid-rewards-partners"
+              >
+                CAR_BOOKING__RAPID_REWARDS_PARTNERS__COPY
+              </div>
+            </div>
+            <div
+              class="bggray2 rdr2 flex4 p4 flex flex-main-center flex-cross-center"
+            >
+              <div
+                class="gray5"
+              >
+                CAR_BOOKING__RESULT__UNAVAILABLE
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-unavailable"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Payless_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pl3 green pb2"
+              >
+                Earn up to 600 points
+              </div>
+              <div
+                class="rapid-rewards-partners"
+              >
+                CAR_BOOKING__RAPID_REWARDS_PARTNERS__COPY
+              </div>
+            </div>
+            <div
+              class="bggray2 rdr2 flex4 p4 flex flex-main-center flex-cross-center"
+            >
+              <div
+                class="gray5"
+              >
+                CAR_BOOKING__RESULT__UNAVAILABLE
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-unavailable"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Thrifty_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pl3 green pb2"
+              >
+                Earn up to 600 points
+              </div>
+              <div
+                class="rapid-rewards-partners"
+              >
+                CAR_BOOKING__RAPID_REWARDS_PARTNERS__COPY
+              </div>
+            </div>
+            <div
+              class="bggray2 rdr2 flex4 p4 flex flex-main-center flex-cross-center"
+            >
+              <div
+                class="gray5"
+              >
+                CAR_BOOKING__RESULT__UNAVAILABLE
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-unavailable"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Advantage_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="bggray2 rdr2 flex4 p4 flex flex-main-center flex-cross-center"
+            >
+              <div
+                class="gray5"
+              >
+                CAR_BOOKING__RESULT__UNAVAILABLE
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-unavailable"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/EZ_Logo_results_price.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="bggray2 rdr2 flex4 p4 flex flex-main-center flex-cross-center"
+            >
+              <div
+                class="gray5"
+              >
+                CAR_BOOKING__RESULT__UNAVAILABLE
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-unavailable"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Fox_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="bggray2 rdr2 flex4 p4 flex flex-main-center flex-cross-center"
+            >
+              <div
+                class="gray5"
+              >
+                CAR_BOOKING__RESULT__UNAVAILABLE
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CarShoppingResultsPage render should display the page header if the isWebView prop is true 1`] = `
+<div>
+  <div
+    data-qa="car-shopping-result"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex-grow1"
+          >
+            <b>
+              CAR_BOOKING__RESULTS__HEADER
+            </b>
+          </div>
+          <div
+            class="flex-shrink1 normal italics"
+          >
+            undefined - undefined
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+    <div
+      class="car-shopping-results-container"
+    >
+      <div
+        class="car-shopping-results-dates"
+      >
+        Fri, Mar 23
+        <i>
+           to 
+        </i>
+        Mon, Mar 26
+      </div>
+      <div
+        class="car-type-strip mt5"
+      >
+        <div>
+          <i
+            class="xxxlarge yellow l0 icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <ul
+          class="car-type-strip--content"
+        >
+          <li
+            class="car-type-strip--item"
+          >
+            <div>
+              <div>
+                Compact
+              </div>
+              <div>
+                <i>
+                  from 
+                </i>
+                <div
+                  class="currency car-type-strip--currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    35
+                  </span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            class="car-type-strip--item active"
+          >
+            <div>
+              <div>
+                Mid-size
+              </div>
+              <div>
+                <i>
+                  from 
+                </i>
+                <div
+                  class="currency car-type-strip--currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    37
+                  </span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            class="car-type-strip--item"
+          >
+            <div>
+              <div>
+                Full-size
+              </div>
+              <div>
+                <i>
+                  from 
+                </i>
+                <div
+                  class="currency car-type-strip--currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    37
+                  </span>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div>
+          <i
+            class="xxxlarge yellow r0 icon icon_keyboard-arrow-right"
+          />
+        </div>
+      </div>
+      <div
+        class="mt6"
+        data-qa="promo-code-banner"
+      />
+      <div
+        class="px4 pb6"
+      >
+        <div
+          class="car-shopping-results-message"
+        >
+          CAR_BOOKING__RESULTS__TOTAL_MESSAGE
+          CAR_BOOKING__RESULTS__TAXES_FEES_MESSAGE
+        </div>
+        <div>
+          <div
+            class="car-result"
+            data-qa="car-result-available"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Hertz_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pl3 green pb2"
+              >
+                Earn up to 600 points
+              </div>
+              <div
+                class="rapid-rewards-partners"
+              >
+                CAR_BOOKING__RAPID_REWARDS_PARTNERS__COPY
+              </div>
+            </div>
+            <div
+              class="bgyellow rdr2 flex4 p4 flex flex-column flex-main-between"
+            >
+              <div />
+              <div
+                class="pb4 center"
+              >
+                <div
+                  class="currency available-car-vendor--currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    36.93
+                  </span>
+                </div>
+                <div
+                  class="italic"
+                >
+                  CAR_BOOKING__RESULT__PER_DAY
+                </div>
+              </div>
+              <div
+                class="center"
+              >
+                <div
+                  class="currency inline"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    110.79
+                  </span>
+                </div>
+                <span
+                  class="medium italic inline-block pl2"
+                >
+                  CAR_BOOKING__RESULT__TOTAL
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-available"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Avis_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pl3 green pb2"
+              >
+                Earn up to 600 points
+              </div>
+              <div
+                class="rapid-rewards-partners"
+              >
+                CAR_BOOKING__RAPID_REWARDS_PARTNERS__COPY
+              </div>
+            </div>
+            <div
+              class="bgyellow rdr2 flex4 p4 flex flex-column flex-main-between"
+            >
+              <div />
+              <div
+                class="pb4 center"
+              >
+                <div
+                  class="currency available-car-vendor--currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    36.97
+                  </span>
+                </div>
+                <div
+                  class="italic"
+                >
+                  CAR_BOOKING__RESULT__PER_DAY
+                </div>
+              </div>
+              <div
+                class="center"
+              >
+                <div
+                  class="currency inline"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    110.91
+                  </span>
+                </div>
+                <span
+                  class="medium italic inline-block pl2"
+                >
+                  CAR_BOOKING__RESULT__TOTAL
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-available"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/National_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pl3 green pb2"
+              >
+                Earn up to 600 points
+              </div>
+              <div
+                class="rapid-rewards-partners"
+              >
+                CAR_BOOKING__RAPID_REWARDS_PARTNERS__COPY
+              </div>
+            </div>
+            <div
+              class="bgyellow rdr2 flex4 p4 flex flex-column flex-main-between"
+            >
+              <div />
+              <div
+                class="pb4 center"
+              >
+                <div
+                  class="currency available-car-vendor--currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    90.07
+                  </span>
+                </div>
+                <div
+                  class="italic"
+                >
+                  CAR_BOOKING__RESULT__PER_DAY
+                </div>
+              </div>
+              <div
+                class="center"
+              >
+                <div
+                  class="currency inline"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    270.19
+                  </span>
+                </div>
+                <span
+                  class="medium italic inline-block pl2"
+                >
+                  CAR_BOOKING__RESULT__TOTAL
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-available"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Enterprise_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="bgyellow rdr2 flex4 p4 flex flex-column flex-main-between"
+            >
+              <div />
+              <div
+                class="pb4 center"
+              >
+                <div
+                  class="currency available-car-vendor--currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    72.96
+                  </span>
+                </div>
+                <div
+                  class="italic"
+                >
+                  CAR_BOOKING__RESULT__PER_DAY
+                </div>
+              </div>
+              <div
+                class="center"
+              >
+                <div
+                  class="currency inline"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    218.86
+                  </span>
+                </div>
+                <span
+                  class="medium italic inline-block pl2"
+                >
+                  CAR_BOOKING__RESULT__TOTAL
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-unavailable"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Alamo_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pl3 green pb2"
+              >
+                Earn up to 600 points
+              </div>
+              <div
+                class="rapid-rewards-partners"
+              >
+                CAR_BOOKING__RAPID_REWARDS_PARTNERS__COPY
+              </div>
+            </div>
+            <div
+              class="bggray2 rdr2 flex4 p4 flex flex-main-center flex-cross-center"
+            >
+              <div
+                class="gray5"
+              >
+                CAR_BOOKING__RESULT__UNAVAILABLE
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-unavailable"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Budget_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pl3 green pb2"
+              >
+                Earn up to 600 points
+              </div>
+              <div
+                class="rapid-rewards-partners"
+              >
+                CAR_BOOKING__RAPID_REWARDS_PARTNERS__COPY
+              </div>
+            </div>
+            <div
+              class="bggray2 rdr2 flex4 p4 flex flex-main-center flex-cross-center"
+            >
+              <div
+                class="gray5"
+              >
+                CAR_BOOKING__RESULT__UNAVAILABLE
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-unavailable"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Dollar_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pl3 green pb2"
+              >
+                Earn up to 600 points
+              </div>
+              <div
+                class="rapid-rewards-partners"
+              >
+                CAR_BOOKING__RAPID_REWARDS_PARTNERS__COPY
+              </div>
+            </div>
+            <div
+              class="bggray2 rdr2 flex4 p4 flex flex-main-center flex-cross-center"
+            >
+              <div
+                class="gray5"
+              >
+                CAR_BOOKING__RESULT__UNAVAILABLE
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-unavailable"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Payless_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pl3 green pb2"
+              >
+                Earn up to 600 points
+              </div>
+              <div
+                class="rapid-rewards-partners"
+              >
+                CAR_BOOKING__RAPID_REWARDS_PARTNERS__COPY
+              </div>
+            </div>
+            <div
+              class="bggray2 rdr2 flex4 p4 flex flex-main-center flex-cross-center"
+            >
+              <div
+                class="gray5"
+              >
+                CAR_BOOKING__RESULT__UNAVAILABLE
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-unavailable"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Thrifty_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pl3 green pb2"
+              >
+                Earn up to 600 points
+              </div>
+              <div
+                class="rapid-rewards-partners"
+              >
+                CAR_BOOKING__RAPID_REWARDS_PARTNERS__COPY
+              </div>
+            </div>
+            <div
+              class="bggray2 rdr2 flex4 p4 flex flex-main-center flex-cross-center"
+            >
+              <div
+                class="gray5"
+              >
+                CAR_BOOKING__RESULT__UNAVAILABLE
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-unavailable"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Advantage_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="bggray2 rdr2 flex4 p4 flex flex-main-center flex-cross-center"
+            >
+              <div
+                class="gray5"
+              >
+                CAR_BOOKING__RESULT__UNAVAILABLE
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-unavailable"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/EZ_Logo_results_price.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="bggray2 rdr2 flex4 p4 flex flex-main-center flex-cross-center"
+            >
+              <div
+                class="gray5"
+              >
+                CAR_BOOKING__RESULT__UNAVAILABLE
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-result"
+            data-qa="car-result-unavailable"
+          >
+            <div
+              class="bgwhite rdl2 flex8 flex flex-column flex-main-between"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex5"
+                >
+                  <div
+                    class="flex flex-cross-center car-vendor-logo-container"
+                  >
+                    <div>
+                      <img
+                        class="fit car-vendor-logo ml3"
+                        src="/content/mkt/images/car_vendors/Fox_Logo_results.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="bggray2 rdr2 flex4 p4 flex flex-main-center flex-cross-center"
+            >
+              <div
+                class="gray5"
+              >
+                CAR_BOOKING__RESULT__UNAVAILABLE
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

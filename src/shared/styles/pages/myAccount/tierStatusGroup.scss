@@ -1,0 +1,43 @@
+.tier-status-group--label {
+  @include center;
+  @include italic;
+
+  b {
+    @include not-italic;
+  }
+}
+
+.tier-status-group--status {
+  @include table;
+  @include fullwidth;
+  padding: 1em 0.5em;
+
+  &.companion-pass {
+    .tier-status--graph {
+      & > .donut-progress-bar {
+        path.donut-progress-bar--fill {
+          stroke: $teal;
+        }
+      }
+
+      & > .icon {
+        @include teal;
+      }
+    }
+  }
+}
+
+.tier-status-group--status-col {
+  @include relative;
+  @include table-cell;
+  @include align-middle;
+  @include center;
+}
+
+.tier-status-group--status-col_graph {
+  width: 50%;
+}
+
+.tier-status-group--footnote {
+  font-size: 0.8em;
+}

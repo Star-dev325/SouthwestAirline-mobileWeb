@@ -1,0 +1,82 @@
+.upgraded-boarding-purchase-form {
+  @include m0;
+
+  .ub-purchase-summary {
+    @include m0;
+    @include p5;
+
+    .bounds-header {
+      @include m0;
+    }
+
+    .ub-eligible-flight-section {
+      @include bgwhite;
+      @include ml0;
+      @include my4;
+    }
+
+    .ub-eligible-flight-pax-section {
+      @include p5;
+
+      .ub-eligible-flight-pax-title {
+        @include medium;
+        @include gray5;
+      }
+
+      .ub-eligible-flight-pax-info {
+        @include xlarge;
+        @include pt3;
+      }
+
+      .ub-eligible-flight-pax-rr {
+        @include gray5;
+      }
+
+      .ub-eligible-flight-available-position-text {
+        @include green;
+        @include pt5;
+        @include larger;
+
+        .ub-eligible-flight-available-position {
+          @include bold;
+        }
+      }
+    }
+
+    .ub-section-title {
+      @include large;
+      @include bold;
+      @include gray5;
+      @include mb4;
+      @include pt5;
+    }
+  }
+
+  &--info-container {
+    @include gray5;
+    @include p5;
+    @include large;
+  }
+
+  &--info-message {
+    @include my4;
+  }
+}
+
+.is-webview {
+  &.upgraded-boarding-purchase-page {
+    @include for-tablet-and-up {
+      @include bgpdkblue;
+
+      .upgraded-boarding-purchase-form {
+        @include tablet-content-margins;
+        @include tablet-content-frame-lg;
+        @include mx-auto;
+      }
+
+      .ub-purchase-summary {
+        @include bggray2;
+      }
+    }
+  }
+}

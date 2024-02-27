@@ -1,0 +1,14 @@
+.passengers-record-locators--row {
+  @include flex;
+  @include white;
+}
+
+.passengers-record-locators--first-column {
+  @include flex8;
+  @include overflow-hidden;
+}
+
+.passengers-record-locators--second-column {
+  @include flex4;
+  @include align-left;
+}

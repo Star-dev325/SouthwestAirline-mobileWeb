@@ -1,0 +1,50 @@
+.payment-edit {
+  @include bggray2;
+}
+
+.uplift-dynamic-placement-container {
+  @include for-tablet-and-up {
+    max-width: 400px;
+  }
+}
+
+.is-webview {
+  &.payment-edit-page {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .payment-edit {
+        background: none;
+      }
+
+      .credit-card-update-form {
+        @include bg-booking-flight;
+
+        .segments {
+          margin-top: $tablet-content-frame-whitespace;
+        }
+      }
+
+      .saved-credit-cards,
+      .segments {
+        @include bggray2;
+        @include tablet-content-frame-lg;
+        @include tablet-content-margins;
+      }
+
+      .saved-credit-cards {
+        @include mb0;
+        @include p5;
+      }
+
+      .segments {
+        @include mt0;
+
+        .fields {
+          @include mt0;
+          @include pt4;
+        }
+      }
+    }
+  }
+}

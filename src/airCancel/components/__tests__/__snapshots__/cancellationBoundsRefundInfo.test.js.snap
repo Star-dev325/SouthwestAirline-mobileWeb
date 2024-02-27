@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cancellationBoundsRefundInfo with dollar only should handle dollar properly 1`] = `
+<div>
+  <form>
+    <div
+      class="cancel-refund-quote"
+    >
+      <div
+        class="price-line trip-totals--new-trip-total cancel-refund-quote--trip-totals"
+      >
+        <span
+          class="price-line--title"
+        >
+          SHARED__REFUND_METHOD__REFUND_INFO_TRIP_TOTAL
+        </span>
+        <div
+          class="price-amount"
+        >
+          <div
+            class="price-line--currency_total"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                class="money-sign"
+              >
+                $
+              </span>
+              <span
+                data-qa="total-amount"
+              >
+                245.96
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`cancellationBoundsRefundInfo with points should handle points properly 1`] = `
+<div>
+  <form>
+    <div
+      class="cancel-refund-quote"
+    >
+      <div
+        class="price-line trip-totals--new-trip-total cancel-refund-quote--trip-totals"
+      >
+        <span
+          class="price-line--title"
+        >
+          SHARED__REFUND_METHOD__REFUND_INFO_TRIP_TOTAL
+        </span>
+        <div
+          class="price-amount"
+        >
+          <div
+            class="price-line--currency_total"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                data-qa="total-amount"
+              >
+                16,310
+              </span>
+              <span
+                class="points-sign"
+              >
+                SHARED__COMMON__POINTS_TEXT
+              </span>
+            </div>
+            <div
+              class="currency"
+            >
+              <span
+                class="money-sign"
+              >
+                $
+              </span>
+              <span
+                data-qa="total-amount"
+              >
+                5.60
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

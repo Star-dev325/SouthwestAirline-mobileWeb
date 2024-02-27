@@ -1,0 +1,28 @@
+.billing-info-form {
+  .segment {
+    @include bggray2;
+    padding: 1.6rem 1.2rem;
+  }
+
+  .segment:first-child {
+    padding-top: 0;
+  }
+
+  .fields {
+    margin: 1rem 0 0;
+
+    .fields--label {
+      @include gray5;
+      @include large;
+      @include bold;
+    }
+  }
+
+  .field {
+    @include mt4;
+  }
+
+  .icon_caret-down {
+    font-size: 2rem;
+  }
+}

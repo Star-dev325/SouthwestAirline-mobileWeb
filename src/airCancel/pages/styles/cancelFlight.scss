@@ -1,0 +1,34 @@
+.cancel-flight {
+  .swa-message {
+    @include flex;
+    @include flex-cross-center;
+
+    .message--text {
+      @include pl4;
+    }
+  }
+}
+
+.cancel-flight--icon-airplane {
+  top: 0.8rem;
+}
+
+.cancel-flight form {
+  @include m0;
+
+  .title-and-price {
+    border-bottom: 0;
+  }
+
+  .companion-refund-info {
+    .title-and-price {
+      @include pb0;
+    }
+  }
+
+  .require-receipt-field {
+    .field {
+      @include p5;
+    }
+  }
+}

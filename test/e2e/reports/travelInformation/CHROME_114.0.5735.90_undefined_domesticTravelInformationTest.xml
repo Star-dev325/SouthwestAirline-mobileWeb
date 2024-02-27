@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="10">
+
+  <testsuite name="travelInformation.domesticTravelInformationTest"
+    errors="0" failures="0" hostname="" id="" package="travelInformation" skipped="0"
+    tests="10" time="71.92" timestamp="Fri, 15 Dec 2023 02:09:30 GMT">
+  
+    <testcase name="Find flight reservation through confirmation number" classname="travelInformation.domesticTravelInformationTest" time="42.06" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go To Travel Information page" classname="travelInformation.domesticTravelInformationTest" time="0.3880" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Travel Information Page" classname="travelInformation.domesticTravelInformationTest" time="1.140" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Cancel Warning Popup and Pressing No to Popup Warning" classname="travelInformation.domesticTravelInformationTest" time="5.504" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Transition to Trip Details Page after Pressing Cancel Button and Press Yes on Warning Popup" classname="travelInformation.domesticTravelInformationTest" time="2.689" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go To Travel Information page second time" classname="travelInformation.domesticTravelInformationTest" time="0.5420" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Pressing Save Button transitions to Trip Details Page" classname="travelInformation.domesticTravelInformationTest" time="3.342" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Analytics Event Store is correct after Save on Travel Information Page" classname="travelInformation.domesticTravelInformationTest" time="0.03300" assertions="0">
+    </testcase>
+  
+    <testcase name="Go To Travel Information page third time" classname="travelInformation.domesticTravelInformationTest" time="0.3160" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Browser Refresh transitions back to beginning of upcoming trips flow because user is logged in" classname="travelInformation.domesticTravelInformationTest" time="15.90" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

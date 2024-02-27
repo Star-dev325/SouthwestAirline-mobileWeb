@@ -1,0 +1,47 @@
+.air-upgrade-price {
+  @include flex;
+  @include flex-main-between;
+  @include pdkblue;
+  @include bgwhite;
+  @include px5;
+  @include py3;
+  @include bdb;
+
+  &--airport-section {
+    @include flex4;
+
+    &-airport-info {
+      @include larger;
+    }
+
+    &-flight-number {
+      @include gray4;
+      @include medium;
+    }
+  }
+
+  &--price-info-section {
+    @include flex7;
+
+    &-price-section {
+      @include flex;
+      @include flex-main-between;
+      align-items: center;
+
+      &-bound-price {
+        @include larger;
+      }
+
+      &-pax-count {
+        @include gray4;
+        @include medium;
+      }
+
+      &-price-total {
+        @include flex-cross-center;
+        @include xlarge;
+        @include bold;
+      }
+    }
+  }
+}

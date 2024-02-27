@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleSwitch should render correctly when disabled props is true 1`] = `
+<ToggleSwitch
+  disabled={true}
+>
+  <Button
+    className="toggle-switch toggle-switch_disabled"
+    disabled={true}
+    onClick={[Function]}
+  >
+    <button
+      className="toggle-switch toggle-switch_disabled button"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <div
+        className="toggle-switch--slider toggle-switch--slider_disabled"
+        onTransitionEnd={[Function]}
+      />
+    </button>
+  </Button>
+</ToggleSwitch>
+`;

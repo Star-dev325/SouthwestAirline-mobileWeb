@@ -1,0 +1,156 @@
+@startuml
+
+!pragma teoz true
+
+skinparam {
+  ClassFontName Lato
+  DefaultFontSize 15
+
+  TitleFontColor black
+  TitleFontSize 32
+
+  HeaderFontSize 12
+
+  sequenceMessageAlign direction
+
+  ArrowColor black
+
+  ActorBorderColor gray
+  ActorBackgroundColor white
+
+  NoteFontSize 12
+
+  SequenceLifeLineBorderColor lightgray
+  SequenceLifeLineBackgroundColor white
+
+  ParticipantBorderColor skyblue
+  ParticipantBackgroundColor white
+  ParticipantFontSize 18
+
+  NoteBackgroundColor business
+  NoteBorderColor gray
+
+  BoxPadding 10
+
+  ParticipantPadding 30
+}
+
+hide footbox
+
+title Chase Personalizations
+header Chase Phase 2 (Vega Pod)
+
+actor "Logged In User" as User
+
+participant "App" as App
+participant "API Gateway" as API
+participant "Chase API" as Chase
+participant "Adobe Target" as Target
+participant CDW
+participant WCM
+
+|||
+
+  loop every 30 days
+    Target <- CDW: send //recent flight// data \n to Audience Manager
+  end
+
+|||
+
+...
+
+|||
+  User --> App: navigate to page with chase ad
+  activate App
+
+|||
+  App -> Chase ++ : call ///offers// (if not cached) <color:white>..............................................................................</color>
+  App -> API ++ : call ///userinfo// <color:white>...................................</color>
+
+  note over API
+    **will return the following relevant fields**
+
+    Example:
+    <size:11>{
+    <size:11>  customerInformation.redeemablePoints: 12500,
+    <size:11>  customerInformation.companionPassInfo.companionQualifyingPoints: 25000,
+    <size:11>  customerInformation.companionPassInfo.companionQualifyingPointsRequired: 100000
+    <size:11>}
+  end note
+
+|||
+
+  App <-- Chase : return offers
+  deactivate Chase
+  App <-- API : return user info
+  deactivate API
+
+|||
+
+|||
+  App -> Target ++ : get segment
+
+    note over App
+      **will pass the following mbox parameters**
+      * //offerIdentifier//
+      * //acquisitionSourceCodes//
+      * //redeemablePoints//
+      * //companionRemainingPoints// (will calculate)
+    end note
+
+    / note over Target
+      **will determine which of the following**
+      **segments to return (if any)**
+      * //Pre-qualified// segment
+      * //Companion Pass// segment
+      * //Show the Math// segment
+      * //Recent Flights// segment - will also pass
+        destination airport code (i.e. AUS)
+    end note
+
+  return segment
+|||
+
+  App --> App : convert airport code \n(for //Recent Flights// segment)
+
+  note over App
+    **will convert destination airport**
+    **code to the display name**
+
+    Example: AUS -> Austin
+  end note
+
+|||
+  App -> WCM ++ : get placements (for segment)
+
+    note over WCM
+      **will return template keys for personalized content**
+
+      Examples:
+      *<size:11> {textContent: "Current Points Balance: ${redeemablePoints}"}
+      *<size:11> {textContent: "You are ${companionRemainingPoints}
+      <size:11> points away from Companion Pass!"}
+      *<size:11> {textContent: "Wanna get away to ${destinationAirport}?"}
+    end note
+
+  return placements
+|||
+
+|||
+  App --> App: replace template keys
+
+  note over App
+    **will replace template keys with values from above**
+
+    Examples:
+    *<size:11> "Current Points Balance: 12,500"
+    *<size:11> "You are 75,000 points away from Companion Pass!"
+    *<size:11> "Wanna get away to Austin?"
+  end note
+|||
+
+  App --> User: display ad
+  deactivate App
+
+
+@enduml

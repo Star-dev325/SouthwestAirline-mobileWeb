@@ -1,0 +1,113 @@
+.price-total {
+  @include bgpblue;
+
+  .price-total--info {
+    @include white;
+    @include p4;
+
+    .price-line .price-line--title {
+      @include regular;
+      @include caps;
+      @include xlarge;
+    }
+
+    .price-change {
+      padding-bottom: 0.5em;
+
+      .price-line--title {
+        @include regular;
+        @include xlarge;
+        text-transform: none;
+      }
+
+      .price-line--currency_total {
+        @include xlarge;
+        @include regular;
+
+        .money-sign {
+          @include regular;
+        }
+      }
+    }
+
+    .price-change-points {
+      .price-line--title {
+        @include regular;
+        @include xlarge;
+        text-transform: none;
+      }
+
+      .price-line--currency_total {
+        @include xlarge;
+        @include regular;
+        @include flex;
+        @include flex-main-end;
+
+        .currency {
+          @include pl5;
+          @include pb2;
+        }
+
+        .money-sign {
+          @include regular;
+        }
+      }
+    }
+
+    .price-change-difference {
+      .price-line--title {
+        @include bold;
+        @include xlarge;
+        text-transform: none;
+      }
+
+      .price-line--currency_total {
+        @include xxxlarge;
+        @include bold;
+
+        .money-sign {
+          @include bold;
+        }
+      }
+    }
+  }
+
+  .price-total--info-row {
+    @include table;
+    @include fullwidth;
+  }
+
+  .price-total--info-col {
+    @include table-cell;
+    @include align-bottom;
+
+    &:nth-child(odd) {
+      @include align-left;
+    }
+
+    &:nth-child(even) {
+      @include align-right;
+    }
+  }
+
+  .price-total--points-dollars {
+    @include align-bottom;
+    @include align-right;
+    @include large;
+    @include mb5;
+  }
+
+  .price-total--price-break-down {
+    @include bgwhite;
+    padding: 0 1em;
+  }
+
+  .formatted-currency {
+    @include lineheight10;
+    font-size: 3rem;
+
+    .dollar-sign {
+      @include regular;
+    }
+  }
+}

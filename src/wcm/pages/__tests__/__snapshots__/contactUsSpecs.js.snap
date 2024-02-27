@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Us page should not show PageFooterWcmSourced when in a webview 1`] = `
+<div>
+  <Connect(PageHeader)
+    className="lineheight20"
+    data-qa="page-title"
+  >
+    Contact Us
+  </Connect(PageHeader)>
+  <div
+    className="pt6 px4"
+  >
+    <div
+      className="gray5 my6 lineheight14 large"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<p>We are here 24/7 for help with reservations, Rapid Rewards account information, and general questions.</p>",
+        }
+      }
+    />
+    <div
+      className="contact-us--call-to-action yellow"
+    >
+      <a
+        href="tel:18004359792"
+      >
+        1-800-I-FLY-SWA
+      </a>
+    </div>
+    <div
+      className="mt6"
+      data-qa="contact-us-block"
+      key="0"
+    >
+      <h3
+        className="pt6 pb4 bdt bdgray2 gray5 medium regular caps"
+        data-qa="block-title"
+      >
+        Additional Phone Numbers
+      </h3>
+      <ul
+        className="clearfix m0"
+      >
+        <ContactUsItem
+          ctaLink="tel:18882021024"
+          ctaText="Call"
+          itemDescription="Baggage - (Delayed/Damaged)"
+          itemDetail="1-888-202-1024"
+          key="0"
+        />
+        <ContactUsItem
+          ctaLink="tel:18002021222"
+          ctaText="Call"
+          itemDescription="Cargo"
+          itemDetail="1-800-202-1222"
+          key="1"
+        />
+        <ContactUsItem
+          ctaLink="tel:18008266667"
+          ctaText="Call"
+          itemDescription="En Espanol"
+          itemDetail="1-800-826-6667"
+          key="2"
+        />
+        <ContactUsItem
+          ctaLink="tel:18887928747"
+          ctaText="Call"
+          itemDescription="Flight Information"
+          itemDetail="1-888-792-8747"
+          key="3"
+        />
+        <ContactUsItem
+          ctaLink="tel:18004335369"
+          ctaText="Call"
+          itemDescription="Group Travel"
+          itemDetail="1-800-433-5368"
+          key="4"
+        />
+        <ContactUsItem
+          ctaLink="tel:18662899673"
+          ctaText="Call"
+          itemDescription="Property Left at TSA Check Point"
+          itemDetail="1-866-289-9673"
+          key="5"
+        />
+        <ContactUsItem
+          ctaLink="tel:18005351305"
+          ctaText="Call"
+          itemDescription="Teletypewriter (TTY)"
+          itemDetail="1-800-535-1305"
+          key="6"
+        />
+      </ul>
+    </div>
+    <div
+      className="mt6"
+      data-qa="contact-us-block"
+      key="1"
+    >
+      <h3
+        className="pt6 pb4 bdt bdgray2 gray5 medium regular caps"
+        data-qa="block-title"
+      >
+        Reach Out
+      </h3>
+      <ul
+        className="clearfix m0"
+      >
+        <ContactUsItem
+          ctaLink="mailto:customerservice@wnco.com"
+          ctaText="Send"
+          itemDescription="Contact us directly"
+          itemDetail="Email"
+          key="0"
+        />
+        <ContactUsItem
+          ctaLink="https://twitter.com/messages/compose?recipient_id=7212562"
+          ctaText="Tweet"
+          itemDescription="Twitter"
+          itemDetail="@SouthwestAir"
+          key="1"
+        />
+        <ContactUsItem
+          ctaLink="http://www.instagram.com/SouthwestAir"
+          ctaText="Insta"
+          itemDescription="Instagram"
+          itemDetail="@southwestair"
+          key="2"
+        />
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Contact Us page should show PageFooterWcmSourced by default 1`] = `
+<div>
+  <Connect(PageHeader)
+    className="lineheight20"
+    data-qa="page-title"
+  >
+    Contact Us
+  </Connect(PageHeader)>
+  <div
+    className="pt6 px4"
+  >
+    <div
+      className="gray5 my6 lineheight14 large"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<p>We are here 24/7 for help with reservations, Rapid Rewards account information, and general questions.</p>",
+        }
+      }
+    />
+    <div
+      className="contact-us--call-to-action yellow"
+    >
+      <a
+        href="tel:18004359792"
+      >
+        1-800-I-FLY-SWA
+      </a>
+    </div>
+    <div
+      className="mt6"
+      data-qa="contact-us-block"
+      key="0"
+    >
+      <h3
+        className="pt6 pb4 bdt bdgray2 gray5 medium regular caps"
+        data-qa="block-title"
+      >
+        Additional Phone Numbers
+      </h3>
+      <ul
+        className="clearfix m0"
+      >
+        <ContactUsItem
+          ctaLink="tel:18882021024"
+          ctaText="Call"
+          itemDescription="Baggage - (Delayed/Damaged)"
+          itemDetail="1-888-202-1024"
+          key="0"
+        />
+        <ContactUsItem
+          ctaLink="tel:18002021222"
+          ctaText="Call"
+          itemDescription="Cargo"
+          itemDetail="1-800-202-1222"
+          key="1"
+        />
+        <ContactUsItem
+          ctaLink="tel:18008266667"
+          ctaText="Call"
+          itemDescription="En Espanol"
+          itemDetail="1-800-826-6667"
+          key="2"
+        />
+        <ContactUsItem
+          ctaLink="tel:18887928747"
+          ctaText="Call"
+          itemDescription="Flight Information"
+          itemDetail="1-888-792-8747"
+          key="3"
+        />
+        <ContactUsItem
+          ctaLink="tel:18004335369"
+          ctaText="Call"
+          itemDescription="Group Travel"
+          itemDetail="1-800-433-5368"
+          key="4"
+        />
+        <ContactUsItem
+          ctaLink="tel:18662899673"
+          ctaText="Call"
+          itemDescription="Property Left at TSA Check Point"
+          itemDetail="1-866-289-9673"
+          key="5"
+        />
+        <ContactUsItem
+          ctaLink="tel:18005351305"
+          ctaText="Call"
+          itemDescription="Teletypewriter (TTY)"
+          itemDetail="1-800-535-1305"
+          key="6"
+        />
+      </ul>
+    </div>
+    <div
+      className="mt6"
+      data-qa="contact-us-block"
+      key="1"
+    >
+      <h3
+        className="pt6 pb4 bdt bdgray2 gray5 medium regular caps"
+        data-qa="block-title"
+      >
+        Reach Out
+      </h3>
+      <ul
+        className="clearfix m0"
+      >
+        <ContactUsItem
+          ctaLink="mailto:customerservice@wnco.com"
+          ctaText="Send"
+          itemDescription="Contact us directly"
+          itemDetail="Email"
+          key="0"
+        />
+        <ContactUsItem
+          ctaLink="https://twitter.com/messages/compose?recipient_id=7212562"
+          ctaText="Tweet"
+          itemDescription="Twitter"
+          itemDetail="@SouthwestAir"
+          key="1"
+        />
+        <ContactUsItem
+          ctaLink="http://www.instagram.com/SouthwestAir"
+          ctaText="Insta"
+          itemDescription="Instagram"
+          itemDetail="@southwestair"
+          key="2"
+        />
+      </ul>
+    </div>
+  </div>
+  <PageFooterWcmSourced
+    footerLinkRows={
+      Array [
+        Object {
+          "linkListItems": Array [
+            Object {
+              "linkTarget": "/mock-url",
+              "linkText": "View full site",
+              "linkType": "browser",
+            },
+            Object {
+              "linkTarget": "/contact-us",
+              "linkText": "Contact us",
+              "linkType": "webview",
+            },
+            Object {
+              "linkTarget": "/mock-url",
+              "linkText": "Help Center",
+              "linkType": "browser",
+            },
+          ],
+        },
+        Object {
+          "linkListItems": Array [
+            Object {
+              "linkTarget": "/terms-and-conditions?clk=GNAVTC",
+              "linkText": "Terms & Conditions",
+              "linkType": "browser",
+            },
+            Object {
+              "linkTarget": "/privacy-policy?clk=GNAVPRIVACY",
+              "linkText": "Privacy Policy",
+              "linkType": "browser",
+            },
+          ],
+        },
+        Object {
+          "linkListItems": Array [
+            Object {
+              "linkTarget": "/mock-url",
+              "linkText": "Do Not Sell My Info",
+              "linkType": "browser",
+            },
+          ],
+        },
+      ]
+    }
+  />
+</div>
+`;

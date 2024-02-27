@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VendorTermsAndConditionsPage render should render when productId is specified as a url query parameter 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CAR_BOOKING__VENDORS_TERMS_AND_CONDITIONS__HEADER
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div />
+  </div>
+</div>
+`;

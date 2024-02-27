@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="20">
+
+  <testsuite name="companion.companionTest"
+    errors="0" failures="0" hostname="" id="" package="companion" skipped="0"
+    tests="20" time="92.33" timestamp="Fri, 15 Dec 2023 01:36:58 GMT">
+  
+    <testcase name="Go to view reservation page from navDraw" classname="companion.companionTest" time="39.64" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View flight reservation through with confirmation number" classname="companion.companionTest" time="3.169" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify trip details page" classname="companion.companionTest" time="1.344" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View companion price page" classname="companion.companionTest" time="2.554" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify analytics CompanionBookingStore.pricing" classname="companion.companionTest" time="0.05200" assertions="0">
+    </testcase>
+  
+    <testcase name="View companion passenger page" classname="companion.companionTest" time="6.647" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View companion payment page" classname="companion.companionTest" time="1.077" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Use new credit card" classname="companion.companionTest" time="1.765" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Input card info" classname="companion.companionTest" time="6.250" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Input UK billing address" classname="companion.companionTest" time="8.072" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View companion purchase page" classname="companion.companionTest" time="1.203" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select business as purpose of travel on purchase review page" classname="companion.companionTest" time="1.169" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter into trip and price details page" classname="companion.companionTest" time="5.197" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Business remains selected as purpose of travel after back to purchase review page" classname="companion.companionTest" time="0.1310" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Enter into contact method page" classname="companion.companionTest" time="3.445" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter into passenger edit page" classname="companion.companionTest" time="2.433" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter into payment edit page" classname="companion.companionTest" time="4.195" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Back to purchase review page add earlybird check in and then click purchase button" classname="companion.companionTest" time="3.064" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify analytics CompanionBookingStore.review" classname="companion.companionTest" time="0.06900" assertions="0">
+    </testcase>
+  
+    <testcase name="View confirmation page and verify EarlyBird Check-In" classname="companion.companionTest" time="0.8510" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

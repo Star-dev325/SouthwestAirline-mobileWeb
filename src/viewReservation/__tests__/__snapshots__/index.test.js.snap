@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewReservation should render ViewReservation route page 1`] = `
+<div>
+  <div
+    class="view-reservation"
+  >
+    <div>
+      View Reservation Page
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,53 @@
+digraph {
+	label="Back/Forward prefill and cache behavior in mobile web";
+
+	node[shape="box", style="rounded"]
+		back_flowEnd[label="Go back to home page"];
+		back_notFlowEnd_clickedButtonBefore[label="Page: previous
+Data: app state (prefilled from
+	previous visit
+	after clicking button)"];
+		back_notFlowEnd_clickedForwardBefore[label="Page: previous
+Data: form cache (prefilled from
+	previous visit
+	before clicking forward)"];
+		forward[label="Page: next
+Data: form cache (prefilled from
+	previous visit
+	before clicking back)"];
+		button_passedBefore[label="Page: (depends on button)
+Data: app state (prefilled from
+	previous visit
+	after clicking button)"];
+		button_notPassedBefore_airBookingAndLoggedIn[label="Page: (depends on button)
+Data: user data (prefilled from
+	data returned from API)"];
+		button_notPassedBefore_notAirBookingOrNotLoggedIn[label="Page: (depends on button)
+Data: empty"];
+	node[shape="diamond", style=""]
+		start[label="How did you get to this page?"];
+		back[label="Before you clicked back,
+were you at the end of the flow?
+(e.g., purchase confirmation)"];
+		button[label="Have you been past this
+page in the flow before?"];
+		button_notPassedBefore[label="Are both of the following true?:
+(1) This is the air booking flow
+(2) You are logged in"];
+		back_notFlowEnd[label="How did you get
+to the page from which you
+clicked back?"];
+
+	start -> back[label="Clicking back"];
+	start -> forward[label="Clicking forward"];
+	start -> button[label="Clicking a button"];
+	back -> back_flowEnd[label="Yes"];
+	back -> back_notFlowEnd[label="No"];
+	button -> button_notPassedBefore[label="No"];
+	button -> button_passedBefore[label="Yes"];
+	button_notPassedBefore -> button_notPassedBefore_airBookingAndLoggedIn[label="Yes"];
+	button_notPassedBefore -> button_notPassedBefore_notAirBookingOrNotLoggedIn[label="No"];
+	back_notFlowEnd -> back_notFlowEnd_clickedForwardBefore[label="By clicking forward"];
+	back_notFlowEnd -> back_notFlowEnd_clickedButtonBefore[label="By clicking a button"];
+}
+

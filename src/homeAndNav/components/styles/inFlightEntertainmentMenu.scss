@@ -1,0 +1,37 @@
+.in-flight-entertainment {
+  @include bgpdkblue;
+  @include p3;
+}
+
+.in-flight-entertainment--menu-header {
+  @include bggreen;
+  @include white;
+  @include xlarge;
+  @include rdt2;
+  @include p4;
+}
+
+.in-flight-entertainment--menu-body {
+  @include bgwhite;
+  @include xlarge;
+  @include rdb2;
+  @include flex;
+  @include flex-main-around;
+  @include p4;
+}
+
+.in-flight-entertainment--menu-item {
+  @include bd;
+  @include bdpblue;
+  @include rd2;
+  @include pblue;
+  @include bold;
+  @include center;
+  @include p4;
+  box-shadow: 0 0.5px 1px $pblue;
+  flex: 0 0 45%;
+
+  &:hover {
+    @include pblue;
+  }
+}

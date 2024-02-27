@@ -1,0 +1,30 @@
+.low-fare-calendar-page {
+  .low-fare-calendar-page--header {
+    @include flex;
+    @include flex-cross-center;
+    @include flex-main-between;
+    @include large;
+    @include pr4;
+    height: 4.8rem;
+
+    .switch-button {
+      @include bgsltblue;
+      @include rd4;
+      @include border-none;
+      width: 20%;
+
+      .switch-button--item {
+        @include large;
+      }
+    }
+  }
+
+  .low-fare-calendar-page--selections {
+    @include bgwhite;
+    padding: 0.7rem 1rem;
+
+    &.one-way {
+      padding-bottom: 3.2rem;
+    }
+  }
+}

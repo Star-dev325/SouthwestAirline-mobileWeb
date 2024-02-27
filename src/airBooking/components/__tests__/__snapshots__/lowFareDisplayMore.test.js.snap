@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LowFareDisplayMore showLoading false should render image loadingEllipses.gif 1`] = `
+<body>
+  <div>
+    <div
+      class="low-fare-calendar--fetch-prev-next"
+    >
+      <img
+        class="lfc-ic-load-more"
+        src="/content/mkt/images/landing_pages/ic-load-more.png"
+        srcset="/content/mkt/images/landing_pages/ic-load-more@2x.png 2x, /content/mkt/images/landing_pages/ic-load-more@3x.png 3x"
+      />
+    </div>
+  </div>
+</body>
+`;
+
+exports[`LowFareDisplayMore showLoading true should render image loadingEllipses.gif 1`] = `
+<body>
+  <div>
+    <div
+      class="low-fare-calendar--fetch-prev-next"
+    >
+      <img
+        class="lfc-ic-load-more"
+        src="/content/mkt/images/landing_pages/loadingEllipses.gif"
+      />
+    </div>
+  </div>
+</body>
+`;

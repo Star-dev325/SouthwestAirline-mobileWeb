@@ -1,0 +1,46 @@
+$frame-width: $tablet-content-frame-width / 100%;
+$frame-min-width: calc(#{$tablet-content-frame-min-width} / #{$frame-width});
+$frame-max-width: calc(#{$tablet-content-frame-max-width} / #{$frame-width});
+
+.alphabet-selector {
+  @media only screen and (max-height: 425px) {
+    font-size: 75%;
+    max-height: calc(90% - (#{$global-header-height} + #{$page-header-height}));
+    overflow: hidden;
+  }
+
+  position: fixed;
+
+  text-align: center;
+
+  color: $pblue;
+  padding-right: 3px;
+
+  right: 0;
+  top: calc((100% + #{$global-header-height} + #{$page-header-height}) / 2);
+  transform: translateY(-50%);
+
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+
+  cursor: default;
+}
+
+.is-webview .alphabet-selector {
+  @media only screen and (min-width: $tablet-bp) and (max-width: calc(#{$frame-min-width} - 1px)) {
+    right: calc(50% - (#{$tablet-content-frame-min-width} / 2));
+  }
+
+  @media only screen and (min-width: $frame-min-width) and (max-width: $frame-max-width) {
+    right: calc(50% - (#{$tablet-content-frame-width} / 2));
+  }
+
+  @media only screen and (min-width: calc(#{$frame-max-width} + 1px)) {
+    right: calc(50% - (#{$tablet-content-frame-max-width} / 2));
+  }
+}
+
+.airport-list--searching .alphabet-selector {
+  top: calc((100% + #{$page-header-height}) / 2);
+}

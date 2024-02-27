@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Tracing Fields should render default props 1`] = `
+<div>
+  <form>
+    <div>
+      <div
+        class="segment"
+      >
+        <span
+          class="segment--title"
+        >
+          PRIMARY_CONTACT
+        </span>
+        <div>
+          <div
+            class="field phone-number-field phone-number-field--international"
+          >
+            <div
+              class="labeled input large"
+            >
+              <div
+                class="input--label mr4"
+              >
+                +1
+              </div>
+              <input
+                label="+1"
+                name="contactPhone1Number"
+                placeholder="SHARED__PLACEHOLDER__PHONE_NUMBER"
+                type="tel"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segment"
+      >
+        <span
+          class="segment--title"
+        >
+          ALTERNATE_CONTACT
+        </span>
+        <div>
+          <div
+            class="field phone-number-field phone-number-field--international"
+          >
+            <div
+              class="labeled input large"
+            >
+              <div
+                class="input--label mr4"
+              >
+                +1
+              </div>
+              <input
+                label="+1"
+                name="contactPhone2Number"
+                placeholder="SHARED__PLACEHOLDER__PHONE_NUMBER"
+                type="tel"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segment"
+      >
+        <span
+          class="segment--title"
+        >
+          EMAIL_ADDRESS
+        </span>
+        <div
+          class="field"
+        >
+          <div
+            class="input"
+          >
+            <input
+              class=""
+              name="contactEmail"
+              placeholder="EMAIL_ADDRESS"
+              type="email"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Contact Tracing Fields should render destinationConfig label props 1`] = `
+<div>
+  <form>
+    <div>
+      <div
+        class="segment"
+      >
+        <span
+          class="segment--title"
+        >
+          Contact Label 1 Override
+        </span>
+        <div>
+          <div
+            class="field phone-number-field phone-number-field--international"
+          >
+            <div
+              class="labeled input large"
+            >
+              <div
+                class="input--label mr4"
+              >
+                +1
+              </div>
+              <input
+                label="+1"
+                name="contactPhone1Number"
+                placeholder="SHARED__PLACEHOLDER__PHONE_NUMBER"
+                type="tel"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segment"
+      >
+        <span
+          class="segment--title"
+        >
+          Contact Label 2 Override
+        </span>
+        <div>
+          <div
+            class="field phone-number-field phone-number-field--international"
+          >
+            <div
+              class="labeled input large"
+            >
+              <div
+                class="input--label mr4"
+              >
+                +1
+              </div>
+              <input
+                label="+1"
+                name="contactPhone2Number"
+                placeholder="SHARED__PLACEHOLDER__PHONE_NUMBER"
+                type="tel"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segment"
+      >
+        <span
+          class="segment--title"
+        >
+          EMAIL_ADDRESS
+        </span>
+        <div
+          class="field"
+        >
+          <div
+            class="input"
+          >
+            <input
+              class=""
+              name="contactEmail"
+              placeholder="EMAIL_ADDRESS"
+              type="email"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Contact Tracing Fields should render optional field props 1`] = `
+<div>
+  <form>
+    <div>
+      <div
+        class="segment"
+      >
+        <span
+          class="segment--title"
+        >
+          PRIMARY_CONTACT
+        </span>
+        <div>
+          <div
+            class="field phone-number-field phone-number-field--international"
+          >
+            <div
+              class="labeled input large"
+            >
+              <div
+                class="input--label mr4"
+              >
+                +1
+              </div>
+              <input
+                label="+1"
+                name="contactPhone1Number"
+                placeholder="SHARED__PLACEHOLDER__PHONE_NUMBER"
+                type="tel"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segment"
+      >
+        <span
+          class="segment--title"
+        >
+          ALTERNATE_CONTACT
+        </span>
+        <div>
+          <div
+            class="field phone-number-field phone-number-field--international"
+          >
+            <div
+              class="labeled input large"
+            >
+              <div
+                class="input--label mr4"
+              >
+                +1
+              </div>
+              <input
+                label="+1"
+                name="contactPhone2Number"
+                placeholder="SHARED__PLACEHOLDER__PHONE_NUMBER"
+                type="tel"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="segment"
+      >
+        <span
+          class="segment--title"
+        >
+          EMAIL_ADDRESS
+        </span>
+        <div
+          class="field"
+        >
+          <div
+            class="input"
+          >
+            <input
+              class=""
+              name="contactEmail"
+              placeholder="EMAIL_ADDRESS"
+              type="email"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

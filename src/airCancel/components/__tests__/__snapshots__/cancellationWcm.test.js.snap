@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CancellationWcm should render with default props 1`] = `
+<div>
+  <div
+    class="px5 pb5"
+  >
+    <a
+      class="pblue larger"
+      href="/cancellation-policy"
+      target="_blank"
+    >
+      AIR_CANCEL__WCM_LINK
+    </a>
+  </div>
+</div>
+`;

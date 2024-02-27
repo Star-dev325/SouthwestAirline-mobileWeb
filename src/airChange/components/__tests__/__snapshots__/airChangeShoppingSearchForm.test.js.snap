@@ -1,0 +1,1017 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AirChangeShoppingSearchForm render should grey out from and to fields when hasUnaccompaniedMinor is true 1`] = `
+<div>
+  <form
+    class="book-flight-form form widget"
+    name="air-change-flight-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="airport-selector"
+            data-qa="from"
+          >
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_airplane-depart"
+                />
+              </div>
+              <div
+                class="ellipsis"
+              >
+                <div
+                  class="airport-selector--placeholder-container py3"
+                >
+                  <div
+                    class="airport-selector--placeholder"
+                  >
+                    From
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="airport-selector"
+            data-qa="to"
+          >
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_airplane-return"
+                />
+              </div>
+              <div
+                class="ellipsis"
+              >
+                <div
+                  class="airport-selector--placeholder-container py3"
+                >
+                  <div
+                    class="airport-selector--placeholder"
+                  >
+                    To
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_calender"
+                />
+              </div>
+              <div
+                class="ellipsis py3 bold"
+                data-qa="depart-and-return-dates"
+              >
+                4/04/18 - 4/09/18
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="transparent segment"
+      >
+        <button
+          class="button button--fluid larger button--yellow"
+          role="submit"
+          type="submit"
+        >
+          AIR_CHANGE__SHOPPING_SEARCH_PAGE__FIND_FLIGHTS_BUTTON
+        </button>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirChangeShoppingSearchForm render should grey out from and to fields when trip type is one way and both bounds are enabled 1`] = `
+<div>
+  <form
+    class="book-flight-form form widget"
+    name="air-change-flight-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="airport-selector"
+            data-qa="from"
+          >
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_airplane-depart"
+                />
+              </div>
+              <div
+                class="ellipsis"
+              >
+                <div
+                  class="airport-selector--placeholder-container py3"
+                >
+                  <div
+                    class="airport-selector--placeholder"
+                  >
+                    From
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="airport-selector"
+            data-qa="to"
+          >
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_airplane-return"
+                />
+              </div>
+              <div
+                class="ellipsis"
+              >
+                <div
+                  class="airport-selector--placeholder-container py3"
+                >
+                  <div
+                    class="airport-selector--placeholder"
+                  >
+                    To
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_calender"
+                />
+              </div>
+              <div
+                class="ellipsis py3 bold"
+                data-qa="depart-and-return-dates"
+              >
+                4/04/18 - 4/09/18
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="transparent segment"
+      >
+        <button
+          class="button button--fluid larger button--yellow"
+          role="submit"
+          type="submit"
+        >
+          AIR_CHANGE__SHOPPING_SEARCH_PAGE__FIND_FLIGHTS_BUTTON
+        </button>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirChangeShoppingSearchForm render should grey out from and to fields when trip type is one way and departure bound is disabled 1`] = `
+<div>
+  <form
+    class="book-flight-form form widget"
+    name="air-change-flight-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="airport-selector"
+            data-qa="from"
+          >
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_airplane-depart"
+                />
+              </div>
+              <div
+                class="ellipsis"
+              >
+                <div
+                  class="airport-selector--placeholder-container py3"
+                >
+                  <div
+                    class="airport-selector--placeholder"
+                  >
+                    From
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="airport-selector"
+            data-qa="to"
+          >
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_airplane-return"
+                />
+              </div>
+              <div
+                class="ellipsis"
+              >
+                <div
+                  class="airport-selector--placeholder-container py3"
+                >
+                  <div
+                    class="airport-selector--placeholder"
+                  >
+                    To
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_calender"
+                />
+              </div>
+              <div
+                class="ellipsis py3 bold"
+                data-qa="depart-and-return-dates"
+              >
+                <div>
+                  <span
+                    class="gray4"
+                    data-qa="disabled-date"
+                  >
+                    4/04/18
+                  </span>
+                  <span
+                    class="gray4"
+                  >
+                     - 
+                  </span>
+                  <span>
+                    4/09/18
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="transparent segment"
+      >
+        <button
+          class="button button--fluid larger button--yellow"
+          role="submit"
+          type="submit"
+        >
+          AIR_CHANGE__SHOPPING_SEARCH_PAGE__FIND_FLIGHTS_BUTTON
+        </button>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirChangeShoppingSearchForm render should pass originDisabled to origin airport selector 1`] = `
+<div>
+  <form
+    class="book-flight-form form widget"
+    name="air-change-flight-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="airport-selector"
+            data-qa="from"
+          >
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_airplane-depart"
+                />
+              </div>
+              <div
+                class="ellipsis"
+              >
+                <div
+                  class="airport-selector--placeholder-container py3"
+                >
+                  <div
+                    class="airport-selector--placeholder"
+                  >
+                    From
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="airport-selector"
+            data-qa="to"
+          >
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_airplane-return"
+                />
+              </div>
+              <div
+                class="ellipsis"
+              >
+                <div
+                  class="airport-selector--placeholder-container py3"
+                >
+                  <div
+                    class="airport-selector--placeholder"
+                  >
+                    To
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_calender"
+                />
+              </div>
+              <div
+                class="ellipsis py3 bold"
+                data-qa="depart-and-return-dates"
+              >
+                4/04/18 - 4/09/18
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="transparent segment"
+      >
+        <button
+          class="button button--fluid larger button--yellow"
+          role="submit"
+          type="submit"
+        >
+          AIR_CHANGE__SHOPPING_SEARCH_PAGE__FIND_FLIGHTS_BUTTON
+        </button>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirChangeShoppingSearchForm render should render page properly when allowARNKPnrs is true and both bounds are selected 1`] = `
+<div>
+  <form
+    class="book-flight-form form widget"
+    name="air-change-flight-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="air-change-shopping-search-arnk-layout--button"
+      >
+        <button
+          class="button button--fluid larger button--yellow"
+          role="submit"
+          type="submit"
+        >
+          AIR_CHANGE__SHOPPING_SEARCH_PAGE__FIND_FLIGHTS_BUTTON
+        </button>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirChangeShoppingSearchForm render when isReaccomCoTerminalEligible is true should render correctly 1`] = `
+<div>
+  <form
+    class="book-flight-form form widget"
+    name="air-change-flight-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="airport-selector"
+            data-qa="from"
+          >
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_airplane-depart"
+                />
+              </div>
+              <div
+                class="ellipsis"
+              >
+                <div
+                  class="airport-selector--placeholder-container py3"
+                >
+                  <div
+                    class="airport-selector--placeholder"
+                  >
+                    From
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="airport-selector"
+            data-qa="to"
+          >
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_airplane-return"
+                />
+              </div>
+              <div
+                class="ellipsis"
+              >
+                <div
+                  class="airport-selector--placeholder-container py3"
+                >
+                  <div
+                    class="airport-selector--placeholder"
+                  >
+                    To
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field py3"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date bold xxlarge"
+                >
+                  4/04
+                </div>
+                <div
+                  class="form-calendar-field--date-description medium"
+                >
+                  <span
+                    class="italic"
+                  >
+                    Wed
+                  </span>
+                  <span>
+                    , Apr 04, 2018
+                  </span>
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              >
+                <div
+                  class="form-calendar-field--date bold xxlarge"
+                >
+                  4/09
+                </div>
+                <div
+                  class="form-calendar-field--date-description medium"
+                >
+                  <span
+                    class="italic"
+                  >
+                    Mon
+                  </span>
+                  <span>
+                    , Apr 09, 2018
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="transparent segment"
+      >
+        <button
+          class="button button--fluid larger button--yellow"
+          role="submit"
+          type="submit"
+        >
+          AIR_CHANGE__SHOPPING_SEARCH_PAGE__FIND_FLIGHTS_BUTTON
+        </button>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirChangeShoppingSearchForm render when isReaccomCoTerminalEligible is true should render correctly when isInvalidDepartureDate is true 1`] = `
+<div>
+  <form
+    class="book-flight-form form widget"
+    name="air-change-flight-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="airport-selector"
+            data-qa="from"
+          >
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_airplane-depart"
+                />
+              </div>
+              <div
+                class="ellipsis"
+              >
+                <div
+                  class="airport-selector--placeholder-container py3"
+                >
+                  <div
+                    class="airport-selector--placeholder"
+                  >
+                    From
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="airport-selector"
+            data-qa="to"
+          >
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_airplane-return"
+                />
+              </div>
+              <div
+                class="ellipsis"
+              >
+                <div
+                  class="airport-selector--placeholder-container py3"
+                >
+                  <div
+                    class="airport-selector--placeholder"
+                  >
+                    To
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field py3"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date bold xxlarge"
+                >
+                  SHARED__CALENDAR__REACCOM_DEPARTURE_DATE_TEXT
+                </div>
+                <div
+                  class="form-calendar-field--description"
+                >
+                  SHARED__CALENDAR__REACCOM_DATE_DESCRIPTION_TEXT
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              >
+                <div
+                  class="form-calendar-field--date bold xxlarge"
+                >
+                  4/09
+                </div>
+                <div
+                  class="form-calendar-field--date-description medium"
+                >
+                  <span
+                    class="italic"
+                  >
+                    Mon
+                  </span>
+                  <span>
+                    , Apr 09, 2018
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="transparent segment"
+      >
+        <button
+          class="button button--fluid larger button--yellow"
+          role="submit"
+          type="submit"
+        >
+          AIR_CHANGE__SHOPPING_SEARCH_PAGE__FIND_FLIGHTS_BUTTON
+        </button>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`AirChangeShoppingSearchForm render when isReaccomCoTerminalEligible is true should render correctly with reaccomCoTerminalDepartureAirports and reaccomCoTerminalReturnAirports 1`] = `
+<div>
+  <form
+    class="book-flight-form form widget"
+    name="air-change-flight-search"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="airport-selector"
+            data-qa="from"
+          >
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_airplane-depart"
+                />
+              </div>
+              <div
+                class="ellipsis"
+              >
+                <div
+                  class="flex flex-cross-center"
+                >
+                  <div
+                    class="airport-selector--formatted-airport"
+                  >
+                    AIRPORT NOT FOUND
+                  </div>
+                  <span
+                    class="airport-selector--airport-description"
+                  >
+                    AIRPORT NOT FOUND, AIRPORT NOT FOUND
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="airport-selector"
+            data-qa="to"
+          >
+            <div
+              class="clickable-div input"
+            >
+              <div
+                class="input--label"
+              >
+                <i
+                  class="icon icon_airplane-return"
+                />
+              </div>
+              <div
+                class="ellipsis"
+              >
+                <div
+                  class="flex flex-cross-center"
+                >
+                  <div
+                    class="airport-selector--formatted-airport"
+                  >
+                    AIRPORT NOT FOUND
+                  </div>
+                  <span
+                    class="airport-selector--airport-description"
+                  >
+                    AIRPORT NOT FOUND, AIRPORT NOT FOUND
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div>
+            <div
+              class="form-calendar-field py3"
+              data-qa="depart-and-return-dates"
+            >
+              <div
+                class="form-calendar-field--departure-date"
+              >
+                <div
+                  class="form-calendar-field--date bold xxlarge"
+                >
+                  4/04
+                </div>
+                <div
+                  class="form-calendar-field--date-description medium"
+                >
+                  <span
+                    class="italic"
+                  >
+                    Wed
+                  </span>
+                  <span>
+                    , Apr 04, 2018
+                  </span>
+                </div>
+              </div>
+              <i
+                class="form-calendar-field--icon icon icon_calender"
+              />
+              <div
+                class="form-calendar-field--return-date"
+              >
+                <div
+                  class="form-calendar-field--date bold xxlarge"
+                >
+                  4/09
+                </div>
+                <div
+                  class="form-calendar-field--date-description medium"
+                >
+                  <span
+                    class="italic"
+                  >
+                    Mon
+                  </span>
+                  <span>
+                    , Apr 09, 2018
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="transparent segment"
+      >
+        <button
+          class="button button--fluid larger button--yellow"
+          role="submit"
+          type="submit"
+        >
+          AIR_CHANGE__SHOPPING_SEARCH_PAGE__FIND_FLIGHTS_BUTTON
+        </button>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;

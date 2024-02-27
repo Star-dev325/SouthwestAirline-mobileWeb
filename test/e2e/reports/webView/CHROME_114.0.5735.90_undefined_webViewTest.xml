@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="14">
+
+  <testsuite name="webView.webViewTest"
+    errors="0" failures="0" hostname="" id="" package="webView" skipped="0"
+    tests="14" time="47.26" timestamp="Fri, 15 Dec 2023 02:25:27 GMT">
+  
+    <testcase name="load blank page without webView param" classname="webView.webViewTest" time="20.49" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="set window stubs to set javascript interface" classname="webView.webViewTest" time="0.03800" assertions="0">
+    </testcase>
+  
+    <testcase name="check in webview state since javascript interface exists" classname="webView.webViewTest" time="3.354" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="load blank page with webView param" classname="webView.webViewTest" time="8.462" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="reset window stubs to set javascript interface" classname="webView.webViewTest" time="0.02500" assertions="0">
+    </testcase>
+  
+    <testcase name="go to flight status page from blank page" classname="webView.webViewTest" time="0.7810" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="go back to blank page from flight status page" classname="webView.webViewTest" time="0.9820" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="go to car booking page from blank page" classname="webView.webViewTest" time="2.811" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="go back to blank page from car booking page" classname="webView.webViewTest" time="0.9000" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="send OAuth credentials" classname="webView.webViewTest" time="0.1690" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="remove OAuth credentials" classname="webView.webViewTest" time="0.1890" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="go to non-blank page" classname="webView.webViewTest" time="1.682" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="resend OAuth credentials" classname="webView.webViewTest" time="2.195" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="go to invalid route and verify on blank page" classname="webView.webViewTest" time="5.181" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

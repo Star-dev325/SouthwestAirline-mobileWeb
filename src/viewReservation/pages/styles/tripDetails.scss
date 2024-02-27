@@ -1,0 +1,56 @@
+.trip-details-page {
+  @include bgpdkblue;
+  min-height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  &--upgrade-benefits {
+    @include bgwhite;
+    @include pb4;
+  }
+
+  &--fare-rules {
+    @include mb4;
+    @include ml4;
+    @include small;
+  }
+
+  .trip-details-page--fare-rules {
+    a {
+      @include pblue
+    }
+  }
+}
+
+.trip-details--flight-status {
+  .flight-summary-card {
+    margin: 1rem 0 0;
+  }
+}
+
+.flight-summary-card--cancelled {
+  .flight-summary-card--status {
+    @include pb0;
+
+    .flight-status {
+      @include bold;
+      font-size: 2rem;
+    }
+  }
+
+  .itinerary-vertical .flight-status {
+    display: none;
+  }
+}
+
+.trip-details-boarding-info {
+  @include p4;
+  @include bgwhite;
+}
+
+.trip-details-companion-info {
+  @include p4;
+  @include bgwhite;
+  @include mt4;
+  @include mb2;
+}

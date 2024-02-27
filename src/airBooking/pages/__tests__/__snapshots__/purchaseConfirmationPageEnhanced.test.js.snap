@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Enhanced purchaseConfirmationPage should show check email messaging when bounds is null 1`] = `
+<div
+  class="trip-booked--content"
+>
+  <div
+    class="swa-message p0 small success"
+  >
+    <span
+      class="icon-container"
+    >
+      <i
+        class="icon icon_check"
+      />
+    </span>
+    <span
+      class="message--text"
+    >
+      <h3
+        class="xxlarge bold white inline-block"
+      >
+        SHARED__TRIP_BOOKED__TITLE
+      </h3>
+    </span>
+  </div>
+  <div
+    class="mt4"
+  >
+    <p
+      class="larger white"
+    />
+    <p
+      class="medium white mt2"
+    >
+      SHARED__TRIP_BOOKED__CHECKIN_VERBIAGE_SUB_INSTRUCTION
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Enhanced purchaseConfirmationPage should show passport required messaging when passport is not completed 1`] = `
+<div
+  class="info-banner-container"
+>
+  <b
+    class="info-banner-container--header"
+  >
+    AIR_BOOKING__CONFIRMATION_PASSPORT_REQUIRED_HEADER
+  </b>
+  <p
+    class="info-banner-container--body"
+  >
+    <a
+      class="purchase-confirmation--passport-link"
+    >
+      AIR_BOOKING__CONFIRMATION_PASSPORT_REQUIRED_BODY
+    </a>
+  </p>
+  <div
+    class="info-banner-container--link"
+  />
+</div>
+`;

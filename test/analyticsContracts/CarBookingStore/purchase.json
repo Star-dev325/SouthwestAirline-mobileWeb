@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": [
+    "purchase"
+  ],
+  "properties": {
+    "purchase": {
+      "type": "object",
+      "required": [
+        "driver",
+        "purposeOfTravel",
+        "confirmationNumber",
+        "confirmationEmail"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "driver": {
+          "$ref": "#/definitions/driver"
+        },
+        "purposeOfTravel": {
+          "type": "string|undefined"
+        },
+        "confirmationEmail": {
+          "type": "string"
+        },
+        "confirmationNumber": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "definitions": {
+    "driver": {
+      "type": "object",
+      "required": [
+        "accountNumber"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "accountNumber": {
+          "type": "string|undefined"
+        }
+      }
+    }
+  }
+}

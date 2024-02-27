@@ -1,0 +1,124 @@
+.promo-codes {
+  @include relative;
+
+  &--item {
+    @include bgwhite;
+    @include flex;
+    @include p5;
+    @include bdb;
+    @include flex-column;
+    min-height: 8rem;
+
+    .promo-codes--outer-container {
+      @include flex;
+    }
+
+    .promo-codes-item--info-container {
+      @include flex;
+      @include flex-column;
+      @include fullwidth;
+    }
+
+    .promo-codes-item--main-info {
+      @include flex;
+    }
+
+    .credit-card--image {
+      @include mr5;
+      height: 5rem;
+      min-width: 5rem;
+    }
+  }
+
+  &--text {
+    @include flex-grow2;
+    @include mt2;
+
+    .promo-code-description {
+      @include mt5;
+      @include larger;
+      @include gray5;
+    }
+
+    .additional-info-container {
+      @include flex;
+      @include flex-column;
+      @include gray5;
+      @include larger;
+      @include mt1;
+
+      div {
+        @include flex;
+        @include lineheight15;
+      }
+    }
+
+    .promo-codes-terms-link {
+      @include block;
+      @include pblue;
+      @include mt3;
+      @include larger;
+      @include pl0;
+    }
+
+    .promo-code-expired {
+      @include larger;
+      @include gray4;
+      @include mt3;
+
+      .date-section {
+        @include flex;
+        @include mt1;
+      }
+    }
+  }
+
+  &--title {
+    @include xlarge;
+    @include bold;
+    @include caps;
+
+    &.active-promo-code {
+      @include green;
+    }
+
+    &.used-promo-code {
+      @include gray4;
+    }
+  }
+
+  &--modal {
+    @include px5;
+    @include py3;
+    @include larger;
+  }
+
+  &--discount {
+    @include align-right;
+    @include bold;
+    @include xlarge;
+
+    &.active-discount {
+      @include pdkblue;
+    }
+
+    &.used-expired-discount {
+      @include gray4;
+    }
+  }
+
+  &--book-flight-button {
+    @include mt5;
+  }
+}
+
+.promo-codes-list {
+  @include white;
+  @include larger;
+
+  .sections {
+    @include mt7;
+    @include mb5;
+    @include flex-row;
+  }
+}

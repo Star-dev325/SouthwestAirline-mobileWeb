@@ -1,0 +1,33 @@
+.form-input-with-placeholder-field {
+  @include bgwhite;
+  @include bd;
+  @include px5;
+  @include flex;
+  @include flex-column;
+  @include flex-main-center;
+
+  height: 5.2rem;
+  border-color: $form-field-border;
+
+  .input {
+    @include p0;
+    @include border-none;
+  }
+
+  input {
+    @include p0;
+  }
+
+  input[disabled] {
+    @include gray4;
+
+    -webkit-text-fill-color: $gray4;
+    opacity: 1;
+  }
+}
+
+.form-input-with-placeholder-field--label {
+  @include gray5;
+
+  text-transform: uppercase;
+}

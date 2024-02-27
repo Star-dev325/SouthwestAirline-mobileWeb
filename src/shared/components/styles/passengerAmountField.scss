@@ -1,0 +1,179 @@
+.passenger-amount-field {
+  @extend .search-fields;
+  @include bgwhite;
+  @include flex-cross-center;
+
+  & .select-passenger-desc {
+    @include medium;
+    @include gray4;
+    @include mt3;
+    padding: 0 10px;
+  }
+
+  &--passenger-with-lap-child {
+    @extend .search-fields--left;
+    @include bold;
+    @include xxlarge;
+  }
+
+  &--description {
+    @include center;
+    @include medium;
+    @include gray4;
+    @include mt3;
+    @include py0;
+    @include pl4;
+  }
+}
+
+.passenger-amount-field--icon {
+  @extend .search-fields--icon;
+  @include flex1;
+  font-size: 2.6rem;
+}
+
+.passenger-amount-field--passenger {
+  @extend .search-fields--left;
+  @include bold;
+  @include py4;
+  font-size: 2.3rem;
+}
+
+.passenger-amount-field--passenger-number {
+  @include bold;
+  @include py3;
+  @include px5;
+  font-size: 2.6rem;
+}
+
+.passenger-amount-field--action {
+  @extend .search-fields--right;
+  @include flex-item-center;
+  min-width: 9.8rem;
+
+  .buttons {
+    .circular.button {
+      @include circle;
+      @include bd;
+      background: none;
+
+      &:active,
+      &:focus,
+      &:hover {
+        @include olnone;
+        background: none;
+      }
+
+      &:first-child {
+        margin-right: 1.6rem;
+      }
+
+      .icon {
+        @include pblue;
+        font-size: 2rem;
+      }
+    }
+
+    .button {
+      @include p3;
+
+      &:disabled {
+        @include bggray2;
+        color: $opacity40;
+        opacity: 0.3;
+      }
+    }
+  }
+
+  .buttons-with-flex {
+    @include flex;
+    @include flex-main-around;
+    @include flex-cross-center;
+    @include px5;
+
+    .circular.button {
+      @include circle;
+      @include bd;
+      background: none;
+
+      &:active,
+      &:focus,
+      &:hover {
+        @include olnone;
+        background: none;
+      }
+
+      .icon {
+        @include pblue;
+        font-size: 2rem;
+      }
+    }
+
+    .button {
+      @include p3;
+
+      &:disabled {
+        @include bggray2;
+        color: $opacity40;
+        opacity: 0.3;
+      }
+    }
+  }
+
+  .selected-passengers-count {
+    @include pt0;
+    @include pb0;
+    @include xxlarge;
+  }
+
+  .selected-passengers-count--bold {
+    @include pdkblue;
+    @include bold;
+  }
+
+  .passenger-amount-field--column {
+    @include flex;
+    @include flex-column;
+    @include flex6;
+  }
+}
+
+.homepage-redesign {
+  .passenger-amount-field {
+    @include pblue;
+    @include block;
+
+    &--passenger {
+      @include bold;
+      @include pdkblue;
+      @include medium;
+      @include pt0;
+      @include pb0;
+      @include pl1;
+    }
+  }
+
+  .buttons-with-flex {
+    @include ml5;
+
+    .button {
+      @include border-none;
+      @include p0;
+      background: none;
+      height: 3.2rem;
+      width: 3.2rem;
+
+      &::before {
+        @include rd4;
+        @include bgpblue;
+        @include absolute;
+        content: '';
+        opacity: 0.3;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+      }
+    }
+  }
+}

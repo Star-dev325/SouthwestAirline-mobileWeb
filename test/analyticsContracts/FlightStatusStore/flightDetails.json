@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "flightDetails": {
+      "type": "object",
+      "properties": {
+        "aircraftType": { "type": "string" },
+        "flightNumber": { "type": "string" }
+      },
+      "required": [
+        "aircraftType",
+        "flightNumber"
+      ]
+    }
+  },
+  "required": [
+    "flightDetails"
+  ]
+}

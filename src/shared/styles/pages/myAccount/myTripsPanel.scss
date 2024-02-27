@@ -1,0 +1,104 @@
+.my-trips-panel {
+  @include white;
+  max-height: 100%;
+  max-width: 100%;
+  background-size: 100%;
+  background-position: center bottom;
+
+  .my-account-nav-item {
+    @include p2;
+  }
+
+  .my-account-nav-item:first-child {
+    @include pb6;
+  }
+
+  .my-account-nav-item-border-top {
+    @include pt4;
+    border: solid $white 0;
+    border-top-width: 1px;
+  }
+
+  .icon_keyboard-arrow-right {
+    @include white;
+    @include xxlarge;
+    right: -1rem;
+  }
+
+  &--past-and-saved-links {
+    @include flex;
+
+    .item {
+      @include px4;
+      @include py0;
+      width: 50%;
+      border-right: 1px $gray2 solid;
+
+      &:first-child {
+        @include pl0;
+      }
+
+      &:last-child {
+        @include pr0;
+        border-right: 0;
+      }
+    }
+
+    .my-account-nav-item {
+      @include larger;
+      @include bold;
+    }
+
+    .icon_keyboard-arrow-right {
+      @include gray4;
+    }
+  }
+
+  &--upcoming-trip-count {
+    @include bold;
+
+    .icon_keyboard-arrow-right {
+      top: 2.1rem;
+    }
+  }
+
+  &--find-a-trip {
+    @include bold;
+  }
+
+  &--book-trip-call-to-action {
+    @include m0;
+    @include larger;
+    @include bold;
+  }
+
+  &--next-trip-label {
+    @include gray3;
+    @include caps;
+    font-size: 1.1rem;
+  }
+
+  &--next-trip-date {
+    margin: 0.3rem 0;
+  }
+
+  &--next-trip-title {
+    @include m0;
+    @include xlarge;
+    @include bold;
+  }
+
+  &--without-trips {
+    background-image: url('/content/mkt/images/landing_pages/my-account/clouds-bg.jpg');
+
+    .my-account-nav-item:first-child {
+      .icon_keyboard-arrow-right {
+        top: 2rem;
+      }
+    }
+  }
+
+  &--with-trips {
+    background-image: url('/content/mkt/images/landing_pages/my-account/my-trips-bg.jpg');
+  }
+}

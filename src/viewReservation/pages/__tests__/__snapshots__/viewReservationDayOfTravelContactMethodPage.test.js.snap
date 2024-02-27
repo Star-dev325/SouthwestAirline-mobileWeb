@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`viewReservationDayOfTravelContactMethodPage render should render DayOfTravelContactMethodPage component 1`] = `
+<div>
+  <div>
+    <div>
+      <form
+        class="contact-method form"
+        name="DAY_OF_TRAVEL_CONTACT_METHOD_FORM"
+        novalidate=""
+      >
+        <fieldset>
+          <div>
+            <div>
+              <div
+                class="page-header action-bar"
+                id=""
+              >
+                <ul
+                  class="action-bar-buttons action-bar--left-buttons"
+                >
+                  <li
+                    class="action-bar-buttons--item"
+                  >
+                    <button
+                      class="button"
+                      type="button"
+                    >
+                      SHARED__BUTTON_TEXT__CANCEL
+                    </button>
+                  </li>
+                </ul>
+                <div
+                  class="action-bar--container"
+                >
+                  <div
+                    class="action-bar--title-align-center action-bar--title"
+                  >
+                    <span
+                      class="action-bar--main-title"
+                    >
+                      SHARED__CONTACT_METHOD__PAGE_HEADER_TITLE
+                    </span>
+                    <span
+                      class="action-bar--sub-title"
+                    />
+                  </div>
+                </div>
+                <ul
+                  class="action-bar-buttons action-bar--right-buttons"
+                >
+                  <li
+                    class="action-bar-buttons--item"
+                  >
+                    <button
+                      class="button"
+                      type="submit"
+                    >
+                      SHARED__BUTTON_TEXT__DONE
+                    </button>
+                  </li>
+                </ul>
+              </div>
+              <div />
+            </div>
+            <div
+              class="contact-method--content"
+            >
+              <div
+                class="contact-method-communication contact-method-fields--first-group"
+              >
+                <div
+                  class="field"
+                >
+                  <ul
+                    class="contact-method-options"
+                  >
+                    <li
+                      class="contact-method-item"
+                    >
+                      <span>
+                        Text
+                      </span>
+                    </li>
+                    <li
+                      class="contact-method-item"
+                    >
+                      <span>
+                        Call
+                      </span>
+                    </li>
+                    <li
+                      class="contact-method-item"
+                    >
+                      <span>
+                        Email
+                      </span>
+                      <i
+                        class="icon icon_check"
+                      />
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="helper-text"
+                >
+                  SHARED__CONTACT_METHOD_HELPER__EMAIL
+                </div>
+              </div>
+              <p
+                class="day-of-travel-message"
+              >
+                A Reservation may only contain one contact method. By providing your contact information you are granting Southwest Airlines permission to send operational information on your flights.
+              </p>
+              <div
+                class="contact-method-fields"
+              >
+                <div
+                  class="field"
+                >
+                  <div
+                    class="contact-email-field input"
+                  >
+                    <input
+                      class=""
+                      name="email"
+                      placeholder="Email address"
+                      value="DIANA.MARTINEZ@WNCO.COM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+`;

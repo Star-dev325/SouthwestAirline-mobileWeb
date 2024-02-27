@@ -1,0 +1,90 @@
+.air-change-price-total {
+  @include bgwhite;
+
+  .price-total--info-row {
+    @include table;
+    @include fullwidth;
+  }
+
+  .price-total--info-col {
+    @include table-cell;
+    @include align-bottom;
+
+    &:nth-child(odd) {
+      @include align-left;
+    }
+
+    &:nth-child(even) {
+      @include align-right;
+    }
+  }
+
+  .price-total--price-break-down {
+    @include bgwhite;
+    padding: 0 1em;
+  }
+}
+
+.air-change-price-total--info {
+  @include bgwhite;
+  @include gray4;
+  @include p4;
+
+  .price-line .price-line--title {
+    @include regular;
+    @include xlarge;
+  }
+
+  .price-change {
+    @include pb2;
+
+    .price-line--title {
+      @include regular;
+      @include xlarge;
+    }
+
+    .price-line--currency_total {
+      @include xlarge;
+      @include regular;
+      @include gray4;
+
+      .money-sign {
+        @include regular;
+      }
+    }
+
+    &:first-child {
+      @include pt5;
+    }
+  }
+}
+
+.air-change-price-total--fare-summary {
+  @include bgpblue;
+  @include white;
+  @include p4;
+
+  .price-line {
+    .price-line--title {
+      @include bold;
+      @include xlarge;
+    }
+
+    .price-line--currency_total {
+      @include xxxlarge;
+      @include bold;
+
+      .money-sign {
+        @include bold;
+      }
+    }
+  }
+}
+
+.air-change-price-total--fare-summary-note {
+  @include bgpblue;
+  @include white;
+  @include px4;
+  @include pt0;
+  @include pb4;
+}

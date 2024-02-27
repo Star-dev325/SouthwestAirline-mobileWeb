@@ -1,0 +1,5 @@
+.car-company-card {
+  &:first-child {
+    @include ml0;
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": ["search"],
+  "properties": {
+    "search": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "currentLocationUsed",
+        "tripType"
+      ],
+      "properties": {
+        "tripType": {
+          "type": "string",
+          "enum": ["roundTrip", "oneWay"]
+        },
+        "currentLocationUsed": {"type": "boolean"},
+        "origin": { "type": ["string", "null"] },
+        "destination": { "type": ["string", "null"] },
+        "departureDate": { "type": ["string", "null"] },
+        "returnDate": { "type": ["string", "null"] },
+        "promoCodeIsValid": { "type": ["boolean", "null"] },
+        "dateChange": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

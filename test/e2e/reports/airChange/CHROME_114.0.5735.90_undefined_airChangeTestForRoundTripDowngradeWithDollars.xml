@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="15">
+
+  <testsuite name="airChange.airChangeTestForRoundTripDowngradeWithDollars"
+    errors="0" failures="1" hostname="" id="" package="airChange" skipped="5"
+    tests="15" time="62.11" timestamp="Fri, 15 Dec 2023 01:05:38 GMT">
+  
+    <testcase name="view reservation from homepage" classname="airChange.airChangeTestForRoundTripDowngradeWithDollars" time="38.21" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View flight reservation through with confirmation number" classname="airChange.airChangeTestForRoundTripDowngradeWithDollars" time="5.850" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Choose the change flight option" classname="airChange.airChangeTestForRoundTripDowngradeWithDollars" time="2.155" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Wait the the page transfer successfully" classname="airChange.airChangeTestForRoundTripDowngradeWithDollars" time="0.6320" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify analytics data for original reservation is filled in" classname="airChange.airChangeTestForRoundTripDowngradeWithDollars" time="0.04500" assertions="0">
+    </testcase>
+  
+    <testcase name="Select both bounds to change" classname="airChange.airChangeTestForRoundTripDowngradeWithDollars" time="2.342" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search new flight search criteria " classname="airChange.airChangeTestForRoundTripDowngradeWithDollars" time="2.132" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Waiting transfer to product list page" classname="airChange.airChangeTestForRoundTripDowngradeWithDollars" time="0.02500" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Analytics data for search request and search results should be filled in" classname="airChange.airChangeTestForRoundTripDowngradeWithDollars" time="0.02400" assertions="0">
+    </testcase>
+  
+    <testcase name="Select outbound flight product for downgrade" classname="airChange.airChangeTestForRoundTripDowngradeWithDollars" time="10.70" assertions="3">
+
+    
+
+      <failure message="Timed out while waiting for element &lt;div[data-qa=&#34;flight-products&#34;] .flight-product-section:nth-child(1)&gt; to be present for 10000 milliseconds.">    at Object.module.exports.command (/Users/x311032/spa-mobile-web/test/e2e/commands/clickVisible.js:2:8)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Select inbound flight product for downgrade" classname="airChange.airChangeTestForRoundTripDowngradeWithDollars">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click continue button on Pricing Summary Page" classname="airChange.airChangeTestForRoundTripDowngradeWithDollars">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Show Review Page" classname="airChange.airChangeTestForRoundTripDowngradeWithDollars">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Analytics data for payment options should be filled in" classname="airChange.airChangeTestForRoundTripDowngradeWithDollars">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Show Confirmation Page" classname="airChange.airChangeTestForRoundTripDowngradeWithDollars">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

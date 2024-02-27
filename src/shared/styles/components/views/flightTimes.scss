@@ -1,0 +1,25 @@
+.flight-times {
+  @include fullwidth;
+  @include flex;
+  @include flex-main-around;
+
+  &_stretched {
+    @include flex-main-between;
+  }
+}
+
+.flight-times--col {
+  @include table-cell;
+  @include align-middle;
+  @include flex-item-center;
+  padding: 0 0.25em;
+}
+
+.flight-times--col-label {
+  @include align-top;
+}
+
+.flight-times-icon {
+  @include sltblue;
+  font-size: 1.5em;
+}

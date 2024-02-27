@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Promo Codes Panel Component should render correct component 1`] = `
+<body>
+  <div>
+    <div
+      class="my-account-panel panel"
+    >
+      <div
+        class="panel--heading"
+      >
+        <span
+          class="pre-text"
+        >
+          MY_ACCOUNT__MY
+        </span>
+        <span
+          class="text"
+        >
+          MY_ACCOUNT__PROMO_CODES
+        </span>
+      </div>
+      <div
+        class="panel--body"
+      >
+        <div
+          class="segments"
+        >
+          <div
+            class="promo-panel-content segment"
+          >
+            <div
+              class="main-body-content"
+            >
+              wcm placeholder text
+            </div>
+          </div>
+          <div
+            class="segment-border-top py0 vertical-fill segment"
+          >
+            <div
+              class="promo-codes-panel--links ui divided horizontal list"
+            >
+              <div
+                class="nav-item py5 my-account-nav-item"
+                data-qa="click-view-promo-codes"
+              >
+                view promo codes button
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

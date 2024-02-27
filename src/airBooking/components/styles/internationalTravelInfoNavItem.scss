@@ -1,0 +1,10 @@
+.international-travel-info-item {
+  @include rd4;
+  @include bd;
+  @include bgwhite;
+}
+
+.international-travel-info-item--option-label {
+  @include gray3;
+  @include medium;
+}

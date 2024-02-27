@@ -1,0 +1,16 @@
+{
+  "revision": "20150304105043618",
+  "overlay": {
+    "title": "Forms of Payment",
+    "body": [
+      {
+        "type": "heading",
+        "value": "Forms of Payment"
+      },
+      {
+        "type": "text",
+        "value": "<p>For mobile payments we currently accept the following credit cards:</p>\n<p style=\"padding-left: 30px;\"><strong>Rapid  Rewards Visa<br />Visa<br />MasterCard<br />American Express<br />Discover  Network<br />UATP<br />Diners Club</strong></p>\n<p>If you'd like to purchase using Travel Funds, LUV Vouchers, Southwest Gift  Cards or PayPal please purchase on the full <a href=\"https://www.southwest.com/\">southwest.com</a> site.</p>\n<div id=\"_mcePaste\" class=\"mcePaste\" style=\"position: absolute; left: -40px; top: -25px; width: 1px; height: 1px; overflow: hidden;\"></div>"
+      }
+    ]
+  }
+}

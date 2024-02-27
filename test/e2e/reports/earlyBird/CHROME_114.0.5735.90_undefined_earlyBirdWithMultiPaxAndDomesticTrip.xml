@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="15">
+
+  <testsuite name="earlyBird.earlyBirdWithMultiPaxAndDomesticTrip"
+    errors="0" failures="1" hostname="" id="" package="earlyBird" skipped="3"
+    tests="15" time="74.28" timestamp="Fri, 15 Dec 2023 01:40:34 GMT">
+  
+    <testcase name="go to early bird from nav drawer" classname="earlyBird.earlyBirdWithMultiPaxAndDomesticTrip" time="30.10" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="On earlyBird checkIn page" classname="earlyBird.earlyBirdWithMultiPaxAndDomesticTrip" time="0.8480" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search for a reservation" classname="earlyBird.earlyBirdWithMultiPaxAndDomesticTrip" time="5.963" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify details page" classname="earlyBird.earlyBirdWithMultiPaxAndDomesticTrip" time="1.845" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify a list button" classname="earlyBird.earlyBirdWithMultiPaxAndDomesticTrip" time="2.617" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Back to previous page and continue" classname="earlyBird.earlyBirdWithMultiPaxAndDomesticTrip" time="2.561" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Back to previous page and forward" classname="earlyBird.earlyBirdWithMultiPaxAndDomesticTrip" time="4.078" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to review page" classname="earlyBird.earlyBirdWithMultiPaxAndDomesticTrip" time="3.078" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify review page" classname="earlyBird.earlyBirdWithMultiPaxAndDomesticTrip" time="0.2090" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to pricing page" classname="earlyBird.earlyBirdWithMultiPaxAndDomesticTrip" time="1.602" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Fill payment info" classname="earlyBird.earlyBirdWithMultiPaxAndDomesticTrip" time="10.72" assertions="17">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify filled purchase info" classname="earlyBird.earlyBirdWithMultiPaxAndDomesticTrip" time="10.66" assertions="1">  <failure message="Timed out while waiting for element &lt;button.continue&gt; to be present for 10000 milliseconds.">    at Object.Verify filled purchase info (/Users/x311032/spa-mobile-web/test/e2e/tests/earlyBird/earlyBirdWithMultiPaxAndDomesticTrip.js:126:8)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Purchase for earlybird" classname="earlyBird.earlyBirdWithMultiPaxAndDomesticTrip">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verified confirmation page" classname="earlyBird.earlyBirdWithMultiPaxAndDomesticTrip">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Go back to home" classname="earlyBird.earlyBirdWithMultiPaxAndDomesticTrip">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="9">
+
+  <testsuite name="airBooking.lowFareCalendarRoundTripPointsTest"
+    errors="0" failures="0" hostname="" id="" package="airBooking" skipped="0"
+    tests="9" time="92.54" timestamp="Fri, 15 Dec 2023 00:48:19 GMT">
+  
+    <testcase name="Go to air booking from nav drawer" classname="airBooking.lowFareCalendarRoundTripPointsTest" time="30.84" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find flight for single passenger from Dallas to Austin selecting LFC and Points" classname="airBooking.lowFareCalendarRoundTripPointsTest" time="18.92" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select low fare days" classname="airBooking.lowFareCalendarRoundTripPointsTest" time="1.572" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select flight" classname="airBooking.lowFareCalendarRoundTripPointsTest" time="9.894" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check reprice / price summary and continue" classname="airBooking.lowFareCalendarRoundTripPointsTest" time="3.693" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Login with Account" classname="airBooking.lowFareCalendarRoundTripPointsTest" time="7.748" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Purchase flight" classname="airBooking.lowFareCalendarRoundTripPointsTest" time="5.470" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="On confirmation Page" classname="airBooking.lowFareCalendarRoundTripPointsTest" time="0.1870" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Session expire and refresh then User is on the home page with session Expired dialog poping up" classname="airBooking.lowFareCalendarRoundTripPointsTest" time="14.22" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

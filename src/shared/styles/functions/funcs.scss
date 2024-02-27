@@ -1,0 +1,10 @@
+$base-fonts-path: '../fonts';
+$base-images-path: '/content/mkt/images/landing_pages';
+
+@function font-url($path) {
+  @return url('#{$base-fonts-path}/#{$path}');
+}
+
+@function image-url($path) {
+  @return url('#{$base-images-path}/#{$path}');
+}

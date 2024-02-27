@@ -1,0 +1,137 @@
+.same-day-shopping-page {
+  @include bgpdkblue;
+
+  &--disclaimers-container {
+    @include bgpltyellow;
+    @include flex-cross-center;
+    @include flex;
+    @include mb5;
+    @include mt5;
+    @include mx4;
+    @include p4;
+    @include xlarge;
+
+    &_icon {
+      @include mr2;
+      @include pdkblue;
+      @include xxlarge;
+    }
+
+    &_label {
+      @include large;
+      @include pl2;
+    }
+  }
+
+  &--standby-faq-link {
+    @include bgpdkblue;
+    @include flex-row;
+    @include flex;
+    @include large;
+    @include mt4;
+    @include pb5;
+    @include pr5;
+    @include right;
+    @include sltblue;
+
+    &_suffix-text {
+      @include sltblue;
+    }
+  }
+
+  &--sort-filter-button {
+    @include flex-row;
+    @include flex;
+    @include large;
+    @include pr3;
+    @include sltblue;
+
+    &-text {
+      @include sltblue;
+    }
+
+    &-icon {
+      @include pl2;
+    }
+  }
+
+  .standby-faq-modal {
+    @include align-left;
+    @include bgpblue;
+    @include bold;
+    @include flex-column;
+    @include flex;
+    @include pb1;
+    @include pt1;
+    @include px2;
+    @include gray2;
+    @include word-wrap;
+    @include xxlarge;
+    max-width: 95%;
+    width: 93%;
+
+    .head-faq-modal {
+      @include pb6;
+
+      .title-faq-modal {
+        @include white;
+      }
+    }
+
+    &--modal-content-view {
+      @include flex;
+      @include gray2;
+      @include mb4;
+      @include medium;
+
+      &_modal-info-icon {
+        @include pt2;
+        font-size: 0.5rem;
+      }
+
+      &_modal-info-text {
+        @include align-left;
+        @include large;
+        @include ml3;
+        @include regular;
+      }
+    }
+  }
+
+  .shopping-sort-filter-modal {
+    @include bgwhite;
+  }
+
+  .shopping-air-stations-overview {
+    @include mt5;
+    @include px4;
+  }
+
+  .same-day-shopping-page--products-container {
+    @include pb3;
+    @include pt6;
+    @include px4;
+
+    .flight-list-text {
+      @include bold;
+      @include flex;
+      @include flex-main-between;
+      @include fullwidth;
+      @include large;
+      @include pl4;
+      @include white;
+    }
+  }
+
+  .same-day-shopping-page--product-card {
+    @include my5;
+  }
+
+  .same-day-shopping-page--all-flights-filtered-out-text {
+    @include center;
+    @include gray4;
+    @include italic;
+    @include pre-line;
+    padding-top: 10rem;
+  }
+}

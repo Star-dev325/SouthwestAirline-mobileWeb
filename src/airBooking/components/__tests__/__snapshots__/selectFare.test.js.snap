@@ -1,0 +1,1383 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectFare Page Header should omit disclaimer when not provided 1`] = `
+<body>
+  <div>
+    <div
+      class="flight-select-fare--container"
+    >
+      <div>
+        <div
+          class="page-header action-bar"
+          id=""
+        >
+          <ul
+            class="action-bar-buttons action-bar--left-buttons"
+          />
+          <div
+            class="action-bar--container"
+          >
+            <div
+              class="action-bar--title"
+            >
+              <span
+                class="action-bar--main-title"
+              >
+                Select Fare
+              </span>
+              <span
+                class="action-bar--sub-title"
+              />
+            </div>
+          </div>
+          <ul
+            class="action-bar-buttons action-bar--right-buttons"
+          >
+            <li
+              class="action-bar-buttons--item"
+            >
+              <button
+                class="cancel button"
+                type="button"
+              >
+                SHARED__BUTTON_TEXT__CANCEL
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div />
+      </div>
+      
+      <div
+        class="flight-header"
+      >
+        <div
+          class="flight-header--col flight-header--col-label"
+          data-qa="departs"
+        >
+          <div
+            class="label-container"
+          >
+            <div
+              class="label-container--label"
+            >
+              Departs
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    7:35
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    PM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-header--col flight-header--col-label"
+        >
+          <div
+            class="label-container flight-header--flight-numbers-col"
+          >
+            <div
+              class="label-container--label"
+            >
+              Flight#
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-header--flight-number"
+              >
+                4827
+              </div>
+              <div
+                class="flight-header--stops"
+              >
+                Nonstop
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-header--col flight-header--col-label"
+        >
+          <div
+            class="label-container flight-header--arrives-col"
+          >
+            <div
+              class="label-container--label"
+            >
+              Arrives
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    9:25
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    PM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bgwhite pt4 px4 flight-select-fare--products-container"
+      >
+        <button
+          class="fare-product-list-select-button"
+        >
+          Mock Product List
+        </button>
+        <div
+          class="py5 bdt large"
+        >
+          <a
+            class="block pblue"
+            data-qa="fare-details-link"
+          >
+             
+            Mock Fare Details Text
+          </a>
+        </div>
+      </div>
+      <div
+        class="white px4 py5 flight-select-fare--footnotes"
+      >
+        <div
+          class="footnotes"
+        >
+          <div
+            class="footnote"
+          >
+             
+            <span
+              data-qa="footnote-label"
+            >
+              <a
+                href="\\\\\\"/baggage-restrictions\\""
+                target="\\\\\\"_blank\\\\\\""
+              >
+                * First and second checked bags. Weight and size limits apply.
+              </a>
+            </span>
+          </div>
+          <div
+            class="footnote"
+          >
+            <span
+              data-qa="footnote-prefix"
+            >
+              **
+            </span>
+             
+            <span
+              data-qa="footnote-label"
+            >
+              Fare difference may apply.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`selectFare Page Header should render 1`] = `
+<body>
+  <div>
+    <div
+      class="flight-select-fare--container"
+    >
+      <div>
+        <div
+          class="page-header action-bar"
+          id=""
+        >
+          <ul
+            class="action-bar-buttons action-bar--left-buttons"
+          />
+          <div
+            class="action-bar--container"
+          >
+            <div
+              class="action-bar--title"
+            >
+              <span
+                class="action-bar--main-title"
+              >
+                Select Fare
+              </span>
+              <span
+                class="action-bar--sub-title"
+              />
+            </div>
+          </div>
+          <ul
+            class="action-bar-buttons action-bar--right-buttons"
+          >
+            <li
+              class="action-bar-buttons--item"
+            >
+              <button
+                class="cancel button"
+                type="button"
+              >
+                SHARED__BUTTON_TEXT__CANCEL
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div />
+      </div>
+      
+      <div
+        class="flight-header"
+      >
+        <div
+          class="flight-header--col flight-header--col-label"
+          data-qa="departs"
+        >
+          <div
+            class="label-container"
+          >
+            <div
+              class="label-container--label"
+            >
+              Departs
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    7:35
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    PM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-header--col flight-header--col-label"
+        >
+          <div
+            class="label-container flight-header--flight-numbers-col"
+          >
+            <div
+              class="label-container--label"
+            >
+              Flight#
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-header--flight-number"
+              >
+                4827
+              </div>
+              <div
+                class="flight-header--stops"
+              >
+                Nonstop
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-header--col flight-header--col-label"
+        >
+          <div
+            class="label-container flight-header--arrives-col"
+          >
+            <div
+              class="label-container--label"
+            >
+              Arrives
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    9:25
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    PM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bgwhite pt4 px4 flight-select-fare--products-container"
+      >
+        <button
+          class="fare-product-list-select-button"
+        >
+          Mock Product List
+        </button>
+        <div
+          class="py5 bdt large"
+        >
+          <a
+            class="block pblue"
+            data-qa="fare-details-link"
+          >
+             
+            Mock Fare Details Text
+          </a>
+        </div>
+      </div>
+      <div
+        class="white px4 py5 flight-select-fare--footnotes"
+      >
+        <div
+          class="footnotes"
+        >
+          <div
+            class="footnote"
+          >
+             
+            <span
+              data-qa="footnote-label"
+            >
+              <a
+                href="\\\\\\"/baggage-restrictions\\""
+                target="\\\\\\"_blank\\\\\\""
+              >
+                * First and second checked bags. Weight and size limits apply.
+              </a>
+            </span>
+          </div>
+          <div
+            class="footnote"
+          >
+            <span
+              data-qa="footnote-prefix"
+            >
+              **
+            </span>
+             
+            <span
+              data-qa="footnote-label"
+            >
+              Fare difference may apply.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`selectFare Page Header should render with Returning destination 1`] = `
+<body>
+  <div>
+    <div
+      class="flight-select-fare--container"
+    >
+      <div>
+        <div
+          class="page-header action-bar"
+          id=""
+        >
+          <ul
+            class="action-bar-buttons action-bar--left-buttons"
+          />
+          <div
+            class="action-bar--container"
+          >
+            <div
+              class="action-bar--title"
+            >
+              <span
+                class="action-bar--main-title"
+              >
+                Select Fare
+              </span>
+              <span
+                class="action-bar--sub-title"
+              />
+            </div>
+          </div>
+          <ul
+            class="action-bar-buttons action-bar--right-buttons"
+          >
+            <li
+              class="action-bar-buttons--item"
+            >
+              <button
+                class="cancel button"
+                type="button"
+              >
+                SHARED__BUTTON_TEXT__CANCEL
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div />
+      </div>
+      
+      <div
+        class="flight-header"
+      >
+        <div
+          class="flight-header--col flight-header--col-label"
+          data-qa="departs"
+        >
+          <div
+            class="label-container"
+          >
+            <div
+              class="label-container--label"
+            >
+              Departs
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    7:35
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    PM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-header--col flight-header--col-label"
+        >
+          <div
+            class="label-container flight-header--flight-numbers-col"
+          >
+            <div
+              class="label-container--label"
+            >
+              Flight#
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-header--flight-number"
+              >
+                4827
+              </div>
+              <div
+                class="flight-header--stops"
+              >
+                Nonstop
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-header--col flight-header--col-label"
+        >
+          <div
+            class="label-container flight-header--arrives-col"
+          >
+            <div
+              class="label-container--label"
+            >
+              Arrives
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    9:25
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    PM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bgwhite pt4 px4 flight-select-fare--products-container"
+      >
+        <div
+          class="bgltblue px4 py4 mb5"
+          data-qa="disclaimerWithLinks"
+        >
+          <span>
+            All fares are rounded up to the nearest dollar
+          </span>
+        </div>
+        <button
+          class="fare-product-list-select-button"
+        >
+          Mock Product List
+        </button>
+        <div
+          class="py5 bdt large"
+        >
+          <a
+            class="block pblue"
+            data-qa="fare-details-link"
+          >
+             
+            Mock Fare Details Text
+          </a>
+        </div>
+      </div>
+      <div
+        class="white px4 py5 flight-select-fare--footnotes"
+      >
+        <div
+          class="footnotes"
+        >
+          <div
+            class="footnote"
+          >
+             
+            <span
+              data-qa="footnote-label"
+            >
+              <a
+                href="\\\\\\"/baggage-restrictions\\""
+                target="\\\\\\"_blank\\\\\\""
+              >
+                * First and second checked bags. Weight and size limits apply.
+              </a>
+            </span>
+          </div>
+          <div
+            class="footnote"
+          >
+            <span
+              data-qa="footnote-prefix"
+            >
+              **
+            </span>
+             
+            <span
+              data-qa="footnote-label"
+            >
+              Fare difference may apply.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`selectFare should display top and bottom placements when response contain promoTop01, bottomPromo1 and accountinfo 1`] = `
+<div>
+  <div
+    class="flight-select-fare--container"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              Select Fare
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="cancel button"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__CANCEL
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    
+    <div
+      class="flight-header"
+    >
+      <div
+        class="flight-header--col flight-header--col-label"
+        data-qa="departs"
+      >
+        <div
+          class="label-container"
+        >
+          <div
+            class="label-container--label"
+          >
+            Departs
+          </div>
+          <div
+            class="label-container--content"
+          >
+            <div
+              class="flight-time"
+            >
+              <div
+                class="flight-time--time"
+              >
+                <span>
+                  7:35
+                </span>
+                <span
+                  class="time-period"
+                >
+                  PM
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flight-header--col flight-header--col-label"
+      >
+        <div
+          class="label-container flight-header--flight-numbers-col"
+        >
+          <div
+            class="label-container--label"
+          >
+            Flight#
+          </div>
+          <div
+            class="label-container--content"
+          >
+            <div
+              class="flight-header--flight-number"
+            >
+              4827
+            </div>
+            <div
+              class="flight-header--stops"
+            >
+              Nonstop
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flight-header--col flight-header--col-label"
+      >
+        <div
+          class="label-container flight-header--arrives-col"
+        >
+          <div
+            class="label-container--label"
+          >
+            Arrives
+          </div>
+          <div
+            class="label-container--content"
+          >
+            <div
+              class="flight-time"
+            >
+              <div
+                class="flight-time--time"
+              >
+                <span>
+                  9:25
+                </span>
+                <span
+                  class="time-period"
+                >
+                  PM
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          >
+            <div
+              class="image-placement"
+            >
+              <div
+                data-qa="placement-link"
+              >
+                <img
+                  alt=""
+                  class="image-placement--background-image"
+                  src="/content/mkt/images/landing_pages/__tests__/chase-placement.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="bgwhite pt4 px4 flight-select-fare--products-container"
+    >
+      <button
+        class="fare-product-list-select-button"
+      >
+        Mock Product List
+      </button>
+      <div
+        class="py5 bdt large"
+      >
+        <a
+          class="block pblue"
+          data-qa="fare-details-link"
+        >
+           
+          Mock Fare Details Text
+        </a>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          >
+            <div
+              class="image-placement"
+            >
+              <div
+                data-qa="placement-link"
+              >
+                <img
+                  alt=""
+                  class="image-placement--background-image"
+                  src="/content/mkt/images/landing_pages/__tests__/chase-placement.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="white px4 py5 flight-select-fare--footnotes"
+    >
+      <div
+        class="footnotes"
+      >
+        <div
+          class="footnote"
+        >
+           
+          <span
+            data-qa="footnote-label"
+          >
+            <a
+              href="\\\\\\"/baggage-restrictions\\""
+              target="\\\\\\"_blank\\\\\\""
+            >
+              * First and second checked bags. Weight and size limits apply.
+            </a>
+          </span>
+        </div>
+        <div
+          class="footnote"
+        >
+          <span
+            data-qa="footnote-prefix"
+          >
+            **
+          </span>
+           
+          <span
+            data-qa="footnote-label"
+          >
+            Fare difference may apply.
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`selectFare should display top and bottom placements when response contain promoTop01, bottomPromo1 and when accountinfo undefined 1`] = `
+<div>
+  <div
+    class="flight-select-fare--container"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              Select Fare
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="cancel button"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__CANCEL
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    
+    <div
+      class="flight-header"
+    >
+      <div
+        class="flight-header--col flight-header--col-label"
+        data-qa="departs"
+      >
+        <div
+          class="label-container"
+        >
+          <div
+            class="label-container--label"
+          >
+            Departs
+          </div>
+          <div
+            class="label-container--content"
+          >
+            <div
+              class="flight-time"
+            >
+              <div
+                class="flight-time--time"
+              >
+                <span>
+                  7:35
+                </span>
+                <span
+                  class="time-period"
+                >
+                  PM
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flight-header--col flight-header--col-label"
+      >
+        <div
+          class="label-container flight-header--flight-numbers-col"
+        >
+          <div
+            class="label-container--label"
+          >
+            Flight#
+          </div>
+          <div
+            class="label-container--content"
+          >
+            <div
+              class="flight-header--flight-number"
+            >
+              4827
+            </div>
+            <div
+              class="flight-header--stops"
+            >
+              Nonstop
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flight-header--col flight-header--col-label"
+      >
+        <div
+          class="label-container flight-header--arrives-col"
+        >
+          <div
+            class="label-container--label"
+          >
+            Arrives
+          </div>
+          <div
+            class="label-container--content"
+          >
+            <div
+              class="flight-time"
+            >
+              <div
+                class="flight-time--time"
+              >
+                <span>
+                  9:25
+                </span>
+                <span
+                  class="time-period"
+                >
+                  PM
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          >
+            <div
+              class="image-placement"
+            >
+              <div
+                data-qa="placement-link"
+              >
+                <img
+                  alt=""
+                  class="image-placement--background-image"
+                  src="/content/mkt/images/landing_pages/__tests__/chase-placement.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="bgwhite pt4 px4 flight-select-fare--products-container"
+    >
+      <button
+        class="fare-product-list-select-button"
+      >
+        Mock Product List
+      </button>
+      <div
+        class="py5 bdt large"
+      >
+        <a
+          class="block pblue"
+          data-qa="fare-details-link"
+        >
+           
+          Mock Fare Details Text
+        </a>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          >
+            <div
+              class="image-placement"
+            >
+              <div
+                data-qa="placement-link"
+              >
+                <img
+                  alt=""
+                  class="image-placement--background-image"
+                  src="/content/mkt/images/landing_pages/__tests__/chase-placement.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="white px4 py5 flight-select-fare--footnotes"
+    >
+      <div
+        class="footnotes"
+      >
+        <div
+          class="footnote"
+        >
+           
+          <span
+            data-qa="footnote-label"
+          >
+            <a
+              href="\\\\\\"/baggage-restrictions\\""
+              target="\\\\\\"_blank\\\\\\""
+            >
+              * First and second checked bags. Weight and size limits apply.
+            </a>
+          </span>
+        </div>
+        <div
+          class="footnote"
+        >
+          <span
+            data-qa="footnote-prefix"
+          >
+            **
+          </span>
+           
+          <span
+            data-qa="footnote-label"
+          >
+            Fare difference may apply.
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`selectFare when corporate should show company header section if there is an associated company 1`] = `
+<body>
+  <div>
+    <div
+      class="flight-select-fare--container"
+    >
+      <div>
+        <div
+          class="page-header action-bar"
+          id=""
+        >
+          <ul
+            class="action-bar-buttons action-bar--left-buttons"
+          />
+          <div
+            class="action-bar--container"
+          >
+            <div
+              class="action-bar--title"
+            >
+              <span
+                class="action-bar--main-title"
+              >
+                Select Fare
+              </span>
+              <span
+                class="action-bar--sub-title"
+              />
+            </div>
+          </div>
+          <ul
+            class="action-bar-buttons action-bar--right-buttons"
+          >
+            <li
+              class="action-bar-buttons--item"
+            >
+              <button
+                class="cancel button"
+                type="button"
+              >
+                SHARED__BUTTON_TEXT__CANCEL
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div />
+      </div>
+      <div
+        class="company-name-banner"
+      >
+        <div
+          class="company-name-banner--label"
+        >
+          Dunder Mifflin Paper Company
+        </div>
+      </div>
+      <div
+        class="flight-header"
+      >
+        <div
+          class="flight-header--col flight-header--col-label"
+          data-qa="departs"
+        >
+          <div
+            class="label-container"
+          >
+            <div
+              class="label-container--label"
+            >
+              Departs
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    7:35
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    PM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-header--col flight-header--col-label"
+        >
+          <div
+            class="label-container flight-header--flight-numbers-col"
+          >
+            <div
+              class="label-container--label"
+            >
+              Flight#
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-header--flight-number"
+              >
+                4827
+              </div>
+              <div
+                class="flight-header--stops"
+              >
+                Nonstop
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flight-header--col flight-header--col-label"
+        >
+          <div
+            class="label-container flight-header--arrives-col"
+          >
+            <div
+              class="label-container--label"
+            >
+              Arrives
+            </div>
+            <div
+              class="label-container--content"
+            >
+              <div
+                class="flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    9:25
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    PM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bgwhite pt4 px4 flight-select-fare--products-container"
+      >
+        <button
+          class="fare-product-list-select-button"
+        >
+          Mock Product List
+        </button>
+        <div
+          class="py5 bdt large"
+        >
+          <a
+            class="block pblue"
+            data-qa="fare-details-link"
+          >
+             
+            Mock Fare Details Text
+          </a>
+        </div>
+      </div>
+      <div
+        class="white px4 py5 flight-select-fare--footnotes"
+      >
+        <div
+          class="footnotes"
+        >
+          <div
+            class="footnote"
+          >
+             
+            <span
+              data-qa="footnote-label"
+            >
+              <a
+                href="\\\\\\"/baggage-restrictions\\""
+                target="\\\\\\"_blank\\\\\\""
+              >
+                * First and second checked bags. Weight and size limits apply.
+              </a>
+            </span>
+          </div>
+          <div
+            class="footnote"
+          >
+            <span
+              data-qa="footnote-prefix"
+            >
+              **
+            </span>
+             
+            <span
+              data-qa="footnote-label"
+            >
+              Fare difference may apply.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="flightStatus.flightStatusSearchWithFlightNumberTest"
+    errors="0" failures="0" hostname="" id="" package="flightStatus" skipped="0"
+    tests="3" time="52.05" timestamp="Fri, 15 Dec 2023 01:47:24 GMT">
+  
+    <testcase name="go to flight status from homepage" classname="flightStatus.flightStatusSearchWithFlightNumberTest" time="39.02" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search a flight status" classname="flightStatus.flightStatusSearchWithFlightNumberTest" time="12.79" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify flight details are loaded" classname="flightStatus.flightStatusSearchWithFlightNumberTest" time="0.2380" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

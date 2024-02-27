@@ -1,0 +1,97 @@
+.car-booking_search,
+.car-shopping--results {
+  @include bgpdkblue;
+}
+
+.is-webview {
+  &.car-booking_search,
+  &.car-booking_price,
+  &.car-booking_purchase,
+  &.car-shopping--results {
+    @include for-tablet-and-up {
+      @include bg-car-booking;
+    }
+  }
+
+  &.car-booking_search {
+    .car-company-list-container {
+      @include for-tablet-and-up {
+        @include bg-car-booking;
+        @include fullwidth;
+        @include absolute;
+        @include t0;
+        @include b0;
+        @include overflow-y-scroll;
+      }
+
+      .car-company-list {
+        @include for-tablet-and-up {
+          @include bgwhite;
+          @include tablet-content-frame;
+
+          margin: $tablet-content-frame-margin-top auto 0;
+          padding-left: 12px;
+        }
+      }
+    }
+  }
+
+  &.car-booking_price {
+    .car-reservation-card-container {
+      @include for-tablet-and-up {
+        @include bggray1;
+        @include tablet-content-frame-lg;
+
+        margin: $tablet-content-frame-margin-top auto 0;
+        padding-top: 2px;
+      }
+    }
+
+    .car-extras-form {
+      @include for-tablet-and-up {
+        @include tablet-content-frame-lg;
+
+        margin: auto;
+        padding-bottom: $tablet-content-frame-padding-bottom;
+      }
+
+      .car-extras-form-content {
+        @include for-tablet-and-up {
+          @include bggray1;
+        }
+      }
+    }
+  }
+
+  &.car-booking_purchase {
+    .login-banner {
+      @include for-tablet-and-up {
+        padding-left: $tablet-banner-padding-left;
+
+        div,
+        i {
+          @include flex-none;
+
+          margin-right: 6px;
+        }
+      }
+    }
+  }
+
+  &.car-shopping--results {
+    .car-shopping-results-container {
+      @include for-tablet-and-up {
+        @include tablet-content-frame-lg;
+
+        margin: auto;
+      }
+    }
+
+    .car-shopping-results-message,
+    .car-shopping-results-dates {
+      @include for-tablet-and-up {
+        @include pdkblue;
+      }
+    }
+  }
+}

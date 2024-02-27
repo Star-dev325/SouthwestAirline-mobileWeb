@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="13">
+
+  <testsuite name="applePay.earlyBirdLoggedInWithMultiPax"
+    errors="0" failures="0" hostname="" id="" package="applePay" skipped="0"
+    tests="13" time="56.01" timestamp="Fri, 15 Dec 2023 01:19:57 GMT">
+  
+    <testcase name="Login user" classname="applePay.earlyBirdLoggedInWithMultiPax" time="33.22" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to early bird from the nav drawer" classname="applePay.earlyBirdLoggedInWithMultiPax" time="3.048" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search for a reservation" classname="applePay.earlyBirdLoggedInWithMultiPax" time="3.150" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Unselect departing flight for second passenger on details page" classname="applePay.earlyBirdLoggedInWithMultiPax" time="1.201" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to review page" classname="applePay.earlyBirdLoggedInWithMultiPax" time="4.241" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Show review page and open payment edit page" classname="applePay.earlyBirdLoggedInWithMultiPax" time="2.690" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select Apple Pay as payment type" classname="applePay.earlyBirdLoggedInWithMultiPax" time="2.351" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Apple Pay is selected on review page" classname="applePay.earlyBirdLoggedInWithMultiPax" time="0.2410" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go back to detail page and reselect departing flight for second passenger" classname="applePay.earlyBirdLoggedInWithMultiPax" time="1.975" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to review page and ensure that Apple Pay is still selected" classname="applePay.earlyBirdLoggedInWithMultiPax" time="2.335" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Stub and Move Ceptor Callback Function to prevent ApplePaySession errors" classname="applePay.earlyBirdLoggedInWithMultiPax" time="0.06800" assertions="0">
+    </testcase>
+  
+    <testcase name="Purchase with Apple Pay" classname="applePay.earlyBirdLoggedInWithMultiPax" time="0.5330" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Route to confirmation page and ensure Apple Pay is displayed" classname="applePay.earlyBirdLoggedInWithMultiPax" time="0.9550" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

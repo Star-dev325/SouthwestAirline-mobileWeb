@@ -1,0 +1,3898 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Air Change Repricing Page render should render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="pricing-summary"
+      >
+        <div>
+          <div
+            class="page-header"
+            id=""
+          >
+            <div>
+              <span
+                class="inline-block mr4"
+              >
+                AIR_CHANGE__CURRENT_RESERVATION__PRICE
+              </span>
+              <span
+                class="normal inline-block mr2"
+                data-qa="airPort-codes"
+              >
+                ALB - AUS (One Way)
+              </span>
+            </div>
+          </div>
+          <div />
+        </div>
+        <p
+          class="pricing-summary--message"
+        >
+          SHARED__REPRICING__NOTIFICATION
+        </p>
+        <div
+          class="reservation-flight-summary"
+        >
+          <div
+            class="flight-summary-card rd3 overflow-hidden"
+          >
+            <div
+              class="flight-summary-header flight-summary-departing"
+            >
+              <span
+                class="flight-summary-title"
+              >
+                Departing
+              </span>
+              <span
+                class="flight-day"
+              >
+                Fri, May 18, 2018
+              </span>
+            </div>
+            <div
+              class="flight-summary-content"
+            >
+              <div
+                class="pricing-summary--group"
+              >
+                <div>
+                  <div
+                    class="flight-info"
+                  >
+                    <div
+                      class="flight-info-col"
+                    >
+                      <div
+                        class="label-container"
+                      >
+                        <div
+                          class="label-container--label"
+                        >
+                          FLIGHT
+                        </div>
+                        <div
+                          class="label-container--content"
+                        >
+                          <div
+                            class="flight-number-list flex-row"
+                          >
+                            <span
+                              class="flight-number"
+                            >
+                              <span>
+                                6956
+                              </span>
+                            </span>
+                            <span
+                              class="flight-number"
+                            >
+                              <span>
+                                276
+                              </span>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flight-info-col"
+                    >
+                      <div
+                        class="label-container"
+                      >
+                        <div
+                          class="label-container--label"
+                        >
+                          TOTAL TRAVEL TIME
+                        </div>
+                        <div
+                          class="label-container--content"
+                        >
+                          <div
+                            class="flight-duration"
+                          >
+                            <i
+                              class="icon icon_color-stopwatch"
+                              title="color-stopwatch"
+                            />
+                            <span
+                              data-qa="flight-duration-minutes"
+                            >
+                              6h 35m
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical"
+                >
+                  <div
+                    class="itinerary-vertical--row"
+                  >
+                    <div
+                      class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon"
+                    >
+                      <i
+                        class="full-width-svg icon icon_airplane-depart"
+                      />
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-line"
+                    >
+                       
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-time"
+                    >
+                      <div
+                        class="label-container"
+                      >
+                        <div
+                          class="label-container--label"
+                        >
+                          DEPARTS
+                        </div>
+                        <div
+                          class="label-container--content"
+                        >
+                          <div
+                            class="flight-time-status flight-time-status--undefined"
+                          >
+                            <div
+                              class="flight-time"
+                            >
+                              <div
+                                class="flight-time--time"
+                              >
+                                <span>
+                                  5:15
+                                </span>
+                                <span
+                                  class="time-period"
+                                >
+                                  AM
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-info"
+                    >
+                      <div
+                        class="airport-info"
+                      >
+                        <div
+                          class="airport-info--code"
+                        >
+                          ALB
+                        </div>
+                        <div
+                          class="airport-info--detail"
+                        >
+                          Albany
+                          , 
+                          NY
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="panel"
+                  >
+                    <div
+                      class="panel--heading"
+                    >
+                      <div
+                        class="panel__title itinerary-vertical--row"
+                      >
+                        <a
+                          aria-expanded="false"
+                          class="panel-anchor collapsed"
+                          href="#"
+                        >
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-icon"
+                          >
+                            <span
+                              class="stop-circle"
+                            >
+                               
+                            </span>
+                          </div>
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-line"
+                          >
+                             
+                          </div>
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-info"
+                          >
+                            <span
+                              class="stops-detail stops-detail--with-icon"
+                            >
+                              <span>
+                                1
+                                 
+                                SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_STOP
+                                <span>
+                                  <span>
+                                    : 
+                                    <span
+                                      class="stops-detail--icon"
+                                    >
+                                      <i
+                                        class="icon icon_airplane-return"
+                                      />
+                                      <i
+                                        class="stop-highlight icon icon_airplane-return"
+                                      />
+                                    </span>
+                                    <br />
+                                  </span>
+                                  SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_CHANGE_PLANES
+                                </span>
+                                 
+                                BWI
+                              </span>
+                            </span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      aria-expanded="false"
+                      class="panel_collapsed collapse"
+                    >
+                      <div
+                        class="panel--body"
+                      >
+                        <div
+                          class="itinerary-vertical--row itinerary-vertical--row--stop"
+                        >
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-icon"
+                          >
+                            <span
+                              class="stop-circle"
+                            >
+                                 
+                            </span>
+                          </div>
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-line"
+                          >
+                             
+                          </div>
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-time"
+                          >
+                            <div
+                              class="flight-time-group"
+                            >
+                              <div
+                                class="label-container"
+                              >
+                                <div
+                                  class="label-container--label"
+                                >
+                                  ARRIVES
+                                </div>
+                                <div
+                                  class="label-container--content"
+                                >
+                                  <div
+                                    class="flight-time-status flight-time-status--undefined"
+                                  >
+                                    <div
+                                      class="flight-time"
+                                    >
+                                      <div
+                                        class="flight-time--time"
+                                      >
+                                        <span>
+                                          6:30
+                                        </span>
+                                        <span
+                                          class="time-period"
+                                        >
+                                          AM
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="label-container"
+                              >
+                                <div
+                                  class="label-container--label"
+                                >
+                                  DEPARTS
+                                </div>
+                                <div
+                                  class="label-container--content"
+                                >
+                                  <div
+                                    class="flight-time-status flight-time-status--undefined"
+                                  >
+                                    <div
+                                      class="flight-time"
+                                    >
+                                      <div
+                                        class="flight-time--time"
+                                      >
+                                        <span>
+                                          8:10
+                                        </span>
+                                        <span
+                                          class="time-period"
+                                        >
+                                          AM
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-info"
+                          >
+                            <div
+                              class="stop-detail stop-detail--has-change"
+                            >
+                              <div
+                                class="airport-info"
+                              >
+                                <div
+                                  class="airport-info--code"
+                                >
+                                  BWI
+                                </div>
+                              </div>
+                              <div
+                                class="stop-detail__info italic"
+                              >
+                                Stop: 
+                                <span>
+                                  Baltimore/Washington, MD
+                                </span>
+                              </div>
+                              <div
+                                class="stop-detail__status italic"
+                              >
+                                <span>
+                                  SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_CHANGE_PLANES
+                                    
+                                  <i
+                                    class="stop-detail--airplane-return icon icon_airplane-return"
+                                  />
+                                  <i
+                                    class="stop-detail--airplane-return highlight icon icon_airplane-return"
+                                  />
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--row itinerary-vertical--arrival"
+                  >
+                    <div
+                      class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none-line"
+                    >
+                      <i
+                        class="full-width-svg icon icon_airplane-depart"
+                      />
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-line"
+                    >
+                       
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-time"
+                    >
+                      <div
+                        class="label-container"
+                      >
+                        <div
+                          class="label-container--label"
+                        >
+                          ARRIVES
+                        </div>
+                        <div
+                          class="label-container--content"
+                        >
+                          <div
+                            class="flight-time-status flight-time-status--undefined"
+                          >
+                            <div
+                              class="flight-time"
+                            >
+                              <div
+                                class="flight-time--time"
+                              >
+                                <span>
+                                  10:50
+                                </span>
+                                <span
+                                  class="time-period"
+                                >
+                                  AM
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-info"
+                    >
+                      <div
+                        class="airport-info"
+                      >
+                        <div
+                          class="airport-info--code"
+                        >
+                          AUS
+                        </div>
+                        <div
+                          class="airport-info--detail"
+                        >
+                          Austin
+                          , 
+                          TX
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pricing-summary--group"
+              >
+                <div
+                  class="passenger-price"
+                >
+                  <div
+                    class="passenger-price--info"
+                  >
+                    <span
+                      class="passenger-price--number-and-type"
+                      data-qa="passenger-price-passengers--number-and-type"
+                    >
+                      1
+                       
+                      Adult
+                    </span>
+                    <a
+                      class="passenger-price--fare-type"
+                      data-qa="passenger-price--fare-type"
+                      href="https://mobile.southwest.com/fare-rules/anytime"
+                      target="_blank"
+                    >
+                      Anytime
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="price-summary-notice"
+        >
+          <span>
+            Please read 
+            <a
+              href="https://mobile.southwest.com/fare-rules"
+              target="_blank"
+            >
+              fare rules
+            </a>
+             associated with purchase.
+          </span>
+        </div>
+        <div
+          class="price-total"
+        >
+          <div
+            class="price-total--info"
+          >
+            <div
+              class="price-line"
+            >
+              <span
+                class="price-line--title"
+              >
+                SHARED__PRICE_LINE_TITLES__NEW_TOTAL
+              </span>
+              <div
+                class="price-amount"
+              >
+                <div
+                  class="price-line--currency_total"
+                >
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      566.58
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="table fullwidth"
+            >
+              <div
+                class="price-total--info-col"
+              >
+                <p>
+                  SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bgpblue p4"
+        >
+          <p
+            class="white mb4"
+          >
+            <span
+              class="inline-block mb1"
+            >
+              Select cancel to change your flight selections.
+            </span>
+            <span
+              class="inline-block"
+            >
+              By tapping continue, you accept the new price.
+            </span>
+          </p>
+          <button
+            class="continue button button--fluid large button--yellow"
+            data-qa="continueButton"
+            type="button"
+          >
+            SHARED__BUTTON_TEXT__CONTINUE
+          </button>
+          <button
+            class="cancel mt4 button button--fluid large button--grey"
+            data-qa="cancelButton"
+            type="button"
+          >
+            SHARED__BUTTON_TEXT__CANCEL
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="pricing-summary"
+    >
+      <div>
+        <div
+          class="page-header"
+          id=""
+        >
+          <div>
+            <span
+              class="inline-block mr4"
+            >
+              AIR_CHANGE__CURRENT_RESERVATION__PRICE
+            </span>
+            <span
+              class="normal inline-block mr2"
+              data-qa="airPort-codes"
+            >
+              ALB - AUS (One Way)
+            </span>
+          </div>
+        </div>
+        <div />
+      </div>
+      <p
+        class="pricing-summary--message"
+      >
+        SHARED__REPRICING__NOTIFICATION
+      </p>
+      <div
+        class="reservation-flight-summary"
+      >
+        <div
+          class="flight-summary-card rd3 overflow-hidden"
+        >
+          <div
+            class="flight-summary-header flight-summary-departing"
+          >
+            <span
+              class="flight-summary-title"
+            >
+              Departing
+            </span>
+            <span
+              class="flight-day"
+            >
+              Fri, May 18, 2018
+            </span>
+          </div>
+          <div
+            class="flight-summary-content"
+          >
+            <div
+              class="pricing-summary--group"
+            >
+              <div>
+                <div
+                  class="flight-info"
+                >
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-number-list flex-row"
+                        >
+                          <span
+                            class="flight-number"
+                          >
+                            <span>
+                              6956
+                            </span>
+                          </span>
+                          <span
+                            class="flight-number"
+                          >
+                            <span>
+                              276
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        TOTAL TRAVEL TIME
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-duration"
+                        >
+                          <i
+                            class="icon icon_color-stopwatch"
+                            title="color-stopwatch"
+                          />
+                          <span
+                            data-qa="flight-duration-minutes"
+                          >
+                            6h 35m
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="itinerary-vertical"
+              >
+                <div
+                  class="itinerary-vertical--row"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                5:15
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        ALB
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Albany
+                        , 
+                        NY
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="panel"
+                >
+                  <div
+                    class="panel--heading"
+                  >
+                    <div
+                      class="panel__title itinerary-vertical--row"
+                    >
+                      <a
+                        aria-expanded="false"
+                        class="panel-anchor collapsed"
+                        href="#"
+                      >
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-icon"
+                        >
+                          <span
+                            class="stop-circle"
+                          >
+                             
+                          </span>
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-line"
+                        >
+                           
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-info"
+                        >
+                          <span
+                            class="stops-detail stops-detail--with-icon"
+                          >
+                            <span>
+                              1
+                               
+                              SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_STOP
+                              <span>
+                                <span>
+                                  : 
+                                  <span
+                                    class="stops-detail--icon"
+                                  >
+                                    <i
+                                      class="icon icon_airplane-return"
+                                    />
+                                    <i
+                                      class="stop-highlight icon icon_airplane-return"
+                                    />
+                                  </span>
+                                  <br />
+                                </span>
+                                SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_CHANGE_PLANES
+                              </span>
+                               
+                              BWI
+                            </span>
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    aria-expanded="false"
+                    class="panel_collapsed collapse"
+                  >
+                    <div
+                      class="panel--body"
+                    >
+                      <div
+                        class="itinerary-vertical--row itinerary-vertical--row--stop"
+                      >
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-icon"
+                        >
+                          <span
+                            class="stop-circle"
+                          >
+                               
+                          </span>
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-line"
+                        >
+                           
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-time"
+                        >
+                          <div
+                            class="flight-time-group"
+                          >
+                            <div
+                              class="label-container"
+                            >
+                              <div
+                                class="label-container--label"
+                              >
+                                ARRIVES
+                              </div>
+                              <div
+                                class="label-container--content"
+                              >
+                                <div
+                                  class="flight-time-status flight-time-status--undefined"
+                                >
+                                  <div
+                                    class="flight-time"
+                                  >
+                                    <div
+                                      class="flight-time--time"
+                                    >
+                                      <span>
+                                        6:30
+                                      </span>
+                                      <span
+                                        class="time-period"
+                                      >
+                                        AM
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="label-container"
+                            >
+                              <div
+                                class="label-container--label"
+                              >
+                                DEPARTS
+                              </div>
+                              <div
+                                class="label-container--content"
+                              >
+                                <div
+                                  class="flight-time-status flight-time-status--undefined"
+                                >
+                                  <div
+                                    class="flight-time"
+                                  >
+                                    <div
+                                      class="flight-time--time"
+                                    >
+                                      <span>
+                                        8:10
+                                      </span>
+                                      <span
+                                        class="time-period"
+                                      >
+                                        AM
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-info"
+                        >
+                          <div
+                            class="stop-detail stop-detail--has-change"
+                          >
+                            <div
+                              class="airport-info"
+                            >
+                              <div
+                                class="airport-info--code"
+                              >
+                                BWI
+                              </div>
+                            </div>
+                            <div
+                              class="stop-detail__info italic"
+                            >
+                              Stop: 
+                              <span>
+                                Baltimore/Washington, MD
+                              </span>
+                            </div>
+                            <div
+                              class="stop-detail__status italic"
+                            >
+                              <span>
+                                SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_CHANGE_PLANES
+                                  
+                                <i
+                                  class="stop-detail--airplane-return icon icon_airplane-return"
+                                />
+                                <i
+                                  class="stop-detail--airplane-return highlight icon icon_airplane-return"
+                                />
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical--row itinerary-vertical--arrival"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none-line"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        ARRIVES
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                10:50
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        AUS
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Austin
+                        , 
+                        TX
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pricing-summary--group"
+            >
+              <div
+                class="passenger-price"
+              >
+                <div
+                  class="passenger-price--info"
+                >
+                  <span
+                    class="passenger-price--number-and-type"
+                    data-qa="passenger-price-passengers--number-and-type"
+                  >
+                    1
+                     
+                    Adult
+                  </span>
+                  <a
+                    class="passenger-price--fare-type"
+                    data-qa="passenger-price--fare-type"
+                    href="https://mobile.southwest.com/fare-rules/anytime"
+                    target="_blank"
+                  >
+                    Anytime
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="price-summary-notice"
+      >
+        <span>
+          Please read 
+          <a
+            href="https://mobile.southwest.com/fare-rules"
+            target="_blank"
+          >
+            fare rules
+          </a>
+           associated with purchase.
+        </span>
+      </div>
+      <div
+        class="price-total"
+      >
+        <div
+          class="price-total--info"
+        >
+          <div
+            class="price-line"
+          >
+            <span
+              class="price-line--title"
+            >
+              SHARED__PRICE_LINE_TITLES__NEW_TOTAL
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    566.58
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="table fullwidth"
+          >
+            <div
+              class="price-total--info-col"
+            >
+              <p>
+                SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bgpblue p4"
+      >
+        <p
+          class="white mb4"
+        >
+          <span
+            class="inline-block mb1"
+          >
+            Select cancel to change your flight selections.
+          </span>
+          <span
+            class="inline-block"
+          >
+            By tapping continue, you accept the new price.
+          </span>
+        </p>
+        <button
+          class="continue button button--fluid large button--yellow"
+          data-qa="continueButton"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__CONTINUE
+        </button>
+        <button
+          class="cancel mt4 button button--fluid large button--grey"
+          data-qa="cancelButton"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__CANCEL
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Air Change Repricing Page render should render correctly in webView 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="pricing-summary"
+      >
+        <div>
+          <div
+            class="page-header hidden"
+            id=""
+          >
+            <div>
+              <span
+                class="inline-block mr4"
+              >
+                AIR_CHANGE__CURRENT_RESERVATION__PRICE
+              </span>
+              <span
+                class="normal inline-block mr2"
+                data-qa="airPort-codes"
+              >
+                ALB - AUS (One Way)
+              </span>
+            </div>
+          </div>
+          <div />
+        </div>
+        <p
+          class="pricing-summary--message"
+        >
+          SHARED__REPRICING__NOTIFICATION
+        </p>
+        <div
+          class="reservation-flight-summary"
+        >
+          <div
+            class="flight-summary-card rd3 overflow-hidden"
+          >
+            <div
+              class="flight-summary-header flight-summary-departing"
+            >
+              <span
+                class="flight-summary-title"
+              >
+                Departing
+              </span>
+              <span
+                class="flight-day"
+              >
+                Fri, May 18, 2018
+              </span>
+            </div>
+            <div
+              class="flight-summary-content"
+            >
+              <div
+                class="pricing-summary--group"
+              >
+                <div>
+                  <div
+                    class="flight-info"
+                  >
+                    <div
+                      class="flight-info-col"
+                    >
+                      <div
+                        class="label-container"
+                      >
+                        <div
+                          class="label-container--label"
+                        >
+                          FLIGHT
+                        </div>
+                        <div
+                          class="label-container--content"
+                        >
+                          <div
+                            class="flight-number-list flex-row"
+                          >
+                            <span
+                              class="flight-number"
+                            >
+                              <span>
+                                6956
+                              </span>
+                            </span>
+                            <span
+                              class="flight-number"
+                            >
+                              <span>
+                                276
+                              </span>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flight-info-col"
+                    >
+                      <div
+                        class="label-container"
+                      >
+                        <div
+                          class="label-container--label"
+                        >
+                          TOTAL TRAVEL TIME
+                        </div>
+                        <div
+                          class="label-container--content"
+                        >
+                          <div
+                            class="flight-duration"
+                          >
+                            <i
+                              class="icon icon_color-stopwatch"
+                              title="color-stopwatch"
+                            />
+                            <span
+                              data-qa="flight-duration-minutes"
+                            >
+                              6h 35m
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical"
+                >
+                  <div
+                    class="itinerary-vertical--row"
+                  >
+                    <div
+                      class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon"
+                    >
+                      <i
+                        class="full-width-svg icon icon_airplane-depart"
+                      />
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-line"
+                    >
+                       
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-time"
+                    >
+                      <div
+                        class="label-container"
+                      >
+                        <div
+                          class="label-container--label"
+                        >
+                          DEPARTS
+                        </div>
+                        <div
+                          class="label-container--content"
+                        >
+                          <div
+                            class="flight-time-status flight-time-status--undefined"
+                          >
+                            <div
+                              class="flight-time"
+                            >
+                              <div
+                                class="flight-time--time"
+                              >
+                                <span>
+                                  5:15
+                                </span>
+                                <span
+                                  class="time-period"
+                                >
+                                  AM
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-info"
+                    >
+                      <div
+                        class="airport-info"
+                      >
+                        <div
+                          class="airport-info--code"
+                        >
+                          ALB
+                        </div>
+                        <div
+                          class="airport-info--detail"
+                        >
+                          Albany
+                          , 
+                          NY
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="panel"
+                  >
+                    <div
+                      class="panel--heading"
+                    >
+                      <div
+                        class="panel__title itinerary-vertical--row"
+                      >
+                        <a
+                          aria-expanded="false"
+                          class="panel-anchor collapsed"
+                          href="#"
+                        >
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-icon"
+                          >
+                            <span
+                              class="stop-circle"
+                            >
+                               
+                            </span>
+                          </div>
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-line"
+                          >
+                             
+                          </div>
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-info"
+                          >
+                            <span
+                              class="stops-detail stops-detail--with-icon"
+                            >
+                              <span>
+                                1
+                                 
+                                SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_STOP
+                                <span>
+                                  <span>
+                                    : 
+                                    <span
+                                      class="stops-detail--icon"
+                                    >
+                                      <i
+                                        class="icon icon_airplane-return"
+                                      />
+                                      <i
+                                        class="stop-highlight icon icon_airplane-return"
+                                      />
+                                    </span>
+                                    <br />
+                                  </span>
+                                  SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_CHANGE_PLANES
+                                </span>
+                                 
+                                BWI
+                              </span>
+                            </span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      aria-expanded="false"
+                      class="panel_collapsed collapse"
+                    >
+                      <div
+                        class="panel--body"
+                      >
+                        <div
+                          class="itinerary-vertical--row itinerary-vertical--row--stop"
+                        >
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-icon"
+                          >
+                            <span
+                              class="stop-circle"
+                            >
+                                 
+                            </span>
+                          </div>
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-line"
+                          >
+                             
+                          </div>
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-time"
+                          >
+                            <div
+                              class="flight-time-group"
+                            >
+                              <div
+                                class="label-container"
+                              >
+                                <div
+                                  class="label-container--label"
+                                >
+                                  ARRIVES
+                                </div>
+                                <div
+                                  class="label-container--content"
+                                >
+                                  <div
+                                    class="flight-time-status flight-time-status--undefined"
+                                  >
+                                    <div
+                                      class="flight-time"
+                                    >
+                                      <div
+                                        class="flight-time--time"
+                                      >
+                                        <span>
+                                          6:30
+                                        </span>
+                                        <span
+                                          class="time-period"
+                                        >
+                                          AM
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="label-container"
+                              >
+                                <div
+                                  class="label-container--label"
+                                >
+                                  DEPARTS
+                                </div>
+                                <div
+                                  class="label-container--content"
+                                >
+                                  <div
+                                    class="flight-time-status flight-time-status--undefined"
+                                  >
+                                    <div
+                                      class="flight-time"
+                                    >
+                                      <div
+                                        class="flight-time--time"
+                                      >
+                                        <span>
+                                          8:10
+                                        </span>
+                                        <span
+                                          class="time-period"
+                                        >
+                                          AM
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-info"
+                          >
+                            <div
+                              class="stop-detail stop-detail--has-change"
+                            >
+                              <div
+                                class="airport-info"
+                              >
+                                <div
+                                  class="airport-info--code"
+                                >
+                                  BWI
+                                </div>
+                              </div>
+                              <div
+                                class="stop-detail__info italic"
+                              >
+                                Stop: 
+                                <span>
+                                  Baltimore/Washington, MD
+                                </span>
+                              </div>
+                              <div
+                                class="stop-detail__status italic"
+                              >
+                                <span>
+                                  SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_CHANGE_PLANES
+                                    
+                                  <i
+                                    class="stop-detail--airplane-return icon icon_airplane-return"
+                                  />
+                                  <i
+                                    class="stop-detail--airplane-return highlight icon icon_airplane-return"
+                                  />
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--row itinerary-vertical--arrival"
+                  >
+                    <div
+                      class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none-line"
+                    >
+                      <i
+                        class="full-width-svg icon icon_airplane-depart"
+                      />
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-line"
+                    >
+                       
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-time"
+                    >
+                      <div
+                        class="label-container"
+                      >
+                        <div
+                          class="label-container--label"
+                        >
+                          ARRIVES
+                        </div>
+                        <div
+                          class="label-container--content"
+                        >
+                          <div
+                            class="flight-time-status flight-time-status--undefined"
+                          >
+                            <div
+                              class="flight-time"
+                            >
+                              <div
+                                class="flight-time--time"
+                              >
+                                <span>
+                                  10:50
+                                </span>
+                                <span
+                                  class="time-period"
+                                >
+                                  AM
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-info"
+                    >
+                      <div
+                        class="airport-info"
+                      >
+                        <div
+                          class="airport-info--code"
+                        >
+                          AUS
+                        </div>
+                        <div
+                          class="airport-info--detail"
+                        >
+                          Austin
+                          , 
+                          TX
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pricing-summary--group"
+              >
+                <div
+                  class="passenger-price"
+                >
+                  <div
+                    class="passenger-price--info"
+                  >
+                    <span
+                      class="passenger-price--number-and-type"
+                      data-qa="passenger-price-passengers--number-and-type"
+                    >
+                      1
+                       
+                      Adult
+                    </span>
+                    <a
+                      class="passenger-price--fare-type"
+                      data-qa="passenger-price--fare-type"
+                      href="https://mobile.southwest.com/fare-rules/anytime"
+                      target="_blank"
+                    >
+                      Anytime
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="price-summary-notice"
+        >
+          <span>
+            Please read 
+            <a
+              href="https://mobile.southwest.com/fare-rules"
+              target="_blank"
+            >
+              fare rules
+            </a>
+             associated with purchase.
+          </span>
+        </div>
+        <div
+          class="price-total"
+        >
+          <div
+            class="price-total--info"
+          >
+            <div
+              class="price-line"
+            >
+              <span
+                class="price-line--title"
+              >
+                SHARED__PRICE_LINE_TITLES__NEW_TOTAL
+              </span>
+              <div
+                class="price-amount"
+              >
+                <div
+                  class="price-line--currency_total"
+                >
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      566.58
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="table fullwidth"
+            >
+              <div
+                class="price-total--info-col"
+              >
+                <p>
+                  SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bgpblue p4"
+        >
+          <p
+            class="white mb4"
+          >
+            <span
+              class="inline-block mb1"
+            >
+              Select cancel to change your flight selections.
+            </span>
+            <span
+              class="inline-block"
+            >
+              By tapping continue, you accept the new price.
+            </span>
+          </p>
+          <button
+            class="continue button button--fluid large button--yellow"
+            data-qa="continueButton"
+            type="button"
+          >
+            SHARED__BUTTON_TEXT__CONTINUE
+          </button>
+          <button
+            class="cancel mt4 button button--fluid large button--grey"
+            data-qa="cancelButton"
+            type="button"
+          >
+            SHARED__BUTTON_TEXT__CANCEL
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="pricing-summary"
+    >
+      <div>
+        <div
+          class="page-header hidden"
+          id=""
+        >
+          <div>
+            <span
+              class="inline-block mr4"
+            >
+              AIR_CHANGE__CURRENT_RESERVATION__PRICE
+            </span>
+            <span
+              class="normal inline-block mr2"
+              data-qa="airPort-codes"
+            >
+              ALB - AUS (One Way)
+            </span>
+          </div>
+        </div>
+        <div />
+      </div>
+      <p
+        class="pricing-summary--message"
+      >
+        SHARED__REPRICING__NOTIFICATION
+      </p>
+      <div
+        class="reservation-flight-summary"
+      >
+        <div
+          class="flight-summary-card rd3 overflow-hidden"
+        >
+          <div
+            class="flight-summary-header flight-summary-departing"
+          >
+            <span
+              class="flight-summary-title"
+            >
+              Departing
+            </span>
+            <span
+              class="flight-day"
+            >
+              Fri, May 18, 2018
+            </span>
+          </div>
+          <div
+            class="flight-summary-content"
+          >
+            <div
+              class="pricing-summary--group"
+            >
+              <div>
+                <div
+                  class="flight-info"
+                >
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-number-list flex-row"
+                        >
+                          <span
+                            class="flight-number"
+                          >
+                            <span>
+                              6956
+                            </span>
+                          </span>
+                          <span
+                            class="flight-number"
+                          >
+                            <span>
+                              276
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        TOTAL TRAVEL TIME
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-duration"
+                        >
+                          <i
+                            class="icon icon_color-stopwatch"
+                            title="color-stopwatch"
+                          />
+                          <span
+                            data-qa="flight-duration-minutes"
+                          >
+                            6h 35m
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="itinerary-vertical"
+              >
+                <div
+                  class="itinerary-vertical--row"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                5:15
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        ALB
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Albany
+                        , 
+                        NY
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="panel"
+                >
+                  <div
+                    class="panel--heading"
+                  >
+                    <div
+                      class="panel__title itinerary-vertical--row"
+                    >
+                      <a
+                        aria-expanded="false"
+                        class="panel-anchor collapsed"
+                        href="#"
+                      >
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-icon"
+                        >
+                          <span
+                            class="stop-circle"
+                          >
+                             
+                          </span>
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-line"
+                        >
+                           
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-info"
+                        >
+                          <span
+                            class="stops-detail stops-detail--with-icon"
+                          >
+                            <span>
+                              1
+                               
+                              SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_STOP
+                              <span>
+                                <span>
+                                  : 
+                                  <span
+                                    class="stops-detail--icon"
+                                  >
+                                    <i
+                                      class="icon icon_airplane-return"
+                                    />
+                                    <i
+                                      class="stop-highlight icon icon_airplane-return"
+                                    />
+                                  </span>
+                                  <br />
+                                </span>
+                                SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_CHANGE_PLANES
+                              </span>
+                               
+                              BWI
+                            </span>
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    aria-expanded="false"
+                    class="panel_collapsed collapse"
+                  >
+                    <div
+                      class="panel--body"
+                    >
+                      <div
+                        class="itinerary-vertical--row itinerary-vertical--row--stop"
+                      >
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-icon"
+                        >
+                          <span
+                            class="stop-circle"
+                          >
+                               
+                          </span>
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-line"
+                        >
+                           
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-time"
+                        >
+                          <div
+                            class="flight-time-group"
+                          >
+                            <div
+                              class="label-container"
+                            >
+                              <div
+                                class="label-container--label"
+                              >
+                                ARRIVES
+                              </div>
+                              <div
+                                class="label-container--content"
+                              >
+                                <div
+                                  class="flight-time-status flight-time-status--undefined"
+                                >
+                                  <div
+                                    class="flight-time"
+                                  >
+                                    <div
+                                      class="flight-time--time"
+                                    >
+                                      <span>
+                                        6:30
+                                      </span>
+                                      <span
+                                        class="time-period"
+                                      >
+                                        AM
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="label-container"
+                            >
+                              <div
+                                class="label-container--label"
+                              >
+                                DEPARTS
+                              </div>
+                              <div
+                                class="label-container--content"
+                              >
+                                <div
+                                  class="flight-time-status flight-time-status--undefined"
+                                >
+                                  <div
+                                    class="flight-time"
+                                  >
+                                    <div
+                                      class="flight-time--time"
+                                    >
+                                      <span>
+                                        8:10
+                                      </span>
+                                      <span
+                                        class="time-period"
+                                      >
+                                        AM
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-info"
+                        >
+                          <div
+                            class="stop-detail stop-detail--has-change"
+                          >
+                            <div
+                              class="airport-info"
+                            >
+                              <div
+                                class="airport-info--code"
+                              >
+                                BWI
+                              </div>
+                            </div>
+                            <div
+                              class="stop-detail__info italic"
+                            >
+                              Stop: 
+                              <span>
+                                Baltimore/Washington, MD
+                              </span>
+                            </div>
+                            <div
+                              class="stop-detail__status italic"
+                            >
+                              <span>
+                                SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_CHANGE_PLANES
+                                  
+                                <i
+                                  class="stop-detail--airplane-return icon icon_airplane-return"
+                                />
+                                <i
+                                  class="stop-detail--airplane-return highlight icon icon_airplane-return"
+                                />
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical--row itinerary-vertical--arrival"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none-line"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        ARRIVES
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                10:50
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        AUS
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Austin
+                        , 
+                        TX
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pricing-summary--group"
+            >
+              <div
+                class="passenger-price"
+              >
+                <div
+                  class="passenger-price--info"
+                >
+                  <span
+                    class="passenger-price--number-and-type"
+                    data-qa="passenger-price-passengers--number-and-type"
+                  >
+                    1
+                     
+                    Adult
+                  </span>
+                  <a
+                    class="passenger-price--fare-type"
+                    data-qa="passenger-price--fare-type"
+                    href="https://mobile.southwest.com/fare-rules/anytime"
+                    target="_blank"
+                  >
+                    Anytime
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="price-summary-notice"
+      >
+        <span>
+          Please read 
+          <a
+            href="https://mobile.southwest.com/fare-rules"
+            target="_blank"
+          >
+            fare rules
+          </a>
+           associated with purchase.
+        </span>
+      </div>
+      <div
+        class="price-total"
+      >
+        <div
+          class="price-total--info"
+        >
+          <div
+            class="price-line"
+          >
+            <span
+              class="price-line--title"
+            >
+              SHARED__PRICE_LINE_TITLES__NEW_TOTAL
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    566.58
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="table fullwidth"
+          >
+            <div
+              class="price-total--info-col"
+            >
+              <p>
+                SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bgpblue p4"
+      >
+        <p
+          class="white mb4"
+        >
+          <span
+            class="inline-block mb1"
+          >
+            Select cancel to change your flight selections.
+          </span>
+          <span
+            class="inline-block"
+          >
+            By tapping continue, you accept the new price.
+          </span>
+        </p>
+        <button
+          class="continue button button--fluid large button--yellow"
+          data-qa="continueButton"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__CONTINUE
+        </button>
+        <button
+          class="cancel mt4 button button--fluid large button--grey"
+          data-qa="cancelButton"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__CANCEL
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Air Change Repricing Page render should render the priceMessages array as an array of BasicBanners 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="pricing-summary"
+      >
+        <div>
+          <div
+            class="page-header"
+            id=""
+          >
+            <div>
+              <span
+                class="inline-block mr4"
+              >
+                AIR_CHANGE__CURRENT_RESERVATION__PRICE
+              </span>
+              <span
+                class="normal inline-block mr2"
+                data-qa="airPort-codes"
+              >
+                ALB - AUS (One Way)
+              </span>
+            </div>
+          </div>
+          <div />
+        </div>
+        <p
+          class="pricing-summary--message"
+        >
+          SHARED__REPRICING__NOTIFICATION
+        </p>
+        <div
+          class="pricing-banner-list"
+        >
+          <div
+            class="basic-banner pricing-banner-list--basic-banner"
+          >
+            <div>
+              <i
+                class="icon icon_exclamation-circle"
+              />
+            </div>
+            <div
+              class="banner-container"
+            >
+              <b
+                class="banner-container--title"
+              >
+                EarlyBird Check-in is not available
+              </b>
+              <em
+                class="banner-container--subtitle"
+              >
+                We can not add this product to a flight that leaves within 36 hours of purchase
+              </em>
+            </div>
+          </div>
+        </div>
+        <div
+          class="reservation-flight-summary"
+        >
+          <div
+            class="flight-summary-card rd3 overflow-hidden"
+          >
+            <div
+              class="flight-summary-header flight-summary-departing"
+            >
+              <span
+                class="flight-summary-title"
+              >
+                Departing
+              </span>
+              <span
+                class="flight-day"
+              >
+                Fri, May 18, 2018
+              </span>
+            </div>
+            <div
+              class="flight-summary-content"
+            >
+              <div
+                class="pricing-summary--group"
+              >
+                <div>
+                  <div
+                    class="flight-info"
+                  >
+                    <div
+                      class="flight-info-col"
+                    >
+                      <div
+                        class="label-container"
+                      >
+                        <div
+                          class="label-container--label"
+                        >
+                          FLIGHT
+                        </div>
+                        <div
+                          class="label-container--content"
+                        >
+                          <div
+                            class="flight-number-list flex-row"
+                          >
+                            <span
+                              class="flight-number"
+                            >
+                              <span>
+                                6956
+                              </span>
+                            </span>
+                            <span
+                              class="flight-number"
+                            >
+                              <span>
+                                276
+                              </span>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flight-info-col"
+                    >
+                      <div
+                        class="label-container"
+                      >
+                        <div
+                          class="label-container--label"
+                        >
+                          TOTAL TRAVEL TIME
+                        </div>
+                        <div
+                          class="label-container--content"
+                        >
+                          <div
+                            class="flight-duration"
+                          >
+                            <i
+                              class="icon icon_color-stopwatch"
+                              title="color-stopwatch"
+                            />
+                            <span
+                              data-qa="flight-duration-minutes"
+                            >
+                              6h 35m
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical"
+                >
+                  <div
+                    class="itinerary-vertical--row"
+                  >
+                    <div
+                      class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon"
+                    >
+                      <i
+                        class="full-width-svg icon icon_airplane-depart"
+                      />
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-line"
+                    >
+                       
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-time"
+                    >
+                      <div
+                        class="label-container"
+                      >
+                        <div
+                          class="label-container--label"
+                        >
+                          DEPARTS
+                        </div>
+                        <div
+                          class="label-container--content"
+                        >
+                          <div
+                            class="flight-time-status flight-time-status--undefined"
+                          >
+                            <div
+                              class="flight-time"
+                            >
+                              <div
+                                class="flight-time--time"
+                              >
+                                <span>
+                                  5:15
+                                </span>
+                                <span
+                                  class="time-period"
+                                >
+                                  AM
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-info"
+                    >
+                      <div
+                        class="airport-info"
+                      >
+                        <div
+                          class="airport-info--code"
+                        >
+                          ALB
+                        </div>
+                        <div
+                          class="airport-info--detail"
+                        >
+                          Albany
+                          , 
+                          NY
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="panel"
+                  >
+                    <div
+                      class="panel--heading"
+                    >
+                      <div
+                        class="panel__title itinerary-vertical--row"
+                      >
+                        <a
+                          aria-expanded="false"
+                          class="panel-anchor collapsed"
+                          href="#"
+                        >
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-icon"
+                          >
+                            <span
+                              class="stop-circle"
+                            >
+                               
+                            </span>
+                          </div>
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-line"
+                          >
+                             
+                          </div>
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-info"
+                          >
+                            <span
+                              class="stops-detail stops-detail--with-icon"
+                            >
+                              <span>
+                                1
+                                 
+                                SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_STOP
+                                <span>
+                                  <span>
+                                    : 
+                                    <span
+                                      class="stops-detail--icon"
+                                    >
+                                      <i
+                                        class="icon icon_airplane-return"
+                                      />
+                                      <i
+                                        class="stop-highlight icon icon_airplane-return"
+                                      />
+                                    </span>
+                                    <br />
+                                  </span>
+                                  SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_CHANGE_PLANES
+                                </span>
+                                 
+                                BWI
+                              </span>
+                            </span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      aria-expanded="false"
+                      class="panel_collapsed collapse"
+                    >
+                      <div
+                        class="panel--body"
+                      >
+                        <div
+                          class="itinerary-vertical--row itinerary-vertical--row--stop"
+                        >
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-icon"
+                          >
+                            <span
+                              class="stop-circle"
+                            >
+                                 
+                            </span>
+                          </div>
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-line"
+                          >
+                             
+                          </div>
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-time"
+                          >
+                            <div
+                              class="flight-time-group"
+                            >
+                              <div
+                                class="label-container"
+                              >
+                                <div
+                                  class="label-container--label"
+                                >
+                                  ARRIVES
+                                </div>
+                                <div
+                                  class="label-container--content"
+                                >
+                                  <div
+                                    class="flight-time-status flight-time-status--undefined"
+                                  >
+                                    <div
+                                      class="flight-time"
+                                    >
+                                      <div
+                                        class="flight-time--time"
+                                      >
+                                        <span>
+                                          6:30
+                                        </span>
+                                        <span
+                                          class="time-period"
+                                        >
+                                          AM
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="label-container"
+                              >
+                                <div
+                                  class="label-container--label"
+                                >
+                                  DEPARTS
+                                </div>
+                                <div
+                                  class="label-container--content"
+                                >
+                                  <div
+                                    class="flight-time-status flight-time-status--undefined"
+                                  >
+                                    <div
+                                      class="flight-time"
+                                    >
+                                      <div
+                                        class="flight-time--time"
+                                      >
+                                        <span>
+                                          8:10
+                                        </span>
+                                        <span
+                                          class="time-period"
+                                        >
+                                          AM
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="itinerary-vertical--col itinerary-vertical--col-info"
+                          >
+                            <div
+                              class="stop-detail stop-detail--has-change"
+                            >
+                              <div
+                                class="airport-info"
+                              >
+                                <div
+                                  class="airport-info--code"
+                                >
+                                  BWI
+                                </div>
+                              </div>
+                              <div
+                                class="stop-detail__info italic"
+                              >
+                                Stop: 
+                                <span>
+                                  Baltimore/Washington, MD
+                                </span>
+                              </div>
+                              <div
+                                class="stop-detail__status italic"
+                              >
+                                <span>
+                                  SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_CHANGE_PLANES
+                                    
+                                  <i
+                                    class="stop-detail--airplane-return icon icon_airplane-return"
+                                  />
+                                  <i
+                                    class="stop-detail--airplane-return highlight icon icon_airplane-return"
+                                  />
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--row itinerary-vertical--arrival"
+                  >
+                    <div
+                      class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none-line"
+                    >
+                      <i
+                        class="full-width-svg icon icon_airplane-depart"
+                      />
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-line"
+                    >
+                       
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-time"
+                    >
+                      <div
+                        class="label-container"
+                      >
+                        <div
+                          class="label-container--label"
+                        >
+                          ARRIVES
+                        </div>
+                        <div
+                          class="label-container--content"
+                        >
+                          <div
+                            class="flight-time-status flight-time-status--undefined"
+                          >
+                            <div
+                              class="flight-time"
+                            >
+                              <div
+                                class="flight-time--time"
+                              >
+                                <span>
+                                  10:50
+                                </span>
+                                <span
+                                  class="time-period"
+                                >
+                                  AM
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="itinerary-vertical--col itinerary-vertical--col-info"
+                    >
+                      <div
+                        class="airport-info"
+                      >
+                        <div
+                          class="airport-info--code"
+                        >
+                          AUS
+                        </div>
+                        <div
+                          class="airport-info--detail"
+                        >
+                          Austin
+                          , 
+                          TX
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pricing-summary--group"
+              >
+                <div
+                  class="passenger-price"
+                >
+                  <div
+                    class="passenger-price--info"
+                  >
+                    <span
+                      class="passenger-price--number-and-type"
+                      data-qa="passenger-price-passengers--number-and-type"
+                    >
+                      1
+                       
+                      Adult
+                    </span>
+                    <a
+                      class="passenger-price--fare-type"
+                      data-qa="passenger-price--fare-type"
+                      href="https://mobile.southwest.com/fare-rules/anytime"
+                      target="_blank"
+                    >
+                      Anytime
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="price-summary-notice"
+        >
+          <span>
+            Please read 
+            <a
+              href="https://mobile.southwest.com/fare-rules"
+              target="_blank"
+            >
+              fare rules
+            </a>
+             associated with purchase.
+          </span>
+        </div>
+        <div
+          class="price-total"
+        >
+          <div
+            class="price-total--info"
+          >
+            <div
+              class="price-line"
+            >
+              <span
+                class="price-line--title"
+              >
+                SHARED__PRICE_LINE_TITLES__NEW_TOTAL
+              </span>
+              <div
+                class="price-amount"
+              >
+                <div
+                  class="price-line--currency_total"
+                >
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      566.58
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="table fullwidth"
+            >
+              <div
+                class="price-total--info-col"
+              >
+                <p>
+                  SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bgpblue p4"
+        >
+          <p
+            class="white mb4"
+          >
+            <span
+              class="inline-block mb1"
+            >
+              Select cancel to change your flight selections.
+            </span>
+            <span
+              class="inline-block"
+            >
+              By tapping continue, you accept the new price.
+            </span>
+          </p>
+          <button
+            class="continue button button--fluid large button--yellow"
+            data-qa="continueButton"
+            type="button"
+          >
+            SHARED__BUTTON_TEXT__CONTINUE
+          </button>
+          <button
+            class="cancel mt4 button button--fluid large button--grey"
+            data-qa="cancelButton"
+            type="button"
+          >
+            SHARED__BUTTON_TEXT__CANCEL
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="pricing-summary"
+    >
+      <div>
+        <div
+          class="page-header"
+          id=""
+        >
+          <div>
+            <span
+              class="inline-block mr4"
+            >
+              AIR_CHANGE__CURRENT_RESERVATION__PRICE
+            </span>
+            <span
+              class="normal inline-block mr2"
+              data-qa="airPort-codes"
+            >
+              ALB - AUS (One Way)
+            </span>
+          </div>
+        </div>
+        <div />
+      </div>
+      <p
+        class="pricing-summary--message"
+      >
+        SHARED__REPRICING__NOTIFICATION
+      </p>
+      <div
+        class="pricing-banner-list"
+      >
+        <div
+          class="basic-banner pricing-banner-list--basic-banner"
+        >
+          <div>
+            <i
+              class="icon icon_exclamation-circle"
+            />
+          </div>
+          <div
+            class="banner-container"
+          >
+            <b
+              class="banner-container--title"
+            >
+              EarlyBird Check-in is not available
+            </b>
+            <em
+              class="banner-container--subtitle"
+            >
+              We can not add this product to a flight that leaves within 36 hours of purchase
+            </em>
+          </div>
+        </div>
+      </div>
+      <div
+        class="reservation-flight-summary"
+      >
+        <div
+          class="flight-summary-card rd3 overflow-hidden"
+        >
+          <div
+            class="flight-summary-header flight-summary-departing"
+          >
+            <span
+              class="flight-summary-title"
+            >
+              Departing
+            </span>
+            <span
+              class="flight-day"
+            >
+              Fri, May 18, 2018
+            </span>
+          </div>
+          <div
+            class="flight-summary-content"
+          >
+            <div
+              class="pricing-summary--group"
+            >
+              <div>
+                <div
+                  class="flight-info"
+                >
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-number-list flex-row"
+                        >
+                          <span
+                            class="flight-number"
+                          >
+                            <span>
+                              6956
+                            </span>
+                          </span>
+                          <span
+                            class="flight-number"
+                          >
+                            <span>
+                              276
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        TOTAL TRAVEL TIME
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-duration"
+                        >
+                          <i
+                            class="icon icon_color-stopwatch"
+                            title="color-stopwatch"
+                          />
+                          <span
+                            data-qa="flight-duration-minutes"
+                          >
+                            6h 35m
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="itinerary-vertical"
+              >
+                <div
+                  class="itinerary-vertical--row"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                5:15
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        ALB
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Albany
+                        , 
+                        NY
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="panel"
+                >
+                  <div
+                    class="panel--heading"
+                  >
+                    <div
+                      class="panel__title itinerary-vertical--row"
+                    >
+                      <a
+                        aria-expanded="false"
+                        class="panel-anchor collapsed"
+                        href="#"
+                      >
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-icon"
+                        >
+                          <span
+                            class="stop-circle"
+                          >
+                             
+                          </span>
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-line"
+                        >
+                           
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-info"
+                        >
+                          <span
+                            class="stops-detail stops-detail--with-icon"
+                          >
+                            <span>
+                              1
+                               
+                              SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_STOP
+                              <span>
+                                <span>
+                                  : 
+                                  <span
+                                    class="stops-detail--icon"
+                                  >
+                                    <i
+                                      class="icon icon_airplane-return"
+                                    />
+                                    <i
+                                      class="stop-highlight icon icon_airplane-return"
+                                    />
+                                  </span>
+                                  <br />
+                                </span>
+                                SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_CHANGE_PLANES
+                              </span>
+                               
+                              BWI
+                            </span>
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    aria-expanded="false"
+                    class="panel_collapsed collapse"
+                  >
+                    <div
+                      class="panel--body"
+                    >
+                      <div
+                        class="itinerary-vertical--row itinerary-vertical--row--stop"
+                      >
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-icon"
+                        >
+                          <span
+                            class="stop-circle"
+                          >
+                               
+                          </span>
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-line"
+                        >
+                           
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-time"
+                        >
+                          <div
+                            class="flight-time-group"
+                          >
+                            <div
+                              class="label-container"
+                            >
+                              <div
+                                class="label-container--label"
+                              >
+                                ARRIVES
+                              </div>
+                              <div
+                                class="label-container--content"
+                              >
+                                <div
+                                  class="flight-time-status flight-time-status--undefined"
+                                >
+                                  <div
+                                    class="flight-time"
+                                  >
+                                    <div
+                                      class="flight-time--time"
+                                    >
+                                      <span>
+                                        6:30
+                                      </span>
+                                      <span
+                                        class="time-period"
+                                      >
+                                        AM
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="label-container"
+                            >
+                              <div
+                                class="label-container--label"
+                              >
+                                DEPARTS
+                              </div>
+                              <div
+                                class="label-container--content"
+                              >
+                                <div
+                                  class="flight-time-status flight-time-status--undefined"
+                                >
+                                  <div
+                                    class="flight-time"
+                                  >
+                                    <div
+                                      class="flight-time--time"
+                                    >
+                                      <span>
+                                        8:10
+                                      </span>
+                                      <span
+                                        class="time-period"
+                                      >
+                                        AM
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="itinerary-vertical--col itinerary-vertical--col-info"
+                        >
+                          <div
+                            class="stop-detail stop-detail--has-change"
+                          >
+                            <div
+                              class="airport-info"
+                            >
+                              <div
+                                class="airport-info--code"
+                              >
+                                BWI
+                              </div>
+                            </div>
+                            <div
+                              class="stop-detail__info italic"
+                            >
+                              Stop: 
+                              <span>
+                                Baltimore/Washington, MD
+                              </span>
+                            </div>
+                            <div
+                              class="stop-detail__status italic"
+                            >
+                              <span>
+                                SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_CHANGE_PLANES
+                                  
+                                <i
+                                  class="stop-detail--airplane-return icon icon_airplane-return"
+                                />
+                                <i
+                                  class="stop-detail--airplane-return highlight icon icon_airplane-return"
+                                />
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical--row itinerary-vertical--arrival"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none-line"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        ARRIVES
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                10:50
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        AUS
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Austin
+                        , 
+                        TX
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pricing-summary--group"
+            >
+              <div
+                class="passenger-price"
+              >
+                <div
+                  class="passenger-price--info"
+                >
+                  <span
+                    class="passenger-price--number-and-type"
+                    data-qa="passenger-price-passengers--number-and-type"
+                  >
+                    1
+                     
+                    Adult
+                  </span>
+                  <a
+                    class="passenger-price--fare-type"
+                    data-qa="passenger-price--fare-type"
+                    href="https://mobile.southwest.com/fare-rules/anytime"
+                    target="_blank"
+                  >
+                    Anytime
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="price-summary-notice"
+      >
+        <span>
+          Please read 
+          <a
+            href="https://mobile.southwest.com/fare-rules"
+            target="_blank"
+          >
+            fare rules
+          </a>
+           associated with purchase.
+        </span>
+      </div>
+      <div
+        class="price-total"
+      >
+        <div
+          class="price-total--info"
+        >
+          <div
+            class="price-line"
+          >
+            <span
+              class="price-line--title"
+            >
+              SHARED__PRICE_LINE_TITLES__NEW_TOTAL
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    566.58
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="table fullwidth"
+          >
+            <div
+              class="price-total--info-col"
+            >
+              <p>
+                SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bgpblue p4"
+      >
+        <p
+          class="white mb4"
+        >
+          <span
+            class="inline-block mb1"
+          >
+            Select cancel to change your flight selections.
+          </span>
+          <span
+            class="inline-block"
+          >
+            By tapping continue, you accept the new price.
+          </span>
+        </p>
+        <button
+          class="continue button button--fluid large button--yellow"
+          data-qa="continueButton"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__CONTINUE
+        </button>
+        <button
+          class="cancel mt4 button button--fluid large button--grey"
+          data-qa="cancelButton"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__CANCEL
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

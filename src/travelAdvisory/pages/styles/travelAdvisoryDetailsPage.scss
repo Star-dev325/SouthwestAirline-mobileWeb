@@ -1,0 +1,41 @@
+.travel-advisory-detail--route-item {
+  @include bgwhite;
+  padding: 1.4rem 4rem 1.4rem 1.4rem;
+  border-bottom: 1px solid $gray1;
+
+  .icon_keyboard-arrow-right {
+    right: 1rem;
+  }
+}
+
+.travel-advisory-detail--flight-status {
+  @include pdkblue;
+  font-size: 1.5rem;
+}
+
+.travel-advisory-detail--my-trips {
+  @include pdkblue;
+  font-size: 1.5rem;
+}
+
+.travel-advisory-detail--station-title {
+  @include mb4;
+  font-size: 2rem;
+}
+
+.travel-advisory-detail--station-info {
+  @include gray5;
+  @include small;
+
+  p {
+    @include mb4;
+  }
+
+  ul {
+    @include pl6;
+
+    li {
+      @include mb2;
+    }
+  }
+}

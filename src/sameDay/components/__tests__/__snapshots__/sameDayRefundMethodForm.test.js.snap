@@ -1,0 +1,394 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SameDayRefundMethod when rendering should show same day refund method form 1`] = `
+<div>
+  <form
+    class="form"
+    name="test"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="same-day-refund-method-credit-section"
+      >
+        <div
+          class="price-line same-day-refund-method--price-line"
+        >
+          <span
+            class="price-line--title same-day-refund-method--price-line-title"
+          >
+            SAME_DAY__PRICING__PRICE_DIFFERENCE_REFUND_CREDIT_LABEL
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total same-day-refund-method--price-line-currency-total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  60.00
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="same-day-refund-method-credit-section--description"
+        >
+          We never charge change fees. You'll pay only the difference in fare.
+        </div>
+        <div
+          class="same-day-refund-method--divider"
+        />
+      </div>
+      <div
+        class="same-day-refund-method-list"
+      >
+        <div
+          class="same-day-refund-method-list-section"
+          tabindex="0"
+        >
+          <div
+            class="same-day-refund-method-list-section-title"
+          >
+            SAME_DAY__REFUND_METHOD__TITLE
+          </div>
+          <div
+            class="same-day-refund-method-list-section--text"
+          />
+        </div>
+      </div>
+      <div
+        class="same-day-refund-method--footer"
+      >
+        <div
+          class="price-difference-footer"
+        >
+          <div
+            class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue bggreen"
+          >
+            <div
+              class="price-line"
+            >
+              <span
+                class="price-line--title"
+              >
+                Credit
+              </span>
+              <div
+                class="price-amount"
+              >
+                <div
+                  class="price-line--currency_total"
+                >
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      60.00
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="price-difference-footer--description bggreen"
+          >
+            Includes taxes and fees
+          </div>
+          <div
+            class="early-bird-price-footer--nav price-difference-footer--nav bggreen"
+          >
+            <button
+              class="continue button button--fluid larger button--yellow"
+              type="submit"
+            >
+              Confirm
+            </button>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`SameDayRefundMethod when rendering should show same day refund method form when showRefundableSelection is enabled 1`] = `
+<div>
+  <form
+    class="form"
+    name="test"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="same-day-refund-method-credit-section"
+      >
+        <div
+          class="price-line same-day-refund-method--price-line"
+        >
+          <span
+            class="price-line--title same-day-refund-method--price-line-title"
+          >
+            SAME_DAY__PRICING__PRICE_DIFFERENCE_REFUND_CREDIT_LABEL
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total same-day-refund-method--price-line-currency-total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  60.00
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="same-day-refund-method-credit-section--description"
+        >
+          We never charge change fees. You'll pay only the difference in fare.
+        </div>
+        <div
+          class="same-day-refund-method--divider"
+        />
+      </div>
+      <div
+        class="same-day-refund-method-list"
+      >
+        <div
+          class="same-day-refund-method-list-section"
+          tabindex="0"
+        >
+          <div
+            class="same-day-refund-method-list-section-title"
+          >
+            SAME_DAY__REFUND_METHOD__TITLE
+          </div>
+          <div
+            class="same-day-refund-method-list-section--text"
+          />
+        </div>
+      </div>
+      <div
+        class="same-day-refund-method--footer"
+      >
+        <div
+          class="price-difference-footer"
+        >
+          <div
+            class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue bggreen"
+          >
+            <div
+              class="price-line"
+            >
+              <span
+                class="price-line--title"
+              >
+                Credit
+              </span>
+              <div
+                class="price-amount"
+              >
+                <div
+                  class="price-line--currency_total"
+                >
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      60.00
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="price-difference-footer--description bggreen"
+          >
+            Includes taxes and fees
+          </div>
+          <div
+            class="early-bird-price-footer--nav price-difference-footer--nav bggreen"
+          >
+            <button
+              class="continue button button--fluid larger button--yellow"
+              type="submit"
+            >
+              Confirm
+            </button>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`SameDayRefundMethod when rendering should show the tax refund when available 1`] = `
+<div>
+  <form
+    class="form"
+    name="test"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="same-day-refund-method-credit-section"
+      >
+        <div
+          class="price-line same-day-refund-method--price-line"
+        >
+          <span
+            class="price-line--title same-day-refund-method--price-line-title"
+          >
+            SAME_DAY__PRICING__PRICE_DIFFERENCE_REFUND_CREDIT_LABEL
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total same-day-refund-method--price-line-currency-total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  5.60
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="same-day-refund-method-credit-section--description"
+        >
+          We never charge change fees. You'll pay only the difference in fare.
+        </div>
+        <div
+          class="same-day-refund-method--divider"
+        />
+      </div>
+      <div
+        class="same-day-refund-method-list"
+      >
+        <div
+          class="same-day-refund-method-list-section"
+          tabindex="0"
+        >
+          <div
+            class="same-day-refund-method-list-section-title"
+          >
+            SAME_DAY__REFUND_METHOD__TITLE
+          </div>
+          <div
+            class="same-day-refund-method-list-section--text"
+          />
+        </div>
+      </div>
+      <div
+        class="same-day-refund-method--footer"
+      >
+        <div
+          class="price-difference-footer"
+        >
+          <div
+            class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue bggreen"
+          >
+            <div
+              class="price-line"
+            >
+              <span
+                class="price-line--title"
+              >
+                Credit
+              </span>
+              <div
+                class="price-amount"
+              >
+                <div
+                  class="price-line--currency_total"
+                >
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      5.60
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="price-difference-footer--description bgblue"
+          >
+            Includes taxes and fees
+          </div>
+          <div
+            class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+          >
+            <button
+              class="continue button button--fluid larger button--yellow"
+              type="submit"
+            >
+              Confirm
+            </button>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;

@@ -1,0 +1,31 @@
+.review-footer {
+  @include bgpdkblue;
+  @include white;
+  @include p4;
+}
+
+.review-footer--links {
+  @include mt0;
+  //for safari compatibility style
+  list-style-type: none;
+
+  li {
+    @include py4;
+    border-bottom: 1px solid $review-border;
+
+    &:last-child {
+      border-width: 0;
+    }
+
+    a {
+      @include px5;
+      @include bdl;
+      @include bdgray4;
+
+      &:first-child {
+        @include pl0;
+        border-width: 0;
+      }
+    }
+  }
+}

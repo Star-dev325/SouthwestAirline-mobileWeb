@@ -1,0 +1,12 @@
+.company-name-banner {
+  @include header;
+  @include relative;
+  @include bgsdkblue;
+  height: 4.4rem;
+
+  &--label {
+    @include truncate;
+    @include pr4;
+    color: $white;
+  }
+}

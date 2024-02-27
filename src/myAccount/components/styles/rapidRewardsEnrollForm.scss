@@ -1,0 +1,56 @@
+.rapid-rewards-enroll-form {
+  .fields--label {
+    @include block;
+    @include large;
+    @include gray5;
+    @include bold;
+    @include mx5;
+    @include my4;
+  }
+
+  .email-subscription-fields {
+    & > .field {
+      @include bgwhite;
+      @include bdt;
+      @include bdb;
+      @include square;
+      margin-top: -1px;
+    }
+
+    .checkbox-button {
+      @include flex;
+      @include flex-main-between;
+      @include flex-row-reverse;
+      @include p5;
+    }
+
+    .checkbox-button-ses {
+      @include regular;
+      @include py4;
+      @include bgwhite;
+      padding-left: 1.2rem;
+    }
+  }
+
+  .checkbox-button--mark {
+    @include left;
+    @include bgwhite;
+  }
+
+  .checkbox-button--children {
+    @include inline-block;
+  }
+
+  .details-link-ses {
+    @include medium;
+    @include pblue;
+    @include pt3;
+    @include block;
+  }
+
+  .children-ses {
+    @include mt1;
+    @include ml3;
+    height: 4rem;
+  }
+}

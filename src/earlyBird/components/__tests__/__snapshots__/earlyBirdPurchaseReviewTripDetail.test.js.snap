@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`earlyBirdPurchaseReviewTripDetail should render 1`] = `
+<div>
+  <div
+    class="early-bird-review--trip-card-detail"
+  >
+    <div
+      class="flight-brief-summary bgwhite bdb p5"
+    >
+      <div
+        class="flex xlarge pdkblue bold"
+      >
+        <div
+          class="flex4"
+        >
+          Jun 8
+        </div>
+        <div
+          class="flex2"
+        >
+          AUS
+        </div>
+        <div
+          class="flex2 flight-brief-summary--airplane center"
+        >
+          <i
+            class="mt3 icon icon_airplane"
+          />
+        </div>
+        <div
+          class="flex2"
+        >
+          ALB
+        </div>
+      </div>
+      <div
+        class="flex large gray4"
+      >
+        <div
+          class="flex4"
+        >
+          Friday
+        </div>
+        <div
+          class="flex2 flight-time"
+        >
+          <div
+            class="flight-time--time"
+          >
+            <span>
+              5:30
+            </span>
+            <span
+              class="time-period"
+            >
+              AM
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex2"
+        />
+        <div
+          class="flight-brief-summary--summary-group"
+        >
+          <div
+            class="flex2 flight-time"
+          >
+            <div
+              class="flight-time--time"
+            >
+              <span>
+                1:35
+              </span>
+              <span
+                class="time-period"
+              >
+                PM
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="early-bird-review--trip-passenger"
+    >
+      <span
+        class="early-bird-review--trip-passenger-name"
+      >
+        PAUL LIU
+      </span>
+      <div
+        class="currency flex3 align-right bold xlarge"
+      >
+        <span
+          class="money-sign"
+        >
+          $
+        </span>
+        <span
+          data-qa="total-amount"
+        >
+          15.00
+        </span>
+      </div>
+    </div>
+    <div
+      class="early-bird-review--trip-passenger"
+    >
+      <span
+        class="early-bird-review--trip-passenger-name"
+      >
+        HARRY POTTER
+      </span>
+      <div
+        class="currency flex3 align-right bold xlarge"
+      >
+        <span
+          class="money-sign"
+        >
+          $
+        </span>
+        <span
+          data-qa="total-amount"
+        >
+          15.00
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

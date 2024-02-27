@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompanionApplyTravelFundsPage render should render 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              Apply Travel Funds
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="button"
+              type="button"
+            >
+              SHARED__BUTTON_TEXT__CANCEL
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    <div
+      class="apply-travel-funds"
+    >
+      <div
+        class="apply-travel-funds--selector"
+      >
+        <div
+          class="fund-type-selector"
+        >
+          <div
+            class="active selector-button"
+            data-qa="travel-funds-selector"
+          >
+            Flight Credit
+          </div>
+          <div
+            class="center-button selector-button"
+            data-qa="luv-voucher-selector"
+          >
+            LUV Voucher
+          </div>
+          <div
+            class="selector-button"
+            data-qa="gift-card-selector"
+          >
+            Gift Card
+          </div>
+        </div>
+      </div>
+      <div
+        class="apply-travel-funds--forms"
+      >
+        <form
+          class="look-up-funds-form form"
+          name="APPLY_TRAVEL_FUNDS_FORM_ID"
+          novalidate=""
+        >
+          <fieldset>
+            <div
+              class="segments"
+            >
+              <div
+                class="segment"
+              >
+                <div
+                  class="fields grouped"
+                >
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input"
+                    >
+                      <input
+                        class=""
+                        name="confirmationNumber"
+                        placeholder="Confirmation number"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input"
+                    >
+                      <input
+                        class=""
+                        name="passengerFirstName"
+                        placeholder="Passenger first name"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input"
+                    >
+                      <input
+                        class=""
+                        name="passengerLastName"
+                        placeholder="Passenger last name"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment"
+              >
+                <button
+                  class="button button--fluid larger button--blue"
+                  role="submit"
+                  type="submit"
+                >
+                  Apply Funds
+                </button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <p
+        class="apply-travel-funds--disclaimer"
+      >
+        TRAVEL_FUNDS_DISCLAIMER
+      </p>
+      <a
+        class="learn-more-link"
+        href="/funds-terms-conditions"
+        target="_blank"
+      >
+        Learn more
+      </a>
+    </div>
+  </div>
+</div>
+`;

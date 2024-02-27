@@ -1,0 +1,8 @@
+.wcm-styled-page-section {
+  @include bdt;
+  @include bdgray2;
+
+  &:first-child {
+    @include border-none;
+  }
+}

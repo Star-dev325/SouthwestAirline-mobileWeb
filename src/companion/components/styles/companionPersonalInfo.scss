@@ -1,0 +1,55 @@
+.companion-personal-info {
+  @include bgwhite;
+
+  .label-container--label {
+    @include pdkblue;
+    @include larger;
+    @include mb0;
+    text-transform: none;
+  }
+
+  .label-container--content {
+    @include gray4;
+    @include m0;
+    @include medium;
+  }
+}
+
+.companion-personal-info--label {
+  @include px5;
+  @include bdb;
+  height: 5rem;
+}
+
+.companion-personal-info--name {
+  @include larger;
+  line-height: 5rem;
+}
+
+.companion-personal-form {
+  .input {
+    @include mt4;
+  }
+
+  .grouped.fields {
+    @include mt6;
+  }
+
+  .fields > .label,
+  .fields--label {
+    @include large;
+    @include bold;
+    @include gray5;
+  }
+
+  .error {
+    .dropdown,
+    .button--fluid {
+      @include red;
+    }
+  }
+}
+
+.companion-personal-info--gender {
+  @include mt4;
+}

@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SegmentCheckInDocuments should render two passengerCard correctly 1`] = `
+<div>
+  <div
+    class="segment-checkin-documents"
+  >
+    <div
+      class="passenger-card"
+    >
+      <div
+        class="passenger-card--info"
+      >
+        <div
+          class="lap-child-icon hide"
+        />
+        <div
+          class="passenger-card--label"
+        >
+          <div
+            class="passenger-card--passenger-type-label flex7"
+          >
+            PASSENGER
+          </div>
+        </div>
+        <div
+          class="passenger-card--content"
+        >
+          <div
+            class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+          >
+            Tang Zhen
+          </div>
+        </div>
+        <div
+          class="flex"
+        >
+          <div
+            class="tsa-precheck-icon hide"
+          />
+        </div>
+      </div>
+      <div>
+        <div
+          class="view-boarding-pass-btn"
+        >
+          <button
+            class="button button--fluid button--yellow"
+            title="SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS"
+            type="button"
+          >
+            SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="passenger-card"
+    >
+      <div
+        class="passenger-card--info"
+      >
+        <div
+          class="lap-child-icon hide"
+        />
+        <div
+          class="passenger-card--label"
+        >
+          <div
+            class="passenger-card--passenger-type-label flex7"
+          >
+            PASSENGER
+          </div>
+        </div>
+        <div
+          class="passenger-card--content"
+        >
+          <div
+            class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+          >
+            Siyang Li
+          </div>
+        </div>
+        <div
+          class="flex"
+        >
+          <div
+            class="tsa-precheck-icon hide"
+          />
+        </div>
+      </div>
+      <div>
+        <div
+          class="view-boarding-pass-btn"
+        >
+          <button
+            class="button button--fluid button--yellow"
+            title="SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS"
+            type="button"
+          >
+            SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

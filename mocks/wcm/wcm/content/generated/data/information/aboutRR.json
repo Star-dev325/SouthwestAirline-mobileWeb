@@ -1,0 +1,122 @@
+{
+  "revision": "20151209105043618",
+  "styledPage": {
+    "title": "Welcome To Rapid Rewards",
+    "body": [
+      {
+        "type": "section",
+        "heading": "",
+        "mediaType": "none",
+        "image": "",
+        "altText": "",
+        "imagePlacement": "",
+        "sectionText": "<p>Rapid Rewards makes it fast and easy to earn reward flights and more! With so many ways to earn and redeem points, it’s never too early to start planning your next getaway.</p>",
+        "callToAction": {
+          "ctaType": "none",
+          "ctaText": "",
+          "linkType": "none",
+          "target": ""
+        }
+      },
+      {
+        "type": "section",
+        "heading": "EARN WHEN YOU FLY",
+        "mediaType": "image",
+        "image": "/content/mkt/images/static_pages/rapid_rewards/swa_mw_rr_fare_compare_chart.png",
+        "altText": "",
+        "imagePlacement": "below",
+        "sectionText": "<p>Every time you fly with Southwest Airlines®, you’ll earn points toward your next flight. The amount and type of fare you choose determines how many points you will earn.</p>",
+        "callToAction": {
+          "ctaType": "none",
+          "ctaText": "",
+          "linkType": "none",
+          "target": ""
+        }
+      },
+      {
+        "type": "section",
+        "heading": "EARN ON THE GROUND",
+        "mediaType": "none",
+        "image": "",
+        "altText": "",
+        "imagePlacement": "",
+        "sectionText": "<p><p>We have&nbsp;<a href=\"https://www.southwest.com/html/rapidrewards/partners/credit-cards/southwest-airlines-rapid-rewards-cards/index.html\">partnered</a> with the best names in hotels, rental cars, shopping, and dining to make earning points easy</p></p>",
+        "callToAction": {
+          "ctaType": "none",
+          "ctaText": "",
+          "linkType": "none",
+          "target": ""
+        }
+      },
+      {
+        "type": "section",
+        "heading": "REDEEMING",
+        "mediaType": "none",
+        "image": "",
+        "altText": "",
+        "imagePlacement": "",
+        "sectionText": "<p>If there’s an open seat on the flight you want, it’s yours. Enjoy unlimited rewards seats and no blackout dates so you can fly where you want, when you want. So check out where your points can take you!</p>",
+        "callToAction": {
+          "ctaType": "none",
+          "ctaText": "",
+          "linkType": "none",
+          "target": ""
+        }
+      },
+      {
+        "type": "section",
+        "heading": "TIER STATUS",
+        "mediaType": "image",
+        "image": "/content/mkt/images/static_pages/rapid_rewards/swa_mw_rr_tier_compare_chart.png",
+        "altText": "",
+        "imagePlacement": "below",
+        "sectionText": "<p>With Rapid Rewards tier status, you’ll get the recognition you deserve and the travel perks to go with it. Which will you aim for?</p>",
+        "callToAction": {
+          "ctaType": "none",
+          "ctaText": "",
+          "linkType": "none",
+          "target": ""
+        },
+        "disclaimers": [
+          { "disclaimerText": "*Tier Qualifying Points are earned from revenue flights" },
+          { "disclaimerText": "**For a complete list of available Fly By locations, visit southwest.com/flyby" }
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "COMPANION PASS",
+        "mediaType": "image",
+        "image": "",
+        "altText": "",
+        "imagePlacement": "",
+        "sectionText": "<p>Rapid Rewards Companion Pass lets you designate one person of your choice to fly with you at anytime for an entire year. Simply fly 100 qualifying one-way flights, or earn 110,000 Tier Qualifying Points in a calendar year.</p>",
+        "callToAction": {
+          "ctaType": "none",
+          "ctaText": "",
+          "linkType": "none",
+          "target": ""
+        },
+        "disclaimers": [
+          {
+            "disclaimerText": "* Tier Qualifying Points are earned from revenue flights or through select Rapid Rewards Credit Cards from Chase and are exclusive of bonuses and promotions."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "ENROLL TODAY",
+        "mediaType": "image",
+        "image": "",
+        "altText": "",
+        "imagePlacement": "",
+        "sectionText": "<p>Start earning towards your first reward flight today!</p>",
+        "callToAction": {
+          "ctaType": "button",
+          "ctaText": "Enroll Now",
+          "linkType": "app",
+          "target": "rrenroll"
+        }
+      }
+    ]
+  }
+}

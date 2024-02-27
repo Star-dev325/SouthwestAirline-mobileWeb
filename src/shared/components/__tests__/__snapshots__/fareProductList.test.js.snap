@@ -1,0 +1,358 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightNumber should match the snapshot 1`] = `
+<div>
+  <div
+    class="pt3"
+    data-qa="flight-products"
+  >
+    <div
+      class="flight-product-section"
+      data-qa="WGA"
+    >
+      <div
+        class="flight-product-section--header bdyellow"
+      >
+        <div
+          class="xlarge bold"
+        >
+          <span>
+            Wanna Get Away
+          </span>
+        </div>
+        <div
+          class="red bold"
+        >
+          3 left
+        </div>
+      </div>
+      <div
+        class="flight-product-section--container"
+      >
+        <div
+          class="main-col"
+        >
+          <ul
+            class="features-list"
+          >
+            <li
+              class="icon icon_bullet features-list--item"
+            >
+              <span
+                class="features-list--text"
+              >
+                2 Free Checked Bags®*
+              </span>
+            </li>
+            <li
+              class="icon icon_bullet features-list--item"
+            >
+              <span
+                class="features-list--text"
+              >
+                No Change Fees**
+              </span>
+            </li>
+            <li
+              class="icon icon_bullet features-list--item"
+            >
+              <span
+                class="features-list--text"
+              >
+                Reusable funds (up to 12 months from date of purchase)
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="fare-col"
+        >
+          <div
+            class="fare-container"
+          >
+            <div
+              class="fare-content bdb3 bdyellow"
+            >
+              <div>
+                <div
+                  class="original-price"
+                >
+                   
+                </div>
+                <div
+                  class="currency final-price"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    218
+                  </span>
+                </div>
+                <div
+                  class="intl-points-taxes"
+                >
+                   
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pt4 black bold center"
+            data-qa="earn-points"
+          >
+            Earn 1,138 pts
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flight-product-section"
+      data-qa="ANY"
+    >
+      <div
+        class="flight-product-section--header bdsltblue"
+      >
+        <div
+          class="xlarge bold"
+        >
+          <span>
+            Anytime
+          </span>
+        </div>
+      </div>
+      <div
+        class="flight-product-section--container"
+      >
+        <div
+          class="main-col"
+        >
+          <ul
+            class="features-list"
+          >
+            <li
+              class="icon icon_bullet features-list--item"
+            >
+              <span
+                class="features-list--text"
+              >
+                All the benefits of Wanna Get Away, plus:
+              </span>
+            </li>
+            <li
+              class="icon icon_plus features-list--item"
+            >
+              <span
+                class="features-list--text"
+              >
+                Refundable
+                <sup>
+                  2
+                </sup>
+              </span>
+            </li>
+            <li
+              class="icon icon_plus features-list--item"
+            >
+              <span
+                class="features-list--text"
+              >
+                Same-day change
+                <sup>
+                  3
+                </sup>
+              </span>
+            </li>
+            <li
+              class="icon icon_plus features-list--item"
+            >
+              <span
+                class="features-list--text"
+              >
+                Same-day standby
+                <sup>
+                  3
+                </sup>
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="fare-col"
+        >
+          <div
+            class="fare-container"
+          >
+            <div
+              class="fare-content bdb3 bdsltblue"
+            >
+              <div>
+                <div
+                  class="original-price"
+                >
+                   
+                </div>
+                <div
+                  class="currency final-price"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    499
+                  </span>
+                </div>
+                <div
+                  class="intl-points-taxes"
+                >
+                   
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pt4 black bold center"
+            data-qa="earn-points"
+          >
+            Earn 4,510 pts
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flight-product-section"
+      data-qa="BUS"
+    >
+      <div
+        class="flight-product-section--header bdpblue"
+      >
+        <div
+          class="xlarge bold"
+        >
+          <span>
+            Business Select
+          </span>
+        </div>
+      </div>
+      <div
+        class="flight-product-section--container"
+      >
+        <div
+          class="main-col"
+        >
+          <ul
+            class="features-list"
+          >
+            <li
+              class="icon icon_bullet features-list--item"
+            >
+              <span
+                class="features-list--text"
+              >
+                All the benefits of Anytime, plus:
+              </span>
+            </li>
+            <li
+              class="icon icon_plus features-list--item"
+            >
+              <span
+                class="features-list--text"
+              >
+                Priority Boarding A1-A15
+              </span>
+            </li>
+            <li
+              class="icon icon_plus features-list--item"
+            >
+              <span
+                class="features-list--text"
+              >
+                Fly By® Security Lane
+                <sup>
+                  4
+                </sup>
+              </span>
+            </li>
+            <li
+              class="icon icon_plus features-list--item"
+            >
+              <span
+                class="features-list--text"
+              >
+                Fly By® Priority Lane
+                <sup>
+                  4
+                </sup>
+              </span>
+            </li>
+            <li
+              class="icon icon_plus features-list--item"
+            >
+              <span
+                class="features-list--text"
+              >
+                Premium drink
+                <sup>
+                  4
+                </sup>
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="fare-col"
+        >
+          <div
+            class="fare-container"
+          >
+            <div
+              class="fare-content bdb3 bdpblue"
+            >
+              <div>
+                <div
+                  class="original-price"
+                >
+                   
+                </div>
+                <div
+                  class="currency final-price"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    521
+                  </span>
+                </div>
+                <div
+                  class="intl-points-taxes"
+                >
+                   
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pt4 black bold center"
+            data-qa="earn-points"
+          >
+            Earn 5,658 pts
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

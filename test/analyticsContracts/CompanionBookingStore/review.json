@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "review": {
+      "type": "object",
+      "properties": {
+        "earlyBirdOptionSelected": {
+          "type": "boolean"
+        },
+        "earlyBirdBasePriceOutbound": {
+          "type": ["float", "null"]
+        },
+        "earlyBirdBasePriceInbound": {
+          "type": ["float", "null"]
+        },
+        "earlyBirdEstimatedTotalCents": {
+          "type": ["float", "null"]
+        },
+        "earlyBirdOptionShown": {
+          "type": "boolean"
+        },
+        "purposeOfTravel": {
+          "type": "varchar"
+        },
+        "earlyBirdBasePriceCents": {
+          "type": ["float", "null"]
+        },
+        "earlyBirdOptionShown": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "earlyBirdOptionSelected",
+        "earlyBirdBasePriceOutbound",
+        "earlyBirdBasePriceInbound",
+        "earlyBirdEstimatedTotalCents",
+        "purposeOfTravel",
+        "earlyBirdBasePriceCents",
+        "earlyBirdOptionShown"
+
+
+      ]
+    }
+  },
+  "required": [
+    "review"
+  ]
+}

@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fields divided className should set to false if not passed in 1`] = `
+<div
+  class="fields"
+/>
+`;
+
+exports[`Fields divided className should set to false if passed in 1`] = `
+<div
+  class="fields"
+/>
+`;
+
+exports[`Fields divided className should set to true if passed in 1`] = `
+<div
+  class="fields divided"
+/>
+`;
+
+exports[`Fields should add class object if type passed in 1`] = `
+<div
+  class="fields row"
+/>
+`;
+
+exports[`Fields should add className to div className if passed in 1`] = `
+<div
+  class="fields classPassedIn"
+/>
+`;
+
+exports[`Fields should display label if passed in 1`] = `
+<div>
+  <div
+    class="fields"
+  >
+    <label
+      class="fields--label"
+    >
+      passedInLabel
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Fields should display secondaryLabel if passed in 1`] = `
+<div>
+  <div
+    class="fields"
+  >
+    <label
+      class="fields--secondary-label"
+    >
+      passedInSecondaryLabel
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Fields should render any children 1`] = `
+<div>
+  <div
+    class="fields"
+  >
+    <h1>
+      Test
+    </h1>
+  </div>
+</div>
+`;

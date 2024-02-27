@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpgradedBoardingPage should handle placements and render contentModule1 if it exists 1`] = `null`;
+
+exports[`UpgradedBoardingPage should handle placements and render promoBottom01 if it exists 1`] = `null`;
+
+exports[`UpgradedBoardingPage should handle placements and render promoTop01 if it exists 1`] = `null`;
+
+exports[`UpgradedBoardingPage should not render header when in a webview 1`] = `
+<div>
+  <div
+    class="upgraded-boarding--content"
+  >
+    <div>
+      <div
+        class="page-header hidden"
+        id=""
+      >
+        UB_PAGE_TITLE
+      </div>
+      <div />
+    </div>
+    <div
+      class="reservation-retrieval-form"
+    >
+      <div
+        class="custom-container"
+      >
+        <form
+          class="form widget"
+          name="UPGRADED_BOARDING_FORM"
+          novalidate=""
+        >
+          <fieldset>
+            <div
+              class="fields divided grouped"
+            >
+              <div
+                class="field"
+              >
+                <div
+                  class="reservation-retrieval-form--record-locator input huge"
+                >
+                  <input
+                    class=""
+                    name="recordLocator"
+                    placeholder="SHARED__PLACEHOLDER__CONFIRMATION_NUMBER"
+                    value="D23M9T"
+                  />
+                </div>
+              </div>
+              <div
+                class="field"
+              >
+                <div
+                  class="input huge"
+                >
+                  <input
+                    class=""
+                    name="firstName"
+                    placeholder="SHARED__PLACEHOLDER__FIRST_NAME"
+                    value="Joe"
+                  />
+                </div>
+              </div>
+              <div
+                class="field"
+              >
+                <div
+                  class="input huge"
+                >
+                  <input
+                    class=""
+                    name="lastName"
+                    placeholder="SHARED__PLACEHOLDER__LAST_NAME"
+                    value="Rogan"
+                  />
+                </div>
+              </div>
+              <div
+                class="segment"
+              >
+                <button
+                  class="button button--fluid large button--yellow"
+                  role="submit"
+                  type="submit"
+                >
+                  VIEW_RESERVATION__RETRIEVE_RESERVATION
+                </button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`UpgradedBoardingPage should render default props 1`] = `
+<div>
+  <div
+    class="upgraded-boarding--content"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        UB_PAGE_TITLE
+      </div>
+      <div />
+    </div>
+    <div
+      class="reservation-retrieval-form"
+    >
+      <div
+        class="custom-container"
+      >
+        <form
+          class="form widget"
+          name="UPGRADED_BOARDING_FORM"
+          novalidate=""
+        >
+          <fieldset>
+            <div
+              class="fields divided grouped"
+            >
+              <div
+                class="field"
+              >
+                <div
+                  class="reservation-retrieval-form--record-locator input huge"
+                >
+                  <input
+                    class=""
+                    name="recordLocator"
+                    placeholder="SHARED__PLACEHOLDER__CONFIRMATION_NUMBER"
+                    value="D23M9T"
+                  />
+                </div>
+              </div>
+              <div
+                class="field"
+              >
+                <div
+                  class="input huge"
+                >
+                  <input
+                    class=""
+                    name="firstName"
+                    placeholder="SHARED__PLACEHOLDER__FIRST_NAME"
+                    value="Joe"
+                  />
+                </div>
+              </div>
+              <div
+                class="field"
+              >
+                <div
+                  class="input huge"
+                >
+                  <input
+                    class=""
+                    name="lastName"
+                    placeholder="SHARED__PLACEHOLDER__LAST_NAME"
+                    value="Rogan"
+                  />
+                </div>
+              </div>
+              <div
+                class="segment"
+              >
+                <button
+                  class="button button--fluid large button--yellow"
+                  role="submit"
+                  type="submit"
+                >
+                  VIEW_RESERVATION__RETRIEVE_RESERVATION
+                </button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

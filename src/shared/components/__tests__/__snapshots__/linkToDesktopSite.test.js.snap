@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`linkToDesktopSite should render 1`] = `
+<div>
+  <a
+    href="https://www.southwest.com/?ref=LinkMobileWeb&clk=LinkMobileWeb"
+    target="_blank"
+  >
+    child
+  </a>
+</div>
+`;

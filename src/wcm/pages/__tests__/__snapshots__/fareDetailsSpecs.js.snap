@@ -1,0 +1,856 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FareDetails with default fares should render as expected 1`] = `
+<div
+  className="fare-details"
+>
+  <PageHeaderWithButtons
+    dataQa="fare-details-page-title"
+    rightButtons={
+      Array [
+        Object {
+          "name": "Done",
+          "onClick": [Function],
+        },
+      ]
+    }
+    title="Fare Details"
+  />
+  <div
+    className="fare-details--headings_wrapper"
+  >
+    <div
+      className="fare-details--fare"
+      data-qa="fare-details-page-heading"
+      key="0"
+      style={
+        Object {
+          "background": "#304cb2",
+          "color": "white",
+        }
+      }
+    >
+      <div
+        className="fare-details--fare-name_wrapper"
+      >
+        <span
+          className="fare-details--fare-name"
+        >
+          <_default
+            defaultText="Business Select®"
+          />
+        </span>
+      </div>
+      <div
+        className="fare-details--fare-points"
+      >
+        <div
+          className="fare-details--fare-points_amount"
+          style={
+            Object {
+              "borderColor": "white",
+            }
+          }
+        >
+          <span>
+            12x
+          </span>
+        </div>
+        <div
+          className="fare-details--fare-points_per-dollar"
+        >
+          <span>
+            pts per dollar
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="fare-details--fare"
+      data-qa="fare-details-page-heading"
+      key="1"
+      style={
+        Object {
+          "background": "#a4baf2",
+          "color": "#000000",
+        }
+      }
+    >
+      <div
+        className="fare-details--fare-name_wrapper"
+      >
+        <span
+          className="fare-details--fare-name"
+        >
+          <_default
+            defaultText="Anytime"
+          />
+        </span>
+      </div>
+      <div
+        className="fare-details--fare-points"
+      >
+        <div
+          className="fare-details--fare-points_amount"
+          style={
+            Object {
+              "borderColor": "#000000",
+            }
+          }
+        >
+          <span>
+            10x
+          </span>
+        </div>
+        <div
+          className="fare-details--fare-points_per-dollar"
+        >
+          <span>
+            pts per dollar
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="fare-details--fare"
+      data-qa="fare-details-page-heading"
+      key="2"
+      style={
+        Object {
+          "background": "#d5152e",
+          "color": "#ffffff",
+        }
+      }
+    >
+      <div
+        className="fare-details--fare-name_wrapper"
+      >
+        <span
+          className="fare-details--fare-name"
+        >
+          <_default
+            defaultText="Wanna Get Away Plus"
+            value={
+              Array [
+                Object {
+                  "label": "Wanna Get Away",
+                },
+                Object {
+                  "font": "Fairwater Script",
+                  "label": " plus",
+                },
+              ]
+            }
+          />
+        </span>
+      </div>
+      <div
+        className="fare-details--fare-points"
+      >
+        <div
+          className="fare-details--fare-points_amount"
+          style={
+            Object {
+              "borderColor": "#ffffff",
+            }
+          }
+        >
+          <span>
+            8x
+          </span>
+        </div>
+        <div
+          className="fare-details--fare-points_per-dollar"
+        >
+          <span>
+            pts per dollar
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="fare-details--fare"
+      data-qa="fare-details-page-heading"
+      key="3"
+      style={
+        Object {
+          "background": "#ffbf27",
+          "color": "#000000",
+        }
+      }
+    >
+      <div
+        className="fare-details--fare-name_wrapper"
+      >
+        <span
+          className="fare-details--fare-name"
+        >
+          <_default
+            defaultText="Wanna Get Away®"
+          />
+        </span>
+      </div>
+      <div
+        className="fare-details--fare-points"
+      >
+        <div
+          className="fare-details--fare-points_amount"
+          style={
+            Object {
+              "borderColor": "#000000",
+            }
+          }
+        >
+          <span>
+            6x
+          </span>
+        </div>
+        <div
+          className="fare-details--fare-points_per-dollar"
+        >
+          <span>
+            pts per dollar
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex flex-column fare-details--categories-and-values"
+  >
+    <div
+      className="flex flex-cross-center flex-cross-baseline py6 p12 pdkblue bgwhite"
+      data-qa="fare-details-page-category"
+      key="0"
+    >
+      <div
+        className="flex-column center flex5"
+      >
+        <span
+          className="active-circle p4 m2"
+          key="0"
+          style={
+            Object {
+              "background": "#304cb2",
+            }
+          }
+        />
+        <span
+          className="active-circle p4 m2"
+          key="1"
+          style={
+            Object {
+              "background": "#a4baf2",
+            }
+          }
+        />
+        <span
+          className="active-circle p4 m2"
+          key="2"
+          style={
+            Object {
+              "background": "#d5152e",
+            }
+          }
+        />
+        <span
+          className="active-circle p4 m2"
+          key="3"
+          style={
+            Object {
+              "background": "#ffbf27",
+            }
+          }
+        />
+      </div>
+      <div
+        className="flex-column flex7 pr5 fare-details--attribute"
+      >
+        <div
+          className="large"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Two bags fly free®*",
+            }
+          }
+        />
+        <div
+          className="fare-details--attribute-description py3"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "First and second checked bags. Weight and size limits apply.",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="flex flex-cross-center flex-cross-baseline py6 p12 pdkblue bggray2"
+      data-qa="fare-details-page-category"
+      key="1"
+    >
+      <div
+        className="flex-column center flex5"
+      >
+        <span
+          className="active-circle p4 m2"
+          key="0"
+          style={
+            Object {
+              "background": "#304cb2",
+            }
+          }
+        />
+        <span
+          className="active-circle p4 m2"
+          key="1"
+          style={
+            Object {
+              "background": "#a4baf2",
+            }
+          }
+        />
+        <span
+          className="active-circle p4 m2"
+          key="2"
+          style={
+            Object {
+              "background": "#d5152e",
+            }
+          }
+        />
+        <span
+          className="active-circle p4 m2"
+          key="3"
+          style={
+            Object {
+              "background": "#ffbf27",
+            }
+          }
+        />
+      </div>
+      <div
+        className="flex-column flex7 pr5 fare-details--attribute"
+      >
+        <div
+          className="large"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "No change fees**",
+            }
+          }
+        />
+        <div
+          className="fare-details--attribute-description py3"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Fare difference may apply.",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="flex flex-cross-center flex-cross-baseline py6 p12 pdkblue bgwhite"
+      data-qa="fare-details-page-category"
+      key="2"
+    >
+      <div
+        className="flex-column center flex5"
+      >
+        <span
+          className="active-circle p4 m2"
+          key="0"
+          style={
+            Object {
+              "background": "#304cb2",
+            }
+          }
+        />
+        <span
+          className="active-circle p4 m2"
+          key="1"
+          style={
+            Object {
+              "background": "#a4baf2",
+            }
+          }
+        />
+        <span
+          className="active-circle p4 m2"
+          key="2"
+          style={
+            Object {
+              "background": "#d5152e",
+            }
+          }
+        />
+        <span
+          className="active-circle p4 m2"
+          key="3"
+          style={
+            Object {
+              "background": "#ffbf27",
+            }
+          }
+        />
+      </div>
+      <div
+        className="flex-column flex7 pr5 fare-details--attribute"
+      >
+        <div
+          className="large"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Reusable funds for up to 12 months",
+            }
+          }
+        />
+        <div
+          className="fare-details--attribute-description py3"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "If you cancel your flight, 100% of your ticket can be applied to future travel.",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="flex flex-cross-center flex-cross-baseline py6 p12 pdkblue bggray2"
+      data-qa="fare-details-page-category"
+      key="3"
+    >
+      <div
+        className="flex-column center flex5"
+      >
+        <span
+          className="active-circle p4 m2"
+          key="0"
+          style={
+            Object {
+              "background": "#304cb2",
+            }
+          }
+        />
+        <span
+          className="active-circle p4 m2"
+          key="1"
+          style={
+            Object {
+              "background": "#a4baf2",
+            }
+          }
+        />
+        <span
+          className="active-circle p4 m2"
+          key="2"
+          style={
+            Object {
+              "background": "#d5152e",
+            }
+          }
+        />
+        <span
+          className="p4 m2"
+          key="3"
+        />
+      </div>
+      <div
+        className="flex-column flex7 pr5 fare-details--attribute"
+      >
+        <div
+          className="large"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Transferable Flight Credit",
+            }
+          }
+        />
+        <div
+          className="fare-details--attribute-description py3"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Flight credit can be transferred to someone else.",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="flex flex-cross-center flex-cross-baseline py6 p12 pdkblue bgwhite"
+      data-qa="fare-details-page-category"
+      key="4"
+    >
+      <div
+        className="flex-column center flex5"
+      >
+        <span
+          className="active-circle p4 m2"
+          key="0"
+          style={
+            Object {
+              "background": "#304cb2",
+            }
+          }
+        />
+        <span
+          className="active-circle p4 m2"
+          key="1"
+          style={
+            Object {
+              "background": "#a4baf2",
+            }
+          }
+        />
+        <span
+          className="p4 m2"
+          key="2"
+        />
+        <span
+          className="p4 m2"
+          key="3"
+        />
+      </div>
+      <div
+        className="flex-column flex7 pr5 fare-details--attribute"
+      >
+        <div
+          className="large"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Refundable (2) (That money is all yours.)",
+            }
+          }
+        />
+        <div
+          className="fare-details--attribute-description py3"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Refundable, as long as you cancel your reservation at least ten (10) minutes prior to the scheduled departure of your flight. If you cancel, you’re eligible to receive 100% of your ticket value as a refund to your original form of payment. Southwest residual travel funds from a previous reservation that are applied toward a Business Select Fare will be refunded as residual travel funds. ",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="flex flex-cross-center flex-cross-baseline py6 p12 pdkblue bggray2"
+      data-qa="fare-details-page-category"
+      key="5"
+    >
+      <div
+        className="flex-column center flex5"
+      >
+        <span
+          className="active-circle p4 m2"
+          key="0"
+          style={
+            Object {
+              "background": "#304cb2",
+            }
+          }
+        />
+        <span
+          className="active-circle p4 m2"
+          key="1"
+          style={
+            Object {
+              "background": "#a4baf2",
+            }
+          }
+        />
+        <span
+          className="p4 m2"
+          key="2"
+        />
+        <span
+          className="p4 m2"
+          key="3"
+        />
+      </div>
+      <div
+        className="flex-column flex7 pr5 fare-details--attribute"
+      >
+        <div
+          className="large"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Same-day change (3)",
+            }
+          }
+        />
+        <div
+          className="fare-details--attribute-description py3"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "To take advantage of these benefits, see a Southwest agent at the airport. If there’s an open seat on a different flight on the same day as your original flight and it’s between the same cities, our agent can book a seat on the new flight for you free  of airline charges. If there isn’t an open seat, ask an agent to add you to the same-day standby list. If there are any government taxes and fees associated with these itinerary changes, you will be required to pay those. Your original boarding position is not guaranteed.",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="flex flex-cross-center flex-cross-baseline py6 p12 pdkblue bgwhite"
+      data-qa="fare-details-page-category"
+      key="6"
+    >
+      <div
+        className="flex-column center flex5"
+      >
+        <span
+          className="active-circle p4 m2"
+          key="0"
+          style={
+            Object {
+              "background": "#304cb2",
+            }
+          }
+        />
+        <span
+          className="active-circle p4 m2"
+          key="1"
+          style={
+            Object {
+              "background": "#a4baf2",
+            }
+          }
+        />
+        <span
+          className="p4 m2"
+          key="2"
+        />
+        <span
+          className="p4 m2"
+          key="3"
+        />
+      </div>
+      <div
+        className="flex-column flex7 pr5 fare-details--attribute"
+      >
+        <div
+          className="large"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Same-day standby (3)",
+            }
+          }
+        />
+        <div
+          className="fare-details--attribute-description py3"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "To take advantage of these benefits, see a Southwest agent at the airport. If there’s an open seat on a different flight on the same day as your original flight and it’s between the same cities, our agent can book a seat on the new flight for you free  of airline charges. If there isn’t an open seat, ask an agent to add you to the same-day standby list. If there are any government taxes and fees associated with these itinerary changes, you will be required to pay those. Your original boarding position is not guaranteed.",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="flex flex-cross-center flex-cross-baseline py6 p12 pdkblue bggray2"
+      data-qa="fare-details-page-category"
+      key="7"
+    >
+      <div
+        className="flex-column center flex5"
+      >
+        <span
+          className="active-circle p4 m2"
+          key="0"
+          style={
+            Object {
+              "background": "#304cb2",
+            }
+          }
+        />
+        <span
+          className="p4 m2"
+          key="1"
+        />
+        <span
+          className="p4 m2"
+          key="2"
+        />
+        <span
+          className="p4 m2"
+          key="3"
+        />
+      </div>
+      <div
+        className="flex-column flex7 pr5 fare-details--attribute"
+      >
+        <div
+          className="large"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Fly By® priority lane (4)",
+            }
+          }
+        />
+        <div
+          className="fare-details--attribute-description py3"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "This priority lane gets you to the front of the ticket counter faster. A-List or A-List Preferred Members already enjoy the Fly By® priority lane.
+",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="flex flex-cross-center flex-cross-baseline py6 p12 pdkblue bgwhite"
+      data-qa="fare-details-page-category"
+      key="8"
+    >
+      <div
+        className="flex-column center flex5"
+      >
+        <span
+          className="active-circle p4 m2"
+          key="0"
+          style={
+            Object {
+              "background": "#304cb2",
+            }
+          }
+        />
+        <span
+          className="p4 m2"
+          key="1"
+        />
+        <span
+          className="p4 m2"
+          key="2"
+        />
+        <span
+          className="p4 m2"
+          key="3"
+        />
+      </div>
+      <div
+        className="flex-column flex7 pr5 fare-details--attribute"
+      >
+        <div
+          className="large"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Fly By® security lane (4)",
+            }
+          }
+        />
+        <div
+          className="fare-details--attribute-description py3"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "This priority lane gets you through the security line faster. A-List or A-List Preferred Members enjoy this benefit too.
+",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="flex flex-cross-center flex-cross-baseline py6 p12 pdkblue bggray2"
+      data-qa="fare-details-page-category"
+      key="9"
+    >
+      <div
+        className="flex-column center flex5"
+      >
+        <span
+          className="active-circle p4 m2"
+          key="0"
+          style={
+            Object {
+              "background": "#304cb2",
+            }
+          }
+        />
+        <span
+          className="p4 m2"
+          key="1"
+        />
+        <span
+          className="p4 m2"
+          key="2"
+        />
+        <span
+          className="p4 m2"
+          key="3"
+        />
+      </div>
+      <div
+        className="flex-column flex7 pr5 fare-details--attribute"
+      >
+        <div
+          className="large"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Complimentary premium drink",
+            }
+          }
+        />
+        <div
+          className="fare-details--attribute-description py3"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": null,
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="flex flex-cross-center flex-cross-baseline py6 p12 pdkblue bgwhite"
+      data-qa="fare-details-page-category"
+      key="10"
+    >
+      <div
+        className="flex-column center flex5"
+      >
+        <span
+          className="active-circle p4 m2"
+          key="0"
+          style={
+            Object {
+              "background": "#304cb2",
+            }
+          }
+        />
+        <span
+          className="p4 m2"
+          key="1"
+        />
+        <span
+          className="p4 m2"
+          key="2"
+        />
+        <span
+          className="p4 m2"
+          key="3"
+        />
+      </div>
+      <div
+        className="flex-column flex7 pr5 fare-details--attribute"
+      >
+        <div
+          className="large"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Priority boarding A1-A15",
+            }
+          }
+        />
+        <div
+          className="fare-details--attribute-description py3"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": null,
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

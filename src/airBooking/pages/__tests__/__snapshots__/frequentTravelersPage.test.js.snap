@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`frequent Travelers should create frequent travelers list 1`] = `
+<div>
+  <div
+    class="searchable-list"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              AIR_BOOKING__FREQUENT_TRAVELER__PAGE_HEADER
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="button"
+              type="button"
+            >
+              Cancel
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    <a
+      class="nav-item-link"
+    >
+      <span
+        class="searchable-list--alternate-item-title"
+      >
+        AIR_BOOKING__FREQUENT_TRAVELER__ADD_NEW_BUTTON
+      </span>
+      <i
+        class="nav-item-link--icon icon icon_keyboard-arrow-right"
+      />
+    </a>
+    <div
+      class="searchable-list-code--results options-list--results"
+    >
+      <ul
+        class="searchable-list-code"
+      >
+        <li
+          class="searchable-list-code--item"
+        >
+          <div
+            class="flex10"
+          >
+            Minnie J. Haynes
+          </div>
+        </li>
+        <li
+          class="searchable-list-code--item"
+        >
+          <div
+            class="flex10"
+          >
+            Last Last
+          </div>
+        </li>
+        <li
+          class="searchable-list-code--item"
+        >
+          <div
+            class="flex10"
+          >
+            Sec Last
+          </div>
+        </li>
+        <li
+          class="searchable-list-code--item"
+        >
+          <div
+            class="flex10"
+          >
+            Third Last
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`frequent Travelers should disable selected traveler 1`] = `
+<div>
+  <div
+    class="searchable-list"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              AIR_BOOKING__FREQUENT_TRAVELER__PAGE_HEADER
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="button"
+              type="button"
+            >
+              Cancel
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    <a
+      class="nav-item-link"
+    >
+      <span
+        class="searchable-list--alternate-item-title"
+      >
+        AIR_BOOKING__FREQUENT_TRAVELER__ADD_NEW_BUTTON
+      </span>
+      <i
+        class="nav-item-link--icon icon icon_keyboard-arrow-right"
+      />
+    </a>
+    <div
+      class="searchable-list-code--results options-list--results"
+    >
+      <ul
+        class="searchable-list-code"
+      >
+        <li
+          class="searchable-list-code--item"
+        >
+          <div
+            class="flex10"
+          >
+            Last Last
+          </div>
+        </li>
+        <li
+          class="searchable-list-code--item"
+        >
+          <div
+            class="flex10"
+          >
+            Sec Last
+          </div>
+        </li>
+        <li
+          class="searchable-list-code--item"
+        >
+          <div
+            class="flex10"
+          >
+            Third Last
+          </div>
+        </li>
+        <li
+          class="searchable-list-code--item"
+        >
+          <div
+            class="disabled"
+          >
+            Minnie J. Haynes
+             
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`frequent Travelers should not filter the frequentTraveler 1`] = `
+<div>
+  <div
+    class="searchable-list"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <ul
+          class="action-bar-buttons action-bar--left-buttons"
+        />
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              AIR_BOOKING__FREQUENT_TRAVELER__PAGE_HEADER
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        >
+          <li
+            class="action-bar-buttons--item"
+          >
+            <button
+              class="button"
+              type="button"
+            >
+              Cancel
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div />
+    </div>
+    <a
+      class="nav-item-link"
+    >
+      <span
+        class="searchable-list--alternate-item-title"
+      >
+        AIR_BOOKING__FREQUENT_TRAVELER__ADD_NEW_BUTTON
+      </span>
+      <i
+        class="nav-item-link--icon icon icon_keyboard-arrow-right"
+      />
+    </a>
+    <div
+      class="searchable-list-code--results options-list--results"
+    >
+      <ul
+        class="searchable-list-code"
+      >
+        <li
+          class="searchable-list-code--item"
+        >
+          <div
+            class="flex10"
+          >
+            Minnie J. Haynes
+          </div>
+        </li>
+        <li
+          class="searchable-list-code--item"
+        >
+          <div
+            class="flex10"
+          >
+            Last Last
+          </div>
+        </li>
+        <li
+          class="searchable-list-code--item"
+        >
+          <div
+            class="flex10"
+          >
+            Sec Last
+          </div>
+        </li>
+        <li
+          class="searchable-list-code--item"
+        >
+          <div
+            class="flex10"
+          >
+            Third Last
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

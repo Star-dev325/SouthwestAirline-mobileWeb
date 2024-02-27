@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="10">
+
+  <testsuite name="airChange.dynamicWaiverTestForRoundTripBothBoundsAffectedEvenExchange"
+    errors="0" failures="1" hostname="" id="" package="airChange" skipped="4"
+    tests="10" time="62.74" timestamp="Fri, 15 Dec 2023 01:11:36 GMT">
+  
+    <testcase name="view reservation from homepage" classname="airChange.dynamicWaiverTestForRoundTripBothBoundsAffectedEvenExchange" time="38.76" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View flight reservation through with confirmation number" classname="airChange.dynamicWaiverTestForRoundTripBothBoundsAffectedEvenExchange" time="6.051" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Change Dynamic Waiver flight" classname="airChange.dynamicWaiverTestForRoundTripBothBoundsAffectedEvenExchange" time="1.504" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Wait the the page transfer successfully, bounds already selected" classname="airChange.dynamicWaiverTestForRoundTripBothBoundsAffectedEvenExchange" time="3.651" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search new flight search criteria " classname="airChange.dynamicWaiverTestForRoundTripBothBoundsAffectedEvenExchange" time="2.185" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select Outbound flight product for even exchange" classname="airChange.dynamicWaiverTestForRoundTripBothBoundsAffectedEvenExchange" time="10.58" assertions="3">
+
+    
+
+      <failure message="Timed out while waiting for element &lt;div[data-qa=&#34;flight-products&#34;] .flight-product-section:nth-child(3)&gt; to be present for 10000 milliseconds.">    at Object.module.exports.command (/Users/x311032/spa-mobile-web/test/e2e/commands/clickVisible.js:2:8)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Select Inbound flight product for even exchange" classname="airChange.dynamicWaiverTestForRoundTripBothBoundsAffectedEvenExchange">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click continue button on Pricing Summary Page" classname="airChange.dynamicWaiverTestForRoundTripBothBoundsAffectedEvenExchange">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Show Review Page" classname="airChange.dynamicWaiverTestForRoundTripBothBoundsAffectedEvenExchange">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Show confirmation page" classname="airChange.dynamicWaiverTestForRoundTripBothBoundsAffectedEvenExchange">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

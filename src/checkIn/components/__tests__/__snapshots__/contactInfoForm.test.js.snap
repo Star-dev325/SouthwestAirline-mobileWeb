@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Info Form should render form 1`] = `
+<div>
+  <form
+    class="notification-form form"
+    name="fakeFormId"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="instruction"
+      >
+        fake instruction text
+      </div>
+      <div
+        class="fields grouped"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="mb4 select-input icon-fixed formatted input"
+            >
+              <span
+                class="formatted-input formatted-input--fill"
+              >
+                <select
+                  class="dropdown"
+                  data-qa="select-dropdown"
+                  name="contactMethod"
+                >
+                  <option
+                    data-qa="dqa-enabled-option"
+                    value="EMAIL"
+                  >
+                    Email
+                  </option>
+                  <option
+                    data-qa="dqa-enabled-option"
+                    value="SMS"
+                  >
+                    Text
+                  </option>
+                </select>
+              </span>
+              <input
+                class=""
+                icon="caret-down"
+                name="contactMethod"
+              />
+              <i
+                class="icon icon_caret-down"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="input huge"
+            >
+              <input
+                class=""
+                name="email"
+                placeholder="SHARED__PLACEHOLDER__EMAIL_ADDRESS"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <button
+          class="button button--fluid larger button--yellow"
+          role="submit"
+          type="submit"
+        >
+          Submit
+        </button>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;

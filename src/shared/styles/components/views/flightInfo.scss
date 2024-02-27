@@ -1,0 +1,67 @@
+.flight-info {
+  @include flex;
+  @include flex-main-between;
+  @include mx5;
+  @include mt5;
+
+  .flight-info-col {
+    .label-container--label {
+      @include gray5;
+    }
+  }
+
+  .label-container--content {
+    @include mt0;
+    @include larger;
+    @include lineheight14;
+    @include bold;
+
+    .flight-number,
+    .flight-duration {
+      @include larger;
+
+      .icon {
+        @include relative;
+        @include xlarge;
+      }
+    }
+
+    .flight-duration {
+      @include regular;
+    }
+  }
+}
+
+.flight-info-block {
+  @include flex;
+  @include flex-column;
+  @include flex-main-between;
+
+  .flight-info-col {
+    .label-container--label {
+      @include gray5;
+    }
+  }
+
+  .flight-info-time {
+    .label-container {
+      @include my3;
+    }
+  }
+
+  .label-container--content {
+    @include mt0;
+    @include larger;
+    @include lineheight14;
+    @include bold;
+
+    .flight-number,
+    .flight-duration {
+      @include larger;
+    }
+
+    .flight-duration {
+      @include regular;
+    }
+  }
+}

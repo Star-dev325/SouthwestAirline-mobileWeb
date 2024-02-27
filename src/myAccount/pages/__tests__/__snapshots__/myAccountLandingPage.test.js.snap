@@ -1,0 +1,3524 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyAccountLandingPage on mount user is logged in and enrolled in RR it should render RapidRewardsPanelEnrolled panel and DynamicPlacement panel 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        MY_ACCOUNT__PAGE_HEADER_TITLE
+      </div>
+      <div />
+    </div>
+    <div
+      class="custom-container"
+    >
+      <div
+        class="flex pdkblue mb4 px2"
+      >
+        <div
+          class="flex6 overflow-hidden"
+        >
+          <span
+            class="bold large block nowrap overflow-hidden ellipsis"
+            data-qa="user-name"
+          >
+            Ben Lacy
+          </span>
+        </div>
+        <div
+          class="flex6 medium lineheight16 align-right"
+        >
+          <span
+            data-qa="rapid-rewards-number"
+          >
+            MY_ACCOUNT__HEADER__RR_NUMBER 1234567890
+          </span>
+        </div>
+      </div>
+      <div
+        class="my-account-panel panel"
+      >
+        <div
+          class="panel--body"
+        >
+          <div
+            data-qa="observed-viewport"
+          >
+            <div
+              class="dynamic-placement"
+            >
+              <div
+                class="shimmer"
+              >
+                <div
+                  class="shimmer--children"
+                >
+                  <div
+                    class="flex-placement visible"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="my-account-panel panel"
+      >
+        <div
+          class="panel--heading"
+        >
+          <span
+            class="pre-text"
+          >
+            MY_ACCOUNT__MY
+          </span>
+          <span
+            class="text"
+          >
+            Rapid Rewards
+          </span>
+        </div>
+        <div
+          class="panel--body"
+        >
+          <div
+            class="segments"
+          >
+            <div
+              class="vertical-fill segment"
+              data-qa="my-account-panel--rapid-rewards-dashboard"
+            >
+              <div
+                class="segments"
+              >
+                <div
+                  class="pts-group segments"
+                >
+                  <div
+                    class="horizontal-fill segment"
+                  >
+                    <div
+                      class="points-group"
+                    >
+                      <div
+                        class="points-group--col-infos"
+                      >
+                        <label
+                          class="points-group--col-infos-label"
+                        >
+                          MY_ACCOUNT__RAPID_REWARDS_MEMBER
+                        </label>
+                        <span>
+                          MY_ACCOUNT__PTS_GROUP__EARNED_THROUGH 12/31/21
+                        </span>
+                        <span
+                          class="points-group--divider"
+                        >
+                          |
+                        </span>
+                        <span
+                          class="pblue"
+                          data-qa="view-benefits"
+                        >
+                          MY_ACCOUNT__PTS_GROUP__VIEW_BENEFITS
+                        </span>
+                      </div>
+                      <div
+                        class="points-group--col-points align-right"
+                      >
+                        <label
+                          class="points-group--col-points-label"
+                        >
+                          0
+                        </label>
+                        <span>
+                          MY_ACCOUNT__PTS_GROUP__PTS
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="segment-border-top horizontal-fill segment"
+                >
+                  <div
+                    class="nav-item my-account-nav-item"
+                  >
+                    <div
+                      class="tier-status-group"
+                    >
+                      <div
+                        class="tier-status-group--label"
+                      >
+                        <span>
+                          MY_ACCOUNT__CLIMBING_TOWARDS
+                          <b>
+                            MY_ACCOUNT__A_LIST
+                          </b>
+                          .
+                        </span>
+                      </div>
+                      <div
+                        class="tier-status-group--status"
+                      >
+                        <div
+                          class="tier-status-group--status-col tier-status-group--status-col_graph"
+                        >
+                          <div
+                            class="tier-status"
+                          >
+                            <div
+                              class="tier-status--graph"
+                            >
+                              <div
+                                class="donut-progress-bar"
+                                style="width: 0px; height: 0px;"
+                              >
+                                <svg
+                                  height="0"
+                                  width="0"
+                                >
+                                  <path
+                                    class="donut-progress-bar--container"
+                                    d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                                    fill="transparent"
+                                    stroke="#d8d8d8"
+                                    stroke-width="10"
+                                  />
+                                  <path
+                                    class="donut-progress-bar--fill"
+                                    d="M 3.5 -3.5 A -5 -5 0 0 0 3.5 -3.5"
+                                    fill="transparent"
+                                    stroke="#446688"
+                                    stroke-width="10"
+                                  />
+                                </svg>
+                              </div>
+                              <i
+                                class="icon icon_pts"
+                              />
+                            </div>
+                            <div
+                              class="tier-status--text"
+                            >
+                              <label
+                                class="label"
+                              >
+                                0
+                              </label>
+                              <p
+                                class="desc"
+                              >
+                                <span>
+                                  MY_ACCOUNT__TIER_STATUS_GROUP__POINTS_STATUS 35,000
+                                  <sup>
+                                    *
+                                  </sup>
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="tier-status-group--status-col"
+                        >
+                          MY_ACCOUNT__TIER_STATUS_GROUP__OR
+                        </div>
+                        <div
+                          class="tier-status-group--status-col tier-status-group--status-col_graph"
+                        >
+                          <div
+                            class="tier-status"
+                          >
+                            <div
+                              class="tier-status--graph"
+                            >
+                              <div
+                                class="donut-progress-bar"
+                                style="width: 0px; height: 0px;"
+                              >
+                                <svg
+                                  height="0"
+                                  width="0"
+                                >
+                                  <path
+                                    class="donut-progress-bar--container"
+                                    d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                                    fill="transparent"
+                                    stroke="#d8d8d8"
+                                    stroke-width="10"
+                                  />
+                                  <path
+                                    class="donut-progress-bar--fill"
+                                    d="M 3.5 -3.5 A -5 -5 0 0 0 3.5 -3.5"
+                                    fill="transparent"
+                                    stroke="#446688"
+                                    stroke-width="10"
+                                  />
+                                </svg>
+                              </div>
+                              <i
+                                class="icon icon_airplane-depart"
+                              />
+                            </div>
+                            <div
+                              class="tier-status--text"
+                            >
+                              <label
+                                class="label"
+                              >
+                                0
+                              </label>
+                              <p
+                                class="desc"
+                              >
+                                <span>
+                                  MY_ACCOUNT__TIER_STATUS_GROUP__FLIGHTS_STATUS 20
+                                  <sup>
+                                    *
+                                  </sup>
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <small
+                      class="gray4"
+                    >
+                      MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_FOOTNOTE
+                    </small>
+                    <br />
+                    <small
+                      class="ml2 gray4"
+                    >
+                      MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_RESET
+                    </small>
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="my-account-panel panel"
+      >
+        <div
+          class="panel--heading"
+        >
+          <span
+            class="pre-text"
+          >
+            MY_ACCOUNT__MY
+          </span>
+          <span
+            class="text"
+          >
+            MY_ACCOUNT__MY_TRIPS_PANEL__MY_TRIPS_PANEL_HEADING
+          </span>
+        </div>
+        <div
+          class="panel--body"
+        >
+          <div
+            class="segments"
+          >
+            <div
+              class="my-trips-panel my-trips-panel--without-trips segment"
+            >
+              <div
+                class="nav-item my-account-nav-item"
+              >
+                <p
+                  class="my-trips-panel--book-trip-call-to-action"
+                >
+                  MY_ACCOUNT__MY_TRIPS_PANEL__LETS_GO
+                </p>
+                <p>
+                  MY_ACCOUNT__MY_TRIPS_PANEL__BOOK_A_TRIP_MESSAGE
+                </p>
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+              <div
+                class="nav-item my-trips-panel--find-a-trip my-account-nav-item-border-top my-account-nav-item"
+              >
+                MY_ACCOUNT__MY_TRIPS_PANEL__FIND_A_TRIP
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+            <div
+              class="py0 vertical-fill segment"
+            >
+              <div
+                class="my-trips-panel--past-and-saved-links ui divided horizontal list"
+              >
+                <div
+                  class="item"
+                >
+                  <div
+                    class="nav-item my-trips-panel--past-flights-button py5 my-account-nav-item"
+                  >
+                    MY_ACCOUNT__MY_TRIPS_PANEL__PAST_FLIGHTS_LABEL
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="item"
+                >
+                  <div
+                    class="nav-item my-trips-panel--saved-flights-button py5 my-account-nav-item"
+                  >
+                    MY_ACCOUNT__MY_TRIPS_PANEL__SAVED_LABEL
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="my-account-panel panel"
+      >
+        <div
+          class="panel--heading"
+        >
+          <span
+            class="pre-text"
+          >
+            MY_ACCOUNT__MY
+          </span>
+          <span
+            class="text"
+          >
+            MY_ACCOUNT__FLIGHT_CREDITS
+          </span>
+        </div>
+        <div
+          class="panel--body"
+        >
+          <div
+            class="segments"
+          >
+            <div
+              class="py4 px5 segment"
+            >
+              <div
+                class="pdkblue larger"
+              >
+                text content
+              </div>
+            </div>
+            <div
+              class="segment-border-top py0 vertical-fill segment"
+            >
+              <div
+                class="unused-funds-panel--links ui divided horizontal list"
+              >
+                <div
+                  class="item"
+                >
+                  <div
+                    class="nav-item unused-funds-panel--view-funds-button py5 my-account-nav-item"
+                  >
+                    text content
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="item"
+                >
+                  <div
+                    class="nav-item unused-funds-panel--learn-more-button py5 my-account-nav-item"
+                  >
+                    text content
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MyAccountLandingPage on mount user is logged in and not enrolled in RR it should render RapidRewardsPanelNotEnrolled 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        MY_ACCOUNT__PAGE_HEADER_TITLE
+      </div>
+      <div />
+    </div>
+    <div
+      class="custom-container"
+    >
+      <div
+        class="flex pdkblue mb4 px2"
+      >
+        <div
+          class="flex6 overflow-hidden"
+        >
+          <span
+            class="bold large block nowrap overflow-hidden ellipsis"
+            data-qa="user-name"
+          >
+            Ben Lacy
+          </span>
+        </div>
+        <div
+          class="flex6 medium lineheight16 align-right"
+        />
+      </div>
+      <div
+        class="my-account-panel panel"
+      >
+        <div
+          class="panel--body"
+        >
+          <div
+            data-qa="observed-viewport"
+          >
+            <div
+              class="dynamic-placement"
+            >
+              <div
+                class="shimmer"
+              >
+                <div
+                  class="shimmer--children"
+                >
+                  <div
+                    class="flex-placement visible"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="my-account-panel not-enrolled panel"
+      >
+        <div
+          class="panel--heading"
+        >
+          <span
+            class="pre-text"
+          >
+            MY_ACCOUNT__MY
+          </span>
+          <span
+            class="text"
+          >
+            Rapid Rewards
+          </span>
+        </div>
+        <div
+          class="rapid-rewards-panel-not-enrolled inverted segment"
+        >
+          <p
+            class="rapid-rewards-panel-not-enrolled--call-to-action"
+          >
+            MY_ACCOUNT__RAPID_REWARDS_PANEL_NOT_ENROLLED__TITLE
+          </p>
+          <p
+            class="rapid-rewards-panel-not-enrolled--message"
+          >
+            MY_ACCOUNT__RAPID_REWARDS_PANEL_NOT_ENROLLED__MESSAGE
+          </p>
+          <div
+            class="rapid-rewards-panel-not-enrolled--get-details-link"
+          >
+            MY_ACCOUNT__RAPID_REWARDS_PANEL_NOT_ENROLLED__DETAILS_LINK
+            <i
+              class="icon icon_keyboard-arrow-right"
+            />
+          </div>
+          <button
+            class="button button--fluid button--grey"
+            type="button"
+          >
+            MY_ACCOUNT__RAPID_REWARDS_PANEL_NOT_ENROLLED__ENROLL
+          </button>
+        </div>
+      </div>
+      <div
+        class="my-account-panel panel"
+      >
+        <div
+          class="panel--heading"
+        >
+          <span
+            class="pre-text"
+          >
+            MY_ACCOUNT__MY
+          </span>
+          <span
+            class="text"
+          >
+            MY_ACCOUNT__MY_TRIPS_PANEL__MY_TRIPS_PANEL_HEADING
+          </span>
+        </div>
+        <div
+          class="panel--body"
+        >
+          <div
+            class="segments"
+          >
+            <div
+              class="my-trips-panel my-trips-panel--without-trips segment"
+            >
+              <div
+                class="nav-item my-account-nav-item"
+              >
+                <p
+                  class="my-trips-panel--book-trip-call-to-action"
+                >
+                  MY_ACCOUNT__MY_TRIPS_PANEL__LETS_GO
+                </p>
+                <p>
+                  MY_ACCOUNT__MY_TRIPS_PANEL__BOOK_A_TRIP_MESSAGE
+                </p>
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+              <div
+                class="nav-item my-trips-panel--find-a-trip my-account-nav-item-border-top my-account-nav-item"
+              >
+                MY_ACCOUNT__MY_TRIPS_PANEL__FIND_A_TRIP
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+            <div
+              class="py0 vertical-fill segment"
+            >
+              <div
+                class="my-trips-panel--past-and-saved-links ui divided horizontal list"
+              >
+                <div
+                  class="item"
+                >
+                  <div
+                    class="nav-item my-trips-panel--past-flights-button py5 my-account-nav-item"
+                  >
+                    MY_ACCOUNT__MY_TRIPS_PANEL__PAST_FLIGHTS_LABEL
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="item"
+                >
+                  <div
+                    class="nav-item my-trips-panel--saved-flights-button py5 my-account-nav-item"
+                  >
+                    MY_ACCOUNT__MY_TRIPS_PANEL__SAVED_LABEL
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="my-account-panel panel"
+      >
+        <div
+          class="panel--heading"
+        >
+          <span
+            class="pre-text"
+          >
+            MY_ACCOUNT__MY
+          </span>
+          <span
+            class="text"
+          >
+            MY_ACCOUNT__FLIGHT_CREDITS
+          </span>
+        </div>
+        <div
+          class="panel--body"
+        >
+          <div
+            class="segments"
+          >
+            <div
+              class="py4 px5 segment"
+            >
+              <div
+                class="pdkblue larger"
+              >
+                text content
+              </div>
+            </div>
+            <div
+              class="segment-border-top py0 vertical-fill segment"
+            >
+              <div
+                class="unused-funds-panel--links ui divided horizontal list"
+              >
+                <div
+                  class="item"
+                >
+                  <div
+                    class="nav-item unused-funds-panel--view-funds-button py5 my-account-nav-item"
+                  >
+                    text content
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="item"
+                >
+                  <div
+                    class="nav-item unused-funds-panel--learn-more-button py5 my-account-nav-item"
+                  >
+                    text content
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MyAccountLandingPage on mount user is logged in should not render promo codes panel if PROMO_CODE_IN_MY_ACCOUNT is false and no WCM response is present 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        MY_ACCOUNT__PAGE_HEADER_TITLE
+      </div>
+      <div />
+    </div>
+    <div
+      class="custom-container"
+    >
+      <div
+        class="flex pdkblue mb4 px2"
+      >
+        <div
+          class="flex6 overflow-hidden"
+        >
+          <span
+            class="bold large block nowrap overflow-hidden ellipsis"
+            data-qa="user-name"
+          >
+            Ben Lacy
+          </span>
+        </div>
+        <div
+          class="flex6 medium lineheight16 align-right"
+        >
+          <span
+            data-qa="rapid-rewards-number"
+          >
+            MY_ACCOUNT__HEADER__RR_NUMBER 1234567890
+          </span>
+        </div>
+      </div>
+      <div
+        class="my-account-panel panel"
+      >
+        <div
+          class="panel--heading"
+        >
+          <span
+            class="pre-text"
+          >
+            MY_ACCOUNT__MY
+          </span>
+          <span
+            class="text"
+          >
+            Rapid Rewards
+          </span>
+        </div>
+        <div
+          class="panel--body"
+        >
+          <div
+            class="segments"
+          >
+            <div
+              class="vertical-fill segment"
+              data-qa="my-account-panel--rapid-rewards-dashboard"
+            >
+              <div
+                class="segments"
+              >
+                <div
+                  class="pts-group segments"
+                >
+                  <div
+                    class="horizontal-fill segment"
+                  >
+                    <div
+                      class="points-group"
+                    >
+                      <div
+                        class="points-group--col-infos"
+                      >
+                        <label
+                          class="points-group--col-infos-label"
+                        >
+                          MY_ACCOUNT__RAPID_REWARDS_MEMBER
+                        </label>
+                        <span>
+                          MY_ACCOUNT__PTS_GROUP__EARNED_THROUGH 12/31/21
+                        </span>
+                        <span
+                          class="points-group--divider"
+                        >
+                          |
+                        </span>
+                        <span
+                          class="pblue"
+                          data-qa="view-benefits"
+                        >
+                          MY_ACCOUNT__PTS_GROUP__VIEW_BENEFITS
+                        </span>
+                      </div>
+                      <div
+                        class="points-group--col-points align-right"
+                      >
+                        <label
+                          class="points-group--col-points-label"
+                        >
+                          0
+                        </label>
+                        <span>
+                          MY_ACCOUNT__PTS_GROUP__PTS
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="segment-border-top horizontal-fill segment"
+                >
+                  <div
+                    class="nav-item my-account-nav-item"
+                  >
+                    <div
+                      class="tier-status-group"
+                    >
+                      <div
+                        class="tier-status-group--label"
+                      >
+                        <span>
+                          MY_ACCOUNT__CLIMBING_TOWARDS
+                          <b>
+                            MY_ACCOUNT__A_LIST
+                          </b>
+                          .
+                        </span>
+                      </div>
+                      <div
+                        class="tier-status-group--status"
+                      >
+                        <div
+                          class="tier-status-group--status-col tier-status-group--status-col_graph"
+                        >
+                          <div
+                            class="tier-status"
+                          >
+                            <div
+                              class="tier-status--graph"
+                            >
+                              <div
+                                class="donut-progress-bar"
+                                style="width: 0px; height: 0px;"
+                              >
+                                <svg
+                                  height="0"
+                                  width="0"
+                                >
+                                  <path
+                                    class="donut-progress-bar--container"
+                                    d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                                    fill="transparent"
+                                    stroke="#d8d8d8"
+                                    stroke-width="10"
+                                  />
+                                  <path
+                                    class="donut-progress-bar--fill"
+                                    d="M 3.5 -3.5 A -5 -5 0 0 0 3.5 -3.5"
+                                    fill="transparent"
+                                    stroke="#446688"
+                                    stroke-width="10"
+                                  />
+                                </svg>
+                              </div>
+                              <i
+                                class="icon icon_pts"
+                              />
+                            </div>
+                            <div
+                              class="tier-status--text"
+                            >
+                              <label
+                                class="label"
+                              >
+                                0
+                              </label>
+                              <p
+                                class="desc"
+                              >
+                                <span>
+                                  MY_ACCOUNT__TIER_STATUS_GROUP__POINTS_STATUS 35,000
+                                  <sup>
+                                    *
+                                  </sup>
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="tier-status-group--status-col"
+                        >
+                          MY_ACCOUNT__TIER_STATUS_GROUP__OR
+                        </div>
+                        <div
+                          class="tier-status-group--status-col tier-status-group--status-col_graph"
+                        >
+                          <div
+                            class="tier-status"
+                          >
+                            <div
+                              class="tier-status--graph"
+                            >
+                              <div
+                                class="donut-progress-bar"
+                                style="width: 0px; height: 0px;"
+                              >
+                                <svg
+                                  height="0"
+                                  width="0"
+                                >
+                                  <path
+                                    class="donut-progress-bar--container"
+                                    d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                                    fill="transparent"
+                                    stroke="#d8d8d8"
+                                    stroke-width="10"
+                                  />
+                                  <path
+                                    class="donut-progress-bar--fill"
+                                    d="M 3.5 -3.5 A -5 -5 0 0 0 3.5 -3.5"
+                                    fill="transparent"
+                                    stroke="#446688"
+                                    stroke-width="10"
+                                  />
+                                </svg>
+                              </div>
+                              <i
+                                class="icon icon_airplane-depart"
+                              />
+                            </div>
+                            <div
+                              class="tier-status--text"
+                            >
+                              <label
+                                class="label"
+                              >
+                                0
+                              </label>
+                              <p
+                                class="desc"
+                              >
+                                <span>
+                                  MY_ACCOUNT__TIER_STATUS_GROUP__FLIGHTS_STATUS 20
+                                  <sup>
+                                    *
+                                  </sup>
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <small
+                      class="gray4"
+                    >
+                      MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_FOOTNOTE
+                    </small>
+                    <br />
+                    <small
+                      class="ml2 gray4"
+                    >
+                      MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_RESET
+                    </small>
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="my-account-panel panel"
+      >
+        <div
+          class="panel--heading"
+        >
+          <span
+            class="pre-text"
+          >
+            MY_ACCOUNT__MY
+          </span>
+          <span
+            class="text"
+          >
+            MY_ACCOUNT__MY_TRIPS_PANEL__MY_TRIPS_PANEL_HEADING
+          </span>
+        </div>
+        <div
+          class="panel--body"
+        >
+          <div
+            class="segments"
+          >
+            <div
+              class="my-trips-panel my-trips-panel--without-trips segment"
+            >
+              <div
+                class="nav-item my-account-nav-item"
+              >
+                <p
+                  class="my-trips-panel--book-trip-call-to-action"
+                >
+                  MY_ACCOUNT__MY_TRIPS_PANEL__LETS_GO
+                </p>
+                <p>
+                  MY_ACCOUNT__MY_TRIPS_PANEL__BOOK_A_TRIP_MESSAGE
+                </p>
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+              <div
+                class="nav-item my-trips-panel--find-a-trip my-account-nav-item-border-top my-account-nav-item"
+              >
+                MY_ACCOUNT__MY_TRIPS_PANEL__FIND_A_TRIP
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+            <div
+              class="py0 vertical-fill segment"
+            >
+              <div
+                class="my-trips-panel--past-and-saved-links ui divided horizontal list"
+              >
+                <div
+                  class="item"
+                >
+                  <div
+                    class="nav-item my-trips-panel--past-flights-button py5 my-account-nav-item"
+                  >
+                    MY_ACCOUNT__MY_TRIPS_PANEL__PAST_FLIGHTS_LABEL
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="item"
+                >
+                  <div
+                    class="nav-item my-trips-panel--saved-flights-button py5 my-account-nav-item"
+                  >
+                    MY_ACCOUNT__MY_TRIPS_PANEL__SAVED_LABEL
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MyAccountLandingPage on mount user is logged in should not render unused funds panel if no WCM response is present 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        MY_ACCOUNT__PAGE_HEADER_TITLE
+      </div>
+      <div />
+    </div>
+    <div
+      class="custom-container"
+    >
+      <div
+        class="flex pdkblue mb4 px2"
+      >
+        <div
+          class="flex6 overflow-hidden"
+        >
+          <span
+            class="bold large block nowrap overflow-hidden ellipsis"
+            data-qa="user-name"
+          >
+            Ben Lacy
+          </span>
+        </div>
+        <div
+          class="flex6 medium lineheight16 align-right"
+        >
+          <span
+            data-qa="rapid-rewards-number"
+          >
+            MY_ACCOUNT__HEADER__RR_NUMBER 1234567890
+          </span>
+        </div>
+      </div>
+      <div
+        class="my-account-panel panel"
+      >
+        <div
+          class="panel--heading"
+        >
+          <span
+            class="pre-text"
+          >
+            MY_ACCOUNT__MY
+          </span>
+          <span
+            class="text"
+          >
+            Rapid Rewards
+          </span>
+        </div>
+        <div
+          class="panel--body"
+        >
+          <div
+            class="segments"
+          >
+            <div
+              class="vertical-fill segment"
+              data-qa="my-account-panel--rapid-rewards-dashboard"
+            >
+              <div
+                class="segments"
+              >
+                <div
+                  class="pts-group segments"
+                >
+                  <div
+                    class="horizontal-fill segment"
+                  >
+                    <div
+                      class="points-group"
+                    >
+                      <div
+                        class="points-group--col-infos"
+                      >
+                        <label
+                          class="points-group--col-infos-label"
+                        >
+                          MY_ACCOUNT__RAPID_REWARDS_MEMBER
+                        </label>
+                        <span>
+                          MY_ACCOUNT__PTS_GROUP__EARNED_THROUGH 12/31/21
+                        </span>
+                        <span
+                          class="points-group--divider"
+                        >
+                          |
+                        </span>
+                        <span
+                          class="pblue"
+                          data-qa="view-benefits"
+                        >
+                          MY_ACCOUNT__PTS_GROUP__VIEW_BENEFITS
+                        </span>
+                      </div>
+                      <div
+                        class="points-group--col-points align-right"
+                      >
+                        <label
+                          class="points-group--col-points-label"
+                        >
+                          0
+                        </label>
+                        <span>
+                          MY_ACCOUNT__PTS_GROUP__PTS
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="segment-border-top horizontal-fill segment"
+                >
+                  <div
+                    class="nav-item my-account-nav-item"
+                  >
+                    <div
+                      class="tier-status-group"
+                    >
+                      <div
+                        class="tier-status-group--label"
+                      >
+                        <span>
+                          MY_ACCOUNT__CLIMBING_TOWARDS
+                          <b>
+                            MY_ACCOUNT__A_LIST
+                          </b>
+                          .
+                        </span>
+                      </div>
+                      <div
+                        class="tier-status-group--status"
+                      >
+                        <div
+                          class="tier-status-group--status-col tier-status-group--status-col_graph"
+                        >
+                          <div
+                            class="tier-status"
+                          >
+                            <div
+                              class="tier-status--graph"
+                            >
+                              <div
+                                class="donut-progress-bar"
+                                style="width: 0px; height: 0px;"
+                              >
+                                <svg
+                                  height="0"
+                                  width="0"
+                                >
+                                  <path
+                                    class="donut-progress-bar--container"
+                                    d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                                    fill="transparent"
+                                    stroke="#d8d8d8"
+                                    stroke-width="10"
+                                  />
+                                  <path
+                                    class="donut-progress-bar--fill"
+                                    d="M 3.5 -3.5 A -5 -5 0 0 0 3.5 -3.5"
+                                    fill="transparent"
+                                    stroke="#446688"
+                                    stroke-width="10"
+                                  />
+                                </svg>
+                              </div>
+                              <i
+                                class="icon icon_pts"
+                              />
+                            </div>
+                            <div
+                              class="tier-status--text"
+                            >
+                              <label
+                                class="label"
+                              >
+                                0
+                              </label>
+                              <p
+                                class="desc"
+                              >
+                                <span>
+                                  MY_ACCOUNT__TIER_STATUS_GROUP__POINTS_STATUS 35,000
+                                  <sup>
+                                    *
+                                  </sup>
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="tier-status-group--status-col"
+                        >
+                          MY_ACCOUNT__TIER_STATUS_GROUP__OR
+                        </div>
+                        <div
+                          class="tier-status-group--status-col tier-status-group--status-col_graph"
+                        >
+                          <div
+                            class="tier-status"
+                          >
+                            <div
+                              class="tier-status--graph"
+                            >
+                              <div
+                                class="donut-progress-bar"
+                                style="width: 0px; height: 0px;"
+                              >
+                                <svg
+                                  height="0"
+                                  width="0"
+                                >
+                                  <path
+                                    class="donut-progress-bar--container"
+                                    d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                                    fill="transparent"
+                                    stroke="#d8d8d8"
+                                    stroke-width="10"
+                                  />
+                                  <path
+                                    class="donut-progress-bar--fill"
+                                    d="M 3.5 -3.5 A -5 -5 0 0 0 3.5 -3.5"
+                                    fill="transparent"
+                                    stroke="#446688"
+                                    stroke-width="10"
+                                  />
+                                </svg>
+                              </div>
+                              <i
+                                class="icon icon_airplane-depart"
+                              />
+                            </div>
+                            <div
+                              class="tier-status--text"
+                            >
+                              <label
+                                class="label"
+                              >
+                                0
+                              </label>
+                              <p
+                                class="desc"
+                              >
+                                <span>
+                                  MY_ACCOUNT__TIER_STATUS_GROUP__FLIGHTS_STATUS 20
+                                  <sup>
+                                    *
+                                  </sup>
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <small
+                      class="gray4"
+                    >
+                      MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_FOOTNOTE
+                    </small>
+                    <br />
+                    <small
+                      class="ml2 gray4"
+                    >
+                      MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_RESET
+                    </small>
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="my-account-panel panel"
+      >
+        <div
+          class="panel--heading"
+        >
+          <span
+            class="pre-text"
+          >
+            MY_ACCOUNT__MY
+          </span>
+          <span
+            class="text"
+          >
+            MY_ACCOUNT__MY_TRIPS_PANEL__MY_TRIPS_PANEL_HEADING
+          </span>
+        </div>
+        <div
+          class="panel--body"
+        >
+          <div
+            class="segments"
+          >
+            <div
+              class="my-trips-panel my-trips-panel--without-trips segment"
+            >
+              <div
+                class="nav-item my-account-nav-item"
+              >
+                <p
+                  class="my-trips-panel--book-trip-call-to-action"
+                >
+                  MY_ACCOUNT__MY_TRIPS_PANEL__LETS_GO
+                </p>
+                <p>
+                  MY_ACCOUNT__MY_TRIPS_PANEL__BOOK_A_TRIP_MESSAGE
+                </p>
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+              <div
+                class="nav-item my-trips-panel--find-a-trip my-account-nav-item-border-top my-account-nav-item"
+              >
+                MY_ACCOUNT__MY_TRIPS_PANEL__FIND_A_TRIP
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+            <div
+              class="py0 vertical-fill segment"
+            >
+              <div
+                class="my-trips-panel--past-and-saved-links ui divided horizontal list"
+              >
+                <div
+                  class="item"
+                >
+                  <div
+                    class="nav-item my-trips-panel--past-flights-button py5 my-account-nav-item"
+                  >
+                    MY_ACCOUNT__MY_TRIPS_PANEL__PAST_FLIGHTS_LABEL
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="item"
+                >
+                  <div
+                    class="nav-item my-trips-panel--saved-flights-button py5 my-account-nav-item"
+                  >
+                    MY_ACCOUNT__MY_TRIPS_PANEL__SAVED_LABEL
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MyAccountLandingPage on mount user is logged in should render promo codes panel if WCM response is present 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        MY_ACCOUNT__PAGE_HEADER_TITLE
+      </div>
+      <div />
+    </div>
+    <div
+      class="custom-container"
+    >
+      <div
+        class="flex pdkblue mb4 px2"
+      >
+        <div
+          class="flex6 overflow-hidden"
+        >
+          <span
+            class="bold large block nowrap overflow-hidden ellipsis"
+            data-qa="user-name"
+          >
+            Ben Lacy
+          </span>
+        </div>
+        <div
+          class="flex6 medium lineheight16 align-right"
+        >
+          <span
+            data-qa="rapid-rewards-number"
+          >
+            MY_ACCOUNT__HEADER__RR_NUMBER 1234567890
+          </span>
+        </div>
+      </div>
+      <div
+        class="my-account-panel panel"
+      >
+        <div
+          class="panel--body"
+        >
+          <div
+            data-qa="observed-viewport"
+          >
+            <div
+              class="dynamic-placement"
+            >
+              <div
+                class="shimmer"
+              >
+                <div
+                  class="shimmer--children"
+                >
+                  <div
+                    class="flex-placement visible"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="my-account-panel panel"
+      >
+        <div
+          class="panel--heading"
+        >
+          <span
+            class="pre-text"
+          >
+            MY_ACCOUNT__MY
+          </span>
+          <span
+            class="text"
+          >
+            Rapid Rewards
+          </span>
+        </div>
+        <div
+          class="panel--body"
+        >
+          <div
+            class="segments"
+          >
+            <div
+              class="vertical-fill segment"
+              data-qa="my-account-panel--rapid-rewards-dashboard"
+            >
+              <div
+                class="segments"
+              >
+                <div
+                  class="pts-group segments"
+                >
+                  <div
+                    class="horizontal-fill segment"
+                  >
+                    <div
+                      class="points-group"
+                    >
+                      <div
+                        class="points-group--col-infos"
+                      >
+                        <label
+                          class="points-group--col-infos-label"
+                        >
+                          MY_ACCOUNT__RAPID_REWARDS_MEMBER
+                        </label>
+                        <span>
+                          MY_ACCOUNT__PTS_GROUP__EARNED_THROUGH 12/31/21
+                        </span>
+                        <span
+                          class="points-group--divider"
+                        >
+                          |
+                        </span>
+                        <span
+                          class="pblue"
+                          data-qa="view-benefits"
+                        >
+                          MY_ACCOUNT__PTS_GROUP__VIEW_BENEFITS
+                        </span>
+                      </div>
+                      <div
+                        class="points-group--col-points align-right"
+                      >
+                        <label
+                          class="points-group--col-points-label"
+                        >
+                          0
+                        </label>
+                        <span>
+                          MY_ACCOUNT__PTS_GROUP__PTS
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="segment-border-top horizontal-fill segment"
+                >
+                  <div
+                    class="nav-item my-account-nav-item"
+                  >
+                    <div
+                      class="tier-status-group"
+                    >
+                      <div
+                        class="tier-status-group--label"
+                      >
+                        <span>
+                          MY_ACCOUNT__CLIMBING_TOWARDS
+                          <b>
+                            MY_ACCOUNT__A_LIST
+                          </b>
+                          .
+                        </span>
+                      </div>
+                      <div
+                        class="tier-status-group--status"
+                      >
+                        <div
+                          class="tier-status-group--status-col tier-status-group--status-col_graph"
+                        >
+                          <div
+                            class="tier-status"
+                          >
+                            <div
+                              class="tier-status--graph"
+                            >
+                              <div
+                                class="donut-progress-bar"
+                                style="width: 0px; height: 0px;"
+                              >
+                                <svg
+                                  height="0"
+                                  width="0"
+                                >
+                                  <path
+                                    class="donut-progress-bar--container"
+                                    d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                                    fill="transparent"
+                                    stroke="#d8d8d8"
+                                    stroke-width="10"
+                                  />
+                                  <path
+                                    class="donut-progress-bar--fill"
+                                    d="M 3.5 -3.5 A -5 -5 0 0 0 3.5 -3.5"
+                                    fill="transparent"
+                                    stroke="#446688"
+                                    stroke-width="10"
+                                  />
+                                </svg>
+                              </div>
+                              <i
+                                class="icon icon_pts"
+                              />
+                            </div>
+                            <div
+                              class="tier-status--text"
+                            >
+                              <label
+                                class="label"
+                              >
+                                0
+                              </label>
+                              <p
+                                class="desc"
+                              >
+                                <span>
+                                  MY_ACCOUNT__TIER_STATUS_GROUP__POINTS_STATUS 35,000
+                                  <sup>
+                                    *
+                                  </sup>
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="tier-status-group--status-col"
+                        >
+                          MY_ACCOUNT__TIER_STATUS_GROUP__OR
+                        </div>
+                        <div
+                          class="tier-status-group--status-col tier-status-group--status-col_graph"
+                        >
+                          <div
+                            class="tier-status"
+                          >
+                            <div
+                              class="tier-status--graph"
+                            >
+                              <div
+                                class="donut-progress-bar"
+                                style="width: 0px; height: 0px;"
+                              >
+                                <svg
+                                  height="0"
+                                  width="0"
+                                >
+                                  <path
+                                    class="donut-progress-bar--container"
+                                    d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                                    fill="transparent"
+                                    stroke="#d8d8d8"
+                                    stroke-width="10"
+                                  />
+                                  <path
+                                    class="donut-progress-bar--fill"
+                                    d="M 3.5 -3.5 A -5 -5 0 0 0 3.5 -3.5"
+                                    fill="transparent"
+                                    stroke="#446688"
+                                    stroke-width="10"
+                                  />
+                                </svg>
+                              </div>
+                              <i
+                                class="icon icon_airplane-depart"
+                              />
+                            </div>
+                            <div
+                              class="tier-status--text"
+                            >
+                              <label
+                                class="label"
+                              >
+                                0
+                              </label>
+                              <p
+                                class="desc"
+                              >
+                                <span>
+                                  MY_ACCOUNT__TIER_STATUS_GROUP__FLIGHTS_STATUS 20
+                                  <sup>
+                                    *
+                                  </sup>
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <small
+                      class="gray4"
+                    >
+                      MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_FOOTNOTE
+                    </small>
+                    <br />
+                    <small
+                      class="ml2 gray4"
+                    >
+                      MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_RESET
+                    </small>
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="my-account-panel panel"
+      >
+        <div
+          class="panel--heading"
+        >
+          <span
+            class="pre-text"
+          >
+            MY_ACCOUNT__MY
+          </span>
+          <span
+            class="text"
+          >
+            MY_ACCOUNT__MY_TRIPS_PANEL__MY_TRIPS_PANEL_HEADING
+          </span>
+        </div>
+        <div
+          class="panel--body"
+        >
+          <div
+            class="segments"
+          >
+            <div
+              class="my-trips-panel my-trips-panel--without-trips segment"
+            >
+              <div
+                class="nav-item my-account-nav-item"
+              >
+                <p
+                  class="my-trips-panel--book-trip-call-to-action"
+                >
+                  MY_ACCOUNT__MY_TRIPS_PANEL__LETS_GO
+                </p>
+                <p>
+                  MY_ACCOUNT__MY_TRIPS_PANEL__BOOK_A_TRIP_MESSAGE
+                </p>
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+              <div
+                class="nav-item my-trips-panel--find-a-trip my-account-nav-item-border-top my-account-nav-item"
+              >
+                MY_ACCOUNT__MY_TRIPS_PANEL__FIND_A_TRIP
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+            <div
+              class="py0 vertical-fill segment"
+            >
+              <div
+                class="my-trips-panel--past-and-saved-links ui divided horizontal list"
+              >
+                <div
+                  class="item"
+                >
+                  <div
+                    class="nav-item my-trips-panel--past-flights-button py5 my-account-nav-item"
+                  >
+                    MY_ACCOUNT__MY_TRIPS_PANEL__PAST_FLIGHTS_LABEL
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="item"
+                >
+                  <div
+                    class="nav-item my-trips-panel--saved-flights-button py5 my-account-nav-item"
+                  >
+                    MY_ACCOUNT__MY_TRIPS_PANEL__SAVED_LABEL
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="my-account-panel panel"
+      >
+        <div
+          class="panel--heading"
+        >
+          <span
+            class="pre-text"
+          >
+            MY_ACCOUNT__MY
+          </span>
+          <span
+            class="text"
+          >
+            MY_ACCOUNT__FLIGHT_CREDITS
+          </span>
+        </div>
+        <div
+          class="panel--body"
+        >
+          <div
+            class="segments"
+          >
+            <div
+              class="py4 px5 segment"
+            >
+              <div
+                class="pdkblue larger"
+              >
+                text content
+              </div>
+            </div>
+            <div
+              class="segment-border-top py0 vertical-fill segment"
+            >
+              <div
+                class="unused-funds-panel--links ui divided horizontal list"
+              >
+                <div
+                  class="item"
+                >
+                  <div
+                    class="nav-item unused-funds-panel--view-funds-button py5 my-account-nav-item"
+                  >
+                    text content
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="item"
+                >
+                  <div
+                    class="nav-item unused-funds-panel--learn-more-button py5 my-account-nav-item"
+                  >
+                    text content
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="my-account-panel panel"
+      >
+        <div
+          class="panel--heading"
+        >
+          <span
+            class="pre-text"
+          >
+            MY_ACCOUNT__MY
+          </span>
+          <span
+            class="text"
+          >
+            MY_ACCOUNT__PROMO_CODES
+          </span>
+        </div>
+        <div
+          class="panel--body"
+        >
+          <div
+            class="segments"
+          >
+            <div
+              class="promo-panel-content segment"
+            >
+              <div
+                class="main-body-content"
+              >
+                text content
+              </div>
+            </div>
+            <div
+              class="segment-border-top py0 vertical-fill segment"
+            >
+              <div
+                class="promo-codes-panel--links ui divided horizontal list"
+              >
+                <div
+                  class="nav-item py5 my-account-nav-item"
+                  data-qa="click-view-promo-codes"
+                >
+                  text content
+                  <i
+                    class="icon icon_keyboard-arrow-right"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MyAccountLandingPage on mount user is logged in should use promotionCount as 0 if there are no exclusivePromotions for the user 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header"
+            id=""
+          >
+            MY_ACCOUNT__PAGE_HEADER_TITLE
+          </div>
+          <div />
+        </div>
+        <div
+          class="custom-container"
+        >
+          <div
+            class="flex pdkblue mb4 px2"
+          >
+            <div
+              class="flex6 overflow-hidden"
+            >
+              <span
+                class="bold large block nowrap overflow-hidden ellipsis"
+                data-qa="user-name"
+              >
+                Ben Lacy
+              </span>
+            </div>
+            <div
+              class="flex6 medium lineheight16 align-right"
+            >
+              <span
+                data-qa="rapid-rewards-number"
+              >
+                MY_ACCOUNT__HEADER__RR_NUMBER 1234567890
+              </span>
+            </div>
+          </div>
+          <div
+            class="my-account-panel panel"
+          >
+            <div
+              class="panel--body"
+            >
+              <div
+                data-qa="observed-viewport"
+              >
+                <div
+                  class="dynamic-placement"
+                >
+                  <div
+                    class="shimmer"
+                  >
+                    <div
+                      class="shimmer--children"
+                    >
+                      <div
+                        class="flex-placement visible"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="my-account-panel panel"
+          >
+            <div
+              class="panel--heading"
+            >
+              <span
+                class="pre-text"
+              >
+                MY_ACCOUNT__MY
+              </span>
+              <span
+                class="text"
+              >
+                Rapid Rewards
+              </span>
+            </div>
+            <div
+              class="panel--body"
+            >
+              <div
+                class="segments"
+              >
+                <div
+                  class="vertical-fill segment"
+                  data-qa="my-account-panel--rapid-rewards-dashboard"
+                >
+                  <div
+                    class="segments"
+                  >
+                    <div
+                      class="pts-group segments"
+                    >
+                      <div
+                        class="horizontal-fill segment"
+                      >
+                        <div
+                          class="points-group"
+                        >
+                          <div
+                            class="points-group--col-infos"
+                          >
+                            <label
+                              class="points-group--col-infos-label"
+                            >
+                              MY_ACCOUNT__RAPID_REWARDS_MEMBER
+                            </label>
+                            <span>
+                              MY_ACCOUNT__PTS_GROUP__EARNED_THROUGH 12/31/21
+                            </span>
+                            <span
+                              class="points-group--divider"
+                            >
+                              |
+                            </span>
+                            <span
+                              class="pblue"
+                              data-qa="view-benefits"
+                            >
+                              MY_ACCOUNT__PTS_GROUP__VIEW_BENEFITS
+                            </span>
+                          </div>
+                          <div
+                            class="points-group--col-points align-right"
+                          >
+                            <label
+                              class="points-group--col-points-label"
+                            >
+                              0
+                            </label>
+                            <span>
+                              MY_ACCOUNT__PTS_GROUP__PTS
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="segment-border-top horizontal-fill segment"
+                    >
+                      <div
+                        class="nav-item my-account-nav-item"
+                      >
+                        <div
+                          class="tier-status-group"
+                        >
+                          <div
+                            class="tier-status-group--label"
+                          >
+                            <span>
+                              MY_ACCOUNT__CLIMBING_TOWARDS
+                              <b>
+                                MY_ACCOUNT__A_LIST
+                              </b>
+                              .
+                            </span>
+                          </div>
+                          <div
+                            class="tier-status-group--status"
+                          >
+                            <div
+                              class="tier-status-group--status-col tier-status-group--status-col_graph"
+                            >
+                              <div
+                                class="tier-status"
+                              >
+                                <div
+                                  class="tier-status--graph"
+                                >
+                                  <div
+                                    class="donut-progress-bar"
+                                    style="width: 0px; height: 0px;"
+                                  >
+                                    <svg
+                                      height="0"
+                                      width="0"
+                                    >
+                                      <path
+                                        class="donut-progress-bar--container"
+                                        d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                                        fill="transparent"
+                                        stroke="#d8d8d8"
+                                        stroke-width="10"
+                                      />
+                                      <path
+                                        class="donut-progress-bar--fill"
+                                        d="M 3.5 -3.5 A -5 -5 0 0 0 3.5 -3.5"
+                                        fill="transparent"
+                                        stroke="#446688"
+                                        stroke-width="10"
+                                      />
+                                    </svg>
+                                  </div>
+                                  <i
+                                    class="icon icon_pts"
+                                  />
+                                </div>
+                                <div
+                                  class="tier-status--text"
+                                >
+                                  <label
+                                    class="label"
+                                  >
+                                    0
+                                  </label>
+                                  <p
+                                    class="desc"
+                                  >
+                                    <span>
+                                      MY_ACCOUNT__TIER_STATUS_GROUP__POINTS_STATUS 35,000
+                                      <sup>
+                                        *
+                                      </sup>
+                                    </span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="tier-status-group--status-col"
+                            >
+                              MY_ACCOUNT__TIER_STATUS_GROUP__OR
+                            </div>
+                            <div
+                              class="tier-status-group--status-col tier-status-group--status-col_graph"
+                            >
+                              <div
+                                class="tier-status"
+                              >
+                                <div
+                                  class="tier-status--graph"
+                                >
+                                  <div
+                                    class="donut-progress-bar"
+                                    style="width: 0px; height: 0px;"
+                                  >
+                                    <svg
+                                      height="0"
+                                      width="0"
+                                    >
+                                      <path
+                                        class="donut-progress-bar--container"
+                                        d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                                        fill="transparent"
+                                        stroke="#d8d8d8"
+                                        stroke-width="10"
+                                      />
+                                      <path
+                                        class="donut-progress-bar--fill"
+                                        d="M 3.5 -3.5 A -5 -5 0 0 0 3.5 -3.5"
+                                        fill="transparent"
+                                        stroke="#446688"
+                                        stroke-width="10"
+                                      />
+                                    </svg>
+                                  </div>
+                                  <i
+                                    class="icon icon_airplane-depart"
+                                  />
+                                </div>
+                                <div
+                                  class="tier-status--text"
+                                >
+                                  <label
+                                    class="label"
+                                  >
+                                    0
+                                  </label>
+                                  <p
+                                    class="desc"
+                                  >
+                                    <span>
+                                      MY_ACCOUNT__TIER_STATUS_GROUP__FLIGHTS_STATUS 20
+                                      <sup>
+                                        *
+                                      </sup>
+                                    </span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <small
+                          class="gray4"
+                        >
+                          MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_FOOTNOTE
+                        </small>
+                        <br />
+                        <small
+                          class="ml2 gray4"
+                        >
+                          MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_RESET
+                        </small>
+                        <i
+                          class="icon icon_keyboard-arrow-right"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="my-account-panel panel"
+          >
+            <div
+              class="panel--heading"
+            >
+              <span
+                class="pre-text"
+              >
+                MY_ACCOUNT__MY
+              </span>
+              <span
+                class="text"
+              >
+                MY_ACCOUNT__MY_TRIPS_PANEL__MY_TRIPS_PANEL_HEADING
+              </span>
+            </div>
+            <div
+              class="panel--body"
+            >
+              <div
+                class="segments"
+              >
+                <div
+                  class="my-trips-panel my-trips-panel--without-trips segment"
+                >
+                  <div
+                    class="nav-item my-account-nav-item"
+                  >
+                    <p
+                      class="my-trips-panel--book-trip-call-to-action"
+                    >
+                      MY_ACCOUNT__MY_TRIPS_PANEL__LETS_GO
+                    </p>
+                    <p>
+                      MY_ACCOUNT__MY_TRIPS_PANEL__BOOK_A_TRIP_MESSAGE
+                    </p>
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                  <div
+                    class="nav-item my-trips-panel--find-a-trip my-account-nav-item-border-top my-account-nav-item"
+                  >
+                    MY_ACCOUNT__MY_TRIPS_PANEL__FIND_A_TRIP
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="py0 vertical-fill segment"
+                >
+                  <div
+                    class="my-trips-panel--past-and-saved-links ui divided horizontal list"
+                  >
+                    <div
+                      class="item"
+                    >
+                      <div
+                        class="nav-item my-trips-panel--past-flights-button py5 my-account-nav-item"
+                      >
+                        MY_ACCOUNT__MY_TRIPS_PANEL__PAST_FLIGHTS_LABEL
+                        <i
+                          class="icon icon_keyboard-arrow-right"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="item"
+                    >
+                      <div
+                        class="nav-item my-trips-panel--saved-flights-button py5 my-account-nav-item"
+                      >
+                        MY_ACCOUNT__MY_TRIPS_PANEL__SAVED_LABEL
+                        <i
+                          class="icon icon_keyboard-arrow-right"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="my-account-panel panel"
+          >
+            <div
+              class="panel--heading"
+            >
+              <span
+                class="pre-text"
+              >
+                MY_ACCOUNT__MY
+              </span>
+              <span
+                class="text"
+              >
+                MY_ACCOUNT__FLIGHT_CREDITS
+              </span>
+            </div>
+            <div
+              class="panel--body"
+            >
+              <div
+                class="segments"
+              >
+                <div
+                  class="py4 px5 segment"
+                >
+                  <div
+                    class="pdkblue larger"
+                  >
+                    text content
+                  </div>
+                </div>
+                <div
+                  class="segment-border-top py0 vertical-fill segment"
+                >
+                  <div
+                    class="unused-funds-panel--links ui divided horizontal list"
+                  >
+                    <div
+                      class="item"
+                    >
+                      <div
+                        class="nav-item unused-funds-panel--view-funds-button py5 my-account-nav-item"
+                      >
+                        text content
+                        <i
+                          class="icon icon_keyboard-arrow-right"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="item"
+                    >
+                      <div
+                        class="nav-item unused-funds-panel--learn-more-button py5 my-account-nav-item"
+                      >
+                        text content
+                        <i
+                          class="icon icon_keyboard-arrow-right"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header"
+            id=""
+          >
+            MY_ACCOUNT__PAGE_HEADER_TITLE
+          </div>
+          <div />
+        </div>
+        <div
+          class="custom-container"
+        >
+          <div
+            class="flex pdkblue mb4 px2"
+          >
+            <div
+              class="flex6 overflow-hidden"
+            >
+              <span
+                class="bold large block nowrap overflow-hidden ellipsis"
+                data-qa="user-name"
+              >
+                Ben Lacy
+              </span>
+            </div>
+            <div
+              class="flex6 medium lineheight16 align-right"
+            >
+              <span
+                data-qa="rapid-rewards-number"
+              >
+                MY_ACCOUNT__HEADER__RR_NUMBER 1234567890
+              </span>
+            </div>
+          </div>
+          <div
+            class="my-account-panel panel"
+          >
+            <div
+              class="panel--body"
+            >
+              <div
+                data-qa="observed-viewport"
+              >
+                <div
+                  class="dynamic-placement"
+                >
+                  <div
+                    class="shimmer"
+                  >
+                    <div
+                      class="shimmer--children"
+                    >
+                      <div
+                        class="flex-placement visible"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="my-account-panel panel"
+          >
+            <div
+              class="panel--heading"
+            >
+              <span
+                class="pre-text"
+              >
+                MY_ACCOUNT__MY
+              </span>
+              <span
+                class="text"
+              >
+                Rapid Rewards
+              </span>
+            </div>
+            <div
+              class="panel--body"
+            >
+              <div
+                class="segments"
+              >
+                <div
+                  class="vertical-fill segment"
+                  data-qa="my-account-panel--rapid-rewards-dashboard"
+                >
+                  <div
+                    class="segments"
+                  >
+                    <div
+                      class="pts-group segments"
+                    >
+                      <div
+                        class="horizontal-fill segment"
+                      >
+                        <div
+                          class="points-group"
+                        >
+                          <div
+                            class="points-group--col-infos"
+                          >
+                            <label
+                              class="points-group--col-infos-label"
+                            >
+                              MY_ACCOUNT__RAPID_REWARDS_MEMBER
+                            </label>
+                            <span>
+                              MY_ACCOUNT__PTS_GROUP__EARNED_THROUGH 12/31/21
+                            </span>
+                            <span
+                              class="points-group--divider"
+                            >
+                              |
+                            </span>
+                            <span
+                              class="pblue"
+                              data-qa="view-benefits"
+                            >
+                              MY_ACCOUNT__PTS_GROUP__VIEW_BENEFITS
+                            </span>
+                          </div>
+                          <div
+                            class="points-group--col-points align-right"
+                          >
+                            <label
+                              class="points-group--col-points-label"
+                            >
+                              0
+                            </label>
+                            <span>
+                              MY_ACCOUNT__PTS_GROUP__PTS
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="segment-border-top horizontal-fill segment"
+                    >
+                      <div
+                        class="nav-item my-account-nav-item"
+                      >
+                        <div
+                          class="tier-status-group"
+                        >
+                          <div
+                            class="tier-status-group--label"
+                          >
+                            <span>
+                              MY_ACCOUNT__CLIMBING_TOWARDS
+                              <b>
+                                MY_ACCOUNT__A_LIST
+                              </b>
+                              .
+                            </span>
+                          </div>
+                          <div
+                            class="tier-status-group--status"
+                          >
+                            <div
+                              class="tier-status-group--status-col tier-status-group--status-col_graph"
+                            >
+                              <div
+                                class="tier-status"
+                              >
+                                <div
+                                  class="tier-status--graph"
+                                >
+                                  <div
+                                    class="donut-progress-bar"
+                                    style="width: 0px; height: 0px;"
+                                  >
+                                    <svg
+                                      height="0"
+                                      width="0"
+                                    >
+                                      <path
+                                        class="donut-progress-bar--container"
+                                        d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                                        fill="transparent"
+                                        stroke="#d8d8d8"
+                                        stroke-width="10"
+                                      />
+                                      <path
+                                        class="donut-progress-bar--fill"
+                                        d="M 3.5 -3.5 A -5 -5 0 0 0 3.5 -3.5"
+                                        fill="transparent"
+                                        stroke="#446688"
+                                        stroke-width="10"
+                                      />
+                                    </svg>
+                                  </div>
+                                  <i
+                                    class="icon icon_pts"
+                                  />
+                                </div>
+                                <div
+                                  class="tier-status--text"
+                                >
+                                  <label
+                                    class="label"
+                                  >
+                                    0
+                                  </label>
+                                  <p
+                                    class="desc"
+                                  >
+                                    <span>
+                                      MY_ACCOUNT__TIER_STATUS_GROUP__POINTS_STATUS 35,000
+                                      <sup>
+                                        *
+                                      </sup>
+                                    </span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="tier-status-group--status-col"
+                            >
+                              MY_ACCOUNT__TIER_STATUS_GROUP__OR
+                            </div>
+                            <div
+                              class="tier-status-group--status-col tier-status-group--status-col_graph"
+                            >
+                              <div
+                                class="tier-status"
+                              >
+                                <div
+                                  class="tier-status--graph"
+                                >
+                                  <div
+                                    class="donut-progress-bar"
+                                    style="width: 0px; height: 0px;"
+                                  >
+                                    <svg
+                                      height="0"
+                                      width="0"
+                                    >
+                                      <path
+                                        class="donut-progress-bar--container"
+                                        d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                                        fill="transparent"
+                                        stroke="#d8d8d8"
+                                        stroke-width="10"
+                                      />
+                                      <path
+                                        class="donut-progress-bar--fill"
+                                        d="M 3.5 -3.5 A -5 -5 0 0 0 3.5 -3.5"
+                                        fill="transparent"
+                                        stroke="#446688"
+                                        stroke-width="10"
+                                      />
+                                    </svg>
+                                  </div>
+                                  <i
+                                    class="icon icon_airplane-depart"
+                                  />
+                                </div>
+                                <div
+                                  class="tier-status--text"
+                                >
+                                  <label
+                                    class="label"
+                                  >
+                                    0
+                                  </label>
+                                  <p
+                                    class="desc"
+                                  >
+                                    <span>
+                                      MY_ACCOUNT__TIER_STATUS_GROUP__FLIGHTS_STATUS 20
+                                      <sup>
+                                        *
+                                      </sup>
+                                    </span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <small
+                          class="gray4"
+                        >
+                          MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_FOOTNOTE
+                        </small>
+                        <br />
+                        <small
+                          class="ml2 gray4"
+                        >
+                          MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_RESET
+                        </small>
+                        <i
+                          class="icon icon_keyboard-arrow-right"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="my-account-panel panel"
+          >
+            <div
+              class="panel--heading"
+            >
+              <span
+                class="pre-text"
+              >
+                MY_ACCOUNT__MY
+              </span>
+              <span
+                class="text"
+              >
+                MY_ACCOUNT__MY_TRIPS_PANEL__MY_TRIPS_PANEL_HEADING
+              </span>
+            </div>
+            <div
+              class="panel--body"
+            >
+              <div
+                class="segments"
+              >
+                <div
+                  class="my-trips-panel my-trips-panel--without-trips segment"
+                >
+                  <div
+                    class="nav-item my-account-nav-item"
+                  >
+                    <p
+                      class="my-trips-panel--book-trip-call-to-action"
+                    >
+                      MY_ACCOUNT__MY_TRIPS_PANEL__LETS_GO
+                    </p>
+                    <p>
+                      MY_ACCOUNT__MY_TRIPS_PANEL__BOOK_A_TRIP_MESSAGE
+                    </p>
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                  <div
+                    class="nav-item my-trips-panel--find-a-trip my-account-nav-item-border-top my-account-nav-item"
+                  >
+                    MY_ACCOUNT__MY_TRIPS_PANEL__FIND_A_TRIP
+                    <i
+                      class="icon icon_keyboard-arrow-right"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="py0 vertical-fill segment"
+                >
+                  <div
+                    class="my-trips-panel--past-and-saved-links ui divided horizontal list"
+                  >
+                    <div
+                      class="item"
+                    >
+                      <div
+                        class="nav-item my-trips-panel--past-flights-button py5 my-account-nav-item"
+                      >
+                        MY_ACCOUNT__MY_TRIPS_PANEL__PAST_FLIGHTS_LABEL
+                        <i
+                          class="icon icon_keyboard-arrow-right"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="item"
+                    >
+                      <div
+                        class="nav-item my-trips-panel--saved-flights-button py5 my-account-nav-item"
+                      >
+                        MY_ACCOUNT__MY_TRIPS_PANEL__SAVED_LABEL
+                        <i
+                          class="icon icon_keyboard-arrow-right"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="my-account-panel panel"
+          >
+            <div
+              class="panel--heading"
+            >
+              <span
+                class="pre-text"
+              >
+                MY_ACCOUNT__MY
+              </span>
+              <span
+                class="text"
+              >
+                MY_ACCOUNT__FLIGHT_CREDITS
+              </span>
+            </div>
+            <div
+              class="panel--body"
+            >
+              <div
+                class="segments"
+              >
+                <div
+                  class="py4 px5 segment"
+                >
+                  <div
+                    class="pdkblue larger"
+                  >
+                    text content
+                  </div>
+                </div>
+                <div
+                  class="segment-border-top py0 vertical-fill segment"
+                >
+                  <div
+                    class="unused-funds-panel--links ui divided horizontal list"
+                  >
+                    <div
+                      class="item"
+                    >
+                      <div
+                        class="nav-item unused-funds-panel--view-funds-button py5 my-account-nav-item"
+                      >
+                        text content
+                        <i
+                          class="icon icon_keyboard-arrow-right"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="item"
+                    >
+                      <div
+                        class="nav-item unused-funds-panel--learn-more-button py5 my-account-nav-item"
+                      >
+                        text content
+                        <i
+                          class="icon icon_keyboard-arrow-right"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div>
+        <div
+          class="page-header"
+          id=""
+        >
+          MY_ACCOUNT__PAGE_HEADER_TITLE
+        </div>
+        <div />
+      </div>
+      <div
+        class="custom-container"
+      >
+        <div
+          class="flex pdkblue mb4 px2"
+        >
+          <div
+            class="flex6 overflow-hidden"
+          >
+            <span
+              class="bold large block nowrap overflow-hidden ellipsis"
+              data-qa="user-name"
+            >
+              Ben Lacy
+            </span>
+          </div>
+          <div
+            class="flex6 medium lineheight16 align-right"
+          >
+            <span
+              data-qa="rapid-rewards-number"
+            >
+              MY_ACCOUNT__HEADER__RR_NUMBER 1234567890
+            </span>
+          </div>
+        </div>
+        <div
+          class="my-account-panel panel"
+        >
+          <div
+            class="panel--body"
+          >
+            <div
+              data-qa="observed-viewport"
+            >
+              <div
+                class="dynamic-placement"
+              >
+                <div
+                  class="shimmer"
+                >
+                  <div
+                    class="shimmer--children"
+                  >
+                    <div
+                      class="flex-placement visible"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="my-account-panel panel"
+        >
+          <div
+            class="panel--heading"
+          >
+            <span
+              class="pre-text"
+            >
+              MY_ACCOUNT__MY
+            </span>
+            <span
+              class="text"
+            >
+              Rapid Rewards
+            </span>
+          </div>
+          <div
+            class="panel--body"
+          >
+            <div
+              class="segments"
+            >
+              <div
+                class="vertical-fill segment"
+                data-qa="my-account-panel--rapid-rewards-dashboard"
+              >
+                <div
+                  class="segments"
+                >
+                  <div
+                    class="pts-group segments"
+                  >
+                    <div
+                      class="horizontal-fill segment"
+                    >
+                      <div
+                        class="points-group"
+                      >
+                        <div
+                          class="points-group--col-infos"
+                        >
+                          <label
+                            class="points-group--col-infos-label"
+                          >
+                            MY_ACCOUNT__RAPID_REWARDS_MEMBER
+                          </label>
+                          <span>
+                            MY_ACCOUNT__PTS_GROUP__EARNED_THROUGH 12/31/21
+                          </span>
+                          <span
+                            class="points-group--divider"
+                          >
+                            |
+                          </span>
+                          <span
+                            class="pblue"
+                            data-qa="view-benefits"
+                          >
+                            MY_ACCOUNT__PTS_GROUP__VIEW_BENEFITS
+                          </span>
+                        </div>
+                        <div
+                          class="points-group--col-points align-right"
+                        >
+                          <label
+                            class="points-group--col-points-label"
+                          >
+                            0
+                          </label>
+                          <span>
+                            MY_ACCOUNT__PTS_GROUP__PTS
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="segment-border-top horizontal-fill segment"
+                  >
+                    <div
+                      class="nav-item my-account-nav-item"
+                    >
+                      <div
+                        class="tier-status-group"
+                      >
+                        <div
+                          class="tier-status-group--label"
+                        >
+                          <span>
+                            MY_ACCOUNT__CLIMBING_TOWARDS
+                            <b>
+                              MY_ACCOUNT__A_LIST
+                            </b>
+                            .
+                          </span>
+                        </div>
+                        <div
+                          class="tier-status-group--status"
+                        >
+                          <div
+                            class="tier-status-group--status-col tier-status-group--status-col_graph"
+                          >
+                            <div
+                              class="tier-status"
+                            >
+                              <div
+                                class="tier-status--graph"
+                              >
+                                <div
+                                  class="donut-progress-bar"
+                                  style="width: 0px; height: 0px;"
+                                >
+                                  <svg
+                                    height="0"
+                                    width="0"
+                                  >
+                                    <path
+                                      class="donut-progress-bar--container"
+                                      d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                                      fill="transparent"
+                                      stroke="#d8d8d8"
+                                      stroke-width="10"
+                                    />
+                                    <path
+                                      class="donut-progress-bar--fill"
+                                      d="M 3.5 -3.5 A -5 -5 0 0 0 3.5 -3.5"
+                                      fill="transparent"
+                                      stroke="#446688"
+                                      stroke-width="10"
+                                    />
+                                  </svg>
+                                </div>
+                                <i
+                                  class="icon icon_pts"
+                                />
+                              </div>
+                              <div
+                                class="tier-status--text"
+                              >
+                                <label
+                                  class="label"
+                                >
+                                  0
+                                </label>
+                                <p
+                                  class="desc"
+                                >
+                                  <span>
+                                    MY_ACCOUNT__TIER_STATUS_GROUP__POINTS_STATUS 35,000
+                                    <sup>
+                                      *
+                                    </sup>
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="tier-status-group--status-col"
+                          >
+                            MY_ACCOUNT__TIER_STATUS_GROUP__OR
+                          </div>
+                          <div
+                            class="tier-status-group--status-col tier-status-group--status-col_graph"
+                          >
+                            <div
+                              class="tier-status"
+                            >
+                              <div
+                                class="tier-status--graph"
+                              >
+                                <div
+                                  class="donut-progress-bar"
+                                  style="width: 0px; height: 0px;"
+                                >
+                                  <svg
+                                    height="0"
+                                    width="0"
+                                  >
+                                    <path
+                                      class="donut-progress-bar--container"
+                                      d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                                      fill="transparent"
+                                      stroke="#d8d8d8"
+                                      stroke-width="10"
+                                    />
+                                    <path
+                                      class="donut-progress-bar--fill"
+                                      d="M 3.5 -3.5 A -5 -5 0 0 0 3.5 -3.5"
+                                      fill="transparent"
+                                      stroke="#446688"
+                                      stroke-width="10"
+                                    />
+                                  </svg>
+                                </div>
+                                <i
+                                  class="icon icon_airplane-depart"
+                                />
+                              </div>
+                              <div
+                                class="tier-status--text"
+                              >
+                                <label
+                                  class="label"
+                                >
+                                  0
+                                </label>
+                                <p
+                                  class="desc"
+                                >
+                                  <span>
+                                    MY_ACCOUNT__TIER_STATUS_GROUP__FLIGHTS_STATUS 20
+                                    <sup>
+                                      *
+                                    </sup>
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <small
+                        class="gray4"
+                      >
+                        MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_FOOTNOTE
+                      </small>
+                      <br />
+                      <small
+                        class="ml2 gray4"
+                      >
+                        MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_RESET
+                      </small>
+                      <i
+                        class="icon icon_keyboard-arrow-right"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="my-account-panel panel"
+        >
+          <div
+            class="panel--heading"
+          >
+            <span
+              class="pre-text"
+            >
+              MY_ACCOUNT__MY
+            </span>
+            <span
+              class="text"
+            >
+              MY_ACCOUNT__MY_TRIPS_PANEL__MY_TRIPS_PANEL_HEADING
+            </span>
+          </div>
+          <div
+            class="panel--body"
+          >
+            <div
+              class="segments"
+            >
+              <div
+                class="my-trips-panel my-trips-panel--without-trips segment"
+              >
+                <div
+                  class="nav-item my-account-nav-item"
+                >
+                  <p
+                    class="my-trips-panel--book-trip-call-to-action"
+                  >
+                    MY_ACCOUNT__MY_TRIPS_PANEL__LETS_GO
+                  </p>
+                  <p>
+                    MY_ACCOUNT__MY_TRIPS_PANEL__BOOK_A_TRIP_MESSAGE
+                  </p>
+                  <i
+                    class="icon icon_keyboard-arrow-right"
+                  />
+                </div>
+                <div
+                  class="nav-item my-trips-panel--find-a-trip my-account-nav-item-border-top my-account-nav-item"
+                >
+                  MY_ACCOUNT__MY_TRIPS_PANEL__FIND_A_TRIP
+                  <i
+                    class="icon icon_keyboard-arrow-right"
+                  />
+                </div>
+              </div>
+              <div
+                class="py0 vertical-fill segment"
+              >
+                <div
+                  class="my-trips-panel--past-and-saved-links ui divided horizontal list"
+                >
+                  <div
+                    class="item"
+                  >
+                    <div
+                      class="nav-item my-trips-panel--past-flights-button py5 my-account-nav-item"
+                    >
+                      MY_ACCOUNT__MY_TRIPS_PANEL__PAST_FLIGHTS_LABEL
+                      <i
+                        class="icon icon_keyboard-arrow-right"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="item"
+                  >
+                    <div
+                      class="nav-item my-trips-panel--saved-flights-button py5 my-account-nav-item"
+                    >
+                      MY_ACCOUNT__MY_TRIPS_PANEL__SAVED_LABEL
+                      <i
+                        class="icon icon_keyboard-arrow-right"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="my-account-panel panel"
+        >
+          <div
+            class="panel--heading"
+          >
+            <span
+              class="pre-text"
+            >
+              MY_ACCOUNT__MY
+            </span>
+            <span
+              class="text"
+            >
+              MY_ACCOUNT__FLIGHT_CREDITS
+            </span>
+          </div>
+          <div
+            class="panel--body"
+          >
+            <div
+              class="segments"
+            >
+              <div
+                class="py4 px5 segment"
+              >
+                <div
+                  class="pdkblue larger"
+                >
+                  text content
+                </div>
+              </div>
+              <div
+                class="segment-border-top py0 vertical-fill segment"
+              >
+                <div
+                  class="unused-funds-panel--links ui divided horizontal list"
+                >
+                  <div
+                    class="item"
+                  >
+                    <div
+                      class="nav-item unused-funds-panel--view-funds-button py5 my-account-nav-item"
+                    >
+                      text content
+                      <i
+                        class="icon icon_keyboard-arrow-right"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="item"
+                  >
+                    <div
+                      class="nav-item unused-funds-panel--learn-more-button py5 my-account-nav-item"
+                    >
+                      text content
+                      <i
+                        class="icon icon_keyboard-arrow-right"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`MyAccountLandingPage on mount user is not logged in should return null when the customerInfo object is empty or does not exist 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header"
+            id=""
+          >
+            MY_ACCOUNT__PAGE_HEADER_TITLE
+          </div>
+          <div />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div>
+        <div
+          class="page-header"
+          id=""
+        >
+          MY_ACCOUNT__PAGE_HEADER_TITLE
+        </div>
+        <div />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

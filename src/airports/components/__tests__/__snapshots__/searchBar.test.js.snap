@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar should not show cancel button when not required 1`] = `
+<div>
+  <div
+    class="airport-search-bar options-search-bar bggray3 clearfix bdb bdgray3 px5 py3"
+  >
+    <div
+      class="airport-search-bar--field relative"
+    >
+      <form
+        action=""
+        class="airport-search-bar--form m0 inline-block relative fullwidth"
+      >
+        <input
+          class="airport-search-bar--input rd4 fullwidth border-none lineheight20 large"
+          placeholder="SHARED__PLACEHOLDER__SEARCH"
+          type="search"
+          value=""
+        />
+        <i
+          class="airport-search-bar--remove absolute r0 p4 gray4 hide icon icon_remove"
+        />
+      </form>
+      <i
+        class="airport-search-bar--icon absolute gray4 medium icon icon_search"
+      />
+    </div>
+  </div>
+</div>
+`;

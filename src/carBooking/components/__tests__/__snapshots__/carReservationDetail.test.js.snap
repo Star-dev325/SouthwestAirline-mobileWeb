@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`carReservationDetail display mileage should display mileage with \`Unlimited\` when freeMileage is \`Unlimited\` 1`] = `
+<div>
+  <div
+    class="car-reservation-detail mt4 pt5 bdt"
+  >
+    <div>
+      <div
+        class="flex flex-cross-center"
+      >
+        <div
+          class="flex6"
+        >
+          <div>
+            <img
+              class="fit car-reservation--vendor-logo"
+              src="/content/mkt/images/car_vendors/Avis_Logo_results.png"
+            />
+          </div>
+        </div>
+        <div
+          class="green flex6 align-right large"
+        >
+          Earn up to 600 points
+        </div>
+      </div>
+      <div
+        class="gray5 my2"
+      >
+        Rental Counter is located outside of the Airport Terminal. Shuttle is provided.
+      </div>
+    </div>
+    <div
+      class="clearfix mt2"
+    >
+      <div
+        class="left large pr7"
+      >
+        CAR_BOOKING__CAR_RESERVATION__CAR_TYPE
+      </div>
+      <div
+        class="gray5 large overflow-hidden align-right"
+      >
+        Economy
+      </div>
+    </div>
+    <div
+      class="clearfix mt2"
+      data-qa="car-booking-extras-container"
+    >
+      <div
+        class="left large pr7"
+      >
+        Rental Extras
+      </div>
+      <div
+        class="gray5 large overflow-hidden align-right"
+      >
+        <span
+          class="block align-right"
+        >
+          Ski Rack
+        </span>
+      </div>
+    </div>
+    <div
+      class="clearfix mt2"
+    >
+      <div
+        class="left large pr7"
+      >
+        CAR_BOOKING__CAR_RESERVATION__DAILY_RATE
+      </div>
+      <div
+        class="gray5 large overflow-hidden align-right"
+      >
+        <div>
+          <span>
+            3 Days
+          </span>
+           
+          CAR_BOOKING__CAR_RESERVATION__SYMBOL
+          <div
+            class="currency car-reservation-detail--currency"
+          >
+            <span
+              class="money-sign"
+            >
+              $
+            </span>
+            <span
+              data-qa="total-amount"
+            >
+              47.00
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="clearfix mt2"
+    >
+      <div
+        class="left large pr7"
+      >
+        CAR_BOOKING__CAR_RESERVATION__BASE_RATE
+      </div>
+      <div
+        class="gray5 large overflow-hidden align-right"
+      >
+        <div
+          class="currency car-reservation-detail--currency"
+        >
+          <span
+            class="money-sign"
+          >
+            $
+          </span>
+          <span
+            data-qa="total-amount"
+          >
+            141.00
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="clearfix mt2"
+    >
+      <div
+        class="left large pr7"
+      >
+        CAR_BOOKING__CAR_RESERVATION__MILEAGE
+      </div>
+      <div
+        class="gray5 large overflow-hidden align-right"
+      >
+        Unlimited
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`carReservationDetail display mileage should display mileage with \`xxx Free - $xxx.xx per unit\` when freeMileage is \`Unlimited\` 1`] = `
+<div>
+  <div
+    class="car-reservation-detail mt4 pt5 bdt"
+  >
+    <div>
+      <div
+        class="flex flex-cross-center"
+      >
+        <div
+          class="flex6"
+        >
+          <div>
+            <img
+              class="fit car-reservation--vendor-logo"
+              src="/content/mkt/images/car_vendors/Avis_Logo_results.png"
+            />
+          </div>
+        </div>
+        <div
+          class="green flex6 align-right large"
+        >
+          Earn up to 600 points
+        </div>
+      </div>
+      <div
+        class="gray5 my2"
+      >
+        Rental Counter is located outside of the Airport Terminal. Shuttle is provided.
+      </div>
+    </div>
+    <div
+      class="clearfix mt2"
+    >
+      <div
+        class="left large pr7"
+      >
+        CAR_BOOKING__CAR_RESERVATION__CAR_TYPE
+      </div>
+      <div
+        class="gray5 large overflow-hidden align-right"
+      >
+        Economy
+      </div>
+    </div>
+    <div
+      class="clearfix mt2"
+      data-qa="car-booking-extras-container"
+    >
+      <div
+        class="left large pr7"
+      >
+        Rental Extras
+      </div>
+      <div
+        class="gray5 large overflow-hidden align-right"
+      >
+        <span
+          class="block align-right"
+        >
+          Ski Rack
+        </span>
+      </div>
+    </div>
+    <div
+      class="clearfix mt2"
+    >
+      <div
+        class="left large pr7"
+      >
+        CAR_BOOKING__CAR_RESERVATION__DAILY_RATE
+      </div>
+      <div
+        class="gray5 large overflow-hidden align-right"
+      >
+        <div>
+          <span>
+            3 Days
+          </span>
+           
+          CAR_BOOKING__CAR_RESERVATION__SYMBOL
+          <div
+            class="currency car-reservation-detail--currency"
+          >
+            <span
+              class="money-sign"
+            >
+              $
+            </span>
+            <span
+              data-qa="total-amount"
+            >
+              47.00
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="clearfix mt2"
+    >
+      <div
+        class="left large pr7"
+      >
+        CAR_BOOKING__CAR_RESERVATION__BASE_RATE
+      </div>
+      <div
+        class="gray5 large overflow-hidden align-right"
+      >
+        <div
+          class="currency car-reservation-detail--currency"
+        >
+          <span
+            class="money-sign"
+          >
+            $
+          </span>
+          <span
+            data-qa="total-amount"
+          >
+            141.00
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="clearfix mt2"
+    >
+      <div
+        class="left large pr7"
+      >
+        CAR_BOOKING__CAR_RESERVATION__MILEAGE
+      </div>
+      <div
+        class="gray5 large overflow-hidden align-right"
+      >
+        <span>
+          300
+           Free - 
+          <sup
+            class="dollar-sign smaller"
+          >
+            $
+          </sup>
+          0.30
+           per 
+          Mile
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

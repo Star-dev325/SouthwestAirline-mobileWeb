@@ -1,0 +1,23 @@
+.rr-page-banner {
+  @include banner-with-bg-image('/content/mkt/images/landing_pages/rapidRewards/rrBanner_noDisclaimer.jpg');
+  @include aspect-ratio(100, 70);
+  @include relative;
+
+  .rr-enroll-now {
+    @include absolute;
+    bottom: 15%;
+    left: 5%;
+    width: 90%;
+  }
+}
+
+.rr-page-promotions--item {
+  .rich-nav-item--link {
+    @include relative;
+    z-index: 1;
+  }
+
+  .rich-nav-item--image-wrapper {
+    right: 2.6rem;
+  }
+}

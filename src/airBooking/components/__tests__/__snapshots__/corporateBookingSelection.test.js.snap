@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CorporateBookingSelection when rendering corporate booking selection should render all elements 1`] = `
+<div>
+  <div
+    class="corporate-booking-selection flex p3"
+  >
+    <div
+      class="corporate-booking-selection--info-container flex"
+    >
+      <img
+        class="corporate-booking-selection--icon"
+        src="/content/mkt/images/landing_pages/ic-bag.svg"
+      />
+      <div
+        class="corporate-booking-selection--text-content"
+      >
+        <div
+          class="corporate-booking-selection--label bold"
+        >
+          Book with a SWABIZ account
+        </div>
+        <div>
+          <div
+            class="corporate-booking-selection--learn-more"
+          >
+            AIR_BOOKING__CORPORATE_BOOKING__LEARN_MORE
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="pr6 pt2"
+    >
+      <button
+        class="toggle-switch button"
+        type="button"
+      >
+        <div
+          class="toggle-switch--slider"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CorporateBookingSelection when rendering corporate booking selection when associated to one company should render company name 1`] = `
+<div>
+  <div
+    class="corporate-booking-selection flex p3"
+  >
+    <div
+      class="corporate-booking-selection--info-container flex"
+    >
+      <img
+        class="corporate-booking-selection--icon"
+        src="/content/mkt/images/landing_pages/ic-bag.svg"
+      />
+      <div
+        class="corporate-booking-selection--text-content"
+      >
+        <div
+          class="corporate-booking-selection--label bold"
+        >
+          Book with a SWABIZ account
+        </div>
+        <div>
+          <div
+            class="corporate-booking-selection--company-name"
+          >
+            Dunder Mifflin Paper Company
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="pr6 pt2"
+    >
+      <button
+        class="toggle-switch toggle-switch_checked button"
+        type="button"
+      >
+        <div
+          class="toggle-switch--slider toggle-switch--slider_checked"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CorporateBookingSelection when rendering corporate booking selection when with lap child swabiz toggle should be unchecked and disabled 1`] = `
+<div>
+  <div
+    class="corporate-booking-selection flex p3"
+  >
+    <div
+      class="corporate-booking-selection--info-container flex"
+    >
+      <img
+        class="corporate-booking-selection--icon"
+        src="/content/mkt/images/landing_pages/ic-bag.svg"
+      />
+      <div
+        class="corporate-booking-selection--text-content"
+      >
+        <div
+          class="corporate-booking-selection--label bold"
+        >
+          Book with a SWABIZ account
+        </div>
+        <div>
+          <div
+            class="corporate-booking-selection--company-name"
+          >
+            Dunder Mifflin Paper Company
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="pr6 pt2"
+    >
+      <button
+        class="toggle-switch toggle-switch_checked toggle-switch_disabled button"
+        disabled=""
+        type="button"
+      >
+        <div
+          class="toggle-switch--slider toggle-switch--slider_checked toggle-switch--slider_disabled"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CorporateBookingSelection when rendering corporate booking selection when with out lap child swabiz toggle should not be checked and should not be disabled 1`] = `
+<div>
+  <div
+    class="corporate-booking-selection flex p3"
+  >
+    <div
+      class="corporate-booking-selection--info-container flex"
+    >
+      <img
+        class="corporate-booking-selection--icon"
+        src="/content/mkt/images/landing_pages/ic-bag.svg"
+      />
+      <div
+        class="corporate-booking-selection--text-content"
+      >
+        <div
+          class="corporate-booking-selection--label bold"
+        >
+          Book with a SWABIZ account
+        </div>
+        <div>
+          <div
+            class="corporate-booking-selection--learn-more"
+          >
+            AIR_BOOKING__CORPORATE_BOOKING__LEARN_MORE
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="pr6 pt2"
+    >
+      <button
+        class="toggle-switch button"
+        type="button"
+      >
+        <div
+          class="toggle-switch--slider"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

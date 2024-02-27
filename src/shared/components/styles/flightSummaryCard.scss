@@ -1,0 +1,110 @@
+.flight-summary-card {
+  @include bgwhite;
+  margin: 0.75em;
+
+  .flight-summary-header {
+    @include table;
+    @include fullwidth;
+    @include white;
+    @include bgpdkblue;
+    padding: 1em;
+
+    &.flight-summary-departing {
+      @include bgsdkblue;
+    }
+
+    &.flight-summary-returning {
+      @include bggreen;
+    }
+
+    .flight-summary-title {
+      @include table-cell;
+      @include align-bottom;
+      @include bold;
+      font-size: 1.5em;
+    }
+
+    .flight-day {
+      @include table-cell;
+      @include align-bottom;
+      width: 50%;
+    }
+  }
+
+  .flight-info {
+    @include mb6;
+    @include mx0;
+
+    .flight-info-col {
+      @include flex6;
+    }
+  }
+
+  .pricing-summary--group {
+    @include p5;
+
+    &:last-child {
+      @include bdt;
+      @include bdgray2;
+    }
+
+    &:empty {
+      @include p0;
+    }
+  }
+
+  &--disrupted-bound-message {
+    @include bgpdkblue;
+    @include pb4;
+    @include pt3;
+    @include xxlarge;
+
+    .swa-message {
+      @include p0;
+
+      .icon-container {
+        @include white;
+      }
+
+      .message--text {
+        @include bold;
+      }
+    }
+
+    .swa-message.green-circle-check {
+      .icon-container {
+        @include bggreen;
+      }
+    }
+
+    .swa-message.red-circle-exclamation {
+      .icon-container {
+        @include bgred;
+      }
+    }
+  }
+
+  &--early-bird-purchased {
+    @include flex;
+    @include pl2;
+
+    &-label {
+      @include bold;
+      @include pblue;
+      @include pl4;
+    }
+
+    &-passengers {
+      @include pt4;
+    }
+
+    &-passenger-label {
+      @include gray5;
+      @include pb2;
+    }
+
+    &-passenger-name {
+      @include pt1;
+    }
+  }
+}

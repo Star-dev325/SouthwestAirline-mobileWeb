@@ -1,0 +1,40 @@
+#header {
+  @include bgpblue;
+  padding: 1.8rem 1.5rem;
+
+  .logo {
+    width: 8em;
+  }
+
+  .right-btn {
+    @include absolute;
+    @include white;
+    @include large;
+    @include border-none;
+    @include p3;
+    top: -0.6rem;
+    right: -1.2rem;
+    background-color: transparent;
+  }
+
+  .header--row {
+    @include relative;
+    @include clearfix;
+    @include center;
+
+    .icon_hamburger {
+      @include absolute;
+      @include larger;
+      @include lineheight14;
+      @include p5;
+      @include white;
+      left: -1.5rem;
+      top: -1.6rem;
+    }
+
+    .home-link {
+      @include left;
+      @include ml7;
+    }
+  }
+}

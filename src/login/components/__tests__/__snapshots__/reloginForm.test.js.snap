@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReloginForm render should not render continue as guest if callback function is empty 1`] = `
+<form
+  class="relogin-form form"
+  name="sessionExpiredLogin"
+  novalidate=""
+>
+  <fieldset>
+    <div
+      class="fields"
+    >
+      <div
+        class="input"
+      >
+        <div
+          class="input--like"
+        >
+          601400143
+        </div>
+      </div>
+      <div
+        class="field"
+      >
+        <div
+          class="input huge"
+        >
+          <input
+            class=""
+            name="password"
+            placeholder="Password"
+            type="password"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="flex"
+      >
+        <div
+          class="mt4 flex6"
+        />
+        <div
+          class="flex6 mt5 align-right"
+        >
+          <a
+            class="pblue log-in-help"
+            href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+            target="_blank"
+          >
+            LOGIN__LOGIN_HELP
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="field mt4"
+    >
+      <button
+        class="button button--fluid larger button--yellow"
+        id="login-btn"
+        role="submit"
+        type="submit"
+      >
+        LOGIN__LOGIN_PAGE__BUTTON_TEXT
+      </button>
+    </div>
+  </fieldset>
+</form>
+`;
+
+exports[`ReloginForm render should render relogin form 1`] = `
+<form
+  class="relogin-form form"
+  name="sessionExpiredLogin"
+  novalidate=""
+>
+  <fieldset>
+    <div
+      class="fields"
+    >
+      <div
+        class="input"
+      >
+        <div
+          class="input--like"
+        >
+          601400143
+        </div>
+      </div>
+      <div
+        class="field"
+      >
+        <div
+          class="input huge"
+        >
+          <input
+            class=""
+            name="password"
+            placeholder="Password"
+            type="password"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="flex"
+      >
+        <div
+          class="mt4 flex6"
+        />
+        <div
+          class="flex6 mt5 align-right"
+        >
+          <a
+            class="pblue log-in-help"
+            href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+            target="_blank"
+          >
+            LOGIN__LOGIN_HELP
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="field mt4"
+    >
+      <button
+        class="button button--fluid larger button--yellow"
+        id="login-btn"
+        role="submit"
+        type="submit"
+      >
+        LOGIN__LOGIN_PAGE__BUTTON_TEXT
+      </button>
+    </div>
+    <div
+      class="field center mt4"
+    >
+      <button
+        class="button--link continue-as-guest"
+      >
+        LOGIN__CONTINUE_AS_GUEST
+      </button>
+    </div>
+  </fieldset>
+</form>
+`;
+
+exports[`ReloginForm render when isAccountNumberEditable is true should render userNameOrAccountNumber FormInputField 1`] = `
+<form
+  class="relogin-form form"
+  name="sessionExpiredLogin"
+  novalidate=""
+>
+  <fieldset>
+    <div
+      class="fields"
+    >
+      <div
+        class="field"
+      >
+        <div
+          class="input huge"
+        >
+          <input
+            class=""
+            name="userNameOrAccountNumber"
+            placeholder="Username or Account number"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="field"
+      >
+        <div
+          class="input huge"
+        >
+          <input
+            class=""
+            name="password"
+            placeholder="Password"
+            type="password"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="flex"
+      >
+        <div
+          class="mt4 flex6"
+        />
+        <div
+          class="flex6 mt5 align-right"
+        >
+          <a
+            class="pblue log-in-help"
+            href="https://southwest.com/account/recovery#needPassword?src=LinkMobileWeb&clk=LinkMobileWeb"
+            target="_blank"
+          >
+            LOGIN__LOGIN_HELP
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="field mt4"
+    >
+      <button
+        class="button button--fluid larger button--yellow"
+        id="login-btn"
+        role="submit"
+        type="submit"
+      >
+        LOGIN__LOGIN_PAGE__BUTTON_TEXT
+      </button>
+    </div>
+    <div
+      class="field center mt4"
+    >
+      <button
+        class="button--link continue-as-guest"
+      >
+        LOGIN__CONTINUE_AS_GUEST
+      </button>
+    </div>
+  </fieldset>
+</form>
+`;
+
+exports[`ReloginForm render when isReLoginPointsBooking is true should render userNameOrAccountNumber FormInputField 1`] = `
+<p
+  class="relogin-form--prompt-point-message"
+>
+  LOGIN__USING_SIMPLE_LOGIN_WITH_POINTS
+</p>
+`;

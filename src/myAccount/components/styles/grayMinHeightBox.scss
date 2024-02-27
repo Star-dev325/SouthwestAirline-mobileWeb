@@ -1,0 +1,11 @@
+.gray-min-height-box {
+  @include center;
+  @include mt3;
+  @include p2;
+  @include bggray2;
+  @include gray5;
+  @include flex;
+  @include flex-cross-center;
+  @include flex-main-center;
+  min-height: 5rem;
+}

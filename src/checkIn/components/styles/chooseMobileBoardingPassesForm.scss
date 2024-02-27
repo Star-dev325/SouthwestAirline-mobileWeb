@@ -1,0 +1,61 @@
+.choose-mobile-boarding-passes-form {
+  @include m0;
+  @include bggray2;
+
+  .fields {
+    @include bold;
+    @include large;
+    @include gray5;
+    @include mt6;
+    @include mb6;
+
+    .icon_airplane {
+      @include gray5;
+      font-size: 1em;
+      margin: 0 0.5em;
+    }
+  }
+
+  .field {
+    @include bggray2;
+    @include mb1;
+  }
+
+  .bounds-label {
+    @include px5;
+    @include mb4;
+  }
+
+  .segment {
+    @include mt5;
+    @include bggray2;
+
+    &.blue {
+      @include bgpblue;
+      padding: 1.6rem 1.2rem;
+    }
+  }
+
+  .checkbox-button {
+    @include regular;
+    @include larger;
+    @include py3;
+    @include px5;
+    @include bgwhite;
+
+    &.disabled {
+      @include gray4;
+      pointer-events: none;
+    }
+  }
+
+  .checkbox-button--children {
+    margin-left: 1.3rem;
+  }
+
+  .choose-mobile-boarding-passes-segment--label {
+    @include gray4;
+    @include bold;
+    @include mt3;
+  }
+}

@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Upgraded Boarding Pax Info it should render UpgradedBoardingBound with UPGRADED_BOARDING_BY_SEGMENT true 1`] = `
+<div>
+  <form>
+    <div
+      class="ub-eligible-flight-pax-section"
+    >
+      <div
+        class="ub-eligible-flight-pax-title"
+      >
+        UPGRADE_BOARDING_FOR
+      </div>
+      <div
+        class="ub-eligible-flight-pax-info"
+      >
+        Bobby Blaine (C1))
+      </div>
+      <div
+        class="ub-eligible-flight-pax-rr"
+      >
+        0123456789
+      </div>
+      <div
+        class="ub-eligible-flight-available-position-text"
+      >
+        UB_BEST_AVAILABLE_POSITION_TEXT
+         
+        <span
+          class="ub-eligible-flight-available-position"
+        >
+          UB_BEST_AVAILABLE_POSITION
+        </span>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Upgraded Boarding Pax Info it should render UpgradedBoardingBound with more than one passenger 1`] = `
+<div>
+  <form>
+    <div
+      class="ub-eligible-flight-pax-section"
+    >
+      <div
+        class="ub-eligible-flight-pax-title"
+      >
+        UPGRADE_BOARDING_FOR
+      </div>
+      <div
+        class="field"
+      >
+        <div
+          class="relative flex checkbox-button flex-cross-center"
+          name="abcdefghi"
+        >
+          <div>
+            <span
+              class="checkbox-button--mark"
+            >
+              <i
+                class="absolute xlarge bgtransp icon icon_check"
+              />
+            </span>
+          </div>
+          <div>
+            <div
+              class="checkbox-button--children flex-equal-width ml2"
+            >
+              <div
+                class="ub-eligible-flight-pax-info"
+              >
+                Bobby Blaine (C1)
+              </div>
+              <div
+                class="ub-eligible-flight-pax-rr"
+              >
+                0123456789
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="field"
+      >
+        <div
+          class="relative flex checkbox-button flex-cross-center"
+          name="jklmnopqr"
+        >
+          <div>
+            <span
+              class="checkbox-button--mark"
+            >
+              <i
+                class="absolute xlarge bgtransp icon icon_check"
+              />
+            </span>
+          </div>
+          <div>
+            <div
+              class="checkbox-button--children flex-equal-width ml2"
+            >
+              <div
+                class="ub-eligible-flight-pax-info"
+              >
+                Brenda Blaine (C2)
+              </div>
+              <div
+                class="ub-eligible-flight-pax-rr"
+              >
+                0123456789
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ub-eligible-flight-available-position-text"
+      >
+        UB_BEST_AVAILABLE_POSITION_TEXT
+         
+        <span
+          class="ub-eligible-flight-available-position"
+        >
+          UB_BEST_AVAILABLE_POSITION
+        </span>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Upgraded Boarding Pax Info it should render UpgradedBoardingPaxInfo 1`] = `
+<div>
+  <form>
+    <div
+      class="ub-eligible-flight-pax-section"
+    >
+      <div
+        class="ub-eligible-flight-pax-title"
+      >
+        UPGRADE_BOARDING_FOR
+      </div>
+      <div
+        class="field"
+      >
+        <div
+          class="relative flex checkbox-button flex-cross-center"
+          name="abcdefghi"
+        >
+          <div>
+            <span
+              class="checkbox-button--mark"
+            >
+              <i
+                class="absolute xlarge bgtransp icon icon_check"
+              />
+            </span>
+          </div>
+          <div>
+            <div
+              class="checkbox-button--children flex-equal-width ml2"
+            >
+              <div
+                class="ub-eligible-flight-pax-info"
+              >
+                Bobby Blaine (C1))
+              </div>
+              <div
+                class="ub-eligible-flight-pax-rr"
+              >
+                0123456789
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ub-eligible-flight-available-position-text"
+      >
+        UB_BEST_AVAILABLE_POSITION_TEXT
+         
+        <span
+          class="ub-eligible-flight-available-position"
+        >
+          UB_BEST_AVAILABLE_POSITION
+        </span>
+      </div>
+    </div>
+  </form>
+</div>
+`;

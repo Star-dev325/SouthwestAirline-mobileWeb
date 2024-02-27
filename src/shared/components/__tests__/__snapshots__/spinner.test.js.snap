@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner should be hidden when isWebView is true and appReady is false 1`] = `
+<div>
+  <div
+    class="dimmer-web-view"
+    data-qa="loading spinner"
+    hidden=""
+  >
+    <div
+      class="loading-spinner"
+    />
+    <img
+      class="loading-spinner-img rotate"
+      src="/content/mkt/images/landing_pages/ic-spinner-plane.png"
+      srcset="/content/mkt/images/landing_pages/ic-spinner-plane@2x.png 2x, /content/mkt/images/landing_pages/ic-spinner-plane@3x.png 3x"
+    />
+  </div>
+</div>
+`;
+
+exports[`Spinner should be hidden when showSpinner is false 1`] = `
+<div>
+  <div
+    class="dimmer"
+    data-qa="loading spinner"
+    hidden=""
+  >
+    <div
+      class="loading-spinner"
+    />
+    <img
+      class="loading-spinner-img rotate"
+      hidden=""
+      src="/content/mkt/images/landing_pages/ic-spinner-plane.png"
+      srcset="/content/mkt/images/landing_pages/ic-spinner-plane@2x.png 2x, /content/mkt/images/landing_pages/ic-spinner-plane@3x.png 3x"
+    />
+  </div>
+</div>
+`;
+
+exports[`Spinner should be shown when showSpinner is true 1`] = `
+<div>
+  <div
+    class="dimmer"
+    data-qa="loading spinner"
+  >
+    <div
+      class="loading-spinner"
+    />
+    <img
+      class="loading-spinner-img rotate"
+      hidden=""
+      src="/content/mkt/images/landing_pages/ic-spinner-plane.png"
+      srcset="/content/mkt/images/landing_pages/ic-spinner-plane@2x.png 2x, /content/mkt/images/landing_pages/ic-spinner-plane@3x.png 3x"
+    />
+  </div>
+</div>
+`;
+
+exports[`Spinner should be shown when showSpinner, appReady, and isWebView are true 1`] = `
+<div>
+  <div
+    class="dimmer-web-view"
+    data-qa="loading spinner"
+  >
+    <div
+      class="loading-spinner"
+    />
+    <img
+      class="loading-spinner-img rotate"
+      src="/content/mkt/images/landing_pages/ic-spinner-plane.png"
+      srcset="/content/mkt/images/landing_pages/ic-spinner-plane@2x.png 2x, /content/mkt/images/landing_pages/ic-spinner-plane@3x.png 3x"
+    />
+  </div>
+</div>
+`;
+
+exports[`Spinner should update when the spinner message updates 1`] = `
+<div>
+  <div
+    class="dimmer dimmer-with-message"
+    data-qa="loading spinner"
+  >
+    <div
+      class="loading-spinner"
+    />
+    <img
+      class="loading-spinner-img rotate"
+      hidden=""
+      src="/content/mkt/images/landing_pages/ic-spinner-plane.png"
+      srcset="/content/mkt/images/landing_pages/ic-spinner-plane@2x.png 2x, /content/mkt/images/landing_pages/ic-spinner-plane@3x.png 3x"
+    />
+    <div
+      class="loading-spinner-message"
+    >
+      Updated message
+    </div>
+  </div>
+</div>
+`;

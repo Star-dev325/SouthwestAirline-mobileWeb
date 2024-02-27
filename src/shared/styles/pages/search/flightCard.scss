@@ -1,0 +1,131 @@
+.flight-card {
+  @include overflow-hidden;
+  @include rd4;
+  margin: 0 0 1em 0;
+
+  .row {
+    @include pt2;
+    padding-bottom: 1.5rem;
+  }
+
+  .row--col {
+    @include relative;
+
+    .label-container--label {
+      @include mb2;
+    }
+
+    .flight-times {
+      @include ml5;
+    }
+
+    &:first-child {
+      width: 25%;
+    }
+
+    &:last-child {
+      padding-right: 2.1rem;
+    }
+  }
+
+  .flight-card--stop-icon {
+    .icon {
+      @include left;
+      @include orange;
+      font-size: 1.4em;
+      margin-top: -0.1em;
+    }
+  }
+
+  .flight-times {
+    margin: 0 1.3rem;
+
+    .flight-time {
+      @include lineheight10;
+      font-size: 2rem;
+    }
+
+    .flight-times--col-label {
+      width: 40%;
+    }
+
+    .flight-times-icon {
+      width: 20%;
+    }
+  }
+
+  .stops-detail {
+    @include gray5;
+    @include italic;
+    font-size: 1em;
+  }
+
+  .flight-status {
+    @include pdkblue;
+    @include bold;
+    font-size: 1.5em;
+  }
+
+  .flight-operating-number {
+    @include mt0;
+    @include lineheight10;
+    @include bold;
+    font-size: 1.4em;
+  }
+
+  .nav-item--no-icon {
+    @include pt4;
+  }
+
+  .icon_keyboard-arrow-right {
+    @include xxlarge;
+    right: -1.2rem;
+  }
+
+  .divided {
+    .item {
+      &:last-of-type {
+        border-top: 1px solid $gray2;
+      }
+    }
+  }
+}
+
+.is-webview {
+  .flight-card {
+    .row--col {
+      .flight-operating-number {
+        @include for-tablet-and-up {
+          @include inline-block;
+          @include mr6;
+        }
+      }
+
+      &:first-child {
+        @include for-tablet-and-up {
+          width: 30%;
+        }
+      }
+    }
+
+    .flight-times {
+      .icon_airplane {
+        @include for-tablet-and-up {
+          font-size: 3rem;
+        }
+      }
+
+      .flight-time {
+        @include for-tablet-and-up {
+          font-size: 2.8rem;
+        }
+      }
+    }
+
+    .flight-operating-number {
+      @include for-tablet-and-up {
+        font-size: 2.8rem;
+      }
+    }
+  }
+}

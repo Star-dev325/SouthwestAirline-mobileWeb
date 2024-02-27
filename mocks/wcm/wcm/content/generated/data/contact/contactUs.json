@@ -1,0 +1,79 @@
+{
+  "revision": "20151209105043618",
+  "title": "Contact Us",
+  "description": "<p>We are here 24/7 for help with reservations, Rapid Rewards account information, and general questions.</p>",
+  "primaryCTAText": "1-800-I-FLY-SWA",
+  "primaryCTALink": "tel:18004359792",
+  "contentBlock": [
+    {
+      "blockName": "Additional Phone Numbers",
+      "items": [
+        {
+          "itemDescription": "Baggage - (Delayed/Damaged)",
+          "itemDetail": "1-888-202-1024",
+          "ctaText": "Call",
+          "ctaLink": "tel:18882021024"
+        },
+        {
+          "itemDescription": "Cargo",
+          "itemDetail": "1-800-202-1222",
+          "ctaText": "Call",
+          "ctaLink": "tel:18002021222"
+        },
+        {
+          "itemDescription": "En Espanol",
+          "itemDetail": "1-800-826-6667",
+          "ctaText": "Call",
+          "ctaLink": "tel:18008266667"
+        },
+        {
+          "itemDescription": "Flight Information",
+          "itemDetail": "1-888-792-8747",
+          "ctaText": "Call",
+          "ctaLink": "tel:18887928747"
+        },
+        {
+          "itemDescription": "Group Travel",
+          "itemDetail": "1-800-433-5368",
+          "ctaText": "Call",
+          "ctaLink": "tel:18004335369"
+        },
+        {
+          "itemDescription": "Property Left at TSA Check Point",
+          "itemDetail": "1-866-289-9673",
+          "ctaText": "Call",
+          "ctaLink": "tel:18662899673"
+        },
+        {
+          "itemDescription": "Teletypewriter (TTY)",
+          "itemDetail": "1-800-535-1305",
+          "ctaText": "Call",
+          "ctaLink": "tel:18005351305"
+        }
+      ]
+    },
+    {
+      "blockName": "Reach Out",
+      "items": [
+        {
+          "itemDescription": "Contact us directly",
+          "itemDetail": "Email",
+          "ctaText": "Send",
+          "ctaLink": "mailto:customerservice@wnco.com"
+        },
+        {
+          "itemDescription": "Twitter",
+          "itemDetail": "@SouthwestAir",
+          "ctaText": "Tweet",
+          "ctaLink": "https://twitter.com/messages/compose?recipient_id=7212562"
+        },
+        {
+          "itemDescription": "Instagram",
+          "itemDetail": "@southwestair",
+          "ctaText": "Insta",
+          "ctaLink": "http://www.instagram.com/SouthwestAir"
+        }
+      ]
+    }
+  ]
+}

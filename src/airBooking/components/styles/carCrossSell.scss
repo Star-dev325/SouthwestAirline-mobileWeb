@@ -1,0 +1,27 @@
+.car-cross-sell--banner {
+  @include bgpdkblue;
+  @include white;
+  @include p3;
+  @include mb4;
+}
+
+.car-cross-sell--title {
+  @include relative;
+  @include px4;
+  @include mb4;
+  @include flex;
+  @include flex-cross-center;
+  @include flex-main-between;
+}
+
+.car-cross-sell--title-heading {
+  @include inline-block;
+  font-size: 3.2rem;
+}
+
+.car-cross-sell--icon {
+  @include p5;
+  @include xxlarge;
+  @include bgpblue;
+  @include circle;
+}

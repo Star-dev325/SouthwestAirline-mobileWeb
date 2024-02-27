@@ -1,0 +1,181 @@
+.low-fare-date {
+  @include flex;
+  @include flex-main-between;
+  @include flex-cross-center;
+  @include pr2;
+  @include pl2;
+  position: relative;
+  height: 4.8rem;
+
+  &::before,
+  &::after {
+    z-index: 1;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -1rem;
+    border-top: solid 0.6rem $pblue;
+    border-left: solid 1rem transparent;
+    border-right: solid 1rem transparent;
+  }
+
+  &::after {
+    bottom: -0.5rem;
+    border-top-color: $white;
+  }
+
+  &::before {
+    bottom: -0.6rem;
+  }
+
+  .selected-date {
+    @include flex;
+
+    .low-fare--col-icon {
+      @include flex-main-center;
+      @include flex-cross-center;
+      @include ml2;
+      @include mr3;
+      width: 3rem;
+      height: 3rem;
+
+      &.low-fare--col-icon-none-line {
+        &::before {
+          content: none;
+        }
+      }
+
+      &.low-fare--col-icon-none {
+        width: 1.4em;
+
+        .stop-circle {
+          display: none;
+        }
+      }
+
+      .stop-circle {
+        @include inline-block;
+        @include relative;
+        @include bgwhite;
+        @include circle;
+        margin-left: 0.7em;
+        width: 1.8em;
+        height: 1.8em;
+        border: 1px solid $sltblue;
+
+        &::after {
+          @include b0;
+          border-top: 1px solid $gray3;
+          content: '';
+          width: 1rem;
+          left: 1em;
+          margin-left: -1px;
+          top: 50%;
+          margin-top: -1px;
+        }
+      }
+
+      .icon {
+        @include relative;
+        @include p0;
+        @include white;
+        @include bgpdkblue;
+        @include circle;
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.8rem;
+        line-height: 3rem;
+        z-index: 2;
+      }
+    }
+
+    .low-fare--col-icon-return {
+      @include flex-main-center;
+      @include flex-cross-center;
+      @include ml2;
+      @include mr3;
+      width: 3rem;
+      height: 3rem;
+
+      &.low-fare--col-icon-none-line {
+        &::before {
+          content: none;
+        }
+      }
+
+      &.low-fare--col-icon-none {
+        width: 1.4em;
+
+        .stop-circle {
+          display: none;
+        }
+      }
+
+      .stop-circle {
+        @include inline-block;
+        @include relative;
+        @include bgwhite;
+        @include circle;
+        margin-left: 0.7em;
+        width: 1.8em;
+        height: 1.8em;
+        border: 1px solid $sltblue;
+
+        &::after {
+          @include b0;
+          border-top: 1px solid $gray3;
+          content: '';
+          width: 1rem;
+          left: 1em;
+          margin-left: -1px;
+          top: 50%;
+          margin-top: -1px;
+        }
+      }
+
+      .icon {
+        @include relative;
+        @include p0;
+        @include white;
+        @include bggreen;
+        @include circle;
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.8rem;
+        line-height: 3rem;
+        z-index: 2;
+      }
+    }
+
+    .flight-label-wrapper {
+      .label-container--label {
+        @include m0;
+        font-size: 1.1rem;
+      }
+
+      .label-container--content {
+        @include m0;
+        @include larger;
+        @include bold;
+      }
+    }
+  }
+
+  .calendar-select {
+    margin: -0.1rem 0.2rem 0 0;
+
+    .icon {
+      @include relative;
+      @include sltblue;
+      font-size: 3.2rem;
+      z-index: 2;
+    }
+  }
+}
+
+.low-fare-inbound .low-fare-date::before {
+  border-top-color: $green2;
+}

@@ -1,0 +1,7 @@
+.air-change-shopping-search-page {
+  &--header-message-body {
+    @include large;
+    @include pre-line;
+    @include regular;
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "/",
+  "type": "object",
+  "properties": {
+    "originalReservation": {
+      "type": "object",
+      "properties": {
+        "recordLocator": {
+          "type": "string"
+        },
+        "isSwabiz": {
+          "type": ["boolean", null]
+        },
+        "gdsTicketType": {
+          "type": ["string", null]
+        },
+        "isInternational": {
+          "type": "boolean"
+        }
+      }
+    }
+  },
+  "required": [
+    "originalReservation"
+  ]
+}

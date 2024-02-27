@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Upgraded Boarding Bound should render UpgradedBoardingBound 1`] = `
+<div>
+  <div
+    class="bound-price"
+  >
+    <div
+      class="bound-price--airport-section"
+    >
+      <div
+        class="bound-price--airport-info"
+      >
+        DEN
+         - 
+        BUF
+      </div>
+      <div
+        class="bound-price--flight-number"
+      >
+        2272
+      </div>
+    </div>
+    <div
+      class="bound-price--amount-info-section"
+    >
+      <div
+        class="bound-price--amount-section"
+      >
+        <div
+          class="bound-price--amount-flex-group"
+        >
+          <div
+            class="bound-price--amount"
+          >
+            $40.00
+          </div>
+          <div
+            class="bound-price--pax-count"
+          >
+            x
+            1
+             
+            AIR_UPGRADE_SINGLE_PAX_TEXT
+          </div>
+        </div>
+        <div
+          class="bound-price--total-amount"
+        >
+          <div
+            class="currency"
+          >
+            <span
+              class="money-sign"
+            >
+              $
+            </span>
+            <span
+              data-qa="total-amount"
+            >
+              40.00
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Upgraded Boarding Bound should render UpgradedBoardingBound with more than one passenger 1`] = `
+<div>
+  <div
+    class="bound-price"
+  >
+    <div
+      class="bound-price--airport-section"
+    >
+      <div
+        class="bound-price--airport-info"
+      >
+        DEN
+         - 
+        BUF
+      </div>
+      <div
+        class="bound-price--flight-number"
+      >
+        2272
+      </div>
+    </div>
+    <div
+      class="bound-price--amount-info-section"
+    >
+      <div
+        class="bound-price--amount-section"
+      >
+        <div
+          class="bound-price--amount-flex-group"
+        >
+          <div
+            class="bound-price--amount"
+          >
+            $40.00
+          </div>
+          <div
+            class="bound-price--pax-count"
+          >
+            x
+            2
+             
+            AIR_UPGRADE_MULTI_PAX_TEXT
+          </div>
+        </div>
+        <div
+          class="bound-price--total-amount"
+        >
+          <div
+            class="currency"
+          >
+            <span
+              class="money-sign"
+            >
+              $
+            </span>
+            <span
+              data-qa="total-amount"
+            >
+              80.00
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

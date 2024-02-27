@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailedTripCard overnight should not show overnight indicator when isOvernight is false 1`] = `null`;
+
+exports[`DetailedTripCard overnight should show overnight indicator when isOvernight is true 1`] = `
+<div
+  class="multi-day-indicator multi-day-indicator--overnight-red"
+  data-qa="overnight-indicator"
+>
+  <i
+    class="multi-day-indicator--icon multi-day-indicator--icon-small icon icon_next-day-indicator"
+  />
+  <p
+    class="multi-day-indicator--font-small"
+  >
+    AIR_BOOKING__SHOPPING__OVERNIGHT
+  </p>
+</div>
+`;
+
+exports[`DetailedTripCard segment header should display the trip card header with the destination first and a horizontal rule beneath the trip card header 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="detailed-trip-card"
+      >
+        <div
+          class="trip-card-header"
+        >
+          <div
+            class="trip-card-header--date-and-destination"
+          >
+            <span
+              class="trip-card-header--destination-airport"
+            >
+              Newark
+            </span>
+            <span
+              class="trip-card-header--trip-date"
+            >
+              Fri, Sep 29
+            </span>
+          </div>
+          <div
+            class="trip-card-header--icon-or-confirmation-number"
+          >
+            <span
+              class="trip-card-header--confirmation-number"
+            >
+              <span
+                class="trip-card-header--confirmation-number_label"
+              >
+                MY_ACCOUNT__CONFIRMATION_NUMBER
+              </span>
+              <span
+                class="trip-card-header--confirmation-number_number"
+              >
+                QIQNWQ
+              </span>
+            </span>
+          </div>
+        </div>
+        <hr
+          class="detailed-trip-card--divider"
+        />
+        <div>
+          <div
+            class="flight-segment-details"
+          >
+            <div
+              class="flight-segment-details--time-and-flight"
+            >
+              <div
+                class="flight-segment-details--time-block"
+              >
+                <div
+                  class="flight-segment-details--time-block-label"
+                >
+                  SHARED__FLIGHT_SEGMENT_DETAILS__DEPARTS
+                </div>
+                <div
+                  class="flight-segment-details--time-block-time"
+                >
+                  6:00
+                  <span
+                    class="flight-segment-details--time-block-time-ampm"
+                  >
+                    AM
+                  </span>
+                </div>
+              </div>
+              <div
+                class="flight-segment-details--flight-number"
+              >
+                <div>
+                  SHARED__FLIGHT_SEGMENT_DETAILS__FLIGHT
+                   
+                  179
+                </div>
+                <i
+                  class="icon icon_airplane"
+                />
+              </div>
+              <div
+                class="flight-segment-details--time-block align-right"
+              >
+                <div
+                  class="flight-segment-details--time-block-label"
+                >
+                  SHARED__FLIGHT_SEGMENT_DETAILS__ARRIVES
+                </div>
+                <div
+                  class="flight-segment-details--time-block-time"
+                >
+                  9:00
+                  <span
+                    class="flight-segment-details--time-block-time-ampm"
+                  >
+                    AM
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flight-segment-details--airports"
+            >
+              <div
+                class="flight-segment-details--airport-info pr3"
+              >
+                Chicago (Midway), IL - MDW
+              </div>
+              <div
+                class="flight-segment-details--airport-info pl3 align-right"
+              >
+                New York/Newark, NJ - EWR
+              </div>
+            </div>
+          </div>
+          <div
+            class="boarding-info boarding-information center pt5 pb5 mt3"
+          >
+            <div
+              class="boarding-information--item-row"
+            >
+              <div
+                class="boarding-information--item"
+              >
+                <div
+                  class="boarding-information--item-label"
+                >
+                  SHARED__BOARDING_INFORMATION__GATE
+                </div>
+                <div
+                  class="boarding-information--item-info"
+                >
+                  ---
+                </div>
+              </div>
+              <div
+                class="boarding-information--item"
+              >
+                <div
+                  class="boarding-information--item-label"
+                >
+                  SHARED__BOARDING_INFORMATION__GROUP
+                </div>
+                <div
+                  class="boarding-information--item-info"
+                >
+                  A
+                </div>
+              </div>
+              <div
+                class="boarding-information--item"
+              >
+                <div
+                  class="boarding-information--item-label"
+                >
+                  SHARED__BOARDING_INFORMATION__POSITION
+                </div>
+                <div
+                  class="boarding-information--item-info_right"
+                >
+                  20
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mt3"
+          >
+            <button
+              class="detailed-trip-card--detail-button button"
+              type="button"
+            >
+              View/Manage
+            </button>
+          </div>
+          <div>
+            <div
+              class="mt3"
+            >
+              <button
+                class="button button--fluid button--yellow"
+                title="SHARED__BUTTON_TEXT__BOARDING_PASSES"
+                type="button"
+              >
+                SHARED__BUTTON_TEXT__BOARDING_PASSES
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

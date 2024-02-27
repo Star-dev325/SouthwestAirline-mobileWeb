@@ -1,0 +1,287 @@
+.calendar {
+  @include absolute;
+  @include fullwidth;
+  @include t0;
+  @include b0;
+
+  .calendar-main-content {
+    @include absolute;
+    @include r0;
+    @include b0;
+    @include l0;
+    top: 5.7rem;
+  }
+
+  .calendar-menu {
+    @include relative;
+    @include fullwidth;
+    @include center;
+    @include white;
+    @include bgpblue;
+    @include square;
+    height: 5.7rem;
+
+    .calendar-title {
+      @include align-middle;
+      font-size: 1.7rem;
+      line-height: 5.7rem;
+      height: 5.7rem;
+    }
+
+    .reset-area {
+      @include absolute;
+      @include l0;
+      @include align-middle;
+      font-size: 1.5rem;
+      height: 5.7rem;
+      width: 6.7rem;
+      line-height: 5.7rem;
+
+      .reset-area--link {
+        @include bgsblue;
+        border-right: 1px solid $pdkblue;
+      }
+    }
+
+    .done-area {
+      @include absolute;
+      @include t0;
+      @include r0;
+      @include align-middle;
+      @include bgsblue;
+      @include left-divider;
+      font-size: 1.5rem;
+      height: 5.7rem;
+      width: 6.7rem;
+      line-height: 5.7rem;
+    }
+  }
+
+  .calendar-header {
+    @include attach-top;
+    z-index: 1;
+
+    .flight-depart-returning-date {
+      .label-container {
+        @include ml4;
+      }
+
+      .label-container--content {
+        @include mt0;
+      }
+
+      .label-container--label {
+        @include mb0;
+      }
+    }
+  }
+
+  .background-month-title {
+    @include absolute;
+    @include bold;
+    font-size: 10em;
+    margin-left: 0.1em;
+    opacity: 0.1;
+  }
+
+  .current-month-header {
+    @include bold;
+    font-size: 1.3em;
+    padding-left: 0.7rem;
+  }
+
+  .calendar-months {
+    @include absolute;
+    @include fullwidth;
+    @include b0;
+    @include bggray1;
+    @include overflow-y-auto;
+    top: 5.6rem;
+    padding-top: 0.6rem;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+
+    .calendar-schedule-message {
+      @include gray5;
+      @include bggray1;
+      @include italic;
+      @include p5;
+    }
+
+    .date-table {
+      @include bdb;
+      padding: 1em 0.5em 0;
+
+      &:last-child {
+        @include border-none;
+      }
+
+      .date-grid {
+        @include fullwidth;
+        padding: 0.4em;
+
+        .date-row {
+          @include flex;
+          @include center;
+          margin: 0.5em 0;
+
+          &.date-header {
+            @include bold;
+
+            .date-cell {
+              @include pdkblue;
+            }
+          }
+
+          .date-cell {
+            @include relative;
+            @include pblue;
+            user-select: none;
+            font-size: 1.5rem;
+            z-index: 1;
+            flex: 1;
+            line-height: 4rem;
+
+            &:hover {
+              cursor: pointer;
+            }
+
+            &.between-date-bg {
+              @include bggray2;
+            }
+
+            &.departure-date-bg,
+            &.returning-date-bg {
+              z-index: 2;
+
+              &::before {
+                @include absolute;
+                @include t0;
+                @include r0;
+                @include b0;
+                @include bggray2;
+                content: '';
+                width: 50%;
+                z-index: -1;
+              }
+            }
+
+            &.returning-date-bg::before {
+              @include l0;
+            }
+
+            &.departure-date-bg::before {
+              @include r0;
+            }
+
+            &.departure-date-bg.returning-date-bg {
+              &::before {
+                content: none;
+              }
+            }
+          }
+
+          .date-cell-inner {
+            @include inline-block;
+            @include center;
+            width: 4rem;
+
+            &.today {
+              @include pdkblue;
+              @include bold;
+            }
+
+            &.disabled-date {
+              @include gray3;
+            }
+
+            &.departure-date {
+              @include white;
+              @include bgpdkblue;
+              @include circle;
+            }
+
+            &.returning-date {
+              @include white;
+              @include bggreen;
+              @include circle;
+            }
+
+            &.departure-date.returning-date {
+              @include relative;
+              @include white;
+              background: none;
+              transform: rotate(45deg);
+
+              &::before,
+              &::after {
+                @include absolute;
+                @include t0;
+                @include b0;
+                content: '';
+                width: 50%;
+                z-index: -1;
+              }
+
+              &::before {
+                @include l0;
+                @include bgpdkblue;
+                border-top-left-radius: 100% 50%;
+                border-bottom-left-radius: 100% 50%;
+              }
+
+              &::after {
+                @include r0;
+                @include bggreen;
+                border-top-right-radius: 100% 50%;
+                border-bottom-right-radius: 100% 50%;
+              }
+
+              .data-number {
+                @include block;
+                transform: rotate(-45deg);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.calendar--flight-departure_selected {
+  .icon {
+    @include bgpdkblue;
+  }
+}
+
+.depart-flight-day {
+  @include pdkblue;
+}
+
+.return-flight-day {
+  @include green;
+}
+
+.calendar--flight-return_selected {
+  .icon {
+    @include bggreen;
+  }
+}
+
+.is-webview {
+  &.car-booking_search {
+    .calendar {
+      @include for-tablet-and-up {
+        @include bg-car-booking;
+      }
+
+      .calendar-main-content {
+        @include for-tablet-and-up {
+          @include tablet-content-frame;
+          margin: 40px auto;
+        }
+      }
+    }
+  }
+}

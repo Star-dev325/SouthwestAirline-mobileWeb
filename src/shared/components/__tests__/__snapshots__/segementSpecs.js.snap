@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Segment should render default props 1`] = `
+<div
+  className="segment"
+>
+  <div>
+    An example
+  </div>
+</div>
+`;
+
+exports[`Segment should render with label 1`] = `
+<div
+  className="segment"
+>
+  <span
+    className="segment--title"
+  >
+    Section Header
+  </span>
+  <div>
+    An example
+  </div>
+</div>
+`;

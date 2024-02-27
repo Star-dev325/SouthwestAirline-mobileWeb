@@ -1,0 +1,18 @@
+{
+  "short_name": "Southwest Airlines",
+  "name": "Southwest Airlines",
+  "icons": [
+    {
+      "src": "/content/mkt/images/landing_pages/southwest-logo-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.southwestairlines.mobile"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+export default {
+  SHARED__FLIGHT_STATUS__TITLE: 'Flight Status',
+  SHARED__FLIGHT_STATUS__RECENT: 'Recent',
+  SHARED__FLIGHT_STATUS__REFRESH: 'Refresh',
+  SHARED__FLIGHT_STATUS__SHARE: 'Share'
+};

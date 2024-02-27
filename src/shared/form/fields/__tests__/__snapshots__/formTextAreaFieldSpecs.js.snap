@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormTextAreaField should render with passed in props 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(WithForm(FormComponent))
+    formData={Object {}}
+    formId="TEST_FORM_ID"
+    initialFormData={
+      Object {
+        "name": "init value",
+      }
+    }
+    onSubmit={[Function]}
+  >
+    <WithField(FormTextAreaField)
+      _onMessageChange={[Function]}
+      className="test-class"
+      name="test-name"
+      placeholder="test-placeholder"
+      rowCount={4}
+      value="mock value"
+    />
+  </Connect(WithForm(FormComponent))>
+</Provider>
+`;

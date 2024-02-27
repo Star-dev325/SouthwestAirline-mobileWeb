@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`error page should match snapshot 1`] = `
+<div>
+  <div
+    class="error-page"
+  >
+    <div
+      class="info-banner "
+    >
+      <div
+        class="info-banner--alert"
+      >
+        <i
+          class="icon icon_exclamation-circle error"
+        />
+      </div>
+      <div
+        class="info-banner-container"
+      >
+        <b
+          class="info-banner-container--header"
+        >
+          SHARED__ERROR_PAGE__BANNER_TITLE
+        </b>
+        <p
+          class="info-banner-container--body"
+        >
+          SHARED__ERROR_PAGE__BANNER_DESCRIPTION
+        </p>
+        <div
+          class="info-banner-container--link"
+        />
+      </div>
+    </div>
+    <div
+      class="error-page--heading"
+    >
+      SHARED__ERROR_PAGE__TITLE
+    </div>
+    <div
+      class="error-page--body"
+    >
+      <div
+        data-qa="observed-viewport"
+      >
+        <div
+          class="error-page--placement"
+        >
+          <div
+            class="shimmer"
+          >
+            <div
+              class="shimmer--children"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        data-qa="observed-viewport"
+      >
+        <div
+          class="error-page--placement"
+        >
+          <div
+            class="shimmer"
+          >
+            <div
+              class="shimmer--children"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        data-qa="observed-viewport"
+      >
+        <div
+          class="error-page--placement"
+        >
+          <div
+            class="shimmer"
+          >
+            <div
+              class="shimmer--children"
+            />
+          </div>
+        </div>
+      </div>
+      <button
+        class="button button--fluid larger button--yellow"
+        type="button"
+      >
+        SHARED__ERROR_PAGE__BUTTON
+      </button>
+    </div>
+  </div>
+</div>
+`;

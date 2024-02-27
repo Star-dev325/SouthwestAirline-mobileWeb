@@ -1,0 +1,30 @@
+.features-list {
+  @include m0;
+
+  li::before {
+    @include absolute;
+    left: -0.8em;
+  }
+
+  &--no-icon {
+    @include pb4;
+    @include align-left;
+    margin-left: -0.7rem;
+  }
+
+  &--item {
+    @include relative;
+    @include align-left;
+    @include pl4;
+    display: list-item;
+    list-style-type: none;
+  }
+
+  &--text {
+    @include arial-font-family;
+  }
+
+  .features-list--item + .features-list--item {
+    @include pt4;
+  }
+}

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="25">
+
+  <testsuite name="multiPax.checkInConfirmationMultiPaxTest"
+    errors="0" failures="0" hostname="" id="" package="multiPax" skipped="0"
+    tests="25" time="63.08" timestamp="Fri, 15 Dec 2023 01:52:14 GMT">
+  
+    <testcase name="Login user" classname="multiPax.checkInConfirmationMultiPaxTest" time="35.30" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to check in from hamburger menu" classname="multiPax.checkInConfirmationMultiPaxTest" time="3.333" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search for a reservation" classname="multiPax.checkInConfirmationMultiPaxTest" time="3.395" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check in confirmation page" classname="multiPax.checkInConfirmationMultiPaxTest" time="0.3020" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify analytics isMultiPaxPNR is set to true" classname="multiPax.checkInConfirmationMultiPaxTest" time="0.02700" assertions="0">
+    </testcase>
+  
+    <testcase name="Click on 1st boarding pass" classname="multiPax.checkInConfirmationMultiPaxTest" time="0.3110" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify Hazmat Declaration page and tap Continue button" classname="multiPax.checkInConfirmationMultiPaxTest" time="5.154" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Mobile boarding pass page should show only 1st passenger&#39;s boarding passes" classname="multiPax.checkInConfirmationMultiPaxTest" time="0.3530" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go back and click on 2nd boarding pass" classname="multiPax.checkInConfirmationMultiPaxTest" time="2.244" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Mobile boarding pass page should show only 2nd passenger&#39;s boarding passes" classname="multiPax.checkInConfirmationMultiPaxTest" time="0.9610" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go back and click on 3rd boarding pass" classname="multiPax.checkInConfirmationMultiPaxTest" time="1.224" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Mobile boarding pass page should show only 3rd passenger&#39;s boarding passes" classname="multiPax.checkInConfirmationMultiPaxTest" time="0.5590" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go back and click on View All Boarding Passes" classname="multiPax.checkInConfirmationMultiPaxTest" time="1.551" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Mobile boarding pass page should show all 3 passenger&#39;s boarding passes" classname="multiPax.checkInConfirmationMultiPaxTest" time="1.836" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify analytics selectedMultipleTravelers is set to true when multiple travelers BPs are displayed" classname="multiPax.checkInConfirmationMultiPaxTest" time="0.02500" assertions="0">
+    </testcase>
+  
+    <testcase name="Go back and uncheck 2nd passenger" classname="multiPax.checkInConfirmationMultiPaxTest" time="1.260" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Mobile boarding pass page should show 1st and 3rd and passenger&#39;s boarding passes" classname="multiPax.checkInConfirmationMultiPaxTest" time="0.8000" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go back and uncheck 3rd passenger" classname="multiPax.checkInConfirmationMultiPaxTest" time="0.4470" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Mobile boarding pass page should show on 1st passenger&#39;s boarding pass" classname="multiPax.checkInConfirmationMultiPaxTest" time="0.8780" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify analytics selectedMultipleTravelers is set to false when only one travelers BPs are displayed" classname="multiPax.checkInConfirmationMultiPaxTest" time="0.02100" assertions="0">
+    </testcase>
+  
+    <testcase name="Go back and check 2nd and 3rd passengers again" classname="multiPax.checkInConfirmationMultiPaxTest" time="0.3180" assertions="0">
+    </testcase>
+  
+    <testcase name="All passes button should be checked automatically" classname="multiPax.checkInConfirmationMultiPaxTest" time="0.06900" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click off all passes button and click continue to see form validation" classname="multiPax.checkInConfirmationMultiPaxTest" time="0.6130" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select all passes again then continue" classname="multiPax.checkInConfirmationMultiPaxTest" time="1.116" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Mobile boarding pass page should show the 3 passenger&#39;s boarding passes again" classname="multiPax.checkInConfirmationMultiPaxTest" time="0.9810" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,911 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectPassengersCountPage click on plus button should show child count to 1 and baby-on-board text when clicked on plus button for child item 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <SelectPassengersCountPage
+    goBack={[Function]}
+    location={
+      Object {
+        "search": "text",
+      }
+    }
+    match="this/is/path/to/selectPassengersCountPage"
+    passengerCountData={
+      Object {
+        "adultCount": 1,
+        "lapChildCount": 0,
+        "valueUpdated": false,
+      }
+    }
+    savePassengerCountFn={[Function]}
+    updateFormFieldDataValueFn={[Function]}
+  >
+    <div
+      className="select-passengers-count-page--wrapper"
+    >
+      <PageHeaderWithButtons
+        hidden={false}
+        leftButtons={Array []}
+        rightButtons={
+          Array [
+            Object {
+              "name": "Done",
+              "onClick": [Function],
+            },
+          ]
+        }
+        showBackButton={true}
+        title="Select Passengers"
+        titleInCenter={false}
+      >
+        <Connect(PageHeader)
+          className="action-bar"
+          hidden={false}
+        >
+          <PageHeader
+            className="action-bar"
+            hidden={false}
+            isWebView={false}
+            noPadding={false}
+          >
+            <div>
+              <div
+                className="page-header action-bar"
+                id=""
+              >
+                <div
+                  className="goback-link"
+                  onClick={[Function]}
+                >
+                  <Icon
+                    type="keyboard-arrow-left"
+                  >
+                    <i
+                      className="icon icon_keyboard-arrow-left"
+                    />
+                  </Icon>
+                </div>
+                <div
+                  className="action-bar--container"
+                >
+                  <div
+                    className="action-bar--title-align-center action-bar--title"
+                  >
+                    <span
+                      className="action-bar--main-title"
+                    >
+                      Select Passengers
+                    </span>
+                    <span
+                      className="action-bar--sub-title"
+                    />
+                  </div>
+                </div>
+                <ul
+                  className="action-bar-buttons action-bar--right-buttons"
+                >
+                  <li
+                    className="action-bar-buttons--item"
+                    key="0"
+                  >
+                    <Button
+                      onClick={[Function]}
+                    >
+                      <button
+                        className="button"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Done
+                      </button>
+                    </Button>
+                  </li>
+                </ul>
+              </div>
+              <Connect(ErrorHeaderContainer)>
+                <ErrorHeaderContainer>
+                  <div />
+                </ErrorHeaderContainer>
+              </Connect(ErrorHeaderContainer)>
+            </div>
+          </PageHeader>
+        </Connect(PageHeader)>
+      </PageHeaderWithButtons>
+      <div
+        className="select-passengers-count-page--list-item"
+      >
+        <div
+          className="text-wrapper"
+        >
+          <div
+            className="select-passengers-count-page--list-item-title"
+          >
+            Passengers
+          </div>
+          <span
+            className="select-passengers-count-page--list-item-desc"
+          >
+            (excluding Lap Children)
+          </span>
+        </div>
+        <IncrementDecrementButtons
+          isCircular={true}
+          maxValue={8}
+          minValue={1}
+          onIncrementDecrement={[Function]}
+          value={1}
+        >
+          <div
+            className="buttons-with-flex"
+          >
+            <Button
+              circular={true}
+              disabled={true}
+              icon="minus"
+              key="minus"
+              onClick={[Function]}
+              type="button"
+            >
+              <button
+                className="icon button circular"
+                disabled={true}
+                onClick={[Function]}
+                type="button"
+              >
+                <Icon
+                  type="minus"
+                >
+                  <i
+                    className="icon icon_minus"
+                  />
+                </Icon>
+              </button>
+            </Button>
+            <div
+              className="selected-passenger-number"
+            >
+              1
+            </div>
+            <Button
+              circular={true}
+              disabled={false}
+              icon="plus"
+              key="plus"
+              onClick={[Function]}
+              type="button"
+            >
+              <button
+                className="icon button circular"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                <Icon
+                  type="plus"
+                >
+                  <i
+                    className="icon icon_plus"
+                  />
+                </Icon>
+              </button>
+            </Button>
+          </div>
+        </IncrementDecrementButtons>
+      </div>
+      <div
+        className="select-passengers-count-page--list-item-divider"
+      />
+      <div
+        className="select-passengers-count-page--list-item"
+      >
+        <div
+          className="text-wrapper"
+        >
+          <div
+            className="select-passengers-count-page--list-item-title"
+          >
+            Lap Children
+          </div>
+          <span
+            className="select-passengers-count-page--list-item-desc"
+          >
+            Age under 2
+          </span>
+        </div>
+        <IncrementDecrementButtons
+          isCircular={true}
+          maxValue={1}
+          minValue={0}
+          onIncrementDecrement={[Function]}
+          value={1}
+        >
+          <div
+            className="buttons-with-flex"
+          >
+            <Button
+              circular={true}
+              disabled={false}
+              icon="minus"
+              key="minus"
+              onClick={[Function]}
+              type="button"
+            >
+              <button
+                className="icon button circular"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                <Icon
+                  type="minus"
+                >
+                  <i
+                    className="icon icon_minus"
+                  />
+                </Icon>
+              </button>
+            </Button>
+            <div
+              className="selected-passenger-number"
+            >
+              1
+            </div>
+            <Button
+              circular={true}
+              disabled={true}
+              icon="plus"
+              key="plus"
+              onClick={[Function]}
+              type="button"
+            >
+              <button
+                className="icon button circular"
+                disabled={true}
+                onClick={[Function]}
+                type="button"
+              >
+                <Icon
+                  type="plus"
+                >
+                  <i
+                    className="icon icon_plus"
+                  />
+                </Icon>
+              </button>
+            </Button>
+          </div>
+        </IncrementDecrementButtons>
+      </div>
+      <div
+        className="baby-on-board--details"
+      >
+        <div
+          className="baby-on-board--icon"
+        />
+        <div
+          className="baby-on-board--text-wrapper"
+        >
+          <h4
+            className="baby-on-board--title"
+          >
+            Baby on board?
+          </h4>
+          <p
+            className="baby-on-board--desc"
+          >
+            A child over 14 days old and under 2 years of age on the date of travel may be carried on the lap of an accompanying Passenger 12 years of age or older. Taxes and fees may apply.
+          </p>
+          <Connect(ContentLink)
+            className="baby-on-board--content-link"
+          >
+            <ContentLink
+              className="baby-on-board--content-link"
+            >
+              <p
+                className="baby-on-board--content-link"
+              >
+                Learn more
+              </p>
+            </ContentLink>
+          </Connect(ContentLink)>
+        </div>
+      </div>
+    </div>
+  </SelectPassengersCountPage>
+</Provider>
+`;
+
+exports[`SelectPassengersCountPage click on plus button should show passenger count to 2 and baby-on-board text should not be visible when clicked on plus button for passenger item 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <SelectPassengersCountPage
+    goBack={[Function]}
+    location={
+      Object {
+        "search": "text",
+      }
+    }
+    match="this/is/path/to/selectPassengersCountPage"
+    passengerCountData={
+      Object {
+        "adultCount": 1,
+        "lapChildCount": 0,
+        "valueUpdated": false,
+      }
+    }
+    savePassengerCountFn={[Function]}
+    updateFormFieldDataValueFn={[Function]}
+  >
+    <div
+      className="select-passengers-count-page--wrapper"
+    >
+      <PageHeaderWithButtons
+        hidden={false}
+        leftButtons={Array []}
+        rightButtons={
+          Array [
+            Object {
+              "name": "Done",
+              "onClick": [Function],
+            },
+          ]
+        }
+        showBackButton={true}
+        title="Select Passengers"
+        titleInCenter={false}
+      >
+        <Connect(PageHeader)
+          className="action-bar"
+          hidden={false}
+        >
+          <PageHeader
+            className="action-bar"
+            hidden={false}
+            isWebView={false}
+            noPadding={false}
+          >
+            <div>
+              <div
+                className="page-header action-bar"
+                id=""
+              >
+                <div
+                  className="goback-link"
+                  onClick={[Function]}
+                >
+                  <Icon
+                    type="keyboard-arrow-left"
+                  >
+                    <i
+                      className="icon icon_keyboard-arrow-left"
+                    />
+                  </Icon>
+                </div>
+                <div
+                  className="action-bar--container"
+                >
+                  <div
+                    className="action-bar--title-align-center action-bar--title"
+                  >
+                    <span
+                      className="action-bar--main-title"
+                    >
+                      Select Passengers
+                    </span>
+                    <span
+                      className="action-bar--sub-title"
+                    />
+                  </div>
+                </div>
+                <ul
+                  className="action-bar-buttons action-bar--right-buttons"
+                >
+                  <li
+                    className="action-bar-buttons--item"
+                    key="0"
+                  >
+                    <Button
+                      onClick={[Function]}
+                    >
+                      <button
+                        className="button"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Done
+                      </button>
+                    </Button>
+                  </li>
+                </ul>
+              </div>
+              <Connect(ErrorHeaderContainer)>
+                <ErrorHeaderContainer>
+                  <div />
+                </ErrorHeaderContainer>
+              </Connect(ErrorHeaderContainer)>
+            </div>
+          </PageHeader>
+        </Connect(PageHeader)>
+      </PageHeaderWithButtons>
+      <div
+        className="select-passengers-count-page--list-item"
+      >
+        <div
+          className="text-wrapper"
+        >
+          <div
+            className="select-passengers-count-page--list-item-title"
+          >
+            Passengers
+          </div>
+          <span
+            className="select-passengers-count-page--list-item-desc"
+          >
+            (excluding Lap Children)
+          </span>
+        </div>
+        <IncrementDecrementButtons
+          isCircular={true}
+          maxValue={8}
+          minValue={1}
+          onIncrementDecrement={[Function]}
+          value={2}
+        >
+          <div
+            className="buttons-with-flex"
+          >
+            <Button
+              circular={true}
+              disabled={false}
+              icon="minus"
+              key="minus"
+              onClick={[Function]}
+              type="button"
+            >
+              <button
+                className="icon button circular"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                <Icon
+                  type="minus"
+                >
+                  <i
+                    className="icon icon_minus"
+                  />
+                </Icon>
+              </button>
+            </Button>
+            <div
+              className="selected-passenger-number"
+            >
+              2
+            </div>
+            <Button
+              circular={true}
+              disabled={false}
+              icon="plus"
+              key="plus"
+              onClick={[Function]}
+              type="button"
+            >
+              <button
+                className="icon button circular"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                <Icon
+                  type="plus"
+                >
+                  <i
+                    className="icon icon_plus"
+                  />
+                </Icon>
+              </button>
+            </Button>
+          </div>
+        </IncrementDecrementButtons>
+      </div>
+      <div
+        className="select-passengers-count-page--list-item-divider"
+      />
+      <div
+        className="select-passengers-count-page--list-item"
+      >
+        <div
+          className="text-wrapper"
+        >
+          <div
+            className="select-passengers-count-page--list-item-title"
+          >
+            Lap Children
+          </div>
+          <span
+            className="select-passengers-count-page--list-item-desc"
+          >
+            Age under 2
+          </span>
+        </div>
+        <IncrementDecrementButtons
+          isCircular={true}
+          maxValue={2}
+          minValue={0}
+          onIncrementDecrement={[Function]}
+          value={0}
+        >
+          <div
+            className="buttons-with-flex"
+          >
+            <Button
+              circular={true}
+              disabled={true}
+              icon="minus"
+              key="minus"
+              onClick={[Function]}
+              type="button"
+            >
+              <button
+                className="icon button circular"
+                disabled={true}
+                onClick={[Function]}
+                type="button"
+              >
+                <Icon
+                  type="minus"
+                >
+                  <i
+                    className="icon icon_minus"
+                  />
+                </Icon>
+              </button>
+            </Button>
+            <div
+              className="selected-passenger-number"
+            >
+              0
+            </div>
+            <Button
+              circular={true}
+              disabled={false}
+              icon="plus"
+              key="plus"
+              onClick={[Function]}
+              type="button"
+            >
+              <button
+                className="icon button circular"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                <Icon
+                  type="plus"
+                >
+                  <i
+                    className="icon icon_plus"
+                  />
+                </Icon>
+              </button>
+            </Button>
+          </div>
+        </IncrementDecrementButtons>
+      </div>
+    </div>
+  </SelectPassengersCountPage>
+</Provider>
+`;
+
+exports[`SelectPassengersCountPage render should render correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <SelectPassengersCountPage
+    goBack={[Function]}
+    location={
+      Object {
+        "search": "text",
+      }
+    }
+    match="this/is/path/to/selectPassengersCountPage"
+    passengerCountData={
+      Object {
+        "adultCount": 1,
+        "lapChildCount": 0,
+        "valueUpdated": false,
+      }
+    }
+    savePassengerCountFn={[Function]}
+    updateFormFieldDataValueFn={[Function]}
+  >
+    <div
+      className="select-passengers-count-page--wrapper"
+    >
+      <PageHeaderWithButtons
+        hidden={false}
+        leftButtons={Array []}
+        rightButtons={
+          Array [
+            Object {
+              "name": "Done",
+              "onClick": [Function],
+            },
+          ]
+        }
+        showBackButton={true}
+        title="Select Passengers"
+        titleInCenter={false}
+      >
+        <Connect(PageHeader)
+          className="action-bar"
+          hidden={false}
+        >
+          <PageHeader
+            className="action-bar"
+            hidden={false}
+            isWebView={false}
+            noPadding={false}
+          >
+            <div>
+              <div
+                className="page-header action-bar"
+                id=""
+              >
+                <div
+                  className="goback-link"
+                  onClick={[Function]}
+                >
+                  <Icon
+                    type="keyboard-arrow-left"
+                  >
+                    <i
+                      className="icon icon_keyboard-arrow-left"
+                    />
+                  </Icon>
+                </div>
+                <div
+                  className="action-bar--container"
+                >
+                  <div
+                    className="action-bar--title-align-center action-bar--title"
+                  >
+                    <span
+                      className="action-bar--main-title"
+                    >
+                      Select Passengers
+                    </span>
+                    <span
+                      className="action-bar--sub-title"
+                    />
+                  </div>
+                </div>
+                <ul
+                  className="action-bar-buttons action-bar--right-buttons"
+                >
+                  <li
+                    className="action-bar-buttons--item"
+                    key="0"
+                  >
+                    <Button
+                      onClick={[Function]}
+                    >
+                      <button
+                        className="button"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Done
+                      </button>
+                    </Button>
+                  </li>
+                </ul>
+              </div>
+              <Connect(ErrorHeaderContainer)>
+                <ErrorHeaderContainer>
+                  <div />
+                </ErrorHeaderContainer>
+              </Connect(ErrorHeaderContainer)>
+            </div>
+          </PageHeader>
+        </Connect(PageHeader)>
+      </PageHeaderWithButtons>
+      <div
+        className="select-passengers-count-page--list-item"
+      >
+        <div
+          className="text-wrapper"
+        >
+          <div
+            className="select-passengers-count-page--list-item-title"
+          >
+            Passengers
+          </div>
+          <span
+            className="select-passengers-count-page--list-item-desc"
+          >
+            (excluding Lap Children)
+          </span>
+        </div>
+        <IncrementDecrementButtons
+          isCircular={true}
+          maxValue={8}
+          minValue={1}
+          onIncrementDecrement={[Function]}
+          value={1}
+        >
+          <div
+            className="buttons-with-flex"
+          >
+            <Button
+              circular={true}
+              disabled={true}
+              icon="minus"
+              key="minus"
+              onClick={[Function]}
+              type="button"
+            >
+              <button
+                className="icon button circular"
+                disabled={true}
+                onClick={[Function]}
+                type="button"
+              >
+                <Icon
+                  type="minus"
+                >
+                  <i
+                    className="icon icon_minus"
+                  />
+                </Icon>
+              </button>
+            </Button>
+            <div
+              className="selected-passenger-number"
+            >
+              1
+            </div>
+            <Button
+              circular={true}
+              disabled={false}
+              icon="plus"
+              key="plus"
+              onClick={[Function]}
+              type="button"
+            >
+              <button
+                className="icon button circular"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                <Icon
+                  type="plus"
+                >
+                  <i
+                    className="icon icon_plus"
+                  />
+                </Icon>
+              </button>
+            </Button>
+          </div>
+        </IncrementDecrementButtons>
+      </div>
+      <div
+        className="select-passengers-count-page--list-item-divider"
+      />
+      <div
+        className="select-passengers-count-page--list-item"
+      >
+        <div
+          className="text-wrapper"
+        >
+          <div
+            className="select-passengers-count-page--list-item-title"
+          >
+            Lap Children
+          </div>
+          <span
+            className="select-passengers-count-page--list-item-desc"
+          >
+            Age under 2
+          </span>
+        </div>
+        <IncrementDecrementButtons
+          isCircular={true}
+          maxValue={1}
+          minValue={0}
+          onIncrementDecrement={[Function]}
+          value={0}
+        >
+          <div
+            className="buttons-with-flex"
+          >
+            <Button
+              circular={true}
+              disabled={true}
+              icon="minus"
+              key="minus"
+              onClick={[Function]}
+              type="button"
+            >
+              <button
+                className="icon button circular"
+                disabled={true}
+                onClick={[Function]}
+                type="button"
+              >
+                <Icon
+                  type="minus"
+                >
+                  <i
+                    className="icon icon_minus"
+                  />
+                </Icon>
+              </button>
+            </Button>
+            <div
+              className="selected-passenger-number"
+            >
+              0
+            </div>
+            <Button
+              circular={true}
+              disabled={false}
+              icon="plus"
+              key="plus"
+              onClick={[Function]}
+              type="button"
+            >
+              <button
+                className="icon button circular"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                <Icon
+                  type="plus"
+                >
+                  <i
+                    className="icon icon_plus"
+                  />
+                </Icon>
+              </button>
+            </Button>
+          </div>
+        </IncrementDecrementButtons>
+      </div>
+    </div>
+  </SelectPassengersCountPage>
+</Provider>
+`;

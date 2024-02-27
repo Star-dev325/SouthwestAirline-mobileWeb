@@ -1,0 +1,84 @@
+.my-account-panel {
+  @include overflow-hidden;
+  @include rd3;
+
+  .icon_keyboard-arrow-right {
+    @include gray2;
+  }
+
+  .panel--heading {
+    @include white;
+    @include bgpdkblue;
+    @include lineheight10;
+    @include bold;
+    padding: 1em;
+    font-size: 1.3em;
+    text-transform: capitalize;
+
+    & > .pre-text {
+      @include yellow;
+      @include regular;
+      @include italic;
+      margin-right: 0.3em;
+    }
+  }
+
+  .panel--body {
+    @include bgwhite;
+
+    .vertical-fill {
+      .icon_keyboard-arrow-right {
+        @include xxlarge;
+        right: -1rem;
+      }
+
+      .horizontal-fill {
+        .icon_keyboard-arrow-right {
+          right: -2.2rem;
+        }
+      }
+    }
+
+    .get-details {
+      @include white;
+
+      .icon {
+        top: 0.2em;
+        font-size: 1.2em;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .pts-group {
+      padding-bottom: 0.7rem;
+    }
+
+    .segment-border-top {
+      border-top: 1px solid $gray2;
+    }
+
+    .tier-status-group--rr-font {
+      @include relative;
+      font-size: 1.2em;
+      letter-spacing: -0.5px;
+      font-weight: 400;
+    }
+
+    .tier-status-group--label {
+      margin-top: 1.5rem;
+    }
+  }
+
+  &.not-enrolled {
+    .panel--heading {
+      @include bgsblue;
+    }
+  }
+}
+
+.my-account-panel + .my-account-panel {
+  margin-top: 0.8em;
+}

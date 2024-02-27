@@ -1,0 +1,24 @@
+.my-account-panel-header {
+  @include center;
+  @include lineheight16;
+  @include p3;
+  @include white;
+  @include bgpdkblue;
+  @include bold;
+  @include larger;
+  @include rd3;
+}
+
+.my-account-panel-header--congratulations {
+  @include xlarge;
+  @include mr4;
+  @include p0;
+  @include green;
+  @include bgwhite;
+  @include center;
+  @include circle;
+  @include lineheight16;
+
+  width: 28px;
+  height: 28px;
+}

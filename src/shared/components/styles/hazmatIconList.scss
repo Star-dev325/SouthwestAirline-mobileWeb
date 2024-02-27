@@ -1,0 +1,73 @@
+.hazmat-icon-list-grid {
+  @include flex-row;
+  @include pb6;
+}
+
+.hazmat-icon-list-row {
+  @include pt6;
+  @include flex;
+  @include flex-row;
+  @include flex-no-wrap;
+  @include flex-main-around;
+  @include flex-cross-center;
+  @include flex-wrap-stretch;
+}
+
+.hazard {
+  @include pr1;
+  @include flex;
+  @include flex-column;
+  @include flex-no-wrap;
+  @include flex-main-around;
+  @include flex-cross-center;
+  @include flex-wrap-center;
+}
+
+.icon-title {
+  @include center;
+  @include p2;
+}
+
+.hazmat-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+}
+
+.hazmat-icon--ic-ecig {
+  background-image: image-url('hazmat/ic-ecig.svg');
+  width: 41px;
+}
+
+.hazmat-icon--ic-batteries {
+  background-image: image-url('hazmat/ic-batteries.svg');
+}
+
+.hazmat-icon--ic-corrosives {
+  background-image: image-url('hazmat/ic-corrosives.svg');
+}
+
+.hazmat-icon--ic-explosives {
+  background-image: image-url('hazmat/ic-explosives.svg');
+}
+
+.hazmat-icon--ic-flammable {
+  background-image: image-url('hazmat/ic-flammable.svg');
+}
+
+.hazmat-icon--ic-gases {
+  background-image: image-url('hazmat/ic-gases.svg');
+}
+
+.hazmat-icon--ic-oxidizers {
+  background-image: image-url('hazmat/ic-oxidizers.svg');
+}
+
+.hazmat-icon--ic-poison {
+  background-image: image-url('hazmat/ic-poison.svg');
+}
+
+.hazmat-icon--ic-radioactive {
+  background-image: image-url('hazmat/ic-radioactive.svg');
+}

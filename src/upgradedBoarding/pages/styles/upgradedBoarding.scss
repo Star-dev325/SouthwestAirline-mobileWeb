@@ -1,0 +1,36 @@
+.upgraded-boarding--content {
+  .reservation-retrieval-form {
+    .field {
+      @include bdt;
+      @include bdgray2;
+    }
+
+    .input {
+      @include bdb-none;
+    }
+  }
+
+  .form .field--error-msg {
+    @include bgwhite;
+    @include small;
+    @include pt0;
+    @include pr5;
+    @include pb5;
+    @include pl5;
+  }
+}
+
+.is-webview {
+  &.upgraded-boarding-page {
+    @include for-tablet-and-up {
+      @include bgpdkblue;
+
+      .upgraded-boarding--content {
+        @include tablet-content-frame-lg;
+        @include mx-auto;
+        @include tablet-content-margins;
+        @include bggray2;
+      }
+    }
+  }
+}

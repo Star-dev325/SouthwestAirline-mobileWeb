@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="10">
+
+  <testsuite name="airBooking.airBookingBackForwardTest"
+    errors="0" failures="0" hostname="" id="" package="airBooking" skipped="0"
+    tests="10" time="126.4" timestamp="Fri, 15 Dec 2023 00:24:21 GMT">
+  
+    <testcase name="Go to air booking from nav drawer" classname="airBooking.airBookingBackForwardTest" time="50.96" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Open airport selector and back forward" classname="airBooking.airBookingBackForwardTest" time="19.95" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Open calendar and click browser back to close" classname="airBooking.airBookingBackForwardTest" time="5.124" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Open calendar again and click done to close" classname="airBooking.airBookingBackForwardTest" time="4.725" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find flight from Austin to Atlanta with LFC Dollars and back" classname="airBooking.airBookingBackForwardTest" time="17.78" assertions="19">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find flight from Austin to Atlanta with Dollars" classname="airBooking.airBookingBackForwardTest" time="8.337" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select flights for adult" classname="airBooking.airBookingBackForwardTest" time="6.331" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check price summary and continue" classname="airBooking.airBookingBackForwardTest" time="2.457" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Input shareItineraryEmail then back to price summary and continue" classname="airBooking.airBookingBackForwardTest" time="5.006" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter adult passenger details" classname="airBooking.airBookingBackForwardTest" time="5.739" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

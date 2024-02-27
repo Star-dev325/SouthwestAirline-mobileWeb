@@ -1,0 +1,15 @@
+.icon_tsa-precheck {
+  @include mr4;
+  @include inline-block;
+  @include align-middle;
+  background-image: image-url('/tsaPrecheck/tsa-pre.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 15px;
+}
+
+.passenger-reservation-info--passenger-name {
+  @include block;
+  @include truncate;
+}

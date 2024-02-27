@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flightTimeAndStatus when flightStatus is given should render correctly when the flight is delayed 1`] = `
+<span
+  class="segment-status-col flight-status negative"
+>
+  <i
+    class="icon icon_home-flight-status"
+  />
+  <span
+    class="flight-status--text"
+  >
+    DELAYED
+  </span>
+  <p
+    class="flight-status--sub-text"
+  >
+     
+    (was 
+    7:00
+    <span
+      class="time-period--subtext"
+    >
+      PM
+    </span>
+    )
+  </p>
+</span>
+`;
+
+exports[`flightTimeAndStatus when initialize should render properly 1`] = `
+<div>
+  <div
+    class="flight-time-status flight-time-status--on-time"
+  >
+    <div>
+      <span
+        class="segment-status-col flight-status positive"
+      >
+        <i
+          class="icon icon_home-flight-status"
+        />
+        <span
+          class="flight-status--text"
+        >
+          ON TIME
+        </span>
+      </span>
+    </div>
+    <div
+      class="flight-time"
+    >
+      <div
+        class="flight-time--time"
+      >
+        <span>
+          7:15
+        </span>
+        <span
+          class="time-period"
+        >
+          PM
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

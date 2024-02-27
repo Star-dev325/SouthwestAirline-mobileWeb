@@ -1,0 +1,11 @@
+.home-hero-item {
+  &--background-image {
+    @include fullwidth;
+  }
+
+  &--front-image {
+    @include absolute;
+    @include l0;
+    @include fullwidth;
+  }
+}

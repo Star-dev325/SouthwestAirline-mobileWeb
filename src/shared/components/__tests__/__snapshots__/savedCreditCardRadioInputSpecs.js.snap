@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SavedCreditCardRadioInput should not show last 4 digits when it is a chase credit card 1`] = `
+<CreditCardRadioInput
+  name="RAPID REWARDS® VISA"
+  onClick={[Function]}
+  savedCreditCardId="RAPID_REWARDS_VISA_ID"
+  selected={false}
+  type="INSTANT_CREDIT_RAPID_REWARDS_VISA"
+/>
+`;
+
+exports[`SavedCreditCardRadioInput should not show last 4 digits when it is a new credit card 1`] = `
+<CreditCardRadioInput
+  name="Use new credit card"
+  onClick={[Function]}
+  savedCreditCardId="NEW_CREDIT_CARD_ID"
+  selected={false}
+  type="NEW"
+/>
+`;
+
+exports[`SavedCreditCardRadioInput should not show last 4 digits when it is a paypal card 1`] = `
+<CreditCardRadioInput
+  name="Use PayPal"
+  onClick={[Function]}
+  savedCreditCardId="PAY_PAL_CARD_ID"
+  selected={false}
+  type="PAYPAL"
+>
+  <div
+    className="flex gray5 additional-info-container"
+  >
+    <div
+      className="mr1"
+    >
+      Buy now or pay later
+    </div>
+  </div>
+</CreditCardRadioInput>
+`;
+
+exports[`SavedCreditCardRadioInput should not show last 4 digits when it is an apple pay card 1`] = `
+<CreditCardRadioInput
+  name="Use Apple Pay"
+  onClick={[Function]}
+  savedCreditCardId="APPLE_PAY_CARD_ID"
+  selected={false}
+  type="APPLE_PAY"
+/>
+`;
+
+exports[`SavedCreditCardRadioInput should not show last 4 digits when it is ghost card 1`] = `
+<CreditCardRadioInput
+  name="First Ghost Card"
+  onClick={[Function]}
+  savedCreditCardId="First Ghost Card"
+  selected={false}
+  type="GHOST_CARD"
+/>
+`;
+
+exports[`SavedCreditCardRadioInput should not show last 4 digits when its new disabled credit card 1`] = `
+<CreditCardRadioInput
+  name="MasterCard"
+  onClick={[Function]}
+  savedCreditCardId="MASTERCARD"
+  selected={false}
+  type="NEW_DISABLED"
+/>
+`;
+
+exports[`SavedCreditCardRadioInput should not show last 4 digits when new credit card has been added 1`] = `
+<CreditCardRadioInput
+  name="MasterCard"
+  onClick={[Function]}
+  savedCreditCardId="MASTERCARD"
+  selected={false}
+  type="NEW"
+/>
+`;
+
+exports[`SavedCreditCardRadioInput should show Just added! text when justAdded is true 1`] = `
+<CreditCardRadioInput
+  name="RAPID REWARDS® VISA"
+  onClick={[Function]}
+  savedCreditCardId="RAPID_REWARDS_VISA_ID"
+  selected={false}
+  type="INSTANT_CREDIT_RAPID_REWARDS_VISA"
+>
+  <div>
+    <div
+      className="small green bold mt2"
+    >
+      Just added!
+    </div>
+  </div>
+</CreditCardRadioInput>
+`;
+
+exports[`SavedCreditCardRadioInput should show additional info container for ghost card if additionalInfoMessage has value 1`] = `
+<CreditCardRadioInput
+  name="First Ghost Card"
+  onClick={[Function]}
+  savedCreditCardId="First Ghost Card"
+  selected={false}
+  type="GHOST_CARD"
+>
+  <div
+    className="flex additional-info-container gray5"
+  >
+    <div
+      className="mr1"
+    >
+      Tap to select a different corporate card
+    </div>
+  </div>
+  <div
+    className="flex gray5 additional-info-container"
+  >
+    <div
+      className="red bold"
+      data-qa="expired-credit-card"
+    >
+      EXPIRED
+    </div>
+  </div>
+</CreditCardRadioInput>
+`;
+
+exports[`SavedCreditCardRadioInput should show additional info container when type is ghost card and its expired 1`] = `
+<CreditCardRadioInput
+  name="First Ghost Card"
+  onClick={[Function]}
+  savedCreditCardId="First Ghost Card"
+  selected={false}
+  type="GHOST_CARD"
+>
+  <div
+    className="flex gray5 additional-info-container"
+  >
+    <div
+      className="red bold"
+      data-qa="expired-credit-card"
+    >
+      EXPIRED
+    </div>
+  </div>
+</CreditCardRadioInput>
+`;
+
+exports[`SavedCreditCardRadioInput should show additionalInfoLink text when passed in 1`] = `
+<CreditCardRadioInput
+  name="Pay Monthly"
+  onClick={[Function]}
+  savedCreditCardId="UPLIFT_CARD_ID"
+  selected={false}
+  type="UPLIFT"
+>
+  <div
+    className="flex medium pblue"
+  >
+    <span>
+      Learn More
+    </span>
+  </div>
+</CreditCardRadioInput>
+`;
+
+exports[`SavedCreditCardRadioInput should show last 4 digits when it is VISA credit card 1`] = `
+<CreditCardRadioInput
+  name="VISA Card"
+  onClick={[Function]}
+  savedCreditCardId="1-YNA593"
+  selected={false}
+  type="VISA"
+>
+  <div
+    className="flex gray5 additional-info-container"
+  >
+    <div
+      className="mr1"
+    >
+      Last 4 digits: 
+    </div>
+    <div
+      className="bold"
+    />
+  </div>
+</CreditCardRadioInput>
+`;
+
+exports[`SavedCreditCardRadioInput should show the Paypal text when it is a paypal card 1`] = `
+<CreditCardRadioInput
+  name="Use PayPal"
+  onClick={[Function]}
+  savedCreditCardId="PAY_PAL_CARD_ID"
+  selected={false}
+  type="PAYPAL"
+>
+  <div
+    className="flex gray5 additional-info-container"
+  >
+    <div
+      className="mr1"
+    >
+      Buy now or pay later
+    </div>
+  </div>
+</CreditCardRadioInput>
+`;

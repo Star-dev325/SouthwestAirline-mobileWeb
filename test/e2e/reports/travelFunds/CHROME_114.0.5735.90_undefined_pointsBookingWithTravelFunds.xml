@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="17">
+
+  <testsuite name="travelFunds.pointsBookingWithTravelFunds"
+    errors="0" failures="0" hostname="" id="" package="travelFunds" skipped="0"
+    tests="17" time="82.00" timestamp="Fri, 15 Dec 2023 02:08:07 GMT">
+  
+    <testcase name="Go to air booking from nav drawer" classname="travelFunds.pointsBookingWithTravelFunds" time="32.39" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find one-way flight from Austin to Atlanta with Points" classname="travelFunds.pointsBookingWithTravelFunds" time="20.30" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check reprice / price summary and continue" classname="travelFunds.pointsBookingWithTravelFunds" time="3.175" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Login with Account" classname="travelFunds.pointsBookingWithTravelFunds" time="9.071" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Open Apply Travel Funds form and add a travel fund" classname="travelFunds.pointsBookingWithTravelFunds" time="6.612" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Apply page rendered funds list and price total" classname="travelFunds.pointsBookingWithTravelFunds" time="0.4130" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify analytics TravelFundsStore for travelFunds" classname="travelFunds.pointsBookingWithTravelFunds" time="0.01900" assertions="0">
+    </testcase>
+  
+    <testcase name="Apply a gift card and verify that fund rendered correctly" classname="travelFunds.pointsBookingWithTravelFunds" time="2.858" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify analytics TravelFundsStore for gift card" classname="travelFunds.pointsBookingWithTravelFunds" time="0.03100" assertions="0">
+    </testcase>
+  
+    <testcase name="Apply a luv voucher and verify that fund rendered correctly" classname="travelFunds.pointsBookingWithTravelFunds" time="1.645" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify analytics TravelFundsStore for luv voucher" classname="travelFunds.pointsBookingWithTravelFunds" time="0.03300" assertions="0">
+    </testcase>
+  
+    <testcase name="Remove a fund" classname="travelFunds.pointsBookingWithTravelFunds" time="0.4750" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Remove another fund after session expired" classname="travelFunds.pointsBookingWithTravelFunds" time="0.5290" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Back to purchase review page after session expired again" classname="travelFunds.pointsBookingWithTravelFunds" time="1.406" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify purchase page" classname="travelFunds.pointsBookingWithTravelFunds" time="0.1430" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Purchase flight" classname="travelFunds.pointsBookingWithTravelFunds" time="2.379" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="On confirmation Page" classname="travelFunds.pointsBookingWithTravelFunds" time="0.5240" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

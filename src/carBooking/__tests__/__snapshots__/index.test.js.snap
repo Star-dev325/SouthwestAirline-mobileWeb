@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarBooking should render CarBooking route page 1`] = `
+<div>
+  <div
+    class="car-booking"
+  >
+    <div>
+      Car Booking Landing Page
+    </div>
+  </div>
+</div>
+`;

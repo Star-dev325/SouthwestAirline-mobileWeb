@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="viewReservation.viewAirReservationUpdateAPISTest"
+    errors="0" failures="0" hostname="" id="" package="viewReservation" skipped="0"
+    tests="6" time="54.62" timestamp="Fri, 15 Dec 2023 02:15:16 GMT">
+  
+    <testcase name="Find flight reservation through confirmation number" classname="viewReservation.viewAirReservationUpdateAPISTest" time="34.34" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify view trip details page and passport status" classname="viewReservation.viewAirReservationUpdateAPISTest" time="0.1860" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to passport page" classname="viewReservation.viewAirReservationUpdateAPISTest" time="3.174" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="See passport page" classname="viewReservation.viewAirReservationUpdateAPISTest" time="0.1660" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Fill the Passport page" classname="viewReservation.viewAirReservationUpdateAPISTest" time="16.54" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify back to view trips details page and passport status" classname="viewReservation.viewAirReservationUpdateAPISTest" time="0.2150" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

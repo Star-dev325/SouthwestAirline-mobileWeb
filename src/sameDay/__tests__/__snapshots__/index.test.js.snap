@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SameDay Should render SameDay route page 1`] = `
+<div>
+  <div
+    class="same-day"
+  />
+</div>
+`;

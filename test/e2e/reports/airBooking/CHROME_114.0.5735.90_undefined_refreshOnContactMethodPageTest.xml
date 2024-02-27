@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="7">
+
+  <testsuite name="airBooking.refreshOnContactMethodPageTest"
+    errors="0" failures="0" hostname="" id="" package="airBooking" skipped="0"
+    tests="7" time="83.22" timestamp="Fri, 15 Dec 2023 00:52:23 GMT">
+  
+    <testcase name="Go to book a flight" classname="airBooking.refreshOnContactMethodPageTest" time="32.03" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find flight from Austin to Atlanta with Dollars" classname="airBooking.refreshOnContactMethodPageTest" time="17.94" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select flights" classname="airBooking.refreshOnContactMethodPageTest" time="1.946" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check reprice / price summary and continue" classname="airBooking.refreshOnContactMethodPageTest" time="3.153" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter adult passenger details" classname="airBooking.refreshOnContactMethodPageTest" time="7.810" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Refresh on contact method page" classname="airBooking.refreshOnContactMethodPageTest" time="5.986" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify going to airBooking flow entry instead of home page" classname="airBooking.refreshOnContactMethodPageTest" time="14.36" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

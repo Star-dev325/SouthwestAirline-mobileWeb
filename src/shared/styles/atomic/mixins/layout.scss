@@ -1,0 +1,84 @@
+@mixin inline {
+  display: inline;
+}
+@mixin block {
+  display: block;
+}
+@mixin inline-block {
+  display: inline-block;
+}
+@mixin table {
+  display: table;
+}
+@mixin table-cell {
+  display: table-cell;
+}
+@mixin table-row {
+  display: table-row;
+}
+@mixin table-header-group {
+  display: table-header-group;
+}
+@mixin hide {
+  display: none !important;
+}
+
+@mixin invisible {
+  visibility: hidden;
+}
+@mixin visible {
+  visibility: visible;
+}
+@mixin opacity-zero {
+  opacity: 0;
+}
+
+@mixin overflow-hidden {
+  overflow: hidden;
+}
+@mixin overflow-scroll {
+  overflow: scroll;
+}
+@mixin overflow-auto {
+  overflow: auto;
+}
+
+@mixin overflow-y-scroll {
+  overflow-y: scroll;
+}
+@mixin overflow-y-auto {
+  overflow-y: auto;
+}
+@mixin overflow-y-clip {
+  overflow-y: clip;
+}
+@mixin overflow-x-clip {
+  overflow-x: clip;
+}
+
+@mixin float-none {
+  float: none;
+}
+@mixin left {
+  float: left;
+}
+@mixin right {
+  float: right;
+}
+
+@mixin fit {
+  max-width: 100%;
+}
+@mixin fullwidth {
+  width: 100%;
+}
+@mixin halfwidth {
+  width: 50%;
+}
+@mixin fullheight {
+  height: 100%;
+}
+
+@mixin no-bullets {
+  list-style: none;
+}

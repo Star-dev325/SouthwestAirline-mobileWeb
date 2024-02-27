@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "search": {
+      "type": "object",
+      "properties": {
+        "pnr": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "pnr"
+      ]
+    },
+    "details": {
+      "type": "object",
+      "properties": {
+        "recordLocator": {
+          "type": "string"
+        },
+        "isOnStandby": {
+          "type": [
+            "boolean",
+            null
+          ]
+        },
+        "isSwabiz": {
+          "type": [
+            "boolean",
+            null
+          ]
+        },
+        "isReaccom": {
+          "type": [
+            "boolean",
+            null
+          ]
+        },
+        "isMultiPax": {
+          "type": [
+            "boolean",
+            null
+          ]
+        },
+        "daysToTrip": {
+          "type": [
+            "number",
+            null
+          ]
+        },
+        "gdsTicketType": {
+          "type": [
+            "string",
+            null
+          ]
+        },
+        "isInternational": {
+          "type": "boolean"
+        },
+        "checkInButton": {
+          "type": [
+            "boolean",
+            null
+          ]
+        },
+        "change": {
+          "type": "object",
+          "properties": {
+            "firstname": {
+              "type": "boolean"
+            },
+            "middlename": {
+              "type": "boolean"
+            },
+            "lastname": {
+              "type": "boolean"
+            }
+          }
+        }
+      },
+      "additionalProperties": false,
+      "required": []
+    },
+    "isnonrev": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "search",
+    "details"
+  ]
+}

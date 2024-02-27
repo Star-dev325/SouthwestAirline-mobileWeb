@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="8">
+
+  <testsuite name="airBooking.chasePriceFlowTest"
+    errors="0" failures="1" hostname="" id="" package="airBooking" skipped="4"
+    tests="8" time="92.01" timestamp="Fri, 15 Dec 2023 00:41:09 GMT">
+  
+    <testcase name="Go to air booking from nav drawer" classname="airBooking.chasePriceFlowTest" time="34.54" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find one-way domestic flight with dollars" classname="airBooking.chasePriceFlowTest" time="39.77" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select flights" classname="airBooking.chasePriceFlowTest" time="2.794" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check price summary and continue" classname="airBooking.chasePriceFlowTest" time="14.92" assertions="1">  <failure message="Timed out while waiting for element &lt;[data-qa=&#34;chase&#34;]&gt; to be present for 10000 milliseconds.">    at Object.Check price summary and continue (/Users/x311032/spa-mobile-web/test/e2e/tests/airBooking/chasePriceFlowTest.js:39:8)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Check reprice / price summary and continue" classname="airBooking.chasePriceFlowTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Enter adult passenger details" classname="airBooking.chasePriceFlowTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Select to use chase" classname="airBooking.chasePriceFlowTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify chase is selected" classname="airBooking.chasePriceFlowTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

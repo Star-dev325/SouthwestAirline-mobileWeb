@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="7">
+
+  <testsuite name="checkIn.checkInWithSpecialAssistance"
+    errors="0" failures="0" hostname="" id="" package="checkIn" skipped="0"
+    tests="7" time="45.52" timestamp="Fri, 15 Dec 2023 01:34:48 GMT">
+  
+    <testcase name="go to check in" classname="checkIn.checkInWithSpecialAssistance" time="28.07" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Login user" classname="checkIn.checkInWithSpecialAssistance" time="7.765" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search for a reservation" classname="checkIn.checkInWithSpecialAssistance" time="3.847" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check in confirmation page" classname="checkIn.checkInWithSpecialAssistance" time="0.4990" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to Mobile Boarding Pass" classname="checkIn.checkInWithSpecialAssistance" time="2.111" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Hazmat Declaration page and tap Continue button" classname="checkIn.checkInWithSpecialAssistance" time="2.848" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Mobile boarding pass page has Special Assistance SSR" classname="checkIn.checkInWithSpecialAssistance" time="0.3870" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

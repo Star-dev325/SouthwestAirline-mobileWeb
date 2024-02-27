@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Offer Apply Error For Native Page should render Offer Apply Error For Native Page correctly 1`] = `
+<div>
+  <div
+    class="mt7"
+  >
+    <div
+      class="trip-booked custom-container bgpdkblue white"
+    >
+      <div
+        class="trip-booked--content"
+      >
+        <div
+          class="swa-message p0 small error"
+        >
+          <span
+            class="icon-container"
+          >
+            <i
+              class="icon icon_exclamation"
+            />
+          </span>
+          <span
+            class="message--text"
+          >
+            <h3
+              class="xxlarge bold white inline-block"
+            >
+              CHASE_NATIVE_ERROR_TITLE
+            </h3>
+          </span>
+        </div>
+        <div
+          class="mt4"
+        >
+          <p
+            class="larger white"
+          >
+            CHASE_NATIVE_ERROR_INSTRUCTION_MAIN
+          </p>
+          <p
+            class="medium white mt2"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

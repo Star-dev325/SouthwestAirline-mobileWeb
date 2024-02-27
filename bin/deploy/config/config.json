@@ -1,0 +1,18 @@
+{
+  "dev1": {
+    "url": "https://opcon-np.swacorp.com",
+    "jobId": "1272657"
+  },
+  "dev2": {
+    "url": "https://opcon-np.swacorp.com",
+    "jobId": "1272657"
+  },
+  "itest1": {
+    "url": "https://opcon-np.swacorp.com",
+    "jobId": "1272657"
+  },
+  "itest2": {
+    "url": "https://opcon-np.swacorp.com",
+    "jobId": "1272657"
+  }
+}

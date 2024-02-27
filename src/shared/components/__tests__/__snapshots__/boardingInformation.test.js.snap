@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BoardingInformation should render the boarding gate, group and position 1`] = `
+<div>
+  <div
+    class="boarding-info boarding-information center pt5 pb5 mt3"
+  >
+    <div
+      class="boarding-information--item-row"
+    >
+      <div
+        class="boarding-information--item"
+      >
+        <div
+          class="boarding-information--item-label"
+        >
+          SHARED__BOARDING_INFORMATION__GATE
+        </div>
+        <div
+          class="boarding-information--item-info"
+        >
+          12
+        </div>
+      </div>
+      <div
+        class="boarding-information--item"
+      >
+        <div
+          class="boarding-information--item-label"
+        >
+          SHARED__BOARDING_INFORMATION__GROUP
+        </div>
+        <div
+          class="boarding-information--item-info"
+        >
+          B
+        </div>
+      </div>
+      <div
+        class="boarding-information--item"
+      >
+        <div
+          class="boarding-information--item-label"
+        >
+          SHARED__BOARDING_INFORMATION__POSITION
+        </div>
+        <div
+          class="boarding-information--item-info_right"
+        >
+          19
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BoardingInformation should render the boarding group and position, but not the boarding gate 1`] = `
+<div>
+  <div
+    class="boarding-info boarding-information center pt5 pb5 mt3"
+  >
+    <div
+      class="boarding-information--without-gate"
+    >
+      <span>
+        <span
+          class="without-gate--item-label"
+        >
+          SHARED__BOARDING_INFORMATION__BOARDING_GROUP
+        </span>
+        <span
+          class="without-gate--item-content"
+        >
+           
+          A
+           
+        </span>
+      </span>
+      <span
+        class="without-gate--item-row"
+      >
+        <span
+          class="without-gate--item-label"
+        >
+          SHARED__BOARDING_INFORMATION__POSITION
+        </span>
+        <span
+          class="without-gate--item-content"
+        >
+           
+          18
+           
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BoardingInformation should render the boarding group and position, but render the gate as not yet available 1`] = `
+<div>
+  <div
+    class="boarding-info boarding-information center pt5 pb5 mt3"
+  >
+    <div
+      class="boarding-information--item-row"
+    >
+      <div
+        class="boarding-information--item"
+      >
+        <div
+          class="boarding-information--item-label"
+        >
+          SHARED__BOARDING_INFORMATION__GATE
+        </div>
+        <div
+          class="boarding-information--item-info"
+        >
+          ---
+        </div>
+      </div>
+      <div
+        class="boarding-information--item"
+      >
+        <div
+          class="boarding-information--item-label"
+        >
+          SHARED__BOARDING_INFORMATION__GROUP
+        </div>
+        <div
+          class="boarding-information--item-info"
+        >
+          C
+        </div>
+      </div>
+      <div
+        class="boarding-information--item"
+      >
+        <div
+          class="boarding-information--item-label"
+        >
+          SHARED__BOARDING_INFORMATION__POSITION
+        </div>
+        <div
+          class="boarding-information--item-info_right"
+        >
+          20
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

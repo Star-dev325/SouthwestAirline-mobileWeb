@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightStatus should render FlightStatus route page 1`] = `
+<div>
+  <div>
+    Flight Status Page
+  </div>
+</div>
+`;

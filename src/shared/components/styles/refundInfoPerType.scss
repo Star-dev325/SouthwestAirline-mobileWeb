@@ -1,0 +1,25 @@
+.refund-info-per-type {
+  @include xlarge;
+
+  .price-line--title {
+    @include bold;
+    @include xlarge;
+    @include pdkblue;
+  }
+
+  .price-line--currency_total {
+    @include xxxlarge;
+    @include bold;
+    @include pdkblue;
+  }
+}
+
+.refund-info-per-type--price-total-line_credit {
+  .price-line--title {
+    @include green;
+  }
+
+  .price-line--currency_total {
+    @include green;
+  }
+}

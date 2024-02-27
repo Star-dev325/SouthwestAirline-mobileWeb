@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApplyRapidRewardsForm should render correct component 1`] = `
+<body>
+  <div>
+    <form
+      class="form"
+      name="apply-rapid-rewards-points--form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="field"
+        >
+          <div
+            class="apply-rapid-reward-points-radio-input rr-points-list"
+          >
+            <p
+              class="rr-points-list--title"
+              data-qa="rr-points-list--title"
+            >
+              SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+            </p>
+          </div>
+        </div>
+        <div
+          class="apply-points-section segment"
+        >
+          <button
+            class="apply-points-button points-button-disabled button button--fluid larger button--grey"
+            role="submit"
+            type="submit"
+          >
+            SPLIT_PAY_PAGE__APPLY_POINTS_BUTTON
+          </button>
+          <p
+            class="split-pay-disclaimer"
+          >
+            SPLIT_PAY_PAGE__TERMS_AND_CONDITIONS
+          </p>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</body>
+`;

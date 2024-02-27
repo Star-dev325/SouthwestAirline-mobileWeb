@@ -1,0 +1,62 @@
+.shopping-recent-search {
+  @include attach-top;
+
+  .recent-search {
+    &:nth-child(1) {
+      .ui.segment {
+        border-top: 0;
+      }
+    }
+
+    .ui.segment {
+      margin-top: -1px;
+      border-top: 1px solid $gray3;
+      border-bottom: 1px solid $gray3;
+    }
+
+    .meta {
+      @include gray5;
+    }
+  }
+
+  .recent-search--currency-type {
+    @include italic;
+  }
+
+  .no-recent-searches {
+    @include white;
+    @include bgpdkblue;
+    font-size: 1.2em;
+  }
+}
+
+.is-webview {
+  .shopping-recent-search {
+    @include for-tablet-and-up {
+      @include bg-flight-status;
+      @include overflow-y-scroll;
+      bottom: 0;
+    }
+
+    .recent-search-list {
+      @include for-tablet-and-up {
+        @include tablet-content-frame;
+        margin: 40px auto;
+      }
+    }
+
+    .no-recent-searches {
+      @include for-tablet-and-up {
+        background: none;
+      }
+    }
+  }
+
+  .car-booking {
+    .shopping-recent-search {
+      @include for-tablet-and-up {
+        @include bg-car-booking;
+      }
+    }
+  }
+}

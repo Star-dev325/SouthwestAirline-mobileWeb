@@ -1,0 +1,18 @@
+.early-bird-in-path-breakdown {
+  &--message {
+    @include bgwhite;
+    @include bdb;
+    @include gray5;
+    @include medium;
+    @include py4;
+    @include px5;
+  }
+
+  &--eligibility-verbiage-reasons {
+    @include small;
+    @include gray4;
+    @include italic;
+    @include px5;
+    @include pt2;
+  }
+}

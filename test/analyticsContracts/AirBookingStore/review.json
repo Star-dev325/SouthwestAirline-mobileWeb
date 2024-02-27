@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "review": {
+      "type": "object",
+      "properties": {
+        "contactMethod": {
+          "type": "string",
+          "enum": ["EMAIL", "CALL", "TEXT"]
+        },
+        "purposeOfTravel": {
+          "type": "string",
+          "enum": ["", "PERSONAL", "BUSINESS", "BOTH"]
+        },
+        "earlyBirdOptionShown": {
+          "type": "boolean"
+        },
+        "earlyBirdOptionSelected": {
+          "type": "boolean"
+        },
+        "contactMethodSaved": {
+          "type": "boolean"
+        },
+        "earlyBirdBasePriceCents": {
+          "type": ["integer", "null"]
+        },
+        "earlyBirdEstimatedTotalCents": {
+          "type": ["integer", "null"]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "contactMethod",
+        "purposeOfTravel",
+        "earlyBirdOptionShown",
+        "earlyBirdOptionSelected",
+        "earlyBirdBasePriceCents",
+        "earlyBirdEstimatedTotalCents"
+      ]
+    }
+  },
+  "required": [
+    "review"
+  ]
+}

@@ -1,0 +1,20 @@
+.error-404-page--icon {
+  height: 3rem;
+  width: 3rem;
+}
+
+.error-404-page--body {
+  p {
+    @include pb6;
+
+    &:last-of-type {
+      @include pb1;
+    }
+  }
+
+  li {
+    @include ml5;
+    @include pb6;
+    @include mt0;
+  }
+}

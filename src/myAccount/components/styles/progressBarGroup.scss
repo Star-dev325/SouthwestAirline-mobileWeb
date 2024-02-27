@@ -1,0 +1,113 @@
+.progress-bar-group {
+  @include relative;
+}
+
+.read-more-content {
+  @include p8;
+  @include bggray3;
+}
+
+.progress-bar-group--label {
+  @include large;
+  @include center;
+  @include italic;
+  @include mt5;
+  letter-spacing: -0.5px;
+
+  strong {
+    @include not-italic;
+  }
+}
+
+.progress-bar-group--status {
+  @include large;
+  @include flex;
+  @include flex-main-center;
+  @include flex-cross-center;
+  @include fullwidth;
+  @include py5;
+  @include px6;
+  letter-spacing: -0.5px;
+}
+
+.progress-bar-group--status-col {
+  @include relative;
+}
+
+.progress-bar-group--status-col-graph {
+  @include flex6;
+  height: 11rem;
+}
+
+.progress-bar-group--expression-info {
+  @include gray4;
+  @include mt3;
+  @include center;
+  @include mb2;
+
+  p {
+    @include inline;
+    @include medium;
+  }
+}
+
+.donut-progress-bar--fill,
+.icon {
+  &.orange {
+    @include orange;
+    stroke: $orange;
+  }
+
+  &.teal {
+    @include teal;
+    stroke: $teal;
+  }
+}
+
+.progress-bar-group--status-graph {
+  @include relative;
+
+  .donut-progress-bar {
+    margin: 0 auto;
+  }
+
+  .icon {
+    @include absolute;
+    @include t0;
+    @include r0;
+    @include b0;
+    @include l0;
+
+    font-size: 5rem;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+  }
+}
+
+.progress-bar-group--status-text {
+  @include relative;
+  @include gray5;
+  @include center;
+  top: -1.7rem;
+  font-size: 1.4rem;
+
+  .desc {
+    @include relative;
+    @include italic;
+  }
+}
+
+.call-to-companion {
+  @include center;
+  padding: 0 0 1.2rem;
+  color: $opacity80;
+
+  .button {
+    @include px0;
+  }
+}
+
+.call-to-companion--description {
+  padding: 1.2rem 2.4rem;
+}

@@ -1,0 +1,57 @@
+.contact-tracing-form {
+  .destination-address {
+    .field + .field {
+      @include mt2;
+    }
+  }
+
+  &--info-header {
+    @include bold;
+    @include mb5;
+  }
+
+  &--info {
+    a {
+      @include pblue;
+    }
+  }
+
+  &--terms-and-conditions {
+    @include my5;
+  }
+
+  .segment {
+    @include bggray2;
+  }
+
+  .segment--title {
+    @include caps;
+    @include inline-block;
+    @include bold;
+    @include gray5;
+    @include pb2;
+  }
+
+  &--save-button {
+    @include bgpblue;
+    @include mt3;
+  }
+
+  &--passenger {
+    @include p5;
+    @include bgwhite;
+    @include mb5;
+  }
+
+  &--passenger-label {
+    @include gray4;
+    @include medium;
+  }
+
+  &--passenger-name {
+    @include pdkblue;
+    @include xlarge;
+    @include block;
+    @include truncate;
+  }
+}

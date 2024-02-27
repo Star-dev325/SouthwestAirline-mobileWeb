@@ -1,0 +1,54 @@
+{
+  "revision": "20150504141726870",
+  "airport_info": {
+    "id": "SAN",
+    "display_name": "San Diego&#44; CA - SAN",
+    "airport_city_image": "/content/mkt/images/airport_info/SAN_aiport_info.jpg",
+    "airport_city_alt_text": "Picture representing SAN",
+    "alert": {
+      "active": false,
+      "icon": "/content/mkt/images/airport_info/travel_advisory.png",
+      "title": "Airport Alert",
+      "text": ""
+    },
+    "body": [
+      {
+        "title": "TERMINAL AND GATE",
+        "icon": "",
+        "icon_alt_text": "",
+        "heading": "Terminal 1 ",
+        "text": "<p>Gates 1,1a, 2-10<br /><ul><li>Fly By Checkin</li><li>Fly By Security</li><li>Express Bag Drop</li></ul>\n</p>"
+      },
+      {
+        "title": "TICKET COUNTER HOURS",
+        "icon": "/content/mkt/images/airport_info/bag_on_belt_icon.png",
+        "heading": "",
+        "text": "<p><strong>Monday-Sunday</strong></p>\n<p>Opens 90 minutes before first departing flight</p>"
+      },
+      {
+        "title": "TSA",
+        "icon": "",
+        "heading": "<a href=\"http://apps.tsa.dhs.gov/mytsa/wait_times_detail.aspx\">Check current TSA wait times</a>",
+        "text": "<p>Don't forget your boarding pass or security documents, and a valid government-issued ID - the Transportation Security Administration (TSA) will need them at the security checkpoints.</p>"
+      },
+      {
+        "title": "TRAVEL TIPS",
+        "icon": "/content/mkt/images/airport_info/info_bubble_icon.png",
+        "heading": "Mon-Sun: ",
+        "text": "<p>90 Minutes</p>"
+      },
+      {
+        "title": "AMENITIES",
+        "icon": "/content/mkt/images/airport_info/plug_icon.png",
+        "heading": "",
+        "text": "<p><ul><li>Power Station Available</li><li>Skycap</li><li>Airport Wifi Available</li></ul>\n</p>"
+      },
+      {
+        "title": "AIRPORT DETAILS",
+        "icon": "",
+        "heading": "",
+        "text": "<p><strong>Service Animal Relief Area:</strong>&nbsp; Located in front of the terminal on the west side</p>\n<p>Learn more about <a href=\"//www.san.org/\" target=\"_blank\">San Diego International Airport</a></p>"
+      }
+    ]
+  }
+}

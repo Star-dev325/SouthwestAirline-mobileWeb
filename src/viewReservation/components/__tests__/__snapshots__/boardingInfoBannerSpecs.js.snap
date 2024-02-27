@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`boardingInfoBanner is Reaccom should display flight disruption warning message for flight which has been disrupted involuntarily (re-accommodated) 1`] = `
+<BoardingInfoBanner
+  hasAnyCancelledFlights={false}
+  important={true}
+  isCancelLinkEmpty={true}
+  isChangeLinkEmpty={true}
+  isDynamicWaiver={true}
+  isNonRevPnr={false}
+  messages={
+    Array [
+      Object {
+        "body": "A disruption caused changes to your trip. If you need to make an adjustment to the itinerary",
+        "header": "Your trip was modified.",
+        "icon": "WARNING",
+        "key": "REACCOM_VIEW_RESERVATION_GDS",
+      },
+    ]
+  }
+  onClick={[Function]}
+>
+  <div>
+    <ReaccomBanner
+      body="A disruption caused changes to your trip. If you need to make an adjustment to the itinerary"
+      header="Your trip was modified."
+      showBodyAsHtml={false}
+    >
+      <div
+        className="reaccom-banner"
+      >
+        <div
+          className="reaccom-banner-container flex"
+        >
+          <div
+            className="reaccom-banner-container--alert"
+          >
+            <Icon
+              className="reaccom-banner-container--alert-icon"
+              type="plus-icon"
+            >
+              <i
+                className="reaccom-banner-container--alert-icon icon icon_plus-icon"
+              >
+                !
+              </i>
+            </Icon>
+          </div>
+          <b
+            className="reaccom-banner-container--header"
+          >
+            Your trip was modified.
+          </b>
+        </div>
+        <p
+          className="reaccom-banner--body py2"
+        >
+          A disruption caused changes to your trip. If you need to make an adjustment to the itinerary
+        </p>
+      </div>
+    </ReaccomBanner>
+    <AlertBanner
+      hideAlertIcon={true}
+      hideRightArrow={true}
+      important={false}
+      message="Travel Advisory in effect"
+    >
+      <div
+        className="alert-banner"
+        onClick={[Function]}
+      >
+        <div
+          className="alert-banner--content"
+        >
+          <div>
+            <span
+              className="mx0"
+            >
+              Travel Advisory in effect
+            </span>
+          </div>
+        </div>
+      </div>
+    </AlertBanner>
+  </div>
+</BoardingInfoBanner>
+`;
+
+exports[`boardingInfoBanner is Reaccom should display flight disruption warning with FLIX message for flight which has been cancelled but not re-booked 1`] = `
+<BoardingInfoBanner
+  hasAnyCancelledFlights={false}
+  important={true}
+  isCancelLinkEmpty={true}
+  isChangeLinkEmpty={true}
+  isDynamicWaiver={true}
+  isNonRevPnr={false}
+  messages={
+    Array [
+      Object {
+        "body": "A change was made to your original reservation. We are currently working to rebook your flight, or you can also rebook for free, up to two times.",
+        "header": "We're sorry, we had to change your flight(s).",
+        "icon": "WARNING",
+        "key": "REACCOM_VIEW_RESERVATION_FLIX",
+        "textColor": "DEFAULT",
+      },
+    ]
+  }
+  onClick={[Function]}
+>
+  <div>
+    <ReaccomBanner
+      body="A change was made to your original reservation. We are currently working to rebook your flight, or you can also rebook for free, up to two times."
+      header="We're sorry, we had to change your flight(s)."
+      showBodyAsHtml={false}
+    >
+      <div
+        className="reaccom-banner"
+      >
+        <div
+          className="reaccom-banner-container flex"
+        >
+          <div
+            className="reaccom-banner-container--alert"
+          >
+            <Icon
+              className="reaccom-banner-container--alert-icon"
+              type="plus-icon"
+            >
+              <i
+                className="reaccom-banner-container--alert-icon icon icon_plus-icon"
+              >
+                !
+              </i>
+            </Icon>
+          </div>
+          <b
+            className="reaccom-banner-container--header"
+          >
+            We're sorry, we had to change your flight(s).
+          </b>
+        </div>
+        <p
+          className="reaccom-banner--body py2"
+        >
+          A change was made to your original reservation. We are currently working to rebook your flight, or you can also rebook for free, up to two times.
+        </p>
+      </div>
+    </ReaccomBanner>
+    <AlertBanner
+      hideAlertIcon={true}
+      hideRightArrow={true}
+      important={false}
+      message="Travel Advisory in effect"
+    >
+      <div
+        className="alert-banner"
+        onClick={[Function]}
+      >
+        <div
+          className="alert-banner--content"
+        >
+          <div>
+            <span
+              className="mx0"
+            >
+              Travel Advisory in effect
+            </span>
+          </div>
+        </div>
+      </div>
+    </AlertBanner>
+  </div>
+</BoardingInfoBanner>
+`;

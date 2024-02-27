@@ -1,0 +1,17 @@
+.is-webview {
+  &.air-booking-apply-travel-funds-page {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .apply-travel-funds {
+        @include bggray2;
+        @include tablet-content-frame-lg;
+        @include tablet-content-margins;
+
+        a.learn-more-link {
+          @include block;
+        }
+      }
+    }
+  }
+}

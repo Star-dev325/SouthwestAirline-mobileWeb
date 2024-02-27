@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RapidRewardsPanelEnrolled when you have achieved A-List Preferred this year should render 1`] = `
+<div>
+  <div
+    class="my-account-panel panel"
+  >
+    <div
+      class="panel--heading"
+    >
+      <span
+        class="pre-text"
+      >
+        MY_ACCOUNT__MY
+      </span>
+      <span
+        class="text"
+      >
+        Rapid Rewards
+      </span>
+    </div>
+    <div
+      class="panel--body"
+    >
+      <div
+        class="segments"
+      >
+        <div
+          class="vertical-fill segment"
+          data-qa="my-account-panel--rapid-rewards-dashboard"
+        >
+          <div
+            class="segments"
+          >
+            <div
+              class="pts-group segments"
+            >
+              <div
+                class="horizontal-fill segment"
+              >
+                <div
+                  class="points-group"
+                >
+                  <div
+                    class="points-group--col-infos"
+                  >
+                    <label
+                      class="points-group--col-infos-label"
+                    >
+                      MY_ACCOUNT__A_LIST_PREFERRED
+                    </label>
+                    <span>
+                      MY_ACCOUNT__PTS_GROUP__EARNED_THROUGH 12/31/21
+                    </span>
+                    <span
+                      class="points-group--divider"
+                    >
+                      |
+                    </span>
+                    <span
+                      class="pblue"
+                      data-qa="view-benefits"
+                    >
+                      MY_ACCOUNT__PTS_GROUP__VIEW_BENEFITS
+                    </span>
+                  </div>
+                  <div
+                    class="points-group--col-points align-right"
+                  >
+                    <label
+                      class="points-group--col-points-label"
+                    >
+                      33,476
+                    </label>
+                    <span>
+                      MY_ACCOUNT__PTS_GROUP__PTS
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-border-top horizontal-fill segment"
+              >
+                <div
+                  class="points-group"
+                >
+                  <div
+                    class="points-group--col-infos"
+                  >
+                    <label
+                      class="points-group--col-infos-label"
+                    >
+                      MY_ACCOUNT__COMPANION_PASS
+                    </label>
+                    <span>
+                      MY_ACCOUNT__PTS_GROUP__EARNED_THROUGH 12/31/21
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="segment-border-top horizontal-fill segment"
+            >
+              <div
+                class="nav-item my-account-nav-item"
+              >
+                <div
+                  class="tier-status-group"
+                >
+                  <div
+                    class="tier-status-group--label"
+                  >
+                    <div>
+                      <div
+                        class="mb3"
+                      >
+                        <i
+                          class="green icon icon_check"
+                        />
+                        <span
+                          class="bold not-italic"
+                        >
+                          MY_ACCOUNT__CONGRATULATIONS
+                        </span>
+                      </div>
+                      <span>
+                        MY_ACCOUNT__YOURE
+                        <b>
+                          MY_ACCOUNT__A_LIST_PREFERRED
+                        </b>
+                        .
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="tier-status-group--status"
+                  >
+                    <div
+                      class="tier-status-group--status-col tier-status-group--status-col_graph"
+                    >
+                      <div
+                        class="tier-status"
+                      >
+                        <div
+                          class="tier-status--graph"
+                        >
+                          <div
+                            class="donut-progress-bar"
+                            style="width: 0px; height: 0px;"
+                          >
+                            <svg
+                              height="0"
+                              width="0"
+                            >
+                              <path
+                                class="donut-progress-bar--container"
+                                d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                                fill="transparent"
+                                stroke="#d8d8d8"
+                                stroke-width="10"
+                              />
+                              <path
+                                class="donut-progress-bar--fill"
+                                d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                                fill="transparent"
+                                stroke="#446688"
+                                stroke-width="10"
+                              />
+                            </svg>
+                          </div>
+                          <i
+                            class="icon icon_pts"
+                          />
+                        </div>
+                        <div
+                          class="tier-status--text"
+                        >
+                          <label
+                            class="label"
+                          >
+                            75,000
+                          </label>
+                          <p
+                            class="desc"
+                          >
+                            <span>
+                              MY_ACCOUNT__TIER_STATUS_GROUP__POINTS_STATUS 70,000
+                              <sup>
+                                *
+                              </sup>
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="tier-status-group--status-col"
+                    >
+                      MY_ACCOUNT__TIER_STATUS_GROUP__OR
+                    </div>
+                    <div
+                      class="tier-status-group--status-col tier-status-group--status-col_graph"
+                    >
+                      <div
+                        class="tier-status"
+                      >
+                        <div
+                          class="tier-status--graph"
+                        >
+                          <div
+                            class="donut-progress-bar"
+                            style="width: 0px; height: 0px;"
+                          >
+                            <svg
+                              height="0"
+                              width="0"
+                            >
+                              <path
+                                class="donut-progress-bar--container"
+                                d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+                                fill="transparent"
+                                stroke="#d8d8d8"
+                                stroke-width="10"
+                              />
+                              <path
+                                class="donut-progress-bar--fill"
+                                d="M 2.8 4.2 A -5 -5 0 0 0 3.5 -3.5"
+                                fill="transparent"
+                                stroke="#446688"
+                                stroke-width="10"
+                              />
+                            </svg>
+                          </div>
+                          <i
+                            class="icon icon_airplane-depart"
+                          />
+                        </div>
+                        <div
+                          class="tier-status--text"
+                        >
+                          <label
+                            class="label"
+                          >
+                            15
+                          </label>
+                          <p
+                            class="desc"
+                          >
+                            <span>
+                              MY_ACCOUNT__TIER_STATUS_GROUP__FLIGHTS_STATUS 40
+                              <sup>
+                                *
+                              </sup>
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <small
+                  class="gray4"
+                >
+                  MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_FOOTNOTE
+                </small>
+                <br />
+                <small
+                  class="ml2 gray4"
+                >
+                  MY_ACCOUNT__RAPID_REWARDS_PANEL_ENROLLED__TIER_STATUS_RESET
+                </small>
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

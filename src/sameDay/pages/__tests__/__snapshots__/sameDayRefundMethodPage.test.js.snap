@@ -1,0 +1,3374 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SameDayRefundMethod payment section should render Payment Method section on the isPaymentRequired is true 1`] = `
+<div>
+  <div
+    class="same-day-refund-method same-day-refund-method-price-difference"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__STANDBY_PRICE_DIFFERENCE__LABEL
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="price-difference-credit-section price-difference-credit-section--total-due"
+    >
+      <div
+        class="price-difference-credit-section--price-line"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount Due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  0
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="price-difference-credit-section price-difference-credit-section--total-due price-difference-credit-section--no-margin-top-with-border"
+    >
+      <div
+        class="price-difference-credit-section--price-line"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount Due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  5.60
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form
+      class="form"
+      id="price-difference-form"
+      name="SAME_DAY_STANDBY_PRICE_DIFFERENCE_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form--payment price-difference-form--without-margin"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="payment-nav-item-field same-day-refund-method--payment-nav-item-field"
+              data-qa="review-form--payment-method-nav-item"
+            >
+              <a
+                class="nav-item-link no-padding"
+              >
+                <div
+                  class="primary-saved-credit-cards"
+                  data-qa="review-form--payment-card"
+                >
+                  <div
+                    class="credit-card-radio-input credit-card-radio-input_selected"
+                  >
+                    <label
+                      class="credit-card-radio-input--label"
+                    >
+                      <div
+                        class="credit-card-radio-input--container"
+                      >
+                        <div
+                          class="credit-card--image_visa credit-card--image left mr2"
+                        />
+                        <div
+                          class="credit-card-radio-input--text"
+                        >
+                          <p
+                            class="pdkblue larger"
+                          >
+                            VISA 4444
+                          </p>
+                          <div
+                            class="flex gray5 additional-info-container"
+                          >
+                            <div
+                              class="mr1"
+                            >
+                              AIR_BOOKING__SUMMARY_PAYMENT__SHORT_CARD_NUMBER_MESSAGE
+                            </div>
+                            <div
+                              class="bold"
+                            >
+                              4444
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <i
+                  class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer same-day-standby-price-difference--footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Total Due
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        data-qa="total-amount"
+                      >
+                        0
+                      </span>
+                      <span
+                        class="points-sign"
+                      >
+                        SHARED__COMMON__POINTS_TEXT
+                      </span>
+                    </div>
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        5.60
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="price-difference-footer--description bgblue"
+            >
+              Includes taxes and fees
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              >
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`SameDayRefundMethod payment section should render page with amount due points and amount due tax when present 1`] = `
+<div>
+  <div
+    class="same-day-refund-method same-day-refund-method-price-difference"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__STANDBY_PRICE_DIFFERENCE__LABEL
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="price-difference-credit-section price-difference-credit-section--total-due"
+    >
+      <div
+        class="price-difference-credit-section--price-line"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount Due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  6783
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="price-difference-credit-section price-difference-credit-section--total-due price-difference-credit-section--no-margin-top-with-border"
+    >
+      <div
+        class="price-difference-credit-section--price-line"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount Due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  39.70
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form
+      class="form"
+      id="price-difference-form"
+      name="SAME_DAY_STANDBY_PRICE_DIFFERENCE_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form--payment price-difference-form--without-margin"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="payment-nav-item-field same-day-refund-method--payment-nav-item-field"
+              data-qa="review-form--payment-method-nav-item"
+            >
+              <a
+                class="nav-item-link"
+              >
+                <span>
+                  AIR_CHANGE__PRICE_DIFFERENCE__ADD_CREDIT_CARD
+                </span>
+                <i
+                  class="nav-item-link--bang-icon icon icon_exclamation-circle warning"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer same-day-standby-price-difference--footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Amount Due
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        data-qa="total-amount"
+                      >
+                        6783
+                      </span>
+                      <span
+                        class="points-sign"
+                      >
+                        SHARED__COMMON__POINTS_TEXT
+                      </span>
+                    </div>
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        39.70
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="price-difference-footer--description bgblue"
+            >
+              Includes taxes and fees
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              >
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`SameDayRefundMethod payment section should render page with amount due points and amount due tax when present with i18n title 1`] = `
+<div>
+  <div
+    class="same-day-refund-method same-day-refund-method-price-difference"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__STANDBY_PRICE_DIFFERENCE__LABEL
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="price-difference-credit-section price-difference-credit-section--total-due"
+    >
+      <div
+        class="price-difference-credit-section--price-line"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            SHARED__PRICE_LINE_TITLES__AMOUNT_DUE
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  6783
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="price-difference-credit-section price-difference-credit-section--total-due price-difference-credit-section--no-margin-top-with-border"
+    >
+      <div
+        class="price-difference-credit-section--price-line"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            SHARED__PRICE_LINE_TITLES__AMOUNT_DUE
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  39.70
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form
+      class="form"
+      id="price-difference-form"
+      name="SAME_DAY_STANDBY_PRICE_DIFFERENCE_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form--payment price-difference-form--without-margin"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="payment-nav-item-field same-day-refund-method--payment-nav-item-field"
+              data-qa="review-form--payment-method-nav-item"
+            >
+              <a
+                class="nav-item-link"
+              >
+                <span>
+                  AIR_CHANGE__PRICE_DIFFERENCE__ADD_CREDIT_CARD
+                </span>
+                <i
+                  class="nav-item-link--bang-icon icon icon_exclamation-circle warning"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer same-day-standby-price-difference--footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                />
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        data-qa="total-amount"
+                      >
+                        6783
+                      </span>
+                      <span
+                        class="points-sign"
+                      >
+                        SHARED__COMMON__POINTS_TEXT
+                      </span>
+                    </div>
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        39.70
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="price-difference-footer--description bgblue"
+            >
+              Includes taxes and fees
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              >
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`SameDayRefundMethod payment section should render page with credit due points and amount due tax when present 1`] = `
+<div>
+  <div
+    class="same-day-refund-method same-day-refund-method-price-difference"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__STANDBY_PRICE_DIFFERENCE__LABEL
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="price-difference-credit-section price-difference-credit-section--total-due"
+    >
+      <div
+        class="price-difference-credit-section--price-line"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  39.70
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form
+      class="form"
+      id="price-difference-form"
+      name="SAME_DAY_STANDBY_PRICE_DIFFERENCE_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form--payment price-difference-form--without-margin"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="payment-nav-item-field same-day-refund-method--payment-nav-item-field"
+              data-qa="review-form--payment-method-nav-item"
+            >
+              <a
+                class="nav-item-link"
+              >
+                <span>
+                  AIR_CHANGE__PRICE_DIFFERENCE__ADD_CREDIT_CARD
+                </span>
+                <i
+                  class="nav-item-link--bang-icon icon icon_exclamation-circle warning"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer same-day-standby-price-difference--footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue bggreen"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Credit
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        data-qa="total-amount"
+                      >
+                        6723
+                      </span>
+                      <span
+                        class="points-sign"
+                      >
+                        SHARED__COMMON__POINTS_TEXT
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  SHARED__PRICE_LINE_TITLES__AMOUNT_DUE
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        39.70
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="price-difference-footer--description bgblue"
+            >
+              Includes taxes and fees
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              >
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <div
+      class="same-day-refund-method-credit-section"
+    >
+      <div
+        class="price-line same-day-refund-method--price-line"
+      >
+        <span
+          class="price-line--title same-day-refund-method--price-line-title"
+        >
+          Credit
+        </span>
+        <div
+          class="price-amount"
+        >
+          <div
+            class="price-line--currency_total same-day-refund-method--price-line-currency-total"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                data-qa="total-amount"
+              >
+                6723
+              </span>
+              <span
+                class="points-sign"
+              >
+                SHARED__COMMON__POINTS_TEXT
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="same-day-refund-method-credit-section--description"
+      >
+        Hooray! Your Standby flight is priced lower than your original. Once you are cleared, you will be credited to the selected refund method.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SameDayRefundMethod payment section should render page with credit due points and amount due tax when present with i18n title 1`] = `
+<div>
+  <div
+    class="same-day-refund-method same-day-refund-method-price-difference"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__STANDBY_PRICE_DIFFERENCE__LABEL
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="price-difference-credit-section price-difference-credit-section--total-due"
+    >
+      <div
+        class="price-difference-credit-section--price-line"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            SHARED__PRICE_LINE_TITLES__AMOUNT_DUE
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  39.70
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form
+      class="form"
+      id="price-difference-form"
+      name="SAME_DAY_STANDBY_PRICE_DIFFERENCE_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form--payment price-difference-form--without-margin"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="payment-nav-item-field same-day-refund-method--payment-nav-item-field"
+              data-qa="review-form--payment-method-nav-item"
+            >
+              <a
+                class="nav-item-link"
+              >
+                <span>
+                  AIR_CHANGE__PRICE_DIFFERENCE__ADD_CREDIT_CARD
+                </span>
+                <i
+                  class="nav-item-link--bang-icon icon icon_exclamation-circle warning"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer same-day-standby-price-difference--footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue bggreen"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                />
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        data-qa="total-amount"
+                      >
+                        6723
+                      </span>
+                      <span
+                        class="points-sign"
+                      >
+                        SHARED__COMMON__POINTS_TEXT
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  SHARED__PRICE_LINE_TITLES__AMOUNT_DUE
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        39.70
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="price-difference-footer--description bgblue"
+            >
+              Includes taxes and fees
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              >
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <div
+      class="same-day-refund-method-credit-section"
+    >
+      <div
+        class="price-line same-day-refund-method--price-line"
+      >
+        <span
+          class="price-line--title same-day-refund-method--price-line-title"
+        >
+          SAME_DAY__PRICING__PRICE_DIFFERENCE_REFUND_CREDIT_LABEL
+        </span>
+        <div
+          class="price-amount"
+        >
+          <div
+            class="price-line--currency_total same-day-refund-method--price-line-currency-total"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                data-qa="total-amount"
+              >
+                6723
+              </span>
+              <span
+                class="points-sign"
+              >
+                SHARED__COMMON__POINTS_TEXT
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="same-day-refund-method-credit-section--description"
+      >
+        Hooray! Your Standby flight is priced lower than your original. Once you are cleared, you will be credited to the selected refund method.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SameDayRefundMethod payment section should render page with dollar amount due and No amount due tax 1`] = `
+<div>
+  <div
+    class="same-day-refund-method same-day-refund-method-price-difference"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__STANDBY_PRICE_DIFFERENCE__LABEL
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="price-difference-credit-section price-difference-credit-section--total-due"
+    >
+      <div
+        class="price-difference-credit-section--price-line"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  10.00
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form
+      class="form"
+      id="price-difference-form"
+      name="SAME_DAY_STANDBY_PRICE_DIFFERENCE_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form--payment price-difference-form--without-margin"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="payment-nav-item-field same-day-refund-method--payment-nav-item-field"
+              data-qa="review-form--payment-method-nav-item"
+            >
+              <a
+                class="nav-item-link"
+              >
+                <span>
+                  AIR_CHANGE__PRICE_DIFFERENCE__ADD_CREDIT_CARD
+                </span>
+                <i
+                  class="nav-item-link--bang-icon icon icon_exclamation-circle warning"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer same-day-standby-price-difference--footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Amount due
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        10.00
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="price-difference-footer--description bgblue"
+            >
+              Includes taxes and fees
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              >
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`SameDayRefundMethod payment section should render page with points even exchange and amount due tax when present 1`] = `
+<div>
+  <div
+    class="same-day-refund-method same-day-refund-method-price-difference"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__STANDBY_PRICE_DIFFERENCE__LABEL
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="price-difference-credit-section price-difference-credit-section--total-due"
+    >
+      <div
+        class="price-difference-credit-section--price-line"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  0
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="price-difference-credit-section price-difference-credit-section--total-due price-difference-credit-section--no-margin-top-with-border"
+    >
+      <div
+        class="price-difference-credit-section--price-line"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  5.60
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form
+      class="form"
+      id="price-difference-form"
+      name="SAME_DAY_STANDBY_PRICE_DIFFERENCE_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form--payment price-difference-form--without-margin"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="payment-nav-item-field same-day-refund-method--payment-nav-item-field"
+              data-qa="review-form--payment-method-nav-item"
+            >
+              <a
+                class="nav-item-link"
+              >
+                <span>
+                  AIR_CHANGE__PRICE_DIFFERENCE__ADD_CREDIT_CARD
+                </span>
+                <i
+                  class="nav-item-link--bang-icon icon icon_exclamation-circle warning"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer same-day-standby-price-difference--footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Amount due
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        data-qa="total-amount"
+                      >
+                        0
+                      </span>
+                      <span
+                        class="points-sign"
+                      >
+                        SHARED__COMMON__POINTS_TEXT
+                      </span>
+                    </div>
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        5.60
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              >
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`SameDayRefundMethod payment section should render page with points even exchange and amount due tax when present 2`] = `
+<div>
+  <div
+    class="same-day-refund-method same-day-refund-method-price-difference"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__STANDBY_PRICE_DIFFERENCE__LABEL
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="price-difference-credit-section price-difference-credit-section--total-due"
+    >
+      <div
+        class="price-difference-credit-section--price-line"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  0
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="price-difference-credit-section price-difference-credit-section--total-due price-difference-credit-section--no-margin-top-with-border"
+    >
+      <div
+        class="price-difference-credit-section--price-line"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  5.60
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form
+      class="form"
+      id="price-difference-form"
+      name="SAME_DAY_STANDBY_PRICE_DIFFERENCE_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form--payment price-difference-form--without-margin"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="payment-nav-item-field same-day-refund-method--payment-nav-item-field"
+              data-qa="review-form--payment-method-nav-item"
+            >
+              <a
+                class="nav-item-link"
+              >
+                <span>
+                  AIR_CHANGE__PRICE_DIFFERENCE__ADD_CREDIT_CARD
+                </span>
+                <i
+                  class="nav-item-link--bang-icon icon icon_exclamation-circle warning"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer same-day-standby-price-difference--footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Amount due
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        data-qa="total-amount"
+                      >
+                        0
+                      </span>
+                      <span
+                        class="points-sign"
+                      >
+                        SHARED__COMMON__POINTS_TEXT
+                      </span>
+                    </div>
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        5.60
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              >
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`SameDayRefundMethod payment section should render page with points even exchange and amount due tax when present with i18n title 1`] = `
+<div>
+  <div
+    class="same-day-refund-method same-day-refund-method-price-difference"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__STANDBY_PRICE_DIFFERENCE__LABEL
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="price-difference-credit-section price-difference-credit-section--total-due"
+    >
+      <div
+        class="price-difference-credit-section--price-line"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            SHARED__PRICE_LINE_TITLES__AMOUNT_DUE
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  0
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="price-difference-credit-section price-difference-credit-section--total-due price-difference-credit-section--no-margin-top-with-border"
+    >
+      <div
+        class="price-difference-credit-section--price-line"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            SHARED__PRICE_LINE_TITLES__AMOUNT_DUE
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  5.60
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form
+      class="form"
+      id="price-difference-form"
+      name="SAME_DAY_STANDBY_PRICE_DIFFERENCE_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form--payment price-difference-form--without-margin"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="payment-nav-item-field same-day-refund-method--payment-nav-item-field"
+              data-qa="review-form--payment-method-nav-item"
+            >
+              <a
+                class="nav-item-link"
+              >
+                <span>
+                  AIR_CHANGE__PRICE_DIFFERENCE__ADD_CREDIT_CARD
+                </span>
+                <i
+                  class="nav-item-link--bang-icon icon icon_exclamation-circle warning"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer same-day-standby-price-difference--footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Amount due
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        data-qa="total-amount"
+                      >
+                        0
+                      </span>
+                      <span
+                        class="points-sign"
+                      >
+                        SHARED__COMMON__POINTS_TEXT
+                      </span>
+                    </div>
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        5.60
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              >
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`SameDayRefundMethod payment section should render payment section when primary card empty 1`] = `
+<div>
+  <div
+    class="same-day-refund-method same-day-refund-method-price-difference"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__STANDBY_PRICE_DIFFERENCE__LABEL
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="price-difference-credit-section price-difference-credit-section--total-due"
+    >
+      <div
+        class="price-difference-credit-section--price-line"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount Due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  0
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="price-difference-credit-section price-difference-credit-section--total-due price-difference-credit-section--no-margin-top-with-border"
+    >
+      <div
+        class="price-difference-credit-section--price-line"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Amount Due
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  5.60
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form
+      class="form"
+      id="price-difference-form"
+      name="SAME_DAY_STANDBY_PRICE_DIFFERENCE_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form--payment price-difference-form--without-margin"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="payment-nav-item-field same-day-refund-method--payment-nav-item-field"
+              data-qa="review-form--payment-method-nav-item"
+            >
+              <a
+                class="nav-item-link"
+              >
+                <span>
+                  AIR_CHANGE__PRICE_DIFFERENCE__ADD_CREDIT_CARD
+                </span>
+                <i
+                  class="nav-item-link--bang-icon icon icon_exclamation-circle warning"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer same-day-standby-price-difference--footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Total Due
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        data-qa="total-amount"
+                      >
+                        0
+                      </span>
+                      <span
+                        class="points-sign"
+                      >
+                        SHARED__COMMON__POINTS_TEXT
+                      </span>
+                    </div>
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        5.60
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="price-difference-footer--description bgblue"
+            >
+              Includes taxes and fees
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              >
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`SameDayRefundMethod when rendering should render page even if sameDayRefundPage and sameDayConfirmationPage response are both null 1`] = `
+<div>
+  <div
+    class="same-day-refund-method"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__REFUND_METHOD__MESSAGE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SameDayRefundMethod when rendering should render page even though _links is undefined 1`] = `
+<div>
+  <div
+    class="same-day-refund-method"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__REFUND_METHOD__MESSAGE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <form
+      class="form"
+      name="SAME_DAY_REFUND_METHOD_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="same-day-refund-method-credit-section"
+        >
+          <div
+            class="price-line same-day-refund-method--price-line"
+          >
+            <span
+              class="price-line--title same-day-refund-method--price-line-title"
+            >
+              SAME_DAY__PRICING__PRICE_DIFFERENCE_REFUND_CREDIT_LABEL
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total same-day-refund-method--price-line-currency-total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    60.00
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="same-day-refund-method-credit-section--description"
+          >
+            We never charge change fees. You'll pay only the difference in fare.
+          </div>
+          <div
+            class="same-day-refund-method--divider"
+          />
+        </div>
+        <div
+          class="same-day-refund-method-list"
+        >
+          <div
+            aria-label="SAME_DAY__SELECT_A_REFUND_METHOD__TEXT"
+            class="same-day-refund-method-list-section"
+            tabindex="0"
+          >
+            <div
+              class="same-day-refund-method-list-section-title"
+            >
+              SAME_DAY__REFUND_METHOD__TITLE
+            </div>
+            <div
+              class="same-day-refund-method-list-section--text"
+            >
+              SAME_DAY__SELECT_A_REFUND_METHOD__TEXT
+            </div>
+          </div>
+        </div>
+        <div
+          class="same-day-refund-method--footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue bggreen"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Credit
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        60.00
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="price-difference-footer--description bggreen"
+            >
+              Includes taxes and fees
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bggreen"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`SameDayRefundMethod when rendering should render page even though faresummary is undefined 1`] = `
+<div>
+  <div
+    class="same-day-refund-method"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__REFUND_METHOD__MESSAGE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SameDayRefundMethod when rendering should render page even though sameDayConfirmationPage response is null 1`] = `
+<div>
+  <div
+    class="same-day-refund-method"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__REFUND_METHOD__MESSAGE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SameDayRefundMethod when rendering should render page with Amount due points and credit due tax when present 1`] = `
+<div>
+  <div
+    class="same-day-refund-method"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__REFUND_METHOD__MESSAGE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="same-day-refund-method-credit-section black"
+    >
+      <div
+        class="price-line same-day-refund-method--price-line"
+      >
+        <span
+          class="price-line--title same-day-refund-method--price-line-title black"
+        >
+          Amount due
+        </span>
+        <div
+          class="price-amount"
+        >
+          <div
+            class="price-line--currency_total same-day-refund-method--price-line-currency-total black"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                data-qa="total-amount"
+              >
+                4632
+              </span>
+              <span
+                class="points-sign"
+              >
+                SHARED__COMMON__POINTS_TEXT
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form
+      class="form"
+      name="SAME_DAY_REFUND_METHOD_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="same-day-refund-method-credit-section"
+        >
+          <div
+            class="price-line same-day-refund-method--price-line"
+          >
+            <span
+              class="price-line--title same-day-refund-method--price-line-title"
+            >
+              SAME_DAY__PRICING__PRICE_DIFFERENCE_REFUND_CREDIT_LABEL
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total same-day-refund-method--price-line-currency-total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    100.75
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="same-day-refund-method-credit-section--description"
+          >
+            Hooray! Your Standby flight is priced lower than your original. Once you are cleared, you will be credited to the selected refund method.
+          </div>
+          <div
+            class="same-day-refund-method--divider"
+          />
+        </div>
+        <div
+          class="same-day-refund-method-list"
+        >
+          <div
+            aria-label="SAME_DAY__SELECT_A_REFUND_METHOD__TEXT"
+            class="same-day-refund-method-list-section"
+            tabindex="0"
+          >
+            <div
+              class="same-day-refund-method-list-section-title"
+            >
+              SAME_DAY__REFUND_METHOD__TITLE
+            </div>
+            <div
+              class="same-day-refund-method-list-section--text"
+            >
+              SAME_DAY__SELECT_A_REFUND_METHOD__TEXT
+            </div>
+          </div>
+        </div>
+        <div
+          class="same-day-refund-method--footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Amount due
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        data-qa="total-amount"
+                      >
+                        4632
+                      </span>
+                      <span
+                        class="points-sign"
+                      >
+                        SHARED__COMMON__POINTS_TEXT
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bggreen"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Credit
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        100.75
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="price-difference-footer--description bgblue bggreen"
+            >
+              Includes taxes and fees
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue bggreen"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              >
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`SameDayRefundMethod when rendering should render page with credit due points and credit due tax when present 1`] = `
+<div>
+  <div
+    class="same-day-refund-method"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__REFUND_METHOD__MESSAGE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="same-day-refund-method-credit-section green"
+    >
+      <div
+        class="price-line same-day-refund-method--price-line"
+      >
+        <span
+          class="price-line--title same-day-refund-method--price-line-title green"
+        >
+          Credit
+        </span>
+        <div
+          class="price-amount"
+        >
+          <div
+            class="price-line--currency_total same-day-refund-method--price-line-currency-total green"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                data-qa="total-amount"
+              >
+                6783
+              </span>
+              <span
+                class="points-sign"
+              >
+                SHARED__COMMON__POINTS_TEXT
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="same-day-refund-method-credit-section--description"
+      >
+        Hooray! Your Standby flight is priced lower than your original. Once you are cleared, you will be credited to the selected refund method.
+      </div>
+    </div>
+    <form
+      class="form"
+      name="SAME_DAY_REFUND_METHOD_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="same-day-refund-method-credit-section"
+        >
+          <div
+            class="price-line same-day-refund-method--price-line"
+          >
+            <span
+              class="price-line--title same-day-refund-method--price-line-title"
+            >
+              SAME_DAY__PRICING__PRICE_DIFFERENCE_REFUND_CREDIT_LABEL
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total same-day-refund-method--price-line-currency-total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    5.60
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="same-day-refund-method-credit-section--description"
+          >
+            Hooray! Your Standby flight is priced lower than your original. Once you are cleared, you will be credited to the selected refund method.
+          </div>
+          <div
+            class="same-day-refund-method--divider"
+          />
+        </div>
+        <div
+          class="same-day-refund-method-list"
+        >
+          <div
+            aria-label="SAME_DAY__SELECT_A_REFUND_METHOD__TEXT"
+            class="same-day-refund-method-list-section"
+            tabindex="0"
+          >
+            <div
+              class="same-day-refund-method-list-section-title"
+            >
+              SAME_DAY__REFUND_METHOD__TITLE
+            </div>
+            <div
+              class="same-day-refund-method-list-section--text"
+            >
+              SAME_DAY__SELECT_A_REFUND_METHOD__TEXT
+            </div>
+          </div>
+        </div>
+        <div
+          class="same-day-refund-method--footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue bggreen"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Credit
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        data-qa="total-amount"
+                      >
+                        6783
+                      </span>
+                      <span
+                        class="points-sign"
+                      >
+                        SHARED__COMMON__POINTS_TEXT
+                      </span>
+                    </div>
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        5.60
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="price-difference-footer--description bggreen"
+            >
+              Includes taxes and fees
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bggreen"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              >
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`SameDayRefundMethod when rendering should render without the refundable selection 1`] = `
+<div>
+  <div
+    class="same-day-refund-method"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__REFUND_METHOD__MESSAGE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <form
+      class="form"
+      name="SAME_DAY_REFUND_METHOD_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="same-day-refund-method-credit-section"
+        >
+          <div
+            class="price-line same-day-refund-method--price-line"
+          >
+            <span
+              class="price-line--title same-day-refund-method--price-line-title"
+            >
+              SAME_DAY__PRICING__PRICE_DIFFERENCE_REFUND_CREDIT_LABEL
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total same-day-refund-method--price-line-currency-total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    60.00
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="same-day-refund-method-credit-section--description"
+          >
+            We never charge change fees. You'll pay only the difference in fare.
+          </div>
+          <div
+            class="same-day-refund-method--divider"
+          />
+        </div>
+        <div
+          class="same-day-refund-method-list"
+        >
+          <div
+            aria-label="SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE"
+            class="same-day-refund-method-list-section"
+            tabindex="0"
+          >
+            <div
+              class="same-day-refund-method-list-section-title"
+            >
+              SAME_DAY__REFUND_METHOD__TITLE
+            </div>
+            <div
+              class="same-day-refund-method-list-section--text"
+            >
+              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+            </div>
+          </div>
+        </div>
+        <div
+          class="same-day-refund-method--footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue bggreen"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Credit
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        60.00
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="price-difference-footer--description bggreen"
+            >
+              Includes taxes and fees
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bggreen"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              >
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`SameDayRefundMethod when rendering when form submit should display correct price data on continue even when sameDayConfirmationPage state is empty 1`] = `
+<div>
+  <div
+    class="same-day-refund-method"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              SAME_DAY__REFUND_METHOD__MESSAGE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <form
+      class="form"
+      name="SAME_DAY_REFUND_METHOD_FORM"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="same-day-refund-method-credit-section"
+        >
+          <div
+            class="price-line same-day-refund-method--price-line"
+          >
+            <span
+              class="price-line--title same-day-refund-method--price-line-title"
+            >
+              SAME_DAY__PRICING__PRICE_DIFFERENCE_REFUND_CREDIT_LABEL
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total same-day-refund-method--price-line-currency-total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    60.00
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="same-day-refund-method-credit-section--description"
+          >
+            We never charge change fees. You'll pay only the difference in fare.
+          </div>
+          <div
+            class="same-day-refund-method--divider"
+          />
+        </div>
+        <div
+          class="same-day-refund-method-list"
+        >
+          <div
+            aria-label="SAME_DAY__SELECT_A_REFUND_METHOD__TEXT"
+            class="same-day-refund-method-list-section"
+            tabindex="0"
+          >
+            <div
+              class="same-day-refund-method-list-section-title"
+            >
+              SAME_DAY__REFUND_METHOD__TITLE
+            </div>
+            <div
+              class="same-day-refund-method-list-section--text same-day-refund-method-list-section--error-text"
+            >
+              SAME_DAY__SELECT_A_REFUND_METHOD__TEXT
+            </div>
+          </div>
+        </div>
+        <div
+          class="same-day-refund-method--footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue bggreen"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Credit
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        60.00
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="price-difference-footer--description bggreen"
+            >
+              Includes taxes and fees
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bggreen"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              >
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;

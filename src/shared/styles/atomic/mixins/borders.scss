@@ -1,0 +1,203 @@
+// Refer to sass/colors.scss for colours
+
+// BORDERS
+// Default border colour is $gray3 (#ccc)
+// OVerride colour by using border direction classes (.bd[t|r|b|l]) with a .bdgray[1|2|4|5] class
+// e.g. for a very dark right border use class="bdr bdgray5"
+@mixin bd {
+  border: 1px solid $gray3;
+}
+@mixin bdt {
+  border-top: 1px solid $gray3;
+}
+@mixin bdr {
+  border-right: 1px solid $gray3;
+}
+@mixin bdb {
+  border-bottom: 1px solid $gray3;
+}
+@mixin bdl {
+  border-left: 1px solid $gray3;
+}
+
+@mixin bd3 {
+  border: 3px solid $gray3;
+}
+@mixin bdt3 {
+  border-top: 3px solid $gray3;
+}
+@mixin bdr3 {
+  border-right: 3px solid $gray3;
+}
+@mixin bdb3 {
+  border-bottom: 3px solid $gray3;
+}
+@mixin bdl3 {
+  border-left: 3px solid $gray3;
+}
+
+@mixin bdgray1 {
+  border-color: $gray1;
+}
+@mixin bdgray2 {
+  border-color: $gray2;
+}
+@mixin bdgray3 {
+  border-color: $gray3;
+}
+@mixin bdgray4 {
+  border-color: $gray4;
+}
+@mixin bdgray5 {
+  border-color: $gray5;
+}
+
+@mixin bdpblue {
+  border-color: $pblue;
+}
+@mixin bdpdkblue {
+  border-color: $pdkblue;
+}
+@mixin bdred {
+  border-color: $red;
+}
+@mixin bdsdkblue {
+  border-color: $sdkblue;
+}
+@mixin bdsltblue {
+  border-color: $sltblue;
+}
+@mixin bdyellow {
+  border-color: $yellow;
+}
+@mixin bdred {
+  border-color: $red;
+}
+
+@mixin bdteal {
+  border-color: $teal;
+}
+@mixin bdpdkyellow {
+  border-color: $pdkyellow;
+}
+@mixin bdpltyellow {
+  border-color: $pltyellow;
+}
+@mixin bdsyellow {
+  border-color: $syellow;
+}
+@mixin bdgreen {
+  border-color: $green;
+}
+@mixin bdgreen2 {
+  border-color: $green2;
+}
+@mixin bdsblue {
+  border-color: $sblue;
+}
+@mixin bdltblue {
+  border-color: $ltblue;
+}
+@mixin bdwhite {
+  border-color: $white;
+}
+@mixin bdblack {
+  border-color: $black;
+}
+@mixin bdorange {
+  border-color: $orange;
+}
+
+@mixin border-none {
+  border: 0;
+}
+@mixin bdt-none {
+  border-top: 0;
+}
+@mixin bdr-none {
+  border-right: 0;
+}
+@mixin bdb-none {
+  border-bottom: 0;
+}
+@mixin bdl-none {
+  border-left: 0;
+}
+
+// ROUNDED CORNERS
+// .rd[number] will round all corners
+// .rdr[number] will top-right and bottom-right corners
+@mixin rd2 {
+  border-radius: 0.2rem;
+}
+@mixin rdt2 {
+  border-radius: 0.2rem 0.2rem 0 0;
+}
+@mixin rdr2 {
+  border-radius: 0 0.2rem 0.2rem 0;
+}
+@mixin rdb2 {
+  border-radius: 0 0 0.2rem 0.2rem;
+}
+@mixin rdl2 {
+  border-radius: 0.2rem 0 0 0.2rem;
+}
+
+@mixin rd3 {
+  border-radius: 0.3rem;
+}
+@mixin rdt3 {
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+@mixin rdr3 {
+  border-radius: 0 0.3rem 0.3rem 0;
+}
+@mixin rdb3 {
+  border-radius: 0 0 0.3rem 0.3rem;
+}
+@mixin rdl3 {
+  border-radius: 0.3rem 0 0 0.3rem;
+}
+
+@mixin rd4 {
+  border-radius: 0.4rem;
+}
+@mixin rdt4 {
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+@mixin rdr4 {
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+@mixin rdb4 {
+  border-radius: 0 0 0.4rem 0.4rem;
+}
+@mixin rdl4 {
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+
+@mixin rd10 {
+  border-radius: 1rem;
+}
+@mixin rdt10 {
+  border-radius: 1rem 1rem 0 0;
+}
+@mixin rdr10 {
+  border-radius: 0 1rem 1rem 0;
+}
+@mixin rdb10 {
+  border-radius: 0 0 1rem 1rem;
+}
+@mixin rdl10 {
+  border-radius: 1rem 0 0 1rem;
+}
+
+@mixin square {
+  border-radius: 0;
+}
+@mixin circle {
+  border-radius: 50%;
+}
+
+@mixin olnone {
+  outline: none;
+}

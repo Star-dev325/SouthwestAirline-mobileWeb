@@ -1,0 +1,331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AirUpgradeTotalPrice Should render a default amount of 0.00 if no bounds have been selected 1`] = `
+<div>
+  <div
+    class="price-total"
+  >
+    <div
+      class="price-total--info"
+    >
+      <div
+        class="price-line"
+      >
+        <span
+          class="price-line--title"
+        >
+          SHARED__PRICE_LINE_TITLES__TOTAL_PASSENGER
+        </span>
+        <div
+          class="price-amount"
+        >
+          <div
+            class="price-line--currency_total"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                class="money-sign"
+              >
+                $
+              </span>
+              <span
+                data-qa="total-amount"
+              >
+                0.00
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="table fullwidth mt3"
+      >
+        <div
+          class="price-total--info-col"
+        >
+          <p>
+            SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AirUpgradeTotalPrice Should render points booking total correctly with 1 selected bound 1`] = `
+<div>
+  <div
+    class="price-total"
+  >
+    <div
+      class="price-total--info"
+    >
+      <div
+        class="price-line mb4"
+      >
+        <span
+          class="price-line--title"
+        >
+          SHARED__PRICE_LINE_TITLES__POINTS_TOTAL
+        </span>
+        <div
+          class="price-amount"
+        >
+          <div
+            class="price-line--currency_total"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                data-qa="total-amount"
+              >
+                120,000
+              </span>
+              <span
+                class="points-sign"
+              >
+                SHARED__COMMON__POINTS_TEXT
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="table fullwidth mt3"
+      >
+        <div
+          class="price-total--info-col"
+        >
+          <p>
+            SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AirUpgradeTotalPrice Should render points booking total correctly with 2 selected bounds 1`] = `
+<div>
+  <div
+    class="price-total"
+  >
+    <div
+      class="price-total--info"
+    >
+      <div
+        class="price-line mb4"
+      >
+        <span
+          class="price-line--title"
+        >
+          SHARED__PRICE_LINE_TITLES__POINTS_TOTAL
+        </span>
+        <div
+          class="price-amount"
+        >
+          <div
+            class="price-line--currency_total"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                data-qa="total-amount"
+              >
+                120,000
+              </span>
+              <span
+                class="points-sign"
+              >
+                SHARED__COMMON__POINTS_TEXT
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="table fullwidth mt3"
+      >
+        <div
+          class="price-total--info-col"
+        >
+          <p>
+            SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AirUpgradeTotalPrice Should render points booking total correctly with no selected bound 1`] = `
+<div>
+  <div
+    class="price-total"
+  >
+    <div
+      class="price-total--info"
+    >
+      <div
+        class="price-line mb4"
+      >
+        <span
+          class="price-line--title"
+        >
+          SHARED__PRICE_LINE_TITLES__POINTS_TOTAL
+        </span>
+        <div
+          class="price-amount"
+        >
+          <div
+            class="price-line--currency_total"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                data-qa="total-amount"
+              >
+                0
+              </span>
+              <span
+                class="points-sign"
+              >
+                SHARED__COMMON__POINTS_TEXT
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="table fullwidth mt3"
+      >
+        <div
+          class="price-total--info-col"
+        >
+          <p>
+            SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AirUpgradeTotalPrice Should render the sum of all dollar bounds if they are selected 1`] = `
+<div>
+  <div
+    class="price-total"
+  >
+    <div
+      class="price-total--info"
+    >
+      <div
+        class="price-line"
+      >
+        <span
+          class="price-line--title"
+        >
+          SHARED__PRICE_LINE_TITLES__TOTAL_PASSENGER
+        </span>
+        <div
+          class="price-amount"
+        >
+          <div
+            class="price-line--currency_total"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                class="money-sign"
+              >
+                $
+              </span>
+              <span
+                data-qa="total-amount"
+              >
+                6,000.00
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="table fullwidth mt3"
+      >
+        <div
+          class="price-total--info-col"
+        >
+          <p>
+            SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AirUpgradeTotalPrice Should render the total amount of one selected bound 1`] = `
+<div>
+  <div
+    class="price-total"
+  >
+    <div
+      class="price-total--info"
+    >
+      <div
+        class="price-line"
+      >
+        <span
+          class="price-line--title"
+        >
+          SHARED__PRICE_LINE_TITLES__TOTAL_PASSENGER
+        </span>
+        <div
+          class="price-amount"
+        >
+          <div
+            class="price-line--currency_total"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                class="money-sign"
+              >
+                $
+              </span>
+              <span
+                data-qa="total-amount"
+              >
+                6,000.00
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="table fullwidth mt3"
+      >
+        <div
+          class="price-total--info-col"
+        >
+          <p>
+            SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentLink default should render button with onClick 1`] = `
+<button
+  className="button--link mock-class"
+  id="mock-id"
+  onClick={[Function]}
+>
+  This is a link
+</button>
+`;
+
+exports[`ContentLink default should render only text when missing required href 1`] = `
+<p
+  className="mock-class"
+  data-qa="mock-data-qa"
+  id="mock-id"
+>
+  This is a link
+</p>
+`;
+
+exports[`ContentLink default should render with href 1`] = `
+<a
+  className="mock-class"
+  data-qa="mock-data-qa"
+  href="/link"
+  id="mock-id"
+  target="_blank"
+>
+  This is a link
+</a>
+`;
+
+exports[`ContentLink default should render with provided target 1`] = `
+<a
+  className="mock-class"
+  data-qa="mock-data-qa"
+  href="/link"
+  id="mock-id"
+  target="_self"
+>
+  This is a link
+</a>
+`;
+
+exports[`ContentLink with web view should render only text when missing required href 1`] = `
+<p
+  className="mock-class"
+  data-qa="mock-data-qa"
+  id="mock-id"
+>
+  This is a link
+</p>
+`;
+
+exports[`ContentLink with web view should render with href 1`] = `
+<a
+  className="mock-class"
+  data-qa="mock-data-qa"
+  href="/link"
+  id="mock-id"
+  target="_self"
+>
+  This is a link
+</a>
+`;
+
+exports[`ContentLink with web view should render with raw and open in new tab 1`] = `
+<span
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "Please read <a href=\\"https://mobile.southwest.com/fare-rules\\" target=\\"_blank\\">fare rules</a> associated with purchase.",
+    }
+  }
+/>
+`;

@@ -1,0 +1,432 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RapidRewardsLandingPage should not show PageFooterWcmSourced when in a webview 1`] = `null`;
+
+exports[`RapidRewardsLandingPage should render correctly with default props 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="rr-page"
+      >
+        <div
+          class="rr-page-banner"
+        >
+          <button
+            class="rr-enroll-now button button--fluid larger button--yellow"
+            type="button"
+          >
+            Enroll Now
+          </button>
+        </div>
+        <div
+          class="rr-page-promotions"
+        >
+          <div
+            class="nav-item rich-nav-item rr-page-promotions--item"
+          >
+            <a
+              class="rich-nav-item--link"
+            >
+              <div
+                class="main-col"
+              >
+                <span
+                  class="rich-nav-item--title"
+                >
+                  About Rapid Rewards®
+                </span>
+                <span
+                  class="rich-nav-item--description"
+                >
+                  We make it fast and easy to earn reward flights and more!
+                </span>
+              </div>
+              <div
+                class="rich-nav-item--image-wrapper"
+              >
+                <img
+                  alt="About Rapid Rewards"
+                  src="/content/mkt/images/promotions/AboutRR_Icon_FPO.png"
+                />
+              </div>
+            </a>
+            <i
+              class="icon icon_keyboard-arrow-right"
+            />
+          </div>
+          <div
+            class="nav-item rich-nav-item rr-page-promotions--item"
+          >
+            <a
+              class="rich-nav-item--link"
+            >
+              <div
+                class="main-col"
+              >
+                <span
+                  class="rich-nav-item--title"
+                >
+                  Enroll Today
+                </span>
+                <span
+                  class="rich-nav-item--description"
+                >
+                  Start earning towards your first reward flight today!
+                </span>
+              </div>
+              <div
+                class="rich-nav-item--image-wrapper"
+              >
+                <img
+                  alt="enroll in Rapid Rewards"
+                  src="/content/mkt/images/promotions/enroll_icon.png"
+                />
+              </div>
+            </a>
+            <i
+              class="icon icon_keyboard-arrow-right"
+            />
+          </div>
+          <div
+            class="nav-item rich-nav-item rr-page-promotions--item"
+          >
+            <a
+              class="rich-nav-item--link"
+            >
+              <div
+                class="main-col"
+              >
+                <span
+                  class="rich-nav-item--title"
+                >
+                  Earn Companion Pass.
+                </span>
+                <span
+                  class="rich-nav-item--description"
+                >
+                  Learn how to earn the benefit that lets you fly with a friend plus 30,000 points.
+                </span>
+              </div>
+              <div
+                class="rich-nav-item--image-wrapper"
+              >
+                <img
+                  alt="Chase Rapid Rewards Credit Card"
+                  src="/content/mkt/images/promotions/CC_Signup.png"
+                />
+              </div>
+            </a>
+            <i
+              class="icon icon_keyboard-arrow-right"
+            />
+          </div>
+        </div>
+        <div
+          class="page-footer-wcm rr-page-footer"
+        >
+          <span
+            class="page-footer-wcm--copyright"
+          >
+            ©
+            2022
+             
+            SHARED__FOOTER__ALL_RIGHTS_RESERVED
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="rr-page"
+    >
+      <div
+        class="rr-page-banner"
+      >
+        <button
+          class="rr-enroll-now button button--fluid larger button--yellow"
+          type="button"
+        >
+          Enroll Now
+        </button>
+      </div>
+      <div
+        class="rr-page-promotions"
+      >
+        <div
+          class="nav-item rich-nav-item rr-page-promotions--item"
+        >
+          <a
+            class="rich-nav-item--link"
+          >
+            <div
+              class="main-col"
+            >
+              <span
+                class="rich-nav-item--title"
+              >
+                About Rapid Rewards®
+              </span>
+              <span
+                class="rich-nav-item--description"
+              >
+                We make it fast and easy to earn reward flights and more!
+              </span>
+            </div>
+            <div
+              class="rich-nav-item--image-wrapper"
+            >
+              <img
+                alt="About Rapid Rewards"
+                src="/content/mkt/images/promotions/AboutRR_Icon_FPO.png"
+              />
+            </div>
+          </a>
+          <i
+            class="icon icon_keyboard-arrow-right"
+          />
+        </div>
+        <div
+          class="nav-item rich-nav-item rr-page-promotions--item"
+        >
+          <a
+            class="rich-nav-item--link"
+          >
+            <div
+              class="main-col"
+            >
+              <span
+                class="rich-nav-item--title"
+              >
+                Enroll Today
+              </span>
+              <span
+                class="rich-nav-item--description"
+              >
+                Start earning towards your first reward flight today!
+              </span>
+            </div>
+            <div
+              class="rich-nav-item--image-wrapper"
+            >
+              <img
+                alt="enroll in Rapid Rewards"
+                src="/content/mkt/images/promotions/enroll_icon.png"
+              />
+            </div>
+          </a>
+          <i
+            class="icon icon_keyboard-arrow-right"
+          />
+        </div>
+        <div
+          class="nav-item rich-nav-item rr-page-promotions--item"
+        >
+          <a
+            class="rich-nav-item--link"
+          >
+            <div
+              class="main-col"
+            >
+              <span
+                class="rich-nav-item--title"
+              >
+                Earn Companion Pass.
+              </span>
+              <span
+                class="rich-nav-item--description"
+              >
+                Learn how to earn the benefit that lets you fly with a friend plus 30,000 points.
+              </span>
+            </div>
+            <div
+              class="rich-nav-item--image-wrapper"
+            >
+              <img
+                alt="Chase Rapid Rewards Credit Card"
+                src="/content/mkt/images/promotions/CC_Signup.png"
+              />
+            </div>
+          </a>
+          <i
+            class="icon icon_keyboard-arrow-right"
+          />
+        </div>
+      </div>
+      <div
+        class="page-footer-wcm rr-page-footer"
+      >
+        <span
+          class="page-footer-wcm--copyright"
+        >
+          ©
+          2022
+           
+          SHARED__FOOTER__ALL_RIGHTS_RESERVED
+        </span>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`RapidRewardsLandingPage should show PageFooterWcmSourced by default 1`] = `
+<div
+  class="page-footer-wcm rr-page-footer"
+>
+  <div
+    class="page-footer-wcm--row"
+  >
+    <div
+      class="page-footer-wcm--link"
+    >
+      <a
+        href="https://www.southwest.com/?ref=LinkMobileWeb&clk=LinkMobileWeb"
+        id="view_full_site"
+        target="_blank"
+      >
+        View full site
+      </a>
+      <span
+        class="page-footer-wcm--divider"
+      >
+        |
+      </span>
+    </div>
+    <div
+      class="page-footer-wcm--link"
+    >
+      <a
+        href="/contact-us"
+        id="contact_us"
+        target="_blank"
+      >
+        Contact us
+      </a>
+      <span
+        class="page-footer-wcm--divider"
+      >
+        |
+      </span>
+    </div>
+    <div
+      class="page-footer-wcm--link"
+    >
+      <a
+        href="https://southwest.qa6.southwest.com/faq/"
+        id="faq"
+        target="_blank"
+      >
+        FAQ
+      </a>
+    </div>
+  </div>
+  <div
+    class="page-footer-wcm--row"
+  >
+    <div
+      class="page-footer-wcm--link"
+    >
+      <a
+        href="/terms-and-conditions?clk=GNAVTC"
+        id="terms_conditions"
+        target="_blank"
+      >
+        Terms & Conditions
+      </a>
+      <span
+        class="page-footer-wcm--divider"
+      >
+        |
+      </span>
+    </div>
+    <div
+      class="page-footer-wcm--link"
+    >
+      <a
+        href="/privacy-policy?clk=GNAVPRIVACY"
+        id="privacy_policy"
+        target="_blank"
+      >
+        Privacy Policy
+      </a>
+    </div>
+  </div>
+  <div
+    class="page-footer-wcm--row"
+  >
+    <div
+      class="page-footer-wcm--link"
+    >
+      <a
+        href="https://www.southwest.com/dataprivacyrequest/"
+        id="do_not_sell_my_info"
+        target="_blank"
+      >
+        Do Not Sell My Info
+      </a>
+    </div>
+  </div>
+  <span
+    class="page-footer-wcm--copyright"
+  >
+    ©
+    2022
+     
+    SHARED__FOOTER__ALL_RIGHTS_RESERVED
+  </span>
+</div>
+`;

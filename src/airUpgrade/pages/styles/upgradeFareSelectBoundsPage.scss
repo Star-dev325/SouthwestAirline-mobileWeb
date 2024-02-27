@@ -1,0 +1,23 @@
+.air-upgrade-select-bounds-promo-message {
+  @include flex-cross-center;
+
+  .info-banner-container--header {
+    @include pdkblue;
+    @include medium;
+    @include bold;
+  }
+}
+
+.is-webview {
+  &.air-upgrade-select-bounds {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .air-upgrade-select-bounds--content {
+        @include tablet-content-frame-lg;
+        @include tablet-content-margins;
+        @include bggray2;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="airBooking.airBookingDeepLinkTest"
+    errors="0" failures="0" hostname="" id="" package="airBooking" skipped="0"
+    tests="2" time="38.99" timestamp="Fri, 15 Dec 2023 00:26:27 GMT">
+  
+    <testcase name="Go to air booking via Deep Link" classname="airBooking.airBookingDeepLinkTest" time="34.70" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify Page Values Are Correct from Url Params" classname="airBooking.airBookingDeepLinkTest" time="4.295" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

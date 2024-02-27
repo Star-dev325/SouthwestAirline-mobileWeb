@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransferFundsSummarySender should not render expirationDateString and expirationDate when their values are falsy 1`] = `
+<Fragment>
+  <div
+    className="transfer-funds-summary--card-and-vert-line-row"
+  >
+    <CreditCardImage />
+    <div
+      className="transfer-funds-summary--vert-line-after-card"
+    />
+  </div>
+  <div
+    className="transfer-funds-summary--detail-col"
+  >
+    <div
+      className="transfer-funds-summary--detail-col-sender-name"
+    />
+    <div
+      className="transfer-funds-summary--detail-col-pnr"
+    />
+    <div
+      className="transfer-funds-summary--detail-col-expiration"
+    />
+  </div>
+  <div
+    className="transfer-funds-summary--bold-amount"
+  >
+    <Currency
+      amount="100.00"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`TransferFundsSummarySender should render expirationDateString when it exists 1`] = `
+<Fragment>
+  <div
+    className="transfer-funds-summary--card-and-vert-line-row"
+  >
+    <CreditCardImage />
+    <div
+      className="transfer-funds-summary--vert-line-after-card"
+    />
+  </div>
+  <div
+    className="transfer-funds-summary--detail-col"
+  >
+    <div
+      className="transfer-funds-summary--detail-col-sender-name"
+    />
+    <div
+      className="transfer-funds-summary--detail-col-pnr"
+    />
+    <div
+      className="transfer-funds-summary--detail-col-expiration"
+    >
+      Expiration: None
+    </div>
+  </div>
+  <div
+    className="transfer-funds-summary--bold-amount"
+  >
+    <Currency
+      amount="100.00"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`TransferFundsSummarySender should render the component 1`] = `
+<Fragment>
+  <div
+    className="transfer-funds-summary--card-and-vert-line-row"
+  >
+    <CreditCardImage
+      cardType="TRAVEL_FUNDS"
+      leisureFund={true}
+    />
+    <div
+      className="transfer-funds-summary--vert-line-after-card"
+    />
+  </div>
+  <div
+    className="transfer-funds-summary--detail-col"
+  >
+    <div
+      className="transfer-funds-summary--detail-col-sender-name"
+    >
+      Thomas Shelby
+    </div>
+    <div
+      className="transfer-funds-summary--detail-col-pnr"
+    >
+      1010AA
+    </div>
+    <div
+      className="transfer-funds-summary--detail-col-expiration"
+    >
+      Expiration: 10/20/2030
+    </div>
+  </div>
+  <div
+    className="transfer-funds-summary--bold-amount"
+  >
+    <Currency
+      amount="100.00"
+    />
+  </div>
+</Fragment>
+`;

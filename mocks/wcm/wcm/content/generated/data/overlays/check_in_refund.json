@@ -1,0 +1,12 @@
+{
+  "revision": "20150304105043618",
+  "overlay": {
+    "title": "Check In & Refund Information",
+    "body": [
+      {
+        "type": "text",
+        "value": "<p>Southwest Airlines Ticketless Travel is nontransferable. Government issued photo identification is required at time of checkin.</p>\n<p>Customer Checkin Requirement: Flights Operated by Southwest Airlines Customers who do not claim their reservations at the departure gate desk at least ten (10) minutes before scheduled departure time for flights operated by Southwest Airlines will have their reserved space cancelled and will not be eligible for denied boarding compensation.</p>\n<p>Refunds Any change to this itinerary may result in a fare increase. To make application for a refund of any unused air fare, please write Southwest Airlines Refunds Department - SRF, P.O. Box 36611. Dallas, TX 75235 1611. Refund requests must include a copy of this document and/or your confirmation number, date of travel and flight number, and all credit card billing information including the amount and purchase reference numbers.</p>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RefundSummaryPassengers should render correctly 1`] = `
+<div>
+  <div
+    class="refund-summary-passengers "
+  >
+    <div
+      class="bgwhite flex flex-main-between p5"
+    >
+      <div
+        class="label-container passenger-name"
+      >
+        <div
+          class="label-container--label"
+        >
+          SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+        </div>
+        <div
+          class="label-container--content"
+        >
+          <div>
+            <div>
+              <span
+                class="xlarge nowrap block block nowrap overflow-hidden ellipsis"
+                data-qa="userName"
+              >
+                YANG LU
+              </span>
+            </div>
+            <div>
+              <span
+                class="xlarge nowrap block block nowrap overflow-hidden ellipsis"
+                data-qa="userName"
+              >
+                TEST WANG
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="label-container"
+      >
+        <div
+          class="label-container--label"
+        >
+          CONFIRMATION #
+        </div>
+        <div
+          class="label-container--content"
+        >
+          <div
+            class="xlarge align-right green"
+            data-qa="confirmation-number"
+          >
+            JSBFDK
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RefundSummaryPassengers should render passenger with account number and extra seat when they exist 1`] = `
+<div>
+  <div
+    class="refund-summary-passengers "
+  >
+    <div
+      class="bgwhite flex flex-main-between p5"
+    >
+      <div
+        class="label-container passenger-name"
+      >
+        <div
+          class="label-container--label"
+        >
+          SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+        </div>
+        <div
+          class="label-container--content"
+        >
+          <div>
+            <div>
+              <span
+                class="xlarge nowrap block block nowrap overflow-hidden ellipsis"
+                data-qa="userName"
+              >
+                YANG LU
+              </span>
+              <p
+                class="nowrap block gray5"
+              >
+                SHARED__SPECIAL_ASSISTANCE__EXTRA_SEAT
+              </p>
+              <p
+                class="nowrap block gray5"
+              >
+                497734932
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="label-container"
+      >
+        <div
+          class="label-container--label"
+        >
+          CONFIRMATION #
+        </div>
+        <div
+          class="label-container--content"
+        >
+          <div
+            class="xlarge align-right green"
+            data-qa="confirmation-number"
+          >
+            JSBFDK
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RefundSummaryPassengers should render with heading when showHeading is true 1`] = `
+<div>
+  <div
+    class="refund-summary-passengers "
+  >
+    <div
+      class="fields field-label--heading grouped"
+    >
+      <label
+        class="fields--label"
+      >
+        SHARED__PURCHASE_SUMMARY_FORM__PASSENGERS
+      </label>
+    </div>
+    <div
+      class="bgwhite flex flex-main-between p5"
+    >
+      <div
+        class="label-container passenger-name"
+      >
+        <div
+          class="label-container--label"
+        >
+          SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+        </div>
+        <div
+          class="label-container--content"
+        >
+          <div>
+            <div>
+              <span
+                class="xlarge nowrap block block nowrap overflow-hidden ellipsis"
+                data-qa="userName"
+              >
+                YANG LU
+              </span>
+            </div>
+            <div>
+              <span
+                class="xlarge nowrap block block nowrap overflow-hidden ellipsis"
+                data-qa="userName"
+              >
+                TEST WANG
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="label-container"
+      >
+        <div
+          class="label-container--label"
+        >
+          CONFIRMATION #
+        </div>
+        <div
+          class="label-container--content"
+        >
+          <div
+            class="xlarge align-right green"
+            data-qa="confirmation-number"
+          >
+            JSBFDK
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RefundSummaryPassengers should render with recordLocatorLabel when it exists 1`] = `
+<div>
+  <div
+    class="refund-summary-passengers "
+  >
+    <div
+      class="bgwhite flex flex-main-between p5"
+    >
+      <div
+        class="label-container passenger-name"
+      >
+        <div
+          class="label-container--label"
+        >
+          SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+        </div>
+        <div
+          class="label-container--content"
+        >
+          <div>
+            <div>
+              <span
+                class="xlarge nowrap block block nowrap overflow-hidden ellipsis"
+                data-qa="userName"
+              >
+                YANG LU
+              </span>
+            </div>
+            <div>
+              <span
+                class="xlarge nowrap block block nowrap overflow-hidden ellipsis"
+                data-qa="userName"
+              >
+                TEST WANG
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="label-container"
+      >
+        <div
+          class="label-container--label"
+        >
+          TEST LABEL
+        </div>
+        <div
+          class="label-container--content"
+        >
+          <div
+            class="xlarge align-right green"
+            data-qa="confirmation-number"
+          >
+            JSBFDK
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

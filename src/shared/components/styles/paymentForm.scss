@@ -1,0 +1,90 @@
+.payment-form {
+  @include mb0;
+
+  .segment {
+    @include bggray2;
+    padding: 1.6rem 1.2rem;
+  }
+
+  .segment:first-child {
+    padding-top: 0;
+  }
+
+  .blue {
+    @include bgpblue;
+  }
+
+  .fields {
+    margin: 1rem 0 0;
+
+    .fields--label {
+      @include gray5;
+      @include large;
+      @include bold;
+    }
+  }
+
+  .field {
+    @include mt4;
+  }
+
+  .saved-credit-cards--item-field {
+    @include mt0;
+  }
+
+  .icon_caret-down {
+    font-size: 2rem;
+  }
+
+  .error .dropdown {
+    @include red;
+  }
+
+  .phone-number-field .input--label {
+    @include larger;
+    margin-right: 1.2rem;
+  }
+
+  .summary-footer--verbiage {
+    @include center;
+    @include mb6;
+    @include white;
+  }
+
+  .payment-form--accept-forms {
+    @include inline-block;
+    margin: 1rem 0 0;
+  }
+
+  a {
+    @include pblue;
+    @include large;
+  }
+}
+
+.payment-form--input-field {
+  @include inline-block;
+  @include fullwidth;
+  @include relative;
+  @include py4;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.payment-form--input-field.active {
+  height: auto;
+}
+
+.saved-credit-cards--checkbox-field {
+  @include bd;
+  @include bgwhite;
+  @include bold;
+  @include flex;
+  @include flex-cross-center;
+  @include flex-main-between;
+  @include flex-row-reverse;
+  @include larger;
+  @include pblue;
+  @include p4;
+  @include rd3;
+}

@@ -1,0 +1,14 @@
+.internal-reference-number-select-page {
+  .booking {
+    @include fullheight;
+  }
+}
+
+.internal-reference-number-select {
+  @include fullheight;
+
+  .nav-item-link {
+    @include pblue;
+    @include larger;
+  }
+}

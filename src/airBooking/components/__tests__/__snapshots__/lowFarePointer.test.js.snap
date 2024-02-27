@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Low Fare Pointer when inbound flight and should have the correct classnames 1`] = `
+<div
+  class="low-fare-pointer"
+>
+  <div
+    class="low-fare-pointer--lines"
+  >
+    <div
+      class="low-fare-pointer--left-line-returning"
+    />
+  </div>
+  <div
+    class="low-fare-pointer--center-line-returning"
+  />
+</div>
+`;
+
+exports[`Low Fare Pointer when outbound flight and should have the correct classnames 1`] = `
+<div
+  class="low-fare-pointer"
+>
+  <div
+    class="low-fare-pointer--lines"
+  >
+    <div
+      class="low-fare-pointer--left-line"
+    />
+  </div>
+  <div
+    class="low-fare-pointer--center-line"
+  />
+</div>
+`;

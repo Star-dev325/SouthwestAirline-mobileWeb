@@ -1,0 +1,28 @@
+.saved-credit-cards--item-label {
+  @include table-cell;
+  @include align-middle;
+}
+
+.saved-credit-cards--item-container {
+  @include table;
+}
+
+.saved-credit-cards--item-text {
+  @include table-cell;
+  @include word-break;
+  @include align-middle;
+  @include pl4;
+}
+
+.saved-credit-cards--item_edit-mode {
+  @include flex;
+
+  .checkbox-button {
+    @include flex2;
+    @include bdb;
+  }
+
+  .credit-card-radio-input {
+    @include flex10;
+  }
+}

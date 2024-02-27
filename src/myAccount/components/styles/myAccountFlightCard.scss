@@ -1,0 +1,22 @@
+.my-account-flight-card {
+  @extend .trip-card;
+  @extend .compact-trip-card;
+
+  .button {
+    @include mt4;
+  }
+
+  .button--grey {
+    background: linear-gradient($white, $gray1);
+  }
+}
+
+.my-account-flight-card--airport {
+  @extend .trip-card-header--destination-airport;
+  @include pdkblue;
+  @include xlarge;
+}
+
+.my-account-flight-card--trip-date {
+  @extend .trip-card-header--trip-date;
+}

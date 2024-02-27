@@ -1,0 +1,10 @@
+{
+  "reservationGroups": [
+    {
+      "pnr": "R4838L",
+      "passengerType": "COMPANION",
+      "earlyBirdSucceeded": true,
+      "earlyBirdTotalCostCents": 3000
+    }
+  ]
+}

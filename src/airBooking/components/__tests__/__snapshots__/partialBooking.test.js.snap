@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PartialBooking component render should display title for partial booking 1`] = `
+<body>
+  <div>
+    <div
+      data-qa="partial-booking"
+    >
+      <div
+        class="custom-container bgpdkblue white"
+      >
+        <div
+          class="swa-message p0 error"
+        >
+          <span
+            class="icon-container"
+          >
+            <i
+              class="icon icon_exclamation"
+            />
+          </span>
+          <span
+            class="message--text"
+          >
+            <h3
+              class="xxlarge bold white inline-block"
+            >
+              AIR_BOOKING__PARTIAL_BOOKING__HEADER
+            </h3>
+          </span>
+        </div>
+        <div
+          class="mt4"
+        >
+          <p
+            class="medium white"
+          >
+            AIR_BOOKING__PARTIAL_BOOKING__MAIN_INSTRUCTION
+          </p>
+          <p
+            class="medium white mt2"
+          >
+            AIR_BOOKING__PARTIAL_BOOKING__SUB_INSTRUCTION
+          </p>
+        </div>
+      </div>
+      <div
+        class="bgwhite m3 p5"
+      >
+        <div
+          class="gray5 mb5"
+        >
+          SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+        </div>
+        <span
+          class="mb5 xlarge block nowrap overflow-hidden ellipsis"
+        >
+          Amber Awesome
+        </span>
+        <span
+          class="mb5 xlarge block nowrap overflow-hidden ellipsis"
+        >
+          Ron Hackmann
+        </span>
+        <div
+          class="gray5 mb5"
+        >
+          AIR_BOOKING__PARTIAL_BOOKING__NOT_CONFIRMED_HINT
+        </div>
+        <button
+          class="button button--fluid button--yellow"
+          data-qa="search-flight"
+          title="AIR_BOOKING__PARTIAL_BOOKING__BUTTON_TEXT"
+          type="button"
+        >
+          AIR_BOOKING__PARTIAL_BOOKING__BUTTON_TEXT
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+`;

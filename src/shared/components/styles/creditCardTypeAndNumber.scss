@@ -1,0 +1,10 @@
+.credit-card-type-and-number {
+  @include m5;
+  @include xlarge;
+  @include bold;
+  @include gray5;
+
+  span:first-child {
+    @include truncate-text(45%);
+  }
+}

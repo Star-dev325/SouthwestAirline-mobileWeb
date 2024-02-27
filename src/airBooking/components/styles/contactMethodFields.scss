@@ -1,0 +1,18 @@
+.contact-method-fields {
+  p.helper-text {
+    @include gray5;
+    @include medium;
+    margin: 1rem 0;
+  }
+
+  .phone-number-field .label-container--label {
+    @include larger;
+    @include mr4;
+  }
+}
+
+.contact-method--helper-text {
+  @include medium;
+  @include gray5;
+  margin-top: 1rem;
+}

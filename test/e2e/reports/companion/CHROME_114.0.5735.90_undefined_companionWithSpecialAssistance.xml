@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="10">
+
+  <testsuite name="companion.companionWithSpecialAssistance"
+    errors="0" failures="0" hostname="" id="" package="companion" skipped="0"
+    tests="10" time="58.70" timestamp="Fri, 15 Dec 2023 01:38:31 GMT">
+  
+    <testcase name="Go to view reservation page" classname="companion.companionWithSpecialAssistance" time="38.14" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View flight reservation through with confirmation number" classname="companion.companionWithSpecialAssistance" time="3.045" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify trip details page" classname="companion.companionWithSpecialAssistance" time="1.315" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View companion price page" classname="companion.companionWithSpecialAssistance" time="1.997" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View companion passenger page" classname="companion.companionWithSpecialAssistance" time="3.268" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Add Special Assistance options" classname="companion.companionWithSpecialAssistance" time="1.713" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check passenger page and go to purchase page" classname="companion.companionWithSpecialAssistance" time="3.722" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter into passenger edit page" classname="companion.companionWithSpecialAssistance" time="1.961" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click purchase button" classname="companion.companionWithSpecialAssistance" time="3.496" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View confirmation page" classname="companion.companionWithSpecialAssistance" time="0.04300" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

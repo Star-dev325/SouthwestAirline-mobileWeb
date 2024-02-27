@@ -1,0 +1,40 @@
+.flight-status {
+  @include gray5;
+  font-size: 1.1rem;
+
+  &.on-time,
+  &.boarding,
+  &.landed,
+  &.at-gate,
+  &.positive {
+    @include green;
+  }
+
+  &.cancelled,
+  &.delayed,
+  &.maintenance-delay,
+  &.diverted,
+  &.negative {
+    @include red;
+  }
+
+  &.early,
+  &.highlighted {
+    @include pblue;
+  }
+
+  .flight-status--text {
+    @include bold;
+    @include caps;
+    margin-left: 0.25rem;
+  }
+
+  .flight-status--sub-text {
+    @include bold;
+    margin-left: 0.25rem;
+  }
+
+  .icon_home-flight-status {
+    @include large;
+  }
+}

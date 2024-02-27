@@ -1,0 +1,108 @@
+.promotion-details {
+  .page-header {
+    @include relative;
+    @include lineheight10;
+    padding: 0.5em;
+    height: 2.8em;
+
+    .goback-link {
+      @include inline-block;
+      @include absolute;
+      @include l0;
+      @include white;
+      min-width: 2.6em;
+      z-index: 1;
+    }
+
+    .icon_keyboard-arrow-left {
+      @include inline-block;
+      @include relative;
+      font-size: 1.8em;
+    }
+
+    .header {
+      @include inline-block;
+      @include absolute;
+      @include t0;
+      @include r0;
+      @include b0;
+      @include l0;
+      @include center;
+      z-index: 0;
+      min-width: 2em;
+      min-height: 2.8em;
+      line-height: 2.8em;
+    }
+  }
+}
+
+.promotion-detail--item {
+  border-top: 1px solid $gray4;
+
+  &:first-child {
+    @include border-none;
+  }
+}
+
+.promotion-detail--item .registered-mark {
+  @include p4;
+  @include bgwhite;
+  border-radius: 5px;
+
+  .registered-mark--text {
+    @include black;
+    @include pl3;
+  }
+
+  .icon_check-circle {
+    @include xxxlarge;
+  }
+}
+
+.promotion-details--content {
+  .wrapper {
+    padding: 0 1em;
+  }
+
+  span {
+    color: $gray4 !important;
+    font-size: 1em !important;
+
+    strong {
+      @include pdkblue;
+    }
+  }
+
+  .grey.button {
+    span {
+      color: $pblue !important;
+    }
+  }
+
+  h4 {
+    @include pdkblue;
+    @include my4;
+    font-size: 1.6em !important;
+  }
+
+  section {
+    @include my6;
+    @include lineheight14;
+    @include large;
+  }
+
+  ul {
+    @include pl0;
+
+    li {
+      list-style-type: none;
+      border-top: 1px solid $gray3;
+      padding: 0.5em 0;
+    }
+  }
+
+  .registered-mark {
+    margin-top: 1em;
+    font-size: 1.6em;
+  }
+}

@@ -1,0 +1,57 @@
+.soda-flight-info:last-child {
+  @include border-none;
+}
+
+.flight-change {
+  .swa-message {
+    .message--text {
+      @include regular;
+    }
+  }
+
+  .msg-header {
+    .message--text {
+      @include pt1;
+    }
+  }
+
+  .icon_ic-info {
+    @include sblue;
+  }
+}
+
+.flight-change-msg {
+  @include p5;
+
+  p {
+    line-height: 1.6rem;
+  }
+}
+
+.flight-change-msg--body {
+  @include large;
+}
+
+.bg-neutral-white {
+  @include bgwhite;
+}
+
+.text-default {
+  @include gray5;
+}
+
+.text-primary-blue {
+  @include pblue;
+}
+
+.bg-primary-dark-blue {
+  @include bgpdkblue;
+
+  .icon_ic-info {
+    @include white;
+  }
+}
+
+.text-neutral-white {
+  @include white;
+}

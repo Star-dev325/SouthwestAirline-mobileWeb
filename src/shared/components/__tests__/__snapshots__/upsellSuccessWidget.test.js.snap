@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpsellSuccessWidget should render correctly 1`] = `
+<div
+  className="upsell-success-widget"
+>
+  <div
+    className="upsell-success-widget--header-container"
+  >
+    <Icon
+      className="upsell-success-widget--icon"
+      type="check-circle"
+    />
+    <b
+      className="upsell-success-widget--header"
+    >
+      test header
+    </b>
+  </div>
+  <p
+    className="upsell-success-widget--body"
+  >
+    test body
+  </p>
+</div>
+`;

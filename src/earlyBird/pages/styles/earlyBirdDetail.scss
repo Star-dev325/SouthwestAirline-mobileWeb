@@ -1,0 +1,14 @@
+.early-bird-detail--message {
+  @include px5;
+  @include py4;
+  @include large;
+  @include gray5;
+}
+
+.early-bird-detail--subtotal {
+  @include bdt;
+}
+
+.early-bird-destination-info {
+  @include mt4;
+}

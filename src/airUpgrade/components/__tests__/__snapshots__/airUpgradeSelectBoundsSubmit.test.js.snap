@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AirUpgradeSelectBoundsSubmit should render correctly 1`] = `
+<div>
+  <div
+    class="purchase-content--summary-footer"
+  >
+    <div
+      class="price-total"
+    >
+      <div
+        class="price-total--info"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            SHARED__PRICE_LINE_TITLES__TOTAL_PASSENGER
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  0.00
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="table fullwidth mt3"
+        >
+          <div
+            class="price-total--info-col"
+          >
+            <p>
+              SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="purchase-content--summary-footer-nav"
+    >
+      <button
+        class="button button--fluid huge button--yellow"
+        type="submit"
+      >
+        AIR_UPGRADE_SELECT_BOUNDS_SUBMIT_TEXT
+      </button>
+    </div>
+  </div>
+</div>
+`;

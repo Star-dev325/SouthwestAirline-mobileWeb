@@ -1,0 +1,36 @@
+.pricing-summary {
+  .price-summary--nav {
+    @include bgpblue;
+    @include p4;
+
+    .ui.button + .ui.button {
+      @include ml0;
+    }
+
+    .cancel {
+      @include mt3;
+    }
+  }
+}
+
+.pricing-summary--message {
+  @include bgpdkblue;
+  @include gray2;
+  @include px5;
+  @include py3;
+  @include lineheight14;
+}
+
+.is-webview {
+  &.pricing-summary-container {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .pricing-summary {
+        @include tablet-content-frame-lg;
+        @include tablet-content-margins;
+        @include bggray2;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DonutProgressBar render should render props 1`] = `
+<div>
+  <div
+    class="donut-progress-bar"
+    style="width: 100px; height: 100px;"
+  >
+    <svg
+      height="100"
+      width="100"
+    >
+      <path
+        class="donut-progress-bar--container"
+        d="M 50 95 A 45 45 0 1 0 50 95"
+        fill="transparent"
+        stroke="#d8d8d8"
+        stroke-width="10"
+      />
+      <path
+        class="donut-progress-bar--fill"
+        d="M 50 95 A 45 45 0 0 0 50 95"
+        fill="transparent"
+        stroke="#446688"
+        stroke-width="10"
+      />
+    </svg>
+  </div>
+</div>
+`;

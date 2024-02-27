@@ -1,0 +1,42 @@
+%input,
+.input {
+  @include bgwhite;
+  @include flex;
+  @include xxlarge;
+  @include fullwidth;
+  @include rd3;
+  @include flex-cross-center;
+  border: 1px solid $form-field-border;
+  border-top: 1px solid $gray3;
+  padding: 0.3rem 1.3rem;
+
+  input,
+  .input--like,
+  textarea {
+    @include py3;
+    @include fullwidth;
+    @include ellipsis;
+    @include border-none;
+    @include larger;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+  }
+
+  .formatted-input--fill {
+    @include block;
+    @include fullwidth;
+  }
+
+  .widget & {
+    @include border-none;
+    @include square;
+  }
+}
+
+fieldset[disabled] {
+  input {
+    @include gray4;
+    // for solving Safari display slight and different color when input is disabled.
+    -webkit-text-fill-color: $gray4;
+  }
+}

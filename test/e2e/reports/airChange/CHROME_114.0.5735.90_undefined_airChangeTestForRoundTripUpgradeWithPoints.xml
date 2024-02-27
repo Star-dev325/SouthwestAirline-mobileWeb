@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="10">
+
+  <testsuite name="airChange.airChangeTestForRoundTripUpgradeWithPoints"
+    errors="0" failures="1" hostname="" id="" package="airChange" skipped="4"
+    tests="10" time="62.62" timestamp="Fri, 15 Dec 2023 01:09:45 GMT">
+  
+    <testcase name="view reservation from homepage" classname="airChange.airChangeTestForRoundTripUpgradeWithPoints" time="38.99" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View flight reservation through with confirmation number" classname="airChange.airChangeTestForRoundTripUpgradeWithPoints" time="5.991" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Choose the change flight option" classname="airChange.airChangeTestForRoundTripUpgradeWithPoints" time="2.372" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select the outbound to change" classname="airChange.airChangeTestForRoundTripUpgradeWithPoints" time="2.089" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go the shopping page" classname="airChange.airChangeTestForRoundTripUpgradeWithPoints" time="2.425" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select new flight product for upgrade" classname="airChange.airChangeTestForRoundTripUpgradeWithPoints" time="10.76" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;div[data-qa=&#34;flight-products&#34;] .flight-product-section:nth-child(4)&gt; to be present for 10000 milliseconds.">    at Object.module.exports.command (/Users/x311032/spa-mobile-web/test/e2e/commands/clickVisible.js:2:8)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Click continue button on Pricing Summary Page" classname="airChange.airChangeTestForRoundTripUpgradeWithPoints">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Show Simple Login Page for points" classname="airChange.airChangeTestForRoundTripUpgradeWithPoints">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Show Review Page" classname="airChange.airChangeTestForRoundTripUpgradeWithPoints">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Show Confirmation Page" classname="airChange.airChangeTestForRoundTripUpgradeWithPoints">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

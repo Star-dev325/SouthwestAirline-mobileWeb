@@ -1,0 +1,13 @@
+.young-traveler-page {
+  &--flight-information {
+    @include p5;
+    @include pb0;
+
+    .fields--label {
+      @include bold;
+      @include gray5;
+      @include large;
+      @include pb5;
+    }
+  }
+}

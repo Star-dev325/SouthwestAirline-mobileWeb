@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "confirmation": {
+      "type": "object",
+      "properties": {
+        "reservationGroups": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "passengerType": {
+                "type": "string",
+                "enum": ["ADULT", "SENIOR"]
+              },
+              "passengers": {
+                "type": "array",
+                "items": { "$ref": "#/definitions/passenger" }
+              },
+              "pnr": { "type": "string" },
+              "earlyBirdSucceeded": {
+                "type": "boolean"
+              },
+              "earlyBirdFailureDueToChase": {
+                "type": "boolean"
+              },
+              "earlyBirdTotalCostCents": {
+                "type": ["integer", "null"]
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "passengerType",
+              "passengers",
+              "pnr"
+            ]
+          }
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "reservationGroups"
+      ]
+    }
+  },
+  "required": [
+    "confirmation"
+  ],
+
+
+  "definitions": {
+    "passenger": {
+      "type": "object",
+      "properties": {
+        "birthYear": { "type": "string" },
+        "gender": {
+          "type": "string",
+          "enum": ["M", "F"]
+        },
+        "accountNumber": { "type": "string" },
+        "redressNumber": { "type": "boolean" },
+        "knownTravelerNumber": { "type": "boolean" },
+        "senior": { "type": "boolean" }
+      },
+      "additionalProperties": false,
+      "required": [
+        "birthYear",
+        "gender",
+        "accountNumber",
+        "redressNumber",
+        "knownTravelerNumber",
+        "senior"
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+.purchase-confirmation {
+  .flight-summary-header.flight-summary-departing {
+    @include bgsblue;
+  }
+
+  .fund-results-list--item:last-child {
+    border-bottom: 0;
+  }
+
+  .confirmation {
+    @include green;
+  }
+
+  .price-total--price-break-down {
+    @include pb6;
+  }
+
+  .price-details .total-per-segment {
+    @include bdb;
+    @include bdgray2;
+  }
+
+  &--irn-container {
+    @include bgwhite;
+    @include flex;
+    @include flex-column;
+    padding-left: 8rem;
+    padding-bottom: 1.6rem;
+  }
+
+  &--divider {
+    @include bdb;
+    @include ml0;
+  }
+
+  &--irn-title {
+    @include gray5;
+  }
+
+  &--footer {
+    @include p4;
+  }
+
+  .purchase-confirmation--content .dynamic-placement .image-placement {
+    padding: 0.75em;
+  }
+
+  .purchase-confirmation--passport-link {
+    @include pblue;
+  }
+}
+
+.is-webview {
+  &.purchase-confirmation-page {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .purchase-confirmation--content {
+        @include bggray2;
+        @include pt4;
+        @include tablet-content-frame-lg;
+
+        margin: 0 auto $tablet-content-frame-margin-bottom;
+
+        .confirmation-trip-header {
+          @include mt0;
+        }
+
+        .dynamic-placement .image-placement {
+          @include mt0;
+
+          padding-top: 0.75rem;
+        }
+      }
+
+      .trip-booked--content {
+        @include mx-auto;
+        @include tablet-content-frame-lg;
+      }
+    }
+  }
+}

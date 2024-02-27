@@ -1,0 +1,30 @@
+.trip-totals {
+  @include bgwhite;
+  @include xlarge;
+
+  .currency {
+    @include xlarge;
+    @include regular;
+  }
+
+  .price-line:not(:last-child) {
+    @include pb2;
+  }
+}
+
+.trip-totals--new-trip-total {
+  @include pdkblue;
+
+  .currency {
+    @include bold;
+    @include pdkblue;
+  }
+}
+
+.trip-totals--original-trip-total {
+  @include gray4;
+
+  .currency {
+    @include gray4;
+  }
+}

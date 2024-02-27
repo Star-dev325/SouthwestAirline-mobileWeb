@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TravelAdvisoryDetails should render item title & info 1`] = `
+<div>
+  <div
+    class="travel-advisory-detail"
+  >
+    <h2
+      class="travel-advisory-detail--title"
+    >
+      <i
+        class="travel-advisory-detail--title-icon icon icon_exclamation-circle"
+      />
+      <span
+        class="travel-advisory-detail--title-text"
+      >
+        title1
+      </span>
+    </h2>
+    <div
+      class="travel-advisory-detail--info"
+    >
+      info
+    </div>
+    <div />
+  </div>
+</div>
+`;

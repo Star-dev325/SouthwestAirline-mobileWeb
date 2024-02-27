@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightShoppingExplain should have switch button when showCurrencySwitch is true 1`] = `
+<div
+  className="flight-shopping-explain"
+>
+  <div
+    className="flight-shopping-explain--text"
+  >
+    <div
+      className="flight-shopping-explain--bags"
+    >
+      First 2 Bags Fly Free
+      <sup>
+        ®
+      </sup>
+    </div>
+    <Connect(ContentLink)
+      dataQa="baggage-restrictions"
+      href="/baggage-restrictions"
+    >
+      Weight, size and excess limits apply.
+    </Connect(ContentLink)>
+    <div
+      className="flight-shopping-explain--taxes"
+    >
+      <Connect(ContentLink)
+        raw="All fares are rounded up to the nearest dollar and include <a href=\\"https://mobile.southwest.com/taxes-and-fees\\" target=\\"_blank\\">Gov't taxes &amp; fees.</a>"
+      />
+    </div>
+  </div>
+  <div
+    className="flight-shopping-explain--switch-button"
+  >
+    <MoneyOrPointsSwitchButton
+      darkTheme={true}
+      defaultValue="USD"
+      onSelect={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`FlightShoppingExplain should not have switch button when showCurrencySwitch is false 1`] = `
+<div
+  className="flight-shopping-explain"
+>
+  <div
+    className="flight-shopping-explain--text"
+  >
+    <div
+      className="flight-shopping-explain--bags"
+    >
+      First 2 Bags Fly Free
+      <sup>
+        ®
+      </sup>
+    </div>
+    <Connect(ContentLink)
+      dataQa="baggage-restrictions"
+      href="/baggage-restrictions"
+    >
+      Weight, size and excess limits apply.
+    </Connect(ContentLink)>
+    <div
+      className="flight-shopping-explain--taxes"
+    >
+      <Connect(ContentLink)
+        raw="All fares are rounded up to the nearest dollar and include <a href=\\"https://mobile.southwest.com/taxes-and-fees\\" target=\\"_blank\\">Gov't taxes &amp; fees.</a>"
+      />
+    </div>
+  </div>
+</div>
+`;

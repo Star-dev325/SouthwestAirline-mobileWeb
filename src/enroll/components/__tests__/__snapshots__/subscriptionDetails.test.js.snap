@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubscriptionDetails render should render banner picture successfully 1`] = `
+<img
+  src="/content/mkt/images/landing_pages/ipad_hero.jpg"
+/>
+`;
+
+exports[`SubscriptionDetails render should render single email subscription details list successfully 1`] = `
+NodeList [
+  <div
+    class="subscription-details-container--list-item"
+  >
+    <div
+      class="subscription-details-container--list-item-title"
+    >
+      <span>
+        Sales, travel deals, & promotions
+      </span>
+    </div>
+    <div
+      class="subscription-details-container--list-item-subtitle"
+    >
+      Sales on flights, hotels, vacations, and rental cars, Southwest® sweepstakes, giveaways, and more.
+    </div>
+  </div>,
+  <div
+    class="subscription-details-container--list-item"
+  >
+    <div
+      class="subscription-details-container--list-item-title"
+    >
+      <span>
+        Southwest news
+      </span>
+    </div>
+    <div
+      class="subscription-details-container--list-item-subtitle"
+    >
+      Schedule openings, new routes, and announcements.
+    </div>
+  </div>,
+  <div
+    class="subscription-details-container--list-item"
+  >
+    <div
+      class="subscription-details-container--list-item-title"
+    >
+      <span>
+        Loyalty news & promotions
+      </span>
+    </div>
+    <div
+      class="subscription-details-container--list-item-subtitle"
+    >
+      Limited-time offers and promotions focused on earning and redeeming Rapid Rewards® points.
+    </div>
+  </div>,
+  <div
+    class="subscription-details-container--list-item"
+  >
+    <div
+      class="subscription-details-container--list-item-title"
+    >
+      <span>
+        Member account information
+      </span>
+    </div>
+    <div
+      class="subscription-details-container--list-item-subtitle"
+    >
+      Information about your point balance and progress toward tier status or Companion Pass®.
+    </div>
+  </div>,
+]
+`;

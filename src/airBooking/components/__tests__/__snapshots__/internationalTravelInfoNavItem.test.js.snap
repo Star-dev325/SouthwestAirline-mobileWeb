@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InternationalTravelInfoNavItem should render correct component when current passenger passport is filled 1`] = `
+<div>
+  <div>
+    <a
+      class="nav-item-link international-travel-info-item"
+    >
+      <div>
+        AIR_BOOKING__PASSENGERS_INTERNATIONAL_TRAVEL__INFORMATION
+      </div>
+      <div
+        class="international-travel-info-item--option-label"
+      >
+        AIR_BOOKING__PASSENGERS__COMPLETE
+      </div>
+      <i
+        class="nav-item-link--icon icon icon_keyboard-arrow-right"
+      />
+    </a>
+  </div>
+</div>
+`;
+
+exports[`InternationalTravelInfoNavItem should render correct component when current passenger passport is not filled 1`] = `
+<div>
+  <div>
+    <a
+      class="nav-item-link international-travel-info-item"
+    >
+      <div>
+        AIR_BOOKING__PASSENGERS_INTERNATIONAL_TRAVEL__INFORMATION
+      </div>
+      <div
+        class="international-travel-info-item--option-label"
+      >
+        AIR_BOOKING__PASSENGERS__OPTIONAL
+      </div>
+      <i
+        class="nav-item-link--icon icon icon_keyboard-arrow-right"
+      />
+    </a>
+  </div>
+</div>
+`;

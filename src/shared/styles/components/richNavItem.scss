@@ -1,0 +1,54 @@
+.rich-nav-item {
+  @include relative;
+  @include bgwhite;
+  padding: 1.9rem 1rem;
+  border: solid $gray3;
+  border-width: 0 0 1px 0;
+
+  .main-col {
+    width: 60%;
+    padding: 0 3rem 0 1.4rem;
+  }
+
+  &--title {
+    @include block;
+    @include bold;
+    @include pblue;
+    font-size: 1.7rem;
+  }
+
+  &--description {
+    @include block;
+    @include gray5;
+    font-size: 1.3rem;
+  }
+
+  &--link {
+    @include block;
+  }
+
+  &--image-wrapper {
+    @include absolute;
+    @include t0;
+    @include b0;
+    @include l0;
+    right: 2.5em;
+    margin: auto 5px auto auto;
+    width: 3.5em;
+    height: 3.5em;
+    float: none;
+
+    img {
+      @include fullwidth;
+      @include fullheight;
+    }
+  }
+
+  .icon.icon_keyboard-arrow-right {
+    @include t0;
+    @include b0;
+    @include xxxlarge;
+
+    margin: auto;
+  }
+}

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`updateAPIsTransformer transformToPassportInfoRequest should transform form data to request parameter correctly when mockSuppressEmergencyContact is true 1`] = `
+Object {
+  "body": Object {
+    "travelDocumentsUpdate": Object {
+      "checkInSessionToken": "checkInSessionToken",
+      "nationality": Object {
+        "passportInformation": Object {
+          "countryOfResidence": "AG",
+          "nationality": "AO",
+          "passportExpirationDate": "2023-06-23",
+          "passportIssuedBy": "AS",
+          "passportNumber": "33333333333333",
+        },
+      },
+      "recordLocator": "ABD234",
+      "travelerIdentifier": "travelerId01",
+    },
+  },
+  "href": "https://url.com",
+  "method": "POST",
+}
+`;

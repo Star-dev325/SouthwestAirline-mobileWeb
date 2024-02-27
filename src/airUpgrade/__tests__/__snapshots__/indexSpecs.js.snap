@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`airUpgrade Index should render airUpgrade component routes when AIR_UPGRADE is true 1`] = `
+<div>
+  <Route
+    component={[Function]}
+    exact={true}
+    path="air/upgrade"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="air/upgrade/select-bounds"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="air/upgrade/index.html"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="air/upgrade/select.html"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="air/upgrade/purchase/paypal-canceled"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="air/upgrade/purchase/paypal"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="air/upgrade/purchase.html"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="air/upgrade/confirmation.html"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="air/upgrade/payment"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="air/upgrade/contact-method"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="air/upgrade/apply-travel-funds"
+  />
+</div>
+`;
+
+exports[`airUpgrade Index should render default props 1`] = `
+<div>
+  <Redirect
+    to="/"
+  />
+</div>
+`;

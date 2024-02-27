@@ -1,0 +1,47 @@
+.early-bird-price-subtotal {
+  @include bgwhite;
+  @include p5;
+  @include relative;
+
+  &:not(:last-child)::after {
+    @include bdb;
+    @include absolute;
+    @include r0;
+    @include b0;
+    left: 1.4rem;
+    content: '';
+  }
+
+  .formatted-currency {
+    @include inline-block;
+    @include larger;
+    @include regular;
+  }
+}
+
+.early-bird-price-subtotal--flight-info {
+  @include flex;
+}
+
+.early-bird-price-subtotal--origin-destination {
+  @include flex4;
+  @include larger;
+  @include gray5;
+}
+
+.early-bird-price-subtotal--price-calculator {
+  @include flex4;
+  @include larger;
+  @include gray5;
+  @include align-right;
+}
+
+.early-bird-price-subtotal--total-price {
+  @include flex4;
+  @include align-right;
+}
+
+.early-bird-price-subtotal--flight-number {
+  @include gray4;
+  @include medium;
+}

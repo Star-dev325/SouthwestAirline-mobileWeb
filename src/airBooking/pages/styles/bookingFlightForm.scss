@@ -1,0 +1,214 @@
+.booking-flight {
+  @include bgpdkblue;
+
+  .nav.nav--justified .nav--item {
+    &:first-child {
+      border-top-left-radius: 2px;
+    }
+
+    &:last-of-type {
+      border-top-right-radius: 2px;
+    }
+  }
+}
+
+.book-flight-form {
+  @include m0;
+  @include bgwhite;
+
+  .airport-icon {
+    @extend .search-fields--icon;
+    @include xxxlarge;
+  }
+
+  .grouped.fields {
+    @include m0;
+    border-bottom: 1px solid $gray2;
+
+    &:last-of-type {
+      border-color: transparent;
+    }
+
+    .input.transparent {
+      & > input {
+        @include border-none;
+        font-size: 2.2rem;
+      }
+
+      .input--label {
+        background: none;
+      }
+
+      & > .icon {
+        @include red;
+        font-size: 2.5rem;
+        right: 1.8rem;
+      }
+    }
+
+    .input {
+      @include px0;
+
+      .formatted-input,
+      input {
+        @include pl0;
+        @include bold;
+        min-height: 0;
+      }
+
+      .input--label {
+        @include p0;
+        @include center;
+        min-width: 5.2rem;
+
+        .icon {
+          @include m0;
+          @include sltblue;
+          @include lineheight10;
+          font-size: 2.5rem;
+          top: -0.1rem;
+        }
+
+        .icon_user {
+          @include xxlarge;
+        }
+      }
+    }
+  }
+
+  .formatted-input {
+    & + input {
+      display: none;
+    }
+  }
+
+  .tap-label {
+    @include p0;
+    margin-bottom: 2.4rem;
+  }
+
+  .checkbox-group {
+    @include relative;
+
+    .checkbox-label {
+      @include absolute;
+      @include gray4;
+      @include large;
+      top: -2rem;
+    }
+  }
+
+  .segment {
+    background: none;
+
+    .button {
+      @include mb4;
+    }
+  }
+
+  .low-fare-calendar-text {
+    @include gray5;
+    font-size: 1.6rem;
+
+    &_selected {
+      @include pdkblue;
+    }
+  }
+
+  &.homepage-redesign {
+    @include southwest-sans;
+
+    .field {
+      .nav {
+        @include p5;
+      }
+    }
+
+    .show-fares-field {
+      width: 45%;
+
+      .checkbox-group .checkbox-label {
+        @include bold;
+        @include pdkblue;
+        @include medium;
+        @include pl8;
+        @include fullwidth;
+        @include center;
+        @include block;
+        @include relative;
+        @include pb4;
+        @include t0;
+      }
+    }
+  }
+}
+
+.book-flight-form--prompt-code {
+  @include flex;
+  @include mt8;
+
+  .promo-code-field {
+    @include flex-cross-center;
+    @include mr5;
+    flex: 5;
+
+    &.field {
+      border-bottom: 0;
+    }
+
+    .input {
+      @include p0;
+    }
+
+    input {
+      @include rd2;
+      font-size: 1.26rem;
+      border: 1px solid $gray2;
+      padding-left: 0.84rem;
+      padding-right: 0.84rem;
+    }
+
+    .disabled-field {
+      @include rd2;
+      border: 1px solid $gray1 !important;
+
+      input {
+        @include border-none;
+      }
+    }
+  }
+
+  .show-fares-field {
+    @include flex-cross-center;
+    flex: 3;
+  }
+}
+
+.book-flight--page-footer {
+  a {
+    @include sltblue;
+  }
+
+  .page-footer-wcm--copyright {
+    @include white;
+  }
+}
+
+.low-fare-calendar {
+  &--container {
+    @include flex-row-reverse;
+    @include flex-main-end;
+    @include pr5;
+  }
+
+  &--checkbox {
+    @include flex-cross-center;
+    @include pr5;
+    margin-left: auto;
+  }
+
+  &--label {
+    @include flex-cross-center;
+    @include pl4;
+  }
+}

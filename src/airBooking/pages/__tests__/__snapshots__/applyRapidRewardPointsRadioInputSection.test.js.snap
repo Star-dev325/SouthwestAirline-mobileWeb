@@ -1,0 +1,486 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApplyRapidRewardPointsRadioInputSection component should not render radio input section when isWebView is true 1`] = `
+<div>
+  <div
+    class="apply-rapid-reward-points-radio-input rr-points-list"
+  >
+    <p
+      class="rr-points-list--title"
+      data-qa="rr-points-list--title"
+    >
+      SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+    </p>
+    <div
+      aria-disabled="false"
+      class="apply-rapid-reward-points-radio-input rr-points-list-item"
+      data-qa="rr-points-list-item"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="rr-points-list--points-icon icon icon_points"
+        data-qa="rr-points-list--points-icon"
+      />
+      <div
+        class="rr-points-list--item-text"
+      >
+        <span>
+          6,815 points
+           =
+        </span>
+        <span
+          class="rr-points-list--point-to-dollar-amount"
+        >
+          $235.00 OFF
+        </span>
+      </div>
+      <div>
+        <span
+          class="radio-button--mark"
+        >
+          <span
+            class="radio-input--mark rr-points-list--radio-item"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      aria-disabled="false"
+      class="apply-rapid-reward-points-radio-input rr-points-list-item"
+      data-qa="rr-points-list-item"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="rr-points-list--points-icon icon icon_points"
+        data-qa="rr-points-list--points-icon"
+      />
+      <div
+        class="rr-points-list--item-text"
+      >
+        <span>
+          3,408 points
+           =
+        </span>
+        <span
+          class="rr-points-list--point-to-dollar-amount"
+        >
+          $117.50 OFF
+        </span>
+      </div>
+      <div>
+        <span
+          class="radio-button--mark"
+        >
+          <span
+            class="radio-input--mark rr-points-list--radio-item"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      aria-disabled="false"
+      class="apply-rapid-reward-points-radio-input rr-points-list-item"
+      data-qa="rr-points-list-item"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="rr-points-list--points-icon icon icon_points"
+        data-qa="rr-points-list--points-icon"
+      />
+      <div
+        class="rr-points-list--item-text"
+      >
+        <span>
+          1,704 points
+           =
+        </span>
+        <span
+          class="rr-points-list--point-to-dollar-amount"
+        >
+          $58.75 OFF
+        </span>
+      </div>
+      <div>
+        <span
+          class="radio-button--mark"
+        >
+          <span
+            class="radio-input--mark rr-points-list--radio-item"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ApplyRapidRewardPointsRadioInputSection component should render correct component 1`] = `
+<body>
+  <div>
+    <div
+      class="apply-rapid-reward-points-radio-input rr-points-list"
+    >
+      <p
+        class="rr-points-list--title"
+        data-qa="rr-points-list--title"
+      >
+        SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+      </p>
+      <div
+        aria-disabled="false"
+        class="apply-rapid-reward-points-radio-input rr-points-list-item"
+        data-qa="rr-points-list-item"
+        role="button"
+        tabindex="0"
+      >
+        <i
+          class="rr-points-list--points-icon icon icon_points"
+          data-qa="rr-points-list--points-icon"
+        />
+        <div
+          class="rr-points-list--item-text"
+        >
+          <span>
+            6,815 points
+             =
+          </span>
+          <span
+            class="rr-points-list--point-to-dollar-amount"
+          >
+            $235.00 OFF
+          </span>
+        </div>
+        <div>
+          <span
+            class="radio-button--mark"
+          >
+            <span
+              class="radio-input--mark rr-points-list--radio-item"
+            />
+          </span>
+        </div>
+      </div>
+      <div
+        aria-disabled="false"
+        class="apply-rapid-reward-points-radio-input rr-points-list-item"
+        data-qa="rr-points-list-item"
+        role="button"
+        tabindex="0"
+      >
+        <i
+          class="rr-points-list--points-icon icon icon_points"
+          data-qa="rr-points-list--points-icon"
+        />
+        <div
+          class="rr-points-list--item-text"
+        >
+          <span>
+            3,408 points
+             =
+          </span>
+          <span
+            class="rr-points-list--point-to-dollar-amount"
+          >
+            $117.50 OFF
+          </span>
+        </div>
+        <div>
+          <span
+            class="radio-button--mark"
+          >
+            <span
+              class="radio-input--mark rr-points-list--radio-item"
+            />
+          </span>
+        </div>
+      </div>
+      <div
+        aria-disabled="false"
+        class="apply-rapid-reward-points-radio-input rr-points-list-item"
+        data-qa="rr-points-list-item"
+        role="button"
+        tabindex="0"
+      >
+        <i
+          class="rr-points-list--points-icon icon icon_points"
+          data-qa="rr-points-list--points-icon"
+        />
+        <div
+          class="rr-points-list--item-text"
+        >
+          <span>
+            1,704 points
+             =
+          </span>
+          <span
+            class="rr-points-list--point-to-dollar-amount"
+          >
+            $58.75 OFF
+          </span>
+        </div>
+        <div>
+          <span
+            class="radio-button--mark"
+          >
+            <span
+              class="radio-input--mark rr-points-list--radio-item"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`ApplyRapidRewardPointsRadioInputSection component splitPayRadioOptions list should check for selected radioOption when navigating back to split pay page 1`] = `
+<div>
+  <div
+    class="apply-rapid-reward-points-radio-input rr-points-list"
+  >
+    <p
+      class="rr-points-list--title"
+      data-qa="rr-points-list--title"
+    >
+      SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+    </p>
+    <div
+      aria-disabled="false"
+      class="apply-rapid-reward-points-radio-input rr-points-list-item"
+      data-qa="rr-points-list-item"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="rr-points-list--points-icon icon icon_points"
+        data-qa="rr-points-list--points-icon"
+      />
+      <div
+        class="rr-points-list--item-text"
+      >
+        <span>
+          6,815 points
+           =
+        </span>
+        <span
+          class="rr-points-list--point-to-dollar-amount"
+        >
+          $235.00 OFF
+        </span>
+      </div>
+      <div>
+        <span
+          class="radio-button--mark"
+        >
+          <span
+            class="radio-input--mark active rr-points-list--radio-item"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      aria-disabled="false"
+      class="apply-rapid-reward-points-radio-input rr-points-list-item"
+      data-qa="rr-points-list-item"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="rr-points-list--points-icon icon icon_points"
+        data-qa="rr-points-list--points-icon"
+      />
+      <div
+        class="rr-points-list--item-text"
+      >
+        <span>
+          3,408 points
+           =
+        </span>
+        <span
+          class="rr-points-list--point-to-dollar-amount"
+        >
+          $117.50 OFF
+        </span>
+      </div>
+      <div>
+        <span
+          class="radio-button--mark"
+        >
+          <span
+            class="radio-input--mark rr-points-list--radio-item"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      aria-disabled="false"
+      class="apply-rapid-reward-points-radio-input rr-points-list-item"
+      data-qa="rr-points-list-item"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="rr-points-list--points-icon icon icon_points"
+        data-qa="rr-points-list--points-icon"
+      />
+      <div
+        class="rr-points-list--item-text"
+      >
+        <span>
+          1,704 points
+           =
+        </span>
+        <span
+          class="rr-points-list--point-to-dollar-amount"
+        >
+          $58.75 OFF
+        </span>
+      </div>
+      <div>
+        <span
+          class="radio-button--mark"
+        >
+          <span
+            class="radio-input--mark rr-points-list--radio-item"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ApplyRapidRewardPointsRadioInputSection component splitPayRadioOptions list should not render radio section when splitPayPage is provided and splitPayOptions is empty 1`] = `
+<div>
+  <div
+    class="apply-rapid-reward-points-radio-input rr-points-list"
+  >
+    <p
+      class="rr-points-list--title"
+      data-qa="rr-points-list--title"
+    >
+      SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+    </p>
+  </div>
+</div>
+`;
+
+exports[`ApplyRapidRewardPointsRadioInputSection component splitPayRadioOptions list should show radio options if splitPayOptions array is available 1`] = `
+<div>
+  <div
+    class="apply-rapid-reward-points-radio-input rr-points-list"
+  >
+    <p
+      class="rr-points-list--title"
+      data-qa="rr-points-list--title"
+    >
+      SPLIT_PAY_PAGE__ELIGIBLE_POINTS
+    </p>
+    <div
+      aria-disabled="false"
+      class="apply-rapid-reward-points-radio-input rr-points-list-item"
+      data-qa="rr-points-list-item"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="rr-points-list--points-icon icon icon_points"
+        data-qa="rr-points-list--points-icon"
+      />
+      <div
+        class="rr-points-list--item-text"
+      >
+        <span>
+          6,815 points
+           =
+        </span>
+        <span
+          class="rr-points-list--point-to-dollar-amount"
+        >
+          $235.00 OFF
+        </span>
+      </div>
+      <div>
+        <span
+          class="radio-button--mark"
+        >
+          <span
+            class="radio-input--mark rr-points-list--radio-item"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      aria-disabled="false"
+      class="apply-rapid-reward-points-radio-input rr-points-list-item"
+      data-qa="rr-points-list-item"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="rr-points-list--points-icon icon icon_points"
+        data-qa="rr-points-list--points-icon"
+      />
+      <div
+        class="rr-points-list--item-text"
+      >
+        <span>
+          3,408 points
+           =
+        </span>
+        <span
+          class="rr-points-list--point-to-dollar-amount"
+        >
+          $117.50 OFF
+        </span>
+      </div>
+      <div>
+        <span
+          class="radio-button--mark"
+        >
+          <span
+            class="radio-input--mark rr-points-list--radio-item"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      aria-disabled="false"
+      class="apply-rapid-reward-points-radio-input rr-points-list-item"
+      data-qa="rr-points-list-item"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="rr-points-list--points-icon icon icon_points"
+        data-qa="rr-points-list--points-icon"
+      />
+      <div
+        class="rr-points-list--item-text"
+      >
+        <span>
+          1,704 points
+           =
+        </span>
+        <span
+          class="rr-points-list--point-to-dollar-amount"
+        >
+          $58.75 OFF
+        </span>
+      </div>
+      <div>
+        <span
+          class="radio-button--mark"
+        >
+          <span
+            class="radio-input--mark rr-points-list--radio-item"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

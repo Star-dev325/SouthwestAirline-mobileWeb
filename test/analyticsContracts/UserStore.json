@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "accountNumber": {
+      "type": "string"
+    },
+    "redeemablePoints": {
+      "type": "integer"
+    },
+    "tier": {
+      "type": "string",
+      "enum": [
+        "NON_ELITE",
+        "A_LIST",
+        "A_LIST_PREFERRED"
+      ]
+    },
+    "email": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "accountNumber",
+    "redeemablePoints",
+    "tier",
+    "email"
+  ]
+}

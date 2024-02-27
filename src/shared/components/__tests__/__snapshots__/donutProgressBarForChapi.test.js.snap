@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DonutProgressBar should set default state without props 1`] = `
+<div>
+  <div
+    class="donut-progress-bar"
+    style="width: 0px; height: 0px;"
+  >
+    <svg
+      height="0"
+      width="0"
+    >
+      <path
+        d="M -3.5 -3.5 A -5 -5 0 1 0 3.5 -3.5"
+        fill="transparent"
+        stroke="#e6e7e8"
+        stroke-width="10"
+      />
+      <path
+        class="donut-progress-bar--fill orange"
+        d="M 3.5 -3.5 A -5 -5 0 0 0 3.5 -3.5"
+        fill="transparent"
+        stroke-width="10"
+      />
+    </svg>
+  </div>
+</div>
+`;

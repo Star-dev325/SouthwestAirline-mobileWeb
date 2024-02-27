@@ -1,0 +1,17 @@
+.early-bird-check-in {
+  .reservation-retrieval-form {
+    .field {
+      border-top: 1px solid $gray2;
+    }
+
+    .input {
+      border-bottom: 0;
+    }
+  }
+
+  .form .field--error-msg {
+    @include bgwhite;
+    font-size: 1.1rem;
+    padding: 0 1.3rem 1.3rem 1.3rem;
+  }
+}

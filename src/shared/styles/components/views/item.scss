@@ -1,0 +1,13 @@
+.item {
+  .title {
+    @include gray4;
+    @include mb1;
+  }
+
+  .content {
+    ul,
+    ol {
+      @include pl5;
+    }
+  }
+}

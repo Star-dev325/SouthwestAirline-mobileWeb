@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="7">
+
+  <testsuite name="airBooking.dialogBackForwardTest"
+    errors="0" failures="0" hostname="" id="" package="airBooking" skipped="0"
+    tests="7" time="76.69" timestamp="Fri, 15 Dec 2023 00:44:16 GMT">
+  
+    <testcase name="Go to air booking from nav drawer" classname="airBooking.dialogBackForwardTest" time="32.05" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select same airport to show error-popup" classname="airBooking.dialogBackForwardTest" time="17.45" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify click OK can hide error-popup" classname="airBooking.dialogBackForwardTest" time="1.200" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find one-way flight from Atlanta to Austin with Dollar" classname="airBooking.dialogBackForwardTest" time="11.51" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select flights" classname="airBooking.dialogBackForwardTest" time="2.335" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check reprice / price summary and continue" classname="airBooking.dialogBackForwardTest" time="3.844" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter adult passenger details" classname="airBooking.dialogBackForwardTest" time="8.295" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,33 @@
+.contact-method {
+  .fields--label {
+    @include gray5;
+    @include large;
+    @include bold;
+  }
+
+  .field {
+    @include mt4;
+  }
+
+  .helper-text {
+    @include medium;
+    @include gray5;
+    padding: 0 1rem;
+  }
+
+  .nav-item-field-value {
+    @include larger;
+    @include pdkblue;
+  }
+
+  .nav-item-field {
+    &.nav-item-link {
+      margin-bottom: 1rem;
+      padding: 0 1.3rem 0 1.4rem;
+    }
+  }
+
+  .fullwidth {
+    padding-right: 5%;
+  }
+}

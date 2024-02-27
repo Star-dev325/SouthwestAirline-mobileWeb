@@ -1,0 +1,26 @@
+.trip-and-price-details {
+  @include attach-top;
+  @include bggray2;
+}
+
+.is-webview {
+  &.trip-and-price-details-page {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .trip-and-price-details {
+        background: none;
+      }
+
+      .pricing-summary {
+        @include bggray2;
+        @include tablet-content-frame-lg;
+        @include tablet-content-margins;
+
+        .flight-summary-card {
+          padding-top: 0.75rem;
+        }
+      }
+    }
+  }
+}

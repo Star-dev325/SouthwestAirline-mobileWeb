@@ -1,0 +1,19 @@
+.alert {
+  @include sblue;
+
+  .icon {
+    @include inline;
+    margin-right: 2%;
+  }
+
+  .title {
+    @include inline;
+    @include xxxlarge;
+    @include bold;
+  }
+
+  .description {
+    @include mt5;
+    @include large;
+  }
+}

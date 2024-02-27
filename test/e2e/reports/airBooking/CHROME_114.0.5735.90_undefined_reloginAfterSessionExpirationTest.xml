@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="17">
+
+  <testsuite name="airBooking.reloginAfterSessionExpirationTest"
+    errors="0" failures="0" hostname="" id="" package="airBooking" skipped="0"
+    tests="17" time="106.8" timestamp="Fri, 15 Dec 2023 00:53:47 GMT">
+  
+    <testcase name="Login user to do authenticated purchase" classname="airBooking.reloginAfterSessionExpirationTest" time="49.98" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to air booking from nav drawer" classname="airBooking.reloginAfterSessionExpirationTest" time="3.747" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find flight for one passenger from Dallas to Austin with Dollars" classname="airBooking.reloginAfterSessionExpirationTest" time="13.19" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select flights" classname="airBooking.reloginAfterSessionExpirationTest" time="2.123" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click continue button on price page" classname="airBooking.reloginAfterSessionExpirationTest" time="13.61" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Back to flight products page" classname="airBooking.reloginAfterSessionExpirationTest" time="2.814" assertions="0">
+    </testcase>
+  
+    <testcase name="Select flights again" classname="airBooking.reloginAfterSessionExpirationTest" time="2.021" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click continue button on price page again" classname="airBooking.reloginAfterSessionExpirationTest" time="3.464" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Using browser back" classname="airBooking.reloginAfterSessionExpirationTest" time="0.1840" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Click continue button from pricing page" classname="airBooking.reloginAfterSessionExpirationTest" time="0.7980" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to passenger page with pre-populated passenger info form" classname="airBooking.reloginAfterSessionExpirationTest" time="0.1830" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to payment page" classname="airBooking.reloginAfterSessionExpirationTest" time="7.880" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Using browser back to payment page" classname="airBooking.reloginAfterSessionExpirationTest" time="0.4900" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Select new credit card" classname="airBooking.reloginAfterSessionExpirationTest" time="2.915" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click continue to purchase summary pay with default saved credit card" classname="airBooking.reloginAfterSessionExpirationTest" time="1.152" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to payment edit page" classname="airBooking.reloginAfterSessionExpirationTest" time="0.4890" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Enter edit mode and finish update" classname="airBooking.reloginAfterSessionExpirationTest" time="1.792" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

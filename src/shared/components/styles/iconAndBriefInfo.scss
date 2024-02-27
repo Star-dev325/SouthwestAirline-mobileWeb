@@ -1,0 +1,31 @@
+.icon-and-brief-info {
+  @include bdb;
+  @include flex-cross-center;
+  @include flex;
+  @include p5;
+
+  &--icon {
+    @include mr5;
+    font-size: 4rem;
+  }
+
+  &--info-container {
+    @include flex-column;
+    @include flex;
+    @include fullwidth;
+  }
+
+  &--text {
+    @include larger;
+    @include pdkblue;
+  }
+
+  &--button {
+    @include align-left;
+    @include bgwhite;
+    @include border-none;
+    @include p0;
+    @include pblue;
+    cursor: pointer;
+  }
+}

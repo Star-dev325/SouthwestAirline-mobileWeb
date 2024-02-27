@@ -1,0 +1,32 @@
+#!/bin/bash
+
+RESTORE='\033[0m'
+RED='\033[00;31m'
+GREEN='\033[00;32m'
+
+STAGED_JS_FILES=$(git diff --staged --diff-filter=AMR --name-only | grep '\.jsx\|\.js\?$' | tr '\n' ' ')
+STAGED_CSS_FILES=$(git diff --staged --diff-filter=AMR --name-only | grep '\.scss$' | tr '\n' ' ')
+
+PASS=true
+if [[ "$STAGED_JS_FILES" != "" ]]; then
+  ./node_modules/.bin/eslint --ext .js,.jsx --rulesdir bin/eslint_rules/lib $STAGED_JS_FILES
+  if [[ ! $? -eq 0 ]]; then
+    PASS=false
+  fi
+fi
+
+if [[ "$STAGED_CSS_FILES" != "" ]]; then
+  ./node_modules/.bin/sass-lint -v -q $STAGED_CSS_FILES
+  if [[ ! $? -eq 0 ]]; then
+    PASS=false
+  fi
+fi
+
+if ! $PASS; then
+  echo -e "${RED}COMMIT FAILED:${RESTORE} Your commit contains files that should pass the code style. Please fix the errors and try again. (add --no-verify to bypass)\n"
+  exit 1
+else
+  echo -e "${GREEN}COMMIT SUCCEEDED${RESTORE}"
+fi
+
+exit $?

@@ -1,0 +1,68 @@
+.money-or-points {
+  .switch-button--item {
+    @include p2;
+    @include xlarge;
+
+    &.active {
+      @include white;
+      @include bgpblue;
+    }
+  }
+
+  &.switch-button--disabled {
+    border-color: $gray3;
+
+    .switch-button--item {
+      @include gray3;
+
+      &.active {
+        @include white;
+        @include bggray3;
+      }
+    }
+  }
+}
+
+.money-or-points_dark {
+  @include bgpblue;
+
+  .switch-button--item {
+    @include pdkblue;
+
+    &.active {
+      @include white;
+      @include bgpdkblue;
+    }
+  }
+}
+
+.money-or-points_alternate {
+  @include bgsltblue;
+  border: 2px $sltblue solid;
+  border-radius: 4px;
+
+  .switch-button--item {
+    @include pblue;
+    @include medium;
+    @include bold;
+    @include px3;
+    border-radius: 4px;
+
+    &.active {
+      @include white;
+      @include bgpblue;
+    }
+  }
+}
+
+.homepage-redesign {
+  .money-or-points {
+    @include ml8;
+    @include rd3;
+  }
+
+  .switch-button--item {
+    @include medium;
+    @include lineheight16;
+  }
+}

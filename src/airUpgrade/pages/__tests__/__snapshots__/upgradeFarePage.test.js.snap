@@ -1,0 +1,315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpgradeFarePage render should not render header when in a webview 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="upgrade-fare--content"
+      >
+        <div>
+          <div
+            class="page-header hidden"
+            id=""
+          >
+            UPGRADE_FARE_PAGE_TITLE
+          </div>
+          <div />
+        </div>
+        <div
+          class="reservation-retrieval-form"
+        >
+          <div
+            class="custom-container"
+          >
+            <form
+              class="form widget"
+              name="UPGRADE_FARE_RETRIEVE_RESERVATION_FORM"
+              novalidate=""
+            >
+              <fieldset>
+                <div
+                  class="fields divided grouped"
+                >
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="reservation-retrieval-form--record-locator input huge"
+                    >
+                      <input
+                        class=""
+                        name="recordLocator"
+                        placeholder="SHARED__PLACEHOLDER__CONFIRMATION_NUMBER"
+                        value="4NWG2V"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="firstName"
+                        placeholder="SHARED__PLACEHOLDER__FIRST_NAME"
+                        value="Joe"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="lastName"
+                        placeholder="SHARED__PLACEHOLDER__LAST_NAME"
+                        value="Rogan"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="segment"
+                  >
+                    <button
+                      class="button button--fluid large button--yellow"
+                      role="submit"
+                      type="submit"
+                    >
+                      VIEW_RESERVATION__RETRIEVE_RESERVATION
+                    </button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`UpgradeFarePage render should render correctly 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="upgrade-fare--content"
+      >
+        <div>
+          <div
+            class="page-header"
+            id=""
+          >
+            UPGRADE_FARE_PAGE_TITLE
+          </div>
+          <div />
+        </div>
+        <div
+          class="reservation-retrieval-form"
+        >
+          <div
+            class="custom-container"
+          >
+            <form
+              class="form widget"
+              name="UPGRADE_FARE_RETRIEVE_RESERVATION_FORM"
+              novalidate=""
+            >
+              <fieldset>
+                <div
+                  class="fields divided grouped"
+                >
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="reservation-retrieval-form--record-locator input huge"
+                    >
+                      <input
+                        class=""
+                        name="recordLocator"
+                        placeholder="SHARED__PLACEHOLDER__CONFIRMATION_NUMBER"
+                        value="4NWG2V"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="firstName"
+                        placeholder="SHARED__PLACEHOLDER__FIRST_NAME"
+                        value="Joe"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="lastName"
+                        placeholder="SHARED__PLACEHOLDER__LAST_NAME"
+                        value="Rogan"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="segment"
+                  >
+                    <button
+                      class="button button--fluid large button--yellow"
+                      role="submit"
+                      type="submit"
+                    >
+                      VIEW_RESERVATION__RETRIEVE_RESERVATION
+                    </button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`UpgradeFarePage render should should render the placement if promoTop01 exists 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="upgrade-fare--content"
+      >
+        <div>
+          <div
+            class="page-header"
+            id=""
+          >
+            UPGRADE_FARE_PAGE_TITLE
+          </div>
+          <div />
+        </div>
+        <div
+          data-qa="observed-viewport"
+        >
+          <div
+            class="dynamic-placement"
+          >
+            <div
+              class="shimmer"
+            >
+              <div
+                class="shimmer--children"
+              >
+                <div
+                  class="image-placement"
+                >
+                  <div
+                    data-qa="placement-link"
+                  >
+                    <img
+                      alt=""
+                      class="image-placement--background-image"
+                      src="/content/mkt/images/landing_pages/__tests__/chase-placement.png"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="reservation-retrieval-form"
+        >
+          <div
+            class="custom-container"
+          >
+            <form
+              class="form widget"
+              name="UPGRADE_FARE_RETRIEVE_RESERVATION_FORM"
+              novalidate=""
+            >
+              <fieldset>
+                <div
+                  class="fields divided grouped"
+                >
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="reservation-retrieval-form--record-locator input huge"
+                    >
+                      <input
+                        class=""
+                        name="recordLocator"
+                        placeholder="SHARED__PLACEHOLDER__CONFIRMATION_NUMBER"
+                        value="4NWG2V"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="firstName"
+                        placeholder="SHARED__PLACEHOLDER__FIRST_NAME"
+                        value="Joe"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input huge"
+                    >
+                      <input
+                        class=""
+                        name="lastName"
+                        placeholder="SHARED__PLACEHOLDER__LAST_NAME"
+                        value="Rogan"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="segment"
+                  >
+                    <button
+                      class="button button--fluid large button--yellow"
+                      role="submit"
+                      type="submit"
+                    >
+                      VIEW_RESERVATION__RETRIEVE_RESERVATION
+                    </button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

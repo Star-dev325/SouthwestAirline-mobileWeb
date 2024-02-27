@@ -1,0 +1,34 @@
+{
+  "adult": {
+    "outbound": {
+      "bookingCode": "T"
+    },
+    "inbound": {
+      "bookingCode": "S"
+    },
+    "priceSearchTotals": {
+      "segmentFees": [
+        {
+          "passengerFacilityChargeCents": 900,
+          "securityFeeCents": 1120,
+          "segmentFeeCents": 800
+        }
+      ],
+      "baseFarePoints": null,
+      "discountedBaseFarePoints": null,
+      "baseFareCents": 16901,
+      "discountedBaseFareCents": 16901,
+      "taxCents": 4195,
+      "priceTotalAmountCents": 21096,
+      "priceTotalAmountPoints": 0,
+      "requestedAmountCents": 21096,
+      "requestedAmountPoints": 0,
+      "verifyPriceChange": true
+    }
+  },
+  "senior": {
+    "inbound": null,
+    "outbound": null,
+    "priceSearchTotals": null
+  }
+}

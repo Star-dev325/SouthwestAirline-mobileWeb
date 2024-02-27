@@ -1,0 +1,29 @@
+.reservation-retrieval-form {
+  .input {
+    border-bottom: 1px solid $gray2;
+  }
+
+  .reservation-retrieval-form--record-locator {
+    input {
+      text-transform: uppercase;
+    }
+
+    input::placeholder {
+      text-transform: initial;
+    }
+  }
+
+  .field {
+    &:first-of-type {
+      .input {
+        @include rdt2;
+      }
+    }
+
+    &:last-of-type {
+      .segment {
+        @include rdb2;
+      }
+    }
+  }
+}

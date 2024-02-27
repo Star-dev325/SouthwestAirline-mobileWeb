@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeNavGrid should render each child item with correct props 1`] = `
+<div>
+  <div
+    class="home-nav-grid"
+  >
+    <div
+      class="home-nav-grid-item"
+      data-a="BKFLT"
+      data-qa="home-nav-book-a-flight"
+    >
+      <i
+        class="home-nav-grid-item--icon icon icon_airplane-depart"
+      />
+      <span>
+        HOME_AND_NAV__BOOK_A_FLIGHT
+      </span>
+    </div>
+    <div
+      class="home-nav-grid-item"
+      data-a="CHKIN"
+      data-qa="home-nav-check-in"
+    >
+      <i
+        class="home-nav-grid-item--icon icon icon_home-checkin"
+      />
+      <span>
+        HOME_AND_NAV__CHECK_IN
+      </span>
+    </div>
+    <div
+      class="home-nav-grid-item"
+      data-a="SPOFFR"
+      data-qa="home-nav-special-offers"
+    >
+      <i
+        class="home-nav-grid-item--icon icon icon_home-special-offers-tag"
+      />
+      <span>
+        HOME_AND_NAV__SPECIAL_OFFERS
+      </span>
+    </div>
+    <div
+      class="home-nav-grid-item"
+      data-a="FLTSTATUS"
+      data-qa="home-nav-flight-status"
+    >
+      <i
+        class="home-nav-grid-item--icon icon icon_home-flight-status"
+      />
+      <span>
+        HOME_AND_NAV__FLIGHT_STATUS
+      </span>
+    </div>
+    <div
+      class="home-nav-grid-item"
+      data-a="RPDRWD"
+      data-qa="home-nav-rapid-rewards"
+    >
+      <i
+        class="home-nav-grid-item--icon icon icon_home-rapid-rewards"
+      />
+      <span>
+        <span>
+          HOME_AND_NAV__RAPID_REWARDS
+          <sup>
+            ®
+          </sup>
+        </span>
+      </span>
+    </div>
+    <div
+      class="home-nav-grid-item"
+      data-a="MGTRIP"
+      data-qa="home-nav-manage-trips"
+    >
+      <i
+        class="home-nav-grid-item--icon icon icon_home-manage"
+      />
+      <span>
+        HOME_AND_NAV__MANAGE_TRIPS
+      </span>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,30 @@
+.passenger-checkbox {
+  @include flex-main-between;
+  @include px2;
+
+  &--container {
+    @include bd;
+    @include bgwhite;
+    @include flex;
+    @include pdkblue;
+    @include px3;
+    @include py4;
+  }
+
+  &--name {
+    @include flex-item-center;
+    @include larger;
+  }
+
+  &--passenger-type {
+    @include flex-item-center;
+    @include italic;
+    @include medium;
+    @include mr4;
+  }
+
+  &--passenger-type-and-button-container {
+    @include flex;
+    margin-left: auto;
+  }
+}

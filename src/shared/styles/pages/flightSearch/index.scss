@@ -1,0 +1,37 @@
+@import 'searchFlights';
+
+.flight-status-search,
+.flight-status-search-result {
+  @include bgpdkblue;
+}
+
+.empty-recent-searches {
+  @include gray3;
+  @include large;
+}
+
+.is-webview {
+  &.flight-status-search,
+  &.flight-status-search-result {
+    @include for-tablet-and-up {
+      @include bg-flight-status;
+    }
+  }
+
+  &.flight-status-search-result .page.container {
+    @include for-tablet-and-up {
+      width: 60%;
+      max-width: 800px;
+      min-width: 600px;
+      margin: auto;
+    }
+  }
+
+  .flight-details-content {
+    @include for-tablet-and-up {
+      width: 60%;
+      max-width: 600px;
+      margin: auto;
+    }
+  }
+}

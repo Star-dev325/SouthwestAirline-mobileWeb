@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="9">
+
+  <testsuite name="airBooking.lowFareCalendarDollarsTest"
+    errors="0" failures="0" hostname="" id="" package="airBooking" skipped="0"
+    tests="9" time="74.77" timestamp="Fri, 15 Dec 2023 00:45:33 GMT">
+  
+    <testcase name="Go to air booking from nav drawer" classname="airBooking.lowFareCalendarDollarsTest" time="30.98" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find flight for single passenger from Dallas to Austin selecting LFC" classname="airBooking.lowFareCalendarDollarsTest" time="20.26" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select low fare day" classname="airBooking.lowFareCalendarDollarsTest" time="0.4820" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select flight" classname="airBooking.lowFareCalendarDollarsTest" time="4.164" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check reprice / price summary and continue" classname="airBooking.lowFareCalendarDollarsTest" time="6.505" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter passenger details" classname="airBooking.lowFareCalendarDollarsTest" time="0.9960" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Login with Account" classname="airBooking.lowFareCalendarDollarsTest" time="9.497" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Purchase flight" classname="airBooking.lowFareCalendarDollarsTest" time="1.676" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="On confirmation Page" classname="airBooking.lowFareCalendarDollarsTest" time="0.2070" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

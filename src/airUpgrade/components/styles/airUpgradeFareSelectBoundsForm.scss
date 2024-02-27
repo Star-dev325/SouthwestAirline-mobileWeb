@@ -1,0 +1,36 @@
+.air-upgrade-select-bounds-form {
+  @include m0;
+
+  .bounds-header {
+    @include mb0;
+  }
+
+  .price-summary-notice,
+  &--message {
+    @include p5;
+    @include large;
+    @include gray5;
+  }
+
+  &--message {
+    @include pb1;
+  }
+
+  &--pricing-list,
+  &--bound-list {
+    @include ml5;
+    @include mr5;
+  }
+
+  &--pricing-list {
+    @include mt6;
+  }
+
+  &--bound-list {
+    @include mb4;
+  }
+
+  .price-total--info-col {
+    @include medium;
+  }
+}

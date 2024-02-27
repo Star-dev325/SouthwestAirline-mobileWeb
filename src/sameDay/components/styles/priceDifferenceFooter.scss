@@ -1,0 +1,33 @@
+.price-difference-footer {
+  &--price-total {
+    @include pb5;
+
+    .price-line--title {
+      @include bold;
+      @include larger;
+    }
+  }
+
+  &--price-total-with-rule {
+    .price-line--title {
+      @include bold;
+      @include larger;
+    }
+  }
+
+  &--description {
+    @include bgpblue;
+    @include large;
+    @include px5;
+    @include py4;
+    @include white;
+  }
+
+  &--nav {
+    @include border-none;
+  }
+
+  &--nav_webview {
+    padding-bottom: 5rem;
+  }
+}

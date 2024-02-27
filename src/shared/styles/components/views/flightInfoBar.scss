@@ -1,0 +1,49 @@
+.flight-info-bar {
+  @include py5;
+  @include bgpdkblue;
+}
+
+.flight-info-bar--title {
+  @include white;
+  @include pb4;
+  @include px2;
+}
+
+.flight-info-bar--title-text {
+  @include pr2;
+  @include large;
+}
+
+.flight-info-bar--title-icon {
+  .stop-normal {
+    @include sltblue;
+  }
+
+  .stop-highlight {
+    @include red;
+  }
+}
+
+.flight-info-bar--row {
+  @include flex;
+  @include flex-main-between;
+  @include px5;
+
+  .label-container--content {
+    @include mt0;
+    @include xlarge;
+    @include lineheight14;
+    @include white;
+  }
+}
+
+.flight-info-bar--col {
+  .label-container--label {
+    @include white;
+    @include small;
+  }
+}
+
+.flight-info-bar--departs-period {
+  @include smaller;
+}

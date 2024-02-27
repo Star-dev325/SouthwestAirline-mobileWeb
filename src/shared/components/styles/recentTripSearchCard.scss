@@ -1,0 +1,28 @@
+.recent-trip-search-card {
+  @include bgwhite;
+  @include px5;
+  @include py4;
+  @include rd2;
+}
+
+.recent-trip-search-card--title,
+.recent-trip-search-card--content {
+  @include flex;
+  @include flex-main-between;
+}
+
+.recent-trip-search-card--title {
+  @include gray4;
+  @include small;
+  @include mb1;
+}
+
+.recent-trip-search-card--content-passenger-name {
+  @include pblue;
+  @include larger;
+}
+
+.recent-trip-search-card--content-confirmation {
+  @include green;
+  @include larger;
+}

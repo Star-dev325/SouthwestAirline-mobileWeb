@@ -1,0 +1,53 @@
+.mbp-barcode-block {
+  @include bgwhite;
+  @include p3;
+  @include mx-auto;
+  @include mt0;
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.mbp-barcode-image {
+  width: 182px;
+}
+
+.rectangle {
+  border-radius: 2px;
+  background-color: $pdkblue;
+  margin: 0 auto;
+}
+
+.status {
+  min-width: 95px;
+  max-width: 140px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.mbp-barcode-reservation-assets--icon {
+  flex: auto;
+  height: 2rem;
+  object-fit: contain;
+  padding-left: 5px;
+}
+
+.mbp-barcode-tsa-tier {
+  display: flex;
+  padding-bottom: 0.8rem;
+}
+
+.mbp-barcode-lap-infant {
+  @include bold;
+  @include flex-cross-center;
+  @include flex;
+  @include mb4;
+  @include pdkblue;
+
+  img {
+    @include ml7;
+    @include mr3;
+    height: 3rem;
+    width: 2.75rem;
+  }
+}

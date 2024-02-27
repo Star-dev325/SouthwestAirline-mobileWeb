@@ -1,0 +1,66 @@
+.enroll-for-rapid-rewards {
+  .form {
+    .fields {
+      @include large;
+    }
+
+    .divided.fields.email-subscriptions-fields {
+      @include m0;
+      background: none;
+
+      & > .field {
+        @include bgwhite;
+        @include bdt;
+        @include bdb;
+        @include square;
+        margin-top: -1px;
+      }
+    }
+
+    a {
+      @include regular;
+    }
+
+    .label-container--label {
+      @include block;
+      @include large;
+      @include gray5;
+      @include mx5;
+      @include my4;
+    }
+
+    .segment {
+      background: none;
+    }
+
+    .field {
+      button {
+        @include pr5;
+      }
+
+      .rapid-rewards-checkbox {
+        &::after {
+          @include inline-block;
+          content: '';
+          clear: both;
+        }
+
+        .checkbox-button--mark {
+          @include left;
+          @include bgwhite;
+        }
+
+        .rapid-rewards-checkbox--content {
+          @include inline-block;
+          @include ml2;
+        }
+      }
+    }
+  }
+}
+
+.email-subscriptions-fields {
+  .checkbox-button--mark .icon {
+    @include xlarge;
+  }
+}

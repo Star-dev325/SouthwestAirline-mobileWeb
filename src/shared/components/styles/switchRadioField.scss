@@ -1,0 +1,41 @@
+.switch-radio-field_disabled {
+  .radio-input--mark.active::after,
+  .switch-button--item.active .radio-input--mark::after {
+    @include bggray4;
+  }
+
+  .save-credit-cards-field--label {
+    @include gray4;
+  }
+}
+
+.switch-radio-field--description {
+  @include gray5;
+  @include pl5;
+  @include pt4;
+  @include medium;
+}
+
+.save-credit-cards-field {
+  @extend %input;
+  @include bd;
+  @include bgwhite;
+  @include flex;
+  @include flex-main-between;
+}
+
+.save-credit-cards-field--label {
+  @include flex10;
+  @include flex;
+  @include py4;
+  @include flex-cross-center;
+  @include pblue;
+  @include bold;
+  @include larger;
+}
+
+.save-credit-cards-field--radio {
+  @include bdl;
+  @include relative;
+  @include fullwidth;
+}

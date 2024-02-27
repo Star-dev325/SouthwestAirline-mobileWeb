@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountdownTimer should call onCountdownFinishCallback when timed out 1`] = `
+<div>
+  <div
+    class="countdown-timer-container"
+  >
+    <i
+      class="xxlarge yellow icon icon_home-flight-status"
+    />
+    <div
+      class="countdown-timer-container--countdown"
+    >
+      0:
+      01
+    </div>
+    <p
+      class="pl4"
+    >
+      test information text
+    </p>
+  </div>
+</div>
+`;
+
+exports[`CountdownTimer should render component with new time 1`] = `
+<div>
+  <div
+    class="countdown-timer-container"
+  >
+    <i
+      class="xxlarge yellow icon icon_home-flight-status"
+    />
+    <div
+      class="countdown-timer-container--countdown"
+    >
+      0:
+      09
+    </div>
+    <p
+      class="pl4"
+    >
+      test information text
+    </p>
+  </div>
+</div>
+`;
+
+exports[`CountdownTimer should render component with time null 1`] = `<div />`;
+
+exports[`CountdownTimer should render the component correctly 1`] = `
+<div>
+  <div
+    class="countdown-timer-container"
+  >
+    <i
+      class="xxlarge yellow icon icon_home-flight-status"
+    />
+    <div
+      class="countdown-timer-container--countdown"
+    >
+      5:
+      00
+    </div>
+    <p
+      class="pl4"
+    >
+      remaining to secure your A1-A15 spot.*
+    </p>
+  </div>
+</div>
+`;

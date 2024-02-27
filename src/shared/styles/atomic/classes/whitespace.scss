@@ -1,0 +1,146 @@
+// KEY
+// m                = margin
+// p                = padding
+// t, r, b, l       = top, right, bottom, left
+// x                = left and right
+// y                = top and bottom
+// 0, 1, 2, 3, 4, 5 = predefined margin or padding sizes
+
+// MARGINS
+.m0      { @include m0;      }
+.mt0     { @include mt0;     }
+.mr0     { @include mr0;     }
+.mb0     { @include mb0;     }
+.ml0     { @include ml0;     }
+
+.m1      { @include m1;      }
+.mt1     { @include mt1;     }
+.mr1     { @include mr1;     }
+.mb1     { @include mb1;     }
+.ml1     { @include ml1;     }
+.mx1     { @include mx1;     }
+.my1     { @include my1;     }
+
+.m2      { @include m2;      }
+.mt2     { @include mt2;     }
+.mr2     { @include mr2;     }
+.mb2     { @include mb2;     }
+.ml2     { @include ml2;     }
+.mx2     { @include mx2;     }
+.my2     { @include my2;     }
+
+.m3      { @include m3;      }
+.mt3     { @include mt3;     }
+.mr3     { @include mr3;     }
+.mb3     { @include mb3;     }
+.ml3     { @include ml3;     }
+.mx3     { @include mx3;     }
+.my3     { @include my3;     }
+
+.m4      { @include m4;      }
+.mt4     { @include mt4;     }
+.mr4     { @include mr4;     }
+.mb4     { @include mb4;     }
+.ml4     { @include ml4;     }
+.mx4     { @include mx4;     }
+.my4     { @include my4;     }
+
+.m5      { @include m5;      }
+.mt5     { @include mt5;     }
+.mr5     { @include mr5;     }
+.mb5     { @include mb5;     }
+.ml5     { @include ml5;     }
+.mx5     { @include mx5;     }
+.my5     { @include my5;     }
+
+.m6      { @include m6;      }
+.mt6     { @include mt6;     }
+.mr6     { @include mr6;     }
+.mb6     { @include mb6;     }
+.ml6     { @include ml6;     }
+.mx6     { @include mx6;     }
+.my6     { @include my6;     }
+
+.m7      { @include m7;      }
+.mt7     { @include mt7;     }
+.mr7     { @include mr7;     }
+.mb7     { @include mb7;     }
+.ml7     { @include ml7;     }
+.mx7     { @include mx7;     }
+.my7     { @include my7;     }
+
+.mx-auto { @include mx-auto; }
+
+
+// PADDINGS
+.p0      { @include p0;      }
+.pt0     { @include pt0;     }
+.pr0     { @include pr0;     }
+.pb0     { @include pb0;     }
+.pl0     { @include pl0;     }
+.px0     { @include px0;     }
+.py0     { @include py0;     }
+
+.p1      { @include p1;      }
+.pt1     { @include pt1;     }
+.pr1     { @include pr1;     }
+.pb1     { @include pb1;     }
+.pl1     { @include pl1;     }
+.px1     { @include px1;     }
+.py1     { @include py1;     }
+
+.p2      { @include p2;      }
+.pt2     { @include pt2;     }
+.pr2     { @include pr2;     }
+.pb2     { @include pb2;     }
+.pl2     { @include pl2;     }
+.px2     { @include px2;     }
+.py2     { @include py2;     }
+
+.p3      { @include p3;      }
+.pt3     { @include pt3;     }
+.pr3     { @include pr3;     }
+.pb3     { @include pb3;     }
+.pl3     { @include pl3;     }
+.px3     { @include px3;     }
+.py3     { @include py3;     }
+
+.p4      { @include p4;      }
+.pt4     { @include pt4;     }
+.pr4     { @include pr4;     }
+.pb4     { @include pb4;     }
+.pl4     { @include pl4;     }
+.px4     { @include px4;     }
+.py4     { @include py4;     }
+
+.p5      { @include p5;      }
+.pt5     { @include pt5;     }
+.pr5     { @include pr5;     }
+.pb5     { @include pb5;     }
+.pl5     { @include pl5;     }
+.px5     { @include px5;     }
+.py5     { @include py5;     }
+
+.p6      { @include p6;      }
+.pt6     { @include pt6;     }
+.pr6     { @include pr6;     }
+.pb6     { @include pb6;     }
+.pl6     { @include pl6;     }
+.px6     { @include px6;     }
+.py6     { @include py6;     }
+
+.p7      { @include p7;      }
+.pt7     { @include pt7;     }
+.pr7     { @include pr7;     }
+.pb7     { @include pb7;     }
+.pl7     { @include pl7;     }
+.px7     { @include px7;     }
+.py7     { @include py7;     }
+
+.p8      { @include p8;      }
+.pt8     { @include pt8;     }
+.pr8     { @include pr8;     }
+.pb8     { @include pb8;     }
+.pl8     { @include pl8;     }
+.px8     { @include px8;     }
+.py8     { @include py8;     }

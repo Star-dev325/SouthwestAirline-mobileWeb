@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApplyRapidRewardsNavItemField should display 'Points applied' if rapid rewards points are being applied 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        data-qa="review-form--apply-rapid-rewards-nav-item"
+      >
+        <a
+          class="nav-item-link nav-item-field "
+        >
+          <span>
+            SPLIT_PAY_PAGE__CASH_POINTS_APPLIED_TEXT
+          </span>
+          <i
+            class="nav-item-link--icon icon icon_keyboard-arrow-right"
+          />
+        </a>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`ApplyRapidRewardsNavItemField should display 'Select (optional)' if there are no rapid rewards points being applied 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        data-qa="review-form--apply-rapid-rewards-nav-item"
+      >
+        <a
+          class="nav-item-link nav-item-field no-points-selected"
+        >
+          <span>
+            SPLIT_PAY_FORM__SELECT_TEXT
+          </span>
+          <i
+            class="nav-item-link--icon icon icon_keyboard-arrow-right"
+          />
+        </a>
+      </div>
+    </div>
+  </form>
+</div>
+`;

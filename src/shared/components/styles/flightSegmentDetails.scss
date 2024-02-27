@@ -1,0 +1,74 @@
+.flight-segment-details {
+  @include pb4;
+  @include pt4;
+  @include gray5;
+
+  &--time-and-flight {
+    @include fullwidth;
+    @include flex;
+    @include flex-main-between;
+  }
+
+  &--time-block {
+    @include flex4;
+
+    &-label {
+      @include caps;
+    }
+
+    &-time {
+      @include block;
+      @include xxxlarge;
+      @include bold;
+      @include mt1;
+      @include pdkblue;
+
+      &-ampm {
+        @include caps;
+        @include ml1;
+        @include small;
+      }
+    }
+  }
+
+  &--flight-number {
+    @include center;
+    @include caps;
+
+    .icon {
+      @include mt1;
+      @include xxxlarge;
+    }
+  }
+
+  &--airports {
+    @include fullwidth;
+    @include flex;
+    @include flex-main-between;
+    @include mt1;
+  }
+
+  &--aircraft-type {
+    @include fullwidth;
+    @include flex;
+    @include flex-main-around;
+    @include mt3;
+  }
+
+  &--airport-info {
+    @include flex6;
+  }
+}
+
+.flight-segment-details_outdated {
+  @include gray3;
+
+  .flight-segment-details--time-block-time {
+    @include gray3;
+  }
+}
+
+.flight-segment-details--time-block-time_delayed {
+  @include red;
+  @include bold;
+}

@@ -1,0 +1,83 @@
+.car-type-strip {
+  @include relative;
+  @include px5;
+  @include for-tablet-and-up {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 10px;
+  }
+
+  .icon {
+    @include absolute;
+    @include for-tablet-and-up {
+      @include white;
+      @include bgpblue;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+    }
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .icon_keyboard-arrow-left::before {
+    @include for-tablet-and-up {
+      @include absolute;
+      @include l0;
+      top: 2px;
+    }
+  }
+
+  .icon_keyboard-arrow-right::before {
+    @include for-tablet-and-up {
+      @include absolute;
+      @include r0;
+      top: 2px;
+    }
+  }
+}
+
+.car-type-strip--content {
+  @include flex;
+  @include large;
+  @include white;
+  @include px5;
+  -webkit-margin-after: 0;
+  -webkit-margin-before: 0;
+}
+
+.car-type-strip--item {
+  @include block;
+  @include center;
+  @include py3;
+  @include bgpblue;
+  @include bdr;
+  @include bdpdkblue;
+  @include large;
+  flex: 1;
+  list-style-type: none;
+  cursor: pointer;
+
+  &:first-child {
+    @include rdl2;
+  }
+
+  &:last-child {
+    @include rdr2;
+  }
+
+  &.active {
+    @include bgsdkblue;
+    @include white;
+  }
+
+  &.disabled {
+    @include pdkblue;
+  }
+
+  .car-type-strip--currency {
+    @include inline-block;
+    @include medium;
+    @include regular;
+  }
+}

@@ -1,0 +1,1048 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WCMStyledPage should not render PageFooterWcmSourced when in a webview 1`] = `
+<MemoryRouter
+  keyLength={0}
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Provider
+      store={
+        Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        }
+      }
+    >
+      <Route
+        path="/"
+        render={[Function]}
+      >
+        <Connect(_withConnectedReactRouter)
+          footerLinkRows={
+            Array [
+              Object {
+                "linkListItems": Array [
+                  Object {
+                    "linkTarget": "/mock-url",
+                    "linkText": "View full site",
+                    "linkType": "browser",
+                  },
+                  Object {
+                    "linkTarget": "/contact-us",
+                    "linkText": "Contact us",
+                    "linkType": "webview",
+                  },
+                  Object {
+                    "linkTarget": "/mock-url",
+                    "linkText": "Help Center",
+                    "linkType": "browser",
+                  },
+                ],
+              },
+              Object {
+                "linkListItems": Array [
+                  Object {
+                    "linkTarget": "/terms-and-conditions?clk=GNAVTC",
+                    "linkText": "Terms & Conditions",
+                    "linkType": "browser",
+                  },
+                  Object {
+                    "linkTarget": "/privacy-policy?clk=GNAVPRIVACY",
+                    "linkText": "Privacy Policy",
+                    "linkType": "browser",
+                  },
+                ],
+              },
+              Object {
+                "linkListItems": Array [
+                  Object {
+                    "linkTarget": "/mock-url",
+                    "linkText": "Do Not Sell My Info",
+                    "linkType": "browser",
+                  },
+                ],
+              },
+            ]
+          }
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "canGo": [Function],
+              "createHref": [Function],
+              "entries": Array [
+                Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+              ],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "index": 0,
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+          isWebView={true}
+          location={
+            Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          match={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "/",
+              "url": "/",
+            }
+          }
+          push={[Function]}
+        >
+          <_withConnectedReactRouter
+            footerLinkRows={
+              Array [
+                Object {
+                  "linkListItems": Array [
+                    Object {
+                      "linkTarget": "/mock-url",
+                      "linkText": "View full site",
+                      "linkType": "browser",
+                    },
+                    Object {
+                      "linkTarget": "/contact-us",
+                      "linkText": "Contact us",
+                      "linkType": "webview",
+                    },
+                    Object {
+                      "linkTarget": "/mock-url",
+                      "linkText": "Help Center",
+                      "linkType": "browser",
+                    },
+                  ],
+                },
+                Object {
+                  "linkListItems": Array [
+                    Object {
+                      "linkTarget": "/terms-and-conditions?clk=GNAVTC",
+                      "linkText": "Terms & Conditions",
+                      "linkType": "browser",
+                    },
+                    Object {
+                      "linkTarget": "/privacy-policy?clk=GNAVPRIVACY",
+                      "linkText": "Privacy Policy",
+                      "linkType": "browser",
+                    },
+                  ],
+                },
+                Object {
+                  "linkListItems": Array [
+                    Object {
+                      "linkTarget": "/mock-url",
+                      "linkText": "Do Not Sell My Info",
+                      "linkType": "browser",
+                    },
+                  ],
+                },
+              ]
+            }
+            go={[Function]}
+            goBack={[Function]}
+            goForward={[Function]}
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "canGo": [Function],
+                "createHref": [Function],
+                "entries": Array [
+                  Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                ],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "index": 0,
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            isWebView={true}
+            location={
+              Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+            push={[Function]}
+            replace={[Function]}
+          >
+            <BodyClass
+              footerLinkRows={
+                Array [
+                  Object {
+                    "linkListItems": Array [
+                      Object {
+                        "linkTarget": "/mock-url",
+                        "linkText": "View full site",
+                        "linkType": "browser",
+                      },
+                      Object {
+                        "linkTarget": "/contact-us",
+                        "linkText": "Contact us",
+                        "linkType": "webview",
+                      },
+                      Object {
+                        "linkTarget": "/mock-url",
+                        "linkText": "Help Center",
+                        "linkType": "browser",
+                      },
+                    ],
+                  },
+                  Object {
+                    "linkListItems": Array [
+                      Object {
+                        "linkTarget": "/terms-and-conditions?clk=GNAVTC",
+                        "linkText": "Terms & Conditions",
+                        "linkType": "browser",
+                      },
+                      Object {
+                        "linkTarget": "/privacy-policy?clk=GNAVPRIVACY",
+                        "linkText": "Privacy Policy",
+                        "linkType": "browser",
+                      },
+                    ],
+                  },
+                  Object {
+                    "linkListItems": Array [
+                      Object {
+                        "linkTarget": "/mock-url",
+                        "linkText": "Do Not Sell My Info",
+                        "linkType": "browser",
+                      },
+                    ],
+                  },
+                ]
+              }
+              go={[Function]}
+              goBack={[Function]}
+              goForward={[Function]}
+              history={
+                Object {
+                  "action": "POP",
+                  "block": [Function],
+                  "canGo": [Function],
+                  "createHref": [Function],
+                  "entries": Array [
+                    Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    },
+                  ],
+                  "go": [Function],
+                  "goBack": [Function],
+                  "goForward": [Function],
+                  "index": 0,
+                  "length": 1,
+                  "listen": [Function],
+                  "location": Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                  "push": [Function],
+                  "replace": [Function],
+                }
+              }
+              isWebView={true}
+              location={
+                Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                }
+              }
+              params={Object {}}
+              push={[Function]}
+              query={Object {}}
+              replace={[Function]}
+            >
+              <Connect(InTheAirPage)
+                footerLinkRows={
+                  Array [
+                    Object {
+                      "linkListItems": Array [
+                        Object {
+                          "linkTarget": "/mock-url",
+                          "linkText": "View full site",
+                          "linkType": "browser",
+                        },
+                        Object {
+                          "linkTarget": "/contact-us",
+                          "linkText": "Contact us",
+                          "linkType": "webview",
+                        },
+                        Object {
+                          "linkTarget": "/mock-url",
+                          "linkText": "Help Center",
+                          "linkType": "browser",
+                        },
+                      ],
+                    },
+                    Object {
+                      "linkListItems": Array [
+                        Object {
+                          "linkTarget": "/terms-and-conditions?clk=GNAVTC",
+                          "linkText": "Terms & Conditions",
+                          "linkType": "browser",
+                        },
+                        Object {
+                          "linkTarget": "/privacy-policy?clk=GNAVPRIVACY",
+                          "linkText": "Privacy Policy",
+                          "linkType": "browser",
+                        },
+                      ],
+                    },
+                    Object {
+                      "linkListItems": Array [
+                        Object {
+                          "linkTarget": "/mock-url",
+                          "linkText": "Do Not Sell My Info",
+                          "linkType": "browser",
+                        },
+                      ],
+                    },
+                  ]
+                }
+                go={[Function]}
+                goBack={[Function]}
+                goForward={[Function]}
+                history={
+                  Object {
+                    "action": "POP",
+                    "block": [Function],
+                    "canGo": [Function],
+                    "createHref": [Function],
+                    "entries": Array [
+                      Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      },
+                    ],
+                    "go": [Function],
+                    "goBack": [Function],
+                    "goForward": [Function],
+                    "index": 0,
+                    "length": 1,
+                    "listen": [Function],
+                    "location": Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    },
+                    "push": [Function],
+                    "replace": [Function],
+                  }
+                }
+                isWebView={true}
+                location={
+                  Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  }
+                }
+                params={Object {}}
+                push={[Function]}
+                query={Object {}}
+                replace={[Function]}
+              >
+                <InTheAirPage
+                  footerLinkRows={Array []}
+                  go={[Function]}
+                  goBack={[Function]}
+                  goForward={[Function]}
+                  history={
+                    Object {
+                      "action": "POP",
+                      "block": [Function],
+                      "canGo": [Function],
+                      "createHref": [Function],
+                      "entries": Array [
+                        Object {
+                          "hash": "",
+                          "pathname": "/",
+                          "search": "",
+                          "state": undefined,
+                        },
+                      ],
+                      "go": [Function],
+                      "goBack": [Function],
+                      "goForward": [Function],
+                      "index": 0,
+                      "length": 1,
+                      "listen": [Function],
+                      "location": Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      },
+                      "push": [Function],
+                      "replace": [Function],
+                    }
+                  }
+                  isWebView={false}
+                  location={
+                    Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    }
+                  }
+                  params={Object {}}
+                  push={[Function]}
+                  query={Object {}}
+                  replace={[Function]}
+                  styledPage={Object {}}
+                  wcmFetchActionFn={[Function]}
+                >
+                  <div
+                    className="medium"
+                  >
+                    <h1
+                      className="m6"
+                    >
+                       
+                       
+                    </h1>
+                  </div>
+                  <div />
+                  <PageFooterWcmSourced
+                    footerLinkRows={Array []}
+                  >
+                    <div
+                      className="page-footer-wcm"
+                    >
+                      <span
+                        className="page-footer-wcm--copyright"
+                      >
+                        ©
+                        2022
+                         
+                        Southwest Airlines Co. All Rights Reserved.
+                      </span>
+                    </div>
+                  </PageFooterWcmSourced>
+                </InTheAirPage>
+              </Connect(InTheAirPage)>
+            </BodyClass>
+          </_withConnectedReactRouter>
+        </Connect(_withConnectedReactRouter)>
+      </Route>
+    </Provider>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`WCMStyledPage should render PageFooterWcmSourced by default 1`] = `
+<MemoryRouter
+  keyLength={0}
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Provider
+      store={
+        Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        }
+      }
+    >
+      <Route
+        path="/"
+        render={[Function]}
+      >
+        <Connect(_withConnectedReactRouter)
+          footerLinkRows={
+            Array [
+              Object {
+                "linkListItems": Array [
+                  Object {
+                    "linkTarget": "/mock-url",
+                    "linkText": "View full site",
+                    "linkType": "browser",
+                  },
+                  Object {
+                    "linkTarget": "/contact-us",
+                    "linkText": "Contact us",
+                    "linkType": "webview",
+                  },
+                  Object {
+                    "linkTarget": "/mock-url",
+                    "linkText": "Help Center",
+                    "linkType": "browser",
+                  },
+                ],
+              },
+              Object {
+                "linkListItems": Array [
+                  Object {
+                    "linkTarget": "/terms-and-conditions?clk=GNAVTC",
+                    "linkText": "Terms & Conditions",
+                    "linkType": "browser",
+                  },
+                  Object {
+                    "linkTarget": "/privacy-policy?clk=GNAVPRIVACY",
+                    "linkText": "Privacy Policy",
+                    "linkType": "browser",
+                  },
+                ],
+              },
+              Object {
+                "linkListItems": Array [
+                  Object {
+                    "linkTarget": "/mock-url",
+                    "linkText": "Do Not Sell My Info",
+                    "linkType": "browser",
+                  },
+                ],
+              },
+            ]
+          }
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "canGo": [Function],
+              "createHref": [Function],
+              "entries": Array [
+                Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+              ],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "index": 0,
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+          isWebView={false}
+          location={
+            Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          match={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "/",
+              "url": "/",
+            }
+          }
+        >
+          <_withConnectedReactRouter
+            footerLinkRows={
+              Array [
+                Object {
+                  "linkListItems": Array [
+                    Object {
+                      "linkTarget": "/mock-url",
+                      "linkText": "View full site",
+                      "linkType": "browser",
+                    },
+                    Object {
+                      "linkTarget": "/contact-us",
+                      "linkText": "Contact us",
+                      "linkType": "webview",
+                    },
+                    Object {
+                      "linkTarget": "/mock-url",
+                      "linkText": "Help Center",
+                      "linkType": "browser",
+                    },
+                  ],
+                },
+                Object {
+                  "linkListItems": Array [
+                    Object {
+                      "linkTarget": "/terms-and-conditions?clk=GNAVTC",
+                      "linkText": "Terms & Conditions",
+                      "linkType": "browser",
+                    },
+                    Object {
+                      "linkTarget": "/privacy-policy?clk=GNAVPRIVACY",
+                      "linkText": "Privacy Policy",
+                      "linkType": "browser",
+                    },
+                  ],
+                },
+                Object {
+                  "linkListItems": Array [
+                    Object {
+                      "linkTarget": "/mock-url",
+                      "linkText": "Do Not Sell My Info",
+                      "linkType": "browser",
+                    },
+                  ],
+                },
+              ]
+            }
+            go={[Function]}
+            goBack={[Function]}
+            goForward={[Function]}
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "canGo": [Function],
+                "createHref": [Function],
+                "entries": Array [
+                  Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                ],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "index": 0,
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            isWebView={false}
+            location={
+              Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+            push={[Function]}
+            replace={[Function]}
+          >
+            <BodyClass
+              footerLinkRows={
+                Array [
+                  Object {
+                    "linkListItems": Array [
+                      Object {
+                        "linkTarget": "/mock-url",
+                        "linkText": "View full site",
+                        "linkType": "browser",
+                      },
+                      Object {
+                        "linkTarget": "/contact-us",
+                        "linkText": "Contact us",
+                        "linkType": "webview",
+                      },
+                      Object {
+                        "linkTarget": "/mock-url",
+                        "linkText": "Help Center",
+                        "linkType": "browser",
+                      },
+                    ],
+                  },
+                  Object {
+                    "linkListItems": Array [
+                      Object {
+                        "linkTarget": "/terms-and-conditions?clk=GNAVTC",
+                        "linkText": "Terms & Conditions",
+                        "linkType": "browser",
+                      },
+                      Object {
+                        "linkTarget": "/privacy-policy?clk=GNAVPRIVACY",
+                        "linkText": "Privacy Policy",
+                        "linkType": "browser",
+                      },
+                    ],
+                  },
+                  Object {
+                    "linkListItems": Array [
+                      Object {
+                        "linkTarget": "/mock-url",
+                        "linkText": "Do Not Sell My Info",
+                        "linkType": "browser",
+                      },
+                    ],
+                  },
+                ]
+              }
+              go={[Function]}
+              goBack={[Function]}
+              goForward={[Function]}
+              history={
+                Object {
+                  "action": "POP",
+                  "block": [Function],
+                  "canGo": [Function],
+                  "createHref": [Function],
+                  "entries": Array [
+                    Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    },
+                  ],
+                  "go": [Function],
+                  "goBack": [Function],
+                  "goForward": [Function],
+                  "index": 0,
+                  "length": 1,
+                  "listen": [Function],
+                  "location": Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                  "push": [Function],
+                  "replace": [Function],
+                }
+              }
+              isWebView={false}
+              location={
+                Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                }
+              }
+              params={Object {}}
+              push={[Function]}
+              query={Object {}}
+              replace={[Function]}
+            >
+              <Connect(InTheAirPage)
+                footerLinkRows={
+                  Array [
+                    Object {
+                      "linkListItems": Array [
+                        Object {
+                          "linkTarget": "/mock-url",
+                          "linkText": "View full site",
+                          "linkType": "browser",
+                        },
+                        Object {
+                          "linkTarget": "/contact-us",
+                          "linkText": "Contact us",
+                          "linkType": "webview",
+                        },
+                        Object {
+                          "linkTarget": "/mock-url",
+                          "linkText": "Help Center",
+                          "linkType": "browser",
+                        },
+                      ],
+                    },
+                    Object {
+                      "linkListItems": Array [
+                        Object {
+                          "linkTarget": "/terms-and-conditions?clk=GNAVTC",
+                          "linkText": "Terms & Conditions",
+                          "linkType": "browser",
+                        },
+                        Object {
+                          "linkTarget": "/privacy-policy?clk=GNAVPRIVACY",
+                          "linkText": "Privacy Policy",
+                          "linkType": "browser",
+                        },
+                      ],
+                    },
+                    Object {
+                      "linkListItems": Array [
+                        Object {
+                          "linkTarget": "/mock-url",
+                          "linkText": "Do Not Sell My Info",
+                          "linkType": "browser",
+                        },
+                      ],
+                    },
+                  ]
+                }
+                go={[Function]}
+                goBack={[Function]}
+                goForward={[Function]}
+                history={
+                  Object {
+                    "action": "POP",
+                    "block": [Function],
+                    "canGo": [Function],
+                    "createHref": [Function],
+                    "entries": Array [
+                      Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      },
+                    ],
+                    "go": [Function],
+                    "goBack": [Function],
+                    "goForward": [Function],
+                    "index": 0,
+                    "length": 1,
+                    "listen": [Function],
+                    "location": Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    },
+                    "push": [Function],
+                    "replace": [Function],
+                  }
+                }
+                isWebView={false}
+                location={
+                  Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  }
+                }
+                params={Object {}}
+                push={[Function]}
+                query={Object {}}
+                replace={[Function]}
+              >
+                <InTheAirPage
+                  footerLinkRows={Array []}
+                  go={[Function]}
+                  goBack={[Function]}
+                  goForward={[Function]}
+                  history={
+                    Object {
+                      "action": "POP",
+                      "block": [Function],
+                      "canGo": [Function],
+                      "createHref": [Function],
+                      "entries": Array [
+                        Object {
+                          "hash": "",
+                          "pathname": "/",
+                          "search": "",
+                          "state": undefined,
+                        },
+                      ],
+                      "go": [Function],
+                      "goBack": [Function],
+                      "goForward": [Function],
+                      "index": 0,
+                      "length": 1,
+                      "listen": [Function],
+                      "location": Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      },
+                      "push": [Function],
+                      "replace": [Function],
+                    }
+                  }
+                  isWebView={false}
+                  location={
+                    Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    }
+                  }
+                  params={Object {}}
+                  push={[Function]}
+                  query={Object {}}
+                  replace={[Function]}
+                  styledPage={Object {}}
+                  wcmFetchActionFn={[Function]}
+                >
+                  <div
+                    className="medium"
+                  >
+                    <h1
+                      className="m6"
+                    >
+                       
+                       
+                    </h1>
+                  </div>
+                  <div />
+                  <PageFooterWcmSourced
+                    footerLinkRows={Array []}
+                  >
+                    <div
+                      className="page-footer-wcm"
+                    >
+                      <span
+                        className="page-footer-wcm--copyright"
+                      >
+                        ©
+                        2022
+                         
+                        Southwest Airlines Co. All Rights Reserved.
+                      </span>
+                    </div>
+                  </PageFooterWcmSourced>
+                </InTheAirPage>
+              </Connect(InTheAirPage)>
+            </BodyClass>
+          </_withConnectedReactRouter>
+        </Connect(_withConnectedReactRouter)>
+      </Route>
+    </Provider>
+  </Router>
+</MemoryRouter>
+`;

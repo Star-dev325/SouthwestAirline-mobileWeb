@@ -1,0 +1,11 @@
+.boarding-positions--message {
+  @include white;
+  @include large;
+  @include center;
+  @include px6;
+  @include pt6;
+}
+
+.checkin-buttons-group {
+  @include p5;
+}

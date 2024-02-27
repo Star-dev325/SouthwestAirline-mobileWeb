@@ -1,0 +1,21 @@
+.early-bird-confirmation--pricing-banner {
+  @include white;
+  @include bgpdkblue;
+  @include xxlarge;
+  @include relative;
+  @include px5;
+  padding-top: 2.5rem;
+  padding-bottom: 3.5rem;
+
+  .icon_early-bird {
+    @include bgyellow;
+    @include circle;
+    height: 5rem;
+    width: 5rem;
+
+    &::before {
+      @include relative;
+      top: 1.1rem;
+    }
+  }
+}

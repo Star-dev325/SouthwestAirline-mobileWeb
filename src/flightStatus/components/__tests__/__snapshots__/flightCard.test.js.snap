@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightCard should render 1`] = `
+<div>
+  <div
+    class="flight-card"
+  >
+    <div
+      class="vertical-fill segment"
+    >
+      <div
+        class="ui divided list"
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="nav-item"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="row--col"
+              >
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    Flight
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="flight-operating-number"
+                    >
+                      1628
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row--col"
+              >
+                <div
+                  class="flight-times"
+                >
+                  <div
+                    class="flight-times--col flight-times--col-label"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        Departs
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time"
+                        >
+                          <div
+                            class="flight-time--time"
+                          >
+                            <span>
+                              6:00
+                            </span>
+                            <span
+                              class="time-period"
+                            >
+                              AM
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-times--col flight-times-icon"
+                  >
+                    <i
+                      class="icon icon_airplane"
+                    />
+                  </div>
+                  <div
+                    class="flight-times--col flight-times--col-label"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        Arrives
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time"
+                        >
+                          <div
+                            class="flight-time--time"
+                          >
+                            <span>
+                              5:00
+                            </span>
+                            <span
+                              class="time-period"
+                            >
+                              PM
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <i
+              class="icon icon_keyboard-arrow-right"
+            />
+          </div>
+        </div>
+        <div
+          class="item"
+        >
+          <div
+            class="nav-item nav-item--no-icon"
+          >
+            <span
+              class="flight-card--stop-icon"
+            >
+               
+              <i
+                class="icon icon_stops"
+              />
+               
+            </span>
+            <span
+              class="stops-detail"
+            >
+              1 Stop, No plane change
+            </span>
+            <i
+              class="icon icon_keyboard-arrow-right"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

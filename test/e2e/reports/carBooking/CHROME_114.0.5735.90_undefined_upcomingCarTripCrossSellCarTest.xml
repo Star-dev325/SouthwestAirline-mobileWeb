@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="carBooking.upcomingCarTripCrossSellCarTest"
+    errors="0" failures="0" hostname="" id="" package="carBooking" skipped="0"
+    tests="5" time="56.19" timestamp="Fri, 15 Dec 2023 01:28:58 GMT">
+  
+    <testcase name="Go MyAccount home page" classname="carBooking.upcomingCarTripCrossSellCarTest" time="38.27" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Tap Trips number banner" classname="carBooking.upcomingCarTripCrossSellCarTest" time="6.281" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Upcoming trips page and take you to the first upcoming car trip" classname="carBooking.upcomingCarTripCrossSellCarTest" time="7.551" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify car trip details page and Add Another Car" classname="carBooking.upcomingCarTripCrossSellCarTest" time="3.300" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Car Booking Landing Page is populated with data from previous car reservation" classname="carBooking.upcomingCarTripCrossSellCarTest" time="0.7820" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

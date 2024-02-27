@@ -1,0 +1,102 @@
+.stand-by-list-footer {
+  &--sub-note {
+    @include bgpblue;
+    @include fullwidth;
+    @include white;
+  }
+
+  &--refund-taxes-note {
+    @include bggreen;
+    @include fullwidth;
+    @include white;
+    white-space: break-spaces;
+
+    &_right {
+      @include align-right;
+      @include bggreen;
+      @include fullwidth;
+      @include white;
+      white-space: break-spaces;
+    }
+  }
+
+  &--nav {
+    @include border-none;
+    @include p3;
+  }
+
+  &--nav_webview {
+    padding-bottom: 5rem;
+  }
+}
+
+.stand-by-list-footer--price-total {
+  @include bgpblue;
+  @include p5;
+  @include white;
+
+  .price-line--title {
+    @include align-middle;
+    @include lineheight14;
+    width: 45%;
+  }
+
+  .price-amount {
+    @include align-bottom;
+    @include larger;
+  }
+
+  .price-credit-message {
+    @include align-right;
+  }
+
+  .price-line--currency_total-per-section {
+    @include white;
+    @include xxxlarge;
+  }
+
+  .stand-by-list-footer--price-refund-message {
+    @include align-right;
+
+    &_top-margin {
+      @include mt3;
+    }
+  }
+}
+
+.stand-by-list-footer--btn {
+  @include bgpblue;
+  @include pb5;
+  @include px5;
+  @include white;
+
+  &_right {
+    @include p5;
+  }
+}
+
+.stand-by-list-footer--taxes-and-fees {
+  @include bgpblue;
+  @include flex;
+  @include px5;
+  @include white;
+}
+
+.stand-by-list-footer--taxes-and-fees_top {
+  @include flex;
+  @include flex-column;
+}
+
+.stand-by-list-footer--taxes-and-fees_reverse {
+  @include flex;
+  @include flex-column-reverse;
+}
+
+.stand-by-list-footer--divider {
+  @include bgpblue;
+  @include py3;
+
+  &-rule {
+    opacity: 0.1;
+  }
+}

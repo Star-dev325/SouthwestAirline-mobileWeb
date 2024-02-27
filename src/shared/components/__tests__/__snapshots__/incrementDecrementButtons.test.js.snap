@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IncrementDecrementButtons render should render default component correct 1`] = `
+<IncrementDecrementButtons
+  isCircular={true}
+  value={1}
+>
+  <div
+    className="buttons-with-flex"
+  >
+    <Button
+      circular={true}
+      disabled={true}
+      icon="minus"
+      key="minus"
+      onClick={[Function]}
+      type="button"
+    >
+      <button
+        className="icon button circular"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        <Icon
+          type="minus"
+        >
+          <i
+            className="icon icon_minus"
+          />
+        </Icon>
+      </button>
+    </Button>
+    <div
+      className="selected-passenger-number"
+    >
+      1
+    </div>
+    <Button
+      circular={true}
+      disabled={false}
+      icon="plus"
+      key="plus"
+      onClick={[Function]}
+      type="button"
+    >
+      <button
+        className="icon button circular"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <Icon
+          type="plus"
+        >
+          <i
+            className="icon icon_plus"
+          />
+        </Icon>
+      </button>
+    </Button>
+  </div>
+</IncrementDecrementButtons>
+`;
+
+exports[`IncrementDecrementButtons render should render minus without disabled when value is greater than 1 and min value is 0 1`] = `
+<IncrementDecrementButtons
+  isCircular={true}
+  minValue={0}
+  onIncrementDecrement={[MockFunction]}
+  value={1}
+>
+  <div
+    className="buttons-with-flex"
+  >
+    <Button
+      circular={true}
+      disabled={false}
+      icon="minus"
+      key="minus"
+      onClick={[Function]}
+      type="button"
+    >
+      <button
+        className="icon button circular"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <Icon
+          type="minus"
+        >
+          <i
+            className="icon icon_minus"
+          />
+        </Icon>
+      </button>
+    </Button>
+    <div
+      className="selected-passenger-number"
+    >
+      1
+    </div>
+    <Button
+      circular={true}
+      disabled={false}
+      icon="plus"
+      key="plus"
+      onClick={[Function]}
+      type="button"
+    >
+      <button
+        className="icon button circular"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <Icon
+          type="plus"
+        >
+          <i
+            className="icon icon_plus"
+          />
+        </Icon>
+      </button>
+    </Button>
+  </div>
+</IncrementDecrementButtons>
+`;

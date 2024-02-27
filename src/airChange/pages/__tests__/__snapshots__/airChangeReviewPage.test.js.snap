@@ -1,0 +1,686 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Air Change Review Page display should pass correct props to child component 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="air-change-review-page"
+      >
+        <div>
+          <div
+            class="page-header"
+            id=""
+          >
+            AIR_CHANGE__PRICE_DIFFERENCE__PRICE_DIFFERENCE_HEADER
+          </div>
+          <div />
+        </div>
+        <form
+          class="air-change-review-form form"
+          name="airChangeReviewForm"
+          novalidate=""
+        >
+          <fieldset>
+            <div
+              class="pt5 pl5 pr5"
+            >
+              <div
+                class="refund-summary-passengers mb4"
+              >
+                <div
+                  class="fields field-label--heading grouped"
+                >
+                  <label
+                    class="fields--label"
+                  >
+                    SHARED__PURCHASE_SUMMARY_FORM__PASSENGERS
+                  </label>
+                </div>
+                <div
+                  class="bgwhite flex flex-main-between p5"
+                >
+                  <div
+                    class="label-container passenger-name"
+                  >
+                    <div
+                      class="label-container--content"
+                    >
+                      <div>
+                        <div>
+                          <span
+                            class="xlarge nowrap block block nowrap overflow-hidden ellipsis"
+                            data-qa="userName"
+                          >
+                            CANNON LIU
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="label-container"
+                  >
+                    <div
+                      class="label-container--label"
+                    >
+                      CONFIRMATION #
+                    </div>
+                    <div
+                      class="label-container--content"
+                    >
+                      <div
+                        class="xlarge align-right green"
+                        data-qa="confirmation-number"
+                      >
+                        WKDLWT
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="fields contact-method grouped"
+              >
+                <label
+                  class="fields--label"
+                >
+                  SHARED__CONTACT_METHOD__LABEL
+                </label>
+                <div
+                  class="field"
+                >
+                  <a
+                    class="nav-item-link nav-item-field"
+                    name="contactMethodContent"
+                  >
+                    <div
+                      class="fullwidth"
+                    >
+                      <span />
+                      <div
+                        class="nav-item-field-value"
+                        data-qa="nav-item-field-value"
+                      >
+                        SHARED__CONTACT_METHOD_OPTION__DOMESTIC_OPTIONS_TEXT, (333)123-4567
+                      </div>
+                    </div>
+                    <i
+                      class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                    />
+                  </a>
+                </div>
+              </div>
+              <p
+                class="gray5 large bold mb4 mt6"
+              >
+                AIR_CHANGE__PRICE_DIFFERENCE__YOUR_NEW_TRIP
+              </p>
+              <div
+                class="mb4"
+              >
+                <div
+                  class="flight-info-summary"
+                >
+                  <div
+                    class="flight-brief-summary bgwhite bdb p5"
+                  >
+                    <div
+                      class="flex xlarge pdkblue bold"
+                    >
+                      <div
+                        class="flex4"
+                      >
+                        May 11
+                      </div>
+                      <div
+                        class="flex2"
+                      >
+                        ALB
+                      </div>
+                      <div
+                        class="flex2 flight-brief-summary--airplane center"
+                      >
+                        <i
+                          class="mt3 icon icon_airplane"
+                        />
+                      </div>
+                      <div
+                        class="flex2"
+                      >
+                        ABQ
+                      </div>
+                    </div>
+                    <div
+                      class="flex large gray4"
+                    >
+                      <div
+                        class="flex4"
+                      >
+                        Friday
+                      </div>
+                      <div
+                        class="flex2 flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            6:20
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        class="flex2"
+                      />
+                      <div
+                        class="flight-brief-summary--summary-group"
+                      >
+                        <div
+                          class="flex2 flight-time"
+                        >
+                          <div
+                            class="flight-time--time"
+                          >
+                            <span>
+                              10:45
+                            </span>
+                            <span
+                              class="time-period"
+                            >
+                              AM
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-brief-summary bgwhite bdb p5"
+                  >
+                    <div
+                      class="flex xlarge pdkblue bold"
+                    >
+                      <div
+                        class="flex4"
+                      >
+                        May 14
+                      </div>
+                      <div
+                        class="flex2"
+                      >
+                        ABQ
+                      </div>
+                      <div
+                        class="flex2 flight-brief-summary--airplane center"
+                      >
+                        <i
+                          class="mt3 icon icon_airplane"
+                        />
+                      </div>
+                      <div
+                        class="flex2"
+                      >
+                        ALB
+                      </div>
+                    </div>
+                    <div
+                      class="flex large gray4"
+                    >
+                      <div
+                        class="flex4"
+                      >
+                        Monday
+                      </div>
+                      <div
+                        class="flex2 flight-time"
+                      >
+                        <div
+                          class="flight-time--time"
+                        >
+                          <span>
+                            9:10
+                          </span>
+                          <span
+                            class="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        class="flex2"
+                      />
+                      <div
+                        class="flight-brief-summary--summary-group"
+                      >
+                        <div
+                          class="flex2 flight-time"
+                        >
+                          <div
+                            class="flight-time--time"
+                          >
+                            <span>
+                              4:55
+                            </span>
+                            <span
+                              class="time-period"
+                            >
+                              PM
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="review-form--trip-cost"
+                  data-qa="review-form--trip-cost"
+                >
+                  <div
+                    class="trip-totals"
+                  >
+                    <div
+                      class="price-line trip-totals--new-trip-total"
+                    >
+                      <span
+                        class="price-line--title"
+                      >
+                        New trip cost
+                      </span>
+                      <div
+                        class="price-amount"
+                      >
+                        <div
+                          class="price-line--currency_total"
+                        >
+                          <div
+                            class="currency"
+                          >
+                            <span
+                              class="money-sign"
+                            >
+                              $
+                            </span>
+                            <span
+                              data-qa="total-amount"
+                            >
+                              986.38
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="price-line trip-totals--original-trip-total"
+                    >
+                      <span
+                        class="price-line--title"
+                      >
+                        Original trip cost
+                      </span>
+                      <div
+                        class="price-amount"
+                      >
+                        <div
+                          class="price-line--currency_total"
+                        >
+                          <div
+                            class="currency"
+                          >
+                            <span
+                              class="money-sign"
+                            >
+                              $
+                            </span>
+                            <span
+                              data-qa="total-amount"
+                            >
+                              467.60
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    class="bgwhite mb6"
+                  >
+                    <div
+                      class="refund-info-per-type p5 bgwhite bdt"
+                    >
+                      <div
+                        class="price-line"
+                      >
+                        <span
+                          class="price-line--title"
+                        >
+                          Amount due
+                        </span>
+                        <div
+                          class="price-amount"
+                        >
+                          <div
+                            class="price-line--currency_total"
+                          >
+                            <div
+                              class="currency"
+                            >
+                              <span
+                                class="money-sign"
+                              >
+                                $
+                              </span>
+                              <span
+                                data-qa="total-amount"
+                              >
+                                518.78
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <p
+                        class="gray4 large block"
+                      >
+                        SHARED__REFUND_METHOD__REFUND_INFO_NEVER_CHARGE_FEES
+                        <br />
+                        SHARED__REFUND_METHOD__REFUND_INFO_ONLY_PAY_DIFFERENCE
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pb5 pl5 pr5"
+            >
+              <div
+                class="mb4"
+              >
+                <div
+                  class="fields form-fields--receipt-email grouped"
+                >
+                  <label
+                    class="fields--label"
+                  >
+                    AIR_CHANGE__PRICE_DIFFERENCE__EMAIL_RECEIPT_TO
+                  </label>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      class="input"
+                    >
+                      <input
+                        class=""
+                        name="emailReceiptTo"
+                        placeholder="SHARED__PLACEHOLDER__EMAIL_ADDRESS"
+                        type="email"
+                        value="testemail@wnco.com"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="mb4"
+              >
+                <div
+                  class="fields form-fields--apply-travel-funds grouped"
+                >
+                  <label
+                    class="fields--label"
+                  >
+                    AIR_CHANGE__PRICE_DIFFERENCE__APPLY_TRAVEL_FUNDS
+                  </label>
+                  <div
+                    class="field"
+                  >
+                    <div
+                      data-qa="review-form--apply-travel-funds-nav-item"
+                    >
+                      <a
+                        class="nav-item-link nav-item-field no-funds-selected"
+                      >
+                        <span>
+                          Select (optional)
+                        </span>
+                        <i
+                          class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <p
+                    class="gray5 medium mt4"
+                  >
+                    SHARED__PURCHASE_SUMMARY_FORM__APPLY_FUNDS_NAV_ITEM_MESSAGE
+                  </p>
+                </div>
+              </div>
+              <div>
+                <p
+                  class="gray5 large bold"
+                >
+                  AIR_CHANGE__PRICE_DIFFERENCE__PAYMENT_METHOD
+                </p>
+                <div
+                  class="field"
+                >
+                  <div
+                    class="payment-nav-item-field"
+                    data-qa="review-form--payment-method-nav-item"
+                  >
+                    <a
+                      class="nav-item-link"
+                    >
+                      <span>
+                        AIR_CHANGE__PRICE_DIFFERENCE__ADD_CREDIT_CARD
+                      </span>
+                      <i
+                        class="nav-item-link--bang-icon icon icon_exclamation-circle warning"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                data-qa="refund-summary"
+              >
+                <div
+                  class="refund-total-item_amount-due"
+                >
+                  <div
+                    class="refund-total-item--body"
+                  >
+                    <div
+                      class="flex flex-cross-center"
+                    >
+                      <span
+                        class="flex7 inline-block xlarge refund-total-item--message"
+                        data-qa="refund-message"
+                      >
+                        Amount due
+                      </span>
+                      <div
+                        class="flex5 align-right"
+                      >
+                        <div
+                          class="currency refund-total-item-currency"
+                        >
+                          <span
+                            class="money-sign"
+                          >
+                            $
+                          </span>
+                          <span
+                            data-qa="total-amount"
+                          >
+                            518.78
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="refund-total-item_amount-due"
+                  data-qa="review-form--travel-funds"
+                >
+                  <div
+                    class="travel-funds"
+                    data-qa="travel-funds"
+                  >
+                    <div
+                      class="price-line travel-funds-applied"
+                    >
+                      <span
+                        class="price-line--title"
+                      >
+                        Travel Funds applied
+                      </span>
+                      <div
+                        class="price-amount"
+                      >
+                        <div
+                          class="price-line--currency_plain"
+                        >
+                          <div
+                            class="currency"
+                          >
+                            -
+                            <span
+                              class="money-sign"
+                            >
+                              $
+                            </span>
+                            <span
+                              data-qa="total-amount"
+                            >
+                              3.00
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="price-line travel-funds-total-due-now"
+                    >
+                      <span
+                        class="price-line--title"
+                      >
+                        Total Due Now
+                      </span>
+                      <div
+                        class="price-amount"
+                      >
+                        <div
+                          class="price-line--currency_plain"
+                        >
+                          <div
+                            class="currency"
+                          >
+                            <span
+                              class="money-sign"
+                            >
+                              $
+                            </span>
+                            <span
+                              data-qa="total-amount"
+                            >
+                              515.78
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="p5 white bgpblue bdt bdsdkblue"
+            >
+              <div
+                class="air-change-review-form--disclaimer"
+                data-qa="air-change--hazmat-disclaimer"
+              >
+                Proceeding with this change may result in loss of discount applied to reservation at initial purchase, and your TMC/Travel Agency may be unable to make further changes.
+
+By tapping "Make these changes," you agree to the below conditions
+              </div>
+              <button
+                class="button button--fluid xlarge button--yellow"
+                type="submit"
+              >
+                AIR_CHANGE__PRICE_DIFFERENCE__MAKE_THESE_CHANGES
+              </button>
+            </div>
+          </fieldset>
+        </form>
+        <div
+          class="review-footer"
+        >
+          <div
+            class="review-footer--verbiage"
+          >
+            HAZMAT_TEXT
+          </div>
+          <ul
+            class="review-footer--links"
+          >
+            <li>
+              <a
+                href="/hazardous-materials"
+                target="_blank"
+              >
+                SHARED__REVIEW_FOOTER_VIEW_MORE_DETAILS_LINK
+              </a>
+            </li>
+            <li>
+              <div
+                class="review-footer--travel-funds-verbiage"
+              >
+                Your Travel Fund balance of $4.00 will be held for future use by the original passenger listed on this reservation. All travel involving Travel Funds from this ticket must be completed by the expiration date. If utilizing Travel Funds with different expiration dates, the new reservation must be completed by the earliest expiration date applicable to any Travel Funds applied. To view your Travel Funds, visit Southwest.com
+              </div>
+            </li>
+            <li>
+              <a
+                href="/terms-and-conditions?clk=GNAVTC"
+                target="_blank"
+              >
+                SHARED__REVIEW_FOOTER_TERMS_AND_CONDITIONS_LINK
+              </a>
+              <a
+                href="/privacy-policy?clk=GNAVPRIVACY"
+                target="_blank"
+              >
+                SHARED__REVIEW_FOOTER_PRIVACY_POLICY_LINK
+              </a>
+            </li>
+            <li>
+              <a
+                href="/page/contract-of-carriage"
+                target="_blank"
+              >
+                SHARED__REVIEW_FOOTER_CONTRACT_OF_CARRIAGE_LINK
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

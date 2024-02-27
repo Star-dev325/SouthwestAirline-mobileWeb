@@ -1,0 +1,446 @@
+// KEY
+// m                = margin
+// p                = padding
+// t, r, b, l       = top, right, bottom, left
+// x                = left and right
+// y                = top and bottom
+// 0, 1, 2, 3, 4, 5 = predefined margin or padding sizes
+
+// MARGINS
+@mixin m0 {
+  margin: 0;
+}
+@mixin mt0 {
+  margin-top: 0;
+}
+@mixin mr0 {
+  margin-right: 0;
+}
+@mixin mb0 {
+  margin-bottom: 0;
+}
+@mixin ml0 {
+  margin-left: 0;
+}
+@mixin mx0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+@mixin my0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@mixin m1 {
+  margin: 0.3rem;
+}
+@mixin mt1 {
+  margin-top: 0.3rem;
+}
+@mixin mr1 {
+  margin-right: 0.3rem;
+}
+@mixin mb1 {
+  margin-bottom: 0.3rem;
+}
+@mixin ml1 {
+  margin-left: 0.3rem;
+}
+@mixin mx1 {
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+@mixin my1 {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+@mixin m2 {
+  margin: 0.5rem;
+}
+@mixin mt2 {
+  margin-top: 0.5rem;
+}
+@mixin mr2 {
+  margin-right: 0.5rem;
+}
+@mixin mb2 {
+  margin-bottom: 0.5rem;
+}
+@mixin ml2 {
+  margin-left: 0.5rem;
+}
+@mixin mx2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+@mixin my2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@mixin m3 {
+  margin: 0.8rem;
+}
+@mixin mt3 {
+  margin-top: 0.8rem;
+}
+@mixin mr3 {
+  margin-right: 0.8rem;
+}
+@mixin mb3 {
+  margin-bottom: 0.8rem;
+}
+@mixin ml3 {
+  margin-left: 0.8rem;
+}
+@mixin mx3 {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+@mixin my3 {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+@mixin m4 {
+  margin: 1rem;
+}
+@mixin mt4 {
+  margin-top: 1rem;
+}
+@mixin mr4 {
+  margin-right: 1rem;
+}
+@mixin mb4 {
+  margin-bottom: 1rem;
+}
+@mixin ml4 {
+  margin-left: 1rem;
+}
+@mixin mx4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+@mixin my4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@mixin m5 {
+  margin: 1.4rem;
+}
+@mixin mt5 {
+  margin-top: 1.4rem;
+}
+@mixin mr5 {
+  margin-right: 1.4rem;
+}
+@mixin mb5 {
+  margin-bottom: 1.4rem;
+}
+@mixin ml5 {
+  margin-left: 1.4rem;
+}
+@mixin mx5 {
+  margin-left: 1.4rem;
+  margin-right: 1.4rem;
+}
+@mixin my5 {
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+@mixin m6 {
+  margin: 2rem;
+}
+@mixin mt6 {
+  margin-top: 2rem;
+}
+@mixin mr6 {
+  margin-right: 2rem;
+}
+@mixin mb6 {
+  margin-bottom: 2rem;
+}
+@mixin ml6 {
+  margin-left: 2rem;
+}
+@mixin mx6 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+@mixin my6 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@mixin m7 {
+  margin: 2.8rem;
+}
+@mixin mt7 {
+  margin-top: 2.8rem;
+}
+@mixin mr7 {
+  margin-right: 2.8rem;
+}
+@mixin mb7 {
+  margin-bottom: 2.8rem;
+}
+@mixin ml7 {
+  margin-left: 2.8rem;
+}
+@mixin mx7 {
+  margin-left: 2.8rem;
+  margin-right: 2.8rem;
+}
+@mixin my7 {
+  margin-top: 2.8rem;
+  margin-bottom: 2.8rem;
+}
+
+@mixin m8 {
+  margin: 3rem;
+}
+@mixin mt8 {
+  margin-top: 3rem;
+}
+@mixin mr8 {
+  margin-right: 3rem;
+}
+@mixin mb8 {
+  margin-bottom: 3rem;
+}
+@mixin ml8 {
+  margin-left: 3rem;
+}
+@mixin mx8 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+@mixin my8 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+@mixin mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// PADDINGS
+@mixin p0 {
+  padding: 0;
+}
+@mixin pt0 {
+  padding-top: 0;
+}
+@mixin pr0 {
+  padding-right: 0;
+}
+@mixin pb0 {
+  padding-bottom: 0;
+}
+@mixin pl0 {
+  padding-left: 0;
+}
+@mixin px0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+@mixin py0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@mixin p1 {
+  padding: 0.3rem;
+}
+@mixin pt1 {
+  padding-top: 0.3rem;
+}
+@mixin pr1 {
+  padding-right: 0.3rem;
+}
+@mixin pb1 {
+  padding-bottom: 0.3rem;
+}
+@mixin pl1 {
+  padding-left: 0.3rem;
+}
+@mixin px1 {
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+@mixin py1 {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+@mixin p2 {
+  padding: 0.5rem;
+}
+@mixin pt2 {
+  padding-top: 0.5rem;
+}
+@mixin pr2 {
+  padding-right: 0.5rem;
+}
+@mixin pb2 {
+  padding-bottom: 0.5rem;
+}
+@mixin pl2 {
+  padding-left: 0.5rem;
+}
+@mixin px2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+@mixin py2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+@mixin p3 {
+  padding: 0.8rem;
+}
+@mixin pt3 {
+  padding-top: 0.8rem;
+}
+@mixin pr3 {
+  padding-right: 0.8rem;
+}
+@mixin pb3 {
+  padding-bottom: 0.8rem;
+}
+@mixin pl3 {
+  padding-left: 0.8rem;
+}
+@mixin px3 {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+@mixin py3 {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+@mixin p4 {
+  padding: 1rem;
+}
+@mixin pt4 {
+  padding-top: 1rem;
+}
+@mixin pr4 {
+  padding-right: 1rem;
+}
+@mixin pb4 {
+  padding-bottom: 1rem;
+}
+@mixin pl4 {
+  padding-left: 1rem;
+}
+@mixin px4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@mixin py4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@mixin p5 {
+  padding: 1.4rem;
+}
+@mixin pt5 {
+  padding-top: 1.4rem;
+}
+@mixin pr5 {
+  padding-right: 1.4rem;
+}
+@mixin pb5 {
+  padding-bottom: 1.4rem;
+}
+@mixin pl5 {
+  padding-left: 1.4rem;
+}
+@mixin px5 {
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+@mixin py5 {
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+}
+
+@mixin p6 {
+  padding: 2rem;
+}
+@mixin pt6 {
+  padding-top: 2rem;
+}
+@mixin pr6 {
+  padding-right: 2rem;
+}
+@mixin pb6 {
+  padding-bottom: 2rem;
+}
+@mixin pl6 {
+  padding-left: 2rem;
+}
+@mixin px6 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+@mixin py6 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@mixin p7 {
+  padding: 2.8rem;
+}
+@mixin pt7 {
+  padding-top: 2.8rem;
+}
+@mixin pr7 {
+  padding-right: 2.8rem;
+}
+@mixin pb7 {
+  padding-bottom: 2.8rem;
+}
+@mixin pl7 {
+  padding-left: 2.8rem;
+}
+@mixin px7 {
+  padding-left: 2.8rem;
+  padding-right: 2.8rem;
+}
+@mixin py7 {
+  padding-top: 2.8rem;
+  padding-bottom: 2.8rem;
+}
+
+@mixin p8 {
+  padding: 3rem;
+}
+@mixin pt8 {
+  padding-top: 3rem;
+}
+@mixin pr8 {
+  padding-right: 3rem;
+}
+@mixin pb8 {
+  padding-bottom: 3rem;
+}
+@mixin pl8 {
+  padding-left: 3rem;
+}
+@mixin px8 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+@mixin py8 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}

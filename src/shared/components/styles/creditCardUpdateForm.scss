@@ -1,0 +1,35 @@
+.credit-card-update-form {
+  @include bggray2;
+  @include fullheight;
+
+  .segment {
+    @include bggray2;
+    padding: 1.6rem 1.2rem;
+  }
+
+  .fields {
+    margin: 1rem 0 0;
+
+    .fields--label {
+      @include gray5;
+      @include large;
+      @include bold;
+    }
+  }
+
+  .field {
+    @include mt4;
+  }
+
+  .error .dropdown {
+    @include red;
+  }
+}
+
+.is-webview {
+  @include for-tablet-and-up {
+    .update-saved-credit-card-page {
+      @include fullheight;
+    }
+  }
+}

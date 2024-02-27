@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EarlyBirdBoundDetailCard should display bound summary 1`] = `
+<div>
+  <form>
+    <div
+      class="early-bird-origin-destination-card"
+    >
+      <p
+        class="early-bird-origin-destination-card--title"
+      >
+        DEPARTING
+      </p>
+      <div
+        class="early-bird-origin-destination-card--detail"
+      >
+        <div
+          class="flight-brief-summary bgwhite bdb p5"
+        >
+          <div
+            class="flex xlarge pdkblue bold"
+          >
+            <div
+              class="flex4"
+            >
+              May 19
+            </div>
+            <div
+              class="flex2"
+            >
+              DAL
+            </div>
+            <div
+              class="flex2 flight-brief-summary--airplane center"
+            >
+              <i
+                class="mt3 icon icon_airplane"
+              />
+            </div>
+            <div
+              class="flex2"
+            >
+              MSP
+            </div>
+          </div>
+          <div
+            class="flex large gray4"
+          >
+            <div
+              class="flex4"
+            >
+              Saturday
+            </div>
+            <div
+              class="flex2 flight-time"
+            >
+              <div
+                class="flight-time--time"
+              >
+                <span>
+                  6:20
+                </span>
+                <span
+                  class="time-period"
+                >
+                  AM
+                </span>
+              </div>
+            </div>
+            <div
+              class="flex2"
+            />
+            <div
+              class="flight-brief-summary--summary-group"
+            >
+              <div
+                class="flex2 flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    11:25
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    AM
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="early-bird-passenger-checkbox"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="checkbox-button button button--fluid relative flex checkbox-button flex-cross-center"
+              name="bound_0_ebPaxCheckBox_0"
+            >
+              <div>
+                <span
+                  class="checkbox-button--mark"
+                >
+                  <i
+                    class="absolute xlarge bgtransp icon icon_check"
+                  />
+                </span>
+              </div>
+              <div>
+                <div
+                  class="checkbox-button--children flex-equal-width ml2"
+                >
+                  <div
+                    class="early-bird-passenger-checkbox--personal-info"
+                  >
+                    <p
+                      class="early-bird-passenger-checkbox--name"
+                    >
+                      Fred Flintstone
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="early-bird-passenger-checkbox"
+        >
+          <div
+            class="early-bird-passenger-checkbox--disabled-passenger"
+          >
+            <div
+              class="early-bird-passenger-checkbox--personal-info_disabled"
+            >
+              <p
+                class="early-bird-passenger-checkbox--name early-bird-passenger-checkbox--name_no-account-number"
+              >
+                Barney Rubble
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

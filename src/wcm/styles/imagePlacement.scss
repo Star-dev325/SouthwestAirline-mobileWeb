@@ -1,0 +1,5 @@
+.image-placement {
+  &--background-image {
+    @include fullwidth;
+  }
+}

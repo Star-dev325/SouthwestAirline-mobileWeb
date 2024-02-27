@@ -1,0 +1,22 @@
+.home-and-nav {
+  .login-banner {
+    @include bgwhite;
+    @include mb2;
+    @include relative;
+
+    &--hidden {
+      @include hide;
+    }
+  }
+
+  .up-arrow {
+    @include absolute;
+    top: -10px;
+    right: 43px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid $white;
+  }
+}

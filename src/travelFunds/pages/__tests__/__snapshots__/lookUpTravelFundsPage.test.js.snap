@@ -1,0 +1,1670 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LookUpTravelFundsPage click placements Travel Funds tab should not display DynamicPlacement if placements are empty 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header action-bar"
+            id=""
+          >
+            <ul
+              class="action-bar-buttons action-bar--left-buttons"
+            />
+            <div
+              class="action-bar--container"
+            >
+              <div
+                class="action-bar--title"
+              >
+                <span
+                  class="action-bar--main-title"
+                >
+                  Check Travel Funds
+                </span>
+                <span
+                  class="action-bar--sub-title"
+                />
+              </div>
+            </div>
+            <ul
+              class="action-bar-buttons action-bar--right-buttons"
+            >
+              <li
+                class="action-bar-buttons--item"
+              >
+                <button
+                  class="button"
+                  type="button"
+                >
+                  SHARED__BUTTON_TEXT__DONE
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div />
+        </div>
+        <div
+          class="info-banner associate-funds-message"
+        >
+          <div
+            class="info-banner--alert"
+          >
+            <i
+              class="icon icon_exclamation-circle warning"
+            />
+          </div>
+          <div
+            class="info-banner-container"
+          >
+            <b
+              class="info-banner-container--header"
+            />
+            <p
+              class="info-banner-container--body"
+            />
+            <div
+              class="info-banner-container--link"
+            />
+          </div>
+        </div>
+        <div
+          class="look-up-travel-funds"
+        >
+          <div
+            class="look-up-travel-funds--selector"
+          >
+            <div
+              class="fund-type-selector"
+            >
+              <div
+                class="active selector-button"
+                data-qa="travel-funds-selector"
+              >
+                Flight Credit
+              </div>
+              <div
+                class="center-button selector-button"
+                data-qa="luv-voucher-selector"
+              >
+                LUV Voucher
+              </div>
+              <div
+                class="selector-button"
+                data-qa="gift-card-selector"
+              >
+                Gift Card
+              </div>
+            </div>
+          </div>
+          <div
+            class="look-up-travel-funds--forms"
+          >
+            <form
+              class="look-up-funds-form form"
+              name="LOOK_UP_TRAVEL_FUNDS_FORM_ID"
+              novalidate=""
+            >
+              <fieldset>
+                <div
+                  class="segments"
+                >
+                  <div
+                    class="segment"
+                  >
+                    <div
+                      class="fields grouped"
+                    >
+                      <div
+                        class="field"
+                      >
+                        <div
+                          class="input"
+                        >
+                          <input
+                            class=""
+                            name="confirmationNumber"
+                            placeholder="Confirmation number"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="field"
+                      >
+                        <div
+                          class="input"
+                        >
+                          <input
+                            class=""
+                            name="passengerFirstName"
+                            placeholder="Passenger first name"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="field"
+                      >
+                        <div
+                          class="input"
+                        >
+                          <input
+                            class=""
+                            name="passengerLastName"
+                            placeholder="Passenger last name"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="segment"
+                  >
+                    <button
+                      class="button button--fluid larger button--blue"
+                      role="submit"
+                      type="submit"
+                    >
+                      Look up funds
+                    </button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <p
+            class="travel-funds--disclaimer"
+          >
+            CHECK_TRAVEL_FUNDS_DISCLAIMER
+          </p>
+          <a
+            class="pblue travel-funds-terms-link"
+            href="/funds-terms-conditions"
+            target="_blank"
+          >
+            Travel Funds Terms and Conditions
+          </a>
+          <a
+            class="pblue travel-funds-faqs-link"
+            href="https://www.southwest.com/faq/travel-funds "
+            target="_blank"
+          >
+            TRAVEL_FUNDS_FAQS
+          </a>
+          <div
+            class="look-up-travel-funds--results"
+          >
+            <div
+              class="fund-results-list"
+            >
+              <p
+                class="fund-results-list--title"
+              >
+                FUNDS_FROM_YOUR_ACCOUNT
+              </p>
+              <div
+                class="fund-results-list--item"
+              >
+                <div
+                  class="fund-results-list--outer-container"
+                >
+                  <div
+                    class="travel-fund--image_rtf credit-card--image left mr2"
+                  />
+                  <div
+                    class="fund-results-list-item--info-container"
+                  >
+                    <div
+                      class="fund-results-list-item--main-info"
+                    >
+                      <div
+                        class="fund-results-list--text"
+                      >
+                        <div>
+                          <p
+                            class="fund-result-title pdkblue larger"
+                          >
+                            JOHNNY QUEST
+                          </p>
+                        </div>
+                        <div
+                          class="additional-info-container"
+                        >
+                          <div>
+                            OC2EHW
+                          </div>
+                          <div>
+                            SHARED__REFUND_RESULT_ITEM__EXPIRTATION
+                             
+                            06/10/2020
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="fund-results-list--amount-container"
+                      >
+                        <div
+                          class="currency fund-results-list--available-amount"
+                        >
+                          <span
+                            class="money-sign"
+                          >
+                            $
+                          </span>
+                          <span
+                            data-qa="total-amount"
+                          >
+                            439.68
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="fund-results-list--item"
+              >
+                <div
+                  class="fund-results-list--outer-container"
+                >
+                  <div
+                    class="travel-fund--image_gift-card credit-card--image left mr2"
+                  />
+                  <div
+                    class="fund-results-list-item--info-container"
+                  >
+                    <div
+                      class="fund-results-list-item--main-info"
+                    >
+                      <div
+                        class="fund-results-list--text"
+                      >
+                        <div>
+                          <p
+                            class="fund-result-title pdkblue larger"
+                          >
+                            Southwest Gift Card
+                          </p>
+                        </div>
+                        <div
+                          class="additional-info-container"
+                        >
+                          <div>
+                            XXXXXXXXXXX-1234
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="fund-results-list--amount-container"
+                      >
+                        <div
+                          class="currency fund-results-list--available-amount"
+                        >
+                          <span
+                            class="money-sign"
+                          >
+                            $
+                          </span>
+                          <span
+                            data-qa="total-amount"
+                          >
+                            50.00
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="placements"
+        >
+          <div
+            data-qa="observed-viewport"
+          >
+            <div
+              class="dynamic-placement"
+            >
+              <div
+                class="shimmer"
+              >
+                <div
+                  class="shimmer--children"
+                >
+                  <div
+                    class="flex-placement visible"
+                    href="HREF"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div>
+        <div
+          class="page-header action-bar"
+          id=""
+        >
+          <ul
+            class="action-bar-buttons action-bar--left-buttons"
+          />
+          <div
+            class="action-bar--container"
+          >
+            <div
+              class="action-bar--title"
+            >
+              <span
+                class="action-bar--main-title"
+              >
+                Check Travel Funds
+              </span>
+              <span
+                class="action-bar--sub-title"
+              />
+            </div>
+          </div>
+          <ul
+            class="action-bar-buttons action-bar--right-buttons"
+          >
+            <li
+              class="action-bar-buttons--item"
+            >
+              <button
+                class="button"
+                type="button"
+              >
+                SHARED__BUTTON_TEXT__DONE
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div />
+      </div>
+      <div
+        class="info-banner associate-funds-message"
+      >
+        <div
+          class="info-banner--alert"
+        >
+          <i
+            class="icon icon_exclamation-circle warning"
+          />
+        </div>
+        <div
+          class="info-banner-container"
+        >
+          <b
+            class="info-banner-container--header"
+          />
+          <p
+            class="info-banner-container--body"
+          />
+          <div
+            class="info-banner-container--link"
+          />
+        </div>
+      </div>
+      <div
+        class="look-up-travel-funds"
+      >
+        <div
+          class="look-up-travel-funds--selector"
+        >
+          <div
+            class="fund-type-selector"
+          >
+            <div
+              class="active selector-button"
+              data-qa="travel-funds-selector"
+            >
+              Flight Credit
+            </div>
+            <div
+              class="center-button selector-button"
+              data-qa="luv-voucher-selector"
+            >
+              LUV Voucher
+            </div>
+            <div
+              class="selector-button"
+              data-qa="gift-card-selector"
+            >
+              Gift Card
+            </div>
+          </div>
+        </div>
+        <div
+          class="look-up-travel-funds--forms"
+        >
+          <form
+            class="look-up-funds-form form"
+            name="LOOK_UP_TRAVEL_FUNDS_FORM_ID"
+            novalidate=""
+          >
+            <fieldset>
+              <div
+                class="segments"
+              >
+                <div
+                  class="segment"
+                >
+                  <div
+                    class="fields grouped"
+                  >
+                    <div
+                      class="field"
+                    >
+                      <div
+                        class="input"
+                      >
+                        <input
+                          class=""
+                          name="confirmationNumber"
+                          placeholder="Confirmation number"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="field"
+                    >
+                      <div
+                        class="input"
+                      >
+                        <input
+                          class=""
+                          name="passengerFirstName"
+                          placeholder="Passenger first name"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="field"
+                    >
+                      <div
+                        class="input"
+                      >
+                        <input
+                          class=""
+                          name="passengerLastName"
+                          placeholder="Passenger last name"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="segment"
+                >
+                  <button
+                    class="button button--fluid larger button--blue"
+                    role="submit"
+                    type="submit"
+                  >
+                    Look up funds
+                  </button>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        <p
+          class="travel-funds--disclaimer"
+        >
+          CHECK_TRAVEL_FUNDS_DISCLAIMER
+        </p>
+        <a
+          class="pblue travel-funds-terms-link"
+          href="/funds-terms-conditions"
+          target="_blank"
+        >
+          Travel Funds Terms and Conditions
+        </a>
+        <a
+          class="pblue travel-funds-faqs-link"
+          href="https://www.southwest.com/faq/travel-funds "
+          target="_blank"
+        >
+          TRAVEL_FUNDS_FAQS
+        </a>
+        <div
+          class="look-up-travel-funds--results"
+        >
+          <div
+            class="fund-results-list"
+          >
+            <p
+              class="fund-results-list--title"
+            >
+              FUNDS_FROM_YOUR_ACCOUNT
+            </p>
+            <div
+              class="fund-results-list--item"
+            >
+              <div
+                class="fund-results-list--outer-container"
+              >
+                <div
+                  class="travel-fund--image_rtf credit-card--image left mr2"
+                />
+                <div
+                  class="fund-results-list-item--info-container"
+                >
+                  <div
+                    class="fund-results-list-item--main-info"
+                  >
+                    <div
+                      class="fund-results-list--text"
+                    >
+                      <div>
+                        <p
+                          class="fund-result-title pdkblue larger"
+                        >
+                          JOHNNY QUEST
+                        </p>
+                      </div>
+                      <div
+                        class="additional-info-container"
+                      >
+                        <div>
+                          OC2EHW
+                        </div>
+                        <div>
+                          SHARED__REFUND_RESULT_ITEM__EXPIRTATION
+                           
+                          06/10/2020
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="fund-results-list--amount-container"
+                    >
+                      <div
+                        class="currency fund-results-list--available-amount"
+                      >
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          439.68
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="fund-results-list--item"
+            >
+              <div
+                class="fund-results-list--outer-container"
+              >
+                <div
+                  class="travel-fund--image_gift-card credit-card--image left mr2"
+                />
+                <div
+                  class="fund-results-list-item--info-container"
+                >
+                  <div
+                    class="fund-results-list-item--main-info"
+                  >
+                    <div
+                      class="fund-results-list--text"
+                    >
+                      <div>
+                        <p
+                          class="fund-result-title pdkblue larger"
+                        >
+                          Southwest Gift Card
+                        </p>
+                      </div>
+                      <div
+                        class="additional-info-container"
+                      >
+                        <div>
+                          XXXXXXXXXXX-1234
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="fund-results-list--amount-container"
+                    >
+                      <div
+                        class="currency fund-results-list--available-amount"
+                      >
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          50.00
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="placements"
+      >
+        <div
+          data-qa="observed-viewport"
+        >
+          <div
+            class="dynamic-placement"
+          >
+            <div
+              class="shimmer"
+            >
+              <div
+                class="shimmer--children"
+              >
+                <div
+                  class="flex-placement visible"
+                  href="HREF"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`LookUpTravelFundsPage render should render and match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header action-bar"
+            id=""
+          >
+            <ul
+              class="action-bar-buttons action-bar--left-buttons"
+            />
+            <div
+              class="action-bar--container"
+            >
+              <div
+                class="action-bar--title"
+              >
+                <span
+                  class="action-bar--main-title"
+                >
+                  Check Travel Funds
+                </span>
+                <span
+                  class="action-bar--sub-title"
+                />
+              </div>
+            </div>
+            <ul
+              class="action-bar-buttons action-bar--right-buttons"
+            >
+              <li
+                class="action-bar-buttons--item"
+              >
+                <button
+                  class="button"
+                  type="button"
+                >
+                  SHARED__BUTTON_TEXT__DONE
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div />
+        </div>
+        <div
+          class="info-banner associate-funds-message"
+        >
+          <div
+            class="info-banner--alert"
+          >
+            <i
+              class="icon icon_exclamation-circle warning"
+            />
+          </div>
+          <div
+            class="info-banner-container"
+          >
+            <b
+              class="info-banner-container--header"
+            />
+            <p
+              class="info-banner-container--body"
+            />
+            <div
+              class="info-banner-container--link"
+            />
+          </div>
+        </div>
+        <div
+          class="look-up-travel-funds"
+        >
+          <div
+            class="look-up-travel-funds--selector"
+          >
+            <div
+              class="fund-type-selector"
+            >
+              <div
+                class="active selector-button"
+                data-qa="travel-funds-selector"
+              >
+                Flight Credit
+              </div>
+              <div
+                class="center-button selector-button"
+                data-qa="luv-voucher-selector"
+              >
+                LUV Voucher
+              </div>
+              <div
+                class="selector-button"
+                data-qa="gift-card-selector"
+              >
+                Gift Card
+              </div>
+            </div>
+          </div>
+          <div
+            class="look-up-travel-funds--forms"
+          >
+            <form
+              class="look-up-funds-form form"
+              name="LOOK_UP_TRAVEL_FUNDS_FORM_ID"
+              novalidate=""
+            >
+              <fieldset>
+                <div
+                  class="segments"
+                >
+                  <div
+                    class="segment"
+                  >
+                    <div
+                      class="fields grouped"
+                    >
+                      <div
+                        class="field"
+                      >
+                        <div
+                          class="input"
+                        >
+                          <input
+                            class=""
+                            name="confirmationNumber"
+                            placeholder="Confirmation number"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="field"
+                      >
+                        <div
+                          class="input"
+                        >
+                          <input
+                            class=""
+                            name="passengerFirstName"
+                            placeholder="Passenger first name"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="field"
+                      >
+                        <div
+                          class="input"
+                        >
+                          <input
+                            class=""
+                            name="passengerLastName"
+                            placeholder="Passenger last name"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="segment"
+                  >
+                    <button
+                      class="button button--fluid larger button--blue"
+                      role="submit"
+                      type="submit"
+                    >
+                      Look up funds
+                    </button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <p
+            class="travel-funds--disclaimer"
+          >
+            CHECK_TRAVEL_FUNDS_DISCLAIMER
+          </p>
+          <a
+            class="pblue travel-funds-terms-link"
+            href="/funds-terms-conditions"
+            target="_blank"
+          >
+            Travel Funds Terms and Conditions
+          </a>
+          <a
+            class="pblue travel-funds-faqs-link"
+            href="https://www.southwest.com/faq/travel-funds "
+            target="_blank"
+          >
+            TRAVEL_FUNDS_FAQS
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div>
+        <div
+          class="page-header action-bar"
+          id=""
+        >
+          <ul
+            class="action-bar-buttons action-bar--left-buttons"
+          />
+          <div
+            class="action-bar--container"
+          >
+            <div
+              class="action-bar--title"
+            >
+              <span
+                class="action-bar--main-title"
+              >
+                Check Travel Funds
+              </span>
+              <span
+                class="action-bar--sub-title"
+              />
+            </div>
+          </div>
+          <ul
+            class="action-bar-buttons action-bar--right-buttons"
+          >
+            <li
+              class="action-bar-buttons--item"
+            >
+              <button
+                class="button"
+                type="button"
+              >
+                SHARED__BUTTON_TEXT__DONE
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div />
+      </div>
+      <div
+        class="info-banner associate-funds-message"
+      >
+        <div
+          class="info-banner--alert"
+        >
+          <i
+            class="icon icon_exclamation-circle warning"
+          />
+        </div>
+        <div
+          class="info-banner-container"
+        >
+          <b
+            class="info-banner-container--header"
+          />
+          <p
+            class="info-banner-container--body"
+          />
+          <div
+            class="info-banner-container--link"
+          />
+        </div>
+      </div>
+      <div
+        class="look-up-travel-funds"
+      >
+        <div
+          class="look-up-travel-funds--selector"
+        >
+          <div
+            class="fund-type-selector"
+          >
+            <div
+              class="active selector-button"
+              data-qa="travel-funds-selector"
+            >
+              Flight Credit
+            </div>
+            <div
+              class="center-button selector-button"
+              data-qa="luv-voucher-selector"
+            >
+              LUV Voucher
+            </div>
+            <div
+              class="selector-button"
+              data-qa="gift-card-selector"
+            >
+              Gift Card
+            </div>
+          </div>
+        </div>
+        <div
+          class="look-up-travel-funds--forms"
+        >
+          <form
+            class="look-up-funds-form form"
+            name="LOOK_UP_TRAVEL_FUNDS_FORM_ID"
+            novalidate=""
+          >
+            <fieldset>
+              <div
+                class="segments"
+              >
+                <div
+                  class="segment"
+                >
+                  <div
+                    class="fields grouped"
+                  >
+                    <div
+                      class="field"
+                    >
+                      <div
+                        class="input"
+                      >
+                        <input
+                          class=""
+                          name="confirmationNumber"
+                          placeholder="Confirmation number"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="field"
+                    >
+                      <div
+                        class="input"
+                      >
+                        <input
+                          class=""
+                          name="passengerFirstName"
+                          placeholder="Passenger first name"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="field"
+                    >
+                      <div
+                        class="input"
+                      >
+                        <input
+                          class=""
+                          name="passengerLastName"
+                          placeholder="Passenger last name"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="segment"
+                >
+                  <button
+                    class="button button--fluid larger button--blue"
+                    role="submit"
+                    type="submit"
+                  >
+                    Look up funds
+                  </button>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        <p
+          class="travel-funds--disclaimer"
+        >
+          CHECK_TRAVEL_FUNDS_DISCLAIMER
+        </p>
+        <a
+          class="pblue travel-funds-terms-link"
+          href="/funds-terms-conditions"
+          target="_blank"
+        >
+          Travel Funds Terms and Conditions
+        </a>
+        <a
+          class="pblue travel-funds-faqs-link"
+          href="https://www.southwest.com/faq/travel-funds "
+          target="_blank"
+        >
+          TRAVEL_FUNDS_FAQS
+        </a>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`LookUpTravelFundsPage render should render the page with the correct props when the associateFundMessage object is set with a POSITIVE icon 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header action-bar"
+            id=""
+          >
+            <ul
+              class="action-bar-buttons action-bar--left-buttons"
+            />
+            <div
+              class="action-bar--container"
+            >
+              <div
+                class="action-bar--title"
+              >
+                <span
+                  class="action-bar--main-title"
+                >
+                  Check Travel Funds
+                </span>
+                <span
+                  class="action-bar--sub-title"
+                />
+              </div>
+            </div>
+            <ul
+              class="action-bar-buttons action-bar--right-buttons"
+            >
+              <li
+                class="action-bar-buttons--item"
+              >
+                <button
+                  class="button"
+                  type="button"
+                >
+                  SHARED__BUTTON_TEXT__DONE
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div />
+        </div>
+        <div
+          class="info-banner associate-funds-message"
+        >
+          <div
+            class="info-banner--alert"
+          >
+            <i
+              class="icon icon_check-circle"
+            />
+          </div>
+          <div
+            class="info-banner-container"
+          >
+            <b
+              class="info-banner-container--header"
+            />
+            <p
+              class="info-banner-container--body"
+            />
+            <div
+              class="info-banner-container--link"
+            />
+          </div>
+        </div>
+        <div
+          class="look-up-travel-funds"
+        >
+          <div
+            class="look-up-travel-funds--selector"
+          >
+            <div
+              class="fund-type-selector"
+            >
+              <div
+                class="active selector-button"
+                data-qa="travel-funds-selector"
+              >
+                Flight Credit
+              </div>
+              <div
+                class="center-button selector-button"
+                data-qa="luv-voucher-selector"
+              >
+                LUV Voucher
+              </div>
+              <div
+                class="selector-button"
+                data-qa="gift-card-selector"
+              >
+                Gift Card
+              </div>
+            </div>
+          </div>
+          <div
+            class="look-up-travel-funds--forms"
+          >
+            <form
+              class="look-up-funds-form form"
+              name="LOOK_UP_TRAVEL_FUNDS_FORM_ID"
+              novalidate=""
+            >
+              <fieldset>
+                <div
+                  class="segments"
+                >
+                  <div
+                    class="segment"
+                  >
+                    <div
+                      class="fields grouped"
+                    >
+                      <div
+                        class="field"
+                      >
+                        <div
+                          class="input"
+                        >
+                          <input
+                            class=""
+                            name="confirmationNumber"
+                            placeholder="Confirmation number"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="field"
+                      >
+                        <div
+                          class="input"
+                        >
+                          <input
+                            class=""
+                            name="passengerFirstName"
+                            placeholder="Passenger first name"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="field"
+                      >
+                        <div
+                          class="input"
+                        >
+                          <input
+                            class=""
+                            name="passengerLastName"
+                            placeholder="Passenger last name"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="segment"
+                  >
+                    <button
+                      class="button button--fluid larger button--blue"
+                      role="submit"
+                      type="submit"
+                    >
+                      Look up funds
+                    </button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <p
+            class="travel-funds--disclaimer"
+          >
+            CHECK_TRAVEL_FUNDS_DISCLAIMER
+          </p>
+          <a
+            class="pblue travel-funds-terms-link"
+            href="/funds-terms-conditions"
+            target="_blank"
+          >
+            Travel Funds Terms and Conditions
+          </a>
+          <a
+            class="pblue travel-funds-faqs-link"
+            href="https://www.southwest.com/faq/travel-funds "
+            target="_blank"
+          >
+            TRAVEL_FUNDS_FAQS
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div>
+        <div
+          class="page-header action-bar"
+          id=""
+        >
+          <ul
+            class="action-bar-buttons action-bar--left-buttons"
+          />
+          <div
+            class="action-bar--container"
+          >
+            <div
+              class="action-bar--title"
+            >
+              <span
+                class="action-bar--main-title"
+              >
+                Check Travel Funds
+              </span>
+              <span
+                class="action-bar--sub-title"
+              />
+            </div>
+          </div>
+          <ul
+            class="action-bar-buttons action-bar--right-buttons"
+          >
+            <li
+              class="action-bar-buttons--item"
+            >
+              <button
+                class="button"
+                type="button"
+              >
+                SHARED__BUTTON_TEXT__DONE
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div />
+      </div>
+      <div
+        class="info-banner associate-funds-message"
+      >
+        <div
+          class="info-banner--alert"
+        >
+          <i
+            class="icon icon_check-circle"
+          />
+        </div>
+        <div
+          class="info-banner-container"
+        >
+          <b
+            class="info-banner-container--header"
+          />
+          <p
+            class="info-banner-container--body"
+          />
+          <div
+            class="info-banner-container--link"
+          />
+        </div>
+      </div>
+      <div
+        class="look-up-travel-funds"
+      >
+        <div
+          class="look-up-travel-funds--selector"
+        >
+          <div
+            class="fund-type-selector"
+          >
+            <div
+              class="active selector-button"
+              data-qa="travel-funds-selector"
+            >
+              Flight Credit
+            </div>
+            <div
+              class="center-button selector-button"
+              data-qa="luv-voucher-selector"
+            >
+              LUV Voucher
+            </div>
+            <div
+              class="selector-button"
+              data-qa="gift-card-selector"
+            >
+              Gift Card
+            </div>
+          </div>
+        </div>
+        <div
+          class="look-up-travel-funds--forms"
+        >
+          <form
+            class="look-up-funds-form form"
+            name="LOOK_UP_TRAVEL_FUNDS_FORM_ID"
+            novalidate=""
+          >
+            <fieldset>
+              <div
+                class="segments"
+              >
+                <div
+                  class="segment"
+                >
+                  <div
+                    class="fields grouped"
+                  >
+                    <div
+                      class="field"
+                    >
+                      <div
+                        class="input"
+                      >
+                        <input
+                          class=""
+                          name="confirmationNumber"
+                          placeholder="Confirmation number"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="field"
+                    >
+                      <div
+                        class="input"
+                      >
+                        <input
+                          class=""
+                          name="passengerFirstName"
+                          placeholder="Passenger first name"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="field"
+                    >
+                      <div
+                        class="input"
+                      >
+                        <input
+                          class=""
+                          name="passengerLastName"
+                          placeholder="Passenger last name"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="segment"
+                >
+                  <button
+                    class="button button--fluid larger button--blue"
+                    role="submit"
+                    type="submit"
+                  >
+                    Look up funds
+                  </button>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        <p
+          class="travel-funds--disclaimer"
+        >
+          CHECK_TRAVEL_FUNDS_DISCLAIMER
+        </p>
+        <a
+          class="pblue travel-funds-terms-link"
+          href="/funds-terms-conditions"
+          target="_blank"
+        >
+          Travel Funds Terms and Conditions
+        </a>
+        <a
+          class="pblue travel-funds-faqs-link"
+          href="https://www.southwest.com/faq/travel-funds "
+          target="_blank"
+        >
+          TRAVEL_FUNDS_FAQS
+        </a>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

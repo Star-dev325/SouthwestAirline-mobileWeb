@@ -1,0 +1,563 @@
+{
+  "loyalty_promotions": [
+    {
+      "id": "GQICD6_promotion",
+      "entry_code": "1-GQICD6",
+      "promotion_name": "Fly 4, get 10,000 bonus points! TEST4",
+      "promotion_subtitle": "",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>You&rsquo;re flying with us, and we like that. Now that things between us are really taking off, we feel it&rsquo;s the right time to offer you this exclusive opportunity. Are you ready? Get <strong>10,000 bonus points </strong>when you complete <strong>4 one-way</strong> or <strong>2 roundtrip </strong>flights. Just register and book by December 15. Travel between November 19 and December 15, 2015.</p>\n<p>Let&rsquo;s see where an extra 10,000 bonus points will take you.</p>\n<p>&nbsp;</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p><strong>Terms and Conditions: </strong>Only the Rapid Rewards&reg; Member who received this email/offer from Southwest Airlines&reg; is eligible for this promotion. Offer is nontransferrable. Member must register for this promotion between November 9, 2015 and December 15, 2015, and registration must be completed prior to commencement of travel. Valid on new reservations booked within the promotional time period. Member&rsquo;s flight must be booked through Southwest Airlines between November 9, 2015 and December 15, 2015 for travel between November 19, 2015 and December 15, 2015. Member&rsquo;s four one-way or two roundtrip flights must be completed between November 19, 2015 and December 15, 2015 A qualifying flight for Rapid Rewards is a flight booked through Southwest Airlines from an origin city to a destination city (and for a roundtrip, back to the origin city within the same reservation), including any intermediate stops and/or connections. Rapid Rewards earned points are calculated using base fare. Member will receive a one-time bonus of 10,000 bonus points for completion of four one-way flights during the promotional time period.&nbsp; Bonus points are in addition to the standard flight points earned through Rapid Rewards. Bonus points will not count toward A-List, A-List Preferred, or Companion Pass qualification. Member will receive bonus points within four to six weeks after completion of entire ticket. Award, Companion Pass, Southwest Vacations&reg; packages, and reward travel do not qualify for this promotion. Changes made to this itinerary after purchase may eliminate qualification for promotion.</p>"
+        }
+      ]
+    },
+    {
+      "id": "1eq3h2j_promotion",
+      "entry_code": "1-EQ3H2J",
+      "promotion_name": "Here is a Friendly Promo Name",
+      "promotion_subtitle": "",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet odio ut leo pretium, eget congue purus auctor. Suspendisse rutrum arcu in risus sodales auctor. Donec lobortis pulvinar sagittis. Nunc non est diam. Praesent suscipit enim tellus, eu vestibulum erat egestas a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur metus diam, facilisis ac sapien in, convallis venenatis urna. Donec ante elit, consectetur eu neque ut, tempus auctor mi. Nulla sagittis ultrices dolor vitae.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet odio ut leo pretium, eget congue purus auctor. Suspendisse rutrum arcu in risus sodales auctor. Donec lobortis pulvinar sagittis. Nunc non est diam. Praesent suscipit enim tellus, eu vestibulum erat egestas a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur metus diam, facilisis ac sapien in, convallis venenatis urna. Donec ante elit, consectetur eu neque ut, tempus auctor mi. Nulla sagittis ultrices dolor vitae.</p>"
+        }
+      ]
+    },
+    {
+      "id": "registered_promotion",
+      "entry_code": "REGISTEREDID",
+      "promotion_name": "Test Internal Promo with View Details",
+      "promotion_subtitle": "Get 5,000 bonus points for each friend who gets the card.",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>this is the promo description</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>t&amp;c stuff</p>"
+        }
+      ]
+    },
+    {
+      "id": "REGISTERED",
+      "entry_code": "REGISTERED",
+      "promotion_name": "Test External - open the external site",
+      "promotion_subtitle": "Get 5,000 bonus points for each friend who gets the card.",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>this is the promo description</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>t&amp;c stuff</p>"
+        }
+      ]
+    },
+    {
+      "id": "1ewaiw5_promotion",
+      "entry_code": "1-EWAIW5",
+      "promotion_name": "Here is a Friendly Promo Name",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet odio ut leo pretium, eget congue purus auctor. Suspendisse rutrum arcu in risus sodales auctor. Donec lobortis pulvinar sagittis. Nunc non est diam. Praesent suscipit enim tellus, eu vestibulum erat egestas a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur metus diam, facilisis ac sapien in, convallis venenatis urna. Donec ante elit, consectetur eu neque ut, tempus auctor mi. Nulla sagittis ultrices dolor vitae.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet odio ut leo pretium, eget congue purus auctor. Suspendisse rutrum arcu in risus sodales auctor. Donec lobortis pulvinar sagittis. Nunc non est diam. Praesent suscipit enim tellus, eu vestibulum erat egestas a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur metus diam, facilisis ac sapien in, convallis venenatis urna. Donec ante elit, consectetur eu neque ut, tempus auctor mi. Nulla sagittis ultrices dolor vitae.</p>"
+        }
+      ]
+    },
+    {
+      "id": "1ewaiys_promotion",
+      "entry_code": "1-EWAIYS",
+      "promotion_name": "Here is a Friendly Promo Name",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet odio ut leo pretium, eget congue purus auctor. Suspendisse rutrum arcu in risus sodales auctor. Donec lobortis pulvinar sagittis. Nunc non est diam. Praesent suscipit enim tellus, eu vestibulum erat egestas a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur metus diam, facilisis ac sapien in, convallis venenatis urna. Donec ante elit, consectetur eu neque ut, tempus auctor mi. Nulla sagittis ultrices dolor vitae.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet odio ut leo pretium, eget congue purus auctor. Suspendisse rutrum arcu in risus sodales auctor. Donec lobortis pulvinar sagittis. Nunc non est diam. Praesent suscipit enim tellus, eu vestibulum erat egestas a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur metus diam, facilisis ac sapien in, convallis venenatis urna. Donec ante elit, consectetur eu neque ut, tempus auctor mi. Nulla sagittis ultrices dolor vitae.</p>"
+        }
+      ]
+    },
+    {
+      "id": "1ezjkpd_promotion",
+      "entry_code": "1-EZJKPD",
+      "promotion_name": "Here is a Friendly Promo Name",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet odio ut leo pretium, eget congue purus auctor. Suspendisse rutrum arcu in risus sodales auctor. Donec lobortis pulvinar sagittis. Nunc non est diam. Praesent suscipit enim tellus, eu vestibulum erat egestas a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur metus diam, facilisis ac sapien in, convallis venenatis urna. Donec ante elit, consectetur eu neque ut, tempus auctor mi. Nulla sagittis ultrices dolor vitae.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet odio ut leo pretium, eget congue purus auctor. Suspendisse rutrum arcu in risus sodales auctor. Donec lobortis pulvinar sagittis. Nunc non est diam. Praesent suscipit enim tellus, eu vestibulum erat egestas a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur metus diam, facilisis ac sapien in, convallis venenatis urna. Donec ante elit, consectetur eu neque ut, tempus auctor mi. Nulla sagittis ultrices dolor vitae.</p>"
+        }
+      ]
+    },
+    {
+      "id": "1ezjkpr_promotion",
+      "entry_code": "1-EZJKPR",
+      "promotion_name": "Here is a Friendly Promo Name",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet odio ut leo pretium, eget congue purus auctor. Suspendisse rutrum arcu in risus sodales auctor. Donec lobortis pulvinar sagittis. Nunc non est diam. Praesent suscipit enim tellus, eu vestibulum erat egestas a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur metus diam, facilisis ac sapien in, convallis venenatis urna. Donec ante elit, consectetur eu neque ut, tempus auctor mi. Nulla sagittis ultrices dolor vitae.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet odio ut leo pretium, eget congue purus auctor. Suspendisse rutrum arcu in risus sodales auctor. Donec lobortis pulvinar sagittis. Nunc non est diam. Praesent suscipit enim tellus, eu vestibulum erat egestas a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur metus diam, facilisis ac sapien in, convallis venenatis urna. Donec ante elit, consectetur eu neque ut, tempus auctor mi. Nulla sagittis ultrices dolor vitae.</p>"
+        }
+      ]
+    },
+    {
+      "id": "1f10jm7_promotion",
+      "entry_code": "1-f1ojm7",
+      "promotion_name": "Test External - open Promo Details page",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>this is the promo description</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>t&amp;c stuff</p>"
+        }
+      ]
+    },
+    {
+      "id": "1f3owye_promotion",
+      "entry_code": "1-F3OWYE",
+      "promotion_name": "Test Promo K title",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue euismod justo vitae ullamcorper. Nullam luctus lacus quis dui scelerisque congue. Phasellus mattis commodo nulla, ac porttitor orci pulvinar in. Morbi condimentum euismod dolor, sed suscipit est tincidunt in. Donec vestibulum malesuada sapien at imperdiet. Cras aliquam luctus pellentesque. Nulla non laoreet ipsum. Mauris dapibus ornare est at blandit. Cras pellentesque elit dui, at malesuada enim rutrum id. Praesent at quam id tortor vulputate interdum. Donec vehicula mi ut augue.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue euismod justo vitae ullamcorper. Nullam luctus lacus quis dui scelerisque congue. Phasellus mattis commodo nulla, ac porttitor orci pulvinar in. Morbi condimentum euismod dolor, sed suscipit est tincidunt in. Donec vestibulum malesuada sapien at imperdiet. Cras aliquam luctus pellentesque. Nulla non laoreet ipsum. Mauris dapibus ornare est at blandit. Cras pellentesque elit dui, at malesuada enim rutrum id. Praesent at quam id tortor vulputate interdum. Donec vehicula mi ut augue.</p>"
+        }
+      ]
+    },
+    {
+      "id": "1f3owyq_promotion",
+      "entry_code": "1-F3OWYQ",
+      "promotion_name": "Test Promo L title",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue euismod justo vitae ullamcorper. Nullam luctus lacus quis dui scelerisque congue. Phasellus mattis commodo nulla, ac porttitor orci pulvinar in. Morbi condimentum euismod dolor, sed suscipit est tincidunt in. Donec vestibulum malesuada sapien at imperdiet. Cras aliquam luctus pellentesque. Nulla non laoreet ipsum. Mauris dapibus ornare est at blandit. Cras pellentesque elit dui, at malesuada enim rutrum id. Praesent at quam id tortor vulputate interdum. Donec vehicula mi ut augue.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue euismod justo vitae ullamcorper. Nullam luctus lacus quis dui scelerisque congue. Phasellus mattis commodo nulla, ac porttitor orci pulvinar in. Morbi condimentum euismod dolor, sed suscipit est tincidunt in. Donec vestibulum malesuada sapien at imperdiet. Cras aliquam luctus pellentesque. Nulla non laoreet ipsum. Mauris dapibus ornare est at blandit. Cras pellentesque elit dui, at malesuada enim rutrum id. Praesent at quam id tortor vulputate interdum. Donec vehicula mi ut augue.</p>"
+        }
+      ]
+    },
+    {
+      "id": "1-fcb09j_promotion",
+      "entry_code": "1-FCB09J",
+      "promotion_name": "Test Promo M title",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue euismod justo vitae ullamcorper. Nullam luctus lacus quis dui scelerisque congue. Phasellus mattis commodo nulla, ac porttitor orci pulvinar in. Morbi condimentum euismod dolor, sed suscipit est tincidunt in. Donec vestibulum malesuada sapien at imperdiet. Cras aliquam luctus pellentesque. Nulla non laoreet ipsum. Mauris dapibus ornare est at blandit. Cras pellentesque elit dui, at malesuada enim rutrum id. Praesent at quam id tortor vulputate interdum. Donec vehicula mi ut augue.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue euismod justo vitae ullamcorper. Nullam luctus lacus quis dui scelerisque congue. Phasellus mattis commodo nulla, ac porttitor orci pulvinar in. Morbi condimentum euismod dolor, sed suscipit est tincidunt in. Donec vestibulum malesuada sapien at imperdiet. Cras aliquam luctus pellentesque. Nulla non laoreet ipsum. Mauris dapibus ornare est at blandit. Cras pellentesque elit dui, at malesuada enim rutrum id. Praesent at quam id tortor vulputate interdum. Donec vehicula mi ut augue.</p>"
+        }
+      ]
+    },
+    {
+      "id": "1fcb09v_promotion",
+      "entry_code": "1-FCB09V",
+      "promotion_name": "Test Promo N title",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue euismod justo vitae ullamcorper. Nullam luctus lacus quis dui scelerisque congue. Phasellus mattis commodo nulla, ac porttitor orci pulvinar in. Morbi condimentum euismod dolor, sed suscipit est tincidunt in. Donec vestibulum malesuada sapien at imperdiet. Cras aliquam luctus pellentesque. Nulla non laoreet ipsum. Mauris dapibus ornare est at blandit. Cras pellentesque elit dui, at malesuada enim rutrum id. Praesent at quam id tortor vulputate interdum. Donec vehicula mi ut augue.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue euismod justo vitae ullamcorper. Nullam luctus lacus quis dui scelerisque congue. Phasellus mattis commodo nulla, ac porttitor orci pulvinar in. Morbi condimentum euismod dolor, sed suscipit est tincidunt in. Donec vestibulum malesuada sapien at imperdiet. Cras aliquam luctus pellentesque. Nulla non laoreet ipsum. Mauris dapibus ornare est at blandit. Cras pellentesque elit dui, at malesuada enim rutrum id. Praesent at quam id tortor vulputate interdum. Donec vehicula mi ut augue.</p>"
+        }
+      ]
+    },
+    {
+      "id": "1fcb0ar_promotion",
+      "entry_code": "1-FCB0AR",
+      "promotion_name": "Test Promo O title",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue euismod justo vitae ullamcorper. Nullam luctus lacus quis dui scelerisque congue. Phasellus mattis commodo nulla, ac porttitor orci pulvinar in. Morbi condimentum euismod dolor, sed suscipit est tincidunt in. Donec vestibulum malesuada sapien at imperdiet. Cras aliquam luctus pellentesque. Nulla non laoreet ipsum. Mauris dapibus ornare est at blandit. Cras pellentesque elit dui, at malesuada enim rutrum id. Praesent at quam id tortor vulputate interdum. Donec vehicula mi ut augue.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue euismod justo vitae ullamcorper. Nullam luctus lacus quis dui scelerisque congue. Phasellus mattis commodo nulla, ac porttitor orci pulvinar in. Morbi condimentum euismod dolor, sed suscipit est tincidunt in. Donec vestibulum malesuada sapien at imperdiet. Cras aliquam luctus pellentesque. Nulla non laoreet ipsum. Mauris dapibus ornare est at blandit. Cras pellentesque elit dui, at malesuada enim rutrum id. Praesent at quam id tortor vulputate interdum. Donec vehicula mi ut augue.</p>"
+        }
+      ]
+    },
+    {
+      "id": "1fcb0ch_promotion",
+      "entry_code": "1-FCB0CH",
+      "promotion_name": "Test Promo P title",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue euismod justo vitae ullamcorper. Nullam luctus lacus quis dui scelerisque congue. Phasellus mattis commodo nulla, ac porttitor orci pulvinar in. Morbi condimentum euismod dolor, sed suscipit est tincidunt in. Donec vestibulum malesuada sapien at imperdiet. Cras aliquam luctus pellentesque. Nulla non laoreet ipsum. Mauris dapibus ornare est at blandit. Cras pellentesque elit dui, at malesuada enim rutrum id. Praesent at quam id tortor vulputate interdum. Donec vehicula mi ut augue.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue euismod justo vitae ullamcorper. Nullam luctus lacus quis dui scelerisque congue. Phasellus mattis commodo nulla, ac porttitor orci pulvinar in. Morbi condimentum euismod dolor, sed suscipit est tincidunt in. Donec vestibulum malesuada sapien at imperdiet. Cras aliquam luctus pellentesque. Nulla non laoreet ipsum. Mauris dapibus ornare est at blandit. Cras pellentesque elit dui, at malesuada enim rutrum id. Praesent at quam id tortor vulputate interdum. Donec vehicula mi ut augue.</p>"
+        }
+      ]
+    },
+    {
+      "id": "1fcb0ev_promotion",
+      "entry_code": "1-FCB0EV",
+      "promotion_name": "Promotion Name is Group A",
+      "sections": [
+        {
+          "name": "Description",
+          "content": ""
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "id": "1fcb0ew_promotion",
+      "entry_code": "1-FCB0EW",
+      "promotion_name": "Promotion Name is Group B",
+      "sections": [
+        {
+          "name": "Description",
+          "content": ""
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "id": "1ffj1rs_promotion",
+      "entry_code": "1-FFJ1RS",
+      "promotion_name": "Here is a Friendly Promo Name",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>Promotion Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet odio ut leo pretium, eget congue purus auctor. Suspendisse rutrum arcu in risus sodales auctor. Donec lobortis pulvinar sagittis. Nunc non est diam. Praesent suscipit enim tellus, eu vestibulum erat egestas a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur metus diam, facilisis ac sapien in, convallis venenatis urna. Donec ante elit, consectetur eu neque ut, tempus auctor mi. Nulla sagittis ultrices dolor vitae.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>*Tier Qualifying Points must be earned from revenue flights to qualify for this promotion (exclusive of points earned through select Southwest Airlines Rapid Rewards&reg; Credit Cards, bonuses, and promotions).</p>\n<p>Terms and Conditions:&nbsp; Only the Rapid Rewards&reg; Member who received this offer from Southwest Airlines is eligible for this promotion.&nbsp; Offer is nontransferrable.&nbsp; Member must register for this promotion between January 27, 2014 and February 28, 2014.&nbsp; Valid on new reservations booked within the promotional period.&nbsp; Member's flight must be booked through Southwest Airlines between January 27, 2014 and February 28, 2014.&nbsp; Member must complete travel between January 27, 2014 and February 28, 2014.&nbsp; Member must earn 3,500 Tier Qualifying Points between January 27, 2014 and February 28, 2014 by qualifying travels.&nbsp;&nbsp;Rapid Rewards account number must be entered at the time of booking.&nbsp; Visit <strong>southwest.com&reg;</strong> to review the full A-List status program rules and regulations.&nbsp; Please allow up to four business days to receive A-List status after registering for this promotion.&nbsp; Please note that during this trial period, you will not receive an A-List card, but you will receive all A-List status benefits when you provide your Rapid Rewards account number when making your reservation.&nbsp; Upon meeting the offer requirements, an A-List card will be provided&nbsp; with an expiration date of December 31, 2014.&nbsp; If Member earns regular A-List status by flying 25 qualifying one-way flights or earning 35,000 Tier Qualifying Points&nbsp;while qualified for promotional A-List status, the regular A-List status will supersede the promotional A-List status, entitling the Member to A-List status through December 31, 2015.&nbsp; All Rapid Rewards rules and regulations apply.</p>"
+        }
+      ]
+    },
+    {
+      "id": "1FL0JM7",
+      "entry_code": "1-FL0JM7",
+      "promotion_name": "Test External - open Promo Details page",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>this is the promo description</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>t&amp;c stuff</p>"
+        }
+      ]
+    },
+    {
+      "id": "214ln3117_promotion",
+      "entry_code": "2-14LN3117",
+      "promotion_name": "Earn double points!",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>You&rsquo;re flying with us, and we like that. Now that things between us are really taking off, we feel it&rsquo;s the right time to offer you this special opportunity. Get <strong>double points</strong> on every flight when you register and book by December 15 for travel between November 19 and December 15, 2015.</p>\n<p>Twice the bonus points, twice as fast to a reward flight. Let&rsquo;s do this.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p><strong>Terms and Conditions: </strong>Only the Rapid Rewards&reg; Member who received this email/offer from Southwest Airlines&reg; is eligible for this promotion. Offer is nontransferrable. Member must register for this promotion between November 9, 2015 and December 15, 2015, and registration must be completed prior to commencement of travel. Valid on new reservations booked within the promotional time period. Member&rsquo;s flight must be booked through Southwest Airlines between November 9, 2015 and December 15, 2015 for travel between November 19, 2015 and December 15, 2015. Member&rsquo;s flight must be completed between November 19, 2015 and December 15, 2015. A qualifying flight for Rapid Rewards is a flight booked through Southwest Airlines from an origin city to a destination city (and for a roundtrip, back to the origin city within the same reservation), including any intermediate stops and/or connections. Rapid Rewards account number must be entered at the time of booking. Rapid Rewards earned points are calculated using base fare. Member will receive 12 bonus points per dollar spent on Business Select&reg; Fares, ten bonus points on Anytime Fares, and six bonus points on Wanna Get Away&reg; Fares. Bonus points are in addition to the standard flight points earned through Rapid Rewards. Bonus points will not count toward A-List, A-List Preferred, or Companion Pass qualification. Member will receive bonus points within four to six weeks after completion of entire ticket. Award, Companion Pass, Southwest Vacations&reg; packages and reward travel do not qualify for this promotion. Changes made to this itinerary after purchase may eliminate qualification for promotion.</p>"
+        }
+      ]
+    },
+    {
+      "id": "214ln3124_promotion",
+      "entry_code": "2-14LN3124   ",
+      "promotion_name": "Earn double then triple points! ",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>You&rsquo;re flying with us, and we like that. Now that things between us are really taking off, we feel it&rsquo;s the right time to offer you this special opportunity. Get <strong>double points</strong> on your first flight and <strong>triple points</strong> on every flight after when you register then book by December 15. Travel between November 19 and December 15, 2015.</p>\n<p>Let&rsquo;s set some bonus point earning records.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p><strong>Terms and Conditions: </strong>Only the Rapid Rewards&reg; Member who received this email/offer from Southwest Airlines&reg; is eligible for this promotion. Offer is nontransferrable. Member must register for this promotion between November 9, 2015 and December 15, 2015, and registration must be completed prior to commencement of travel. Valid on new reservations booked within the promotional time period. Member&rsquo;s flights must be booked through Southwest Airlines between November 9, 2015 and December 15, 2015 for travel between November 19, 2015 and December 15, 2015. Member&rsquo;s flights must be completed between November 19, 2015 and December 15, 2015. A qualifying flight for Rapid Rewards is a flight booked through Southwest Airlines from an origin city to a destination city (and for a roundtrip, back to the origin city within the same reservation), including any intermediate stops and/or connections. Rapid Rewards earned points are calculated using base fare. Member will receive 12 bonus points per dollar spent on Business Select&reg; Fares, ten bonus points on Anytime Fares, and six bonus points on Wanna Get Away&reg; Fares for first flight. After first flight, Member will receive 15 bonus points per dollar spent on Business Select&reg; Fares, 12 bonus points on Anytime Fares, and 9 bonus points on Wanna Get Away&reg; Fares. Bonus points are in addition to the standard flight points earned through Rapid Rewards. Bonus points will not count toward A-List, A-List Preferred, or Companion Pass qualification. Member will receive bonus points within four to six weeks after completion of entire ticket. Award, Companion Pass, Southwest Vacations&reg; packages and reward travel do not qualify for this promotion. Changes made to this itinerary after purchase may eliminate qualification for promotion.</p>"
+        }
+      ]
+    },
+    {
+      "id": "214lndgvr_promotion",
+      "entry_code": "2-14LNDGVR",
+      "promotion_name": "Fly 4, get 10,000 bonus points!",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>You&rsquo;re flying with us, and we like that. Now that things between us are really taking off, we feel it&rsquo;s the right time to offer you this exclusive opportunity. Are you ready? Get <strong>10,000 bonus points </strong>when you complete <strong>4 one-way</strong> or <strong>2 roundtrip </strong>flights. Just register and book by December 15. Travel between November 19 and December 15, 2015.</p>\n<p>Let&rsquo;s see where an extra 10,000 bonus points will take you.</p>\n<p>&nbsp;</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p><strong>Terms and Conditions: </strong>Only the Rapid Rewards&reg; Member who received this email/offer from Southwest Airlines&reg; is eligible for this promotion. Offer is nontransferrable. Member must register for this promotion between November 9, 2015 and December 15, 2015, and registration must be completed prior to commencement of travel. Valid on new reservations booked within the promotional time period. Member&rsquo;s flight must be booked through Southwest Airlines between November 9, 2015 and December 15, 2015 for travel between November 19, 2015 and December 15, 2015. Member&rsquo;s four one-way or two roundtrip flights must be completed between November 19, 2015 and December 15, 2015 A qualifying flight for Rapid Rewards is a flight booked through Southwest Airlines from an origin city to a destination city (and for a roundtrip, back to the origin city within the same reservation), including any intermediate stops and/or connections. Rapid Rewards earned points are calculated using base fare. Member will receive a one-time bonus of 10,000 bonus points for completion of four one-way flights during the promotional time period.&nbsp; Bonus points are in addition to the standard flight points earned through Rapid Rewards. Bonus points will not count toward A-List, A-List Preferred, or Companion Pass qualification. Member will receive bonus points within four to six weeks after completion of entire ticket. Award, Companion Pass, Southwest Vacations&reg; packages, and reward travel do not qualify for this promotion. Changes made to this itinerary after purchase may eliminate qualification for promotion.</p>"
+        }
+      ]
+    },
+    {
+      "id": "2159ed7s0_promotion",
+      "entry_code": "2-159ED7S0",
+      "promotion_name": "Earn double points!",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>You&rsquo;re flying with us, and we like that. Now that things between us are really taking off, we feel it&rsquo;s the right time to offer you this special opportunity. Get <strong>double points</strong> on every flight when you register and book by December 15. Travel between November 19 and December 15, 2015.</p>\n<p>Twice the bonus points, twice as fast to a reward flight. Let&rsquo;s do this.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p><strong>Terms and Conditions:</strong> Only the Rapid Rewards&reg; Member who received this email/offer from Southwest Airlines&reg; is eligible for this promotion. Offer is nontransferrable. Member must register for this promotion between November 9, 2015 and December 15, 2015, and registration must be completed prior to commencement of travel. Valid on new reservations booked within the promotional time period. Member&rsquo;s flight must be booked through Southwest Airlines between November 9, 2015 and December 15, 2015 for travel between November 19, 2015 and December 15, 2015. Member&rsquo;s flight must be completed between November 19, 2015 and December 15, 2015. A qualifying flight for Rapid Rewards is a flight booked through Southwest Airlines from an origin city to a destination city (and for a roundtrip, back to the origin city within the same reservation), including any intermediate stops and/or connections. Rapid Rewards account number must be entered at the time of booking. Rapid Rewards earned points are calculated using base fare. Member will receive 12 bonus points per dollar spent on Business Select&reg; Fares, ten bonus points on Anytime Fares, and six bonus points on Wanna Get Away&reg; Fares. Bonus points are in addition to the standard flight points earned through Rapid Rewards. Bonus points will not count toward A-List, A-List Preferred, or Companion Pass qualification. Member will receive bonus points within four to six weeks after completion of entire ticket. Award, Companion Pass, Southwest Vacations&reg; packages and reward travel do not qualify for this promotion. Changes made to this itinerary after purchase may eliminate qualification for promotion.</p>"
+        }
+      ]
+    },
+    {
+      "id": "288nrh9t_promotion",
+      "entry_code": "2-88NRH9T",
+      "promotion_name": "Keep your A-List Status!",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>We're giving you the opportunity to continue enjoying the perks of A-List status through 2014.&nbsp; Taking advantage of this offer is easy:</p>\n<ul>\n<li>Register between December 11, 2013 and January 15, 2014.</li>\n<li>Book your flights through Southwest Airlines&reg; between December 11, 2013 and February 28, 2014.</li>\n<li>Complete your two roundtrip flights (or four one-way flights) or earn 5,000 Tier Qualifying Points* between January 15, 2014 and February 28, 2014.</li>\n</ul>\n<p>That's it!&nbsp; You'll enjoy A-List status through December 31, 2014.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>*Tier Qualifying Points are earned from revenue flights or through select Southwest Airlines Rapid Rewards&reg; Credit Cards and are exclusive of bonuses and promotions.</p>\n<p>Terms and Conditions:&nbsp; Only the Rapid Rewards Member who received this offer from Southwest Airlines is eligible for this promotion.&nbsp; Offer is nontransferrable.&nbsp; Member must register for this promotion between December 11, 2013 and January 15, 2014.&nbsp; Valid on new reservations booked within the promotional time period.&nbsp; Member's flight must be booked through Southwest Airlines between December 11, 2013 and February 28, 2014.&nbsp; Member's two roundtrip revenue flights (or four one-way revenue flights) must be completed between January 15, 2014 and February 28, 2014, or Member must earn 5,000 Tier Qualifying Points between January 15, 2014 and February 28, 2014.&nbsp; A-List qualification is based on taking 25 qualifying one-way flights or earning 35,000 Tier Qualifying Points in a calendar year.&nbsp; A qualifying flight for Rapid Rewards A-List status is a one-way revenue flight on Southwest Airlines from an origin city to a destination city, including any intermediate stops and/or connections on Southwest Airlines.&nbsp; Visit <strong>southwest.com&reg;</strong> to review the full A-List status program rules and regulations.&nbsp; Please allow up to four business days to receive A-List notification after qualifying during the promotional period. Member's Rapid Rewards account number must be entered at the time of booking.&nbsp; If Member earns regular A-List status by flying 25 qualifying one-way flights or earning 35,000 Tier Qualifying Points&nbsp;while qualified for promotional A-List status, the regular A-List status will supersede the promotional A-List status, entitling the Member to A-List status through December 31, 2014.&nbsp; For a complete list of available Fly By locations, visit <strong>southwest.com</strong>/flyby.&nbsp; Changes made to an itinerary after purchase may eliminate qualification for promotion.&nbsp; Southwest Airlines operated flights booked through AirTran&reg; Airways are not eligible for promotion.&nbsp; All Rapid Rewards rules and regulations apply.</p>"
+        }
+      ]
+    },
+    {
+      "id": "288nrha3_promotion",
+      "entry_code": "2-88NRHA3",
+      "promotion_name": "Experience A-List Status!",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>You can experience A-List status from January 15, 2014 through February 28, 2014, and we're also giving you&nbsp;the opportunity to extend your A-List status through 2014.&nbsp; Taking advantage of this offer is easy:</p>\n<ul>\n<li>Register between December 11, 2013 and January 15, 2014.</li>\n<li>Book your flights through Southwest Airlines&reg; between December 11, 2013 and February 28, 2014.</li>\n<li>Complete your two roundtrip flights (or four one-way flights) or earn 5,000 Tier Qualifying Points* between January 15, 2014 and February 28, 2014.</li>\n</ul>\n<p>That's it!&nbsp; You'll enjoy A-List status through December 31, 2014.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>*Tier Qualifying Points are earned from revenue flights or through select Southwest Airlines Rapid Rewards&reg; Credit Cards and are exclusive of bonuses and promotions.</p>\n<p>Terms and Conditions:&nbsp; Only the Rapid Rewards Member who received this offer from Southwest Airlines is eligible for this promotion.&nbsp; Offer is nontransferrable.&nbsp; Member must register for this promotion between December 11, 2013 and January 15, 2014.&nbsp; Valid on new reservations booked within the promotional time period.&nbsp; Member's flight must be booked through Southwest Airlines between December 11, 2013 and February 28, 2014.&nbsp; Member's two roundtrip revenue flights (or four one-way revenue flights) must be completed between January 15, 2014 and February 28, 2014, or Member must earn 5,000 Tier Qualifying Points between January 15, 2014 and February 28, 2014.&nbsp; A-List qualification is based on taking 25 qualifying one-way flights or earning 35,000 Tier Qualifying Points in a calendar year.&nbsp; A qualifying flight for Rapid Rewards A-List status is a one-way revenue flight on Southwest Airlines from an origin city to a destination city, including any intermediate stops and/or connections on Southwest Airlines.&nbsp; Visit <strong>southwest.com&reg;</strong> to review the full A-List status program rules and regulations.&nbsp; Please allow up to four business days to receive A-List notification after qualifying during the promotional period. Member's Rapid Rewards account number must be entered at the time of booking.&nbsp; If Member earns regular A-List status by flying 25 qualifying one-way flights or earning 35,000 Tier Qualifying Points&nbsp;while qualified for promotional A-List status, the regular A-List status will supersede the promotional A-List status, entitling the Member to A-List status through December 31, 2014.&nbsp; For a complete list of available Fly By locations, visit <strong>southwest.com</strong>/flyby.&nbsp; Changes made to an itinerary after purchase may eliminate qualification for promotion.&nbsp; Southwest Airlines operated flights booked through AirTran&reg; Airways are not eligible for promotion.&nbsp; All Rapid Rewards rules and regulations apply.</p>"
+        }
+      ]
+    },
+    {
+      "id": "29z0bjq1_promotion",
+      "entry_code": "2-9Z0BJQ1",
+      "promotion_name": "Register to receive A-List status!",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>You can experience promotional A-List status through February 28, 2014, and we're also giving you the opportunity to keep it&nbsp;through December 31, 2014.</p>\n<p>Taking advantage of this offer is easy:</p>\n<ul>\n<li>Register between January 27, 2014 and February 28, 2014 to claim your promotional A-List status.</li>\n<li>Earn&nbsp;3,500 Tier Qualifying Points* from flights&nbsp;booked&nbsp;through Southwest Airlines&reg; between January 27, 2014 and February 28, 2014.</li>\n<li>Complete your flights between January 27, 2014 and February 28, 2014.</li>\n</ul>\n<p>That's it!&nbsp; Register and book today.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>*Tier Qualifying Points must be earned from revenue flights to qualify for this promotion (exclusive of points earned through select Southwest Airlines Rapid Rewards&reg; Credit Cards, bonuses, and promotions).</p>\n<p>Terms and Conditions:&nbsp; Only the Rapid Rewards&reg; Member who received this offer from Southwest Airlines is eligible for this promotion.&nbsp; Offer is nontransferrable.&nbsp; Member must register for this promotion between January 27, 2014 and February 28, 2014.&nbsp; Valid on new reservations booked within the promotional period.&nbsp; Member's flight must be booked through Southwest Airlines between January 27, 2014 and February 28, 2014.&nbsp; Member must complete travel between January 27, 2014 and February 28, 2014.&nbsp; Member must earn 3,500 Tier Qualifying Points between January 27, 2014 and February 28, 2014 by qualifying travels.&nbsp;&nbsp;Rapid Rewards account number must be entered at the time of booking.&nbsp; Visit <strong>southwest.com&reg;</strong> to review the full A-List status program rules and regulations.&nbsp; Please allow up to four business days to receive A-List status after registering for this promotion.&nbsp; Please note that during this trial period, you will not receive an A-List card, but you will receive all A-List status benefits when you provide your Rapid Rewards account number when making your reservation.&nbsp; Upon meeting the offer requirements, an A-List card will be provided&nbsp; with an expiration date of December 31, 2014.&nbsp; If Member earns regular A-List status by flying 25 qualifying one-way flights or earning 35,000 Tier Qualifying Points&nbsp;while qualified for promotional A-List status, the regular A-List status will supersede the promotional A-List status, entitling the Member to A-List status through December 31, 2015.&nbsp; All Rapid Rewards rules and regulations apply.</p>"
+        }
+      ]
+    },
+    {
+      "id": "29z0bjqe_promotion",
+      "entry_code": "2-9Z0BJQE",
+      "promotion_name": "Register to receive A-List status!",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>We're giving you the opportunity to enjoy the perks of A-List status through 2014.&nbsp; To take&nbsp;advantage of this offer, simply register between&nbsp;January 27, 2014 and February 28, 2014.</p>\n<p>That's it!&nbsp; You'll enjoy A-List status through December 31, 2014.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>Terms and Conditions:&nbsp; Only the Rapid Rewards Member who received this offer from Southwest Airlines&reg; is eligible for this promotion.&nbsp; Offer is nontransferrable.&nbsp; Member must register for this promotion between January 27, 2014 and February 28, 2014.&nbsp; Visit <strong>southwest.com&reg;</strong> to review the full A-List status program rules and regulations.&nbsp; Please allow up to four business days to receive A-List status after registering between January 27, 2014 and February 28, 2014.&nbsp; If Member earns regular A-List status by flying 25 qualifying one-way flights or earning 35,000 Tier Qualifying Points&nbsp;while qualified for promotional A-List status, the regular A-List status will supersede the promotional A-List status, entitling the Member to A-List status through December 31, 2015.&nbsp; All Rapid Rewards rules and regulations apply.</p>"
+        }
+      ]
+    },
+    {
+      "id": "29zc0024_promotion",
+      "entry_code": "2-9ZC0024",
+      "promotion_name": "Don't miss out on A-List Preferred status!",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>We're giving you the opportunity to enjoy the perks of A-List Preferred status through 2014.&nbsp;&nbsp;</p>\n<p>Taking advantage of this offer is easy:</p>\n<ul>\n<li>Register between January 27, 2014 and February 28, 2014.</li>\n<li>Earn&nbsp;7,000 Tier Qualifying Points* from flights&nbsp;booked&nbsp;through Southwest Airlines&reg; between January 27, 2014 and February 28, 2014.</li>\n<li>Complete your flights between January 27, 2014 and February 28, 2014.</li>\n</ul>\n<p>That's it!&nbsp; You'll enjoy A-List Preferred status through December 31, 2014.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>*Tier Qualifying Points must be earned from revenue flights to qualify for this promotion (exclusive of points earned through select Southwest Airlines Rapid Rewards&reg; Credit Cards, bonuses, and promotions).</p>\n<p>Terms and Conditions:&nbsp; Only the Rapid Rewards&reg; Member who received this offer from Southwest Airlines is eligible for this promotion.&nbsp; Offer is nontransferrable.&nbsp; Member must register for this promotion between January 27, 2014 and February 28, 2014.&nbsp; Valid on new reservations booked within the promotional period.&nbsp; Member's flight must be booked through Southwest Airlines between January 27, 2014 and February 28, 2014.&nbsp; Member must earn 7,000 Tier Qualifying Points between January 27, 2014 and February 28, 2014.&nbsp; Rapid Rewards account number must be entered at the time of booking.&nbsp; Visit <strong>southwest.com&reg;</strong> to review the full A-List Preferred status program rules and regulations.&nbsp; Please allow up to four business days to receive A-List Preferred status after qualifying&nbsp;for this promotion.&nbsp; Rapid Rewards account number must be entered at the time of booking.&nbsp; If Member earns regular A-List Preferred status by flying&nbsp;50 qualifying one-way flights or earning 70,000 Tier Qualifying Points&nbsp;while qualified for promotional A-List Preferred status, the regular A-List Preferred status will supersede the promotional A-List Preferred status, entitling the Member to A-List Preferred status through December 31, 2015.&nbsp; All Rapid Rewards rules and regulations apply.</p>"
+        }
+      ]
+    },
+    {
+      "id": "29zc003b_promotion",
+      "entry_code": "2-9ZC003B",
+      "promotion_name": "Don't miss out on A-List status!",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>We're giving you the opportunity to enjoy the perks of A-List status through 2014.&nbsp;&nbsp;</p>\n<p>Taking advantage of this offer is easy:</p>\n<ul>\n<li>Register between January 27, 2014 and February 28, 2014.</li>\n<li>Earn&nbsp;3,500 Tier Qualifying Points* from flights&nbsp;booked&nbsp;through Southwest Airlines&reg; between January 27, 2014 and February 28, 2014.</li>\n<li>Complete your flights between January 27, 2014 and February 28, 2014.</li>\n</ul>\n<p>That's it!&nbsp; You'll enjoy A-List status through December 31, 2014.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>*Tier Qualifying Points must be earned from revenue flights to qualify for this promotion (exclusive of points earned through select Southwest Airlines Rapid Rewards&reg; Credit Cards, bonuses, and promotions).</p>\n<p>Terms and Conditions:&nbsp; Only the Rapid Rewards&reg; Member who received this offer from Southwest Airlines is eligible for this promotion.&nbsp; Offer is nontransferrable.&nbsp; Member must register for this promotion between January 27, 2014 and February 28, 2014.&nbsp; Valid on new reservations booked within the promotional period.&nbsp; Member's flight must be booked through Southwest Airlines between January 27, 2014 and February 28, 2014.&nbsp; Member must earn 3,500 Tier Qualifying Points between January 27, 2014 and February 28, 2014.&nbsp; Visit <strong>southwest.com&reg;</strong> to review the full A-List status program rules and regulations.&nbsp; Please allow up to four business days to receive A-List status after qualifying&nbsp;for this promotion.&nbsp; Rapid Rewards account number must be entered at the time of booking.&nbsp; If Member earns regular A-List status by flying 25 qualifying one-way flights or earning 35,000 Tier Qualifying Points&nbsp;while qualified for promotional A-List status, the regular A-List status will supersede the promotional A-List status, entitling the Member to A-List status through December 31, 2015.&nbsp; All Rapid Rewards rules and regulations apply.</p>"
+        }
+      ]
+    },
+    {
+      "id": "29zc003n_promotion",
+      "entry_code": "2-9ZC003N",
+      "promotion_name": "Register to receive A-List status!",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>We're giving you the opportunity to enjoy the perks of A-List status through 2014.&nbsp; To take&nbsp;advantage of this offer, simply register between&nbsp;January 27, 2014 and February 28, 2014.</p>\n<p>That's it!&nbsp; You'll enjoy A-List status through December 31, 2014.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>Terms and Conditions:&nbsp; Only the Rapid Rewards&reg; Member who received this offer from Southwest Airlines&reg; is eligible for this promotion.&nbsp; Offer is nontransferrable.&nbsp; Member must register for this promotion between January 27, 2014 and February 28, 2014.&nbsp; Visit <strong>southwest.com&reg;</strong> to review the full A-List status program rules and regulations.&nbsp; Please allow up to four business days to receive A-List status after registering between January 27, 2014 and February 28, 2014.&nbsp; If Member earns regular A-List status by flying 25 qualifying one-way flights or earning 35,000 Tier Qualifying Points&nbsp;while qualified for promotional A-List status, the regular A-List status will supersede the promotional A-List status, entitling the Member to A-List status through December 31, 2015.&nbsp; All Rapid Rewards rules and regulations apply.</p>"
+        }
+      ]
+    },
+    {
+      "id": "2d5tq3nl_promotion",
+      "entry_code": "2-D5TQ3NL",
+      "promotion_name": "Experience A-List Status!",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>We're giving you the opportunity to enjoy&nbsp;the perks of A-List status through 2014.&nbsp; Taking advantage of this offer is easy:</p>\n<ul>\n<li>Register between&nbsp;March 31, 2014&nbsp;and May 31, 2014.</li>\n<li>Book your flights through Southwest Airlines&reg; between March 31, 2014&nbsp;and May 31, 2014.</li>\n<li>Complete your two roundtrip flights (or four one-way flights) or earn 5,000 Tier Qualifying Points* between March 31, 2014&nbsp;and May 31, 2014.</li>\n</ul>\n<p>That's it!&nbsp; You'll enjoy A-List status through December 31, 2014.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>Only the Rapid Rewards Member who received this offer from Southwest Airlines is eligible for this promotion.&nbsp; Offer is nontransferrable.&nbsp; Member must register for this promotion between March 31, 2014&nbsp;and May 31, 2014.&nbsp; Valid on new reservations booked within the promotional time period.&nbsp; Member's flight must be booked through Southwest Airlines between March 31, 2014&nbsp;and May 31, 2014.&nbsp; Member's two roundtrip revenue flights (or four one-way revenue flights) must be completed between March 31, 2014&nbsp;and May 31, 2014, or Member must earn 5,000 Tier Qualifying Points between March 31, 2014&nbsp;and May 31, 2014.&nbsp; Rapid Rewards account number must be entered at the time of booking.&nbsp; Visit <strong>southwest.com&reg;</strong> to review the full A-List status program rules and regulations.&nbsp; Please allow up to four business days to receive A-List notification after qualifying during the promotional period.&nbsp; *Points don&rsquo;t expire as long as you have flight or Partner earning activity every 24 months. Benefits apply to points transactions. **Tier Qualifying Points must be earned from revenue flights to qualify for this promotion (exclusive of points earned through select Southwest Airlines Rapid Rewards&reg; Credit Cards, bonuses, and promotions). ***First and second bags only. Weight and size limits apply. &dagger;Fare difference may apply. &dagger;&dagger;Limited time and only available on WiFi-enabled planes. Free live and on-demand television on your own device. All Rapid Rewards rules and regulations apply. &copy;2014 Southwest Airlines Co.</p>"
+        }
+      ]
+    },
+    {
+      "id": "2tierpro_promotion",
+      "entry_code": "2-TIERPRO",
+      "promotion_name": "Redeem points for A-List status",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p><strong>You&rsquo;re now closer than ever to promotional A-List status.</strong><br /><br />That&rsquo;s because when you treat yourself to this exclusive offer, you can use points to become an A-List Member<sup>1</sup> and enjoy benefits including priority boarding, Fly By<sup>&reg;</sup> Priority Check-in<sup>2</sup> and Security Lane access, priority check-in and security lane access and more for the rest of 2015.<br /><br /><strong>Register by August 30, 2015 to redeem 50,000 points to become an A-List Member for the rest of 2015</strong>.<br /><strong><br />By completing this registration page you are giving Southwest Airlines<sup>&reg;</sup> permission to remove 50,000 points from your Rapid Rewards<sup>&reg;</sup> account.<br /> </strong></p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>TERMS AND CONDITIONS <br />Only the Rapid Rewards Member who received this offer from Southwest Airlines may be eligible for this promotion. <br /><br /><sup>1</sup>Please allow three to six days after the points have been redeemed for promotional A-List status to be added to your Rapid Rewards Account. A-List credentials will be mailed to the primary address on file for the Rapid Rewards Account referenced above. Please allow up to 15 business days after redeeming for promotional A-List status to receive your A-List card. Only the Rapid Rewards&reg; Member who received this offer from Southwest Airlines<sup>&reg;</sup> is eligible for this promotion. Offer is nontransferable. You will receive all A-List status benefits when you provide your Rapid Rewards account number when making your reservation. If Member earns regular A-List status by flying 25 qualifying one-way flights or earning 35,000 Tier Qualifying Points in the calendar year while qualified for promotional A-List status, the regular A-List status will supersede the promotional A-List status, entitling the Member to A-List status through December 31, 2016.&nbsp; Visit Southwest.com&reg; to review the full A-List status program rules and regulations. Points will not be returned if Member earns A-List status. All Rapid Rewards rules and regulations apply.</p>\n<p><sup>2</sup>For a complete list of available Fly By<sup>&reg;</sup> locations, visit southwest.com/flyby. <br /><br />Chase Bank USA, N.A. is not responsible for offer fulfillment or the provision of or failure to provide the stated benefits and services. <br /><br />SOUTHWEST AIRLINES RAPID REWARDS&reg; PROGRAM INFORMATION <br />The Southwest Airlines Rapid Rewards Credit Card is brought to you by Southwest Airlines<sup>&reg;</sup> and Chase. Southwest Airlines is responsible for the redemption of Rapid Rewards<sup>&reg;</sup> Points toward benefits and services. The number of points needed for any particular Southwest flight is set by Southwest and will vary depending on destination, time, day of travel, demand, point redemption rate, and other factors and are subject to change. Rapid Rewards Points can only be transferred to the primary Cardmember&rsquo;s Rapid Rewards account. All Rapid Rewards rules and regulations apply, please visit www.southwest.com/rrterms. Southwest reserves the right to amend, suspend, terminate, or change the program and/or program rules at any time without notice. Rapid Rewards Members do not acquire property rights in accrued points and awards.</p>"
+        }
+      ]
+    },
+    {
+      "id": "dining300pts_promotion",
+      "entry_code": "dining300pts",
+      "promotion_name": "New Rapid Rewards Diningâ„  Members can earn 300 bonus points!",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>As a New Rapid Rewards Dining Member, you will be automatically registered for the Rapid Rewards Dining New Member Bonus that will award you 300 bonus points after just one Dine. Here's how:</p>\n<ul>\n<li>Join <a title=\"go to rapidrewardsdining.com\" href=\"http://www.rapidrewardsdining.com/?cm_mmc=SW-_-Web-_-external-_-RRD_Promotions_2012\" target=\"_blank\">Rapid Rewards Dining</a> and complete an Online Profile, which includes registering a credit or debit card with the program</li>\n<li>Visit a program restaurant and spend a total of $25 (tax and tip included) within&nbsp;30 days of joining</li>\n<li>Complete a review of the experience within 30 days of the dine</li>\n</ul>\n<p>That's it! You'll earn 300 Bonus Rapid Rewards points, which is in addition to the three points per dollar Members earn on every dine!</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p><strong>Terms and Conditions</strong>: This bonus offer is open to new Rapid Rewards Dining members only who complete a dining profile through the links on this page. A dining profile includes creating a web login and opting in and remaining opted in to receive e-mails from Rapid Rewards Dining with a valid, deliverable email address. You must continue to satisfy the Active Member level <a href=\"http://www.rapidrewardsdining.com/mem_chart.htm\" target=\"_blank\">criteria</a> to earn this bonus.</p>\n<p>To earn this bonus, you must spend $25 or more (including tax and tip) in one dine at a participating restaurant, bar, or club within 30 days from the day you complete your dining profile. Please note that activity that occurred prior to you completing your profile will not be eligible for this bonus. In addition, all dines must occur during a valid reward period and be paid for with a credit or debit card registered in Rapid Rewards Dining. A maximum of 300 points may be earned with this bonus. Offer is not combinable with other Rapid Rewards Dining bonuses. Please allow four to six weeks from the date of qualifying dine for any bonus points to post to your Rapid Rewards account. All account inquiries related to this bonus must be received within 60 days of your qualifying dine.</p>\n<p>Please note that some restaurants offer rewards only on certain days of the week or up to a maximum spending amount per month. For complete program <a href=\"http://www.rapidrewardsdining.com/terms.htm\" target=\"_blank\">terms and conditions</a>, guidelines and restrictions, and the latest rewards calendar, visit <a href=\"http://www.rapidrewardsdining.com\" target=\"_blank\">rapidrewardsdining.com</a>. Other limitations may apply. All Rapid Rewards rules and regulations apply.</p>"
+        }
+      ]
+    },
+    {
+      "id": "promotions_avis_2400_points_35_off",
+      "entry_code": "avis_2_promotion",
+      "promotion_name": "Earn up to 2,400 points and save up to 35% with Avis",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>From now through January 31, 2016 you can earn up to 2,400 Rapid Rewards Points and save up to 35% on qualifying Avis rentals. This offer is valid on all car groups at any participating Avis airport location in the United States.</p>\n<ul>\n<li>Rent for 1 - 2 days, and earn 600 points plus save up to 35%</li>\n<li>Rent for 3&nbsp;-&nbsp;6 days, and earn 1,200 points plus save up to 35%</li>\n<li>Rent for 7+ days, and earn 2,400 points plus save up to 35%</li>\n</ul>\n<p>For reservations, book below.&nbsp;The Coupon&nbsp;Code and Avis Worldwide Discount (AWD) fields will be entered for you. Simply remember to&nbsp;provide your Rapid Rewards account number when completing your reservation or checkin to&nbsp;receive your points.</p>\n<p>You may also book the&nbsp;Car tab online at <strong>southwest.com</strong>. When booking, please be sure to enter&nbsp;<strong>MUAA042</strong> in the Coupon Code field,&nbsp;<strong>K024700</strong> in the Avis Worldwide (AWD) field, and&nbsp;provide your Rapid Rewards account number.</p>\n<div id=\"_mcePaste\" class=\"mcePaste\" style=\"position: absolute; left: -40px; top: -25px; width: 1px; height: 1px; overflow: hidden;\"></div>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p><strong>Terms and Conditions</strong>:&nbsp;Offer is valid from&nbsp;now through January 31, 2016 on qualifying rentals at participating Avis airport locations in the United States.&nbsp;Member will receive 600 points for one or two day rentals; 1,200 points for three to six day rentals; and 2,400 points for rentals of seven days or longer.&nbsp;Offer valid on daily, weekend, and weekly rates on all Avis car groups. Please provide Coupon Code&nbsp;MUAA042 and provide Rapid Rewards account number at time of rental or checkin to receive bonus points. An advance reservation is required. Offer may not be used with any other promotion or offer. Taxes, concession recovery fees, vehicle license recovery fee, customer facility charges ($10/contract in CA) and fuel charges are extra. Optional items such as LDW ($29.99/day or less except in Louisiana $49.99/day) and other surcharges may apply and are extra.&nbsp;The savings of up to 35% applies to Avis leisure weekly and weekend rates and is applicable only to the time and mileage charges of the rental. Please mention AWD number K024700 to save&nbsp;up to 35% on your rental. Offer is subject to vehicle availability at the time of rental and may not be available on some rates at some times.&nbsp;Car rental return restrictions may apply. Offer subject to change without notice. Holiday and other blackout periods may apply. Renter must meet Avis age, driver, and credit requirements. Minimum rental age may vary by location. An additional daily surcharge may apply for renters under 25 years old. Frequent Flyer surcharge of up to U.S. $1.00 per day may apply. Point accrual structure subject to change. Rental must begin by January 31, 2016. Please allow six to eight weeks for points to post to your account.&nbsp;All Rapid Rewards rules and regulations apply.</p>\n<div id=\"_mcePaste\" class=\"mcePaste\" style=\"position: absolute; left: -40px; top: -25px; width: 1px; height: 1px; overflow: hidden;\"></div>"
+        }
+      ]
+    },
+    {
+      "id": "promotions_hertz_3",
+      "entry_code": "hertz_3_promotion",
+      "promotion_name": "Earn up to 2,400 points and save up to 35% on Hertz rentals!",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>From now through January 31, 2016, you can earn up to 2,400 Rapid Rewards<sup>&reg;</sup> Points, and save up to 35% on all Hertz rentals. Offer is valid at participating locations in the U.S., Puerto Rico, and Canada.</p>\n<ul>\n<li>Rent for 1 - 2 days: Earn 600 points.</li>\n<li>Rent for 3 - 6 days: Earn 1,200 points.</li>\n<li>Rent for 7+ days: Earn 2,400 points.</li>\n</ul>\n<p>For reservations, book below. The CDP and Promotion Code fields will already be entered for you. Simply remember to provide your Rapid Rewards account number when completing your reservation.<br /><br />You may also book online through the Car tab at <strong>southwest.com</strong><sup>&reg;</sup>. When booking, please enter&nbsp;<strong>159062&nbsp;</strong>for rentals of three days or longer in the Promotion Code field and <strong>205418</strong> in the&nbsp;CDP field to receive your appropriate points.</p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>Terms and Conditions: Advance reservation, Rapid Rewards account number, CDP \"205418\", and Promotion Code \"159062\" for rentals of one day or longer are required.&nbsp; Promotion Code must be provided at time of reservation or offer is void.&nbsp;One day minimum keep is required. Subject to availability, this offer is redeemable at participating Hertz locations in the U.S., Canada, and Puerto Rico. The CDP savings of up to 35% applies to time and mileage charges only, discounts vary by rental date, location, and vehicle type.&nbsp;Age, driver, credit and qualifying rate restrictions for the renting location apply. Taxes, tax reimbursement, age differential charges, fees, surcharges and optional services charges, such as refueling, are not included.&nbsp;Standard rental qualifications, rental period, and return restrictions apply.&nbsp;This offer has no cash value, may not be used with Pre-Pay Rates, Tour Rates, Insurance Replacement Rates, or Hourly Rentas; cannot be combined with each other or with any other certificate, voucher, offer or promotion.&nbsp;Discounts apply to time and mileage charges only.&nbsp;Discounts in local currency upon redemption. Modifying your reservation may result in a change in your rate and/or invalidate this offer.&nbsp;Rate subject to increase or fees may apply in the event of early/late vehicle return. Vehicle must be returned to renting location to avoid change in rate or drop charge.&nbsp;Frequent Flyer Surcharge of $1.00 per day, up to a maximum of $4.00 per rental, may apply.&nbsp;Points will not be awarded on travel industry rates, wholesale tour packages, insurance/dealer replacement, and any other promotional rates or group travel. Offer valid for vehicle pick-up through January 31, 2016.&nbsp;All Rapid Rewards rules and regulations apply.&nbsp;Please allow 6-8 weeks for points to post to your account.</p>"
+        }
+      ]
+    },
+    {
+      "id": "promotions_swabiz_avis_2400_points_35_off",
+      "entry_code": "avis_2_promotion_swabiz",
+      "promotion_name": "Earn up to 2,400 points and save up to 35% with Avis",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>From now through January 31,2016 you can earn up to 2,400 Rapid Rewards Points and save up to 35% on qualifying Avis rentals.&nbsp;This offer is valid on all car groups at any participating Avis airport location in the United States.</p>\n<ul>\n<li>Rent for 1 - 2 days, and earn 600 points plus save up to 35%</li>\n<li>Rent for 3&nbsp;-&nbsp;6 days, and earn 1,200 points plus save up to 35%</li>\n<li>Rent for 7+ days, and earn 2,400 points plus save up to 35%</li>\n</ul>\n<p>For reservations, click on the Reserve Now button below. Please be sure to&nbsp;enter&nbsp;<strong>MUAA042</strong> in the Coupon Code field,&nbsp;<strong>K024700</strong> in the Avis Worldwide (AWD) field, and&nbsp;provide your Rapid Rewards account number.</p>\n<p style=\"text-align: center;\"><a href=\"https://www.southwest.com/car-rentals/search-car-rentals.html?int=QBOMLANDCAR24AVIS130325\"><img src=\"/assets/images/booking/widget/btn_reserve.gif\" alt=\"Reserve Now\" /></a></p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p><strong>Terms and Conditions</strong>:&nbsp;Offer is valid through January 31,2016 on qualifying rentals at participating Avis airport locations in the United States. Member will receive 600 points for one or two day rentals; 1,200 points for three to six days rentals; and 2,400 points for rentals of seven days or longer.&nbsp;Offer valid on daily, weekend, and weekly rates on all Avis car groups. Please provide&nbsp;Coupon Code&nbsp;MUAA042 and provide Rapid Rewards account number at time of rental or checkin to receive bonus points. An advance reservation is required. Offer may not be used with any other promotion or offer. Taxes, concession recovery fees, vehicle license recovery fee, customer facility charges ($10/contract in CA) and fuel charges are extra. Optional items such as LDW ($29.99/day or less except in Louisiana $49.99/day) and other surcharges may apply and are extra.&nbsp;The savings of up to 35% applies to Avis leisure weekly and weekend rates and is applicable only to the time and mileage charges of the rental. Please mention AWD number K024700 to save&nbsp;up to 35% on your rental. Offer is subject to vehicle availability at the time of rental and may not be available on some rates at some times.&nbsp;Car rental return restrictions may apply. Offer subject to change without notice. Holiday and other blackout periods may apply. Renter must meet Avis age, driver, and credit requirements. Minimum rental age may vary by location. An additional daily surcharge may apply for renters under 25 years old. Frequent Flyer surcharge of up to U.S. $1.00 per day may apply.&nbsp;Point accrual structure subject to change. Rental must begin by January 31,2016. Please allow six to eight weeks for points to post to your account.&nbsp;All Rapid Rewards rules and regulations apply.</p>\n<div id=\"_mcePaste\" class=\"mcePaste\" style=\"position: absolute; left: -40px; top: -25px; width: 1px; height: 1px; overflow: hidden;\"></div>"
+        }
+      ]
+    },
+    {
+      "id": "promotions_swabiz_hertz_3",
+      "entry_code": "hertz_3_promotion_swabiz",
+      "promotion_name": "Earn up to 2,400 points and save up to 35% on Hertz rentals!",
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p>From now through December 31, 2015, you can earn up to 2,400 Rapid Rewards<sup>&reg;</sup> Points, and save up to 35% on all Hertz rentals. Offer is valid at participating locations in the U.S., Puerto Rico, and Canada.</p>\n<ul>\n<li>Rent for 1 - 2 days: Earn 600 points.</li>\n<li>Rent for 3 - 6 days: Earn 1,200 points.</li>\n<li>Rent for 7+ days: Earn 2,400 points.</li>\n</ul>\n<p>For reservations, click on the Reserve Now button&nbsp;below. Please be sure to enter&nbsp;<strong>159062</strong> for rentals of three days or longer in the Promotion Code field and <strong>205418</strong> in the CDP field to receive your appropriate points.&nbsp;Be sure to provide your Rapid Rewards account number at the time of reservation to receive your appropriate points.</p>\n<p style=\"text-align: center;\"><a href=\"https://www.southwest.com/car-rentals/search-car-rentals.html?int=QBOMLANDCAR0HERTZ110301\"><img src=\"/assets/images/booking/widget/btn_reserve.gif\" alt=\"Reserve Now\" /></a></p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p>Terms and Conditions: Advance reservation, Rapid Rewards account number, CDP \"205418\", and Promotion Code \"159062\" for rentals of one day or longer are required.&nbsp;Promotion Code must be provided at time of reservation or offer is void.&nbsp;One day minimum keep is required. Subject to availability, this offer is redeemable at participating Hertz locations in the U.S., Canada, and Puerto Rico. The CDP savings of up to 35% applies to time and mileage charges only, discounts vary by rental date, location, and vehicle type.&nbsp;Age, driver, credit and qualifying rate restrictions for the renting location apply. Taxes, tax reimbursement, age differential charges, fees, surcharges and optional services charges, such as refueling, are not included. Standard rental qualifications, rental period, and return restrictions apply. This offer has no cash value, may not be used with Pre-Pay Rates, Tour Rates, Insurance Replacement Rates, or Hourly Rentals; cannot be combined with each other or with any other certificate, voucher, offer or promotion. Discounts apply to time and mileage charges only.&nbsp;Discounts in local currency upon redemption.&nbsp;Modifying your reservation may result in a change in your rate and/or invalidate this offer.&nbsp;Rate subject to increase or fees may apply in the event of early/late vehicle return. Vehicle must be returned to renting location to avoid change in rate or drop charge.&nbsp;Frequent Flyer Surcharge of $1.00 per day, up to a maximum of $4.00 per rental, may apply. Points will not be awarded on travel industry rates, wholesale tour packages, insurance/dealer replacement, and any other promotional rates or group travel. Offer valid for vehicle pick-up through December 31, 2015.&nbsp;All Rapid Rewards rules and regulations apply.&nbsp;Please allow 6-8 weeks for points to post to your account.</p>"
+        }
+      ]
+    }
+  ]
+}

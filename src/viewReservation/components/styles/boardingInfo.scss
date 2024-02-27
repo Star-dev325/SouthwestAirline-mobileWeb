@@ -1,0 +1,173 @@
+.boarding-info_time {
+  .data-cityname {
+    @include mb2;
+  }
+
+  .airport-info--detail {
+    @include gray5;
+  }
+}
+
+.boarding-info--divider {
+  padding-bottom: 1.2rem;
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid $gray2;
+}
+
+.boarding-info--passengers-details-wrapper {
+  @include relative;
+  @include mb2;
+  @include mt4;
+}
+
+.boarding-info--passengers-wrapper {
+  @include left;
+}
+
+.boarding-info--confirmation-wrapper {
+  @include absolute;
+  @include right;
+  right: 1.8rem;
+}
+
+.boarding-info .label-container--label {
+  @include mb2;
+}
+
+.boarding-info--passenger {
+  @include mb4;
+}
+
+.boarding-info--user-name {
+  @include block;
+}
+
+.boarding-info--rapid-rewards {
+  @include mr4;
+  @include gray5;
+}
+
+.boarding-info--user-name,
+.boarding-info--confirmation {
+  @include xlarge;
+}
+
+.boarding-info--assistant-required {
+  @include bggray2;
+  @include block;
+  @include gray5;
+  @include p5;
+  @include my4;
+  @include center;
+
+  strong {
+    @include mb2;
+    @include block;
+  }
+}
+
+.boarding-info--early-bird-button {
+  @include mt4;
+
+  .icon {
+    @include mr4;
+    @include black;
+  }
+}
+
+.boarding-info--change-cancel-buttons,
+.boarding-info--same-day-change-buttons,
+.check-baggage-button-boarding {
+  @include bd;
+  @include bdpblue;
+  @include rd2;
+  @include pblue;
+  @include bold;
+  @include center;
+  @include p4;
+  @include mt4;
+  box-shadow: 0 0.5px 1px $pblue;
+  flex: 0 0 49%;
+}
+
+.boarding-info--same-day-change-buttons,
+.check-baggage-button-boarding {
+  flex: 1;
+}
+
+.boarding-info--change-cancel-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boarding-info--checkin-button {
+  @include mt4;
+}
+
+.boarding-info-passenger--message {
+  @include red;
+}
+
+.lap-child {
+  &--details {
+    @include flex;
+    @include py4;
+  }
+
+  &--text-wrapper {
+    @include flex;
+    @include flex-column;
+    @include flex-grow1;
+    @include medium;
+  }
+
+  &--title {
+    @include gray5;
+    @include regular;
+  }
+
+  &--icon {
+    @include mr2;
+    min-width: 23px;
+    height: 26px;
+    background-image: url('/content/mkt/images/landing_pages/lap-child.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.baggage-details {
+  @include flex;
+  @include flex-row;
+  @include mt5;
+
+  &--icon {
+    @include mr2;
+    @include xxxlarge;
+  }
+
+  &--suffix-text {
+    @include pblue;
+  }
+
+  &--modal-info-content {
+    @include flex;
+    @include flex-row;
+    @include large;
+    @include py4;
+  }
+
+  &--modal-info-icon {
+    @include green2;
+    font-size: 3em;
+  }
+
+  &--modal-info-text {
+    @include ml5;
+  }
+}
+
+.external-link-icon {
+  @include larger;
+  @include ml1;
+}

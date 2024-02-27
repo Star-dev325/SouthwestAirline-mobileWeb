@@ -1,0 +1,53 @@
+.promotions-page {
+  label {
+    @include pdkblue;
+    @include bold;
+    font-size: 1.2em;
+  }
+
+  h4 {
+    @include lineheight10;
+    margin-bottom: 0.5em;
+  }
+
+  .segment {
+    @include mt5;
+  }
+
+  .promotion-card {
+    .segment {
+      @include p0;
+    }
+
+    .button.grey {
+      @include bggray1;
+      padding: 1.3rem;
+    }
+  }
+
+  .promotion-card--info {
+    p {
+      @include mb0;
+    }
+  }
+
+  .promotion-card--title {
+    @include pblue;
+    font-size: 1.3em;
+  }
+
+  .promotion-card--link {
+    @include pblue;
+    font-size: 1em;
+  }
+
+  .promotion-card--desc {
+    @include gray5;
+    @include italic;
+    font-size: 1em;
+  }
+}
+
+.promotions-page--group {
+  margin-bottom: 1em;
+}

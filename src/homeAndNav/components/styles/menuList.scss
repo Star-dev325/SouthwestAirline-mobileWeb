@@ -1,0 +1,15 @@
+.menu-list {
+  @include bgwhite;
+
+  .icon_closeddrawer,
+  .icon_openeddrawer {
+    @include sblue;
+    @include right;
+    font-size: 2rem;
+    padding: 1rem 0;
+  }
+
+  ul {
+    @include m0;
+  }
+}

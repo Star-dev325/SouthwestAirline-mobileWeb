@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EarlyBirdPassengerCheckbox should render for passenger that can purchase EB 1`] = `
+<div>
+  <form>
+    <div
+      class="early-bird-passenger-checkbox"
+    >
+      <div
+        class="field"
+      >
+        <div
+          class="checkbox-button button button--fluid relative flex checkbox-button checkbox-button--row_checked flex-cross-center"
+          name="ebPaxCheckBox"
+        >
+          <div>
+            <span
+              class="checkbox-button--mark checkbox-button_checked"
+            >
+              <i
+                class="absolute xlarge bgtransp icon icon_check"
+              />
+            </span>
+          </div>
+          <div>
+            <div
+              class="checkbox-button--children flex-equal-width ml2"
+            >
+              <div
+                class="early-bird-passenger-checkbox--personal-info"
+              >
+                <p
+                  class="early-bird-passenger-checkbox--name"
+                >
+                  Iverson Li
+                </p>
+                <p
+                  class="early-bird-passenger-checkbox--account-number"
+                >
+                  1234-ABC
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

@@ -1,0 +1,35 @@
+.cancel-standby-page {
+  @include bgpdkblue;
+
+  &--body {
+    @include p6;
+
+    &-title {
+      @include bold;
+      @include white;
+      @include xxlarge;
+    }
+
+    &-subtitle {
+      @include large;
+      @include pt5;
+      @include white;
+    }
+
+    &-label {
+      @include larger;
+      @include pt6;
+      @include yellow;
+    }
+
+    &-card {
+      @include bgwhite;
+      @include mt5;
+      @include rd2;
+    }
+
+    &-button {
+      @include pt6;
+    }
+  }
+}

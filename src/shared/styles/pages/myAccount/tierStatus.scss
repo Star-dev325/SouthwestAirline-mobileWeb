@@ -1,0 +1,75 @@
+$tier-status-size: 7em;
+
+.tier-status {
+  @include relative;
+  font-size: 1em;
+  width: $tier-status-size;
+  height: $tier-status-size;
+  margin: 0 auto 1.25em;
+
+  &.tier-status--completed {
+    .tier-status--graph {
+      & > .donut-progress-bar {
+        path.donut-progress-bar--fill {
+          stroke: $teal;
+        }
+      }
+
+      & > .icon {
+        @include teal;
+      }
+    }
+  }
+}
+
+.tier-status--graph {
+  @include relative;
+  @include fullwidth;
+  height: $tier-status-size;
+
+  & > .donut-progress-bar {
+    margin: 0 auto;
+
+    path.donut-progress-bar--fill {
+      stroke: $orange;
+    }
+
+    path.donut-progress-bar--container {
+      stroke: $gray2;
+    }
+  }
+
+  & > .icon {
+    @include absolute;
+    @include orange;
+    top: 50%;
+    left: 50%;
+    width: 1em;
+    height: 1em;
+    font-size: $tier-status-size/2;
+    margin-left: -0.5em;
+    margin-top: -0.5em;
+  }
+}
+
+.tier-status--text {
+  @include relative;
+  @include gray5;
+  @include center;
+  top: -1.2em;
+  font-size: 1em;
+
+  & > .label-container--label {
+    @include block;
+    @include lineheight10;
+    @include bold;
+    font-size: 1.2em;
+  }
+
+  & > .desc {
+    @include relative;
+    @include italic;
+    font-size: 1em;
+    margin: 0 -1em;
+  }
+}

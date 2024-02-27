@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`menuList wcmMenu should hide parent menu when hideForUsers is true 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="menu-list"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`menuList wcmMenu should hide parent menu when isLoggedIn is false and hideForGuest is true 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="menu-list"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`menuList wcmMenu should pass isLoggedIn and titleClassName to MenuListItem 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="menu-list"
+      >
+        <div
+          class="accordion class-name"
+        >
+          <div
+            class="accordion--heading"
+          >
+            <div
+              class="menu-list-item--heading"
+            >
+              <span
+                class="title-class-name"
+              >
+                Parent Menu
+              </span>
+            </div>
+          </div>
+          <div
+            class="accordion--body"
+            style="height: auto;"
+          >
+            <ul
+              class="menu-list-item--body"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`menuList wcmMenu should pass isLoggedIn to OpenedMenuListItem 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="menu-list"
+      >
+        <div
+          class="container class-name"
+        >
+          <div
+            class="menu-list-item--heading float-none"
+          >
+            <span
+              class="menu-list-item--heading-title"
+            >
+              Parent Menu
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

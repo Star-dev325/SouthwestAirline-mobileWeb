@@ -1,0 +1,21 @@
+.flight-time {
+  @include bold;
+  font-size: 1.8em;
+
+  .flight-time--time {
+    @include pdkblue;
+    @include block;
+
+    .time-period {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+.is-webview {
+  .flight-time--time .time-period {
+    @include for-tablet-and-up {
+      font-size: 1.6rem;
+    }
+  }
+}

@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarExtras should render when car extras exist 1`] = `
+<div>
+  <form>
+    <div>
+      <div
+        class="bgpblue white px5 py3 xxlarge"
+        data-testid="car-extra"
+      >
+        CAR_BOOKING__PRICING_EXTRAS__TITLE
+      </div>
+      <div
+        class="p5 gray5 bgwhite large"
+      >
+        <div>
+          CAR_BOOKING__PRICING_EXTRAS__PAY_AT_COUNTER
+        </div>
+        <div
+          class="fields"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="pt5 relative flex checkbox-button flex-cross-center"
+              data-qa="car-booking-extras-checkbox-0"
+              name="SKI_RACK"
+            >
+              <div>
+                <span
+                  class="checkbox-button--mark"
+                >
+                  <i
+                    class="absolute xlarge bgtransp icon icon_check"
+                  />
+                </span>
+              </div>
+              <div>
+                <div
+                  class="checkbox-button--children flex-equal-width ml2"
+                >
+                  <div
+                    class="xlarge"
+                  >
+                    Ski Rack
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="field"
+          >
+            <div
+              class="pt5 relative flex checkbox-button flex-cross-center"
+              data-qa="car-booking-extras-checkbox-1"
+              name="GPS"
+            >
+              <div>
+                <span
+                  class="checkbox-button--mark"
+                >
+                  <i
+                    class="absolute xlarge bgtransp icon icon_check"
+                  />
+                </span>
+              </div>
+              <div>
+                <div
+                  class="checkbox-button--children flex-equal-width ml2"
+                >
+                  <div
+                    class="xlarge"
+                  >
+                    GPS
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="pt4"
+        >
+          CAR_BOOKING__PRICING_EXTRAS__ADDITIONAL_CHARGES
+        </div>
+        <div>
+          CAR_BOOKING__PRICING_EXTRAS__EQUIPMENT_AVAILABILITY
+        </div>
+        <div>
+          CAR_BOOKING__PRICING_EXTRAS__CONTACT_FOR_INFORMATION
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

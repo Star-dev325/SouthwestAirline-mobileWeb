@@ -1,0 +1,51 @@
+.calendar-strip {
+  .icon {
+    @include absolute;
+    @include px1;
+    @include py4;
+    font-size: 2em;
+    top: 29%;
+    margin-top: -0.5em;
+  }
+
+  .icon_keyboard-arrow-left {
+    @include l0;
+  }
+
+  .icon_keyboard-arrow-right {
+    @include r0;
+  }
+}
+
+.calendar-strip--content {
+  @include mx6;
+  font-size: 1.1em;
+  -webkit-margin-after: 0;
+}
+
+.calendar-strip--item {
+  @include relative;
+  flex: 1;
+  padding: 1.2em 0.2em;
+  list-style-type: none;
+  border-right: 1px solid $pdkblue;
+  cursor: pointer;
+
+  &:first-child {
+    @include rdl2;
+  }
+
+  &:last-child {
+    @include rdr2;
+    border-right: 0;
+  }
+
+  .icon {
+    @include p0;
+    @include m0;
+    @include medium;
+    top: 69%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

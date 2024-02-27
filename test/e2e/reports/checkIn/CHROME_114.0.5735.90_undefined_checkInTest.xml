@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="10">
+
+  <testsuite name="checkIn.checkInTest"
+    errors="0" failures="0" hostname="" id="" package="checkIn" skipped="0"
+    tests="10" time="51.24" timestamp="Fri, 15 Dec 2023 01:33:57 GMT">
+  
+    <testcase name="Login user" classname="checkIn.checkInTest" time="34.27" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to check in from Nav draw" classname="checkIn.checkInTest" time="3.110" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search for a reservation" classname="checkIn.checkInTest" time="3.160" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check in confirmation page" classname="checkIn.checkInTest" time="0.5800" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click on 1st boarding pass" classname="checkIn.checkInTest" time="2.353" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Hazmat Declaration page and tap on Disagree button" classname="checkIn.checkInTest" time="3.273" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Check in confirmation page on Disagree and tap Boarding Pass" classname="checkIn.checkInTest" time="2.134" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Hazmat Declaration page and tap Continue button" classname="checkIn.checkInTest" time="0.6910" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Boarding Pass page" classname="checkIn.checkInTest" time="0.09000" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go back and forward" classname="checkIn.checkInTest" time="1.576" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

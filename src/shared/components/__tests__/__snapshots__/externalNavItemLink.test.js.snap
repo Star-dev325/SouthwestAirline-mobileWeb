@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExternalNavItemLink render should have correct props 1`] = `
+<div>
+  <a
+    class="nav-item-link className nav-item-link_disabled"
+    href="test-href"
+    target="_blank"
+  >
+    <div>
+      <span>
+        Hi
+      </span>
+    </div>
+    <i
+      class="nav-item-link--icon icon icon_keyboard-arrow-right"
+    />
+  </a>
+</div>
+`;

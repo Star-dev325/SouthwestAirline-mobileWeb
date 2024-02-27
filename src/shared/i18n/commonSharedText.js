@@ -1,0 +1,8 @@
+export default {
+  SHARED__COMMON__POINTS_TEXT: 'PTS',
+  SHARED__COMMON__NEXT_DAY: 'Next Day',
+  SHARED__COMMON__SEE_OPTIONS: 'See options',
+  SHARED__COMMON__NONSTOP: 'Nonstop',
+  SHARED__COMMON__FLIGHT: 'Flight',
+  SHARED__COMMON__FROM: 'From'
+};

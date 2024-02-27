@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="backForwardAndRefresh.gotoEntryPageFromNavDraw"
+    errors="0" failures="0" hostname="" id="" package="backForwardAndRefresh" skipped="0"
+    tests="5" time="86.11" timestamp="Fri, 15 Dec 2023 01:20:53 GMT">
+  
+    <testcase name="Go to air booking from home page" classname="backForwardAndRefresh.gotoEntryPageFromNavDraw" time="28.12" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Book a flight with single pax" classname="backForwardAndRefresh.gotoEntryPageFromNavDraw" time="37.17" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click &#34;Book a Flight&#34; from nav draw" classname="backForwardAndRefresh.gotoEntryPageFromNavDraw" time="4.020" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click browser back multiple times" classname="backForwardAndRefresh.gotoEntryPageFromNavDraw" time="15.91" assertions="0">
+    </testcase>
+  
+    <testcase name="User still on the air booking entry page without flow data" classname="backForwardAndRefresh.gotoEntryPageFromNavDraw" time="0.8920" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

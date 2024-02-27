@@ -1,0 +1,464 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LowFareBound display more fares prev fares should pass showFetchPrev to prev LowFareDisplayMore component 1`] = `
+<div
+  class="low-fare-calendar--fetch-prev-next"
+>
+  <img
+    class="lfc-ic-load-more"
+    src="/content/mkt/images/landing_pages/loadingEllipses.gif"
+  />
+</div>
+`;
+
+exports[`LowFareBound display more fares selectedScrollDate should use the inboundCenterDate prop 1`] = `
+<div
+  class="low-fare-date"
+>
+  <div
+    class="selected-date"
+  >
+    <div
+      class="flight-logo-wrapper svg-wrapper low-fare--col-icon-return"
+    >
+      <i
+        class="full-width-svg icon icon_airplane-return"
+      />
+    </div>
+    <div
+      class="flight-label-wrapper"
+    >
+      <div
+        class="label-container"
+      >
+        <div
+          class="label-container--label"
+        >
+          Return 
+        </div>
+        <div
+          class="label-container--content"
+        >
+          Sat, Jan 18, 2020
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="calendar-select"
+  >
+    <i
+      class="full-width-svg icon icon_calender"
+    />
+  </div>
+</div>
+`;
+
+exports[`LowFareBound display more fares selectedScrollDate should use the outboundCenterDate prop 1`] = `
+<div
+  class="low-fare-date"
+>
+  <div
+    class="selected-date"
+  >
+    <div
+      class="flight-logo-wrapper svg-wrapper low-fare--col-icon"
+    >
+      <i
+        class="full-width-svg icon icon_airplane-depart"
+      />
+    </div>
+    <div
+      class="flight-label-wrapper"
+    >
+      <div
+        class="label-container"
+      >
+        <div
+          class="label-container--label"
+        >
+          Depart 
+        </div>
+        <div
+          class="label-container--content"
+        >
+          Sat, Jan 18, 2020
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="calendar-select"
+  >
+    <i
+      class="full-width-svg icon icon_calender"
+    />
+  </div>
+</div>
+`;
+
+exports[`LowFareBound display more fares selectedScrollDate should use the selectedDate prop for inbound 1`] = `
+<div
+  class="low-fare-date"
+>
+  <div
+    class="selected-date"
+  >
+    <div
+      class="flight-logo-wrapper svg-wrapper low-fare--col-icon-return"
+    >
+      <i
+        class="full-width-svg icon icon_airplane-return"
+      />
+    </div>
+    <div
+      class="flight-label-wrapper"
+    >
+      <div
+        class="label-container"
+      >
+        <div
+          class="label-container--label"
+        >
+          Return 
+        </div>
+        <div
+          class="label-container--content"
+        >
+          Sat, Jan 18, 2020
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="calendar-select"
+  >
+    <i
+      class="full-width-svg icon icon_calender"
+    />
+  </div>
+</div>
+`;
+
+exports[`LowFareBound display more fares selectedScrollDate should use the selectedDate prop for outbound 1`] = `
+<div
+  class="low-fare-date"
+>
+  <div
+    class="selected-date"
+  >
+    <div
+      class="flight-logo-wrapper svg-wrapper low-fare--col-icon"
+    >
+      <i
+        class="full-width-svg icon icon_airplane-depart"
+      />
+    </div>
+    <div
+      class="flight-label-wrapper"
+    >
+      <div
+        class="label-container"
+      >
+        <div
+          class="label-container--label"
+        >
+          Depart 
+        </div>
+        <div
+          class="label-container--content"
+        >
+          Sat, Jan 18, 2020
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="calendar-select"
+  >
+    <i
+      class="full-width-svg icon icon_calender"
+    />
+  </div>
+</div>
+`;
+
+exports[`LowFareBound display more fares should pass showFetchNext to next LowFareDisplayMore component 1`] = `
+<div
+  class="low-fare-calendar--fetch-prev-next"
+>
+  <img
+    class="lfc-ic-load-more"
+    src="/content/mkt/images/landing_pages/loadingEllipses.gif"
+  />
+</div>
+`;
+
+exports[`LowFareBound toaster dialog should not show toaster dialog when selectable price bar is clicked (roundtrip scenario) 1`] = `
+<div
+  class="selected calendar-day--fare-price"
+  data-date="2020-01-18"
+  style="height: 4.5rem;"
+>
+  <div
+    class="currency"
+  >
+    <span
+      data-qa="total-amount"
+    >
+      22,017
+    </span>
+  </div>
+  <span
+    class="calendar-day--points-tax"
+    data-qa="points-tax"
+  >
+    +
+    $
+    10.39
+  </span>
+</div>
+`;
+
+exports[`LowFareBound toaster dialog should show toaster dialog when unselectable price bar is clicked (roundtrip scenario) 1`] = `
+<div
+  class="unselectable calendar-day--fare-price"
+  data-date="2020-01-18"
+  style="height: 4.5rem;"
+>
+  <div
+    class="currency"
+  >
+    <span
+      data-qa="total-amount"
+    >
+      22,017
+    </span>
+  </div>
+  <span
+    class="calendar-day--points-tax"
+    data-qa="points-tax"
+  >
+    +
+    $
+    10.39
+  </span>
+</div>
+`;
+
+exports[`LowFareBound when low fare bound N/A price bar (isDisabled) should set isDisabled prop to true when lowestFare is pastDate 1`] = `
+<div
+  class="calendar-day"
+  data-date="2020-01-16"
+>
+  <div
+    class="calendar-day--fare-price-disabled"
+  >
+    N/A
+  </div>
+  <div
+    class="calendar-day--menu"
+  >
+    THU
+  </div>
+</div>
+`;
+
+exports[`LowFareBound when low fare bound N/A price bar (isDisabled) when lowestFare is null should disable price bar 1`] = `
+<div
+  class="calendar-day"
+  data-date="2020-01-17"
+>
+  <div
+    class="calendar-day--fare-price-disabled"
+  >
+    N/A
+  </div>
+  <div
+    class="calendar-day--menu"
+  >
+    FRI
+  </div>
+</div>
+`;
+
+exports[`LowFareBound when low fare bound should render low fare pointer 1`] = `
+<div
+  class="low-fare-pointer"
+>
+  <div
+    class="low-fare-pointer--lines"
+  >
+    <div
+      class="low-fare-pointer--left-line"
+    />
+  </div>
+  <div
+    class="low-fare-pointer--center-line"
+  />
+</div>
+`;
+
+exports[`LowFareBound when low fare bound toaster dialog should not show toaster dialog when LowFareBound is rendered 1`] = `
+<body>
+  <div>
+    <div
+      class="lfc-outbound"
+    >
+      <div
+        class="toast-dialog"
+        id="toastDialogId"
+      >
+        This date is invalid for selection.
+      </div>
+      <div
+        class="low-fare-date"
+      >
+        <div
+          class="selected-date"
+        >
+          <div
+            class="flight-logo-wrapper svg-wrapper low-fare--col-icon"
+          >
+            <i
+              class="full-width-svg icon icon_airplane-depart"
+            />
+          </div>
+          <div
+            class="flight-label-wrapper"
+          >
+            <div
+              class="label-container"
+            >
+              <div
+                class="label-container--label"
+              >
+                Depart 
+              </div>
+              <div
+                class="label-container--content"
+              >
+                Fri, Jan 17, 2020
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="calendar-select"
+        >
+          <i
+            class="full-width-svg icon icon_calender"
+          />
+        </div>
+      </div>
+      <div
+        class="low-fare-pointer"
+      >
+        <div
+          class="low-fare-pointer--lines"
+        >
+          <div
+            class="low-fare-pointer--left-line"
+          />
+        </div>
+        <div
+          class="low-fare-pointer--center-line"
+        />
+      </div>
+      <div
+        class="low-fare-calendar"
+      >
+        <div
+          class="low-fare-calendar--spacer-left"
+        />
+        <div
+          class="calendar-month"
+        >
+          <div
+            class="month-indicator"
+            data-qa="calendar-month-indicator"
+          >
+            JAN
+          </div>
+          <div
+            class="calendar-days-container"
+          >
+            <div
+              class="calendar-day"
+              data-date="2020-01-17"
+            >
+              <div
+                class="selected calendar-day--fare-price"
+                data-date="2020-01-17"
+                style="height: 19rem;"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    data-qa="total-amount"
+                  >
+                    29,356
+                  </span>
+                </div>
+                <span
+                  class="calendar-day--points-tax"
+                  data-qa="points-tax"
+                >
+                  +
+                  $
+                  10.39
+                </span>
+              </div>
+              <div
+                class="calendar-day--menu"
+              >
+                FRI
+              </div>
+            </div>
+            <div
+              class="calendar-day"
+              data-date="2020-01-18"
+            >
+              <div
+                class="calendar-day--fare-price"
+                data-date="2020-01-18"
+                style="height: 4.5rem;"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    data-qa="total-amount"
+                  >
+                    22,017
+                  </span>
+                </div>
+                <span
+                  class="calendar-day--points-tax"
+                  data-qa="points-tax"
+                >
+                  +
+                  $
+                  10.39
+                </span>
+              </div>
+              <div
+                class="calendar-day--menu"
+              >
+                SAT
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="low-fare-calendar--spacer-right"
+        />
+      </div>
+      <div
+        class="low-fare-calendar--menu-footer"
+      />
+    </div>
+  </div>
+</body>
+`;

@@ -1,0 +1,392 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Car cancel confirmation page should render the page correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header"
+            id=""
+          >
+            CAR_CANCEL__HEADER
+          </div>
+          <div />
+        </div>
+        <div
+          class="custom-container bgpdkblue white"
+        >
+          <div
+            class="swa-message p0 success"
+          >
+            <span
+              class="icon-container"
+            >
+              <i
+                class="icon icon_check"
+              />
+            </span>
+            <span
+              class="message--text"
+            >
+              <h3
+                class="xxlarge bold white inline-block"
+              >
+                CAR_CANCEL__MESSAGE
+              </h3>
+            </span>
+          </div>
+        </div>
+        <div
+          class="bgwhite px0 py4"
+        >
+          <p
+            class="large gray5 py2 mt2 bdb px5"
+            data-qa="cancelTitle"
+          >
+            CAR_CANCEL__CANCEL_TITLE
+          </p>
+          <div
+            class="py4 bdb mb4 mx5"
+          >
+            <div
+              class="my4"
+            >
+              <div
+                class="label-container large"
+              >
+                <div
+                  class="label-container--label"
+                >
+                  CAR_BOOKING__CAR_RESERVATION__DRIVER
+                </div>
+                <div
+                  class="label-container--content m0"
+                >
+                  <span
+                    class="xlarge"
+                    data-qa="driverName"
+                  >
+                    HX LIN
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="my4"
+            >
+              <div
+                class="label-container large"
+              >
+                <div
+                  class="label-container--label"
+                >
+                  CAR_BOOKING__CAR_RESERVATION__CONFIRMATION_NUMBER
+                </div>
+                <div
+                  class="label-container--content m0"
+                >
+                  <span
+                    class="xlarge"
+                    data-qa="confirmationNumber"
+                  >
+                    61805258COUNT
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="px5 bdb py4"
+          >
+            <div>
+              <div>
+                <img
+                  class="fit car-vendor-logo"
+                  src="/content/mkt/images/car_vendors/National_Logo_results.png"
+                />
+              </div>
+            </div>
+            <div
+              class="py4"
+            >
+              <div
+                class="clearfix mt2"
+              >
+                <div
+                  class="left large pr7 xlarge"
+                >
+                  CAR_BOOKING__CAR_RESERVATION__PICK_UP_SENTENCE_CASE
+                </div>
+                <div
+                  class="gray5 large overflow-hidden align-right"
+                >
+                  <div
+                    class="xlarge"
+                    data-qa="pickupTime"
+                  >
+                    5/07/2016
+                  </div>
+                </div>
+              </div>
+              <div
+                class="clearfix mt2"
+              >
+                <div
+                  class="left large pr7 xlarge"
+                >
+                  CAR_BOOKING__CAR_RESERVATION__FROM
+                </div>
+                <div
+                  class="gray5 large overflow-hidden align-right"
+                >
+                  <div
+                    class="xlarge nowrap overflow-hidden ellipsis"
+                    data-qa="pickupLocation"
+                  >
+                    Abilene
+                    , 
+                    TX
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="m5 pb5"
+        >
+          <a
+            class="nav-item-link link-bar"
+            href="/"
+          >
+            CAR_CANCEL__NAV_LINK
+            <i
+              class="nav-item-link--icon icon icon_keyboard-arrow-right"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div>
+        <div
+          class="page-header"
+          id=""
+        >
+          CAR_CANCEL__HEADER
+        </div>
+        <div />
+      </div>
+      <div
+        class="custom-container bgpdkblue white"
+      >
+        <div
+          class="swa-message p0 success"
+        >
+          <span
+            class="icon-container"
+          >
+            <i
+              class="icon icon_check"
+            />
+          </span>
+          <span
+            class="message--text"
+          >
+            <h3
+              class="xxlarge bold white inline-block"
+            >
+              CAR_CANCEL__MESSAGE
+            </h3>
+          </span>
+        </div>
+      </div>
+      <div
+        class="bgwhite px0 py4"
+      >
+        <p
+          class="large gray5 py2 mt2 bdb px5"
+          data-qa="cancelTitle"
+        >
+          CAR_CANCEL__CANCEL_TITLE
+        </p>
+        <div
+          class="py4 bdb mb4 mx5"
+        >
+          <div
+            class="my4"
+          >
+            <div
+              class="label-container large"
+            >
+              <div
+                class="label-container--label"
+              >
+                CAR_BOOKING__CAR_RESERVATION__DRIVER
+              </div>
+              <div
+                class="label-container--content m0"
+              >
+                <span
+                  class="xlarge"
+                  data-qa="driverName"
+                >
+                  HX LIN
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="my4"
+          >
+            <div
+              class="label-container large"
+            >
+              <div
+                class="label-container--label"
+              >
+                CAR_BOOKING__CAR_RESERVATION__CONFIRMATION_NUMBER
+              </div>
+              <div
+                class="label-container--content m0"
+              >
+                <span
+                  class="xlarge"
+                  data-qa="confirmationNumber"
+                >
+                  61805258COUNT
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="px5 bdb py4"
+        >
+          <div>
+            <div>
+              <img
+                class="fit car-vendor-logo"
+                src="/content/mkt/images/car_vendors/National_Logo_results.png"
+              />
+            </div>
+          </div>
+          <div
+            class="py4"
+          >
+            <div
+              class="clearfix mt2"
+            >
+              <div
+                class="left large pr7 xlarge"
+              >
+                CAR_BOOKING__CAR_RESERVATION__PICK_UP_SENTENCE_CASE
+              </div>
+              <div
+                class="gray5 large overflow-hidden align-right"
+              >
+                <div
+                  class="xlarge"
+                  data-qa="pickupTime"
+                >
+                  5/07/2016
+                </div>
+              </div>
+            </div>
+            <div
+              class="clearfix mt2"
+            >
+              <div
+                class="left large pr7 xlarge"
+              >
+                CAR_BOOKING__CAR_RESERVATION__FROM
+              </div>
+              <div
+                class="gray5 large overflow-hidden align-right"
+              >
+                <div
+                  class="xlarge nowrap overflow-hidden ellipsis"
+                  data-qa="pickupLocation"
+                >
+                  Abilene
+                  , 
+                  TX
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m5 pb5"
+      >
+        <a
+          class="nav-item-link link-bar"
+          href="/"
+        >
+          CAR_CANCEL__NAV_LINK
+          <i
+            class="nav-item-link--icon icon icon_keyboard-arrow-right"
+          />
+        </a>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

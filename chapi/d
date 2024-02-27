@@ -1,0 +1,77 @@
+#!/usr/bin/env bash
+# see api-chase-services/bin/dockerImage/README.md to get some help
+
+DOCKER_IMAGE_NAME='ubuntu:swa-docker'
+DOCKER_PROCESS_NAME='swa-api-flash'
+USER_HOME_PATH="$(eval echo ~$USER)"
+SCRIPTS_DIR="$( cd "$(dirname "$0")" ; pwd -P )"
+PATH_RELATIVE_TO_HOME=${SCRIPTS_DIR##*$USER_HOME_PATH}
+
+API_CHASE_SERVICES_PORTS=(15960 15963 15965)
+MOBILE_FACADE=(24200 24201 24203 24205)
+MOBILE_MISC_PORTS=(14000 14001 14003 14005)
+MOBILE_AIR_OPERATIONS_PORTS=(14150 14151 14153 14155)
+MOBILE_AIR_BOOKING_PORTS=(14360 14361 14363 14365)
+MOUNTEBANK_PORT=(2525)
+
+MOBILE_MISC_JMX_PORT=14005
+MOBILE_AIR_OPERATIONS_JMX_PORT=14155
+MOBILE_AIR_BOOKING_JMX_PORT=14365
+API_CHASE_SERVICES_JMX_PORT=15965
+MOBILE_FACADE_JMX_PORT=24205
+
+if [[ $PATH_RELATIVE_TO_HOME == *"mobile-misc"* ]]; then
+  jmx_port=$MOBILE_MISC_JMX_PORT
+elif [[ $PATH_RELATIVE_TO_HOME == *"api-chase-services"* ]]; then
+  jmx_port=$API_CHASE_SERVICES_JMX_PORT
+elif [[ $PATH_RELATIVE_TO_HOME == *"mobile-air-operations"* ]]; then
+  jmx_port=$MOBILE_AIR_OPERATIONS_JMX_PORT
+elif [[ $PATH_RELATIVE_TO_HOME == *"mobile-air-booking"* ]]; then
+  jmx_port=$MOBILE_AIR_BOOKING_JMX_PORT
+elif [[ $PATH_RELATIVE_TO_HOME == *"dotcom-api-commerce"* ]]; then
+  jmx_port=$MOBILE_FACADE_JMX_PORT
+fi
+
+SUPPORTED_PORTS=(\
+    "${API_CHASE_SERVICES_PORTS[@]}" \
+    "${MOBILE_FACADE[@]}" \
+    "${MOBILE_MISC_PORTS[@]}" \
+    "${MOBILE_AIR_OPERATIONS_PORTS[@]}" \
+    "${MOBILE_AIR_BOOKING_PORTS[@]}" \
+    "${MOUNTEBANK_PORT[@]}")
+
+
+function join {
+    local IFS="$1";
+    shift;
+    echo "$*";
+}
+
+declare -a docker_port_args=()
+for i in ${SUPPORTED_PORTS[@]}
+do
+    docker_port_args+=( "$(printf -- '-p %s:%s' $i $i)" )
+done
+docker_port_args_str=$(join ' ' ${docker_port_args[@]})
+
+
+# check docker cmd is exist or not
+type docker >/dev/null 2>&1 || { echo >&2 "docker is required but seems like not installed."; exit 1; }
+
+# detect the docker is running or not
+DOCKER_PROCESS_INFO=$(docker ps -a | grep $DOCKER_PROCESS_NAME)
+CONTAINER_ID=$(echo ${DOCKER_PROCESS_INFO} | awk '{print $1}')
+if [ -z "$CONTAINER_ID" ]; then
+  CONTAINER_ID=$(docker run -td $docker_port_args_str -v ~/work:/home/developer/work:consistent -v ~/.gradle:/home/developer/.gradle:consistent --name=${DOCKER_PROCESS_NAME} $DOCKER_IMAGE_NAME /bin/bash)
+elif [[ ${DOCKER_PROCESS_INFO} != *"Up"* ]]; then
+  docker start ${CONTAINER_ID}
+  rm -f ~/work/mobile-misc/tcserver/mobile-misc/logs/tcserver.pid
+  rm -f ~/work/api-chase-services/tcserver/chase-services/logs/tcserver.pid
+  rm -f ~/work/mobile-air-operations/tcserver/mobile-air-operations/logs/tcserver.pid
+  rm -f ~/work/mobile-air-booking/tcserver/mobile-air-booking/logs/tcserver.pid
+fi
+
+# run gradle arguments in docker
+catalina_opts=$(printf -- '-Dcom.sun.management.jmxremote.port=%s -Dcom.sun.management.jmxremote.rmi.port=%s -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false' $jmx_port $jmx_port)
+CMD=$(printf -- 'cd /home/developer%s ; export CATALINA_OPTS="%s" ; %s' $PATH_RELATIVE_TO_HOME "$catalina_opts" "/bin/bash")
+docker exec -ti $CONTAINER_ID /bin/bash -c "$CMD"

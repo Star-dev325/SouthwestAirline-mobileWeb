@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExclusivePromotionDetailsPage on mount should render appropriate components if WCM and API IDs match 1`] = `
+<div>
+  <div
+    class="promotion-details"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <a
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </a>
+        <span
+          class="header"
+        >
+          MY_ACCOUNT__PROMOTION_DETAILS_PAGE__PROMOTION_DETAILS
+        </span>
+      </div>
+      <div />
+    </div>
+    <div
+      class="promotion-detail--item"
+    >
+      <div
+        class="custom-container"
+      >
+        <div
+          class="wrapper"
+        >
+          <button
+            class="button button--fluid large button--grey"
+            type="button"
+          >
+            MY_ACCOUNT__PROMOTION_DETAILS_PAGE__PROMOTION_REGISTER
+          </button>
+        </div>
+        <div
+          class="promotion-details--content"
+        >
+          <section>
+            <h4>
+              First Header
+            </h4>
+            <div>
+              First content block with information
+            </div>
+          </section>
+          <section>
+            <h4>
+              Second Header
+            </h4>
+            <div>
+              Second content block with information
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

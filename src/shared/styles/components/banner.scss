@@ -1,0 +1,25 @@
+.banner {
+  @include xlarge;
+  @include bold;
+  @include white;
+  @include flex;
+  @include flex-main-between;
+  @include flex-cross-center;
+  padding: 1.2rem 1rem;
+
+  .boarding-time {
+    white-space: nowrap;
+  }
+}
+
+.banner_positive {
+  @include bggreen;
+}
+
+.banner_negative {
+  @include bgred;
+}
+
+.banner_default {
+  @include bgsblue;
+}

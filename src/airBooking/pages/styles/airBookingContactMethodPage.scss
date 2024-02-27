@@ -1,0 +1,15 @@
+.is-webview {
+  &.air-booking-contact-method-page {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .contact-method--content {
+        @include bggray2;
+        @include tablet-content-frame-lg;
+        @include tablet-content-margins;
+
+        padding: 1.4rem 1.4rem 2.4rem;
+      }
+    }
+  }
+}

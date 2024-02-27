@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppRoutes should render AirBooking route page 1`] = `
+<div>
+  <div>
+    <div>
+      Mocked HomeAndNav
+    </div>
+    <div>
+      Mocked Wcm
+    </div>
+    <div>
+      Mocked FlightStatus
+    </div>
+    <div>
+      Mocked RapidRewards
+    </div>
+    <div>
+      Mocked Standby
+    </div>
+    <div>
+      Mocked WhereWeFly
+    </div>
+    <div>
+      Mocked Chase
+    </div>
+    <div>
+      Mocked Branch
+    </div>
+    <div>
+      Mocked AirBooking
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AppRoutes should render AirCancel Reservation route page 1`] = `
+<div>
+  <div>
+    <div>
+      Mocked HomeAndNav
+    </div>
+    <div>
+      Mocked Wcm
+    </div>
+    <div>
+      Mocked FlightStatus
+    </div>
+    <div>
+      Mocked RapidRewards
+    </div>
+    <div>
+      Mocked Standby
+    </div>
+    <div>
+      Mocked WhereWeFly
+    </div>
+    <div>
+      Mocked Chase
+    </div>
+    <div>
+      Mocked Branch
+    </div>
+    <div>
+      Mocked AirCancel
+    </div>
+  </div>
+</div>
+`;

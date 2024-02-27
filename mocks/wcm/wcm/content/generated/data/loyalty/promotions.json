@@ -1,0 +1,112 @@
+{
+  "loyalty_promotions": [
+    {
+      "id": "171231x",
+      "entry_code": "171231x",
+      "promotion_name": "Double Points on Limited-Time Fares",
+      "promotion_image": "/assets/images/promotions/image1.png",
+      "promotion_image_alt_text": "Test 2",
+      "text_rows": [
+        {
+          "label": "BOOK BY",
+          "value": "2/26/15"
+        },
+        {
+          "label": "USE BY",
+          "value": "6/25/15"
+        }
+      ],
+      "sections": [
+        {
+          "name": "Description",
+          "content": "Test"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "Test"
+        }
+      ]
+    },
+    {
+      "id": "16berr6",
+      "entry_code": "1-6BERR6",
+      "promotion_name": "Double Points on Limited-Time Fares",
+      "promotion_image": "/assets/images/promotions/image1.png",
+      "promotion_image_alt_text": "Double Points on Limited-Time Fares",
+      "text_rows": [
+        {
+          "label": "BOOK BY",
+          "value": "2/26/15"
+        },
+        {
+          "label": "USE BY",
+          "value": "6/25/15"
+        }
+      ],
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p style=\"margin-top:px;margin-bottom:px\"><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\"><em>For a limited time only</em>, earn <strong>1,000 bonus points</strong> on your next roundtrip flight!</span></p>\n<p style=\"margin-top:px;margin-bottom:px\"><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">Register to earn 1,000 bonus points on every flight you book&nbsp;through Southwest Airlines&reg; by August 4, 2013 for travel from&nbsp;August 4, 2013 through December 31, 2013!&nbsp;&nbsp;That means you will&nbsp;receive 24 points (instead of the standard 12 points) per dollar spent on&nbsp;Business Select&reg; Fares, 20&nbsp;points (instead of ten points) per dollar spent on Anytime Fares, and&nbsp;12 points (instead of&nbsp;six points) per dollar spent on Wanna Get Away&reg; Fares.</span></p>\n<p style=\"margin-top:px;margin-bottom:px\"><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">To take advantage of this promotion, simply register, book, and travel.</span></p>\n<ul>\n<li><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">Register between May 30, 2013 and August 4, 2013.</span></li>\n<li><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">Book through Southwest Airlines between May 30, 2013 and August 4, 2013 for travel.</span></li>\n<li><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">Complete your flights between August 4, 2013 and December&nbsp;31, 2013.</span></li>\n</ul>\n<p style=\"margin-top:px;margin-bottom:px\"><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">It's just that simple.&nbsp; <a title=\"Southwest\" href=\"http://www.southwest.com/\" target=\"_blank\">Register and book today!</a></span></p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p style=\"margin-top:px;margin-bottom:px\"><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">Member must register for this promotion between May 30, 2013 and August 4, 20103, and registration must be completed prior to commencement of travel.&nbsp; Valid on new reservations only.&nbsp; Member&rsquo;s flight must be booked through Southwest Airlines <strong>between May 30, 2013 and August 4, 2013</strong> for travel between Houston (Hobby) and Washington DC (Reagan National) from August 4, 2013 through December 31, 2013.&nbsp;&nbsp;Member&rsquo;s flight&nbsp;must be completed between August 4, 2013 and December&nbsp;31, 2013.&nbsp; Rapid Rewards account number must be entered at the time of booking.&nbsp; Rapid Rewards earned points are calculated using base fare and excise tax.&nbsp; Member will receive 12 bonus points per dollar spent on Business Select&reg; Fares, ten bonus points on Anytime Fares, and six bonus points on Wanna Get Away&reg; Fares.&nbsp; Bonus points are in addition to the standard flight points earned through Rapid Rewards.&nbsp; Bonus points will not count toward A-List, A-List Preferred, or Companion Pass qualification.&nbsp; Member will receive bonus points within four days after completion of entire ticket.&nbsp; Award, Companion Pass, Southwest Vacations Packages, Jackpot Deals&reg;, and reward travel do not qualify for this promotion.&nbsp; Changes made to the itinerary after purchase may eliminate qualification for promotion.&nbsp; Southwest Airlines operated flights booked through AirTran&reg; Airways are <em>not</em> eligible for promotion.&nbsp; All <a title=\"Rapid Rewards\" href=\"https://www.southwest.com/rapidrewards/\" target=\"_parent\">Rapid Rewards</a> rules and regulations apply.</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "17b654x",
+      "entry_code": "1-6BERR6",
+      "promotion_name": "Double Points on Limited-Time Fares",
+      "promotion_image": "/assets/images/promotions/image1.png",
+      "promotion_image_alt_text": "Double Points on Limited-Time Fares",
+      "text_rows": [
+        {
+          "label": "BOOK BY",
+          "value": "2/26/15"
+        },
+        {
+          "label": "USE BY",
+          "value": "6/25/15"
+        }
+      ],
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p style=\"margin-top:px;margin-bottom:px\"><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\"><em>For a limited time only</em>, earn <strong>1,000 bonus points</strong> on your next roundtrip flight!</span></p>\n<p style=\"margin-top:px;margin-bottom:px\"><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">Register to earn 1,000 bonus points on every flight you book&nbsp;through Southwest Airlines&reg; by August 4, 2013 for travel from&nbsp;August 4, 2013 through December 31, 2013!&nbsp;&nbsp;That means you will&nbsp;receive 24 points (instead of the standard 12 points) per dollar spent on&nbsp;Business Select&reg; Fares, 20&nbsp;points (instead of ten points) per dollar spent on Anytime Fares, and&nbsp;12 points (instead of&nbsp;six points) per dollar spent on Wanna Get Away&reg; Fares.</span></p>\n<p style=\"margin-top:px;margin-bottom:px\"><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">To take advantage of this promotion, simply register, book, and travel.</span></p>\n<ul>\n<li><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">Register between May 30, 2013 and August 4, 2013.</span></li>\n<li><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">Book through Southwest Airlines between May 30, 2013 and August 4, 2013 for travel.</span></li>\n<li><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">Complete your flights between August 4, 2013 and December&nbsp;31, 2013.</span></li>\n</ul>\n<p style=\"margin-top:px;margin-bottom:px\"><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">It's just that simple.&nbsp; <a title=\"Southwest\" href=\"http://www.southwest.com/\" target=\"_blank\">Register and book today!</a></span></p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p style=\"margin-top:px;margin-bottom:px\"><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">Member must register for this promotion between May 30, 2013 and August 4, 20103, and registration must be completed prior to commencement of travel.&nbsp; Valid on new reservations only.&nbsp; Member&rsquo;s flight must be booked through Southwest Airlines <strong>between May 30, 2013 and August 4, 2013</strong> for travel between Houston (Hobby) and Washington DC (Reagan National) from August 4, 2013 through December 31, 2013.&nbsp;&nbsp;Member&rsquo;s flight&nbsp;must be completed between August 4, 2013 and December&nbsp;31, 2013.&nbsp; Rapid Rewards account number must be entered at the time of booking.&nbsp; Rapid Rewards earned points are calculated using base fare and excise tax.&nbsp; Member will receive 12 bonus points per dollar spent on Business Select&reg; Fares, ten bonus points on Anytime Fares, and six bonus points on Wanna Get Away&reg; Fares.&nbsp; Bonus points are in addition to the standard flight points earned through Rapid Rewards.&nbsp; Bonus points will not count toward A-List, A-List Preferred, or Companion Pass qualification.&nbsp; Member will receive bonus points within four days after completion of entire ticket.&nbsp; Award, Companion Pass, Southwest Vacations Packages, Jackpot Deals&reg;, and reward travel do not qualify for this promotion.&nbsp; Changes made to the itinerary after purchase may eliminate qualification for promotion.&nbsp; Southwest Airlines operated flights booked through AirTran&reg; Airways are <em>not</em> eligible for promotion.&nbsp; All <a title=\"Rapid Rewards\" href=\"https://www.southwest.com/rapidrewards/\" target=\"_parent\">Rapid Rewards</a> rules and regulations apply.</span></p>"
+        }
+      ]
+    },
+    {
+      "id": "1-7B654X",
+      "entry_code": "1-7B654X",
+      "promotion_name": "Test Promo",
+      "promotion_image": "/assets/images/promotions/image1.png",
+      "promotion_image_alt_text": "Double Points on Limited-Time Fares",
+      "text_rows": [
+        {
+          "label": "BOOK BY",
+          "value": "2/26/15"
+        },
+        {
+          "label": "USE BY",
+          "value": "6/25/15"
+        }
+      ],
+      "sections": [
+        {
+          "name": "Description",
+          "content": "<p style=\"margin-top:px;margin-bottom:px\"><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\"><em>For a limited time only</em>, earn <strong>1,000 bonus points</strong> on your next roundtrip flight!</span></p>\n<p style=\"margin-top:px;margin-bottom:px\"><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">Register to earn 1,000 bonus points on every flight you book&nbsp;through Southwest Airlines&reg; by August 4, 2013 for travel from&nbsp;August 4, 2013 through December 31, 2013!&nbsp;&nbsp;That means you will&nbsp;receive 24 points (instead of the standard 12 points) per dollar spent on&nbsp;Business Select&reg; Fares, 20&nbsp;points (instead of ten points) per dollar spent on Anytime Fares, and&nbsp;12 points (instead of&nbsp;six points) per dollar spent on Wanna Get Away&reg; Fares.</span></p>\n<p style=\"margin-top:px;margin-bottom:px\"><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">To take advantage of this promotion, simply register, book, and travel.</span></p>\n<ul>\n<li><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">Register between May 30, 2013 and August 4, 2013.</span></li>\n<li><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">Book through Southwest Airlines between May 30, 2013 and August 4, 2013 for travel.</span></li>\n<li><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">Complete your flights between August 4, 2013 and December&nbsp;31, 2013.</span></li>\n</ul>\n<p style=\"margin-top:px;margin-bottom:px\"><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">It's just that simple.&nbsp; <a title=\"Southwest\" href=\"http://www.southwest.com/\" target=\"_blank\">Register and book today!</a></span></p>"
+        },
+        {
+          "name": "Terms and Conditions",
+          "content": "<p style=\"margin-top:px;margin-bottom:px\"><span style=\"font-family:'Verdana','sans-serif';color:black;font-size:7.5pt\">Member must register for this promotion between May 30, 2013 and August 4, 20103, and registration must be completed prior to commencement of travel.&nbsp; Valid on new reservations only.&nbsp; Member&rsquo;s flight must be booked through Southwest Airlines <strong>between May 30, 2013 and August 4, 2013</strong> for travel between Houston (Hobby) and Washington DC (Reagan National) from August 4, 2013 through December 31, 2013.&nbsp;&nbsp;Member&rsquo;s flight&nbsp;must be completed between August 4, 2013 and December&nbsp;31, 2013.&nbsp; Rapid Rewards account number must be entered at the time of booking.&nbsp; Rapid Rewards earned points are calculated using base fare and excise tax.&nbsp; Member will receive 12 bonus points per dollar spent on Business Select&reg; Fares, ten bonus points on Anytime Fares, and six bonus points on Wanna Get Away&reg; Fares.&nbsp; Bonus points are in addition to the standard flight points earned through Rapid Rewards.&nbsp; Bonus points will not count toward A-List, A-List Preferred, or Companion Pass qualification.&nbsp; Member will receive bonus points within four days after completion of entire ticket.&nbsp; Award, Companion Pass, Southwest Vacations Packages, Jackpot Deals&reg;, and reward travel do not qualify for this promotion.&nbsp; Changes made to the itinerary after purchase may eliminate qualification for promotion.&nbsp; Southwest Airlines operated flights booked through AirTran&reg; Airways are <em>not</em> eligible for promotion.&nbsp; All <a title=\"Rapid Rewards\" href=\"https://www.southwest.com/rapidrewards/\" target=\"_parent\">Rapid Rewards</a> rules and regulations apply.</span></p>"
+        }
+      ]
+    }
+  ]
+}

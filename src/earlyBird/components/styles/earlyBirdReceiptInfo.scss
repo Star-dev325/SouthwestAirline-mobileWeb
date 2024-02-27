@@ -1,0 +1,32 @@
+.early-bird-receipt-info {
+  @include bgwhite;
+  @include pt5;
+  @include pb5;
+  @include pl5;
+  @include pr7;
+}
+
+.early-bird-receipt-info--confirmation,
+.early-bird-receipt-info--receipt {
+  @include flex;
+  @include flex-cross-end;
+  @include flex-main-between;
+}
+
+.early-bird-receipt-info--receipt {
+  @include mt1;
+}
+
+.early-bird-receipt-info--title {
+  @include inline-block;
+  @include regular;
+  @include gray4;
+  @include medium;
+}
+
+.early-bird-receipt-info--number {
+  @include inline-block;
+  @include xlarge;
+  @include bold;
+  @include green;
+}

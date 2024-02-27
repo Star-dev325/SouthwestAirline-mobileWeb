@@ -1,0 +1,96 @@
+.search-flights--form {
+  @include m0;
+  @include bgwhite;
+  @include overflow-hidden;
+  @include rd2;
+
+  .error .clickable-div {
+    @include red;
+  }
+
+  .formatted-airport {
+    @include pdkblue;
+  }
+
+  .clickable-div {
+    @include mr7;
+    @include larger;
+    @include gray3;
+  }
+
+  .flight-status--clickable.clickable-div {
+    font-weight: normal;
+  }
+
+  .field {
+    border-bottom: 1px solid $gray2;
+
+    &:last-of-type {
+      border-bottom: 0;
+      margin: 0.1rem;
+    }
+  }
+
+  .fields {
+    border-bottom: 1px solid $gray2;
+  }
+
+  .icon_search {
+    @include large;
+  }
+
+  fieldset > .segment {
+    @include m1;
+    padding: 1.1rem;
+  }
+
+  //to be removed when flight-status page migration finishes
+  .fields + .segment {
+    @include m1;
+    padding: 1.1rem;
+  }
+
+  .caret-down {
+    @include pblue;
+  }
+
+  .icon_caret-down {
+    @include xxlarge;
+  }
+
+  .input--label {
+    @include inline-block;
+    @include py5;
+    @include px3;
+    @include gray4;
+    @include bggray1;
+    @include bold;
+    background-image: linear-gradient($white, $gray1);
+    border-left: 1px solid $gray2;
+    margin: -0.3rem -1.3rem;
+
+    &:first-child {
+      border-top-right-radius: 3px;
+    }
+
+    .search {
+      @include gray5;
+      font-size: 1.5em;
+    }
+  }
+}
+
+.is-webview {
+  .search-flights--form {
+    @include for-tablet-and-up {
+      @include tablet-content-frame;
+      margin: 40px auto;
+    }
+
+    .button--fluid {
+      @include for-tablet-and-up {
+        padding: 1.2rem 1.5rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="14">
+
+  <testsuite name="applePay.companionBookingWithEarlyBirdAndTravelFunds"
+    errors="0" failures="0" hostname="" id="" package="applePay" skipped="0"
+    tests="14" time="63.62" timestamp="Fri, 15 Dec 2023 01:18:08 GMT">
+  
+    <testcase name="Login user" classname="applePay.companionBookingWithEarlyBirdAndTravelFunds" time="34.76" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to view reservations from the nav drawer" classname="applePay.companionBookingWithEarlyBirdAndTravelFunds" time="2.785" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View flight reservation through with confirmation number" classname="applePay.companionBookingWithEarlyBirdAndTravelFunds" time="2.951" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Route to trip details page and click add companion" classname="applePay.companionBookingWithEarlyBirdAndTravelFunds" time="1.325" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View companion price page and route to companion passenger page" classname="applePay.companionBookingWithEarlyBirdAndTravelFunds" time="1.914" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View companion passenger page and route to companion purchase page" classname="applePay.companionBookingWithEarlyBirdAndTravelFunds" time="5.790" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select Apple Pay as payment type" classname="applePay.companionBookingWithEarlyBirdAndTravelFunds" time="2.764" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Apple Pay is selected on purchase summary page" classname="applePay.companionBookingWithEarlyBirdAndTravelFunds" time="2.314" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Add in-path Early Bird" classname="applePay.companionBookingWithEarlyBirdAndTravelFunds" time="1.102" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Add Travel Funds" classname="applePay.companionBookingWithEarlyBirdAndTravelFunds" time="2.745" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go back to companion purchase page and ensure that Apple Pay is still selected" classname="applePay.companionBookingWithEarlyBirdAndTravelFunds" time="3.158" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Stub and Move Ceptor Callback Function to prevent ApplePaySession errors" classname="applePay.companionBookingWithEarlyBirdAndTravelFunds" time="0.04100" assertions="0">
+    </testcase>
+  
+    <testcase name="Purchase flight with Apple Pay" classname="applePay.companionBookingWithEarlyBirdAndTravelFunds" time="0.6360" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Route to confirmation page and ensure Apple Pay, Early Bird, and Travel Funds are displayed" classname="applePay.companionBookingWithEarlyBirdAndTravelFunds" time="1.330" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

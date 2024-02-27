@@ -1,0 +1,31 @@
+.travel-advisory-item {
+  @include py5;
+  @include pl5;
+  @include bgwhite;
+  padding-right: 4rem;
+  border-bottom: 1px solid $gray1;
+
+  .icon_keyboard-arrow-right {
+    right: 1rem;
+  }
+
+  .icon_exclamation-circle {
+    @include pblue;
+  }
+}
+
+.travel-advisory-item--title-icon {
+  @include table-cell;
+  @include relative;
+  @include pl3;
+  top: 0.2rem;
+  left: -0.5rem;
+  font-size: 2rem;
+}
+
+.travel-advisory-item--title {
+  @include pl5;
+  @include table-cell;
+  @include pdkblue;
+  font-size: 1.3rem;
+}

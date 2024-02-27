@@ -1,0 +1,49 @@
+.recent-search-form {
+  @include bgwhite;
+}
+
+.recent-search-wrapper {
+  @include bgwhite;
+  @include rd3;
+}
+
+.recent-search {
+  @include relative;
+  @include pl3;
+  @include small;
+  @include bdb;
+  @include bdgray2;
+
+  .header {
+    @include large;
+    @include pdkblue;
+    @include bold;
+    padding: 0.4rem 0;
+
+    .space {
+      padding: 0 0.4rem;
+    }
+  }
+
+  .meta {
+    @include gray5;
+    @include medium;
+  }
+
+  .icon_keyboard-arrow-right {
+    @include relative;
+    @include gray4;
+    right: -1rem;
+    font-size: 2.4rem;
+  }
+}
+
+.recent-search-card--delete-icon {
+  @include absolute;
+  @include larger;
+  @include p4;
+  @include pblue;
+
+  right: 2rem;
+  top: 34%;
+}

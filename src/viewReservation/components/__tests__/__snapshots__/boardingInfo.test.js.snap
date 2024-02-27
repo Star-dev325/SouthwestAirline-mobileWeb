@@ -1,0 +1,4304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`boardingInfo Grey Box Messages should should passenger level grey box message if available 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+        <div
+          class="center bggray2 mt4 px4 py5 gray5"
+          data-qa="passenger-kiosk-message"
+        >
+          <div>
+            <strong>
+              Please visit a ticket counter or gate agent.
+            </strong>
+            <br />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="medium gray5 mt4"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="center bggray2 mt4 px4 py5 gray5"
+        data-qa="passenger-kiosk-message"
+      >
+        <div>
+          <strong>
+            This flight is not eligible for Mobile Boarding Pass.
+          </strong>
+          <br />
+        </div>
+        Please visit a kiosk or a ticket counter for your boarding passes.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingInfo Grey Box Messages should show PNR level grey box message if available 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+        <div
+          class="center bggray2 mt4 px4 py5 gray5"
+          data-qa="passenger-kiosk-message"
+        >
+          <div>
+            <strong>
+              Please visit a ticket counter or gate agent.
+            </strong>
+            <br />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="medium gray5 mt4"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="center bggray2 mt4 px4 py5 gray5"
+        data-qa="passenger-kiosk-message"
+      >
+        <div>
+          <strong>
+            This flight is not eligible for Mobile Boarding Pass.
+          </strong>
+          <br />
+        </div>
+        Please visit a kiosk or a ticket counter for your boarding passes.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingInfo Options with next steps should show options and next steps button 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div>
+          <div
+            class="mt3"
+          >
+            <a
+              class="detailed-trip-card--options-btn button button_link button--fluid button--yellow"
+              href="https://www.southwest.com/help/changes-and-cancellations/changing-cancelling-flights#southwest-cancels-flight?clk=TRPCRD_SWACNCL_NEXT"
+              target="_self"
+              title="Options and next steps"
+              type="button"
+            >
+              Options and next steps
+            </a>
+          </div>
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="medium gray5 mt4"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingInfo Same-day change and standby should not render Same-day change and standby button when sameDayUpdates and sameDayBlockedMessage is unavailable  with SAME_DAY_BLOCKED_NOT_CHECKED_IN key in the response 1`] = `null`;
+
+exports[`boardingInfo Same-day change and standby should not render Same-day change and standby button when sameDayUpdates and sameDayBlockedMessage is unavailable in the response 1`] = `null`;
+
+exports[`boardingInfo Same-day change and standby should render Same-day change and standby button when sameDayUpdates is available in the response 1`] = `
+<button
+  class="boarding-info--same-day-change-buttons button button--fluid large button--blue"
+  type="button"
+>
+  Same-day change and standby
+</button>
+`;
+
+exports[`boardingInfo Same-day change and standby should render Same-day change and standby button when shouldShowSameDayBlockedCheckInButton is false in sameDayBlockedMessage\`s response 1`] = `
+<button
+  class="boarding-info--same-day-change-buttons button button--fluid large button--blue"
+  type="button"
+>
+  Same-day change and standby
+</button>
+`;
+
+exports[`boardingInfo Same-day change and standby should render Same-day change and standby button when shouldShowSameDayBlockedCheckInButton is true in sameDayBlockedMessage\`s response 1`] = `
+<button
+  class="boarding-info--same-day-change-buttons button button--fluid large button--blue"
+  type="button"
+>
+  Same-day change and standby
+</button>
+`;
+
+exports[`boardingInfo Same-day change and standby when same day button is clicked and the traveler has inactive bags should not render modal when viewModifyCheckedBags is null 1`] = `null`;
+
+exports[`boardingInfo Same-day change and standby when same day button is clicked and the traveler has inactive bags should not render modal when viewReservationSearchRequest is null 1`] = `null`;
+
+exports[`boardingInfo View boarding pass button should not render view boarding pass button when this PNR has null values for viewBoardingPass and viewBoardingPassIssuance responses 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="medium gray5 mt4"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingInfo View boarding pass button should render view boarding pass button when this PNR has both viewBoardingPass or viewBoardingPassIssuance response 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="medium gray5 mt4"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="mt4 button button--fluid button--yellow"
+          title="button text"
+          type="button"
+        >
+          button text
+        </button>
+      </div>
+      <div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingInfo View boarding pass button should render view boarding pass button when this PNR has only viewBoardingPass response 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="medium gray5 mt4"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="mt4 button button--fluid button--yellow"
+          title="SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS
+        </button>
+      </div>
+      <div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingInfo View boarding pass button should render view boarding pass button when this PNR has only viewBoardingPassIssuance response 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="medium gray5 mt4"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="mt4 button button--fluid button--yellow"
+          title="button text"
+          type="button"
+        >
+          button text
+        </button>
+      </div>
+      <div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingInfo View boarding pass button should render view boarding pass button with default text when labelText not set and when this PNR has both viewBoardingPass or viewBoardingPassIssuance response 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="medium gray5 mt4"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="mt4 button button--fluid button--yellow"
+          title="SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_BOARDING_PASS
+        </button>
+      </div>
+      <div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingInfo baggage details should render baggage details when modifyBaggageDetails exists 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+        <div
+          class="baggage-details"
+        >
+          <i
+            class="baggage-details--icon icon icon_two-bags"
+          />
+          <div>
+            <p>
+              At the airport?
+               
+            </p>
+            <p
+              class="baggage-details--suffix-text"
+            >
+              Find out what to do with your bags.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="medium gray5 mt4"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingInfo boarding positions should not show boardingPositions button when checkin link is present 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="boarding-info--checkin-button button button--fluid larger button--yellow"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__CHECK_IN
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingInfo boarding positions should show view boarding positions button when this PNR has boarding position link 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="medium gray5 mt4"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="bold green"
+                  >
+                    SHARED__RESERVATION_PASSENGER__CHECKED_IN
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="bold green"
+                  >
+                    SHARED__RESERVATION_PASSENGER__CHECKED_IN
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="mt4 button button--fluid button--yellow"
+          title="button text"
+          type="button"
+        >
+          button text
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingInfo boarding positions should show view boarding positions button when this PNR has boarding position link with default button text if label text not set 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="medium gray5 mt4"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="bold green"
+                  >
+                    SHARED__RESERVATION_PASSENGER__CHECKED_IN
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="bold green"
+                  >
+                    SHARED__RESERVATION_PASSENGER__CHECKED_IN
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="mt4 button button--fluid button--yellow"
+          title="SHARED__BUTTON_TEXT__BOARDING_PASSES"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__BOARDING_PASSES
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingInfo check standard bags now button when trackCheckedBags has value should render track checked bags button 1`] = `
+<button
+  aria-label="CHECK_IN__CHECK_BAGGAGE_BUTTON__TRACK_BAGS__ARIA"
+  class="check-baggage-button-boarding button button--fluid large button--blue"
+  data-qa="check-baggage-button"
+  type="button"
+>
+  Track checked bags
+  <i
+    aria-hidden="true"
+    class="external-link-icon icon icon_ic-external-link"
+  />
+</button>
+`;
+
+exports[`boardingInfo check standard bags now button when viewModifyCheckedBags and trackCheckedBags have a value should render track checked bags button 1`] = `
+<button
+  aria-label="CHECK_IN__CHECK_BAGGAGE_BUTTON__TRACK_BAGS__ARIA"
+  class="check-baggage-button-boarding button button--fluid large button--blue"
+  data-qa="check-baggage-button"
+  type="button"
+>
+  Track checked bags
+  <i
+    aria-hidden="true"
+    class="external-link-icon icon icon_ic-external-link"
+  />
+</button>
+`;
+
+exports[`boardingInfo check standard bags now button when viewModifyCheckedBags and trackCheckedBags is null should not render check standard bags now or track checked bags button 1`] = `null`;
+
+exports[`boardingInfo check standard bags now button when viewModifyCheckedBags has value should render check standard bags now button 1`] = `
+<button
+  class="check-baggage-button-boarding button button--fluid large button--blue"
+  data-qa="check-baggage-button"
+  type="button"
+>
+  Check standard bags now
+</button>
+`;
+
+exports[`boardingInfo render should display correctly 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="medium gray5 mt4"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingInfo render should show trip date and city name 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="medium gray5 mt4"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingInfo when boarding positions link is provided and some passengers are checked in but others are not should show a view boarding details button if isInternational true 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="medium gray5 mt4"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="bold green"
+                  >
+                    SHARED__RESERVATION_PASSENGER__CHECKED_IN
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Checked In
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125480001
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="bold green"
+                  >
+                    SHARED__RESERVATION_PASSENGER__CHECKED_IN
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="mt4 button button--fluid button--yellow"
+          title="SHARED__BUTTON_TEXT__VIEW_BOARDING_DETAILS"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_BOARDING_DETAILS
+        </button>
+      </div>
+      <div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="bold red"
+                  >
+                    SHARED__RESERVATION_PASSENGER__PASSPORT_INCOMPLETE
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="boarding-info--checkin-button button button--fluid larger button--yellow"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__CHECK_IN
+        </button>
+      </div>
+      <div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Bear USASEL
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125481234
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="bold green"
+                  >
+                    SHARED__RESERVATION_PASSENGER__PASSPORT_COMPLETED
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingInfo when boarding positions link is provided and some passengers are checked in but others are not should show a view boarding passes button as the first button hen isInternational is false 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="medium gray5 mt4"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="bold green"
+                  >
+                    SHARED__RESERVATION_PASSENGER__CHECKED_IN
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Checked In
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125480001
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="bold green"
+                  >
+                    SHARED__RESERVATION_PASSENGER__CHECKED_IN
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="mt4 button button--fluid button--yellow"
+          title="SHARED__BUTTON_TEXT__BOARDING_PASSES"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__BOARDING_PASSES
+        </button>
+      </div>
+      <div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="boarding-info--checkin-button button button--fluid larger button--yellow"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__CHECK_IN
+        </button>
+      </div>
+      <div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Bear USASEL
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125481234
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingInfo when boarding positions link is provided and some passengers are checked in but others are not should show three passenger boarding groups 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="medium gray5 mt4"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="bold green"
+                  >
+                    SHARED__RESERVATION_PASSENGER__CHECKED_IN
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Checked In
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125480001
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="bold green"
+                  >
+                    SHARED__RESERVATION_PASSENGER__CHECKED_IN
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="mt4 button button--fluid button--yellow"
+          title="SHARED__BUTTON_TEXT__BOARDING_PASSES"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__BOARDING_PASSES
+        </button>
+      </div>
+      <div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="boarding-info--checkin-button button button--fluid larger button--yellow"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__CHECK_IN
+        </button>
+      </div>
+      <div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Bear USASEL
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125481234
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingInfo when some passengers are not checked in and no check-in link is provided should show the passenger names without a button 1`] = `
+<div>
+  <div
+    class="trip-details-boarding-info"
+  >
+    <div
+      class="boarding-info"
+    >
+      <div
+        class="boarding-info_time reservation-details--card boarding-info--divider"
+      >
+        <div
+          class="flex flex-main-between"
+        >
+          <div
+            class="trip-date-dest-city--city-name"
+          >
+            <span
+              class="trip-date-dest-city--trip-date"
+            >
+              Aug 19
+            </span>
+            <span
+              class="trip-date-dest-city--destination-airport pblue"
+            >
+              Dallas
+            </span>
+          </div>
+          <div>
+            <div
+              class="confirmation-label"
+              data-qa="confirmation-label"
+            >
+              SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+            </div>
+            <div
+              class="xlarge passenger-record-locator green align-right"
+              data-qa="passenger-record-locator"
+            >
+              ABCDEF
+            </div>
+          </div>
+        </div>
+        <div
+          class="airport-info--detail"
+        >
+          DAL
+           to
+          <br />
+          AUS
+        </div>
+        <div
+          class="boarding-info--change-cancel-container"
+          data-qa="boarding-info-manage-buttons"
+        >
+          <button
+            class="manage-button-change boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CHANGE_BUTTON_TEXT
+          </button>
+          <button
+            class="manage-button-cancel boarding-info--change-cancel-buttons button button--fluid large button--blue"
+            type="button"
+          >
+            VIEW_RESERVATION__BOARDING_INFO__CANCEL_BUTTON_TEXT
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div
+            class="medium gray5 mt4"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Amber Awesome
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125489756
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="pt2"
+          >
+            <div
+              class="passenger-reservation-info--passenger-name"
+            >
+              <div
+                class="flex flex-cross-center flex-wrap"
+              >
+                <div
+                  class="flex flex11 flex-column overflow-hidden"
+                >
+                  <div
+                    class="overflow-hidden ellipsis"
+                  >
+                    <span
+                      class="xlarge block nowrap overflow-hidden ellipsis"
+                      data-qa="userName"
+                    >
+                      Ron hackman
+                    </span>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="gray5 mr4"
+                        data-qa="passenger-rapid-rewards"
+                      >
+                        6125486987
+                      </span>
+                    </div>
+                    <div
+                      class="nowrap"
+                    >
+                      <span
+                        class="pdkblue mr4"
+                        data-qa="update-travel-information"
+                      >
+                        SHARED__RESERVATION_PASSENGER__MANAGE_TRAVELER_DETAILS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <i
+                  class="xxlarge sltblue flex1 icon icon_pencil"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

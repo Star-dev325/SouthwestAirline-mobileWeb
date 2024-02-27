@@ -1,0 +1,28 @@
+.upsell-success-widget {
+  @include bgwhite;
+  @include m3;
+  @include p5;
+  @include larger;
+  @include rd3;
+
+  &--header {
+    @include pdkblue;
+    @include pl2;
+
+    &-container {
+      @include flex;
+      @include flex-cross-center;
+      @include pb4;
+      @include xxlarge;
+      @include pdkblue;
+    }
+  }
+
+  &--icon {
+    @include xxxlarge;
+  }
+
+  &--body {
+    @include gray5;
+  }
+}

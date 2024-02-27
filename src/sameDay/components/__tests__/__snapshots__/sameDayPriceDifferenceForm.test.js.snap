@@ -1,0 +1,1051 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sameDayPriceDifferenceForm should hide email input field when showEmailReceiptTo is false 1`] = `
+<div>
+  <div>
+    <form
+      class="form"
+      id="price-difference-form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form--payment"
+        >
+          <div
+            class="price-difference-form--payment_label"
+          >
+            AIR_CHANGE__PRICE_DIFFERENCE__PAYMENT_METHOD
+          </div>
+          <div
+            class="field"
+          >
+            <div
+              class="payment-nav-item-field"
+              data-qa="review-form--payment-method-nav-item"
+            >
+              <a
+                class="nav-item-link no-padding"
+              >
+                <div
+                  class="primary-saved-credit-cards"
+                  data-qa="review-form--payment-card"
+                >
+                  <div
+                    class="credit-card-radio-input credit-card-radio-input_selected"
+                  >
+                    <label
+                      class="credit-card-radio-input--label"
+                    >
+                      <div
+                        class="credit-card-radio-input--container"
+                      >
+                        <div
+                          class="credit-card--image_visa credit-card--image left mr2"
+                        />
+                        <div
+                          class="credit-card-radio-input--text"
+                        >
+                          <p
+                            class="pdkblue larger"
+                          >
+                            VISA 4444
+                          </p>
+                          <div
+                            class="flex gray5 additional-info-container"
+                          >
+                            <div
+                              class="mr1"
+                            >
+                              AIR_BOOKING__SUMMARY_PAYMENT__SHORT_CARD_NUMBER_MESSAGE
+                            </div>
+                            <div
+                              class="bold"
+                            >
+                              4444
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <i
+                  class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Amount Due
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        0.00
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`sameDayPriceDifferenceForm should not render price difference form  when isPaymentRequired value is false 1`] = `
+<div>
+  <div>
+    <form
+      class="form"
+      id="price-difference-form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="input"
+            >
+              <input
+                class=""
+                name="recipientEmail"
+                placeholder="SHARED__PLACEHOLDER__EMAIL_ADDRESS"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Amount Due
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        0.00
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`sameDayPriceDifferenceForm should render price difference form  when isPaymentRequired flag is true 1`] = `
+<div>
+  <div>
+    <form
+      class="form"
+      id="price-difference-form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="input"
+            >
+              <input
+                class=""
+                name="recipientEmail"
+                placeholder="SHARED__PLACEHOLDER__EMAIL_ADDRESS"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="price-difference-form--payment"
+        >
+          <div
+            class="price-difference-form--payment_label"
+          >
+            AIR_CHANGE__PRICE_DIFFERENCE__PAYMENT_METHOD
+          </div>
+          <div
+            class="field"
+          >
+            <div
+              class="payment-nav-item-field"
+              data-qa="review-form--payment-method-nav-item"
+            >
+              <a
+                class="nav-item-link no-padding"
+              >
+                <div
+                  class="primary-saved-credit-cards"
+                  data-qa="review-form--payment-card"
+                >
+                  <div
+                    class="credit-card-radio-input credit-card-radio-input_selected"
+                  >
+                    <label
+                      class="credit-card-radio-input--label"
+                    >
+                      <div
+                        class="credit-card-radio-input--container"
+                      >
+                        <div
+                          class="credit-card--image_visa credit-card--image left mr2"
+                        />
+                        <div
+                          class="credit-card-radio-input--text"
+                        >
+                          <p
+                            class="pdkblue larger"
+                          >
+                            VISA 4444
+                          </p>
+                          <div
+                            class="flex gray5 additional-info-container"
+                          >
+                            <div
+                              class="mr1"
+                            >
+                              AIR_BOOKING__SUMMARY_PAYMENT__SHORT_CARD_NUMBER_MESSAGE
+                            </div>
+                            <div
+                              class="bold"
+                            >
+                              4444
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <i
+                  class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Amount Due
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        0.00
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`sameDayPriceDifferenceForm should render price difference form  without payment method section 1`] = `
+<div>
+  <div>
+    <form
+      class="form"
+      id="price-difference-form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="input"
+            >
+              <input
+                class=""
+                name="recipientEmail"
+                placeholder="SHARED__PLACEHOLDER__EMAIL_ADDRESS"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Amount Due
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        0.00
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`sameDayPriceDifferenceForm should render price difference form component 1`] = `
+<div>
+  <div>
+    <form
+      class="form"
+      id="price-difference-form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="input"
+            >
+              <input
+                class=""
+                name="recipientEmail"
+                placeholder="SHARED__PLACEHOLDER__EMAIL_ADDRESS"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="price-difference-form--payment"
+        >
+          <div
+            class="price-difference-form--payment_label"
+          >
+            AIR_CHANGE__PRICE_DIFFERENCE__PAYMENT_METHOD
+          </div>
+          <div
+            class="field"
+          >
+            <div
+              class="payment-nav-item-field"
+              data-qa="review-form--payment-method-nav-item"
+            >
+              <a
+                class="nav-item-link no-padding"
+              >
+                <div
+                  class="primary-saved-credit-cards"
+                  data-qa="review-form--payment-card"
+                >
+                  <div
+                    class="credit-card-radio-input credit-card-radio-input_selected"
+                  >
+                    <label
+                      class="credit-card-radio-input--label"
+                    >
+                      <div
+                        class="credit-card-radio-input--container"
+                      >
+                        <div
+                          class="credit-card--image_visa credit-card--image left mr2"
+                        />
+                        <div
+                          class="credit-card-radio-input--text"
+                        >
+                          <p
+                            class="pdkblue larger"
+                          >
+                            VISA 4444
+                          </p>
+                          <div
+                            class="flex gray5 additional-info-container"
+                          >
+                            <div
+                              class="mr1"
+                            >
+                              AIR_BOOKING__SUMMARY_PAYMENT__SHORT_CARD_NUMBER_MESSAGE
+                            </div>
+                            <div
+                              class="bold"
+                            >
+                              4444
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <i
+                  class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Amount Due
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        0.00
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`sameDayPriceDifferenceForm should render price difference form with CCV verified false for primary card attached to the user profile 1`] = `
+<div>
+  <div>
+    <form
+      class="form"
+      id="price-difference-form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="input"
+            >
+              <input
+                class=""
+                name="recipientEmail"
+                placeholder="SHARED__PLACEHOLDER__EMAIL_ADDRESS"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="price-difference-form--payment"
+        >
+          <div
+            class="price-difference-form--payment_label"
+          >
+            AIR_CHANGE__PRICE_DIFFERENCE__PAYMENT_METHOD
+          </div>
+          <div
+            class="field"
+          >
+            <div
+              class="payment-nav-item-field"
+              data-qa="review-form--payment-method-nav-item"
+            >
+              <a
+                class="nav-item-link no-padding"
+              >
+                <div
+                  class="primary-saved-credit-cards"
+                  data-qa="review-form--payment-card"
+                >
+                  <div
+                    class="credit-card-radio-input credit-card-radio-input_selected"
+                  >
+                    <label
+                      class="credit-card-radio-input--label"
+                    >
+                      <div
+                        class="credit-card-radio-input--container"
+                      >
+                        <div
+                          class="credit-card--image_visa credit-card--image left mr2"
+                        />
+                        <div
+                          class="credit-card-radio-input--text"
+                        >
+                          <p
+                            class="pdkblue larger"
+                          >
+                            VISA 4444
+                          </p>
+                          <div
+                            class="flex gray5 additional-info-container"
+                          >
+                            <div
+                              class="mr1"
+                            >
+                              AIR_BOOKING__SUMMARY_PAYMENT__SHORT_CARD_NUMBER_MESSAGE
+                            </div>
+                            <div
+                              class="bold"
+                            >
+                              4444
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <i
+                  class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Amount Due
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        0.00
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`sameDayPriceDifferenceForm should render price difference form with No primary card attached to the user profile 1`] = `
+<div>
+  <div>
+    <form
+      class="form"
+      id="price-difference-form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="input"
+            >
+              <input
+                class=""
+                name="recipientEmail"
+                placeholder="SHARED__PLACEHOLDER__EMAIL_ADDRESS"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="price-difference-form--payment"
+        >
+          <div
+            class="price-difference-form--payment_label"
+          >
+            AIR_CHANGE__PRICE_DIFFERENCE__PAYMENT_METHOD
+          </div>
+          <div
+            class="field"
+          >
+            <div
+              class="payment-nav-item-field"
+              data-qa="review-form--payment-method-nav-item"
+            >
+              <a
+                class="nav-item-link"
+              >
+                <span>
+                  AIR_CHANGE__PRICE_DIFFERENCE__ADD_CREDIT_CARD
+                </span>
+                <i
+                  class="nav-item-link--bang-icon icon icon_exclamation-circle warning"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Amount Due
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        0.00
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`sameDayPriceDifferenceForm should render price difference form with primary card with required security code to the user profile 1`] = `
+<div>
+  <div>
+    <form
+      class="form"
+      id="price-difference-form"
+      novalidate=""
+    >
+      <fieldset>
+        <div
+          class="price-difference-form"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="input"
+            >
+              <input
+                class=""
+                name="recipientEmail"
+                placeholder="SHARED__PLACEHOLDER__EMAIL_ADDRESS"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="price-difference-form--payment"
+        >
+          <div
+            class="price-difference-form--payment_label"
+          >
+            AIR_CHANGE__PRICE_DIFFERENCE__PAYMENT_METHOD
+          </div>
+          <div
+            class="field"
+          >
+            <div
+              class="payment-nav-item-field"
+              data-qa="review-form--payment-method-nav-item"
+            >
+              <a
+                class="nav-item-link no-padding"
+              >
+                <div
+                  class="primary-saved-credit-cards"
+                  data-qa="review-form--payment-card"
+                >
+                  <div
+                    class="credit-card-radio-input credit-card-radio-input_selected"
+                  >
+                    <label
+                      class="credit-card-radio-input--label"
+                    >
+                      <div
+                        class="credit-card-radio-input--container"
+                      >
+                        <div
+                          class="credit-card--image_visa credit-card--image left mr2"
+                        />
+                        <div
+                          class="credit-card-radio-input--text"
+                        >
+                          <p
+                            class="pdkblue larger"
+                          >
+                            VISA 4444
+                          </p>
+                          <div
+                            class="flex gray5 additional-info-container"
+                          >
+                            <div
+                              class="mr1"
+                            >
+                              AIR_BOOKING__SUMMARY_PAYMENT__SHORT_CARD_NUMBER_MESSAGE
+                            </div>
+                            <div
+                              class="bold"
+                            >
+                              4444
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <i
+                  class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="field"
+          >
+            <div
+              class="purchase-summary-security-code--input-field input"
+            >
+              <input
+                class=""
+                icon="exclamation-circle warning"
+                maxlength="4"
+                name="securityCode"
+                pattern="[0-9]*"
+                placeholder="Security Code (CVV)"
+                type="tel"
+                value=""
+              />
+              <i
+                class="icon icon_exclamation-circle warning"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer"
+        >
+          <div
+            class="price-difference-footer"
+          >
+            <div
+              class="early-bird-price-footer--price-total price-difference-footer--price-total bgblue"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Amount Due
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        0.00
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="early-bird-price-footer--nav price-difference-footer--nav bgblue"
+            >
+              <button
+                class="continue button button--fluid larger button--yellow"
+                type="submit"
+              />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;

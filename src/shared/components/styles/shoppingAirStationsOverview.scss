@@ -1,0 +1,15 @@
+.shopping-air-stations-overview {
+  @include flex;
+  @include flex-cross-center;
+  @include xxlarge;
+  @include white;
+
+  .direction {
+    @include bold;
+    @include mx4;
+  }
+
+  .air-stations--icon {
+    @include mx3;
+  }
+}

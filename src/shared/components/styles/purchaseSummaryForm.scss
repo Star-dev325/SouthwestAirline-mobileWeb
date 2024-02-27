@@ -1,0 +1,112 @@
+.purchase-summary-form {
+  @include m0;
+
+  .review-message {
+    &--body {
+      @include ml4;
+    }
+
+    &--station-header {
+      @include bold;
+      @include py1;
+    }
+  }
+
+  .shopping-summary {
+    @include m0;
+    @include p5;
+  }
+
+  dt {
+    @include large;
+    @include bold;
+    @include gray5;
+    @include mb4;
+  }
+
+  dd {
+    @include bgwhite;
+    @include ml0;
+    @include my4;
+  }
+
+  .contact-method-fields {
+    @include bggray2;
+
+    .field {
+      @include mt4;
+    }
+  }
+
+  .error .dropdown {
+    @include red;
+  }
+
+  .purchase-summary-form--add-early-bird {
+    @include pblue;
+  }
+
+  .early-bird-purchase-placement {
+    @include mr0;
+    @include ml0;
+    @include fullwidth;
+  }
+
+  .apply-travel-funds-nav-item {
+    @include ml0;
+    @include mt4;
+    @include gray3;
+
+    .no-funds-selected span {
+      @include gray3;
+    }
+
+    a.nav-item-link {
+      @include pdkblue;
+    }
+
+    p.helper-text {
+      @include gray5;
+      @include medium;
+      margin: 1rem 0;
+    }
+  }
+
+  .duty-of-care-nav-item {
+    .no-duty-of-care-info-selected span {
+      @include gray3;
+    }
+
+    .nav-item-field-value {
+      @include pdkblue;
+    }
+
+    .fields--label {
+      @include gray5;
+      @include large;
+      @include bold;
+    }
+
+    .field {
+      @include mt4;
+    }
+
+    p.helper-text {
+      @include gray5;
+      @include medium;
+      @include mt4;
+      @include mb4;
+    }
+  }
+
+  .apply-rapid-rewards-nav-item {
+    @include ml0;
+    @include mt4;
+    @include gray3;
+    margin: 1rem 0;
+
+    .no-points-selected span {
+      @include gray3;
+    }
+  }
+}

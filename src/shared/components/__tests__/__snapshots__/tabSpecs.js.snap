@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab when MWEB_HOMEPAGE_REDESIGN is false should render nav--item 1`] = `
+<li
+  className="nav--item active"
+>
+  <Connect(ContentLink)
+    onClick={[Function]}
+  >
+    Item content
+  </Connect(ContentLink)>
+</li>
+`;
+
+exports[`Tab when MWEB_HOMEPAGE_REDESIGN is true should render nav--item_homepage-redesign 1`] = `
+<li
+  className="nav--item nav--item_homepage-redesign active"
+>
+  <Connect(ContentLink)
+    onClick={[Function]}
+  >
+    Item content
+  </Connect(ContentLink)>
+</li>
+`;

@@ -1,0 +1,634 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calendarField should display departure and return date 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div>
+        <div
+          class="clickable-div input"
+        >
+          <div
+            class="input--label"
+          >
+            <i
+              class="icon icon_calender"
+            />
+          </div>
+          <div
+            class="ellipsis py3 bold"
+            data-qa="depart-and-return-dates"
+          >
+            5/04/18 - 5/31/18
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`calendarField should display departure date and disable return date when returnDate is disabled and both flights are changing 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div>
+        <div
+          class="clickable-div input"
+        >
+          <div
+            class="input--label"
+          >
+            <i
+              class="icon icon_calender"
+            />
+          </div>
+          <div
+            class="ellipsis py3 bold"
+            data-qa="depart-and-return-dates"
+          >
+            <div>
+              <span>
+                5/04/18
+              </span>
+              <span
+                class="gray4"
+              >
+                 - 
+              </span>
+              <span
+                class="gray4"
+                data-qa="disabled-date"
+              >
+                5/31/18
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`calendarField should display return date and disable departure date when departureDate is disabled 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div>
+        <div
+          class="clickable-div input"
+        >
+          <div
+            class="input--label"
+          >
+            <i
+              class="icon icon_calender"
+            />
+          </div>
+          <div
+            class="ellipsis py3 bold"
+            data-qa="depart-and-return-dates"
+          >
+            <div>
+              <span
+                class="gray4"
+                data-qa="disabled-date"
+              >
+                5/04/18
+              </span>
+              <span
+                class="gray4"
+              >
+                 - 
+              </span>
+              <span>
+                5/31/18
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`calendarField usingNativeStyle should only display departure date when it is one way trip 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div>
+        <div
+          class="form-calendar-field gray4"
+          data-qa="depart-and-return-dates"
+        >
+          <div
+            class="form-calendar-field--departure-date"
+          >
+            <div
+              class="form-calendar-field--date"
+            >
+              5/04
+            </div>
+            <div
+              class="form-calendar-field--description"
+            >
+              SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+            </div>
+          </div>
+          <i
+            class="form-calendar-field--icon icon icon_calender"
+          />
+          <div
+            class="form-calendar-field--return-date"
+          />
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`calendarField usingNativeStyle should render correct with new style 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div>
+        <div
+          class="form-calendar-field gray4"
+          data-qa="depart-and-return-dates"
+        >
+          <div
+            class="form-calendar-field--departure-date"
+          >
+            <div
+              class="form-calendar-field--date"
+            >
+              5/04
+            </div>
+            <div
+              class="form-calendar-field--description"
+            >
+              SHARED__CALENDAR__DEPARTURE_DATE_DESCRIPTION_TEXT
+            </div>
+          </div>
+          <i
+            class="form-calendar-field--icon icon icon_calender"
+          />
+          <div
+            class="form-calendar-field--return-date"
+          >
+            <div
+              class="form-calendar-field--date"
+            >
+              5/31
+            </div>
+            <div
+              class="form-calendar-field--description"
+            >
+              SHARED__CALENDAR__RETURN_DATE_DESCRIPTION_TEXT
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`calendarField usingNativeStyle should render date description with italic day when date changed 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div>
+        <div
+          class="form-calendar-field"
+          data-qa="depart-and-return-dates"
+        >
+          <div
+            class="form-calendar-field--departure-date"
+          >
+            <div
+              class="form-calendar-field--date bold"
+            >
+              5/04
+            </div>
+            <div
+              class="form-calendar-field--date-description"
+            >
+              <span
+                class="italic"
+              >
+                Fri
+              </span>
+              <span>
+                , May 04, 2018
+              </span>
+            </div>
+          </div>
+          <i
+            class="form-calendar-field--icon icon icon_calender"
+          />
+          <div
+            class="form-calendar-field--return-date"
+          >
+            <div
+              class="form-calendar-field--date bold"
+            >
+              5/31
+            </div>
+            <div
+              class="form-calendar-field--date-description"
+            >
+              <span
+                class="italic"
+              >
+                Thu
+              </span>
+              <span>
+                , May 31, 2018
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`calendarField usingNativeStyle when isReaccomCoTerminalEligible is true should render correctly for one way flight 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div>
+        <div
+          class="form-calendar-field py3"
+          data-qa="depart-and-return-dates"
+        >
+          <div
+            class="form-calendar-field--departure-date"
+          >
+            <div
+              class="form-calendar-field--date bold xxlarge"
+            >
+              5/04
+            </div>
+            <div
+              class="form-calendar-field--date-description medium"
+            >
+              <span
+                class="italic"
+              >
+                Fri
+              </span>
+              <span>
+                , May 04, 2018
+              </span>
+            </div>
+          </div>
+          <i
+            class="form-calendar-field--icon icon icon_calender"
+          />
+          <div
+            class="form-calendar-field--return-date"
+          />
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`calendarField usingNativeStyle when isReaccomCoTerminalEligible is true should render correctly for round trip flights 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div>
+        <div
+          class="form-calendar-field py3"
+          data-qa="depart-and-return-dates"
+        >
+          <div
+            class="form-calendar-field--departure-date"
+          >
+            <div
+              class="form-calendar-field--date bold xxlarge"
+            >
+              5/04
+            </div>
+            <div
+              class="form-calendar-field--date-description medium"
+            >
+              <span
+                class="italic"
+              >
+                Fri
+              </span>
+              <span>
+                , May 04, 2018
+              </span>
+            </div>
+          </div>
+          <i
+            class="form-calendar-field--icon icon icon_calender"
+          />
+          <div
+            class="form-calendar-field--return-date"
+          >
+            <div
+              class="form-calendar-field--date bold xxlarge"
+            >
+              5/31
+            </div>
+            <div
+              class="form-calendar-field--date-description medium"
+            >
+              <span
+                class="italic"
+              >
+                Thu
+              </span>
+              <span>
+                , May 31, 2018
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`calendarField usingNativeStyle when isReaccomCoTerminalEligible is true should render correctly when shouldSelectNewReaccomDepartureDate is true 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <div
+          class="form-calendar-field py3"
+          data-qa="depart-and-return-dates"
+        >
+          <div
+            class="form-calendar-field--departure-date"
+          >
+            <div
+              class="form-calendar-field--date bold xxlarge"
+            >
+              SHARED__CALENDAR__REACCOM_DEPARTURE_DATE_TEXT
+            </div>
+            <div
+              class="form-calendar-field--description"
+            >
+              SHARED__CALENDAR__REACCOM_DATE_DESCRIPTION_TEXT
+            </div>
+          </div>
+          <i
+            class="form-calendar-field--icon icon icon_calender"
+          />
+          <div
+            class="form-calendar-field--return-date"
+          >
+            <div
+              class="form-calendar-field--date bold xxlarge"
+            >
+              5/31
+            </div>
+            <div
+              class="form-calendar-field--date-description medium"
+            >
+              <span
+                class="italic"
+              >
+                Thu
+              </span>
+              <span>
+                , May 31, 2018
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`calendarField usingNativeStyle when isReaccomCoTerminalEligible is true should render correctly when shouldSelectNewReaccomReturnDate is true 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <div
+          class="form-calendar-field py3"
+          data-qa="depart-and-return-dates"
+        >
+          <div
+            class="form-calendar-field--departure-date"
+          >
+            <div
+              class="form-calendar-field--date bold xxlarge"
+            >
+              5/04
+            </div>
+            <div
+              class="form-calendar-field--date-description medium"
+            >
+              <span
+                class="italic"
+              >
+                Fri
+              </span>
+              <span>
+                , May 04, 2018
+              </span>
+            </div>
+          </div>
+          <i
+            class="form-calendar-field--icon icon icon_calender"
+          />
+          <div
+            class="form-calendar-field--return-date"
+          >
+            <div
+              class="form-calendar-field--date bold xxlarge green"
+            >
+              SHARED__CALENDAR__REACCOM_RETURN_DATE_TEXT
+            </div>
+            <div
+              class="form-calendar-field--description"
+            >
+              SHARED__CALENDAR__REACCOM_DATE_DESCRIPTION_TEXT
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`calendarField usingNativeStyle when isReaccomCoTerminalEligible is true should set initDepartureDate to undefined when isReaccomDepartureDateClicked and isInvalidDepartureDate are true 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <div
+          class="form-calendar-field py3"
+          data-qa="depart-and-return-dates"
+        >
+          <div
+            class="form-calendar-field--departure-date"
+          >
+            <div
+              class="form-calendar-field--date bold xxlarge"
+            >
+              SHARED__CALENDAR__REACCOM_DEPARTURE_DATE_TEXT
+            </div>
+            <div
+              class="form-calendar-field--description"
+            >
+              SHARED__CALENDAR__REACCOM_DATE_DESCRIPTION_TEXT
+            </div>
+          </div>
+          <i
+            class="form-calendar-field--icon icon icon_calender"
+          />
+          <div
+            class="form-calendar-field--return-date"
+          >
+            <div
+              class="form-calendar-field--date bold xxlarge"
+            >
+              5/31
+            </div>
+            <div
+              class="form-calendar-field--date-description medium"
+            >
+              <span
+                class="italic"
+              >
+                Thu
+              </span>
+              <span>
+                , May 31, 2018
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`calendarField usingNativeStyle when isReaccomCoTerminalEligible is true should set initDepartureDate to undefined when isReaccomReturnDateClicked and isInvalidReturnDate are true 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <div
+          class="form-calendar-field py3"
+          data-qa="depart-and-return-dates"
+        >
+          <div
+            class="form-calendar-field--departure-date"
+          >
+            <div
+              class="form-calendar-field--date bold xxlarge"
+            >
+              SHARED__CALENDAR__REACCOM_DEPARTURE_DATE_TEXT
+            </div>
+            <div
+              class="form-calendar-field--description"
+            >
+              SHARED__CALENDAR__REACCOM_DATE_DESCRIPTION_TEXT
+            </div>
+          </div>
+          <i
+            class="form-calendar-field--icon icon icon_calender"
+          />
+          <div
+            class="form-calendar-field--return-date"
+          >
+            <div
+              class="form-calendar-field--date bold xxlarge"
+            >
+              5/31
+            </div>
+            <div
+              class="form-calendar-field--date-description medium"
+            >
+              <span
+                class="italic"
+              >
+                Thu
+              </span>
+              <span>
+                , May 31, 2018
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`calendarField when MWEB_HOMEPAGE_REDESIGN is true should render correct with new style 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div>
+        <div
+          class="form-calendar-field gray4"
+          data-qa="depart-and-return-dates"
+        >
+          <div
+            class="form-calendar-field--departure-date"
+          >
+            <div
+              class="form-calendar-field--date bold"
+            >
+              5/04
+            </div>
+          </div>
+          <i
+            class="form-calendar-field--icon icon icon_calender"
+          />
+          <div
+            class="form-calendar-field--return-date"
+          >
+            <div
+              class="form-calendar-field--date bold"
+            >
+              5/31
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

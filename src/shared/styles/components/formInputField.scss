@@ -1,0 +1,97 @@
+.form-field--container {
+  @include flex;
+  @include bgwhite;
+  height: 80px;
+
+  .form-field--icon {
+    @include flex-item-center;
+    @include sltblue;
+    @include xxxlarge;
+    @include ml6;
+
+    &.icon-right {
+      @include mr6;
+    }
+  }
+
+  .form-field--error-icon {
+    @include flex-item-center;
+    @include mr6;
+    @include invisible;
+  }
+
+  .form-field--text-container {
+    @include flex-item-center;
+    @include fullwidth;
+
+    input {
+      @include fullwidth;
+      @include xxxlarge;
+      @include border-none;
+      @include p0;
+      @include for-compact {
+        @include xxlarge;
+      }
+    }
+
+    select {
+      @include fullwidth;
+      @include xxxlarge;
+      @include for-compact {
+        @include xxlarge;
+      }
+    }
+  }
+
+  .form-field--placeholder {
+    @include gray3;
+    @include xxxlarge;
+    @include block;
+    @include for-compact {
+      @include xxlarge;
+    }
+  }
+
+  .form-field--text {
+    @include bold;
+    @include pdkblue;
+    @include xxxlarge;
+    @include block;
+    @include for-compact {
+      @include xxlarge;
+    }
+
+    &.form-field--long-text {
+      @include xxlarge;
+    }
+  }
+
+  .form-field--description {
+    @include gray4;
+    @include medium;
+    @include block;
+  }
+}
+
+.homepage-redesign {
+  .form-field--text-container {
+    .form-field--text {
+      @include pblue;
+    }
+
+    .form-field--placeholder,
+    .form-field--text {
+      @include fontsize24;
+    }
+  }
+}
+
+.error {
+  .form-field--error-icon {
+    @include visible;
+  }
+
+  .form-field--placeholder {
+    @include red;
+  }
+}

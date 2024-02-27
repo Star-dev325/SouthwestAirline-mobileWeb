@@ -1,0 +1,20 @@
+// special helper for different device
+// rule
+// .ios.ios--8.0
+// .ios.ios--9.1
+// .android.android--4.2.1
+// .android.android--4.3
+
+body.ios {
+  // body should have cursor pointer to solve issue with ios not allowing onClick handlers to fire on non-A tags
+  * {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+body.android {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+}

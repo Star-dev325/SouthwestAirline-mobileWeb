@@ -1,0 +1,68 @@
+.enroll-security-info-form {
+  @include m0;
+
+  .security-question-nav-field {
+    @include mt5;
+  }
+
+  .fields {
+    @include large;
+  }
+
+  .fields--label {
+    @include bold;
+    @include large;
+    @include gray5;
+    @include mb5;
+  }
+
+  .input {
+    @include regular;
+    @include mt4;
+  }
+
+  .checkbox-button {
+    @include mt4;
+  }
+
+  .helper-text {
+    @include gray5;
+    @include medium;
+
+    .helper-text--title {
+      @include my4;
+    }
+
+    .helper-text--special-character-specification {
+      @include ml6;
+      @include mt4;
+    }
+
+    .helper-text--special-character_include {
+      @include pdkblue;
+      @include bold;
+    }
+
+    .helper-text--special-character_not-include {
+      @include ml6;
+    }
+
+    .helper-text--special-character_hint {
+      @include mt4;
+    }
+  }
+
+  .segment {
+    @include bggray2;
+    @include mb4;
+
+    &.secondary.fill {
+      @include p0;
+    }
+
+    &.blue {
+      @include bgpblue;
+      padding: 1.6rem 1.2rem;
+    }
+  }
+}

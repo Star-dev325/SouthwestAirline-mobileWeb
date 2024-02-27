@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EarlyBirdSwitch should render 1`] = `
+<div>
+  <button
+    class="toggle-switch button"
+    type="button"
+  >
+    <div
+      class="toggle-switch--slider"
+    />
+  </button>
+</div>
+`;

@@ -1,0 +1,28 @@
+.unused-funds-panel--links {
+  @include flex;
+
+  .item {
+    @include px4;
+    @include py0;
+    width: 50%;
+    border-right: 1px $gray2 solid;
+
+    &:first-child {
+      @include pl0;
+    }
+
+    &:last-child {
+      @include pr0;
+      border-right: 0;
+    }
+  }
+
+  .my-account-nav-item {
+    @include larger;
+    @include bold;
+  }
+
+  .icon_keyboard-arrow-right {
+    @include gray4;
+  }
+}

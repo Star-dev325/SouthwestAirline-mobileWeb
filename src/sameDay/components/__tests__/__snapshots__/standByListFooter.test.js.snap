@@ -1,0 +1,726 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StandByListFooter should  render standBy list footer component with all information 1`] = `
+<div>
+  <div>
+    <div
+      class="stand-by-list-footer"
+    >
+      <div
+        class="stand-by-list-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Total Paid
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total-per-section"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  0.00
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="stand-by-list-footer--taxes-and-fees price-difference-footer--price-total bgblue stand-by-list-footer--taxes-and-fees_reverse"
+      >
+        <div
+          class="stand-by-list-footer stand-by-list-footer--sub-note"
+        >
+          <p
+            class="white"
+          >
+            You will not be charged until you board new standby flight
+          </p>
+        </div>
+      </div>
+      <div
+        class="early-bird-price-footer--nav stand-by-list-footer--nav bgblue"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          type="submit"
+        >
+          see standby list
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StandByListFooter should not render explanatory note(taxesAndFeesWithLinks) in the standBy list footer component 1`] = `
+<div>
+  <div>
+    <div
+      class="stand-by-list-footer"
+    >
+      <div
+        class="stand-by-list-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Total Paid
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total-per-section"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  0.00
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="stand-by-list-footer--taxes-and-fees price-difference-footer--price-total bgblue stand-by-list-footer--taxes-and-fees_reverse"
+      />
+      <div
+        class="early-bird-price-footer--nav stand-by-list-footer--nav bgblue"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          type="submit"
+        >
+          see standby list
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StandByListFooter should not render standby list button in the standBy list footer component 1`] = `
+<div>
+  <div>
+    <div
+      class="stand-by-list-footer"
+    >
+      <div
+        class="stand-by-list-footer--price-total price-difference-footer--price-total-with-rule bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Total Paid
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total-per-section"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  0.00
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="stand-by-list-footer--taxes-and-fees price-difference-footer--price-total-with-rule bgblue"
+      >
+        <div
+          class="stand-by-list-footer stand-by-list-footer--sub-note"
+        >
+          <p
+            class="white"
+          >
+            You will not be charged until you board new standby flight
+          </p>
+        </div>
+      </div>
+      <div
+        class="stand-by-list-footer--divider bgblue"
+      >
+        <hr
+          class="stand-by-list-footer--divider-rule"
+        />
+      </div>
+      <div
+        class="stand-by-list-footer--btn price-difference-footer--price-total-with-rule bgblue"
+      >
+        <div>
+          <button
+            class="button button--fluid larger button--yellow"
+            type="submit"
+          >
+            SHARED__BUTTON_TEXT__BOARDING_DETAILS
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StandByListFooter should not render total price in the standBy list footer component 1`] = `
+<div>
+  <div>
+    <div
+      class="stand-by-list-footer"
+    >
+      <div
+        class="stand-by-list-footer--taxes-and-fees price-difference-footer--price-total bgblue stand-by-list-footer--taxes-and-fees_reverse"
+      >
+        <div
+          class="stand-by-list-footer stand-by-list-footer--sub-note"
+        >
+          <p
+            class="white"
+          >
+            You will not be charged until you board new standby flight
+          </p>
+        </div>
+      </div>
+      <div
+        class="early-bird-price-footer--nav stand-by-list-footer--nav bgblue"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          type="submit"
+        >
+          see standby list
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StandByListFooter should render Boarding details label in the standBy list footer component 1`] = `
+<div>
+  <div>
+    <div
+      class="stand-by-list-footer"
+    >
+      <div
+        class="stand-by-list-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Total Credit
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total-per-section"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  20.00
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="stand-by-list-footer--taxes-and-fees price-difference-footer--price-total bgblue bggreen stand-by-list-footer--taxes-and-fees_top stand-by-list-footer--taxes-and-fees_reverse"
+      >
+        <div
+          class="stand-by-list-footer stand-by-list-footer--refund-taxes-note_right stand-by-list-footer--refund-taxes-note stand-by-list-footer--sub-note"
+        >
+          <p
+            class="white"
+          >
+            Refunded to credit card
+          </p>
+        </div>
+        <div
+          class="stand-by-list-footer stand-by-list-footer--refund-taxes-note_right stand-by-list-footer--refund-taxes-note stand-by-list-footer--sub-note"
+        >
+          <p
+            class="white"
+          >
+            Includes taxes and fees
+          </p>
+        </div>
+      </div>
+      <div
+        class="stand-by-list-footer--btn_right price-difference-footer--price-total bgblue bggreen"
+      >
+        <div>
+          <button
+            class="button button--fluid larger button--yellow"
+            type="submit"
+          >
+            Boarding details
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StandByListFooter should render a link with the boarding pass details when in web view 1`] = `null`;
+
+exports[`StandByListFooter should render a link with the standby search token when in web view 1`] = `null`;
+
+exports[`StandByListFooter should render a link with the view boarding details with passenger search token when in web view 1`] = `
+<a
+  class="button button_link button--fluid larger button--yellow"
+  href="app://boarding-details?firstName=John&lastName=Appleseed&passengerSearchToken=abc.123.xyz&recordLocator=abc123"
+  target="_self"
+  type="submit"
+>
+  Boarding details
+</a>
+`;
+
+exports[`StandByListFooter should render points credit only in the standBy list footer component 1`] = `
+<div>
+  <div>
+    <div
+      class="stand-by-list-footer"
+    >
+      <div
+        class="stand-by-list-footer--taxes-and-fees price-difference-footer--price-total-with-rule bgblue bggreen stand-by-list-footer--taxes-and-fees_top stand-by-list-footer--taxes-and-fees_reverse"
+      >
+        <div
+          class="stand-by-list-footer stand-by-list-footer--refund-taxes-note_right stand-by-list-footer--refund-taxes-note stand-by-list-footer--sub-note"
+        >
+          <p
+            class="white"
+          >
+            Held for future use
+          </p>
+        </div>
+        <div
+          class="stand-by-list-footer stand-by-list-footer--refund-taxes-note_right stand-by-list-footer--refund-taxes-note stand-by-list-footer--sub-note"
+        >
+          <p
+            class="white"
+          >
+            Included taxes and fees
+          </p>
+        </div>
+      </div>
+      <div
+        class="stand-by-list-footer--divider bgblue bggreen"
+      >
+        <hr
+          class="stand-by-list-footer--divider-rule"
+        />
+      </div>
+      <div
+        class="stand-by-list-footer--btn price-difference-footer--price-total-with-rule bgblue bggreen"
+      >
+        <div>
+          <button
+            class="button button--fluid larger button--yellow"
+            type="submit"
+          >
+            Boarding details
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StandByListFooter should render standby list button with extra bottom padding in the standBy list footer component when isWebView 1`] = `
+<div>
+  <div>
+    <div
+      class="stand-by-list-footer"
+    >
+      <div
+        class="stand-by-list-footer--taxes-and-fees price-difference-footer--price-total bgblue bggreen stand-by-list-footer--taxes-and-fees_top stand-by-list-footer--taxes-and-fees_reverse"
+      >
+        <div
+          class="stand-by-list-footer stand-by-list-footer--refund-taxes-note_right stand-by-list-footer--refund-taxes-note stand-by-list-footer--sub-note"
+        >
+          <p
+            class="white"
+          >
+            Refunded to credit card
+          </p>
+        </div>
+        <div
+          class="stand-by-list-footer stand-by-list-footer--refund-taxes-note_right stand-by-list-footer--refund-taxes-note stand-by-list-footer--sub-note"
+        >
+          <p
+            class="white"
+          >
+            You will not be refunded until you board, and new flight is closed.
+          </p>
+        </div>
+      </div>
+      <div
+        class="early-bird-price-footer--nav stand-by-list-footer--nav bgblue bggreen stand-by-list-footer--nav_webview"
+      >
+        <a
+          class="button button_link button--fluid larger button--blue"
+          href="app://standby?recordLocator=undefined&standbyToken=undefined"
+          target="_self"
+          type="submit"
+        >
+          see standby list
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StandByListFooter should render taxCreditRefund with points credit and tax credit in the standBy list footer component 1`] = `
+<div>
+  <div>
+    <div
+      class="stand-by-list-footer"
+    >
+      <div
+        class="stand-by-list-footer--price-total price-difference-footer--price-total bggreen"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Total Credit
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total-per-section"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  5.60
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="stand-by-list-footer--taxes-and-fees_top stand-by-list-footer--taxes-and-fees_reverse"
+        >
+          <div>
+            <p
+              class="stand-by-list-footer--price-refund-message"
+            >
+              Refunded to credit card
+            </p>
+          </div>
+          <div>
+            <p
+              class="stand-by-list-footer--price-refund-message stand-by-list-footer--price-refund-message_top-margin"
+            >
+              Included taxes and fees
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="stand-by-list-footer--taxes-and-fees price-difference-footer--price-total bggreen stand-by-list-footer--taxes-and-fees_top stand-by-list-footer--taxes-and-fees_reverse"
+      />
+      <div
+        class="early-bird-price-footer--nav stand-by-list-footer--nav bgblue bggreen"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          type="submit"
+        >
+          Boarding details
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StandByListFooter should render total credit and standby list button in the standBy list footer component  1`] = `
+<div>
+  <div>
+    <div
+      class="stand-by-list-footer"
+    >
+      <div
+        class="stand-by-list-footer--taxes-and-fees price-difference-footer--price-total bgblue bggreen stand-by-list-footer--taxes-and-fees_top stand-by-list-footer--taxes-and-fees_reverse"
+      >
+        <div
+          class="stand-by-list-footer stand-by-list-footer--refund-taxes-note_right stand-by-list-footer--refund-taxes-note stand-by-list-footer--sub-note"
+        >
+          <p
+            class="white"
+          >
+            Refunded to credit card
+          </p>
+        </div>
+        <div
+          class="stand-by-list-footer stand-by-list-footer--refund-taxes-note_right stand-by-list-footer--refund-taxes-note stand-by-list-footer--sub-note"
+        >
+          <p
+            class="white"
+          >
+            You will not be refunded until you board, and new flight is closed.
+          </p>
+        </div>
+      </div>
+      <div
+        class="early-bird-price-footer--nav stand-by-list-footer--nav bgblue bggreen"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          type="submit"
+        >
+          see standby list
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StandByListFooter should render total with points and no tax in the standBy list footer component 1`] = `
+<div>
+  <div>
+    <div
+      class="stand-by-list-footer"
+    >
+      <div
+        class="stand-by-list-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Total Paid
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total-per-section"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  3,400
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="stand-by-list-footer--taxes-and-fees price-difference-footer--price-total bgblue stand-by-list-footer--taxes-and-fees_reverse"
+      >
+        <div
+          class="stand-by-list-footer stand-by-list-footer--sub-note"
+        >
+          <p
+            class="white"
+          >
+            You will not be charged until you board new standby flight
+          </p>
+        </div>
+      </div>
+      <div
+        class="early-bird-price-footer--nav stand-by-list-footer--nav bgblue"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          type="submit"
+        >
+          see standby list
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StandByListFooter should render total with points and tax in the standBy list footer component 1`] = `
+<div>
+  <div>
+    <div
+      class="stand-by-list-footer"
+    >
+      <div
+        class="stand-by-list-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Total Paid
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total-per-section"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  data-qa="total-amount"
+                >
+                  3,400
+                </span>
+                <span
+                  class="points-sign"
+                >
+                  SHARED__COMMON__POINTS_TEXT
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="stand-by-list-footer--price-total price-difference-footer--price-total bgblue"
+      >
+        <div
+          class="price-line"
+        >
+          <span
+            class="price-line--title"
+          >
+            Total Paid
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total-per-section"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  5.60
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="stand-by-list-footer--taxes-and-fees price-difference-footer--price-total bgblue stand-by-list-footer--taxes-and-fees_reverse"
+      >
+        <div
+          class="stand-by-list-footer stand-by-list-footer--sub-note"
+        >
+          <p
+            class="white"
+          >
+            You will not be charged until you board new standby flight
+          </p>
+        </div>
+      </div>
+      <div
+        class="early-bird-price-footer--nav stand-by-list-footer--nav bgblue"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          type="submit"
+        >
+          see standby list
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdditionalPassportInfoPage render Cancel button Confirmation dialog been showed should render dialog correctly 1`] = `
+Object {
+  "buttons": Array [
+    Object {
+      "label": "SHARED__BUTTON_TEXT__NO",
+      "onClick": [MockFunction],
+    },
+    Object {
+      "label": "SHARED__BUTTON_TEXT__YES",
+      "onClick": [Function],
+    },
+  ],
+  "message": "SHARED__PASSPORT_PAGE__CANCEL_DIALOG_MESSAGE_FOR_CHECK_IN",
+  "name": "addition-quit-apis-flow",
+  "title": "SHARED__PASSPORT_PAGE__CANCEL_DIALOG_TITLE",
+}
+`;
+
+exports[`AdditionalPassportInfoPage render should pass documentTitles to AdditionalPassportInfoForm when provided 1`] = `
+<div>
+  <div>
+    <div>
+      <div />
+      <div>
+        <div>
+          <div
+            class="page-header action-bar"
+            id=""
+          >
+            <ul
+              class="action-bar-buttons action-bar--left-buttons"
+            >
+              <li
+                class="action-bar-buttons--item"
+              >
+                <button
+                  class="button"
+                  type="button"
+                >
+                  Cancel
+                </button>
+              </li>
+            </ul>
+            <div
+              class="action-bar--container"
+            >
+              <div
+                class="action-bar--title-align-center action-bar--title"
+              >
+                <span
+                  class="action-bar--main-title"
+                >
+                  Travel Document
+                </span>
+                <span
+                  class="action-bar--sub-title"
+                />
+              </div>
+            </div>
+            <ul
+              class="action-bar-buttons action-bar--right-buttons"
+            />
+          </div>
+          <div />
+        </div>
+        <form
+          class="passport-form form"
+          name="CHECK_IN_ADDITIONAL_PASSPORT_INFO_FORM_1"
+          novalidate=""
+        >
+          <fieldset>
+            <div
+              class="passport-form--passenger"
+            >
+              <p
+                class="passport-form--passenger-label"
+              >
+                SHARED__PLACEHOLDER__PASSENGER
+              </p>
+              <span
+                class="passport-form--passenger-name"
+              />
+            </div>
+            <div
+              class="segments"
+            >
+              <div
+                class="passport-form--info secondary segment"
+              >
+                <div
+                  class="gray5"
+                >
+                  SHARED__PLACEHOLDER__TRAVEL_DOCUMENT_INFORMATION
+                </div>
+              </div>
+              <div
+                class="segment"
+              >
+                <button
+                  class="check-in button button--fluid huge button--yellow"
+                  type="submit"
+                >
+                  CHECK_IN__CONFIRM_AND_CONTINUE_BUTTON
+                </button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

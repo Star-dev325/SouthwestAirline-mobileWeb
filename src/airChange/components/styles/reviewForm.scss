@@ -1,0 +1,134 @@
+.air-change-review-form {
+  @include mb0;
+
+  &--upgrade-benefits {
+    @include bgwhite;
+    @include mb4;
+
+    .upgrade-offer-title {
+      @include pt5;
+      @include pl5;
+      @include pb3;
+      @include larger;
+      @include bold;
+      @include pdkblue;
+    }
+
+    .features-list {
+      @include pb0;
+    }
+  }
+
+  &--fare-rules {
+    @include small;
+    @include pt2;
+    @include pl5;
+    @include pb5;
+
+    a {
+      @include pblue;
+    }
+  }
+
+  .input {
+    @include mt4;
+  }
+
+  .error .dropdown {
+    @include red;
+  }
+
+  .review-form--trip-cost,
+  .review-form--travel-funds {
+    @include bgwhite;
+    @include p5;
+    @include bdb;
+
+    .new-trip-total--label,
+    .new-trip-total--detail {
+      @include pdkblue;
+    }
+
+    .original-trip-total--label,
+    .original-trip-total--detail {
+      @include gray4;
+    }
+
+    .new-trip-total--detail {
+      @include bold;
+    }
+  }
+
+  .refund-info-per-type {
+    border-top: 0;
+  }
+
+  .refund-summary-for-points .refund-total-item--message {
+    @include mt3;
+  }
+
+  .refund-info-for-points .refund-info-per-type {
+    @include pt1;
+  }
+
+  .field-label--heading {
+    @include mb4;
+  }
+
+  .passenger-name {
+    @include flex-item-center;
+    @include overflow-hidden;
+    @include ellipsis;
+  }
+
+  .label-container--label {
+    width: max-content;
+  }
+
+  .fields--label {
+    @include large;
+    @include bold;
+    @include gray5;
+  }
+
+  .travel-funds {
+    @include white;
+    @include large;
+    @include caps;
+
+    .currency {
+      @include bold;
+      @include xlarge;
+    }
+
+    .price-line {
+      @include pb2;
+    }
+  }
+
+  &--disclaimer {
+    @include large;
+    @include pb5;
+    @include pre-wrap;
+  }
+
+  .form-fields--apply-travel-funds {
+    .nav-item-field {
+      @include mt4;
+    }
+
+    .no-funds-selected span {
+      @include gray3;
+    }
+  }
+
+  .review-message {
+    @include bgwhite;
+    @include flex;
+    @include p5;
+
+    &--body {
+      @include pl4;
+    }
+  }
+}

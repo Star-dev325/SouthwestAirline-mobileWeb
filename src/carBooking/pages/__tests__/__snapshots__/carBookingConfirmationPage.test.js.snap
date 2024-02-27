@@ -1,0 +1,942 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarBookingConfirmationPage component did mount should call enableNavigationControlsFnStub and displayAppReviewStub when in web view state 1`] = `
+<div>
+  <div
+    class="car-booking-confirmation"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        CAR_BOOKING__PURCHASE_CONFIRMATION__HEADER
+        <a
+          class="right white regular page-header--right-button"
+        >
+          CAR_BOOKING__DONE
+        </a>
+      </div>
+      <div />
+    </div>
+    <div
+      class="custom-container bgpdkblue white"
+    >
+      <div
+        class="swa-message p0 small success"
+      >
+        <span
+          class="icon-container"
+        >
+          <i
+            class="icon icon_check"
+          />
+        </span>
+        <span
+          class="message--text"
+        >
+          <h3
+            class="xxlarge bold white inline-block"
+          >
+            CAR_BOOKING__PURCHASE_CONFIRMATION__TITLE
+          </h3>
+        </span>
+      </div>
+    </div>
+    <div
+      class="mx4 car-booking-driver-card"
+    >
+      <div
+        class="bgpdkblue white px5 py3 xlarge bold mt4"
+      >
+        CAR_BOOKING__PURCHASE_CONFIRMATION__DRIVER
+      </div>
+      <div
+        class="bgwhite pdkblue px5 py2"
+      >
+        <div
+          class="xxlarge py2 bold ellipsis overflow-hidden"
+        >
+          Amy Awesome
+        </div>
+        <div
+          class="large gray5"
+        >
+          CAR_BOOKING__PURCHASE_CONFIRMATION__CONFIRMATION_NUMBER
+          <span
+            class="bold pdkblue"
+          >
+            AJC129876234
+          </span>
+        </div>
+      </div>
+      <div
+        class="bgwhite mb4 px4 py4"
+      >
+        <div
+          class="car-reservation-itinerary"
+        >
+          <div
+            class="car-reservation-itinerary--pick-up"
+          >
+            <div
+              class="pick-up--icon"
+            >
+              <i
+                class="white p4 circle table-cell align-middle large icon-wrapper_black icon icon_car"
+              />
+              <div
+                class="line--vertical line--vertical_top"
+              />
+            </div>
+            <div
+              class="line-wrapper"
+            >
+              <div
+                class="line--horizontal"
+              />
+            </div>
+            <div
+              class="label-container pick-up--date"
+            >
+              <div
+                class="label-container--label"
+              >
+                CAR_BOOKING__CAR_RESERVATION__PICK_UP
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <div
+                  class="flight-time"
+                >
+                  <div
+                    class="flight-time--time"
+                  >
+                    <span>
+                      11:00
+                    </span>
+                    <span
+                      class="time-period"
+                    >
+                      AM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="label-container pick-up--location"
+            >
+              <div
+                class="label-container--label"
+              >
+                Tuesday, Mar 1, 2016
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <div
+                  class="airport-info"
+                >
+                  <div
+                    class="airport-info--code"
+                  >
+                    DAL
+                  </div>
+                  <div
+                    class="airport-info--detail"
+                  >
+                    Dallas (Love Field)
+                    , 
+                    TX
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-reservation-itinerary--return"
+          >
+            <div
+              class="return--icon"
+            >
+              <i
+                class="white p4 circle table-cell align-middle large icon-wrapper_green icon icon_car"
+              />
+              <div
+                class="line--vertical line--vertical_bottom"
+              />
+            </div>
+            <div
+              class="line-wrapper"
+            >
+              <div
+                class="line--horizontal"
+              />
+            </div>
+            <div
+              class="label-container return--date"
+            >
+              <div
+                class="label-container--label"
+              >
+                CAR_BOOKING__CAR_RESERVATION__RETURN
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <div
+                  class="flight-time"
+                >
+                  <div
+                    class="flight-time--time"
+                  >
+                    <span>
+                      11:00
+                    </span>
+                    <span
+                      class="time-period"
+                    >
+                      AM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="label-container return--location"
+            >
+              <div
+                class="label-container--label"
+              >
+                Friday, Mar 4, 2016
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <div
+                  class="airport-info"
+                >
+                  <div
+                    class="airport-info--code"
+                  >
+                    DAL
+                  </div>
+                  <div
+                    class="airport-info--detail"
+                  >
+                    Dallas (Love Field)
+                    , 
+                    TX
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="car-reservation-detail mt4 pt5 bdt"
+        >
+          <div>
+            <div
+              class="flex flex-cross-center"
+            >
+              <div
+                class="flex6"
+              >
+                <div>
+                  <img
+                    class="fit car-reservation--vendor-logo"
+                    src="/content/mkt/images/car_vendors/Avis_Logo_results.png"
+                  />
+                </div>
+              </div>
+              <div
+                class="green flex6 align-right large"
+              >
+                Earn up to 600 points
+              </div>
+            </div>
+            <div
+              class="gray5 my2"
+            >
+              Rental Counter is located outside of the Airport Terminal. Shuttle is provided.
+            </div>
+          </div>
+          <div
+            class="clearfix mt2"
+          >
+            <div
+              class="left large pr7"
+            >
+              CAR_BOOKING__CAR_RESERVATION__CAR_TYPE
+            </div>
+            <div
+              class="gray5 large overflow-hidden align-right"
+            >
+              Economy
+            </div>
+          </div>
+          <div
+            class="clearfix mt2"
+            data-qa="car-booking-extras-container"
+          >
+            <div
+              class="left large pr7"
+            >
+              Rental Extras
+            </div>
+            <div
+              class="gray5 large overflow-hidden align-right"
+            >
+              <span
+                class="block align-right"
+              >
+                Ski Rack
+              </span>
+            </div>
+          </div>
+          <div
+            class="clearfix mt2"
+          >
+            <div
+              class="left large pr7"
+            >
+              CAR_BOOKING__CAR_RESERVATION__DAILY_RATE
+            </div>
+            <div
+              class="gray5 large overflow-hidden align-right"
+            >
+              <div>
+                <span>
+                  3 Days
+                </span>
+                 
+                CAR_BOOKING__CAR_RESERVATION__SYMBOL
+                <div
+                  class="currency car-reservation-detail--currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    47.00
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="clearfix mt2"
+          >
+            <div
+              class="left large pr7"
+            >
+              CAR_BOOKING__CAR_RESERVATION__BASE_RATE
+            </div>
+            <div
+              class="gray5 large overflow-hidden align-right"
+            >
+              <div
+                class="currency car-reservation-detail--currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  141.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="clearfix mt2"
+          >
+            <div
+              class="left large pr7"
+            >
+              CAR_BOOKING__CAR_RESERVATION__MILEAGE
+            </div>
+            <div
+              class="gray5 large overflow-hidden align-right"
+            >
+              Unlimited
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="carbooking-total-price price-total"
+    >
+      <div
+        class="price-total--info"
+      >
+        <div
+          class="price-line bgpblue white pt3 xxlarge"
+        >
+          <span
+            class="price-line--title"
+          >
+            CAR_BOOKING__PURCHASE_FORM__TOTAL
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  181.75
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="price-total--info-row"
+        >
+          <div
+            class="price-total--info-col price-total--info-col--dollar"
+          >
+            <p>
+              CAR_BOOKING__PURCHASE_FORM__TOTAL_PRICE_NOTE_INCLUDE
+            </p>
+            <p>
+              CAR_BOOKING__PURCHASE_FORM__TOTAL_PRICE_NOTE_EXCLUDE
+            </p>
+          </div>
+          <div
+            class="price-total--info-col"
+            data-qa="price-breakdown"
+          >
+            <p>
+              CAR_BOOKING__PURCHASE_FORM__SHOW_PRICE_BREAKDOWN
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="confirm-footer mt6"
+      >
+        <div>
+          <a
+            class="nav-item-link link-bar"
+            href="/my-account"
+          >
+            My Account
+            <i
+              class="nav-item-link--icon icon icon_keyboard-arrow-right"
+            />
+          </a>
+          <a
+            class="nav-item-link link-bar"
+            href="/"
+          >
+            Home
+            <i
+              class="nav-item-link--icon icon icon_keyboard-arrow-right"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CarBookingConfirmationPage component did mount should not call enableNavigationControlsFnStub or displayAppReviewStub when not in web view state 1`] = `
+<div>
+  <div
+    class="car-booking-confirmation"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        CAR_BOOKING__PURCHASE_CONFIRMATION__HEADER
+      </div>
+      <div />
+    </div>
+    <div
+      class="custom-container bgpdkblue white"
+    >
+      <div
+        class="swa-message p0 small success"
+      >
+        <span
+          class="icon-container"
+        >
+          <i
+            class="icon icon_check"
+          />
+        </span>
+        <span
+          class="message--text"
+        >
+          <h3
+            class="xxlarge bold white inline-block"
+          >
+            CAR_BOOKING__PURCHASE_CONFIRMATION__TITLE
+          </h3>
+        </span>
+      </div>
+    </div>
+    <div
+      class="mx4 car-booking-driver-card"
+    >
+      <div
+        class="bgpdkblue white px5 py3 xlarge bold mt4"
+      >
+        CAR_BOOKING__PURCHASE_CONFIRMATION__DRIVER
+      </div>
+      <div
+        class="bgwhite pdkblue px5 py2"
+      >
+        <div
+          class="xxlarge py2 bold ellipsis overflow-hidden"
+        >
+          Amy Awesome
+        </div>
+        <div
+          class="large gray5"
+        >
+          CAR_BOOKING__PURCHASE_CONFIRMATION__CONFIRMATION_NUMBER
+          <span
+            class="bold pdkblue"
+          >
+            AJC129876234
+          </span>
+        </div>
+      </div>
+      <div
+        class="bgwhite mb4 px4 py4"
+      >
+        <div
+          class="car-reservation-itinerary"
+        >
+          <div
+            class="car-reservation-itinerary--pick-up"
+          >
+            <div
+              class="pick-up--icon"
+            >
+              <i
+                class="white p4 circle table-cell align-middle large icon-wrapper_black icon icon_car"
+              />
+              <div
+                class="line--vertical line--vertical_top"
+              />
+            </div>
+            <div
+              class="line-wrapper"
+            >
+              <div
+                class="line--horizontal"
+              />
+            </div>
+            <div
+              class="label-container pick-up--date"
+            >
+              <div
+                class="label-container--label"
+              >
+                CAR_BOOKING__CAR_RESERVATION__PICK_UP
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <div
+                  class="flight-time"
+                >
+                  <div
+                    class="flight-time--time"
+                  >
+                    <span>
+                      11:00
+                    </span>
+                    <span
+                      class="time-period"
+                    >
+                      AM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="label-container pick-up--location"
+            >
+              <div
+                class="label-container--label"
+              >
+                Tuesday, Mar 1, 2016
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <div
+                  class="airport-info"
+                >
+                  <div
+                    class="airport-info--code"
+                  >
+                    DAL
+                  </div>
+                  <div
+                    class="airport-info--detail"
+                  >
+                    Dallas (Love Field)
+                    , 
+                    TX
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="car-reservation-itinerary--return"
+          >
+            <div
+              class="return--icon"
+            >
+              <i
+                class="white p4 circle table-cell align-middle large icon-wrapper_green icon icon_car"
+              />
+              <div
+                class="line--vertical line--vertical_bottom"
+              />
+            </div>
+            <div
+              class="line-wrapper"
+            >
+              <div
+                class="line--horizontal"
+              />
+            </div>
+            <div
+              class="label-container return--date"
+            >
+              <div
+                class="label-container--label"
+              >
+                CAR_BOOKING__CAR_RESERVATION__RETURN
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <div
+                  class="flight-time"
+                >
+                  <div
+                    class="flight-time--time"
+                  >
+                    <span>
+                      11:00
+                    </span>
+                    <span
+                      class="time-period"
+                    >
+                      AM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="label-container return--location"
+            >
+              <div
+                class="label-container--label"
+              >
+                Friday, Mar 4, 2016
+              </div>
+              <div
+                class="label-container--content"
+              >
+                <div
+                  class="airport-info"
+                >
+                  <div
+                    class="airport-info--code"
+                  >
+                    DAL
+                  </div>
+                  <div
+                    class="airport-info--detail"
+                  >
+                    Dallas (Love Field)
+                    , 
+                    TX
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="car-reservation-detail mt4 pt5 bdt"
+        >
+          <div>
+            <div
+              class="flex flex-cross-center"
+            >
+              <div
+                class="flex6"
+              >
+                <div>
+                  <img
+                    class="fit car-reservation--vendor-logo"
+                    src="/content/mkt/images/car_vendors/Avis_Logo_results.png"
+                  />
+                </div>
+              </div>
+              <div
+                class="green flex6 align-right large"
+              >
+                Earn up to 600 points
+              </div>
+            </div>
+            <div
+              class="gray5 my2"
+            >
+              Rental Counter is located outside of the Airport Terminal. Shuttle is provided.
+            </div>
+          </div>
+          <div
+            class="clearfix mt2"
+          >
+            <div
+              class="left large pr7"
+            >
+              CAR_BOOKING__CAR_RESERVATION__CAR_TYPE
+            </div>
+            <div
+              class="gray5 large overflow-hidden align-right"
+            >
+              Economy
+            </div>
+          </div>
+          <div
+            class="clearfix mt2"
+            data-qa="car-booking-extras-container"
+          >
+            <div
+              class="left large pr7"
+            >
+              Rental Extras
+            </div>
+            <div
+              class="gray5 large overflow-hidden align-right"
+            >
+              <span
+                class="block align-right"
+              >
+                Ski Rack
+              </span>
+            </div>
+          </div>
+          <div
+            class="clearfix mt2"
+          >
+            <div
+              class="left large pr7"
+            >
+              CAR_BOOKING__CAR_RESERVATION__DAILY_RATE
+            </div>
+            <div
+              class="gray5 large overflow-hidden align-right"
+            >
+              <div>
+                <span>
+                  3 Days
+                </span>
+                 
+                CAR_BOOKING__CAR_RESERVATION__SYMBOL
+                <div
+                  class="currency car-reservation-detail--currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    47.00
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="clearfix mt2"
+          >
+            <div
+              class="left large pr7"
+            >
+              CAR_BOOKING__CAR_RESERVATION__BASE_RATE
+            </div>
+            <div
+              class="gray5 large overflow-hidden align-right"
+            >
+              <div
+                class="currency car-reservation-detail--currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  141.00
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="clearfix mt2"
+          >
+            <div
+              class="left large pr7"
+            >
+              CAR_BOOKING__CAR_RESERVATION__MILEAGE
+            </div>
+            <div
+              class="gray5 large overflow-hidden align-right"
+            >
+              Unlimited
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="carbooking-total-price price-total"
+    >
+      <div
+        class="price-total--info"
+      >
+        <div
+          class="price-line bgpblue white pt3 xxlarge"
+        >
+          <span
+            class="price-line--title"
+          >
+            CAR_BOOKING__PURCHASE_FORM__TOTAL
+          </span>
+          <div
+            class="price-amount"
+          >
+            <div
+              class="price-line--currency_total"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  181.75
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="price-total--info-row"
+        >
+          <div
+            class="price-total--info-col price-total--info-col--dollar"
+          >
+            <p>
+              CAR_BOOKING__PURCHASE_FORM__TOTAL_PRICE_NOTE_INCLUDE
+            </p>
+            <p>
+              CAR_BOOKING__PURCHASE_FORM__TOTAL_PRICE_NOTE_EXCLUDE
+            </p>
+          </div>
+          <div
+            class="price-total--info-col"
+            data-qa="price-breakdown"
+          >
+            <p>
+              CAR_BOOKING__PURCHASE_FORM__SHOW_PRICE_BREAKDOWN
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="confirm-footer mt6"
+      >
+        <div>
+          <a
+            class="nav-item-link link-bar"
+            href="/my-account"
+          >
+            My Account
+            <i
+              class="nav-item-link--icon icon icon_keyboard-arrow-right"
+            />
+          </a>
+          <a
+            class="nav-item-link link-bar"
+            href="/"
+          >
+            Home
+            <i
+              class="nav-item-link--icon icon icon_keyboard-arrow-right"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CarBookingConfirmationPage render should render car booking confirmation footer 1`] = `null`;
+
+exports[`CarBookingConfirmationPage render should render car booking driver card with confirmation number 1`] = `null`;
+
+exports[`CarBookingConfirmationPage render should render car booking total price 1`] = `null`;
+
+exports[`CarBookingConfirmationPage webview should render DONE button 1`] = `
+<a
+  class="right white regular page-header--right-button"
+>
+  CAR_BOOKING__DONE
+</a>
+`;

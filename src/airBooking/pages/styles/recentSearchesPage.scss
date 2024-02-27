@@ -1,0 +1,11 @@
+.is-webview {
+  &.recent-searches-page {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .shopping-recent-search {
+        background: none;
+      }
+    }
+  }
+}

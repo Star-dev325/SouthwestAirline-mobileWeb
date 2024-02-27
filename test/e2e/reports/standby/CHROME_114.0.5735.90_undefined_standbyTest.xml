@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="13">
+
+  <testsuite name="standby.standbyTest"
+    errors="0" failures="0" hostname="" id="" package="standby" skipped="0"
+    tests="13" time="88.56" timestamp="Fri, 15 Dec 2023 02:03:05 GMT">
+  
+    <testcase name="Go MyAccount home page" classname="standby.standbyTest" time="37.33" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Clicking on all upcoming trips banner" classname="standby.standbyTest" time="5.822" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Clicking on revenue trip card View standby list" classname="standby.standbyTest" time="7.448" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify stand by list page analytics when coming from upcoming trip list" classname="standby.standbyTest" time="0.02700" assertions="0">
+    </testcase>
+  
+    <testcase name="Refresh on stand by page" classname="standby.standbyTest" time="13.85" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Back to upcoming trips list page" classname="standby.standbyTest" time="2.846" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Come to upcoming trips again" classname="standby.standbyTest" time="5.303" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click details button to go to upcoming trip details" classname="standby.standbyTest" time="1.772" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Refresh the page" classname="standby.standbyTest" time="0.02100" assertions="0">
+    </testcase>
+  
+    <testcase name="Go to view reservation page" classname="standby.standbyTest" time="10.57" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter PNR and go to reservation details page" classname="standby.standbyTest" time="2.779" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click stand by link on view reservation page" classname="standby.standbyTest" time="0.3700" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify stand by list page analytics when coming from view reservation details" classname="standby.standbyTest" time="0.4140" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

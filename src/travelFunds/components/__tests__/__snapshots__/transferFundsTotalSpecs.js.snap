@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransferFundsTotal should render the component 1`] = `
+<div
+  className="transfer-funds-total"
+>
+  <div
+    className="transfer-funds-total--amount"
+  >
+    <PriceTotalLine
+      title="total transferred"
+      total={
+        Object {
+          "amount": "100.00",
+          "currencyCode": "USD",
+          "currencySymbol": "$",
+        }
+      }
+      type="total"
+    />
+  </div>
+</div>
+`;

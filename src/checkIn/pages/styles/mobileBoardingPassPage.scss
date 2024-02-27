@@ -1,0 +1,23 @@
+.mobile-boarding-pass {
+  @include flex;
+  @include bdt;
+  @include bdsdkblue;
+  @include p5;
+  top: $global-header-height;
+  height: auto;
+}
+
+.mobile-boarding-pass--paginated {
+  padding-bottom: 6rem !important;
+}
+
+.mobile-boarding-pass--iframes {
+  @include flex;
+  @include flex-grow1;
+  @include overflow-scroll;
+}
+
+.mobile-boarding-pass--content {
+  @include bgwhite;
+  @include border-none;
+}

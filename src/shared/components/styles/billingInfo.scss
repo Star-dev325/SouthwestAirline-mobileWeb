@@ -1,0 +1,41 @@
+.billing-info {
+  .row--col {
+    width: 50%;
+  }
+
+  .card-holder,
+  .billing-address {
+    @include wrap-word;
+  }
+
+  .card-holder {
+    @include truncate-text(92%);
+  }
+
+  .label-container--content {
+    @include mt0;
+  }
+
+  .label-container--label {
+    @include mb0;
+  }
+
+  .credit-card--info_number {
+    @include lineheight10;
+  }
+
+  .billing-info--row {
+    @include fullwidth;
+  }
+
+  .billing-info--col {
+    width: 50%;
+  }
+
+  &--amount-applied {
+    .currency {
+      @include xlarge;
+      @include bold;
+    }
+  }
+}

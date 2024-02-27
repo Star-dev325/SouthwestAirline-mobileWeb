@@ -1,0 +1,17 @@
+.aircraft-type-footer {
+  @include white;
+  @include lineheight12;
+  @include medium;
+  @include pb4;
+  @include pl4;
+  @include pr4;
+}
+
+.aircraft-footer-dark {
+  @include pdkblue;
+  @include lineheight12;
+  @include medium;
+  @include pb4;
+  @include pl4;
+  @include pr4;
+}

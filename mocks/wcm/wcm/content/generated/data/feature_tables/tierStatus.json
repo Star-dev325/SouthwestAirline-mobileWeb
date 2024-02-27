@@ -1,0 +1,70 @@
+{
+  "revision": "20151027120529312",
+  "tier_benefits": {
+    "heading": "Tier Benefits",
+    "descriptions": [
+      {
+        "title": "A-List",
+        "color": "#294299",
+        "attributes": [
+          {
+            "attribute": "Earning Bonus",
+            "value": "25%"
+          },
+          {
+            "attribute": "Priority Boarding",
+            "value": true
+          },
+          {
+            "attribute": "Standby Priority",
+            "value": true
+          },
+          {
+            "attribute": "Fly By<sup>&reg;</sup>",
+            "attribute_suffix": "(Priority Security Line)",
+            "value": true
+          },
+          {
+            "attribute": "Dedicated Customer Service Phone Line",
+            "value": true
+          },
+          {
+            "attribute": "Free Inflight WiFi",
+            "value": false
+          }
+        ]
+      },
+      {
+        "title": "A-List Preferred",
+        "color": "#111b40",
+        "attributes": [
+          {
+            "attribute": "Earning Bonus",
+            "value": "100%"
+          },
+          {
+            "attribute": "Priority Boarding",
+            "value": true
+          },
+          {
+            "attribute": "Standby Priority",
+            "value": true
+          },
+          {
+            "attribute": "Fly By<sup>&reg;</sup>",
+            "attribute_suffix": "(Priority Security Line)",
+            "value": true
+          },
+          {
+            "attribute": "Dedicated Customer Service Phone Line",
+            "value": true
+          },
+          {
+            "attribute": "Free Inflight WiFi",
+            "value": true
+          }
+        ]
+      }
+    ]
+  }
+}

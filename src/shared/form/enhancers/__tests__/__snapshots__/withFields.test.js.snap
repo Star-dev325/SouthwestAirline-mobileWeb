@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withFields should only pass declared form data to child component 1`] = `
+<div>
+  <div>
+    <div
+      class="input"
+    >
+      <input
+        class=""
+      />
+    </div>
+  </div>
+</div>
+`;

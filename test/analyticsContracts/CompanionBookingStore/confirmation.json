@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "confirmation": {
+      "type": "object",
+      "properties": {
+        "reservationGroups": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "passengerType": {
+                "type": "string",
+                "enum": ["COMPANION"]
+              },
+              "pnr": { "type": "string" },
+              "earlyBirdSucceeded": {
+                "type": "boolean"
+              },
+              "earlyBirdTotalCostCents": {
+                "type": ["integer", "null"]
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "passengerType",
+              "pnr",
+              "earlyBirdSucceeded",
+              "earlyBirdTotalCostCents"
+            ]
+          }
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "reservationGroups"
+      ]
+    }
+  },
+  "required": [
+    "confirmation"
+  ]
+}

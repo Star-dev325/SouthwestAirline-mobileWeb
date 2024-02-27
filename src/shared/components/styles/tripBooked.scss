@@ -1,0 +1,8 @@
+.trip-booked {
+  @include pre-wrap;
+  @include px5;
+
+  .icon-container {
+    @include xxlarge;
+  }
+}

@@ -1,0 +1,73 @@
+.select-passengers-count-page {
+  background-color: $white;
+
+  &--list-item {
+    @include flex;
+    padding: 16px 0 16px 12px;
+
+    &-divider {
+      @include flex;
+      background-color: $gray3;
+      height: 1px;
+    }
+
+    &-title {
+      @include bold;
+      @include xlarge;
+      @include pblue;
+    }
+
+    &-desc {
+      @include gray5;
+      @include medium;
+    }
+
+    .text-wrapper {
+      @include flex-main-center;
+      @include flex;
+      @include flex-column;
+      @include flex-grow1;
+    }
+  }
+
+  .baby-on-board {
+    &--details {
+      @include flex;
+      padding: 0 16px;
+
+      a {
+        @include pblue;
+      }
+    }
+
+    &--text-wrapper {
+      @include flex;
+      @include flex-column;
+      @include flex-grow1;
+    }
+
+    &--title {
+      @include pdkblue;
+      @include bold;
+      @include xlarge;
+    }
+
+    &--desc {
+      @include medium;
+      margin: 12px 0;
+    }
+
+    &--content-link {
+      @include large;
+    }
+
+    &--icon {
+      min-width: 39px;
+      height: 44px;
+      background-image: url('/content/mkt/images/landing_pages/lap-child.svg');
+      margin-right: 16px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}

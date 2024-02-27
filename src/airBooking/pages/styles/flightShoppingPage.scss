@@ -1,0 +1,93 @@
+.flight-shopping-page {
+  @include bgpdkblue;
+
+  .page-header {
+    @include pr0;
+    @include py0;
+    @include flex;
+    @include flex-main-between;
+    @include flex-cross-center;
+    height: 44px;
+  }
+
+  .shopping-air-stations-overview {
+    @include mt5;
+    @include px4;
+  }
+}
+
+.flight-shopping-page--sga-message-banner,
+.flight-shopping-page--basic-banner {
+  @include mt0;
+  @include mb3;
+}
+
+.flight-shopping-page--promo-code-banner {
+  @include mt0;
+}
+
+.flight-shopping-page--products-container {
+  @include px4;
+  @include pt5;
+  @include pb3;
+}
+
+.flight-shopping-page--product-card {
+  @include my5;
+}
+
+.flight-shopping-page--bound-card {
+  @include my5;
+}
+
+.flight-shopping-page--airport-info {
+  @include ml2;
+  @include regular;
+  @include italic;
+}
+
+.flight-shopping-page--sort-select {
+  @include p0;
+  @include white;
+  @include bgsblue;
+  @include large;
+  @include regular;
+  @include border-none;
+  @include square;
+  @include left-divider;
+  width: auto;
+  box-shadow: none;
+
+  select.dropdown {
+    @include block;
+    @include white;
+    @include large;
+    @include border-none;
+    @include bgtransp;
+    @include mr4;
+    padding: 1.5rem;
+  }
+
+  .icon_caret-down {
+    @include white;
+    @include xlarge;
+    right: 0.5rem;
+    margin-top: -0.9rem;
+  }
+}
+
+.is-webview {
+  &.flight-shopping-page {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .calendar-strip,
+      .shopping-air-stations-overview,
+      .flight-shopping-page--products-container,
+      .flight-shopping-page--footer {
+        @include tablet-content-frame-lg;
+        @include mx-auto;
+      }
+    }
+  }
+}

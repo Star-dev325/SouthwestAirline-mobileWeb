@@ -1,0 +1,607 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`airportSelectorField multiSelectGroup should use airportGroupShortDisplayName, airportGroupSubtitle when multiselectgroups are selected 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="airport-selector"
+      >
+        <div
+          class="clickable-div input"
+        >
+          <div
+            class="input--label"
+          >
+            <i
+              class="icon icon_airplane-depart"
+            />
+          </div>
+          <div
+            class="ellipsis"
+          >
+            <div
+              class="airport-selector--placeholder-container py3"
+            >
+              <div
+                class="airport-selector--placeholder"
+              >
+                From
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="test-airport-list-cancel"
+          />
+          <div
+            class="test-airport-list"
+          >
+            AirportList
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`airportSelectorField multiSelectGroup should use small font size when select a multi word co-terminal like Washington DC that has a word in the name with more characters than the Magic Number 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="airport-selector airport-selector_native-horizontal"
+      >
+        <div
+          class="form-field--container"
+        >
+          <div
+            class="form-field--icon"
+          >
+            <i
+              class="icon icon_airplane-depart"
+            />
+          </div>
+          <div
+            class="form-field--text-container"
+          >
+            <div
+              class="form-field--text form-field--long-text"
+            >
+              Washington DC
+            </div>
+            <div
+              class="form-field--description"
+            >
+              Area Airports
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="test-airport-list-cancel"
+          />
+          <div
+            class="test-airport-list"
+          >
+            AirportList
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`airportSelectorField should display AirportList 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="airport-selector"
+      >
+        <div
+          class="clickable-div input"
+        >
+          <div
+            class="input--label"
+          >
+            <i
+              class="icon icon_airplane-depart"
+            />
+          </div>
+          <div
+            class="ellipsis"
+          >
+            <div
+              class="airport-selector--placeholder-container py3"
+            >
+              <div
+                class="airport-selector--placeholder"
+              >
+                From
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="test-airport-list-cancel"
+          />
+          <div
+            class="test-airport-list"
+          >
+            AirportList
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`airportSelectorField should display airport as disabled when pass disabled property 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="airport-selector"
+      >
+        <div
+          class="clickable-div input"
+        >
+          <div
+            class="input--label"
+          >
+            <i
+              class="icon icon_airplane-depart"
+            />
+          </div>
+          <div
+            class="ellipsis"
+          >
+            <div
+              class="airport-selector--placeholder-container py3"
+            >
+              <div
+                class="airport-selector--placeholder"
+              >
+                From
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="test-airport-list-cancel"
+          />
+          <div
+            class="test-airport-list"
+          >
+            AirportList
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`airportSelectorField should display description when description exists and not have value 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="airport-selector"
+      >
+        <div
+          class="clickable-div input"
+        >
+          <div
+            class="input--label"
+          >
+            <i
+              class="icon icon_airplane-depart"
+            />
+          </div>
+          <div
+            class="ellipsis"
+          >
+            <div
+              class="airport-selector--placeholder-container py3"
+            >
+              <div
+                class="airport-selector--placeholder"
+              >
+                From
+              </div>
+              <div
+                class="small"
+              >
+                hello world
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="test-airport-list-cancel"
+          />
+          <div
+            class="test-airport-list"
+          >
+            AirportList
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`airportSelectorField should display description when description not exist and not have value 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="airport-selector"
+      >
+        <div
+          class="clickable-div input"
+        >
+          <div
+            class="input--label"
+          >
+            <i
+              class="icon icon_airplane-depart"
+            />
+          </div>
+          <div
+            class="ellipsis"
+          >
+            <div
+              class="airport-selector--placeholder-container py3"
+            >
+              <div
+                class="airport-selector--placeholder"
+              >
+                From
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="test-airport-list-cancel"
+          />
+          <div
+            class="test-airport-list"
+          >
+            AirportList
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`airportSelectorField should display description when using native style and passed description 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="airport-selector"
+      >
+        <div
+          class="form-field--container"
+        >
+          <div
+            class="form-field--icon"
+          >
+            <i
+              class="icon icon_airplane-depart"
+            />
+          </div>
+          <div
+            class="form-field--text-container"
+          >
+            <div
+              class="form-field--placeholder"
+            >
+              From
+            </div>
+            <div
+              class="form-field--description"
+            >
+              description
+            </div>
+          </div>
+          <div
+            class="form-field--error-icon"
+          >
+            <i
+              class="icon icon_exclamation-circle"
+            />
+          </div>
+        </div>
+        <div>
+          <div
+            class="test-airport-list-cancel"
+          />
+          <div
+            class="test-airport-list"
+          >
+            AirportList
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`airportSelectorField should display icon when using native style and passed iconType 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="airport-selector"
+      >
+        <div
+          class="form-field--container"
+        >
+          <div
+            class="form-field--icon"
+          >
+            <i
+              class="icon icon_pin"
+            />
+          </div>
+          <div
+            class="form-field--text-container"
+          >
+            <div
+              class="form-field--placeholder"
+            >
+              From
+            </div>
+          </div>
+          <div
+            class="form-field--error-icon"
+          >
+            <i
+              class="icon icon_exclamation-circle"
+            />
+          </div>
+        </div>
+        <div>
+          <div
+            class="test-airport-list-cancel"
+          />
+          <div
+            class="test-airport-list"
+          >
+            AirportList
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`airportSelectorField should display icon when using native style and without iconType 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="airport-selector"
+      >
+        <div
+          class="form-field--container"
+        >
+          <div
+            class="form-field--text-container"
+          >
+            <div
+              class="form-field--placeholder"
+            >
+              From
+            </div>
+          </div>
+          <div
+            class="form-field--error-icon"
+          >
+            <i
+              class="icon icon_exclamation-circle"
+            />
+          </div>
+        </div>
+        <div>
+          <div
+            class="test-airport-list-cancel"
+          />
+          <div
+            class="test-airport-list"
+          >
+            AirportList
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`airportSelectorField should not display airport not found label 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="airport-selector"
+      >
+        <div
+          class="clickable-div input"
+        >
+          <div
+            class="input--label"
+          >
+            <i
+              class="icon icon_airplane-depart"
+            />
+          </div>
+          <div
+            class="ellipsis"
+          >
+            <div
+              class="airport-selector--placeholder-container py3"
+            >
+              <div
+                class="airport-selector--placeholder"
+              >
+                From
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="test-airport-list-cancel"
+          />
+          <div
+            class="test-airport-list"
+          >
+            AirportList
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`airportSelectorField should not render error icon with native style and horizontal layout 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="airport-selector airport-selector_native-horizontal"
+      >
+        <div
+          class="form-field--container"
+        >
+          <div
+            class="form-field--icon"
+          >
+            <i
+              class="icon icon_airplane-depart"
+            />
+          </div>
+          <div
+            class="form-field--text-container"
+          >
+            <div
+              class="form-field--placeholder"
+            >
+              From
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="test-airport-list-cancel"
+          />
+          <div
+            class="test-airport-list"
+          >
+            AirportList
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`airportSelectorField should render icon with native style when MWEB_HOMEPAGE_REDESIGN is true 1`] = `
+<i
+  class="icon icon_airplane-depart"
+/>
+`;
+
+exports[`airportSelectorField should render with native style 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="airport-selector"
+      >
+        <div
+          class="form-field--container"
+        >
+          <div
+            class="form-field--icon"
+          >
+            <i
+              class="icon icon_airplane-depart"
+            />
+          </div>
+          <div
+            class="form-field--text-container"
+          >
+            <div
+              class="form-field--placeholder"
+            >
+              From
+            </div>
+          </div>
+          <div
+            class="form-field--error-icon"
+          >
+            <i
+              class="icon icon_exclamation-circle"
+            />
+          </div>
+        </div>
+        <div>
+          <div
+            class="test-airport-list-cancel"
+          />
+          <div
+            class="test-airport-list"
+          >
+            AirportList
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

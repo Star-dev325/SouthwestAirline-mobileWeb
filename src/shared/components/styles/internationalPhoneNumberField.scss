@@ -1,0 +1,20 @@
+.international-phone-number-field {
+  .input {
+    @include border-none;
+  }
+
+  @include flex;
+  @include flex-main-between;
+  @include bgwhite;
+  @include bd;
+  @include rd3;
+}
+
+.international-phone-number-field--country-code {
+  @include pblue;
+  @include flex;
+  @include flex2;
+  @include bdr;
+  @include flex-main-center;
+  @include flex-cross-center;
+}

@@ -1,0 +1,41 @@
+.buttons-with-flex {
+  @include flex;
+  @include flex-main-around;
+  @include flex-cross-center;
+  @include px5;
+
+  .selected-passenger-number {
+    @include bold;
+    @include py3;
+    @include px5;
+    @include xxlarge;
+  }
+
+  .circular.button {
+    @include circle;
+    @include bd;
+    background: none;
+
+    &:active,
+    &:focus,
+    &:hover {
+      @include olnone;
+      background: none;
+    }
+
+    .icon {
+      @include pblue;
+      font-size: 2rem;
+    }
+  }
+
+  .button {
+    @include p3;
+
+    &:disabled {
+      @include bggray2;
+      color: $opacity40;
+      opacity: 0.3;
+    }
+  }
+}

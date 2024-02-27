@@ -1,0 +1,27 @@
+$global-header-height: 5.6rem;
+$page-header-height: 4.6rem;
+$select-passengers-continue-button-height: 8rem;
+
+$compact-bp: 350px;
+$tablet-bp: 768px;
+$desktop-bp: 1024px;
+
+$tablet-content-frame-width: 40%;
+$tablet-content-frame-min-width: 350px;
+$tablet-content-frame-max-width: 600px;
+
+$tablet-content-frame-whitespace: 40px;
+$tablet-content-frame-margin-top: $tablet-content-frame-whitespace;
+$tablet-content-frame-margin-bottom: $tablet-content-frame-whitespace;
+$tablet-content-frame-padding-top: $tablet-content-frame-whitespace;
+$tablet-content-frame-padding-bottom: $tablet-content-frame-whitespace;
+
+$tablet-banner-padding-left: 20%;
+
+// View hierarchy
+$toast-dialog-z-index: 90;
+$spinner-z-index: 100;
+$spinner-image-z-index: $spinner-z-index + 1;
+$re-login-modal-z-index: $spinner-z-index + 10;
+$popup-backdrop-z-index: $re-login-modal-z-index + 10;
+$popup-z-index: $popup-backdrop-z-index + 10;

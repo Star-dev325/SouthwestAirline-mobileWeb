@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TierBenefitsPage when wcm call is successful should display the categories form the wcm content 1`] = `
+<div>
+  <div
+    class="tier-benefits-page"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <a
+          class="goback-link"
+          href=""
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </a>
+        <span
+          class="header"
+          data-qa="tier-benefits-title"
+        >
+          I AM THE TITLE
+        </span>
+      </div>
+      <div />
+    </div>
+    <div
+      class="flex"
+      data-qa="tier-benefits-headings"
+    >
+      <div
+        class="flex6 larger p4 white center"
+        style="background: rgb(41, 66, 153);"
+      >
+        A-List
+      </div>
+      <div
+        class="flex6 larger p4 white center"
+        style="background: rgb(17, 27, 64);"
+      >
+        A-List Preferred
+      </div>
+    </div>
+    <div
+      class="flex flex-column"
+    >
+      <div
+        class="flex flex-cross-center py7 pdkblue center bgwhite"
+        data-qa="tier-benefits-category"
+      >
+        <div
+          class="flex2 medium"
+          style="color: rgb(41, 66, 153);"
+        >
+          25%
+        </div>
+        <div
+          class="flex8 larger flex flex-column"
+        >
+          <div>
+            Earning Bonus
+          </div>
+          <div
+            class="gray4 italic"
+          />
+        </div>
+        <div
+          class="flex2 medium"
+          style="color: rgb(17, 27, 64);"
+        >
+          100%
+        </div>
+      </div>
+      <div
+        class="flex flex-cross-center py7 pdkblue center bggray1"
+        data-qa="tier-benefits-category"
+      >
+        <div
+          class="flex2 medium"
+          style="color: rgb(41, 66, 153);"
+        >
+          <span
+            class="active-circle"
+            style="background: rgb(41, 66, 153);"
+          />
+        </div>
+        <div
+          class="flex8 larger flex flex-column"
+        >
+          <div>
+            Priority Boarding
+          </div>
+          <div
+            class="gray4 italic"
+          >
+            (Priority Security Line)
+          </div>
+        </div>
+        <div
+          class="flex2 medium"
+          style="color: rgb(17, 27, 64);"
+        >
+          <span
+            class="active-circle"
+            style="background: rgb(17, 27, 64);"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,318 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flight Details Page should pass correct date, from and to props to component SearchFlightsSummaryHeader 1`] = `
+<div>
+  <div
+    class="flight-details"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <span
+          class="page-title"
+        >
+          Flight Status
+        </span>
+        <span
+          class="page-title-details"
+        >
+          Flight 1632 / 1781
+        </span>
+      </div>
+      <div />
+    </div>
+    <div
+      class="flight-details-content"
+    >
+      <div
+        class="flight-search-summary"
+      >
+        <h5
+          class="page header attached flight-search-summary"
+        >
+          <p
+            class="sub header date"
+          >
+            SHARED__FLIGHTS_SUMMARY_HEADER__TODAY -  Sun, Apr 9, 2017
+          </p>
+          <p
+            class="sub header"
+          >
+            From: 
+            Austin, TX (AUS)
+          </p>
+          <p
+            class="sub header to"
+          >
+            To: 
+            Atlanta, GA (ATL)
+          </p>
+        </h5>
+      </div>
+      <div
+        class="results custom-container"
+      >
+        <div
+          class="segment-details"
+        >
+          <div
+            class="leg-details"
+          >
+            <div
+              class="banner boarding-header"
+            >
+              <div
+                class="banner-name"
+              >
+                FLIGHT_STATUS__NOW_BOARDING
+              </div>
+            </div>
+            <div
+              class="custom-container"
+            >
+              <div
+                class="aircraft-info"
+              >
+                <div
+                  class="flight-info-col"
+                >
+                  <div
+                    class="flight-number"
+                  >
+                    <span
+                      class="flight-number--label"
+                    >
+                      Flight
+                    </span>
+                    <span
+                      class="flight-number--info"
+                    >
+                      205
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-info-row flight-info"
+              >
+                <div
+                  class="flight-info-col"
+                >
+                  <div
+                    class="flight-info--label"
+                  >
+                    Departs
+                  </div>
+                  <div
+                    class="flight-info--flight-code"
+                  >
+                    ATL
+                  </div>
+                </div>
+                <div
+                  class="flight-info-col"
+                >
+                  <div
+                    class="flight-info--label"
+                  >
+                    Arrives
+                  </div>
+                  <div
+                    class="flight-info--flight-code"
+                  >
+                    HOU
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-status"
+              >
+                <div
+                  class="segment-status-col departure-status"
+                >
+                  <div
+                    class="flight-time-status flight-time-status--on-time"
+                  >
+                    <div>
+                      <span
+                        class="segment-status-col flight-status positive"
+                      >
+                        <i
+                          class="icon icon_home-flight-status"
+                        />
+                        <span
+                          class="flight-status--text"
+                        >
+                          ON TIME
+                        </span>
+                      </span>
+                    </div>
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          8:55
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="segment-status-col airplane-wrapper"
+                >
+                  <i
+                    class="icon icon_airplane"
+                  />
+                </div>
+                <div
+                  class="segment-status-col"
+                >
+                  <div
+                    class="flight-time-status flight-time-status--departed"
+                  >
+                    <div>
+                      <span
+                        class="segment-status-col flight-status positive"
+                      >
+                        <i
+                          class="icon icon_home-flight-status"
+                        />
+                        <span
+                          class="flight-status--text"
+                        >
+                          DEPARTED
+                        </span>
+                      </span>
+                    </div>
+                    <div
+                      class="flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          1:55
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                      <div
+                        class="multi-day-indicator multi-day-indicator--nextday-green"
+                        data-qa="next-day-indicator"
+                      >
+                        <i
+                          class="multi-day-indicator--icon multi-day-indicator--icon-small icon icon_next-day-indicator"
+                        />
+                        <p
+                          class="multi-day-indicator--font-small"
+                        >
+                          AIR_BOOKING__SHOPPING__NEXT_DAY
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="original-time-information"
+              >
+                <div
+                  class="flight-info-row flight-info"
+                >
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="flight-info--label"
+                    >
+                      Original
+                    </div>
+                    <div
+                      class="formatted-time"
+                    >
+                      6:20
+                      <span
+                        class="formatted-time--period"
+                      >
+                        AM
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="flight-info--label"
+                    >
+                      Original
+                    </div>
+                    <div
+                      class="formatted-time"
+                    >
+                      7:20
+                      <span
+                        class="formatted-time--period"
+                      >
+                        AM
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="gate-information"
+              >
+                <div
+                  class="flight-info-row flight-info"
+                >
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="flight-info--label"
+                    >
+                      Gate
+                    </div>
+                    <div
+                      class="flight-info--gate"
+                    >
+                      G21
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="flight-info--label"
+                    >
+                      Gate
+                    </div>
+                    <div
+                      class="flight-info--gate"
+                    >
+                      N/A
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,418 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app.jsx isJourneyBannerDisplayed should match the snapshot when isJourneyBannerDisplayed and appRef.current values are false 1`] = `
+<div
+  className="app"
+  id="app"
+  style={
+    Object {
+      "height": "calc(100% - 0px)",
+    }
+  }
+>
+  <Connect(Dialog) />
+  <Connect(ReLoginModal) />
+  <div
+    className="app__contents"
+    id="appContents"
+  >
+    <Connect(GlobalHeader)
+      id="appGlobalHeader"
+      onLoginClick={[Function]}
+      onLogoClick={[Function]}
+      onLogoutClick={[Function]}
+    />
+    <ErrorBoundary
+      FallbackComponent={[Function]}
+    />
+  </div>
+  <Connect(Drawer)
+    appOffsetTop={0}
+    appSizeGetter={[Function]}
+    isJourneyBannerDisplayed={false}
+  >
+    <Connect(NavContainer)
+      onLoginClick={[Function]}
+      onLogoutClick={[Function]}
+      onNavClick={[Function]}
+    />
+  </Connect(Drawer)>
+  <Connect(WithDisableScrolling) />
+  <div
+    aria-hidden="true"
+    className="fairwater-script hidden-font"
+  >
+     
+  </div>
+  <div
+    aria-hidden="true"
+    className="southwest-sans hidden-font"
+  >
+     
+  </div>
+  <div
+    aria-hidden="true"
+    className="southwest-sans bold hidden-font"
+  >
+     
+  </div>
+</div>
+`;
+
+exports[`app.jsx isJourneyBannerDisplayed should match the snapshot when isJourneyBannerDisplayed and appRef.current values are true 1`] = `
+<div
+  className="app"
+  id="app"
+  style={
+    Object {
+      "height": "calc(100% - 60px)",
+    }
+  }
+>
+  <Connect(Dialog) />
+  <Connect(ReLoginModal) />
+  <div
+    className="app__contents"
+    id="appContents"
+  >
+    <Connect(GlobalHeader)
+      id="appGlobalHeader"
+      onLoginClick={[Function]}
+      onLogoClick={[Function]}
+      onLogoutClick={[Function]}
+    />
+    <ErrorBoundary
+      FallbackComponent={[Function]}
+    />
+  </div>
+  <Connect(Drawer)
+    appOffsetTop={60}
+    appSizeGetter={[Function]}
+    isJourneyBannerDisplayed={true}
+  >
+    <Connect(NavContainer)
+      onLoginClick={[Function]}
+      onLogoutClick={[Function]}
+      onNavClick={[Function]}
+    />
+  </Connect(Drawer)>
+  <Connect(WithDisableScrolling) />
+  <div
+    aria-hidden="true"
+    className="fairwater-script hidden-font"
+  >
+     
+  </div>
+  <div
+    aria-hidden="true"
+    className="southwest-sans hidden-font"
+  >
+     
+  </div>
+  <div
+    aria-hidden="true"
+    className="southwest-sans bold hidden-font"
+  >
+     
+  </div>
+</div>
+`;
+
+exports[`app.jsx isJourneyBannerDisplayed should match the snapshot when isJourneyBannerDisplayed value is true 1`] = `
+<div
+  className="app"
+  id="app"
+  style={
+    Object {
+      "height": "calc(100% - 0px)",
+    }
+  }
+>
+  <Connect(Dialog) />
+  <Connect(ReLoginModal) />
+  <div
+    className="app__contents"
+    id="appContents"
+  >
+    <Connect(GlobalHeader)
+      id="appGlobalHeader"
+      onLoginClick={[Function]}
+      onLogoClick={[Function]}
+      onLogoutClick={[Function]}
+    />
+    <ErrorBoundary
+      FallbackComponent={[Function]}
+    />
+  </div>
+  <Connect(Drawer)
+    appOffsetTop={0}
+    appSizeGetter={[Function]}
+    isJourneyBannerDisplayed={true}
+  >
+    <Connect(NavContainer)
+      onLoginClick={[Function]}
+      onLogoutClick={[Function]}
+      onNavClick={[Function]}
+    />
+  </Connect(Drawer)>
+  <Connect(WithDisableScrolling) />
+  <div
+    aria-hidden="true"
+    className="fairwater-script hidden-font"
+  >
+     
+  </div>
+  <div
+    aria-hidden="true"
+    className="southwest-sans hidden-font"
+  >
+     
+  </div>
+  <div
+    aria-hidden="true"
+    className="southwest-sans bold hidden-font"
+  >
+     
+  </div>
+</div>
+`;
+
+exports[`app.jsx when UI_ENCRYPTION toggle is false when appReady is false should not render children 1`] = `null`;
+
+exports[`app.jsx when UI_ENCRYPTION toggle is false when appReady is true should render children 1`] = `
+<div
+  className="mock-children"
+>
+  Mock Child
+</div>
+`;
+
+exports[`app.jsx when UI_ENCRYPTION toggle is false when isHybridEnabled is false should not include the Encryption Provider 1`] = `null`;
+
+exports[`app.jsx when UI_ENCRYPTION toggle is false when isHybridEnabled is false should render the children 1`] = `null`;
+
+exports[`app.jsx when UI_ENCRYPTION toggle is false when isHybridEnabled is true should not include the Encryption Provider 1`] = `null`;
+
+exports[`app.jsx when UI_ENCRYPTION toggle is false when isHybridEnabled is true should render the children 1`] = `null`;
+
+exports[`app.jsx when UI_ENCRYPTION toggle is true when isHybridEnabled is false should include the Encryption Provider 1`] = `
+<MockEncryptionProvider
+  apiKey="mockApiKey"
+  channelId="MWEB"
+  jwtSettings={
+    Object {
+      "configs": Array [
+        Object {
+          "id": "mockFeatureOne",
+        },
+        Object {
+          "id": "mockFeatureTwo",
+        },
+      ],
+      "keyConfigMap": Object {
+        "featureOne": "mockFeatureOne",
+        "featureTwo": "mockFeatureTwo",
+      },
+    }
+  }
+  logger={
+    Object {
+      "error": [Function],
+      "warn": [Function],
+    }
+  }
+  schemas={
+    ObjectSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_excludedEdges": Array [],
+      "_nodes": Array [
+        "last_name",
+        "first_name",
+        "record_locator",
+      ],
+      "_sortErrors": [Function],
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "noUnknown": true,
+      },
+      "fields": Object {
+        "first_name": StringSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [],
+          "deps": Array [],
+          "exclusiveTests": Object {
+            "matches": false,
+            "required": true,
+            "trim": false,
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "label": "airbaggagereservationschema__first_name",
+            "nullable": false,
+            "presence": "required",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+          "type": "string",
+        },
+        "last_name": StringSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [],
+          "deps": Array [],
+          "exclusiveTests": Object {
+            "matches": false,
+            "required": true,
+            "trim": false,
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "label": "airbaggagereservationschema__last_name",
+            "nullable": false,
+            "presence": "required",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+          "type": "string",
+        },
+        "record_locator": StringSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [],
+          "deps": Array [],
+          "exclusiveTests": Object {
+            "matches": false,
+            "max": true,
+            "min": true,
+            "required": true,
+            "string_case": true,
+            "trim": false,
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "label": "airbaggagereservationschema__confirmation_number",
+            "nullable": false,
+            "presence": "required",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "type": "string",
+        },
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "noUnknown": true,
+        "nullable": false,
+        "presence": "optional",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "object",
+    }
+  }
+>
+  <div
+    className="mock-children"
+  >
+    Mock Child
+  </div>
+</MockEncryptionProvider>
+`;
+
+exports[`app.jsx when UI_ENCRYPTION toggle is true when isHybridEnabled is false should render children 1`] = `
+<div
+  className="mock-children"
+>
+  Mock Child
+</div>
+`;
+
+exports[`app.jsx when UI_ENCRYPTION toggle is true when isHybridEnabled is true should not include the Encryption Provider 1`] = `null`;
+
+exports[`app.jsx when UI_ENCRYPTION toggle is true when isHybridEnabled is true should render the children 1`] = `
+<div
+  className="mock-children"
+>
+  Mock Child
+</div>
+`;

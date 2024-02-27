@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BoundsHeader should render correctly 1`] = `
+<div>
+  <div
+    class="bounds-header"
+  >
+    <div
+      class="bounds-header--destination"
+    >
+      <div
+        class="trip-date-dest-city--city-name"
+      >
+        <span
+          class="trip-date-dest-city--trip-date"
+        >
+          Dec 29 - Jan 5
+        </span>
+        <span
+          class="trip-date-dest-city--destination-airport pblue"
+        >
+          mock destination description
+        </span>
+      </div>
+      <div>
+        <div
+          class="confirmation-label"
+          data-qa="confirmation-label"
+        >
+          SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+        </div>
+        <div
+          class="xlarge passenger-record-locator green align-right"
+          data-qa="passenger-record-locator"
+        >
+          mock record locator
+        </div>
+      </div>
+    </div>
+    <div
+      class="bounds-header--airports"
+    >
+      mock origination destination description
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BoundsHeader should render correctly if the date is not provided 1`] = `
+<div>
+  <div
+    class="bounds-header"
+  >
+    <div
+      class="bounds-header--destination"
+    >
+      <div
+        class="trip-date-dest-city--city-name"
+      >
+        <span
+          class="trip-date-dest-city--trip-date"
+        />
+        <span
+          class="trip-date-dest-city--destination-airport pblue"
+        >
+          mock destination description
+        </span>
+      </div>
+      <div>
+        <div
+          class="confirmation-label"
+          data-qa="confirmation-label"
+        >
+          SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+        </div>
+        <div
+          class="xlarge passenger-record-locator green align-right"
+          data-qa="passenger-record-locator"
+        >
+          mock record locator
+        </div>
+      </div>
+    </div>
+    <div
+      class="bounds-header--airports"
+    >
+      mock origination destination description
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,973 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpecialAssistanceForm prefill behavior should prefill when the user has already entered data for this form 1`] = `
+<div>
+  <form
+    class="special-assistance-form form"
+    name="FAKE_FORM_ID"
+    novalidate=""
+  >
+    <fieldset>
+      <div>
+        <div
+          class="page-header action-bar"
+          id=""
+        >
+          <ul
+            class="action-bar-buttons action-bar--left-buttons"
+          />
+          <div
+            class="action-bar--container"
+          >
+            <div
+              class="action-bar--title"
+            >
+              <span
+                class="action-bar--main-title"
+              >
+                SHARED__SPECIAL_ASSISTANCE__SA_PAGE_TITLE
+              </span>
+              <span
+                class="action-bar--sub-title"
+              />
+            </div>
+          </div>
+          <ul
+            class="action-bar-buttons action-bar--right-buttons"
+          >
+            <li
+              class="action-bar-buttons--item"
+            >
+              <button
+                class="button"
+                type="button"
+              >
+                SHARED__BUTTON_TEXT__CANCEL
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div />
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="secondary fill segment"
+        >
+          <p
+            class="helper-text"
+          >
+            SHARED__SPECIAL_ASSISTANCE__SA_HELP_TEXT
+          </p>
+          <p
+            class="helper-text"
+          >
+            <a
+              href="/special-assistance-info"
+              target="_blank"
+            >
+              Learn more
+            </a>
+          </p>
+          <div
+            class="fields sa-checkbox-fields divided grouped"
+          >
+            <label
+              class="fields--label"
+            >
+              SHARED__SPECIAL_ASSISTANCE__AIRPORT_ASSISTANCE_SEGMENT_LABEL
+            </label>
+            <div
+              class="field"
+            >
+              <div
+                class="checkbox-button relative flex checkbox-button--row_checked flex-cross-center"
+                name="BLIND"
+              >
+                <div
+                  class="flex1 flex-cross-center"
+                >
+                  <span
+                    class="checkbox-button--mark checkbox-button_checked"
+                  >
+                    <i
+                      class="absolute xlarge bgtransp icon icon_check"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="flex10 ml0"
+                >
+                  <div
+                    class="checkbox-button--children flex-equal-width ml2"
+                  >
+                    SHARED__SPECIAL_ASSISTANCE__AIRPORT_ASSISTANCE_BLIND
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="field"
+            >
+              <div
+                class="checkbox-button relative flex flex-cross-center"
+                name="DEAF"
+              >
+                <div
+                  class="flex1 flex-cross-center"
+                >
+                  <span
+                    class="checkbox-button--mark"
+                  >
+                    <i
+                      class="absolute xlarge bgtransp icon icon_check"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="flex10 ml0"
+                >
+                  <div
+                    class="checkbox-button--children flex-equal-width ml2"
+                  >
+                    SHARED__SPECIAL_ASSISTANCE__AIRPORT_ASSISTANCE_DEAF
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="field"
+            >
+              <div
+                class="checkbox-button relative flex flex-cross-center"
+                name="COGNITIVE_AND_DEVELOPMENTAL_SSR"
+              >
+                <div
+                  class="flex1 flex-cross-center"
+                >
+                  <span
+                    class="checkbox-button--mark"
+                  >
+                    <i
+                      class="absolute xlarge bgtransp icon icon_check"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="flex10 ml0"
+                >
+                  <div
+                    class="checkbox-button--children flex-equal-width ml2"
+                  >
+                    SHARED__SPECIAL_ASSISTANCE__AIRPORT_ASSISTANCE_COGNITIVE_AND_DEVELOPMENTAL_SSR
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="secondary fill segment"
+        >
+          <div
+            class="fields sa-checkbox-fields divided grouped"
+          >
+            <label
+              class="fields--label"
+            >
+              SHARED__SPECIAL_ASSISTANCE__ANIMALS__SEGMENT_LABEL
+            </label>
+            <div
+              class="field"
+            >
+              <div
+                class="checkbox-button relative flex flex-cross-center"
+                name="ASSISTANCE_ANIMAL"
+              >
+                <div
+                  class="flex1 flex-cross-center"
+                >
+                  <span
+                    class="checkbox-button--mark"
+                  >
+                    <i
+                      class="absolute xlarge bgtransp icon icon_check"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="flex10 ml0"
+                >
+                  <div
+                    class="checkbox-button--children flex-equal-width ml2"
+                  >
+                    SHARED__SPECIAL_ASSISTANCE__ASSISTANCE_ANIMAL
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="secondary fill segment"
+        >
+          <div
+            class="fields sa-radio-fields divided grouped"
+          >
+            <label
+              class="fields--label"
+            >
+              SHARED__SPECIAL_ASSISTANCE__WHEELCHAIR_ASSISTANCE_SEGMENT_LABEL
+            </label>
+            <div
+              class="field"
+            >
+              <div
+                class="sa-radio-options"
+              >
+                <div
+                  class="sa-radio-item"
+                  name="NONE"
+                >
+                  <div
+                    class="sa-radio-item--radio"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="sa-radio-item--text"
+                  >
+                    No wheelchair assistance needed
+                  </div>
+                </div>
+                <div
+                  class="sa-radio-item sa-radio-item_checked"
+                  name="AIRPORT_WHEELCHAIR"
+                >
+                  <div
+                    class="sa-radio-item--radio"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark active"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="sa-radio-item--text"
+                  >
+                    Can walk but need assistance to and from gate
+                  </div>
+                </div>
+                <div
+                  class="sa-radio-item"
+                  name="AISLE_CHAIR"
+                >
+                  <div
+                    class="sa-radio-item--radio"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="sa-radio-item--text"
+                  >
+                    Need lift/transfer assistance to and from aircraft seat
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="secondary fill segment"
+        >
+          <div
+            class="fields sa-radio-fields divided grouped"
+          >
+            <label
+              class="fields--label"
+            >
+              PERSONAL WHEELCHAIR STOWAGE
+            </label>
+            <div
+              class="field"
+            >
+              <div
+                class="sa-radio-options"
+              >
+                <div
+                  class="sa-radio-item sa-radio-item_checked"
+                  name="NONE"
+                >
+                  <div
+                    class="sa-radio-item--radio"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark active"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="sa-radio-item--text"
+                  >
+                    No wheelchair stowage needed
+                  </div>
+                </div>
+                <div
+                  class="sa-radio-item"
+                  name="MANUAL_WHEELCHAIR"
+                >
+                  <div
+                    class="sa-radio-item--radio"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="sa-radio-item--text"
+                  >
+                    Manual wheelchair
+                  </div>
+                </div>
+                <div
+                  class="sa-radio-item sa-radio-item_select"
+                  name="WET_CELL_BATTERY_WHEELCHAIR"
+                >
+                  <div
+                    class="sa-radio-item--radio"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="sa-radio-item--text"
+                  >
+                    Powered wheelchair (how many spillable batteries?)
+                  </div>
+                </div>
+                <div
+                  class="sa-radio-item sa-radio-item_select"
+                  name="DRY_CELL_BATTERY_WHEELCHAIR"
+                >
+                  <div
+                    class="sa-radio-item--radio"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="sa-radio-item--text"
+                  >
+                    Powered wheelchair (how many non-spillable batteries?)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="secondary fill segment"
+        >
+          <div
+            class="fields sa-checkbox-fields divided grouped"
+          >
+            <label
+              class="fields--label"
+            >
+              SHARED__SPECIAL_ASSISTANCE__OTHER_ASSISTANCE_SEGMENT_LABEL
+            </label>
+            <div
+              class="field"
+            >
+              <div
+                class="checkbox-button relative flex checkbox-button--row_checked flex-cross-center"
+                name="PEANUT_DUST_ALLERGY"
+              >
+                <div
+                  class="flex1 flex-cross-center"
+                >
+                  <span
+                    class="checkbox-button--mark checkbox-button_checked"
+                  >
+                    <i
+                      class="absolute xlarge bgtransp icon icon_check"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="flex10 ml0"
+                >
+                  <div
+                    class="checkbox-button--children flex-equal-width ml2"
+                  >
+                    SHARED__SPECIAL_ASSISTANCE__OTHER_ASSISTANCE_PEANUT_DUST_ALLERGY
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="field"
+            >
+              <div
+                class="checkbox-button relative flex flex-cross-center"
+                name="PORTABLE_OXYGEN_CONCENTRATOR"
+              >
+                <div
+                  class="flex1 flex-cross-center"
+                >
+                  <span
+                    class="checkbox-button--mark"
+                  >
+                    <i
+                      class="absolute xlarge bgtransp icon icon_check"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="flex10 ml0"
+                >
+                  <div
+                    class="checkbox-button--children flex-equal-width ml2"
+                  >
+                    SHARED__SPECIAL_ASSISTANCE__OTHER_ASSISTANCE_PORTABLE_OXYGEN_CONCENTRATOR
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="blue inverted segment"
+          color="blue"
+        >
+          <button
+            class="button button--fluid huge button--yellow"
+            type="submit"
+          >
+            SHARED__BUTTON_TEXT__SAVE
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`SpecialAssistanceForm render form components should render the correct form fields 1`] = `
+<div>
+  <form
+    class="special-assistance-form form"
+    name="FAKE_FORM_ID"
+    novalidate=""
+  >
+    <fieldset>
+      <div>
+        <div
+          class="page-header action-bar"
+          id=""
+        >
+          <ul
+            class="action-bar-buttons action-bar--left-buttons"
+          />
+          <div
+            class="action-bar--container"
+          >
+            <div
+              class="action-bar--title"
+            >
+              <span
+                class="action-bar--main-title"
+              >
+                SHARED__SPECIAL_ASSISTANCE__SA_PAGE_TITLE
+              </span>
+              <span
+                class="action-bar--sub-title"
+              />
+            </div>
+          </div>
+          <ul
+            class="action-bar-buttons action-bar--right-buttons"
+          >
+            <li
+              class="action-bar-buttons--item"
+            >
+              <button
+                class="button"
+                type="button"
+              >
+                SHARED__BUTTON_TEXT__CANCEL
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div />
+      </div>
+      <div
+        class="segments"
+      >
+        <div
+          class="secondary fill segment"
+        >
+          <p
+            class="helper-text"
+          >
+            SHARED__SPECIAL_ASSISTANCE__SA_HELP_TEXT
+          </p>
+          <p
+            class="helper-text"
+          >
+            <a
+              href="/special-assistance-info"
+              target="_blank"
+            >
+              Learn more
+            </a>
+          </p>
+          <div
+            class="fields sa-checkbox-fields divided grouped"
+          >
+            <label
+              class="fields--label"
+            >
+              SHARED__SPECIAL_ASSISTANCE__AIRPORT_ASSISTANCE_SEGMENT_LABEL
+            </label>
+            <div
+              class="field"
+            >
+              <div
+                class="checkbox-button relative flex flex-cross-center"
+                name="BLIND"
+              >
+                <div
+                  class="flex1 flex-cross-center"
+                >
+                  <span
+                    class="checkbox-button--mark"
+                  >
+                    <i
+                      class="absolute xlarge bgtransp icon icon_check"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="flex10 ml0"
+                >
+                  <div
+                    class="checkbox-button--children flex-equal-width ml2"
+                  >
+                    SHARED__SPECIAL_ASSISTANCE__AIRPORT_ASSISTANCE_BLIND
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="field"
+            >
+              <div
+                class="checkbox-button relative flex flex-cross-center"
+                name="DEAF"
+              >
+                <div
+                  class="flex1 flex-cross-center"
+                >
+                  <span
+                    class="checkbox-button--mark"
+                  >
+                    <i
+                      class="absolute xlarge bgtransp icon icon_check"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="flex10 ml0"
+                >
+                  <div
+                    class="checkbox-button--children flex-equal-width ml2"
+                  >
+                    SHARED__SPECIAL_ASSISTANCE__AIRPORT_ASSISTANCE_DEAF
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="field"
+            >
+              <div
+                class="checkbox-button relative flex flex-cross-center"
+                name="COGNITIVE_AND_DEVELOPMENTAL_SSR"
+              >
+                <div
+                  class="flex1 flex-cross-center"
+                >
+                  <span
+                    class="checkbox-button--mark"
+                  >
+                    <i
+                      class="absolute xlarge bgtransp icon icon_check"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="flex10 ml0"
+                >
+                  <div
+                    class="checkbox-button--children flex-equal-width ml2"
+                  >
+                    SHARED__SPECIAL_ASSISTANCE__AIRPORT_ASSISTANCE_COGNITIVE_AND_DEVELOPMENTAL_SSR
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="secondary fill segment"
+        >
+          <div
+            class="fields sa-checkbox-fields divided grouped"
+          >
+            <label
+              class="fields--label"
+            >
+              SHARED__SPECIAL_ASSISTANCE__ANIMALS__SEGMENT_LABEL
+            </label>
+            <div
+              class="field"
+            >
+              <div
+                class="checkbox-button relative flex flex-cross-center"
+                name="ASSISTANCE_ANIMAL"
+              >
+                <div
+                  class="flex1 flex-cross-center"
+                >
+                  <span
+                    class="checkbox-button--mark"
+                  >
+                    <i
+                      class="absolute xlarge bgtransp icon icon_check"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="flex10 ml0"
+                >
+                  <div
+                    class="checkbox-button--children flex-equal-width ml2"
+                  >
+                    SHARED__SPECIAL_ASSISTANCE__ASSISTANCE_ANIMAL
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="secondary fill segment"
+        >
+          <div
+            class="fields sa-radio-fields divided grouped"
+          >
+            <label
+              class="fields--label"
+            >
+              SHARED__SPECIAL_ASSISTANCE__WHEELCHAIR_ASSISTANCE_SEGMENT_LABEL
+            </label>
+            <div
+              class="field"
+            >
+              <div
+                class="sa-radio-options"
+              >
+                <div
+                  class="sa-radio-item sa-radio-item_checked"
+                  name="NONE"
+                >
+                  <div
+                    class="sa-radio-item--radio"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark active"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="sa-radio-item--text"
+                  >
+                    No wheelchair assistance needed
+                  </div>
+                </div>
+                <div
+                  class="sa-radio-item"
+                  name="AIRPORT_WHEELCHAIR"
+                >
+                  <div
+                    class="sa-radio-item--radio"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="sa-radio-item--text"
+                  >
+                    Can walk but need assistance to and from gate
+                  </div>
+                </div>
+                <div
+                  class="sa-radio-item"
+                  name="AISLE_CHAIR"
+                >
+                  <div
+                    class="sa-radio-item--radio"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="sa-radio-item--text"
+                  >
+                    Need lift/transfer assistance to and from aircraft seat
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="secondary fill segment"
+        >
+          <div
+            class="fields sa-radio-fields divided grouped"
+          >
+            <label
+              class="fields--label"
+            >
+              PERSONAL WHEELCHAIR STOWAGE
+            </label>
+            <div
+              class="field"
+            >
+              <div
+                class="sa-radio-options"
+              >
+                <div
+                  class="sa-radio-item sa-radio-item_checked"
+                  name="NONE"
+                >
+                  <div
+                    class="sa-radio-item--radio"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark active"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="sa-radio-item--text"
+                  >
+                    No wheelchair stowage needed
+                  </div>
+                </div>
+                <div
+                  class="sa-radio-item"
+                  name="MANUAL_WHEELCHAIR"
+                >
+                  <div
+                    class="sa-radio-item--radio"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="sa-radio-item--text"
+                  >
+                    Manual wheelchair
+                  </div>
+                </div>
+                <div
+                  class="sa-radio-item sa-radio-item_select"
+                  name="WET_CELL_BATTERY_WHEELCHAIR"
+                >
+                  <div
+                    class="sa-radio-item--radio"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="sa-radio-item--text"
+                  >
+                    Powered wheelchair (how many spillable batteries?)
+                  </div>
+                </div>
+                <div
+                  class="sa-radio-item sa-radio-item_select"
+                  name="DRY_CELL_BATTERY_WHEELCHAIR"
+                >
+                  <div
+                    class="sa-radio-item--radio"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="sa-radio-item--text"
+                  >
+                    Powered wheelchair (how many non-spillable batteries?)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="secondary fill segment"
+        >
+          <div
+            class="fields sa-checkbox-fields divided grouped"
+          >
+            <label
+              class="fields--label"
+            >
+              SHARED__SPECIAL_ASSISTANCE__OTHER_ASSISTANCE_SEGMENT_LABEL
+            </label>
+            <div
+              class="field"
+            >
+              <div
+                class="checkbox-button relative flex flex-cross-center"
+                name="PEANUT_DUST_ALLERGY"
+              >
+                <div
+                  class="flex1 flex-cross-center"
+                >
+                  <span
+                    class="checkbox-button--mark"
+                  >
+                    <i
+                      class="absolute xlarge bgtransp icon icon_check"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="flex10 ml0"
+                >
+                  <div
+                    class="checkbox-button--children flex-equal-width ml2"
+                  >
+                    SHARED__SPECIAL_ASSISTANCE__OTHER_ASSISTANCE_PEANUT_DUST_ALLERGY
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="field"
+            >
+              <div
+                class="checkbox-button relative flex flex-cross-center"
+                name="PORTABLE_OXYGEN_CONCENTRATOR"
+              >
+                <div
+                  class="flex1 flex-cross-center"
+                >
+                  <span
+                    class="checkbox-button--mark"
+                  >
+                    <i
+                      class="absolute xlarge bgtransp icon icon_check"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="flex10 ml0"
+                >
+                  <div
+                    class="checkbox-button--children flex-equal-width ml2"
+                  >
+                    SHARED__SPECIAL_ASSISTANCE__OTHER_ASSISTANCE_PORTABLE_OXYGEN_CONCENTRATOR
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="blue inverted segment"
+          color="blue"
+        >
+          <button
+            class="button button--fluid huge button--yellow"
+            type="submit"
+          >
+            SHARED__BUTTON_TEXT__SAVE
+          </button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;

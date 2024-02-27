@@ -1,0 +1,199 @@
+.flight-product--container {
+  @include relative;
+  @include fullwidth;
+  @include pdkblue;
+  @include flex;
+  @include flex-row;
+  @include flex-cross-start;
+
+  .main-col {
+    flex: 1;
+
+    .flight-times {
+      max-width: 200px;
+
+      .flight-time {
+        font-size: 1.7em;
+      }
+
+      .label-container--content {
+        @include mt1;
+      }
+    }
+
+    .flight-data,
+    .flags {
+      @include flex;
+      @include flex-row;
+      @include flex-cross-start;
+      @include flex-wrap;
+    }
+
+    .data-object {
+      @include rd2;
+      @include px4;
+      @include py1;
+      @include mt2;
+      @include mr2;
+      @include center;
+      min-width: 65px;
+
+      &.stops-flag {
+        @include bggray3;
+
+        &.nonstop {
+          @include bgteal;
+          @include white;
+        }
+
+        .stops {
+          @include bold;
+        }
+      }
+
+      &.low-fare-flag {
+        @include bggreen2;
+        @include white;
+        @include bold;
+      }
+    }
+
+    .time-info {
+      @include bold;
+      @include mr0;
+      @include px0;
+      min-width: 0;
+
+      &.next-day-overnight {
+        @include flex;
+        @include flex-cross-start;
+        @include ml2;
+        height: 1.5rem;
+      }
+    }
+  }
+
+  .fare-col {
+    @include ml3;
+    width: 10.5rem;
+
+    .fare-container {
+      border: 1px solid;
+      border-color: $sltblue;
+      border-radius: 1px;
+      height: 65px;
+      width: 100%;
+
+      &.unavailable {
+        border-color: $gray3;
+      }
+
+      &.current-flight-info {
+        @include border-none;
+      }
+    }
+
+    .fare-content {
+      @include bold;
+      @include center;
+      @include p2;
+      @include pblue;
+      border-bottom: 3px solid;
+      border-color: $ltblue;
+      height: 100%;
+      width: 100%;
+
+      &.unavailable {
+        @include flex;
+        @include flex-cross-center;
+        @include flex-main-center;
+        @include gray5;
+        @include border-none;
+      }
+
+      &.dynamic-waiver {
+        @include flex;
+        @include flex-cross-center;
+        @include flex-main-center;
+        @include px3;
+        @include border-none;
+      }
+
+      &.reaccom {
+        @include flex;
+        @include flex-column;
+        @include flex-main-center;
+        @include medium;
+        @include border-none;
+      }
+
+      &.current-flight-info {
+        @include bgpblue;
+        @include flex;
+        @include flex-column;
+        @include flex-main-center;
+        @include medium;
+        @include white;
+        @include border-none;
+      }
+    }
+
+    .fare-content-sameday {
+      @include bold;
+      @include center;
+      @include flex;
+      @include flex-cross-center;
+      @include flex-main-center;
+      @include p2;
+      @include pblue;
+      border-bottom: 3px solid;
+      border-color: $ltblue;
+      height: 100%;
+      width: 100%;
+    }
+
+    .label-text {
+      @include large;
+    }
+
+    .currency {
+      @include xxlarge;
+
+      &.strike-through {
+        @include gray5;
+        @include medium;
+        @include regular;
+      }
+    }
+
+    .flight-number-group {
+      @include center;
+      @include m5;
+
+      .label-container--content {
+        @include mt0;
+      }
+
+      .flight-number {
+        @include pdkblue;
+        @include bold;
+      }
+    }
+
+    .intl-points-taxes {
+      @include flex;
+      @include flex-main-center;
+    }
+
+    .intl-points-taxes--currency {
+      @include italic;
+      @include medium;
+    }
+  }
+
+  &.current-reservation-component {
+    .fare-content {
+      @include regular;
+    }
+  }
+}

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="27">
+
+  <testsuite name="checkIn.internationalCheckInTest"
+    errors="0" failures="0" hostname="" id="" package="checkIn" skipped="0"
+    tests="27" time="84.25" timestamp="Fri, 15 Dec 2023 01:35:34 GMT">
+  
+    <testcase name="go to check in from Nav draw" classname="checkIn.internationalCheckInTest" time="29.90" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search for an international reservation" classname="checkIn.internationalCheckInTest" time="6.305" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="See the first passport page" classname="checkIn.internationalCheckInTest" time="0.1400" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="The first passenger Passport page" classname="checkIn.internationalCheckInTest" time="17.63" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="See the first travel document page" classname="checkIn.internationalCheckInTest" time="0.03800" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to destination address page" classname="checkIn.internationalCheckInTest" time="1.475" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Destination address page" classname="checkIn.internationalCheckInTest" time="3.000" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Back to the first travel document page" classname="checkIn.internationalCheckInTest" time="0.04000" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to the second passenger page" classname="checkIn.internationalCheckInTest" time="0.3880" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="See the second passport page" classname="checkIn.internationalCheckInTest" time="0.7590" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="The Second passenger Passport page" classname="checkIn.internationalCheckInTest" time="5.465" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="See the second travel document page" classname="checkIn.internationalCheckInTest" time="0.04500" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to green card page" classname="checkIn.internationalCheckInTest" time="0.7160" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Green Card Page" classname="checkIn.internationalCheckInTest" time="2.823" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Back the second travel document page" classname="checkIn.internationalCheckInTest" time="0.03700" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to the third passenger page" classname="checkIn.internationalCheckInTest" time="0.3220" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="See the third passport page" classname="checkIn.internationalCheckInTest" time="0.3390" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="The third passenger Passport page" classname="checkIn.internationalCheckInTest" time="5.630" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="See the third travel document page" classname="checkIn.internationalCheckInTest" time="0.04000" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="See the visa page" classname="checkIn.internationalCheckInTest" time="0.4740" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Visa page" classname="checkIn.internationalCheckInTest" time="3.471" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Back the third travel document page" classname="checkIn.internationalCheckInTest" time="0.04100" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to second destination address page" classname="checkIn.internationalCheckInTest" time="0.4690" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="second destination address page" classname="checkIn.internationalCheckInTest" time="2.840" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Back the third travel document page again" classname="checkIn.internationalCheckInTest" time="0.03800" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="go to confirmation page" classname="checkIn.internationalCheckInTest" time="1.610" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check in confirmation page" classname="checkIn.internationalCheckInTest" time="0.2130" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

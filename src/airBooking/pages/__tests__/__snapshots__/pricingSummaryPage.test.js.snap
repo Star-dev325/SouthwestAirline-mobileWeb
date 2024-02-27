@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pricing Summary should handle placements and render promoBottom01 if it exists 1`] = `
+<div
+  class="pricing-summary--promos"
+>
+  <div
+    data-qa="observed-viewport"
+  >
+    <div
+      class="dynamic-placement"
+    >
+      <div
+        class="shimmer"
+      >
+        <div
+          class="shimmer--children"
+        >
+          <div
+            class="image-placement"
+          >
+            <div
+              data-qa="placement-link"
+            >
+              <img
+                alt="imageForegroundAltTextBottom1"
+                class="image-placement--background-image"
+                src="promoImageBackgroundBottom1"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pricing Summary should handle placements and render promoBottom02 if it exists 1`] = `
+<div
+  class="pricing-summary--promos"
+>
+  <div
+    data-qa="observed-viewport"
+  >
+    <div
+      class="dynamic-placement"
+    >
+      <div
+        class="shimmer"
+      >
+        <div
+          class="shimmer--children"
+        >
+          <div
+            class="image-placement"
+          >
+            <div
+              data-qa="placement-link"
+            >
+              <img
+                alt="imageForegroundAltTextBottom2"
+                class="image-placement--background-image"
+                src="promoImageBackgroundBottom2"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

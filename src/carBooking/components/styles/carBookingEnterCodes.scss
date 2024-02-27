@@ -1,0 +1,3 @@
+.car-promo-codes_duplicate-promos div:nth-child(3).car-promo-code-card form div:nth-child(3).promo-selector label {
+  @include red; //this css is because the requirement is to only highlight the second Promo Code ID field when there are duplicate promo codes.
+}

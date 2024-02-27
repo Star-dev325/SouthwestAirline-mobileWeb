@@ -1,0 +1,591 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EarlyBirdInPathBreakdown one way should render early bird bound 1`] = `
+<div>
+  <div
+    class="early-bird-in-path-breakdown"
+  >
+    <div
+      class="early-bird-in-path-breakdown--message"
+      data-qa="add-early-bird-check-in--message"
+    >
+      SHARED__EARLY_BIRD__CHECK_IN_MESSAGE
+    </div>
+    <div
+      class="flex flex-main-between bgwhite px5 py3 bdb"
+    >
+      <div
+        class="flex4"
+      >
+        <div
+          class="larger sdkblue"
+          data-qa="early-bird-bound--flight-info"
+        >
+          AUS - DAL
+        </div>
+        <div
+          class="gray4 medium"
+          data-qa="early-bird-bound--flight-number"
+        >
+          #2795
+        </div>
+      </div>
+      <div
+        class="flex8"
+      >
+        <div
+          class="flex flex-main-between early-bird-bound--passenger"
+        >
+          <div>
+            <div
+              class="sdkblue larger passenger-type"
+              data-qa="early-bird-bound--pax-type"
+            >
+              1 Adult
+            </div>
+            <div
+              class="gray4 italic medium"
+              data-qa="early-bird-bound--fare-product-type"
+            >
+              Wanna Get Away
+            </div>
+          </div>
+          <div
+            class="early-bird-bound--currency sdkblue"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                class="money-sign"
+              >
+                $
+              </span>
+              <span
+                data-qa="total-amount"
+              >
+                15.00
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex bgwhite py4 px5 flex-cross-center"
+    >
+      <span
+        class="larger flex7 gray5"
+      >
+        SHARED__EARLY_BIRD__CHECK_IN_ESTIMATED_TOTAL
+      </span>
+      <div
+        class="flex5 align-right"
+      >
+        <div
+          class="currency bold"
+        >
+          <span
+            class="money-sign"
+          >
+            $
+          </span>
+          <span
+            data-qa="total-amount"
+          >
+            15.00
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EarlyBirdInPathBreakdown one way when EARLY_BIRD_AB_TESTING is true should render earlyBirdSelected value 1`] = `
+<div>
+  <div
+    class="early-bird-in-path-breakdown"
+  >
+    <div
+      class="early-bird-in-path-breakdown--message bdt"
+      data-qa="add-early-bird-check-in--message"
+    >
+      SHARED__EARLY_BIRD__CHECK_IN_MESSAGE
+    </div>
+    <div
+      class="flex flex-main-between bgwhite px5 py3 bdb"
+    >
+      <div
+        class="flex4"
+      >
+        <div
+          class="larger sdkblue"
+          data-qa="early-bird-bound--flight-info"
+        >
+          AUS - DAL
+        </div>
+        <div
+          class="gray4 medium"
+          data-qa="early-bird-bound--flight-number"
+        >
+          #2795
+        </div>
+      </div>
+      <div
+        class="flex8"
+      >
+        <div
+          class="flex flex-main-between early-bird-bound--passenger"
+        >
+          <div>
+            <div
+              class="sdkblue larger passenger-type"
+              data-qa="early-bird-bound--pax-type"
+            >
+              1 Adult
+            </div>
+            <div
+              class="gray4 italic medium"
+              data-qa="early-bird-bound--fare-product-type"
+            >
+              Wanna Get Away
+            </div>
+          </div>
+          <div
+            class="early-bird-bound--currency sdkblue"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                class="money-sign"
+              >
+                $
+              </span>
+              <span
+                data-qa="total-amount"
+              >
+                15.00
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex bgwhite py4 px5 flex-cross-center"
+    >
+      <span
+        class="larger flex7 gray5"
+      >
+        SHARED__EARLY_BIRD__CHECK_IN_ESTIMATED_TOTAL
+      </span>
+      <div
+        class="flex5 align-right"
+      >
+        <div
+          class="currency bold"
+        >
+          <span
+            class="money-sign"
+          >
+            $
+          </span>
+          <span
+            data-qa="total-amount"
+          >
+            15.00
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EarlyBirdInPathBreakdown round trip should show early bird two bounds 1`] = `
+<div>
+  <div
+    class="early-bird-in-path-breakdown"
+  >
+    <div
+      class="early-bird-in-path-breakdown--message"
+      data-qa="add-early-bird-check-in--message"
+    >
+      SHARED__EARLY_BIRD__CHECK_IN_MESSAGE
+    </div>
+    <div
+      class="flex flex-main-between bgwhite px5 py3 bdb"
+    >
+      <div
+        class="flex4"
+      >
+        <div
+          class="larger gray4"
+          data-qa="early-bird-bound--flight-info"
+        >
+          AUS - DAL
+        </div>
+        <div
+          class="gray4 medium"
+          data-qa="early-bird-bound--flight-number"
+        >
+          #2795
+        </div>
+      </div>
+      <div
+        class="flex8"
+      >
+        <div
+          class="flex flex-main-between early-bird-bound--passenger early-bird-bound--passenger_ineligible"
+        >
+          <div>
+            <div
+              class="sdkblue larger passenger-type"
+              data-qa="early-bird-bound--pax-type"
+            >
+              Included*
+              <i
+                class="icon_a-list right"
+              />
+            </div>
+            <div
+              class="gray4 italic medium"
+              data-qa="early-bird-bound--fare-product-type"
+            >
+              Wanna Get Away
+            </div>
+          </div>
+          <div
+            class="early-bird-bound--currency sdkblue"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                class="money-sign"
+              >
+                $
+              </span>
+              <span
+                data-qa="total-amount"
+              >
+                0.00
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-main-between bgwhite px5 py3 bdb"
+    >
+      <div
+        class="flex4"
+      >
+        <div
+          class="larger gray4"
+          data-qa="early-bird-bound--flight-info"
+        >
+          AUS - DAL
+        </div>
+        <div
+          class="gray4 medium"
+          data-qa="early-bird-bound--flight-number"
+        >
+          #2795
+        </div>
+      </div>
+      <div
+        class="flex8"
+      >
+        <div
+          class="flex flex-main-between early-bird-bound--passenger early-bird-bound--passenger_ineligible"
+        >
+          <div>
+            <div
+              class="sdkblue larger passenger-type"
+              data-qa="early-bird-bound--pax-type"
+            >
+              Included*
+              <i
+                class="icon_a-list right"
+              />
+            </div>
+            <div
+              class="gray4 italic medium"
+              data-qa="early-bird-bound--fare-product-type"
+            >
+              Wanna Get Away
+            </div>
+          </div>
+          <div
+            class="early-bird-bound--currency sdkblue"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                class="money-sign"
+              >
+                $
+              </span>
+              <span
+                data-qa="total-amount"
+              >
+                0.00
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex bgwhite py4 px5 flex-cross-center"
+    >
+      <span
+        class="larger flex7 gray5"
+      >
+        SHARED__EARLY_BIRD__CHECK_IN_ESTIMATED_TOTAL
+      </span>
+      <div
+        class="flex5 align-right"
+      >
+        <div
+          class="currency bold"
+        >
+          <span
+            class="money-sign"
+          >
+            $
+          </span>
+          <span
+            data-qa="total-amount"
+          >
+            15.00
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EarlyBirdInPathBreakdown when early bird is ineligible should show ineligibility reasons 1`] = `
+<div>
+  <div
+    class="early-bird-in-path-breakdown"
+  >
+    <div
+      class="early-bird-in-path-breakdown--message"
+      data-qa="add-early-bird-check-in--message"
+    >
+      SHARED__EARLY_BIRD__CHECK_IN_MESSAGE
+    </div>
+    <div
+      class="flex flex-main-between bgwhite px5 py3 bdb"
+    >
+      <div
+        class="flex4"
+      >
+        <div
+          class="larger gray4"
+          data-qa="early-bird-bound--flight-info"
+        >
+          AUS - DAL
+        </div>
+        <div
+          class="gray4 medium"
+          data-qa="early-bird-bound--flight-number"
+        >
+          #2795
+        </div>
+      </div>
+      <div
+        class="flex8"
+      >
+        <div
+          class="flex flex-main-between early-bird-bound--passenger early-bird-bound--passenger_ineligible"
+        >
+          <div>
+            <div
+              class="sdkblue larger passenger-type"
+              data-qa="early-bird-bound--pax-type"
+            >
+              Included*
+              <i
+                class="icon_a-list right"
+              />
+            </div>
+            <div
+              class="gray4 italic medium"
+              data-qa="early-bird-bound--fare-product-type"
+            >
+              Wanna Get Away
+            </div>
+          </div>
+          <div
+            class="early-bird-bound--currency sdkblue"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                class="money-sign"
+              >
+                $
+              </span>
+              <span
+                data-qa="total-amount"
+              >
+                0.00
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-main-between bgwhite px5 py3 bdb"
+    >
+      <div
+        class="flex4"
+      >
+        <div
+          class="larger gray4"
+          data-qa="early-bird-bound--flight-info"
+        >
+          AUS - DAL
+        </div>
+        <div
+          class="gray4 medium"
+          data-qa="early-bird-bound--flight-number"
+        >
+          #2795
+        </div>
+      </div>
+      <div
+        class="flex8"
+      >
+        <div
+          class="flex flex-main-between early-bird-bound--passenger early-bird-bound--passenger_ineligible"
+        >
+          <div>
+            <div
+              class="sdkblue larger passenger-type"
+              data-qa="early-bird-bound--pax-type"
+            >
+              Included*
+              <i
+                class="icon_a-list right"
+              />
+            </div>
+            <div
+              class="gray4 italic medium"
+              data-qa="early-bird-bound--fare-product-type"
+            >
+              Wanna Get Away
+            </div>
+          </div>
+          <div
+            class="early-bird-bound--currency sdkblue"
+          >
+            <div
+              class="currency"
+            >
+              <span
+                class="money-sign"
+              >
+                $
+              </span>
+              <span
+                data-qa="total-amount"
+              >
+                0.00
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="early-bird-in-path-breakdown--eligibility-verbiage-reasons"
+      data-qa="add-early-bird-check-in--eligibility-verbiage-reasons"
+    >
+      <p>
+        mock reason
+      </p>
+    </div>
+    <div
+      class="flex bgwhite py4 px5 flex-cross-center"
+    >
+      <span
+        class="larger flex7 gray5"
+      >
+        SHARED__EARLY_BIRD__CHECK_IN_ESTIMATED_TOTAL
+      </span>
+      <div
+        class="flex5 align-right"
+      >
+        <div
+          class="currency bold"
+        >
+          <span
+            class="money-sign"
+          >
+            $
+          </span>
+          <span
+            data-qa="total-amount"
+          >
+            15.00
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EarlyBirdInPathBreakdown when earlyBirdEligibility is undefined should not show ineligibility reasons 1`] = `
+<div>
+  <div
+    class="early-bird-in-path-breakdown"
+  >
+    <div
+      class="early-bird-in-path-breakdown--message"
+      data-qa="add-early-bird-check-in--message"
+    >
+      SHARED__EARLY_BIRD__CHECK_IN_MESSAGE
+    </div>
+    <div
+      class="flex bgwhite py4 px5 flex-cross-center"
+    >
+      <span
+        class="larger flex7 gray5"
+      >
+        SHARED__EARLY_BIRD__CHECK_IN_ESTIMATED_TOTAL
+      </span>
+      <div
+        class="flex5 align-right"
+      >
+        <div
+          class="currency bold"
+        >
+          <span
+            class="money-sign"
+          >
+            $
+          </span>
+          <span
+            data-qa="total-amount"
+          >
+            0.00
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

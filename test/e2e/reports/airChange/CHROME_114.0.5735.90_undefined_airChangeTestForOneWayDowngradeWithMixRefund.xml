@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="10">
+
+  <testsuite name="airChange.airChangeTestForOneWayDowngradeWithMixRefund"
+    errors="0" failures="1" hostname="" id="" package="airChange" skipped="4"
+    tests="10" time="51.10" timestamp="Fri, 15 Dec 2023 01:03:24 GMT">
+  
+    <testcase name="Login user" classname="airChange.airChangeTestForOneWayDowngradeWithMixRefund" time="30.92" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View flight reservation through with confirmation number" classname="airChange.airChangeTestForOneWayDowngradeWithMixRefund" time="3.158" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Choose the change flight option" classname="airChange.airChangeTestForOneWayDowngradeWithMixRefund" time="1.387" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select the outbound to change" classname="airChange.airChangeTestForOneWayDowngradeWithMixRefund" time="1.961" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search new flight search criteria " classname="airChange.airChangeTestForOneWayDowngradeWithMixRefund" time="2.735" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select a flight product" classname="airChange.airChangeTestForOneWayDowngradeWithMixRefund" time="10.94" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;div[data-qa=&#34;flight-products&#34;] .flight-product-section:nth-child(3)&gt; to be present for 10000 milliseconds.">    at Object.module.exports.command (/Users/x311032/spa-mobile-web/test/e2e/commands/clickVisible.js:2:8)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Click continue button on Repricing Page" classname="airChange.airChangeTestForOneWayDowngradeWithMixRefund">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click continue button on Pricing Summary Page" classname="airChange.airChangeTestForOneWayDowngradeWithMixRefund">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Show Review Page" classname="airChange.airChangeTestForOneWayDowngradeWithMixRefund">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Show Confirmation Page" classname="airChange.airChangeTestForOneWayDowngradeWithMixRefund">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

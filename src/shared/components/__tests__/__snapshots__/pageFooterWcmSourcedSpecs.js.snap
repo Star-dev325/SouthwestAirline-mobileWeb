@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageFooterWcmSourced render footer with copyright 1`] = `
+<div
+  className="page-footer-wcm"
+>
+  <span
+    className="page-footer-wcm--copyright"
+  >
+    ©
+    2022
+     
+    Southwest Airlines Co. All Rights Reserved.
+  </span>
+</div>
+`;
+
+exports[`PageFooterWcmSourced render footer with copyright and Links when links are provided 1`] = `
+<div
+  className="page-footer-wcm"
+>
+  <div
+    className="page-footer-wcm--row"
+    key="0"
+  >
+    <PageFooterLink
+      key="0-0"
+      linkTarget="https://www.southwest.com/?ref=LinkMobileWeb&clk=LinkMobileWeb"
+      linkText="View full site"
+      linkType="browser"
+      showSeparator={true}
+    />
+    <PageFooterLink
+      key="1-0"
+      linkTarget="/contact-us"
+      linkText="Contact us"
+      linkType="browser"
+      showSeparator={true}
+    />
+    <PageFooterLink
+      key="2-0"
+      linkTarget="https://southwest.qa6.southwest.com/faq/"
+      linkText="FAQ"
+      linkType="browser"
+      showSeparator={false}
+    />
+  </div>
+  <div
+    className="page-footer-wcm--row"
+    key="1"
+  >
+    <PageFooterLink
+      key="0-1"
+      linkTarget="/terms-and-conditions?clk=GNAVTC"
+      linkText="Terms & Conditions"
+      linkType="browser"
+      showSeparator={true}
+    />
+    <PageFooterLink
+      key="1-1"
+      linkTarget="/privacy-policy?clk=GNAVPRIVACY"
+      linkText="Privacy Policy"
+      linkType="browser"
+      showSeparator={false}
+    />
+  </div>
+  <div
+    className="page-footer-wcm--row"
+    key="2"
+  >
+    <PageFooterLink
+      key="0-2"
+      linkTarget="https://www.southwest.com/dataprivacyrequest/"
+      linkText="Do Not Sell My Info"
+      linkType="browser"
+      showSeparator={false}
+    />
+  </div>
+  <span
+    className="page-footer-wcm--copyright"
+  >
+    ©
+    2022
+     
+    Southwest Airlines Co. All Rights Reserved.
+  </span>
+</div>
+`;
+
+exports[`PageFooterWcmSourced render with className when specified 1`] = `
+<div
+  className="page-footer-wcm some-class-name"
+>
+  <div
+    className="page-footer-wcm--row"
+    key="0"
+  >
+    <PageFooterLink
+      key="0-0"
+      linkTarget="https://www.southwest.com/?ref=LinkMobileWeb&clk=LinkMobileWeb"
+      linkText="View full site"
+      linkType="browser"
+      showSeparator={true}
+    />
+    <PageFooterLink
+      key="1-0"
+      linkTarget="/contact-us"
+      linkText="Contact us"
+      linkType="browser"
+      showSeparator={true}
+    />
+    <PageFooterLink
+      key="2-0"
+      linkTarget="https://southwest.qa6.southwest.com/faq/"
+      linkText="FAQ"
+      linkType="browser"
+      showSeparator={false}
+    />
+  </div>
+  <div
+    className="page-footer-wcm--row"
+    key="1"
+  >
+    <PageFooterLink
+      key="0-1"
+      linkTarget="/terms-and-conditions?clk=GNAVTC"
+      linkText="Terms & Conditions"
+      linkType="browser"
+      showSeparator={true}
+    />
+    <PageFooterLink
+      key="1-1"
+      linkTarget="/privacy-policy?clk=GNAVPRIVACY"
+      linkText="Privacy Policy"
+      linkType="browser"
+      showSeparator={false}
+    />
+  </div>
+  <div
+    className="page-footer-wcm--row"
+    key="2"
+  >
+    <PageFooterLink
+      key="0-2"
+      linkTarget="https://www.southwest.com/dataprivacyrequest/"
+      linkText="Do Not Sell My Info"
+      linkType="browser"
+      showSeparator={false}
+    />
+  </div>
+  <span
+    className="page-footer-wcm--copyright"
+  >
+    ©
+    2022
+     
+    Southwest Airlines Co. All Rights Reserved.
+  </span>
+</div>
+`;

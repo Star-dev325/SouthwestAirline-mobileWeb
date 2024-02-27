@@ -1,0 +1,6 @@
+@mixin banner-with-bg-image($image-url) {
+  @include aspect-ratio(3, 2);
+  background-image: url($image-url);
+  -webkit-background-size: cover;
+  background-size: cover;
+}

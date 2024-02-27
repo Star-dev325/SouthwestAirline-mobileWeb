@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="myAccount.upcomingTripsReaccomTest"
+    errors="0" failures="0" hostname="" id="" package="myAccount" skipped="0"
+    tests="3" time="53.73" timestamp="Fri, 15 Dec 2023 01:54:16 GMT">
+  
+    <testcase name="Go MyAccount home page then Upcoming Trips" classname="myAccount.upcomingTripsReaccomTest" time="43.99" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Upcoming trips Page then Tap Reaccom PNR ERSS1A Details Button" classname="myAccount.upcomingTripsReaccomTest" time="7.631" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify flight trip details page" classname="myAccount.upcomingTripsReaccomTest" time="2.107" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

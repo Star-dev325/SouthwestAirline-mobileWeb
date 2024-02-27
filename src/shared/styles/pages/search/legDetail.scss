@@ -1,0 +1,94 @@
+.leg-details {
+  @include bgwhite;
+
+  & + & {
+    @include mt2;
+  }
+
+  .flight-number--label {
+    @include gray5;
+    font-size: 1.3rem;
+  }
+
+  .flight-info {
+    @include mx0;
+  }
+
+  .aircraft-info {
+    @include mx0;
+    display: flex;
+  }
+
+  .flight-number--info {
+    @include ml2;
+    @include pdkblue;
+    @include bold;
+    font-size: 1.3rem;
+  }
+
+  .flight-info-col {
+    &:first-child {
+      width: 60%;
+    }
+
+    &:last-child {
+      width: 40%;
+    }
+  }
+
+  .flight-info--label {
+    @include gray5;
+    @include caps;
+    font-size: 1.1rem;
+  }
+
+  .flight-info--flight-code,
+  .flight-info--gate {
+    @include pdkblue;
+    @include bold;
+    font-size: 1.9rem;
+  }
+
+  .formatted-time {
+    @include pdkblue;
+    @include xlarge;
+    @include bold;
+  }
+
+  .formatted-time--period {
+    @include small;
+  }
+
+  .segment-status {
+    @include table;
+    @include fullwidth;
+
+    .segment-status-col {
+      @include table-cell;
+
+      &.airplane-wrapper {
+        @include align-middle;
+      }
+
+      .flight-time {
+        @include xxxlarge;
+      }
+
+      .formatted-time--period {
+        font-size: 1.3rem;
+      }
+
+      .icon_airplane {
+        font-size: 2rem;
+      }
+
+      &:first-child {
+        width: 40%;
+      }
+
+      &:last-child {
+        width: 40%;
+      }
+    }
+  }
+}

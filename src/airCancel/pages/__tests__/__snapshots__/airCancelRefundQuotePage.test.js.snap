@@ -1,0 +1,1203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AirCancelRefundQuotePage should render page and form 1`] = `
+<div>
+  <div
+    class="cancel-flight"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        AIR_CANCEL__HEADER_MESSAGE__TITLE
+      </div>
+      <div />
+    </div>
+    <div
+      class="trip-booked cancel-refund-quote--header-message custom-container bgpdkblue white"
+    >
+      <div
+        class="trip-booked--content"
+      >
+        <div
+          class="swa-message p0 small information"
+        >
+          <span
+            class="icon-container"
+          >
+            <i
+              class="icon icon_ic-info"
+            />
+          </span>
+          <span
+            class="message--text"
+          >
+            <h3
+              class="xxlarge bold white inline-block"
+            >
+              Please review your cancellation.
+            </h3>
+          </span>
+        </div>
+        <div
+          class="mt4"
+        >
+          <p
+            class="larger white"
+          />
+          <p
+            class="medium white mt2"
+          >
+            The following flight(s) will be cancelled for all passengers.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <form
+        class="air-cancel-summary-form form"
+        name="airCancelRefundQuoteForm"
+        novalidate=""
+      >
+        <fieldset>
+          <div
+            class="p5"
+          >
+            <div
+              class="refund-summary-passengers bd"
+            >
+              <div
+                class="bgwhite flex flex-main-between p5"
+              >
+                <div
+                  class="label-container passenger-name"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div>
+                      <div>
+                        <span
+                          class="xlarge nowrap block block nowrap overflow-hidden ellipsis"
+                          data-qa="userName"
+                        >
+                          Juszr Hcxjv Hdcgo
+                        </span>
+                        <p
+                          class="nowrap block gray5"
+                        >
+                          601545232
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    CONFIRMATION #
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="xlarge align-right green"
+                      data-qa="confirmation-number"
+                    >
+                      J4PGLC
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gray5 bold large pt5 px5"
+          >
+            <label>
+              AIR_CANCEL__FLIGHT_INFO__CANCEL_FLIGHT_RESERVATION
+            </label>
+          </div>
+          <div
+            class="mx5 my4 bd"
+          >
+            <div
+              class="flight-info-summary"
+            >
+              <div
+                class="flight-brief-summary bgwhite bdb p5"
+              >
+                <div
+                  class="flex xlarge pdkblue bold"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Aug 1
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    ALB
+                  </div>
+                  <div
+                    class="flex2 flight-brief-summary--airplane center"
+                  >
+                    <i
+                      class="mt3 icon icon_airplane"
+                    />
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    DAL
+                  </div>
+                </div>
+                <div
+                  class="flex large gray4"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Saturday
+                  </div>
+                  <div
+                    class="flex2 flight-time"
+                  >
+                    <div
+                      class="flight-time--time"
+                    >
+                      <span>
+                        5:05
+                      </span>
+                      <span
+                        class="time-period"
+                      >
+                        AM
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="flex2"
+                  />
+                  <div
+                    class="flight-brief-summary--summary-group"
+                  >
+                    <div
+                      class="flex2 flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          11:15
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-brief-summary bgwhite bdb p5"
+              >
+                <div
+                  class="flex xlarge pdkblue bold"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Aug 8
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    DAL
+                  </div>
+                  <div
+                    class="flex2 flight-brief-summary--airplane center"
+                  >
+                    <i
+                      class="mt3 icon icon_airplane"
+                    />
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    ALB
+                  </div>
+                </div>
+                <div
+                  class="flex large gray4"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Saturday
+                  </div>
+                  <div
+                    class="flex2 flight-time"
+                  >
+                    <div
+                      class="flight-time--time"
+                    >
+                      <span>
+                        6:00
+                      </span>
+                      <span
+                        class="time-period"
+                      >
+                        AM
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="flex2"
+                  />
+                  <div
+                    class="flight-brief-summary--summary-group"
+                  >
+                    <div
+                      class="flex2 flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          12:05
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="cancel-refund-quote"
+            >
+              <div
+                class="price-line trip-totals--new-trip-total cancel-refund-quote--trip-totals"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  SHARED__REFUND_METHOD__REFUND_INFO_TRIP_TOTAL
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        245.96
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="refund-info-per-type p5 bgwhite bdt mx5 mt4 bd bdl bdr"
+            >
+              <div
+                class="price-line refund-info-per-type--price-total-line_credit"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Credit
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        45.96
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mx5 mb4 bdb bdl bdr"
+            >
+              <div
+                class="cancel-refund-quote"
+              >
+                <div
+                  class="refund-method pl5 bgwhite py2"
+                >
+                  <div
+                    class="fields divided grouped"
+                  >
+                    <div
+                      class="field"
+                    >
+                      <div
+                        class="no-shadow select-input icon-fixed"
+                      >
+                        <span>
+                          <select
+                            class="dropdown empty"
+                            data-qa="select-dropdown"
+                            name="refundMethod"
+                            placeholder="SHARED__REFUND_METHOD__SELECT_AN_OPTION"
+                          >
+                            <option
+                              class="placeholder"
+                              data-qa="dqa-disabled-option"
+                              disabled=""
+                              value=""
+                            >
+                              SHARED__REFUND_METHOD__SELECT_AN_OPTION
+                            </option>
+                            <option
+                              data-qa="dqa-enabled-option"
+                              value="BACK_TO_ORIGINAL_PAYMENT"
+                            >
+                              SHARED__REFUND_METHOD__REFUND_TO_CREDIT_CARD
+                            </option>
+                            <option
+                              data-qa="dqa-enabled-option"
+                              value="HOLD_FUTURE_USE"
+                            >
+                              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+                            </option>
+                          </select>
+                        </span>
+                        <input
+                          class=""
+                          icon="caret-down"
+                          name="refundMethod"
+                          placeholder="SHARED__REFUND_METHOD__SELECT_AN_OPTION"
+                        />
+                        <i
+                          class="icon icon_caret-down"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="refund-info-per-type p5 bgwhite bdt mx5 mt4 bd bdl bdr"
+            >
+              <div
+                class="price-line refund-info-per-type--price-total-line_credit"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Credit
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        200.00
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mx5 mb4 bdb bdl bdr p5 bgwhite"
+              data-qa="non-refundable-method"
+            >
+              <span
+                class="large gray4"
+              >
+                SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+              </span>
+            </div>
+          </div>
+          <div
+            class="px5 pb5"
+          >
+            <a
+              class="pblue medium cancellation-policy"
+              href="/cancellation-policy"
+              target="_blank"
+            >
+              AIR_CANCEL__WCM_LINK
+            </a>
+          </div>
+          <div
+            class="refund-summary"
+          >
+            <div
+              data-qa="refund-summary"
+            >
+              <div
+                class="refund-total-item_credit"
+              >
+                <div
+                  class="refund-total-item--body"
+                >
+                  <div
+                    class="flex flex-cross-center"
+                  >
+                    <span
+                      class="flex7 inline-block xlarge refund-total-item--message bold"
+                      data-qa="refund-message"
+                    >
+                      Total Credit
+                    </span>
+                    <div
+                      class="flex5 align-right"
+                    >
+                      <div
+                        class="currency refund-total-item-currency"
+                      >
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          45.96
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <div
+                class="refund-total-item_credit"
+              >
+                <div
+                  class="refund-total-item--body"
+                >
+                  <div
+                    class="flex flex-cross-center"
+                  >
+                    <span
+                      class="flex7 inline-block xlarge refund-total-item--message bold"
+                      data-qa="refund-message"
+                    >
+                      Total Credit
+                    </span>
+                    <div
+                      class="flex5 align-right"
+                    >
+                      <div
+                        class="currency refund-total-item-currency"
+                      >
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          200.00
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="refund-total-item--bottom"
+                  >
+                    <div
+                      class="flex5 align-left pt2"
+                    >
+                      <div
+                        data-qa="show-taxes-and-fees"
+                      >
+                        SHARED__REFUND_METHOD__REFUND_SUMMARY_TAXES_AND_FEES 
+                      </div>
+                    </div>
+                    <span
+                      class="flex7 align-right pt2 refund-total-item--bottom-message"
+                      data-qa="refund-method"
+                    >
+                      SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bgpblue p5 bd bdsdkblue"
+          >
+            <button
+              class="button button--fluid xlarge"
+              data-qa="cancel-button"
+              type="submit"
+            >
+              AIR_CANCEL__HEADER_MESSAGE__TITLE_FORM
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AirCancelRefundQuotePage should render the page correctly 1`] = `
+<div>
+  <div
+    class="cancel-flight"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        AIR_CANCEL__HEADER_MESSAGE__TITLE
+      </div>
+      <div />
+    </div>
+    <div
+      class="trip-booked cancel-refund-quote--header-message custom-container bgpdkblue white"
+    >
+      <div
+        class="trip-booked--content"
+      >
+        <div
+          class="swa-message p0 small information"
+        >
+          <span
+            class="icon-container"
+          >
+            <i
+              class="icon icon_ic-info"
+            />
+          </span>
+          <span
+            class="message--text"
+          >
+            <h3
+              class="xxlarge bold white inline-block"
+            >
+              Please review your cancellation.
+            </h3>
+          </span>
+        </div>
+        <div
+          class="mt4"
+        >
+          <p
+            class="larger white"
+          />
+          <p
+            class="medium white mt2"
+          >
+            The following flight(s) will be cancelled for all passengers.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <form
+        class="air-cancel-summary-form form"
+        name="airCancelRefundQuoteForm"
+        novalidate=""
+      >
+        <fieldset>
+          <div
+            class="p5"
+          >
+            <div
+              class="refund-summary-passengers bd"
+            >
+              <div
+                class="bgwhite flex flex-main-between p5"
+              >
+                <div
+                  class="label-container passenger-name"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div>
+                      <div>
+                        <span
+                          class="xlarge nowrap block block nowrap overflow-hidden ellipsis"
+                          data-qa="userName"
+                        >
+                          Juszr Hcxjv Hdcgo
+                        </span>
+                        <p
+                          class="nowrap block gray5"
+                        >
+                          601545232
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="label-container"
+                >
+                  <div
+                    class="label-container--label"
+                  >
+                    CONFIRMATION #
+                  </div>
+                  <div
+                    class="label-container--content"
+                  >
+                    <div
+                      class="xlarge align-right green"
+                      data-qa="confirmation-number"
+                    >
+                      J4PGLC
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gray5 bold large pt5 px5"
+          >
+            <label>
+              AIR_CANCEL__FLIGHT_INFO__CANCEL_FLIGHT_RESERVATION
+            </label>
+          </div>
+          <div
+            class="mx5 my4 bd"
+          >
+            <div
+              class="flight-info-summary"
+            >
+              <div
+                class="flight-brief-summary bgwhite bdb p5"
+              >
+                <div
+                  class="flex xlarge pdkblue bold"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Aug 1
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    ALB
+                  </div>
+                  <div
+                    class="flex2 flight-brief-summary--airplane center"
+                  >
+                    <i
+                      class="mt3 icon icon_airplane"
+                    />
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    DAL
+                  </div>
+                </div>
+                <div
+                  class="flex large gray4"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Saturday
+                  </div>
+                  <div
+                    class="flex2 flight-time"
+                  >
+                    <div
+                      class="flight-time--time"
+                    >
+                      <span>
+                        5:05
+                      </span>
+                      <span
+                        class="time-period"
+                      >
+                        AM
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="flex2"
+                  />
+                  <div
+                    class="flight-brief-summary--summary-group"
+                  >
+                    <div
+                      class="flex2 flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          11:15
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-brief-summary bgwhite bdb p5"
+              >
+                <div
+                  class="flex xlarge pdkblue bold"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Aug 8
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    DAL
+                  </div>
+                  <div
+                    class="flex2 flight-brief-summary--airplane center"
+                  >
+                    <i
+                      class="mt3 icon icon_airplane"
+                    />
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    ALB
+                  </div>
+                </div>
+                <div
+                  class="flex large gray4"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Saturday
+                  </div>
+                  <div
+                    class="flex2 flight-time"
+                  >
+                    <div
+                      class="flight-time--time"
+                    >
+                      <span>
+                        6:00
+                      </span>
+                      <span
+                        class="time-period"
+                      >
+                        AM
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="flex2"
+                  />
+                  <div
+                    class="flight-brief-summary--summary-group"
+                  >
+                    <div
+                      class="flex2 flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          12:05
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          PM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="cancel-refund-quote"
+            >
+              <div
+                class="price-line trip-totals--new-trip-total cancel-refund-quote--trip-totals"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  SHARED__REFUND_METHOD__REFUND_INFO_TRIP_TOTAL
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        245.96
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="refund-info-per-type p5 bgwhite bdt mx5 mt4 bd bdl bdr"
+            >
+              <div
+                class="price-line refund-info-per-type--price-total-line_credit"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Credit
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        45.96
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mx5 mb4 bdb bdl bdr"
+            >
+              <div
+                class="cancel-refund-quote"
+              >
+                <div
+                  class="refund-method pl5 bgwhite py2"
+                >
+                  <div
+                    class="fields divided grouped"
+                  >
+                    <div
+                      class="field"
+                    >
+                      <div
+                        class="no-shadow select-input icon-fixed"
+                      >
+                        <span>
+                          <select
+                            class="dropdown empty"
+                            data-qa="select-dropdown"
+                            name="refundMethod"
+                            placeholder="SHARED__REFUND_METHOD__SELECT_AN_OPTION"
+                          >
+                            <option
+                              class="placeholder"
+                              data-qa="dqa-disabled-option"
+                              disabled=""
+                              value=""
+                            >
+                              SHARED__REFUND_METHOD__SELECT_AN_OPTION
+                            </option>
+                            <option
+                              data-qa="dqa-enabled-option"
+                              value="BACK_TO_ORIGINAL_PAYMENT"
+                            >
+                              SHARED__REFUND_METHOD__REFUND_TO_CREDIT_CARD
+                            </option>
+                            <option
+                              data-qa="dqa-enabled-option"
+                              value="HOLD_FUTURE_USE"
+                            >
+                              SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+                            </option>
+                          </select>
+                        </span>
+                        <input
+                          class=""
+                          icon="caret-down"
+                          name="refundMethod"
+                          placeholder="SHARED__REFUND_METHOD__SELECT_AN_OPTION"
+                        />
+                        <i
+                          class="icon icon_caret-down"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="refund-info-per-type p5 bgwhite bdt mx5 mt4 bd bdl bdr"
+            >
+              <div
+                class="price-line refund-info-per-type--price-total-line_credit"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  Credit
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        200.00
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mx5 mb4 bdb bdl bdr p5 bgwhite"
+              data-qa="non-refundable-method"
+            >
+              <span
+                class="large gray4"
+              >
+                SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+              </span>
+            </div>
+          </div>
+          <div
+            class="px5 pb5"
+          >
+            <a
+              class="pblue medium cancellation-policy"
+              href="/cancellation-policy"
+              target="_blank"
+            >
+              AIR_CANCEL__WCM_LINK
+            </a>
+          </div>
+          <div
+            class="refund-summary"
+          >
+            <div
+              data-qa="refund-summary"
+            >
+              <div
+                class="refund-total-item_credit"
+              >
+                <div
+                  class="refund-total-item--body"
+                >
+                  <div
+                    class="flex flex-cross-center"
+                  >
+                    <span
+                      class="flex7 inline-block xlarge refund-total-item--message bold"
+                      data-qa="refund-message"
+                    >
+                      Total Credit
+                    </span>
+                    <div
+                      class="flex5 align-right"
+                    >
+                      <div
+                        class="currency refund-total-item-currency"
+                      >
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          45.96
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <div
+                class="refund-total-item_credit"
+              >
+                <div
+                  class="refund-total-item--body"
+                >
+                  <div
+                    class="flex flex-cross-center"
+                  >
+                    <span
+                      class="flex7 inline-block xlarge refund-total-item--message bold"
+                      data-qa="refund-message"
+                    >
+                      Total Credit
+                    </span>
+                    <div
+                      class="flex5 align-right"
+                    >
+                      <div
+                        class="currency refund-total-item-currency"
+                      >
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          200.00
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="refund-total-item--bottom"
+                  >
+                    <div
+                      class="flex5 align-left pt2"
+                    >
+                      <div
+                        data-qa="show-taxes-and-fees"
+                      >
+                        SHARED__REFUND_METHOD__REFUND_SUMMARY_TAXES_AND_FEES 
+                      </div>
+                    </div>
+                    <span
+                      class="flex7 align-right pt2 refund-total-item--bottom-message"
+                      data-qa="refund-method"
+                    >
+                      SHARED__REFUND_METHOD__HOLD_FOR_FUTURE_USE
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bgpblue p5 bd bdsdkblue"
+          >
+            <button
+              class="button button--fluid xlarge"
+              data-qa="cancel-button"
+              type="submit"
+            >
+              AIR_CANCEL__HEADER_MESSAGE__TITLE_FORM
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+`;

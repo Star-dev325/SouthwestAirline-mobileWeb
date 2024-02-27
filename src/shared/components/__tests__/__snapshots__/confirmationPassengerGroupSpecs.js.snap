@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmationPassengerGroup early bird should display lapChildConfirmation when lap child is in booking 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <ConfirmationPassengerGroup
+    greyBoxMessage={
+      Object {
+        "body": "A birth certificate or other government-issued identification bearing the birth date of each Lap Child is required upon request. <a href=\\"https://www.southwest.com/faq/age-verified\\" target=\\"_blank\\">Learn More</a>",
+        "header": "",
+        "key": "GREY_BOX_INFANT_ON_LAP_PURCHASE_CONFIRMATION",
+      }
+    }
+    passengers={
+      Array [
+        Object {
+          "displayName": "Hank the Cow Dog",
+          "firstName": "Hank",
+          "hasAnyEarlyBird": true,
+          "hasExtraSeat": true,
+          "lapInfant": Object {
+            "name": "Adult One",
+          },
+          "lastName": "CowDog",
+          "name": "Hank",
+        },
+      ]
+    }
+  >
+    <div
+      className="trip-passenger-info p4"
+    >
+      <div
+        className="medium gray5 mb2"
+        data-qa="passenger-label"
+      >
+        PASSENGER(S)
+      </div>
+      <div
+        className="passenger-pnr-group flex flex-column"
+        key="0"
+      >
+        <span
+          className="confirmation-trip-header--passenger-name xlarge block nowrap overflow-hidden ellipsis"
+        >
+          Hank the Cow Dog
+        </span>
+        <div
+          className="flex my1"
+        >
+          <div
+            className="confirmation-trip-header--passenger-extra-seat pr2"
+          >
+            Extra Seat
+          </div>
+          <EarlyBirdIconGroup>
+            <span
+              className="early-bird-wrap"
+            >
+              <Icon
+                data-qa="earlyBirdIcon"
+                type="early-bird"
+              >
+                <i
+                  className="icon icon_early-bird"
+                  data-qa="earlyBirdIcon"
+                />
+              </Icon>
+               
+              <span
+                className="early-bird-text"
+              >
+                 
+                EarlyBird
+                 
+              </span>
+            </span>
+          </EarlyBirdIconGroup>
+        </div>
+        <LapChildConfirmation
+          body="A birth certificate or other government-issued identification bearing the birth date of each Lap Child is required upon request. <a href=\\"https://www.southwest.com/faq/age-verified\\" target=\\"_blank\\">Learn More</a>"
+          lapInfant={
+            Object {
+              "name": "Adult One",
+            }
+          }
+        >
+          <div
+            className="confirmation-trip-header-lap-child"
+          >
+            <div
+              className="confirmation-trip-header-lap-child--lap-child-icon"
+            />
+            <div
+              className="confirmation-trip-header-lap-child--lap-child-info"
+            >
+              <span
+                className="confirmation-trip-header-lap-child--lap-child-title"
+              >
+                LAP CHILD
+              </span>
+              <span
+                className="confirmation-trip-header-lap-child--lap-child-name"
+              >
+                Adult One
+              </span>
+            </div>
+          </div>
+          <div
+            className="confirmation-trip-header--grey-box-message"
+          >
+            <Connect(ContentLink)
+              className="confirmation-trip-header--content-link"
+              raw="A birth certificate or other government-issued identification bearing the birth date of each Lap Child is required upon request. <a href=\\"https://www.southwest.com/faq/age-verified\\" target=\\"_blank\\">Learn More</a>"
+            >
+              <ContentLink
+                className="confirmation-trip-header--content-link"
+                raw="A birth certificate or other government-issued identification bearing the birth date of each Lap Child is required upon request. <a href=\\"https://www.southwest.com/faq/age-verified\\" target=\\"_blank\\">Learn More</a>"
+              >
+                <span
+                  className="confirmation-trip-header--content-link"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "A birth certificate or other government-issued identification bearing the birth date of each Lap Child is required upon request. <a href=\\"https://www.southwest.com/faq/age-verified\\" target=\\"_blank\\">Learn More</a>",
+                    }
+                  }
+                />
+              </ContentLink>
+            </Connect(ContentLink)>
+          </div>
+        </LapChildConfirmation>
+      </div>
+    </div>
+  </ConfirmationPassengerGroup>
+</Provider>
+`;

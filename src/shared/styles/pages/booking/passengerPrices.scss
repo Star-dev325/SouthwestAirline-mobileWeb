@@ -1,0 +1,16 @@
+.passenger-prices {
+  .passenger-prices-sub-total {
+    @include table;
+    @include fullwidth;
+
+    .title {
+      @include table-cell;
+      font-size: 1.5em;
+    }
+
+    .total-amount {
+      @include table-cell;
+      @include align-right;
+    }
+  }
+}

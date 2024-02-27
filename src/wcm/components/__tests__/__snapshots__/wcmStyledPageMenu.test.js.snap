@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WcmStyledPageMenu component should render an img component 1`] = `
+<div>
+  <a>
+    <img
+      alt="test"
+      class="image fit mt1"
+      src="test.png"
+    />
+  </a>
+</div>
+`;

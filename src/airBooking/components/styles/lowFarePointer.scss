@@ -1,0 +1,67 @@
+.low-fare-pointer {
+  @include flex;
+  @include fullwidth;
+  @include overflow-hidden;
+  @include flex-main-center;
+  @include flex-column;
+
+  .low-fare-pointer--lines {
+    @include flex;
+    @include flex-main-between;
+
+    .low-fare-pointer--right-line {
+      @include m0;
+
+      width: 47%;
+      height: 0.1rem;
+      background: $pblue;
+    }
+
+    .low-fare-pointer--left-line {
+      @include m0;
+      @include fullwidth;
+
+      height: 0.1rem;
+      background: $pblue;
+    }
+
+    .low-fare-pointer--left-line::before {
+      height: 0.1rem;
+      display: inline-block;
+      width: 1.9rem;
+      background-color: $white;
+      position: absolute;
+      left: 47%;
+    }
+
+    .low-fare-pointer--left-line-returning {
+      @extend .low-fare-pointer--left-line;
+
+      background: $green2;
+    }
+  }
+
+  .low-fare-icon {
+    color: $pblue;
+  }
+
+  .low-fare-icon--returning {
+    color: $green2;
+  }
+
+  .low-fare-pointer--center-line {
+    position: absolute;
+    top: 4.8rem;
+    left: 50%;
+    width: 0.2rem;
+    height: 80%;
+    margin-left: -0.1rem;
+    background: linear-gradient($pblue, $white) 100%;
+  }
+
+  .low-fare-pointer--center-line-returning {
+    @extend .low-fare-pointer--center-line;
+
+    background: linear-gradient($green2, $white) 100%;
+  }
+}

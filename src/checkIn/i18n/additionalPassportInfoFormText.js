@@ -1,0 +1,5 @@
+export default {
+  CHECK_IN__PLACE_HOLDERS__DESTINATION: 'Destination Address',
+  CHECK_IN__PLACE_HOLDERS__PERMANENT_RESIDENT_CARD: 'Green Card',
+  CHECK_IN__PLACE_HOLDERS__VISA: 'Visa'
+};

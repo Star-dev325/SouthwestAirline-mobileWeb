@@ -1,0 +1,67 @@
+.switch-button {
+  @include flex;
+  @include rd2;
+  @include overflow-hidden;
+  user-select: none;
+  border: 1px solid $pblue;
+  -webkit-tap-highlight-color: transparent;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .switch-button--item {
+    @include block;
+    @include flex-cross-center;
+    @include pblue;
+    @include center;
+    flex: 1;
+
+    &.active {
+      @include red;
+    }
+  }
+}
+
+.switch-button.switch-button--dollar-or-points {
+  &.dark {
+    @include bgpblue;
+
+    .switch-button--item {
+      @include pdkblue;
+
+      &.active {
+        @include white;
+        @include bgpdkblue;
+      }
+    }
+  }
+
+  .switch-button--item {
+    @include p2;
+    @include xlarge;
+
+    &.active {
+      @include white;
+      @include bgpblue;
+    }
+  }
+
+  &.switch-button--disabled {
+    border-color: $gray3;
+
+    .switch-button--item {
+      @include gray3;
+
+      &.active {
+        @include white;
+        @include bggray3;
+      }
+    }
+  }
+}
+
+.switch-button--align-vertically {
+  @include align-left;
+  @include flex-column;
+}

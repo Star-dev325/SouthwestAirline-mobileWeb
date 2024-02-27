@@ -1,0 +1,6 @@
+.error.field {
+  select,
+  .dropdown.empty {
+    @include red;
+  }
+}

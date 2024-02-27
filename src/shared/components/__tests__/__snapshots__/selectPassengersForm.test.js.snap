@@ -1,0 +1,388 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectPassengersForm render should render the component correctly 1`] = `
+<div>
+  <form
+    class="form"
+    name="AIR_CHANGE_SELECT_PASSENGERS_FORM"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="select-passengers-form--content-container"
+      >
+        <div
+          class="select-passengers-form--intro"
+        >
+          <p>
+            There are multiple passengers on this reservation. 
+            <b>
+              Select all the passengers you want to change.
+            </b>
+          </p>
+        </div>
+        <div
+          class="fields grouped"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="passenger-checkbox"
+            >
+              <div
+                class="passenger-checkbox--container"
+              >
+                <div
+                  class="passenger-checkbox--name"
+                >
+                  Sammy Travels
+                </div>
+                <div
+                  class="passenger-checkbox--passenger-type-and-button-container"
+                >
+                  <button
+                    class="toggle-switch button"
+                    type="button"
+                  >
+                    <div
+                      class="toggle-switch--slider"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="field"
+          >
+            <div
+              class="passenger-checkbox"
+            >
+              <div
+                class="passenger-checkbox--container"
+              >
+                <div
+                  class="passenger-checkbox--name"
+                >
+                  Andy Travels
+                </div>
+                <div
+                  class="passenger-checkbox--passenger-type-and-button-container"
+                >
+                  <button
+                    class="toggle-switch button"
+                    type="button"
+                  >
+                    <div
+                      class="toggle-switch--slider"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="select-passengers-form--continue-button"
+      >
+        <button
+          class="button button--fluid larger button--yellow"
+          type="submit"
+        >
+          SHARED__SELECT_PASSENGERS__BUTTON_TEXT__CONTINUE_TO_SELECT_FLIGHTS
+        </button>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`SelectPassengersForm render should render the email field with texts when showEmailFieldWithTexts is true 1`] = `
+<div>
+  <form
+    class="form"
+    name="AIR_CHANGE_SELECT_PASSENGERS_FORM"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="select-passengers-form--content-container"
+      >
+        <div
+          class="select-passengers-form--intro"
+        >
+          <p>
+            There are multiple passengers on this reservation. 
+            <b>
+              Select all the passengers you want to change.
+            </b>
+          </p>
+        </div>
+        <div
+          class="fields grouped"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="passenger-checkbox"
+            >
+              <div
+                class="passenger-checkbox--container"
+              >
+                <div
+                  class="passenger-checkbox--name"
+                >
+                  Sammy Travels
+                </div>
+                <div
+                  class="passenger-checkbox--passenger-type-and-button-container"
+                >
+                  <button
+                    class="toggle-switch button"
+                    type="button"
+                  >
+                    <div
+                      class="toggle-switch--slider"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="field"
+          >
+            <div
+              class="passenger-checkbox"
+            >
+              <div
+                class="passenger-checkbox--container"
+              >
+                <div
+                  class="passenger-checkbox--name"
+                >
+                  Andy Travels
+                </div>
+                <div
+                  class="passenger-checkbox--passenger-type-and-button-container"
+                >
+                  <button
+                    class="toggle-switch button"
+                    type="button"
+                  >
+                    <div
+                      class="toggle-switch--slider"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="select-passengers-form--texts-container"
+        >
+          <div
+            class="select-passengers-form--confirmation-text"
+          >
+            <p>
+              By clicking 'continue’, selected Passengers will 
+              <b>
+                receive a new confirmation number.
+              </b>
+            </p>
+          </div>
+          <div
+            class="select-passengers-form--additional-text"
+          >
+            <p>
+              This will be needed to manage and check in for any remaining flights. Unselected passengers on this reservation will keep the existing confirmation number and will not be affected.
+            </p>
+          </div>
+        </div>
+        <div
+          class="fields select-passengers-form--email-field grouped"
+        >
+          <div
+            class="select-passengers-form--email-field-label"
+          >
+            SHARED__SELECT_PASSENGERS__EMAIL_NEW_CONFIRMATION_TO
+          </div>
+          <div
+            class="field"
+          >
+            <div
+              class="input"
+            >
+              <input
+                class=""
+                name="receiptEmail"
+                placeholder="Email address"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="select-passengers-form--continue-button"
+      >
+        <button
+          class="button button--fluid larger button--yellow"
+          type="submit"
+        >
+          SHARED__SELECT_PASSENGERS__BUTTON_TEXT__CONTINUE_TO_SELECT_FLIGHTS
+        </button>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`SelectPassengersForm render should render with continue to review button text when showBoundSelection is false 1`] = `
+<div>
+  <form
+    class="form"
+    name="AIR_CHANGE_SELECT_PASSENGERS_FORM"
+    novalidate=""
+  >
+    <fieldset>
+      <div
+        class="select-passengers-form--content-container"
+      >
+        <div
+          class="select-passengers-form--intro"
+        >
+          <p>
+            There are multiple passengers on this reservation. 
+            <b>
+              Select all the passengers you want to change.
+            </b>
+          </p>
+        </div>
+        <div
+          class="fields grouped"
+        >
+          <div
+            class="field"
+          >
+            <div
+              class="passenger-checkbox"
+            >
+              <div
+                class="passenger-checkbox--container"
+              >
+                <div
+                  class="passenger-checkbox--name"
+                >
+                  Sammy Travels
+                </div>
+                <div
+                  class="passenger-checkbox--passenger-type-and-button-container"
+                >
+                  <button
+                    class="toggle-switch button"
+                    type="button"
+                  >
+                    <div
+                      class="toggle-switch--slider"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="field"
+          >
+            <div
+              class="passenger-checkbox"
+            >
+              <div
+                class="passenger-checkbox--container"
+              >
+                <div
+                  class="passenger-checkbox--name"
+                >
+                  Andy Travels
+                </div>
+                <div
+                  class="passenger-checkbox--passenger-type-and-button-container"
+                >
+                  <button
+                    class="toggle-switch button"
+                    type="button"
+                  >
+                    <div
+                      class="toggle-switch--slider"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="select-passengers-form--texts-container"
+        >
+          <div
+            class="select-passengers-form--confirmation-text"
+          >
+            <p>
+              By clicking 'continue’, selected Passengers will 
+              <b>
+                receive a new confirmation number.
+              </b>
+            </p>
+          </div>
+          <div
+            class="select-passengers-form--additional-text"
+          >
+            <p>
+              This will be needed to manage and check in for any remaining flights. Unselected passengers on this reservation will keep the existing confirmation number and will not be affected.
+            </p>
+          </div>
+        </div>
+        <div
+          class="fields select-passengers-form--email-field grouped"
+        >
+          <div
+            class="select-passengers-form--email-field-label"
+          >
+            SHARED__SELECT_PASSENGERS__EMAIL_NEW_CONFIRMATION_TO
+          </div>
+          <div
+            class="field"
+          >
+            <div
+              class="input"
+            >
+              <input
+                class=""
+                name="receiptEmail"
+                placeholder="Email address"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="select-passengers-form--continue-button"
+      >
+        <button
+          class="button button--fluid larger button--yellow"
+          type="submit"
+        >
+          SHARED__SELECT_PASSENGERS__BUTTON_TEXT__CONTINUE_TO_REVIEW
+        </button>
+      </div>
+    </fieldset>
+  </form>
+</div>
+`;

@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PromoCodes should render component 1`] = `
+<div>
+  <div
+    class="promo-codes--outer-container"
+  >
+    <div
+      class="promo-codes--image_dollar credit-card--image left mr2"
+    />
+    <div
+      class="promo-codes-item--info-container"
+    >
+      <div
+        class="promo-codes--text"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="promo-codes--title row--col active-promo-code"
+          >
+            ABCDEFGHI
+          </div>
+          <div
+            class="promo-codes--discount row--col active-discount"
+          >
+            20% Off
+          </div>
+        </div>
+        <div
+          class="additional-info-container"
+        >
+          Expiration: 11/01/2022
+        </div>
+        <div
+          class="promo-code-description"
+        >
+          This is a promo code
+        </div>
+        <button
+          class="button--link promo-codes-terms-link"
+        >
+          SHARED__PROMO_CODES__TERMS_AND_CONDITIONS
+        </button>
+        <div>
+          <div>
+            <div
+              class="page-header large action-bar"
+              id=""
+            >
+              <ul
+                class="action-bar-buttons action-bar--left-buttons"
+              />
+              <div
+                class="action-bar--container"
+              >
+                <div
+                  class="action-bar--title"
+                >
+                  <span
+                    class="action-bar--main-title"
+                  >
+                    SHARED__PROMO_CODES__TERMS_AND_CONDITIONS
+                  </span>
+                  <span
+                    class="action-bar--sub-title"
+                  />
+                </div>
+              </div>
+              <ul
+                class="action-bar-buttons action-bar--right-buttons"
+              >
+                <li
+                  class="action-bar-buttons--item"
+                >
+                  <button
+                    class="cancel button"
+                    type="button"
+                  >
+                    SHARED__BUTTON_TEXT__CANCEL
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div />
+          </div>
+          <div
+            class="promo-codes--modal"
+          >
+            These terms and conditions are mere suggestions.
+          </div>
+        </div>
+        <div
+          class="row promo-code-expired"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

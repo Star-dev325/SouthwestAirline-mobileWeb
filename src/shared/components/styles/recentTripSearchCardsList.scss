@@ -1,0 +1,13 @@
+.recent-trip-search-cards-list {
+  @include p4;
+  @include mt5;
+
+  .recent-trip-search-card {
+    @include mt4;
+  }
+}
+
+.recent-trip-search-cards-list--title {
+  @include yellow;
+  @include ml1;
+}

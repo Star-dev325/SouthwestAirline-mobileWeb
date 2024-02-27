@@ -1,0 +1,19 @@
+.nav-item-field-value {
+  @include gray4;
+  @include large;
+  @include truncate;
+}
+
+.nav-item-field {
+  @include bd;
+  @include rd3;
+  @include bgwhite;
+
+  &.nav-item-link {
+    @include flex;
+    @include flex-cross-center;
+
+    height: 4.5rem;
+    padding: 0 3.4rem 0 1.4rem;
+  }
+}

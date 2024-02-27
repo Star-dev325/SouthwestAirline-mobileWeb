@@ -1,0 +1,34 @@
+.image-item {
+  @include relative;
+  @include fullwidth;
+
+  .title {
+    @include absolute;
+    @include white;
+    top: 1.4rem;
+    left: 1.4rem;
+    font-size: 4.2rem;
+  }
+
+  .subtitle {
+    @include absolute;
+    @include white;
+    @include italic;
+    @include larger;
+    top: 6.3rem;
+    left: 1.4rem;
+  }
+
+  .overlay {
+    @include inline-block;
+    @include fullwidth;
+    background: linear-gradient(to bottom, $opacity60 0, transparent 14rem);
+
+    .image {
+      @include block;
+      @include relative;
+      @include fullwidth;
+      z-index: -1;
+    }
+  }
+}

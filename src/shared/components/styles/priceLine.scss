@@ -1,0 +1,60 @@
+.price-line {
+  @include table;
+  @include fullwidth;
+
+  .price-line--title {
+    @include table-cell;
+    @include align-left;
+  }
+
+  .price-amount {
+    @include table-cell;
+    @include align-right;
+  }
+
+  .money-sign {
+    @include regular;
+  }
+}
+
+%price-line--currency {
+  @include pdkblue;
+}
+
+.price-line--currency_normal {
+  @extend %price-line--currency;
+  @include table-cell;
+  @include align-right;
+  @include large;
+  @include lineheight16;
+}
+
+.price-line--currency_total {
+  @extend %price-line--currency;
+  @include white;
+  @include bold;
+  font-size: 3rem;
+}
+
+.price-line--currency_addup {
+  @extend %price-line--currency;
+  @include large;
+  @include bold;
+}
+
+.price-line--currency_total-per-person-type {
+  @extend %price-line--currency;
+  @include bold;
+  @include xlarge;
+  @include lineheight16;
+}
+
+.price-line--currency_total-per-section {
+  @extend %price-line--currency;
+  @include bold;
+  font-size: 2.6rem;
+}
+
+.price-amount .currency .money-sign {
+  @include bold;
+}

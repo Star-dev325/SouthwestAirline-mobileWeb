@@ -1,0 +1,35 @@
+.trip-card-flight-status {
+  @include table;
+  @include fullwidth;
+  @include pdkblue;
+
+  &--cell {
+    @include table-cell;
+    @include align-top;
+  }
+
+  .first-column {
+    width: 33%;
+  }
+
+  .flight-status-cell-group {
+    @include table;
+    @include fullwidth;
+  }
+
+  .cancelled-flight-status {
+    @include align-middle;
+    @include red;
+    @include bold;
+    @include large;
+    @include center;
+  }
+
+  .formatted-time--period {
+    @include small;
+  }
+
+  .departure-status {
+    width: 59%;
+  }
+}

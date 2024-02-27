@@ -1,0 +1,78 @@
+.car-booking-purchase-form,
+.car-booking-driver-info-edit-form {
+  @include m0;
+
+  .fields--label {
+    @include bold;
+    @include gray5;
+    @include large;
+  }
+
+  .button--fluid {
+    @include larger;
+  }
+
+  .radio-input.switch-button {
+    @include mt4;
+  }
+
+  p.helper-text {
+    @include medium;
+    @include gray5;
+    @include m0;
+    @include mt4;
+  }
+
+  .input {
+    @include mt4;
+    @include regular;
+  }
+
+  .fields > .label-container--label {
+    @include large;
+    @include bold;
+    @include gray5;
+  }
+
+  .error {
+    .dropdown,
+    .button--fluid {
+      @include red;
+    }
+  }
+
+  .segment {
+    @include m0;
+    @include bggray2;
+
+    &.secondary.fill {
+      @include p0;
+
+      .label-container--label {
+        @include ml5;
+      }
+    }
+  }
+
+  .grouped {
+    @include mt5;
+  }
+
+  a.nav-item-link {
+    @include mb0;
+  }
+
+  .price-line .price-line--title {
+    @include bold;
+  }
+}
+
+.is-webview {
+  .car-booking-purchase-form {
+    @include for-tablet-and-up {
+      @include bggray1;
+      @include tablet-content-frame-lg;
+      margin: 40px auto;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.saved-credit-cards {
+  @include pb6;
+
+  &_edit-mode {
+    @include pb7;
+  }
+}
+
+.saved-credit-cards--item {
+  @include bgwhite;
+  @include bdb;
+  @include py5;
+  @include px4;
+  @include relative;
+  height: 8rem;
+
+  .credit-card--image {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  &_selected {
+    .credit-card--image_new {
+      @include bggreen;
+    }
+
+    .credit-card--image_new-disabled {
+      @include bggray4;
+    }
+  }
+
+  .field {
+    @include mt0;
+  }
+}
+
+.saved-credit-cards--title {
+  @include bdb;
+  @include inline-block;
+  @include bold;
+  @include gray5;
+  @include fullwidth;
+  @include p5;
+  @include pt6;
+  @include pb4;
+}
+
+.ghost-card-nav-item .icon {
+  @include align-middle;
+  @include gray4;
+  font-size: 1.5em;
+}
+
+.saved-credit-cards--item-option {
+  display: none;
+}

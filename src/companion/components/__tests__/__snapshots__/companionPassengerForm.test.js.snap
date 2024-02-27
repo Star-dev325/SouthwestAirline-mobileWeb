@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`companionPassengerForm have correct components should have ContactMethodField 1`] = `
+<div
+  class="fields contact-method grouped"
+>
+  <label
+    class="fields--label"
+  >
+    SHARED__CONTACT_METHOD__LABEL
+  </label>
+  <div
+    class="field"
+  >
+    <a
+      class="nav-item-link nav-item-field"
+      name="contactMethodContent"
+    >
+      <div
+        class="fullwidth"
+      >
+        <span />
+        <div
+          class="nav-item-field-value"
+          data-qa="nav-item-field-value"
+        >
+          SHARED__CONTACT_METHOD_OPTION__DOMESTIC_OPTIONS_TEXT, (333)123-4567
+        </div>
+      </div>
+      <i
+        class="nav-item-link--icon icon icon_keyboard-arrow-right"
+      />
+    </a>
+  </div>
+</div>
+`;

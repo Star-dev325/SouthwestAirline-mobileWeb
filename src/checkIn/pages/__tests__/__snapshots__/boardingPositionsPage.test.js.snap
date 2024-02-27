@@ -1,0 +1,5383 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`boardingPositionsPage DynamicPlacement should not render when checkInConfirmationPromoTop01 is null in checkInConfirmationPagePlacements 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage DynamicPlacement should not render when viewUpgradedBoarding is false and checkInConfirmationPromoTop01 is null 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage DynamicPlacement should not render when viewUpgradedBoarding is null 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage DynamicPlacement should not render when viewUpgradedBoarding is true and checkInConfirmationPagePlacements null 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage DynamicPlacement should render when checkInConfirmationPromoTop01 is available in checkInConfirmationPagePlacements 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage DynamicPlacement should render when checkInConfirmationPromoTop01 is available in checkInConfirmationPagePlacements and with viewUpgradedBoarding as false 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage DynamicPlacement should render when checkInConfirmationPromoTop01 is available in checkInConfirmationPagePlacements and with viewUpgradedBoarding as true 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage check standard bags now button when viewModifyCheckedBags has value when viewReservationSearchRequest and upgradedBoardingFormData object is empty should pass createCheckInRequestObject function flights array 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+      <div
+        class="pt5"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="check-baggage-button"
+          type="button"
+        >
+          Check standard bags now
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage check standard bags now button when viewModifyCheckedBags has value when viewReservationSearchRequest has undefined values should use default values for firstName, lastName, and recordLocator 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+      <div
+        class="pt5"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="check-baggage-button"
+          type="button"
+        >
+          Check standard bags now
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage check standard bags now button when viewModifyCheckedBags has value when viewReservationSearchRequest object is empty should default the viewReservationSearchRequest value to an empty object if the viewReservationSearchRequest value is not set 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+      <div
+        class="pt5"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="check-baggage-button"
+          type="button"
+        >
+          Check standard bags now
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage check standard bags now button when viewModifyCheckedBags has value when viewReservationSearchRequest object is empty should pass createCheckInRequestObject function upgradedBoardingFormData object 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+      <div
+        class="pt5"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="check-baggage-button"
+          type="button"
+        >
+          Check standard bags now
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage check standard bags now button when viewModifyCheckedBags has value when viewReservationSearchRequest object is not empty should pass createCheckInRequestObject function viewReservationSearchRequest object 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+      <div
+        class="pt5"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="check-baggage-button"
+          type="button"
+        >
+          Check standard bags now
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage check standard bags now button when viewModifyCheckedBags has value when viewReservationSearchRequest object is not empty should use trackCheckedBags object when both trackCheckedBags and viewModifyCheckedBags are present 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+      <div
+        class="pt5"
+      >
+        <button
+          aria-label="CHECK_IN__CHECK_BAGGAGE_BUTTON__TRACK_BAGS__ARIA"
+          class="button button--fluid larger button--blue"
+          data-qa="check-baggage-button"
+          type="button"
+        >
+          Track checked bags
+          <i
+            aria-hidden="true"
+            class="external-link-icon icon icon_ic-external-link"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage check standard bags now button when viewModifyCheckedBags has value when viewReservationSearchRequest object is not empty should use trackCheckedBags object when it is present 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+      <div
+        class="pt5"
+      >
+        <button
+          aria-label="CHECK_IN__CHECK_BAGGAGE_BUTTON__TRACK_BAGS__ARIA"
+          class="button button--fluid larger button--blue"
+          data-qa="check-baggage-button"
+          type="button"
+        >
+          Track checked bags
+          <i
+            aria-hidden="true"
+            class="external-link-icon icon icon_ic-external-link"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage check standard bags now button when viewModifyCheckedBags is null should not render check standard bags now button 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage labelText has value should have overridden text on button 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          override
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            4
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          3:12
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        GATE
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div>
+                          ---
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Michael Joseph
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="passenger-card--boarding-info"
+                  >
+                    <div
+                      class="boarding-info--item-row"
+                    >
+                      <span
+                        class="boarding-info--item-label"
+                      >
+                        SHARED__BOARDING_INFORMATION__GROUP
+                      </span>
+                      <span
+                        class="boarding-info--item-content"
+                      >
+                         
+                        A
+                         
+                      </span>
+                    </div>
+                    <div
+                      class="boarding-info--item-row"
+                    >
+                      <span
+                        class="boarding-info--item-label"
+                      >
+                        SHARED__BOARDING_INFORMATION__POSITION
+                      </span>
+                      <span
+                        class="boarding-info--item-content"
+                      >
+                         
+                        24
+                         
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      class="view-boarding-pass-btn"
+                    >
+                      <button
+                        class="button button--fluid button--yellow"
+                        title="Boarding pass"
+                        type="button"
+                      >
+                        Boarding pass
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Jackie Robinson
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="passenger-card--boarding-info"
+                  >
+                    <div
+                      class="boarding-info--item-row"
+                    >
+                      <span
+                        class="boarding-info--item-label"
+                      >
+                        SHARED__BOARDING_INFORMATION__GROUP
+                      </span>
+                      <span
+                        class="boarding-info--item-content"
+                      >
+                         
+                        A
+                         
+                      </span>
+                    </div>
+                    <div
+                      class="boarding-info--item-row"
+                    >
+                      <span
+                        class="boarding-info--item-label"
+                      >
+                        SHARED__BOARDING_INFORMATION__POSITION
+                      </span>
+                      <span
+                        class="boarding-info--item-content"
+                      >
+                         
+                        27
+                         
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      class="view-boarding-pass-btn"
+                    >
+                      <button
+                        class="button button--fluid button--yellow"
+                        title="Boarding pass"
+                        type="button"
+                      >
+                        Boarding pass
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Bob Bobster
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="passenger-card--boarding-info"
+                  >
+                    <div
+                      class="boarding-info--item-row"
+                    >
+                      <span
+                        class="boarding-info--item-label"
+                      >
+                        SHARED__BOARDING_INFORMATION__GROUP
+                      </span>
+                      <span
+                        class="boarding-info--item-content"
+                      >
+                         
+                        A
+                         
+                      </span>
+                    </div>
+                    <div
+                      class="boarding-info--item-row"
+                    >
+                      <span
+                        class="boarding-info--item-label"
+                      >
+                        SHARED__BOARDING_INFORMATION__POSITION
+                      </span>
+                      <span
+                        class="boarding-info--item-content"
+                      >
+                         
+                        29
+                         
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      class="view-boarding-pass-btn"
+                    >
+                      <button
+                        class="button button--fluid button--yellow"
+                        title="Boarding pass"
+                        type="button"
+                      >
+                        Boarding pass
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage should display an EditContactMethodMessage if contactInformationMessage has contents and toggle is true 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="my6"
+    >
+      <div
+        class="large white contact-info-messages"
+      >
+        <p
+          class="mt2"
+          data-qa="body-text"
+        >
+          Please verify that your day of travel contact method is correct so we can keep you updated on changes or cancellations.
+        </p>
+        <p
+          class="contact-info-messages--link"
+        >
+          <a
+            data-qa="link-text"
+          >
+            Edit contact method
+          </a>
+        </p>
+      </div>
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage should not display an EditContactMethodMessage if contactInformationMessage has contents and toggle is FALSE 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage should not show footer HTML when footerWithLinks is not coming from CHAPI 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage should render the component when the messages are available 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="info-banner "
+    >
+      <div
+        class="info-banner--alert"
+      >
+        <i
+          class="icon icon_exclamation-circle warning"
+        />
+      </div>
+      <div
+        class="info-banner-container"
+      >
+        <b
+          class="info-banner-container--header"
+        >
+          Message Header
+        </b>
+        <p
+          class="info-banner-container--body"
+        >
+          Message Body
+        </p>
+        <div
+          class="info-banner-container--link"
+        >
+          <a
+            href="Message URL"
+            target="_blank"
+          >
+            Learn More 
+            <i
+              class="pblue xxlarge learn-more--icon icon icon_keyboard-arrow-right"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage should render the component when the messages are not available 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage should render the component with flight information 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage should show footer HTML when footerWithLinks is present from CHAPI 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="link-details"
+      >
+        <span
+          class="footerlink-with-text"
+        >
+          <a
+            href="mock-url"
+            target="_blank"
+          >
+            Mock Link
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage viewAllBoardingPassesLink is not null 3 passengers are eligble to view boarding pass should display three individual View Boarding Pass buttons 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      class="checkin-buttons-group"
+    >
+      <div
+        class="view-all-boarding-passes-button"
+      >
+        <button
+          class="button button--fluid larger button--blue"
+          data-qa="view-all-boarding-passes"
+          type="button"
+        >
+          SHARED__BUTTON_TEXT__VIEW_ALL_BOARDING_PASSES
+        </button>
+      </div>
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            4
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          3:12
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        GATE
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div>
+                          ---
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Michael Joseph
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="passenger-card--boarding-info"
+                  >
+                    <div
+                      class="boarding-info--item-row"
+                    >
+                      <span
+                        class="boarding-info--item-label"
+                      >
+                        SHARED__BOARDING_INFORMATION__GROUP
+                      </span>
+                      <span
+                        class="boarding-info--item-content"
+                      >
+                         
+                        A
+                         
+                      </span>
+                    </div>
+                    <div
+                      class="boarding-info--item-row"
+                    >
+                      <span
+                        class="boarding-info--item-label"
+                      >
+                        SHARED__BOARDING_INFORMATION__POSITION
+                      </span>
+                      <span
+                        class="boarding-info--item-content"
+                      >
+                         
+                        24
+                         
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      class="view-boarding-pass-btn"
+                    >
+                      <button
+                        class="button button--fluid button--yellow"
+                        title="Boarding pass"
+                        type="button"
+                      >
+                        Boarding pass
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Jackie Robinson
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="passenger-card--boarding-info"
+                  >
+                    <div
+                      class="boarding-info--item-row"
+                    >
+                      <span
+                        class="boarding-info--item-label"
+                      >
+                        SHARED__BOARDING_INFORMATION__GROUP
+                      </span>
+                      <span
+                        class="boarding-info--item-content"
+                      >
+                         
+                        A
+                         
+                      </span>
+                    </div>
+                    <div
+                      class="boarding-info--item-row"
+                    >
+                      <span
+                        class="boarding-info--item-label"
+                      >
+                        SHARED__BOARDING_INFORMATION__POSITION
+                      </span>
+                      <span
+                        class="boarding-info--item-content"
+                      >
+                         
+                        27
+                         
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      class="view-boarding-pass-btn"
+                    >
+                      <button
+                        class="button button--fluid button--yellow"
+                        title="Boarding pass"
+                        type="button"
+                      >
+                        Boarding pass
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Bob Bobster
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="passenger-card--boarding-info"
+                  >
+                    <div
+                      class="boarding-info--item-row"
+                    >
+                      <span
+                        class="boarding-info--item-label"
+                      >
+                        SHARED__BOARDING_INFORMATION__GROUP
+                      </span>
+                      <span
+                        class="boarding-info--item-content"
+                      >
+                         
+                        A
+                         
+                      </span>
+                    </div>
+                    <div
+                      class="boarding-info--item-row"
+                    >
+                      <span
+                        class="boarding-info--item-label"
+                      >
+                        SHARED__BOARDING_INFORMATION__POSITION
+                      </span>
+                      <span
+                        class="boarding-info--item-content"
+                      >
+                         
+                        29
+                         
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      class="view-boarding-pass-btn"
+                    >
+                      <button
+                        class="button button--fluid button--yellow"
+                        title="Boarding pass"
+                        type="button"
+                      >
+                        Boarding pass
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`boardingPositionsPage viewAllBoardingPassesLink is null should not display the View all boarding passes button 1`] = `
+<div>
+  <div
+    class="attach-top check-in-confirmation"
+  >
+    <div>
+      <div
+        class="page-header action-bar"
+        id=""
+      >
+        <div
+          class="goback-link"
+        >
+          <i
+            class="icon icon_keyboard-arrow-left"
+          />
+        </div>
+        <div
+          class="action-bar--container"
+        >
+          <div
+            class="action-bar--title-align-center action-bar--title"
+          >
+            <span
+              class="action-bar--main-title"
+            >
+              CHECK_IN__BOARDING_DETAILS__TITLE
+            </span>
+            <span
+              class="action-bar--sub-title"
+            />
+          </div>
+        </div>
+        <ul
+          class="action-bar-buttons action-bar--right-buttons"
+        />
+      </div>
+      <div />
+    </div>
+    <div
+      data-qa="observed-viewport"
+    >
+      <div
+        class="dynamic-placement"
+      >
+        <div
+          class="shimmer"
+        >
+          <div
+            class="shimmer--children"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx4 mb6"
+    >
+      <div
+        class="checkin-documents"
+      >
+        <div>
+          <div
+            class="bound-check-in-card"
+          >
+            <div>
+              <div
+                class="flight-info-bar"
+              >
+                <div
+                  class="flight-info-bar--title"
+                >
+                  <span
+                    class="flight-info-bar--title-text yellow"
+                  >
+                    DEPARTING
+                  </span>
+                </div>
+                <div
+                  class="flight-info-bar--row"
+                >
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-number"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-bar--col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <span
+                          class="flight-info-bar--departs-time"
+                        >
+                          7:35
+                        </span>
+                        <span
+                          class="flight-info-bar--departs-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="segment-checkin-documents"
+              >
+                <div
+                  class="passenger-card"
+                >
+                  <div
+                    class="passenger-card--info"
+                  >
+                    <div
+                      class="lap-child-icon hide"
+                    />
+                    <div
+                      class="passenger-card--label"
+                    >
+                      <div
+                        class="passenger-card--passenger-type-label flex7"
+                      >
+                        CHECK_IN__PASSENGER_LABEL
+                      </div>
+                    </div>
+                    <div
+                      class="passenger-card--content"
+                    >
+                      <div
+                        class="passenger-card--name overflow-hidden nowrap ellipsis flex7"
+                      >
+                        Fred Flintstone
+                      </div>
+                    </div>
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="tsa-precheck-icon hide"
+                      />
+                    </div>
+                  </div>
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

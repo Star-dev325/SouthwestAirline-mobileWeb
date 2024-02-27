@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="16">
+
+  <testsuite name="applePay.airChangeLoggedInWithTravelFunds"
+    errors="0" failures="1" hostname="" id="" package="applePay" skipped="9"
+    tests="16" time="59.98" timestamp="Fri, 15 Dec 2023 01:16:11 GMT">
+  
+    <testcase name="Login user" classname="applePay.airChangeLoggedInWithTravelFunds" time="35.42" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to view reservations from the nav drawer" classname="applePay.airChangeLoggedInWithTravelFunds" time="2.817" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View flight reservation through confirmation number" classname="applePay.airChangeLoggedInWithTravelFunds" time="2.942" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Choose change flight option" classname="applePay.airChangeLoggedInWithTravelFunds" time="1.145" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select the outbound to change" classname="applePay.airChangeLoggedInWithTravelFunds" time="5.052" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go the shopping page" classname="applePay.airChangeLoggedInWithTravelFunds" time="2.164" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select new flight for upgrade" classname="applePay.airChangeLoggedInWithTravelFunds" time="10.45" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;div[data-qa=&#34;flight-products&#34;] .flight-product-section:nth-child(4)&gt; to be present for 10000 milliseconds.">    at Object.module.exports.command (/Users/x311032/spa-mobile-web/test/e2e/commands/clickVisible.js:2:8)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Click continue button on Pricing Summary Page" classname="applePay.airChangeLoggedInWithTravelFunds">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Show Review Page and open Payment Edit page" classname="applePay.airChangeLoggedInWithTravelFunds">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Select Apple Pay as payment type" classname="applePay.airChangeLoggedInWithTravelFunds">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Apple Pay is selected on review page" classname="applePay.airChangeLoggedInWithTravelFunds">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Add Travel Funds" classname="applePay.airChangeLoggedInWithTravelFunds">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Go back to purchase summary page and ensure that Apple Pay is still selected" classname="applePay.airChangeLoggedInWithTravelFunds">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Stub and Move Ceptor Callback Function to prevent ApplePaySession errors" classname="applePay.airChangeLoggedInWithTravelFunds">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Purchase flight with Apple Pay" classname="applePay.airChangeLoggedInWithTravelFunds">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Route to confirmation page and ensure Apple Pay and travel funds are displayed" classname="applePay.airChangeLoggedInWithTravelFunds">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

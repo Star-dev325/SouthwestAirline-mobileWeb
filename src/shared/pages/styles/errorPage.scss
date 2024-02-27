@@ -1,0 +1,16 @@
+.error-page {
+  &--heading {
+    @include bold;
+    @include center;
+    @include p4;
+    @include xxlarge;
+  }
+
+  &--body {
+    @include p4;
+  }
+
+  &--placement {
+    @include mb4;
+  }
+}

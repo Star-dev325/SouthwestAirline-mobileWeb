@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LapChildDisclosure frequent traveler not selected should render adult text without text-above in className 1`] = `
+<div>
+  <div
+    class="lap-child-personal-info"
+  >
+    <div
+      class="lap-child-personal-info-form"
+    >
+      <p>
+        AIR_BOOKING__PASSENGERS__TITLE 1
+      </p>
+      <p
+        class="lap-child-personal-info-form--helper-text"
+      >
+        SHARED__LAP_CHILD__TITLE_EXCLUDING_LAP_CHILD
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LapChildDisclosure frequent traveler selected should render adult text with text-above in className 1`] = `
+<div>
+  <div
+    class="lap-child-personal-info--text-above"
+  >
+    <div
+      class="lap-child-personal-info-form"
+    >
+      <p>
+        AIR_BOOKING__PASSENGERS__TITLE 1
+      </p>
+      <p
+        class="lap-child-personal-info-form--helper-text"
+      >
+        SHARED__LAP_CHILD__TITLE_EXCLUDING_LAP_CHILD
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LapChildDisclosure render should render adult text 1`] = `
+<div>
+  <div
+    class="lap-child-personal-info"
+  >
+    <div
+      class="lap-child-personal-info-form"
+    >
+      <p>
+        AIR_BOOKING__PASSENGERS__TITLE 0
+      </p>
+      <p
+        class="lap-child-personal-info-form--helper-text"
+      >
+        SHARED__LAP_CHILD__TITLE_EXCLUDING_LAP_CHILD
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LapChildDisclosure render should render lap child text 1`] = `
+<div>
+  <div
+    class="lap-child-personal-info"
+  >
+    <div
+      class="lap-child-personal-info-form"
+    >
+      <p>
+        AIR_BOOKING__PASSENGERS__TITLE 1
+      </p>
+      <p
+        class="lap-child-personal-info-form--helper-text"
+      >
+        SHARED__LAP_CHILD__TITLE_LAP_CHILD
+      </p>
+    </div>
+    <p
+      class="lap-child-personal-info--helper-text"
+    >
+      AIR_BOOKING__PASSENGERS__LAPCHILD_INFO
+      <a
+        href="/lapChildFAQ"
+        target="_blank"
+      >
+        AIR_BOOKING__LEARN_MORE
+      </a>
+    </p>
+    <div
+      class="lap-child-personal-info-form"
+    >
+      AIR_BOOKING__PASSENGERS__LAPCHILD_PROOF_TITLE
+    </div>
+    <p
+      class="lap-child-personal-info--helper-text"
+    >
+      AIR_BOOKING__PASSENGERS__LAPCHILD_PROOF_INFO
+    </p>
+  </div>
+</div>
+`;

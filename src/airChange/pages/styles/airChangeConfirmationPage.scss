@@ -1,0 +1,31 @@
+.air-change-confirmation-page {
+  .reaccom-banner {
+    @include flex;
+    @include p4;
+    @include pdkblue;
+    @include bgwhite;
+  }
+
+  .reaccom-banner--body {
+    @include block;
+    @include large;
+  }
+}
+
+.view-travel-funds-button {
+  @include mb4;
+}
+
+.is-webview {
+  &.air-change-confirmation-container {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .air-change-confirmation-page {
+        @include tablet-content-frame-lg;
+        @include tablet-content-margins;
+        @include bggray2;
+      }
+    }
+  }
+}

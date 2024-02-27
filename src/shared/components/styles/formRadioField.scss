@@ -1,0 +1,23 @@
+.form-radio-field {
+  @include bdb;
+  @include flex;
+  @include flex-main-between;
+  @include bgwhite;
+  @include relative;
+}
+
+.form-radio-field--tips {
+  @include flex;
+  @include flex10;
+  @include px5;
+  @include py3;
+  @include gray4;
+}
+
+.form-radio-field--radio {
+  @include bdl;
+  @include flex;
+  @include flex2;
+
+  width: 6rem;
+}

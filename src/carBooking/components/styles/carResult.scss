@@ -1,0 +1,33 @@
+.rapid-rewards-partners {
+  @include pt2;
+  @include pl7;
+  @include ltblue;
+  background: $pblue url('/content/mkt/images/landing_pages/carBooking/rr-bg-swoop.svg') no-repeat 0 bottom;
+  background-size: 25%;
+  height: 25%;
+}
+
+.car-vendor-logo {
+  width: 80px;
+  max-height: 37px;
+}
+
+.car-vendor-logo-container {
+  height: 50px;
+}
+
+.car-result {
+  @include flex;
+  @include mb4;
+  height: 9rem;
+}
+
+.special-rate {
+  background: url('/content/mkt/images/landing_pages/carBooking/special-rate.png') no-repeat left/contain;
+  background-size: 1rem 1rem;
+}
+
+.available-car-vendor--currency {
+  @include bold;
+  @include xlarge;
+}

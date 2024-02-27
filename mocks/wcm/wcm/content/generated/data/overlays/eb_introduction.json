@@ -1,0 +1,12 @@
+{
+  "revision": "20150304105043618",
+  "overlay": {
+    "title": "EarlyBird Check-In®",
+    "body": [
+      {
+        "type": "text",
+        "value": "<p>We'll automatically check you in and reserve your boarding position before regular check-in begkins so you'll have a better seat selection.</p>\n<ul>\n<li>Automatic Check-In</li>\n<li>Better Boarding Position</li>\n<li>Earlier Access to Overhead Bins</li>\n</ul>\n<p>*Conveniently print your boarding pass with pre-assigned boarding position anytime within 24 hours of departure.</p>\n<p><strong>$15.00 per passenger, one-way.</strong></p>"
+      }
+    ]
+  }
+}

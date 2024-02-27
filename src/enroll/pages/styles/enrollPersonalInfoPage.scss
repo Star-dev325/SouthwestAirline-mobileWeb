@@ -1,0 +1,71 @@
+.enroll-personal-info-form {
+  @include m0;
+
+  .fields {
+    @include large;
+  }
+
+  .error.field {
+    .input,
+    .radio-input,
+    .dropdown,
+    select,
+    button {
+      @include red;
+    }
+  }
+
+  .fields--label {
+    @include bold;
+    @include large;
+    @include gray5;
+    @include mb5;
+  }
+
+  .helper-text-top {
+    @include gray5;
+    @include medium;
+  }
+
+  .helper-text-bottom {
+    @include mt4;
+    @include mb6;
+    @include gray5;
+    @include medium;
+  }
+
+  .input {
+    @include regular;
+    @include mt4;
+  }
+
+  .radio-input.switch-button {
+    @include mt4;
+  }
+
+  .grouped.fields {
+    @include mt6;
+
+    &:nth-of-type(2) {
+      @include mt4;
+    }
+  }
+
+  .segment {
+    @include bggray2;
+    padding: 1.6rem 1.2rem;
+
+    &.secondary.fill {
+      @include p0;
+
+      .fields--label {
+        @include inline-block;
+        @include mb5;
+      }
+    }
+
+    &.blue {
+      @include bgpblue;
+    }
+  }
+}

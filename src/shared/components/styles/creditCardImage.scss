@@ -1,0 +1,110 @@
+.credit-card--image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 33px;
+  width: 33px;
+}
+
+.credit-card--image_visa {
+  background-image: url('/content/mkt/images/payment_method/credit-card-visa.svg');
+}
+
+.credit-card--image_mastercard {
+  background-image: url('/content/mkt/images/payment_method/credit-card-master.svg');
+}
+
+.credit-card--image_amex {
+  background-image: url('/content/mkt/images/payment_method/credit-card-american-express.svg');
+}
+
+.credit-card--image_discover {
+  background-image: url('/content/mkt/images/payment_method/credit-card-discover.svg');
+}
+
+.credit-card--image_rapid-rewards-visa {
+  background-image: url('/content/mkt/images/payment_method/credit-card-rr-visa.svg');
+}
+
+.credit-card--image_ghost-card,
+.credit-card--image_uatp,
+.credit-card--image_diners {
+  background-image: url('/content/mkt/images/payment_method/credit-card-others.svg');
+}
+
+.credit-card--image_paypal {
+  background-image: url('/content/mkt/images/payment_method/credit-card-paypal.svg');
+}
+
+.credit-card--image_apple-pay {
+  background-image: url('/content/mkt/images/payment_method/credit-card-apple-pay.svg');
+}
+
+.credit-card--image_uplift {
+  background-image: url('/content/mkt/images/payment_method/credit-card-uplift.svg');
+}
+
+.travel-fund--image_rtf-not-leisure {
+  background-image: image-url('travel-funds/travel-fund-rtf-not-leisure.svg');
+}
+
+// TODO: Delete the old rtf icon in MOB-116576
+.travel-fund--image_rtf {
+  background-image: image-url('travel-funds/travel-fund-rtf.svg');
+}
+
+.travel-fund--confirmation-image_rtf {
+  background-image: image-url('travel-funds/travel-fund-confirmation-rtf.svg');
+}
+
+.travel-fund--image_luv-voucher {
+  background-image: image-url('travel-funds/travel-fund-luv-voucher.svg');
+}
+
+.travel-fund--image_gift-card {
+  background-image: image-url('travel-funds/travel-fund-gift-card.svg');
+}
+
+.travel-fund--image_rtf-leisure {
+  background-image: image-url('travel-funds/travel-fund-rtf-leisure.svg');
+}
+
+.promo-codes--image_dollar {
+  background-image: url('/content/mkt/images/icons/dollar_circle.svg');
+}
+
+.promo-codes--image_dollar-inactive {
+  background-image: url('/content/mkt/images/icons/dollar_circle_inactive.svg');
+}
+
+.promo-codes--image_points {
+  background-image: url('/content/mkt/images/icons/points_circle.svg');
+}
+
+.promo-codes--image_points-inactive {
+  background-image: url('/content/mkt/images/icons/points_circle_inactive.svg');
+}
+
+.promo-codes--image_dollar-points {
+  background-image: url('/content/mkt/images/icons/dollar_points.svg');
+}
+
+.promo-codes--image_dollar-points-inactive {
+  background-image: url('/content/mkt/images/icons/dollar_points_inactive.svg');
+}
+
+.credit-card--image_new,
+.credit-card--image_new-disabled {
+  @include use-font-icon;
+  @include white;
+  @include bggray2;
+  @include bold;
+  font-size: 5rem;
+  border-radius: 5rem;
+}
+
+.travel-fund--points-icon {
+  @include align-left;
+  @include green2;
+  @include pr4;
+  font-size: 5rem;
+}

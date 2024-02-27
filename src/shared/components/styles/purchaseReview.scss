@@ -1,0 +1,40 @@
+.purchase-content {
+  .price-total--info-col {
+    @include left;
+    @include mt4;
+    width: 50%;
+  }
+
+  .nav-item-link {
+    @include larger;
+  }
+}
+
+.purchase-content--summary-footer {
+  @include bgpblue;
+  padding-bottom: 1em;
+
+  .price-total--info {
+    @include relative;
+
+    .price-line {
+      @include right;
+    }
+  }
+
+  .price-total--info-col:nth-child(even) {
+    @include mt4;
+    @include right;
+  }
+}
+
+.purchase-content--summary-footer-nav {
+  padding: 0 1em;
+}
+
+.purchase-disclaimer {
+  @include white;
+  font-size: 1em;
+  margin: 1em 0;
+  padding: 0 1em;
+}

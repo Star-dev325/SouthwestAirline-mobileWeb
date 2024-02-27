@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sameDayBoundSelectionPage Should render Same day selection page 1`] = `
+<div>
+  <div>
+    <div
+      class="same-day bound-selection"
+    >
+      <div>
+        <div
+          class="page-header"
+          id=""
+        >
+          SAME_DAY_CHANGE_AND_STANDBY__TITLE
+        </div>
+        <div />
+      </div>
+      <div
+        class="same-day--intro"
+      >
+        <p
+          data-qa="same-day-select-flights-message"
+        />
+      </div>
+      <form
+        class="form"
+        name="SAME_DAY_SELECT_FORM"
+        novalidate=""
+      >
+        <fieldset>
+          <div
+            class="bgwhite bdb bdt"
+          />
+          <div
+            class="segment"
+          >
+            <button
+              class="change button button--fluid larger button--yellow"
+              data-qa="same-day-select-bound-continue-button"
+              type="submit"
+            >
+              SHARED__BUTTON_TEXT__CONTINUE
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`sameDayBoundSelectionPage Should render Same day selection page with bound selection 1`] = `
+<div>
+  <div>
+    <div
+      class="same-day bound-selection"
+    >
+      <div>
+        <div
+          class="page-header"
+          id=""
+        >
+          SAME_DAY_CHANGE_AND_STANDBY__TITLE
+        </div>
+        <div />
+      </div>
+      <div
+        class="same-day--intro"
+      >
+        <p
+          data-qa="same-day-select-flights-message"
+        />
+      </div>
+      <form
+        class="form"
+        name="SAME_DAY_SELECT_FORM"
+        novalidate=""
+      >
+        <fieldset>
+          <div
+            class="bgwhite bdb bdt"
+          />
+          <div
+            class="segment"
+          >
+            <button
+              class="change button button--fluid larger button--yellow"
+              data-qa="same-day-select-bound-continue-button"
+              type="submit"
+            >
+              SHARED__BUTTON_TEXT__CONTINUE
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`sameDayBoundSelectionPage should render the web view placeholder title if show bound selection is false 1`] = `
+<div>
+  <div>
+    <div
+      class="same-day"
+    >
+      <div>
+        <div
+          class="page-header"
+          id=""
+        >
+          SAME_DAY_WEB_VIEW__TITLE
+        </div>
+        <div />
+      </div>
+    </div>
+  </div>
+</div>
+`;

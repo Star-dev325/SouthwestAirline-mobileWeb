@@ -1,0 +1,5 @@
+@mixin collapsing-animation {
+  transition-property: height, visibility;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+}

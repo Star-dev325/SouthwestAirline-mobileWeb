@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageHeader when given children should show those children 1`] = `
+<div>
+  <div
+    className="page-header"
+    id=""
+  >
+    <div>
+      Hello world!
+    </div>
+  </div>
+  <Connect(ErrorHeaderContainer) />
+</div>
+`;
+
+exports[`PageHeader when isWebView is false should not have webview-page-header id 1`] = `
+<div>
+  <div
+    className="page-header"
+    id=""
+  >
+    <div>
+      Hello world!
+    </div>
+  </div>
+  <Connect(ErrorHeaderContainer) />
+</div>
+`;
+
+exports[`PageHeader when isWebView is true should have webview-page-header id and it should have sticky header padding 1`] = `
+<div>
+  <div
+    className="page-header"
+    id="webview-page-header"
+  >
+    <div>
+      Hello world!
+    </div>
+  </div>
+  <div />
+  <Connect(ErrorHeaderContainer) />
+</div>
+`;
+
+exports[`PageHeader when props.hidden is false should display page header 1`] = `
+<div>
+  <div
+    className="page-header"
+    id=""
+  >
+    <div>
+      Hello world!
+    </div>
+  </div>
+  <Connect(ErrorHeaderContainer) />
+</div>
+`;
+
+exports[`PageHeader when props.hidden is true should not display page header 1`] = `
+<div>
+  <div
+    className="page-header hidden"
+    id=""
+  >
+    <div>
+      Hello world!
+    </div>
+  </div>
+  <Connect(ErrorHeaderContainer) />
+</div>
+`;
+
+exports[`PageHeader when props.noBottomPadding is true when isWebView true should add classname page-header--no-bottom-padding when isWebView true 1`] = `
+<div>
+  <div
+    className="page-header page-header--no-bottom-padding"
+    id="webview-page-header"
+  >
+    <div>
+      Hello world!
+    </div>
+  </div>
+  <div />
+  <Connect(ErrorHeaderContainer) />
+</div>
+`;
+
+exports[`PageHeader when props.noBottomPadding is true when isWebView true should not add classname page-header--no-bottom-padding when isWebView false 1`] = `
+<div>
+  <div
+    className="page-header"
+    id=""
+  >
+    <div>
+      Hello world!
+    </div>
+  </div>
+  <Connect(ErrorHeaderContainer) />
+</div>
+`;

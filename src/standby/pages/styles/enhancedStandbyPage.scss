@@ -1,0 +1,90 @@
+.enhanced-standby-page {
+  @include bgpdkblue;
+
+  .page-header--right-button {
+    @include regular;
+    @include right;
+    @include white;
+  }
+
+  .standby-button {
+    @include p4;
+  }
+
+  .standby-container-parent {
+    @include pb0;
+  }
+
+  .standby-container {
+    @include bgwhite;
+    @include rd2;
+
+    &--header {
+      @include bgpblue;
+      @include bold;
+      @include center;
+      @include larger;
+      @include p4;
+      @include white;
+    }
+
+    &--title {
+      @include pl6;
+      @include pt6;
+
+      &-destination-description {
+        @include bold;
+        @include pblue;
+        @include xlarge;
+      }
+
+      &-airport-info-detail {
+        @include gray5;
+        @include large;
+      }
+    }
+
+    .standby-body--standby-list {
+      @include px6;
+    }
+  }
+
+  .standby-wcm {
+    @include m5;
+
+    a {
+      @include large;
+      @include sltblue;
+    }
+  }
+
+  .standby-disclaimer {
+    @include m5;
+    @include white;
+  }
+
+  .standby-body--flight-info {
+    @include flex;
+    @include p6;
+  }
+
+  .standby-body--flight-info-label,
+  .flight-times {
+    @include flex-basis0;
+    @include flex-grow1;
+    @include flex-shrink1;
+  }
+
+  .standby-body--flight-info-flight-number {
+    @include bold;
+    @include xxlarge;
+  }
+
+  .standby-container--last-update-time {
+    @include border-none;
+    @include gray5;
+    @include large;
+    @include pl6;
+    @include py3;
+  }
+}

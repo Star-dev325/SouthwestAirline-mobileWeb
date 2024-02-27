@@ -1,0 +1,58 @@
+.transfer-travel-funds-footer {
+  @include py5;
+  @include bgpdkblue;
+
+  a {
+    @include sltblue;
+  }
+
+  .page-footer-wcm--copyright {
+    @include white;
+  }
+}
+
+.transfer-travel-funds-form {
+  @extend %passenger-personal-info-form;
+
+  .receipt-email {
+    @include black;
+    @include mt6;
+    @include truncate;
+  }
+
+  .text-area-container {
+    @include mt4;
+    @include regular;
+  }
+
+  .fields--secondary-label {
+    @include gray5;
+    @include medium;
+    @include pl3;
+  }
+
+  .segment {
+    @include pt3;
+  }
+
+  .helper-text {
+    @include my4;
+    @include mx0;
+    @include block;
+  }
+
+  .price-total {
+    .price-total--info {
+      @include px0;
+    }
+
+    .price-total--travel-funds {
+      @include flex;
+      @include flex-row-reverse;
+    }
+  }
+
+  .purchase-disclaimer {
+    @include px0;
+  }
+}

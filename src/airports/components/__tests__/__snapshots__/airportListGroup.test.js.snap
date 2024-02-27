@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AirportListGroup should not render airport group header when isReaccomCoTerminalEligible is true 1`] = `
+<div>
+  <div
+    class="airport-group-container"
+  >
+    <ul
+      class="airport-group"
+    >
+      <li
+        class="flex"
+      >
+        <div
+          class="flex-auto"
+        >
+          <span
+            class=""
+          >
+            Boston (Logan), MA - BOS
+          </span>
+        </div>
+      </li>
+      <li
+        class="flex"
+      >
+        <div
+          class="flex-auto"
+        >
+          <span
+            class=""
+          >
+            Providence, RI - PVD
+          </span>
+        </div>
+      </li>
+      <li
+        class="flex"
+      >
+        <div
+          class="flex-auto"
+        >
+          <span
+            class=""
+          >
+            Manchester, NH - MHT
+          </span>
+        </div>
+      </li>
+      <li
+        class="flex"
+      >
+        <div
+          class="flex-auto"
+        >
+          <span
+            class=""
+          >
+            Hartford, CT - BDL
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`AirportListGroup should render correctly 1`] = `
+<div>
+  <div
+    class="airport-group-container"
+  >
+    <div
+      class="airport-group-header"
+    >
+      Boston Area Airports
+    </div>
+    <ul
+      class="airport-group"
+    >
+      <li
+        class="flex"
+      >
+        <div
+          class="flex-auto"
+        >
+          <span
+            class=""
+          >
+            Boston (Logan), MA - BOS
+          </span>
+        </div>
+      </li>
+      <li
+        class="flex"
+      >
+        <div
+          class="flex-auto"
+        >
+          <span
+            class=""
+          >
+            Providence, RI - PVD
+          </span>
+        </div>
+      </li>
+      <li
+        class="flex"
+      >
+        <div
+          class="flex-auto"
+        >
+          <span
+            class=""
+          >
+            Manchester, NH - MHT
+          </span>
+        </div>
+      </li>
+      <li
+        class="flex"
+      >
+        <div
+          class="flex-auto"
+        >
+          <span
+            class=""
+          >
+            Hartford, CT - BDL
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`AirportListGroup should render with checkboxes when it is an area airport group and isMultiSelectGroupEnabled is true 1`] = `
+<div
+  class="relative flex checkbox-button checkbox-button--row_checked flex-cross-center"
+  name="BOT"
+>
+  <div>
+    <span
+      class="checkbox-button--mark checkbox-button_checked"
+    >
+      <i
+        class="absolute xlarge bgtransp icon icon_check"
+      />
+    </span>
+  </div>
+  <div>
+    <div
+      class="checkbox-button--children flex-equal-width ml2"
+    >
+      <li>
+        All Boston Area Airports
+      </li>
+    </div>
+  </div>
+</div>
+`;

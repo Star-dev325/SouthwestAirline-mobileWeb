@@ -1,0 +1,14 @@
+.pricing-banner-list {
+  &--basic-banner {
+    @include m3;
+    @include rd2;
+
+    .banner-container--subtitle {
+      @include not-italic;
+    }
+
+    .icon {
+      @include sdkblue;
+    }
+  }
+}

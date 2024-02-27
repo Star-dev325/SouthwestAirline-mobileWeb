@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="9">
+
+  <testsuite name="myAccount.upcomingTripsOneTapCheckInTest"
+    errors="0" failures="0" hostname="" id="" package="myAccount" skipped="0"
+    tests="9" time="58.06" timestamp="Fri, 15 Dec 2023 01:53:18 GMT">
+  
+    <testcase name="Go MyAccount home page" classname="myAccount.upcomingTripsOneTapCheckInTest" time="37.89" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify MyAccount home page" classname="myAccount.upcomingTripsOneTapCheckInTest" time="3.757" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to upcoming trips page and tap on Check in button" classname="myAccount.upcomingTripsOneTapCheckInTest" time="8.220" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check in confirmation page" classname="myAccount.upcomingTripsOneTapCheckInTest" time="2.989" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click on 1st boarding pass" classname="myAccount.upcomingTripsOneTapCheckInTest" time="1.792" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Hazmat Declaration page and tap on Disagree button" classname="myAccount.upcomingTripsOneTapCheckInTest" time="0.7510" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Check in confirmation page on Disagree and tap Boarding Pass" classname="myAccount.upcomingTripsOneTapCheckInTest" time="1.706" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Hazmat Declaration page and tap Continue button" classname="myAccount.upcomingTripsOneTapCheckInTest" time="0.8220" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Boarding Pass page" classname="myAccount.upcomingTripsOneTapCheckInTest" time="0.1310" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

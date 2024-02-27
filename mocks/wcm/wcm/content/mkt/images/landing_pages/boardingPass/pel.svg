@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="24px" viewBox="0 0 148 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>SWA-iOS-BP-PEL</title>
+    <g id="SWA-iOS-BP-PEL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PEL">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="148" height="24" rx="6"></rect>
+            <text id="Priority-/-Express-L" font-family="SouthwestSans-Bold, Southwest Sans" font-size="12" font-weight="bold" fill="#304CB2">
+                <tspan x="13" y="16">Priority / Express Lanes</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

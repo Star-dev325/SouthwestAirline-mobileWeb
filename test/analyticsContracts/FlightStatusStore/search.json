@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "search": {
+      "type": "object",
+      "properties": {
+        "origin": { "type": "string" },
+        "destination": { "type": "string" },
+        "currentLocationUsed": {"type": "boolean"}
+      },
+      "additionalProperties": false,
+      "required": [
+        "origin",
+        "destination",
+        "currentLocationUsed"
+      ]
+    }
+  },
+  "required": [
+    "search"
+  ]
+}

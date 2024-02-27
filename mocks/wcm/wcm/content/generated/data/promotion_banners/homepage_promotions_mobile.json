@@ -1,0 +1,32 @@
+{
+  "revision": "20170629020009276",
+  "homepage_promotions_mobile": [
+    {
+      "id": "promo01",
+      "title": "Flying Southwest",
+      "description": "Learn about our boarding process, what's available inflight & more.",
+      "promotion-image": "/content/mkt/images/promotions/AboutRR_Icon_FPO.png",
+      "alt": "Flying Southwest",
+      "link_type": "webview",
+      "target": "/flying-southwest"
+    },
+    {
+      "id": "promo02",
+      "title": "Start Earning Points",
+      "description": "Sign up for a Rapid Rewards® account and earn points on your next flight.",
+      "promotion-image": "/content/mkt/images/promotions/enroll_icon.png",
+      "alt": "Join our Rapid Rewards program",
+      "link_type": "webview",
+      "target": "/enroll?clk=mhpbnr2RRenroll"
+    },
+    {
+      "id": "promo03",
+      "title": "Book a car with us",
+      "description": "Great selection, unbeatable rates & Rapid Rewards.",
+      "promotion-image": "/content/mkt/images/promotions/promo_car.png",
+      "alt": "Book a car with us",
+      "link_type": "app",
+      "target": "carbooking"
+    }
+  ]
+}

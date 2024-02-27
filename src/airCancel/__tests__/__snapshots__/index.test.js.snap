@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AirCancel should render AirCancel route page 1`] = `
+<div>
+  <div
+    class="air-cancel"
+  />
+</div>
+`;

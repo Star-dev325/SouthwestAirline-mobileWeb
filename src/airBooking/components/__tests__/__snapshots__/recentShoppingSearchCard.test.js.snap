@@ -1,0 +1,349 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`recentShoppingSearchCard #formatPassengerCount when the recent search was for more than one adult and lap child should convert the "passenger" and "lap child" identifier to plural tense 1`] = `
+<div>
+  <div
+    class="recent-search bgwhite"
+    data-qa="recent-search-card"
+  >
+    <div>
+      <div
+        class="segment"
+      >
+        <div
+          class="header"
+        >
+          <div
+            class="flights-connect"
+          >
+            <span
+              class="origin"
+            >
+              DAL
+            </span>
+            <i
+              class="icon icon_airplane"
+            />
+            <span
+              class="destination"
+            >
+              AUS
+            </span>
+          </div>
+        </div>
+        <div
+          class="meta travel-period"
+        >
+          <span>
+            Thu, Jan 1 - Mon, Feb 2
+          </span>
+        </div>
+        <div
+          class="meta trip-type"
+        >
+          <span>
+            Round Trip
+             - 
+          </span>
+          <span>
+            4 Passengers
+            ,
+             
+            2 Lap Children
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`recentShoppingSearchCard #formatPassengerCount when the recent search was for more than one adult and one lap child should convert the "passenger" identifier to plural tense and leave "lap child" in singular tense 1`] = `
+<div>
+  <div
+    class="recent-search bgwhite"
+    data-qa="recent-search-card"
+  >
+    <div>
+      <div
+        class="segment"
+      >
+        <div
+          class="header"
+        >
+          <div
+            class="flights-connect"
+          >
+            <span
+              class="origin"
+            >
+              DAL
+            </span>
+            <i
+              class="icon icon_airplane"
+            />
+            <span
+              class="destination"
+            >
+              AUS
+            </span>
+          </div>
+        </div>
+        <div
+          class="meta travel-period"
+        >
+          <span>
+            Thu, Jan 1 - Mon, Feb 2
+          </span>
+        </div>
+        <div
+          class="meta trip-type"
+        >
+          <span>
+            Round Trip
+             - 
+          </span>
+          <span>
+            4 Passengers
+            ,
+             
+            1 Lap Child
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`recentShoppingSearchCard #formatPassengerCount when the recent search was for more than one adult should convert the "passenger" identifier to plural tense 1`] = `
+<div>
+  <div
+    class="recent-search bgwhite"
+    data-qa="recent-search-card"
+  >
+    <div>
+      <div
+        class="segment"
+      >
+        <div
+          class="header"
+        >
+          <div
+            class="flights-connect"
+          >
+            <span
+              class="origin"
+            >
+              DAL
+            </span>
+            <i
+              class="icon icon_airplane"
+            />
+            <span
+              class="destination"
+            >
+              AUS
+            </span>
+          </div>
+        </div>
+        <div
+          class="meta travel-period"
+        >
+          <span>
+            Thu, Jan 1 - Mon, Feb 2
+          </span>
+        </div>
+        <div
+          class="meta trip-type"
+        >
+          <span>
+            Round Trip
+             - 
+          </span>
+          <span>
+            4 Passengers
+            
+             
+            
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`recentShoppingSearchCard #formatPassengerCount when the recent search was for one adult and one lap child should leave the "passenger" and "lap child" identifier in singular tense 1`] = `
+<div>
+  <div
+    class="recent-search bgwhite"
+    data-qa="recent-search-card"
+  >
+    <div>
+      <div
+        class="segment"
+      >
+        <div
+          class="header"
+        >
+          <div
+            class="flights-connect"
+          >
+            <span
+              class="origin"
+            >
+              DAL
+            </span>
+            <i
+              class="icon icon_airplane"
+            />
+            <span
+              class="destination"
+            >
+              AUS
+            </span>
+          </div>
+        </div>
+        <div
+          class="meta travel-period"
+        >
+          <span>
+            Thu, Jan 1 - Mon, Feb 2
+          </span>
+        </div>
+        <div
+          class="meta trip-type"
+        >
+          <span>
+            Round Trip
+             - 
+          </span>
+          <span>
+            1 Passenger
+            ,
+             
+            1 Lap Child
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`recentShoppingSearchCard #formatPassengerCount when the recent search was for one adult should leave the "passenger" identifier in singular tense 1`] = `
+<div>
+  <div
+    class="recent-search bgwhite"
+    data-qa="recent-search-card"
+  >
+    <div>
+      <div
+        class="segment"
+      >
+        <div
+          class="header"
+        >
+          <div
+            class="flights-connect"
+          >
+            <span
+              class="origin"
+            >
+              DAL
+            </span>
+            <i
+              class="icon icon_airplane"
+            />
+            <span
+              class="destination"
+            >
+              AUS
+            </span>
+          </div>
+        </div>
+        <div
+          class="meta travel-period"
+        >
+          <span>
+            Thu, Jan 1 - Mon, Feb 2
+          </span>
+        </div>
+        <div
+          class="meta trip-type"
+        >
+          <span>
+            Round Trip
+             - 
+          </span>
+          <span>
+            1 Passenger
+            
+             
+            
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`recentShoppingSearchCard general render should display both the departure, return dates and trip type 1`] = `
+<div>
+  <div
+    class="recent-search bgwhite"
+    data-qa="recent-search-card"
+  >
+    <div>
+      <div
+        class="segment"
+      >
+        <div
+          class="header"
+        >
+          <div
+            class="flights-connect"
+          >
+            <span
+              class="origin"
+            >
+              DAL
+            </span>
+            <i
+              class="icon icon_airplane"
+            />
+            <span
+              class="destination"
+            >
+              AUS
+            </span>
+          </div>
+        </div>
+        <div
+          class="meta travel-period"
+        >
+          <span>
+            Thu, Jan 1 - Mon, Feb 2
+          </span>
+        </div>
+        <div
+          class="meta trip-type"
+        >
+          <span>
+            Round Trip
+             - 
+          </span>
+          <span>
+            1 Passenger
+            
+             
+            
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

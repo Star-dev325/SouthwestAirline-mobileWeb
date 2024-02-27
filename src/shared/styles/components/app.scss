@@ -1,0 +1,15 @@
+.app-root {
+  @include fullheight;
+  @include relative;
+}
+
+.app {
+  @include fullheight;
+  -webkit-overflow-scrolling: touch;
+}
+
+.app__contents { // sass-lint:disable-line class-name-format
+  @include fullheight;
+  @include relative;
+  @include overflow-y-scroll;
+}

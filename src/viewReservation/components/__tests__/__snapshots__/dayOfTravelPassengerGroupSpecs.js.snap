@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dayOfTravelPassengerGroup should render lap child details when lapInfant exists 1`] = `
+<div>
+  <PassengerReservationInfo
+    index={0}
+    isInternational={true}
+    passenger={
+      Object {
+        "hasAnyEarlyBird": true,
+        "lapInfant": Object {
+          "name": "Lap ChildTest",
+        },
+        "name": "First Passenger",
+        "passengerReference": "2",
+      }
+    }
+    showPassengerHeader={false}
+  />
+  <div
+    className="lap-child--details"
+  >
+    <div
+      className="lap-child--icon"
+    />
+    <div
+      className="lap-child--text-wrapper"
+    >
+      <h4
+        className="lap-child--title"
+      >
+        LAP CHILD
+      </h4>
+      <p>
+        Lap ChildTest
+      </p>
+    </div>
+  </div>
+</div>
+`;

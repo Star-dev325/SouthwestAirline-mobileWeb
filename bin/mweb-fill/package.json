@@ -1,0 +1,17 @@
+{
+  "name": "mweb-fill-it-out",
+  "version": "0.0.1",
+  "description": "Sample Data Form Filler",
+  "main": "index.js",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.19.0",
+    "json-loader": "^0.5.4",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "rm -rf html && webpack && echo 'javascript:(function() {' >> html/bookmarklet && cat html/bundle.min.js >> html/bookmarklet && echo '})()' >> html/bookmarklet",
+    "nginx": "sudo nginx -p $PWD -c $PWD/nginx/nginx.conf"
+  }
+}

@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LowFarePriceBar disabled should display N/A price bar when isDisabled is false and lowestPrice is null 1`] = `
+<div>
+  <div
+    class="calendar-day"
+    data-date="2020-03-23"
+  >
+    <div
+      class="calendar-day--menu"
+    >
+      MON
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LowFarePriceBar disabled should display N/A price bar when isDisabled is true and lowestPrice is not null 1`] = `
+<div>
+  <div
+    class="calendar-day"
+    data-date="2020-03-23"
+  >
+    <div
+      class="calendar-day--fare-price-disabled"
+    >
+      N/A
+    </div>
+    <div
+      class="calendar-day--menu"
+    >
+      MON
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LowFarePriceBar disabled should display N/A price bar when isDisabled is true and lowestPrice is null 1`] = `
+<div>
+  <div
+    class="calendar-day"
+    data-date="2020-03-23"
+  >
+    <div
+      class="calendar-day--fare-price-disabled"
+    >
+      N/A
+    </div>
+    <div
+      class="calendar-day--menu"
+    >
+      MON
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LowFarePriceBar dollar should render rounded dollar amount with currency code 1`] = `
+<div
+  class="currency"
+>
+  <span
+    class="money-sign"
+  >
+    $
+  </span>
+  <span
+    data-qa="total-amount"
+  >
+    419
+  </span>
+</div>
+`;
+
+exports[`LowFarePriceBar points should render points amount when pricePointsTax is null and not render tax 1`] = `
+<div
+  class="currency"
+>
+  <span
+    data-qa="total-amount"
+  >
+    29,356
+  </span>
+</div>
+`;
+
+exports[`LowFarePriceBar points should render points amount with currency code and tax 1`] = `
+<div
+  class="currency"
+>
+  <span
+    data-qa="total-amount"
+  >
+    29,356
+  </span>
+</div>
+`;

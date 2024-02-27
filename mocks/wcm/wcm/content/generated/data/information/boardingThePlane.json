@@ -1,0 +1,94 @@
+{
+  "revision": "20151209105043618",
+  "styledPage": {
+    "title": "Boarding The Plane",
+    "heroContainer": {
+      "type": "hero",
+      "image": "/content/mkt/images/static_pages/travel_experience/swa_mw_fs_boarding_hero.png",
+      "altText": ""
+    },
+    "body": [
+      {
+        "type": "section",
+        "sectionTitle": "General boarding.",
+        "heading": "",
+        "mediaType": "youtube",
+        "targetVideo": "X2B7EilM0pk",
+        "image": "/content/mkt/images/static_pages/travel_experience/swa_mw_fs_boarding_video.png",
+        "altText": "",
+        "imagePlacement": "below",
+        "sectionText": "<p>At Southwest, we have a quick, easy, and efficient boarding process. First, check in to get assigned a boarding group (A, B, or C) and a boarding position (1 - 60). The earlier you check in, up to 24 hours prior to your flight, the earlier your assigned spot in line will be. When your group is called, stand by the column with your number on it until it's your turn to board.</p>",
+        "callToAction": {
+          "ctaType": "none",
+          "ctaText": "",
+          "linkType": "none",
+          "target": ""
+        }
+      },
+      {
+        "type": "section",
+        "sectionTitle": "Family boarding.",
+        "heading": "",
+        "mediaType": "none",
+        "image": "/content/mkt/images/static_pages/travel_experience/swa_mw_fs_boarding_family_icon.png",
+        "altText": "",
+        "imagePlacement": "",
+        "sectionText": "<p>An adult traveling with a child six years old or younger may board during Family Boarding, which occurs after the \"A\"Â group has boarded and before the \"B\"Â group begins boarding. If the child and the adult are both holding an \"A\"Â boarding pass, they should both board with the \"A\"Â boarding group.</p>",
+        "callToAction": {
+          "ctaType": "none",
+          "ctaText": "",
+          "linkType": "none",
+          "target": ""
+        }
+      },
+      {
+        "type": "section",
+        "sectionTitle": "Line Leaders.",
+        "heading": "",
+        "mediaType": "image",
+        "image": "/content/mkt/images/static_pages/travel_experience/swa_mw_fs_boarding_lineleaders_icon.png",
+        "altText": "",
+        "imagePlacement": "inline",
+        "sectionText": "<p>If you want to guarentee that you'll be one of the first to board, buy Business Select<sup>&reg;</sup> fare to get A1 - A15 boarding position. Rapid Rewards<sup>&reg;</sup> Members with A-List and A-List Preferred status and Customers who buy EarlyBird Check-in<sup>&reg;</sup> are also automatically assigned boarding positions ahead of general boarding.</p>",
+        "callToAction": {
+          "ctaType": "none",
+          "ctaText": "",
+          "linkType": "none",
+          "target": ""
+        }
+      },
+      {
+        "type": "section",
+        "sectionTitle": "Pick a seat, any seat.",
+        "heading": "",
+        "mediaType": "image",
+        "image": "/content/mkt/images/static_pages/travel_experience/swa_mw_fs_boarding_lineleaders_icon.png",
+        "altText": "",
+        "imagePlacement": "inline",
+        "sectionText": "<p>Aisle? Window? Front? Back? At Southwest, we let you sit where you like. We don't assign seats on our flights, so feel free to sit in any available seat once you board the plane.</p>",
+        "callToAction": {
+          "ctaType": "none",
+          "ctaText": "",
+          "linkType": "none",
+          "target": ""
+        }
+      },
+      {
+        "type": "section",
+        "sectionTitle": "Upgrade your boarding position.",
+        "heading": "",
+        "mediaType": "none",
+        "image": "",
+        "altText": "",
+        "imagePlacement": "",
+        "sectionText": "<p>Now you can be one of the first on the plane by upgrading on the day of travel! When available, Upgraded Boarding allows you to secure a position in the A1 - A15 boarding group for just $30 or $40 per flight, depending on your itinerary. To upgrade, ask a Customer Service Agent at the departure gate or ticket counter for availability.</p>",
+        "callToAction": {
+          "ctaType": "none",
+          "ctaText": "",
+          "linkType": "none",
+          "target": ""
+        }
+      }
+    ]
+  }
+}

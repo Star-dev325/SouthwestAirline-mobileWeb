@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Upgraded Boarding Index should render UB component routes when UPGRADED_BOARDING is true 1`] = `
+<div>
+  <div
+    class="upgraded-boarding"
+  />
+</div>
+`;

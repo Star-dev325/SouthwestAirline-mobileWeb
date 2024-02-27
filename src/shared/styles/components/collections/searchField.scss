@@ -1,0 +1,33 @@
+@mixin icon {
+  @include border-none;
+  @include sltblue;
+  @include xxlarge;
+  background: none;
+}
+
+.search-fields {
+  @include xxlarge;
+  @include flex;
+  @include flex-main-around;
+  @include flex-cross-start;
+}
+
+.search-fields--left,
+.search-fields--right {
+  @include flex5;
+  @include center;
+}
+
+.search-fields--left {
+  @include pl4;
+}
+
+.search-fields--right {
+  @include pr4;
+}
+
+.search-fields--icon {
+  @include icon;
+  @include flex2;
+  @include flex-item-center;
+}

@@ -1,0 +1,32 @@
+.home-nav-grid {
+  @include flex;
+  @include flex-wrap;
+  @include bgwhite;
+}
+
+.home-nav-grid-item {
+  @include p4;
+  @include pblue;
+  @include bgwhite;
+  @include medium;
+  @include bold;
+  width: 50%;
+  line-height: 4.56rem;
+  border: solid $gray3;
+  border-width: 1px 1px 0 0;
+
+  .home-nav-grid-item--icon {
+    @include left;
+    @include mr2;
+    @include sltblue;
+    @include lineheight10;
+    top: 0.9rem;
+    font-size: 2.5rem;
+  }
+
+  &:nth-child(even) {
+    .home-nav-grid-item--icon {
+      @include yellow;
+    }
+  }
+}

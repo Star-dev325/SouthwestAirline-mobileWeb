@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransferRecipientFields should render the component 1`] = `
+<Fields
+  label="TRANSFER RECIPIENT"
+  type="grouped"
+>
+  <WithField(FormInputField)
+    name="firstName"
+    placeholder="First name"
+  />
+  <WithField(FormInputField)
+    name="lastName"
+    placeholder="Last name"
+  />
+  <WithField(FormInputField)
+    name="rapidRewardsNumber"
+    placeholder="Rapid Rewards number"
+    type="tel"
+  />
+  <p
+    className="helper-text"
+  >
+    mock First name, mock last name, and mock Rapid Rewards® number must match Rapid Rewards account information on file.
+  </p>
+</Fields>
+`;

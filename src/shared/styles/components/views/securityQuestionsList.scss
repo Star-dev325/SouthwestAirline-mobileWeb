@@ -1,0 +1,41 @@
+.security-questions-list {
+  h3 {
+    @include gray5;
+    @include regular;
+    @include m0;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+  }
+
+  ul {
+    @include pdkblue;
+    @include bgwhite;
+    @include p0;
+    @include m0;
+    font-size: 1.2em;
+
+    li {
+      @include table;
+      @include flex-cross-center;
+      @include relative;
+      @include fullwidth;
+      list-style-type: none;
+      border-top: 1px solid $gray3;
+      padding: 1em;
+    }
+  }
+
+  .question-content {
+    @include inline-block;
+    width: 80%;
+  }
+
+  .icon {
+    @include absolute;
+    @include align-middle;
+    right: 1em;
+    top: 50%;
+    font-size: 1.5em;
+    margin-top: -0.5em;
+  }
+}

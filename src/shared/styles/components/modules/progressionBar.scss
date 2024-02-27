@@ -1,0 +1,111 @@
+@mixin step-item-size($size) {
+  @include center;
+  margin-top: -($size/2);
+  margin-left: -($size/2);
+  width: $size;
+  line-height: $size;
+  height: $size;
+
+  .icon {
+    @include lineheight10;
+    @include m0;
+    font-size: $size/2;
+  }
+}
+
+.progression-bar {
+  @include bgsblue;
+  @include overflow-hidden;
+  @include py3;
+  font-size: 1.54rem;
+
+  .title {
+    @include white;
+    @include bold;
+    @include center;
+    font-size: 1.2em;
+  }
+
+  .progress-step {
+    @include relative;
+    margin: 1.5em 3.5em 1em;
+
+    .progress {
+      @include m0;
+      height: 2px;
+    }
+  }
+
+  .step-item {
+    @include absolute;
+    @include step-item-size(1.6em);
+    top: 1px;
+
+    .step-item--inner {
+      &::before {
+        content: '';
+      }
+      @include table;
+      @include fullwidth;
+      @include fullheight;
+      @include bgsdkblue;
+      @include circle;
+
+      .icon {
+        @include table-cell;
+        @include align-middle;
+        @include xlarge;
+        @include lineheight10;
+        @include center;
+      }
+    }
+
+    .step-item--icon-wrapper {
+      @include align-middle;
+    }
+
+    &.step-item--completed {
+      .step-item--inner {
+        @include bgwhite;
+
+        &::before {
+          content: none;
+        }
+      }
+
+      .completed-check {
+        @include green;
+      }
+    }
+
+    &.step-item--current {
+      @include step-item-size(2em);
+
+      .step-item--inner {
+        @include bgpdkblue;
+
+        &::before {
+          content: none;
+        }
+      }
+
+      .icon {
+        @include white;
+      }
+    }
+  }
+
+  &--sub-title-flex {
+    @include flex;
+    @include flex-main-between;
+    @include pt1;
+  }
+
+  &--sub-title {
+    @include regular;
+    @include white;
+    @include large;
+    @include center;
+    width: 11rem;
+  }
+}

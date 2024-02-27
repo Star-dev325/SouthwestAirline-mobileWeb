@@ -1,0 +1,17 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "help to migrate to es6",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "5to6-codemod": "^1.7.1",
+    "js-codemod": "^7.0.0",
+    "jscodeshift": "^0.4.0"
+  }
+}

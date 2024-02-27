@@ -1,0 +1,34 @@
+.eligible-check-in-trips-link {
+  .icon {
+    @include gray4;
+    @include right;
+    font-size: 3rem;
+    bottom: 0.6rem;
+  }
+}
+
+.eligible-check-in-trips-link--container {
+  @include bgwhite;
+  border-radius: 0.2em;
+}
+
+.eligible-check-in-trips-link--message {
+  @include py3;
+  @include pdkblue;
+  @include larger;
+  @include center;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+}
+
+.eligible-check-in-trips-link--num-of-trips {
+  @include bold;
+
+  &::before {
+    content: '\0020';
+  }
+
+  &::after {
+    content: '\0020';
+  }
+}

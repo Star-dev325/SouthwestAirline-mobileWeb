@@ -1,0 +1,29 @@
+.confirmation-young-traveler-section {
+  @include bdb;
+  @include bgwhite;
+  @include m4;
+}
+
+.confirmation-parent-guardian-dialog {
+  &--body {
+    @include align-left;
+    @include m0;
+    @include no-bullets;
+    @include pre-wrap;
+  }
+
+  &--disclaimer {
+    @include align-left;
+    @include pt6;
+  }
+
+  &--name {
+    @include bold;
+    @include large;
+  }
+
+  &--title {
+    @include align-left;
+    @include fontsize24;
+  }
+}

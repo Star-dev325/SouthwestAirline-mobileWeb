@@ -1,0 +1,32 @@
+.my-trips-header {
+  &--select {
+    @include p0;
+    @include regular;
+    @include border-none;
+    background: none;
+    box-shadow: none;
+
+    .input {
+      @include p0;
+    }
+
+    .dropdown {
+      @include px4;
+      @include py0;
+      @include white;
+      @include large;
+      width: 120%;
+    }
+
+    .icon {
+      @include white;
+      font-size: 3rem;
+      right: -2.5rem;
+      top: 0.5rem;
+    }
+  }
+
+  &--select-container {
+    @include inline-block;
+  }
+}

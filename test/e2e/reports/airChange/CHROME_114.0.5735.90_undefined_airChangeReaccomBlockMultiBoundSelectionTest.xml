@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="7">
+
+  <testsuite name="airChange.airChangeReaccomBlockMultiBoundSelectionTest"
+    errors="0" failures="0" hostname="" id="" package="airChange" skipped="0"
+    tests="7" time="54.01" timestamp="Fri, 15 Dec 2023 01:00:58 GMT">
+  
+    <testcase name="Go to view reservations from home page" classname="airChange.airChangeReaccomBlockMultiBoundSelectionTest" time="25.32" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View flight reservation through with confirmation number" classname="airChange.airChangeReaccomBlockMultiBoundSelectionTest" time="5.925" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Choose the change flight option" classname="airChange.airChangeReaccomBlockMultiBoundSelectionTest" time="1.453" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Show the select page and select only one bound" classname="airChange.airChangeReaccomBlockMultiBoundSelectionTest" time="2.493" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go the shopping page" classname="airChange.airChangeReaccomBlockMultiBoundSelectionTest" time="3.008" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select new flight" classname="airChange.airChangeReaccomBlockMultiBoundSelectionTest" time="15.04" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Trip Summary Page and Confirm Change" classname="airChange.airChangeReaccomBlockMultiBoundSelectionTest" time="0.7650" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

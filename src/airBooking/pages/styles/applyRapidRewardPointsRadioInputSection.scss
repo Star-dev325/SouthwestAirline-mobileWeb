@@ -1,0 +1,58 @@
+.apply-rapid-reward-points-radio-input {
+  @include bgwhite;
+  @include mb4;
+  @include mt6;
+
+  .rr-points-list {
+    &-item {
+      @include bdb;
+      @include flex;
+      @include pl5;
+      min-height: 7rem;
+    }
+
+    &--item-text {
+      @include flex;
+      @include mt5;
+      @include xlarge;
+    }
+
+    &--point-to-dollar-amount {
+      @include bold;
+      @include pl3;
+      @include xlarge;
+    }
+
+    &--points-icon {
+      @include align-left;
+      @include green2;
+      @include pr4;
+      font-size: 5rem;
+    }
+
+    &--radio-item {
+      @include mt6;
+      top: unset;
+    }
+
+    &--title {
+      @include align-right;
+      @include bdb;
+      @include gray5;
+      @include large;
+      @include px5;
+      @include py3;
+    }
+  }
+
+  .item-disabled {
+    .rr-points-list-item,
+    .rr-points-list--point-to-dollar-amount,
+    .rr-points-list--points-icon,
+    .radio-input--mark.active::after,
+    .rr-points-list--item.active .radio-input--mark::after {
+      @include gray4;
+      pointer-events: none;
+    }
+  }
+}

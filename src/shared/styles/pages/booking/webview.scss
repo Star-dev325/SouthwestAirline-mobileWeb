@@ -1,0 +1,30 @@
+.is-webview {
+  &.air-booking-contact-method-page,
+  &.air-booking-passenger-passport-page,
+  &.booking-flight,
+  &.payment-edit-page {
+    @include for-tablet-and-up {
+      .airport-list,
+      .country-list,
+      .searchable-list {
+        @include bg-booking-flight;
+
+        .options-list--results,
+        .options-search-bar {
+          @include tablet-content-frame;
+          @include mx-auto;
+        }
+
+        .options-search-bar {
+          margin-top: $tablet-content-frame-margin-top;
+        }
+
+        .options-list--results {
+          @include bgwhite;
+
+          margin-bottom: $tablet-content-frame-margin-bottom;
+        }
+      }
+    }
+  }
+}

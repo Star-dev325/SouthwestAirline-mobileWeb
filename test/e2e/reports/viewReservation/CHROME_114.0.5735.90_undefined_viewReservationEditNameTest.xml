@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="13">
+
+  <testsuite name="viewReservation.viewReservationEditNameTest"
+    errors="0" failures="0" hostname="" id="" package="viewReservation" skipped="0"
+    tests="13" time="48.88" timestamp="Fri, 15 Dec 2023 02:21:42 GMT">
+  
+    <testcase name="Go to view reservation page" classname="viewReservation.viewReservationEditNameTest" time="29.75" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Retrieve flight reservation" classname="viewReservation.viewReservationEditNameTest" time="5.379" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to edit passenger details page" classname="viewReservation.viewReservationEditNameTest" time="1.785" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Gender, date of birth, and suffix are not editable" classname="viewReservation.viewReservationEditNameTest" time="0.1340" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Gender reads &#34;On File&#34; and DOB year is masked" classname="viewReservation.viewReservationEditNameTest" time="0.09300" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Edit passenger first, middle, and last name" classname="viewReservation.viewReservationEditNameTest" time="1.405" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click Save and should not see a popup" classname="viewReservation.viewReservationEditNameTest" time="1.605" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify return to View Reservation Details page after saving" classname="viewReservation.viewReservationEditNameTest" time="0.02500" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Return to edit passenger details page and edit passenger information" classname="viewReservation.viewReservationEditNameTest" time="1.608" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click cancel, see popup, and select no" classname="viewReservation.viewReservationEditNameTest" time="1.524" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify remain on the Edit Passenger page" classname="viewReservation.viewReservationEditNameTest" time="0.1510" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Click cancel, see popup, and select yes" classname="viewReservation.viewReservationEditNameTest" time="5.397" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify return to the View Reservation Details page" classname="viewReservation.viewReservationEditNameTest" time="0.01700" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

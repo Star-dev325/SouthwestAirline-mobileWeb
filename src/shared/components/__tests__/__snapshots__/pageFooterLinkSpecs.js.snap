@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageFooterLink default should render a browser link 1`] = `
+<div
+  className="page-footer-wcm--link"
+  key="link_text"
+>
+  <Connect(ContentLink)
+    href="theUrl"
+    id="link_text"
+    target="_blank"
+  >
+    Link Text
+  </Connect(ContentLink)>
+</div>
+`;
+
+exports[`PageFooterLink default should render a link with a separator when showSeparator is true 1`] = `
+<div
+  className="page-footer-wcm--link"
+  key="link_text"
+>
+  <Connect(ContentLink)
+    href="theUrl"
+    id="link_text"
+    target="_blank"
+  >
+    Link Text
+  </Connect(ContentLink)>
+  <span
+    className="page-footer-wcm--divider"
+  >
+    |
+  </span>
+</div>
+`;
+
+exports[`PageFooterLink default should render a webview link 1`] = `
+<div
+  className="page-footer-wcm--link"
+  key="link_text"
+>
+  <Connect(ContentLink)
+    href="theUrl"
+    id="link_text"
+    target="_self"
+  >
+    Link Text
+  </Connect(ContentLink)>
+</div>
+`;
+
+exports[`PageFooterLink default should render an app link 1`] = `
+<div
+  className="page-footer-wcm--link"
+  key="link_text"
+>
+  <Connect(ContentLink)
+    href="theUrl"
+    id="link_text"
+    target="_self"
+  >
+    Link Text
+  </Connect(ContentLink)>
+</div>
+`;

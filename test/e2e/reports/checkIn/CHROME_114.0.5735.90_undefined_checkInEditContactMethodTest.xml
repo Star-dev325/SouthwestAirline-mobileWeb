@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="8">
+
+  <testsuite name="checkIn.checkInEditContactMethodTest"
+    errors="0" failures="0" hostname="" id="" package="checkIn" skipped="0"
+    tests="8" time="61.59" timestamp="Fri, 15 Dec 2023 01:30:51 GMT">
+  
+    <testcase name="Go to check in from hamburger menu" classname="checkIn.checkInEditContactMethodTest" time="29.39" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search for a reservation" classname="checkIn.checkInEditContactMethodTest" time="6.406" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click and go to edit contact method page" classname="checkIn.checkInEditContactMethodTest" time="1.583" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Change contact method" classname="checkIn.checkInEditContactMethodTest" time="4.118" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to edit contact method page" classname="checkIn.checkInEditContactMethodTest" time="0.7970" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Browser back to checkin confirmation" classname="checkIn.checkInEditContactMethodTest" time="1.285" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Browser forward to contact method page" classname="checkIn.checkInEditContactMethodTest" time="2.127" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="refresh on contact method to checkIn search reservation page" classname="checkIn.checkInEditContactMethodTest" time="15.89" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

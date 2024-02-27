@@ -1,0 +1,1055 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PurchaseConfirmationPage render should handle passport should render passport required InfoBanner 1`] = `
+<div
+  class="info-banner "
+>
+  <div
+    class="info-banner--alert"
+  >
+    <i
+      class="icon icon_exclamation-circle warning"
+    />
+  </div>
+  <div
+    class="info-banner-container"
+  >
+    <b
+      class="info-banner-container--header"
+    >
+      Passport information incomplete
+    </b>
+    <p
+      class="info-banner-container--body"
+    >
+      <a
+        class="purchase-confirmation--passport-link"
+      >
+        Thank you for your purchase! Complete your passport information ahead of time so check-in is quick and easy.
+      </a>
+    </p>
+    <div
+      class="info-banner-container--link"
+    />
+  </div>
+</div>
+`;
+
+exports[`PurchaseConfirmationPage render should handle placements and render bottomPromo01 if it exists 1`] = `null`;
+
+exports[`PurchaseConfirmationPage render should handle placements and render bottomPromo01 if trip is two way 1`] = `null`;
+
+exports[`PurchaseConfirmationPage render should handle placements and render promoBottom01 if it exists 1`] = `
+<div
+  class="dynamic-placement"
+  data-qa="promoBottom01"
+>
+  <div
+    class="shimmer"
+  >
+    <div
+      class="shimmer--children"
+    >
+      <div
+        class="flex-placement visible"
+        id="flex_ok0lx1kh6ue"
+        style="margin: 0px 0px 6px 0px; width: 355px; height: 125px;"
+      >
+        <div
+          class=""
+          id="flex_content_dm7fu6x7wtm"
+          style="background-color: rgb(48, 76, 178); width: 355px; position: relative; height: 125px;"
+        >
+          <img
+            alt="hotel"
+            class=""
+            id="graphic_antseeh7ra"
+            src="/content/mkt/images/airport_info/DAL2_airport_info.jpg"
+            style="top: 5px; left: 5px; width: 135px; position: absolute; height: 115px;"
+          />
+          <strong
+            class=""
+            id="text_block_20hfnodiwhr"
+            style="color: rgb(255, 255, 255); top: 20px; left: 155px; font-size: 24px; position: absolute; text-align: left;"
+          >
+            <span
+              class=""
+            >
+              promoBottom01
+            </span>
+            <br
+              class=""
+            />
+            <span
+              class=""
+              style="color: rgb(173, 216, 230); font-weight: normal; font-size: 16px;"
+            >
+              Dummy Placement
+            </span>
+          </strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PurchaseConfirmationPage render should handle placements and render promoBottom02 if it exists 1`] = `
+<div
+  class="dynamic-placement"
+  data-qa="promoBottom02"
+>
+  <div
+    class="shimmer"
+  >
+    <div
+      class="shimmer--children"
+    >
+      <div
+        class="flex-placement visible"
+        id="airBookingConfirmation_promoBottom02_car_flex"
+        style="background-color: rgb(17, 27, 64); width: 355px; height: 150px;"
+      >
+        <div
+          class=""
+          id="airBookingConfirmation_promoBottom02_car_flex_content_1"
+          style="margin: 15px 20px 0px 0px; display: inline-flex; float: right;"
+        >
+          <img
+            alt="car"
+            class=""
+            height="46px"
+            id="airBookingConfirmation_promoBottom02_car_flex_graphic_1"
+            src="/content/mkt/images/icons/car_circle.png"
+            style="width: 46px; height: 46px;"
+            width="46px"
+          />
+        </div>
+        <div
+          class=""
+          id="airBookingConfirmation_promoBottom02_car_flex_content_2"
+          style="display: inline-flex;"
+        >
+          <div
+            class=""
+            id="airBookingConfirmation_promoBottom02_car_flex_text_block_1"
+            style="margin: 10px 0px 20px 20px; color: rgb(255, 255, 255); font-weight: bold; font-size: 32px;"
+          >
+            <span
+              class=""
+            >
+              Need a
+            </span>
+            <br
+              class=""
+            />
+            <span
+              class=""
+            >
+              rental car?
+            </span>
+          </div>
+        </div>
+        <div
+          class=""
+          id="airBookingConfirmation_promoBottom02_car_flex_content_3"
+          style="text-align: center;"
+        >
+          <div
+            data-qa="cross-sell-car-link"
+          >
+            <span
+              aria-label="car booking"
+              class=""
+              command="CROSS_SELL_CAR_LINK"
+              id="airBookingConfirmation_promoBottom02_car_flex_command_1"
+              style="background-color: rgb(255, 202, 79); border: 1px solid #111b40; border-radius: 3px; box-shadow: inset 0 -1px 1px 0 #ffaa7b; padding: 10px 65px 10px; color: rgb(17, 27, 64); font-weight: 700; display: inline-block; width: 340px; font-size: 16px;"
+            >
+              <span
+                class=""
+              >
+                Book it now
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PurchaseConfirmationPage render should handle placements and render promoBottom03 if it exists 1`] = `
+<div
+  class="dynamic-placement"
+  data-qa="promoBottom03"
+>
+  <div
+    class="shimmer"
+  >
+    <div
+      class="shimmer--children"
+    >
+      <div
+        class="flex-placement visible"
+        id="flex_ok0lx1kh6ue"
+        style="margin: 0px 0px 6px 0px; width: 355px; height: 125px;"
+      >
+        <div
+          class=""
+          id="flex_content_dm7fu6x7wtm"
+          style="background-color: rgb(48, 76, 178); width: 355px; position: relative; height: 125px;"
+        >
+          <img
+            alt="hotel"
+            class=""
+            id="graphic_antseeh7ra"
+            src="/content/mkt/images/airport_info/DAL2_airport_info.jpg"
+            style="top: 5px; left: 5px; width: 135px; position: absolute; height: 115px;"
+          />
+          <strong
+            class=""
+            id="text_block_20hfnodiwhr"
+            style="color: rgb(255, 255, 255); top: 20px; left: 155px; font-size: 24px; position: absolute; text-align: left;"
+          >
+            <span
+              class=""
+            >
+              promoBottom03
+            </span>
+            <br
+              class=""
+            />
+            <span
+              class=""
+              style="color: rgb(173, 216, 230); font-weight: normal; font-size: 16px;"
+            >
+              Dummy Placement
+            </span>
+          </strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PurchaseConfirmationPage render should handle placements and render promoBottom04 if it exists 1`] = `
+<div
+  class="dynamic-placement"
+  data-qa="promoBottom04"
+>
+  <div
+    class="shimmer"
+  >
+    <div
+      class="shimmer--children"
+    >
+      <div
+        class="flex-placement visible"
+        id="flex_ok0lx1kh6ue"
+        style="margin: 0px 0px 6px 0px; width: 355px; height: 125px;"
+      >
+        <div
+          class=""
+          id="flex_content_dm7fu6x7wtm"
+          style="background-color: rgb(48, 76, 178); width: 355px; position: relative; height: 125px;"
+        >
+          <img
+            alt="hotel"
+            class=""
+            id="graphic_antseeh7ra"
+            src="/content/mkt/images/airport_info/DAL2_airport_info.jpg"
+            style="top: 5px; left: 5px; width: 135px; position: absolute; height: 115px;"
+          />
+          <strong
+            class=""
+            id="text_block_20hfnodiwhr"
+            style="color: rgb(255, 255, 255); top: 20px; left: 155px; font-size: 24px; position: absolute; text-align: left;"
+          >
+            <span
+              class=""
+            >
+              promoBottom04
+            </span>
+            <br
+              class=""
+            />
+            <span
+              class=""
+              style="color: rgb(173, 216, 230); font-weight: normal; font-size: 16px;"
+            >
+              Dummy Placement
+            </span>
+          </strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PurchaseConfirmationPage render should handle placements and render promoTop01 if it exists 1`] = `null`;
+
+exports[`PurchaseConfirmationPage render should render MessageWithInstructions 1`] = `
+<div
+  class="trip-booked--content"
+>
+  <div
+    class="swa-message p0 small success"
+  >
+    <span
+      class="icon-container"
+    >
+      <i
+        class="icon icon_check"
+      />
+    </span>
+    <span
+      class="message--text"
+    >
+      <h3
+        class="xxlarge bold white inline-block"
+      >
+        Your trip is booked!
+      </h3>
+    </span>
+  </div>
+  <div
+    class="mt4"
+  >
+    <p
+      class="larger white"
+    />
+    <p
+      class="medium white mt2"
+    >
+      Check in up to 24 hours in advance. The earlier you check in, the better your seat selection.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`PurchaseConfirmationPage render should render warning InfoBanner 1`] = `
+<div
+  class="info-banner--alert"
+>
+  <i
+    class="icon icon_exclamation-circle warning"
+  />
+</div>
+`;
+
+exports[`PurchaseConfirmationPage render should show confirmation trip header 1`] = `
+<div>
+  <div
+    class="purchase-confirmation"
+  >
+    <div>
+      <div
+        class="page-header"
+        id=""
+      >
+        <span
+          class="header"
+        >
+          AIR_BOOKING__PURCHASE_CONFIRMATION_MESSAGES__HEADER
+        </span>
+      </div>
+      <div />
+    </div>
+    <div
+      class="purchase-confirmation--message"
+    >
+      <div
+        class="trip-booked purchase-confirmation--trip-booked custom-container bgpdkblue white"
+      >
+        <div
+          class="trip-booked--content"
+        >
+          <div
+            class="swa-message p0 small success"
+          >
+            <span
+              class="icon-container"
+            >
+              <i
+                class="icon icon_check"
+              />
+            </span>
+            <span
+              class="message--text"
+            >
+              <h3
+                class="xxlarge bold white inline-block"
+              >
+                Your trip is booked!
+              </h3>
+            </span>
+          </div>
+          <div
+            class="mt4"
+          >
+            <p
+              class="larger white"
+            />
+            <p
+              class="medium white mt2"
+            >
+              Check in up to 24 hours in advance. The earlier you check in, the better your seat selection.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="purchase-confirmation--content"
+    >
+      <div
+        class="confirmation-trip-header"
+      >
+        <div
+          class="p4 trip-airport-info bdb"
+        >
+          <div
+            class="flex flex-main-between"
+          >
+            <div
+              class="trip-date-dest-city--city-name"
+            >
+              <span
+                class="trip-date-dest-city--trip-date"
+              >
+                Dec 13
+              </span>
+              <span
+                class="trip-date-dest-city--destination-airport pblue"
+              >
+                Austin
+              </span>
+            </div>
+            <div>
+              <div
+                class="confirmation-label"
+                data-qa="confirmation-label"
+              >
+                SHARED__PASSENGER_RESERVATION_TITLE__CONFIRMATION
+              </div>
+              <div
+                class="xlarge passenger-record-locator green align-right"
+                data-qa="passenger-record-locator"
+              >
+                ABC123
+              </div>
+            </div>
+          </div>
+          <div
+            class="airport-info--detail"
+          >
+            Dallas (Love Field), TX
+             to
+            <br />
+            Atlanta, GA
+          </div>
+        </div>
+        <div
+          class="trip-passenger-info p4"
+        >
+          <div
+            class="medium gray5 mb2"
+            data-qa="passenger-label"
+          >
+            SHARED__PASSENGER_RESERVATION_TITLE__PASSENGERS
+          </div>
+          <div
+            class="passenger-pnr-group flex flex-column"
+          >
+            <span
+              class="confirmation-trip-header--passenger-name xlarge block nowrap overflow-hidden ellipsis"
+            >
+              Xin Wang
+            </span>
+            <span
+              class="gray5 mr4 confirmation-trip-header--account-number"
+              data-qa="passenger-rapid-rewards"
+            >
+              1010101101
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="reservation-flight-summary"
+      >
+        <div
+          class="flight-summary-card rd3 overflow-hidden"
+        >
+          <div
+            class="flight-summary-header flight-summary-departing"
+          >
+            <span
+              class="flight-summary-title"
+            >
+              Departing
+            </span>
+            <span
+              class="flight-day"
+            >
+              Wed, Nov 1, 2017
+            </span>
+          </div>
+          <div
+            class="flight-summary-content"
+          >
+            <div
+              class="pricing-summary--group"
+            >
+              <div>
+                <div
+                  class="flight-info"
+                >
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        FLIGHT
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-number-list flex-row"
+                        >
+                          <span
+                            class="flight-number"
+                          >
+                            <span>
+                              1504
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flight-info-col"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        TOTAL TRAVEL TIME
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-duration"
+                        >
+                          <i
+                            class="icon icon_color-stopwatch"
+                            title="color-stopwatch"
+                          />
+                          <span
+                            data-qa="flight-duration-minutes"
+                          >
+                            02:00
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="itinerary-vertical"
+              >
+                <div
+                  class="itinerary-vertical--row"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        DEPARTS
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                6:30
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        DAL
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Dallas (Love Field)
+                        , 
+                        TX
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical--row"
+                >
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none"
+                  >
+                    <span
+                      class="stop-circle"
+                    >
+                       
+                    </span>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <span
+                      class="stops-detail stops-detail--non-stop"
+                    >
+                      <span>
+                        SHARED__LABEL_STRING__FLIGHT_STOP_DETAIL_NON_STOP
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="itinerary-vertical--row itinerary-vertical--arrival"
+                >
+                  <div
+                    class="svg-wrapper itinerary-vertical--col itinerary-vertical--col-icon itinerary-vertical--col-icon-none-line"
+                  >
+                    <i
+                      class="full-width-svg icon icon_airplane-depart"
+                    />
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-line"
+                  >
+                     
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-time"
+                  >
+                    <div
+                      class="label-container"
+                    >
+                      <div
+                        class="label-container--label"
+                      >
+                        ARRIVES
+                      </div>
+                      <div
+                        class="label-container--content"
+                      >
+                        <div
+                          class="flight-time-status flight-time-status--undefined"
+                        >
+                          <div
+                            class="flight-time"
+                          >
+                            <div
+                              class="flight-time--time"
+                            >
+                              <span>
+                                9:30
+                              </span>
+                              <span
+                                class="time-period"
+                              >
+                                AM
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="itinerary-vertical--col itinerary-vertical--col-info"
+                  >
+                    <div
+                      class="airport-info"
+                    >
+                      <div
+                        class="airport-info--code"
+                      >
+                        ATL
+                      </div>
+                      <div
+                        class="airport-info--detail"
+                      >
+                        Atlanta
+                        , 
+                        GA
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pricing-summary--group"
+            >
+              <div
+                class="passenger-price"
+              >
+                <div
+                  class="passenger-price--info"
+                >
+                  <span
+                    class="passenger-price--number-and-type"
+                    data-qa="passenger-price-passengers--number-and-type"
+                  >
+                    1
+                     
+                    Adult
+                  </span>
+                  <a
+                    class="passenger-price--fare-type"
+                    data-qa="passenger-price--fare-type"
+                    href="https://mobile.southwest.com/fare-rules/wanna-get-away"
+                    target="_blank"
+                  >
+                    Wanna Get Away
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="price-total"
+      >
+        <div
+          class="price-total--info"
+        >
+          <div
+            class="price-line"
+          >
+            <span
+              class="price-line--title"
+            >
+              SHARED__PRICE_LINE_TITLES__TOTAL_PASSENGER
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    233.98
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="table fullwidth mt3"
+          >
+            <div
+              class="price-total--info-col"
+            >
+              <p>
+                SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+              </p>
+            </div>
+            <div
+              class="price-total--info-col"
+              data-qa="toggleBreakdown"
+            >
+              <p>
+                SHARED__BREAKDOWN_TOGGLES__SHOW_FARE_BREAKDOWN
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fund-results-list"
+      >
+        <p
+          class="fund-results-list--title"
+        >
+          SHARED__TRIP_BOOKED__AMOUNT_APPLIED
+        </p>
+        <div
+          class="fund-results-list--item"
+        >
+          <div
+            class="fund-results-list--outer-container"
+          >
+            <div
+              class="credit-card--image_diners credit-card--image left mr2"
+            />
+            <div
+              class="fund-results-list-item--info-container"
+            >
+              <div
+                class="fund-results-list-item--main-info"
+              >
+                <div
+                  class="fund-results-list--text"
+                >
+                  <div>
+                    <p
+                      class="fund-result-title pdkblue larger"
+                    >
+                      DINERS CLUB
+                    </p>
+                    <p
+                      class="last-four-digits-text gray5"
+                    >
+                      Last 4 digits: 
+                      <span
+                        class="bold"
+                      >
+                        9999
+                      </span>
+                    </p>
+                  </div>
+                  <div
+                    class="additional-info-container"
+                  />
+                </div>
+                <div
+                  class="fund-results-list--amount-container"
+                >
+                  <div
+                    class="currency fund-results-list--available-amount"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      401.78
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="fund-results-list--billing-info"
+              >
+                <div
+                  class="align-left"
+                >
+                  <p
+                    class="billing-col-title"
+                  >
+                    CARDHOLDER
+                  </p>
+                  <p
+                    class="card-holder"
+                  >
+                    Li Rui
+                  </p>
+                </div>
+                <div
+                  class="align-right"
+                >
+                  <p
+                    class="billing-col-title"
+                  >
+                    BILLING ADDRESS
+                  </p>
+                  <p
+                    class="street-one"
+                  >
+                    441 Main St
+                  </p>
+                  <p
+                    class="street-two"
+                  >
+                    442 Main St
+                  </p>
+                  <p
+                    class="location-info"
+                  >
+                    Brooklyn, NY US 57508
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <dd
+        class="purchase-confirmation--divider"
+      />
+      <div
+        class="purchase-confirmation--footer"
+      >
+        <div>
+          <a
+            class="nav-item-link link-bar"
+            href="/"
+          >
+            SHARED__HOME_NAV_ITEM
+            <i
+              class="nav-item-link--icon icon icon_keyboard-arrow-right"
+            />
+          </a>
+          <a
+            class="nav-item-link link-bar"
+            href="/contact-us"
+            target="_blank"
+          >
+            SHARED__CONTACTUS_NAV_ITEM
+            <i
+              class="nav-item-link--icon icon icon_keyboard-arrow-right"
+            />
+          </a>
+          <a
+            class="nav-item-link link-bar"
+            href="/page/check-in-refund-information"
+            target="_blank"
+          >
+            SHARED__CHECK_IN_REFUND_INFO_NAV_ITEM
+            <i
+              class="nav-item-link--icon icon icon_keyboard-arrow-right"
+            />
+          </a>
+          <a
+            class="nav-item-link link-bar"
+            href="/page/contract-of-carriage"
+            target="_blank"
+          >
+            SHARED__CONTACT_OF_CONTRACT_NAV_ITEM
+            <i
+              class="nav-item-link--icon icon icon_keyboard-arrow-right"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PurchaseConfirmationPage when corporate confirmationYoungTravelerSection should render confirmation young traveler section 1`] = `
+<div
+  class="confirmation-young-traveler-section"
+>
+  <div
+    class="icon-and-brief-info"
+  >
+    <i
+      class="icon-and-brief-info--icon icon icon_young-traveler-circle"
+    />
+    <div
+      class="icon-and-brief-info--info-container"
+    >
+      <p
+        class="icon-and-brief-info--text"
+      >
+        Young Travelers
+      </p>
+      <a
+        class="pblue"
+        href="https://www.southwest.com/help/flying-with-children/young-travelers-terms-and-conditions"
+        target="_blank"
+      >
+        Review our Young Traveler policy
+      </a>
+    </div>
+  </div>
+  <div
+    class="icon-and-brief-info"
+  >
+    <i
+      class="icon-and-brief-info--icon icon icon_clipboard-circle"
+    />
+    <div
+      class="icon-and-brief-info--info-container"
+    >
+      <p
+        class="icon-and-brief-info--text"
+      >
+        Parent/guardian info
+      </p>
+      <button
+        class="icon-and-brief-info--button button"
+        type="button"
+      >
+        Review your parent/guardian info
+      </button>
+    </div>
+  </div>
+</div>
+`;

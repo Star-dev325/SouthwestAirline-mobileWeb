@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="9">
+
+  <testsuite name="airBooking.airBookingWithPointsTest"
+    errors="0" failures="0" hostname="" id="" package="airBooking" skipped="0"
+    tests="9" time="168.4" timestamp="Fri, 15 Dec 2023 00:28:50 GMT">
+  
+    <testcase name="Go to air booking from nav drawer" classname="airBooking.airBookingWithPointsTest" time="54.19" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify analytics event count" classname="airBooking.airBookingWithPointsTest" time="0.06000" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Find one-way flight from Austin to Atlanta with Points" classname="airBooking.airBookingWithPointsTest" time="31.65" assertions="20">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select flights" classname="airBooking.airBookingWithPointsTest" time="2.031" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check reprice / price summary and continue" classname="airBooking.airBookingWithPointsTest" time="7.233" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Login with Account" classname="airBooking.airBookingWithPointsTest" time="14.26" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Purchase flight" classname="airBooking.airBookingWithPointsTest" time="34.29" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="On confirmation Page" classname="airBooking.airBookingWithPointsTest" time="0.3010" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Session expire and refresh then User is on the home page with session Expired dialog poping up" classname="airBooking.airBookingWithPointsTest" time="24.40" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

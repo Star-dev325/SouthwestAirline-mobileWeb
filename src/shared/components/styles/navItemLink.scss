@@ -1,0 +1,41 @@
+a.nav-item-link {
+  @include relative;
+  @include block;
+  @include p5;
+  @include pdkblue;
+  @include larger;
+
+  .nav-item-link--icon.icon {
+    @include absolute;
+    @include r0;
+    @include gray4;
+    @include xxlarge;
+
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+  }
+
+  .nav-item-link--bang-icon.icon {
+    @include absolute;
+    @include r0;
+
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+  }
+
+  &_disabled {
+    @include gray4;
+  }
+
+  &.no-padding {
+    padding: 0;
+  }
+}
+
+fieldset[disabled] {
+  .nav-item-link {
+    @include gray4;
+  }
+}

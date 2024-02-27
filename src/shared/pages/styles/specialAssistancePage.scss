@@ -1,0 +1,26 @@
+.is-webview {
+  &.special-assistance-page {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .special-assistance-form {
+        background: none;
+
+        .segments {
+          @include tablet-content-frame-lg;
+          @include tablet-content-margins;
+          @include bggray2;
+
+          .segment.secondary.fill {
+            padding: 0.7rem 1.2rem;
+          }
+
+          .segment.secondary.fill:first-child {
+            @include mt0;
+            @include pt5;
+          }
+        }
+      }
+    }
+  }
+}

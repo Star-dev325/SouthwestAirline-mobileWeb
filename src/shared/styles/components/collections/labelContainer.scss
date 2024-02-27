@@ -1,0 +1,14 @@
+.label-container--label {
+  @include mb2;
+  @include gray5;
+  @include caps;
+  font-size: 1.1rem;
+
+  &.invisible {
+    font-size: 0;
+  }
+}
+
+.label-container--content {
+  @include mt4;
+}

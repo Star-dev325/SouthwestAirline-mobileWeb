@@ -1,0 +1,70 @@
+// OK to declare here I think because this is only place they're used
+// move to _colors.scss if they ever need to be re-used
+$primary-facebook: #3b5998;
+$primary-twitter: #00acee;
+
+.nav-container {
+  @include bgwhite;
+  @include larger;
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    @include pdkblue;
+  }
+
+  .icon_call-us,
+  .icon_email-us,
+  .icon_ic-feedback,
+  .icon_twitter-2,
+  .icon_facebook-2,
+  .icon_chat-with-us {
+    @include pl8;
+    @include pr4;
+    font-size: 3.6rem;
+  }
+
+  .icon_call-us {
+    @include pblue;
+  }
+
+  .icon_email-us {
+    @include sdkblue;
+  }
+
+  .icon_twitter-2 {
+    color: $primary-twitter;
+  }
+
+  .icon_facebook-2 {
+    color: $primary-facebook;
+  }
+
+  .icon_ic-feedback {
+    @include sblue;
+  }
+
+  .menu-list {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    .dynamic-placement {
+      margin: 0 -1.5rem;
+    }
+  }
+
+  .menu-footer {
+    border-top: 1px solid $gray2;
+    padding: 2rem 1.5rem 1rem;
+
+    .menu-footer--copyright {
+      @include block;
+      @include gray5;
+      @include lineheight14;
+      @include center;
+      font-size: 1.3rem;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.bottom-link-list {
+  @include bggray1;
+
+  background-image: linear-gradient($gray1, darken($gray1, 5%));
+  border-radius: 5px;
+}
+
+.bottom-link-list--item {
+  @include bdgray4;
+  @include bdt;
+  @include block;
+  @include border-none;
+  @include center;
+  @include ellipsis;
+  @include flex-grow1;
+  @include fullwidth;
+  @include lineheight14;
+  @include m0;
+  @include p3;
+  @include relative;
+  @include xlarge;
+
+  -webkit-tap-highlight-color: transparent;
+  background: none;
+  border-top: 1px solid $gray4;
+  color: $vibrant-blue;
+  cursor: pointer;
+  min-height: 45px;
+}
+
+.bottom-link-list--subtitle {
+  @include center;
+  @include lineheight20;
+  @include p3;
+  @include gray5;
+  @include large;
+}

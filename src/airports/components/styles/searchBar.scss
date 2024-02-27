@@ -1,0 +1,39 @@
+.airport-search-bar--form {
+  &.active {
+    width: 80%;
+  }
+}
+
+.airport-search-bar--icon {
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.airport-search-bar--remove {
+  font-size: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+input.airport-search-bar--input {
+  @include pdkblue;
+  height: 2.5rem;
+  padding: 0 0 0 2.5rem;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+
+  &::-webkit-input-placeholder {
+    @include gray4;
+    @include medium;
+  }
+}
+
+.airport-search-bar--cancel {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.car-booking-form .error input.airport-search-bar--input::placeholder {
+  @include gray4;
+}

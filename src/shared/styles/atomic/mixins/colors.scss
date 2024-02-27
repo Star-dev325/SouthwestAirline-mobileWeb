@@ -1,0 +1,164 @@
+// Refer to sass/colors.scss for colours
+// bg = background
+
+// BLUES
+// p = primary, s = secondary
+// dk = dark, lt = light
+@mixin pblue {
+  color: $pblue;
+}
+@mixin bgpblue {
+  background: $pblue;
+}
+
+@mixin pdkblue {
+  color: $pdkblue;
+}
+@mixin bgpdkblue {
+  background: $pdkblue;
+}
+
+@mixin sblue {
+  color: $sblue;
+}
+@mixin bgsblue {
+  background: $sblue;
+}
+
+@mixin sdkblue {
+  color: $sdkblue;
+}
+@mixin bgsdkblue {
+  background: $sdkblue;
+}
+
+@mixin sltblue {
+  color: $sltblue;
+}
+@mixin bgsltblue {
+  background: $sltblue;
+}
+
+@mixin ltblue {
+  color: $ltblue;
+}
+@mixin bgltblue {
+  background: $ltblue;
+}
+
+// GRAYSCALE
+@mixin white {
+  color: $white;
+}
+@mixin black {
+  color: $black;
+}
+@mixin bgwhite {
+  background: $white;
+}
+
+@mixin gray1 {
+  color: $gray1;
+}
+@mixin bggray1 {
+  background: $gray1;
+}
+
+@mixin gray2 {
+  color: $gray2;
+}
+@mixin bggray2 {
+  background: $gray2;
+}
+
+@mixin gray3 {
+  color: $gray3;
+}
+@mixin bggray3 {
+  background: $gray3;
+}
+
+@mixin gray4 {
+  color: $gray4;
+}
+@mixin bggray4 {
+  background: $gray4;
+}
+
+@mixin gray5 {
+  color: $gray5;
+}
+@mixin bggray5 {
+  background: $gray5;
+}
+
+// OTHER COLOURS
+@mixin green {
+  color: $green;
+}
+@mixin green2 {
+  color: $green2;
+}
+@mixin bggreen {
+  background: $green;
+}
+@mixin bggreen2 {
+  background: $green2;
+}
+
+@mixin yellow {
+  color: $yellow;
+}
+@mixin bgyellow {
+  background: $yellow;
+}
+
+@mixin orange {
+  color: $orange;
+}
+@mixin bgorange {
+  background: $orange;
+}
+
+@mixin red {
+  color: $red;
+}
+@mixin bgred {
+  background: $red;
+}
+
+@mixin teal {
+  color: $teal;
+}
+@mixin bgteal {
+  background: $teal;
+}
+
+@mixin pdkyellow {
+  color: $pdkyellow;
+}
+@mixin bgpdkyellow {
+  background: $pdkyellow;
+}
+
+@mixin pltyellow {
+  color: $pltyellow;
+}
+@mixin bgpltyellow {
+  background: $pltyellow;
+}
+
+@mixin syellow {
+  color: $syellow;
+}
+@mixin bgsyellow {
+  background: $syellow;
+}
+
+@mixin bgtransp {
+  background: transparent;
+}
+
+@mixin color-inherit {
+  color: inherit;
+}

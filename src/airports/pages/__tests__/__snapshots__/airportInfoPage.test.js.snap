@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Airport Info Page should render AirportInfoPage 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="airport-info"
+      >
+        <div>
+          <div
+            class="page-header action-bar"
+            id=""
+          >
+            <ul
+              class="action-bar-buttons action-bar--left-buttons"
+            />
+            <div
+              class="action-bar--container"
+            >
+              <div
+                class="action-bar--title-align-center action-bar--title"
+              >
+                <span
+                  class="action-bar--main-title"
+                >
+                  Airport Info
+                </span>
+                <span
+                  class="action-bar--sub-title"
+                />
+              </div>
+            </div>
+            <ul
+              class="action-bar-buttons action-bar--right-buttons"
+            >
+              <li
+                class="action-bar-buttons--item"
+              >
+                <button
+                  class="button"
+                  type="button"
+                >
+                  Done
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div />
+        </div>
+        <div
+          class="image-item"
+        >
+          <div
+            class="overlay"
+          >
+            <img
+              alt="Picture representing CLE"
+              class="image"
+              src="/content/mkt/images/airport_info/CLE_aiport_info.jpg"
+            />
+          </div>
+          <div
+            class="title"
+          >
+            CLE
+          </div>
+          <div
+            class="subtitle"
+          >
+            Cleveland, OH - CLE
+          </div>
+        </div>
+        <div
+          class="alert"
+        >
+          <img
+            class="icon"
+            src="/content/mkt/images/airport_info/alert.jpg"
+          />
+          <div
+            class="title"
+          >
+            Airport Alert
+          </div>
+          <div
+            class="description"
+          />
+        </div>
+        <div
+          class="item-collection"
+          data-qa="body-objects"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

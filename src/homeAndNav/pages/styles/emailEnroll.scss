@@ -1,0 +1,23 @@
+.email-enroll {
+  &--sub-header {
+    @include bgpdkblue;
+    @include white;
+    @include pt6;
+    @include px4;
+    @include pb4;
+  }
+
+  &--iframe {
+    @include t0;
+    @include l0;
+    @include fullwidth;
+
+    height: 100vh;
+  }
+
+  &--footer {
+    @include bgpdkblue;
+    @include px4;
+    @include py5;
+  }
+}

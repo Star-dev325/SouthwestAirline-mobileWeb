@@ -1,0 +1,35 @@
+.flight-link {
+  @include table;
+  @include fullwidth;
+  @include pdkblue;
+
+  &--value {
+    @include table-cell;
+    @include align-top;
+
+    .airport-code {
+      @include block;
+      @include xxxlarge;
+      @include bold;
+    }
+
+    .formatted-time {
+      @include pdkblue;
+      @include mt1;
+
+      &--period {
+        @include small;
+      }
+    }
+  }
+
+  &--icon {
+    @include table-cell;
+    @include align-middle;
+    font-size: 2.4rem;
+
+    .icon {
+      font-size: 3rem;
+    }
+  }
+}

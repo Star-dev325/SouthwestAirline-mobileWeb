@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarCrossSellBanner should render correct component 1`] = `
+<div>
+  <div
+    class="car-cross-sell--banner"
+  >
+    <div
+      class="car-cross-sell--title"
+    >
+      <h3
+        class="car-cross-sell--title-heading"
+      >
+        <span>
+          AIR_BOOKING__NEED_A
+        </span>
+        <br />
+        <span>
+          AIR_BOOKING__RENTAL_CAR
+        </span>
+      </h3>
+      <i
+        class="car-cross-sell--icon icon icon_car"
+      />
+    </div>
+    <button
+      class="car-cross-sell--button button button--fluid huge button--yellow"
+      type="button"
+    >
+      AIR_BOOKING__BOOK_IT_NOW
+    </button>
+  </div>
+</div>
+`;

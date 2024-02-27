@@ -1,0 +1,95 @@
+.is-webview .page-header {
+  @include fixed;
+  @include fullwidth;
+  z-index: 5;
+}
+
+.page-header {
+  @include header;
+  @include relative;
+  padding: 1.5rem;
+
+  .white {
+    @include white;
+  }
+
+  .italics {
+    @include italic;
+  }
+
+  .normal {
+    @include regular;
+  }
+
+  &.account-bar {
+    @include bgpdkblue;
+    @include flex;
+    @include flex-main-between;
+
+    .user-prefer-name-col {
+      @include regular;
+      @include italic;
+      @include nowrap;
+      @include mr4;
+      @include flex-equal-width;
+      width: 0;
+    }
+
+    .upcoming-trips-link-col {
+      @include nowrap;
+
+      .my-account-nav-item.nav-item {
+        @include large;
+      }
+
+      .icon {
+        @include relative;
+      }
+    }
+
+    .icon_keyboard-arrow-right {
+      @include large;
+      height: 1.4rem;
+      width: 1.4rem;
+    }
+  }
+
+  &--right-button {
+    @include inline-block;
+    @include left-divider;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    margin-top: -1.5rem;
+  }
+}
+
+.page-header--no-padding {
+  @include p0;
+}
+
+.page-header--no-bottom-padding {
+  @include pb0;
+}
+
+.container .button-bar {
+  @include bgsblue;
+}
+
+.page-title-details {
+  @include italic;
+  margin-left: 0.7rem;
+  font-size: 1.54rem;
+
+  .flight-number {
+    margin-left: 0.2em;
+  }
+}
+
+#header {
+  .ui.grid {
+    margin: -0.35rem;
+
+    & > .column:not(.row) {
+      padding: 0.35rem;
+    }
+  }
+}

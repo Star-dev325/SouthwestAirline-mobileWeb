@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AirBookingActions onSubmitPassengerForm Young traveler dialog should call showDialog with the arguments 1`] = `
+Object {
+  "buttons": Array [
+    Object {
+      "label": "Cancel",
+      "onClick": [Function],
+    },
+    Object {
+      "label": "Continue",
+      "onClick": [Function],
+      "style": "primary",
+    },
+  ],
+  "contentView": <div
+    className="young-traveler-dialog--body"
+  >
+    <div
+      className="large"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "If the Young Traveler(s) will be traveling alone continue to add parent/guardian information.
+
+",
+        }
+      }
+    />
+    <div
+      className="medium"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "To add an accompanying traveler to the reservation please book travel on Southwest.com on a computer.
+
+See <a href=\\"https://www.southwest.com/help/flying-with-children/young-travelers-terms-and-conditions\\" target=\\"_blank\\">Young Traveler rules</a> for more information.",
+        }
+      }
+    />
+  </div>,
+  "name": "young-traveler-dialog",
+  "title": "Young Traveler",
+  "titleClassName": "young-traveler-dialog--title",
+}
+`;

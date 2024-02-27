@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="16">
+
+  <testsuite name="airBooking.bookingWithSpecialAssistance"
+    errors="0" failures="1" hostname="" id="" package="airBooking" skipped="10"
+    tests="16" time="202.4" timestamp="Fri, 15 Dec 2023 00:35:18 GMT">
+  
+    <testcase name="Go to air booking from nav drawer" classname="airBooking.bookingWithSpecialAssistance" time="30.49" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find one-way flight from Austin to Atlanta" classname="airBooking.bookingWithSpecialAssistance" time="59.91" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Select flights" classname="airBooking.bookingWithSpecialAssistance" time="5.036" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check reprice / price summary and continue" classname="airBooking.bookingWithSpecialAssistance" time="14.80" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter passenger details" classname="airBooking.bookingWithSpecialAssistance" time="14.62" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Login with Account" classname="airBooking.bookingWithSpecialAssistance" time="77.59" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;.dimmer&gt; to not be visible for 10000 milliseconds.">    at Page.continue (/Users/x311032/spa-mobile-web/test/e2e/pages/login/login.js:25:8)
+    at Object.Login with Account (/Users/x311032/spa-mobile-web/test/e2e/tests/airBooking/bookingWithSpecialAssistance.js:60:16)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Go back to passenger page and select Special Assistance" classname="airBooking.bookingWithSpecialAssistance">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify analytics SpecialAssistanceStore.selectionMade" classname="airBooking.bookingWithSpecialAssistance">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Add Special Assistance options" classname="airBooking.bookingWithSpecialAssistance">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Analytics selectionMade should be true now" classname="airBooking.bookingWithSpecialAssistance">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Remove all Special Assistance options" classname="airBooking.bookingWithSpecialAssistance">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Replace the removed Special Assistance options" classname="airBooking.bookingWithSpecialAssistance">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Analytics selectionMade should be false again after leaving passenger page" classname="airBooking.bookingWithSpecialAssistance">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Change Special Assistance selection from purchaseSummary passenger edit" classname="airBooking.bookingWithSpecialAssistance">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Purchase flight" classname="airBooking.bookingWithSpecialAssistance">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="On confirmation Page" classname="airBooking.bookingWithSpecialAssistance">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

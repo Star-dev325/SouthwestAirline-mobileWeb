@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PassengerCheckbox should render the component correctly 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="passenger-checkbox"
+      >
+        <div
+          class="passenger-checkbox--container"
+        >
+          <div
+            class="passenger-checkbox--name"
+          >
+            Sammy Travels
+          </div>
+          <div
+            class="passenger-checkbox--passenger-type-and-button-container"
+          >
+            <button
+              class="toggle-switch toggle-switch_checked button"
+              type="button"
+            >
+              <div
+                class="toggle-switch--slider toggle-switch--slider_checked"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`PassengerCheckbox should render the component with passenger type text when passengerTypeText exists 1`] = `
+<div>
+  <form>
+    <div
+      class="field"
+    >
+      <div
+        class="passenger-checkbox"
+      >
+        <div
+          class="passenger-checkbox--container"
+        >
+          <div
+            class="passenger-checkbox--name"
+          >
+            Sammy Travels
+          </div>
+          <div
+            class="passenger-checkbox--passenger-type-and-button-container"
+          >
+            <div
+              class="passenger-checkbox--passenger-type"
+            >
+              Adult
+            </div>
+            <button
+              class="toggle-switch toggle-switch_checked button"
+              type="button"
+            >
+              <div
+                class="toggle-switch--slider toggle-switch--slider_checked"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

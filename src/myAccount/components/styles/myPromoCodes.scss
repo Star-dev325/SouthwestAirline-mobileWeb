@@ -1,0 +1,46 @@
+.my-promo-codes {
+  .promo-code-body {
+    @include large;
+    @include pb5;
+    @include white;
+    @include inline-block;
+  }
+
+  .no-promo-code-found-message {
+    @include xlarge;
+    @include white;
+    @include regular;
+    @include mt4;
+    @include center;
+  }
+}
+
+.promo-codes-panel--links {
+  @include block;
+
+  .my-account-nav-item {
+    @include larger;
+    @include bold;
+    @include center;
+
+    .icon_keyboard-arrow-right {
+      @include hide;
+    }
+  }
+}
+
+.promo-panel-content {
+  @include py4;
+  @include px5;
+
+  .main-body-content {
+    @include pdkblue;
+    @include larger;
+  }
+}
+
+.placement-text-content {
+  @include mt4;
+  @include px4;
+  @include py2;
+}

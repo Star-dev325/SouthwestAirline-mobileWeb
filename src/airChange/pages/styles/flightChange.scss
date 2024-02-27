@@ -1,0 +1,18 @@
+.flight-change--intro {
+  @include p5;
+
+  p {
+    @include gray5;
+    line-height: 1.6rem;
+  }
+}
+
+.flight-change {
+  .segment {
+    background: none;
+  }
+}
+
+.air-change-search-flight {
+  @include bgpdkblue;
+}

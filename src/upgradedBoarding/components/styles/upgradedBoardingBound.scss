@@ -1,0 +1,46 @@
+.upgraded-boarding-bound {
+  @include flex;
+  @include flex-main-between;
+  @include pdkblue;
+  @include bgwhite;
+  @include px5;
+  @include py3;
+  @include bdb;
+
+  .ub-bound-airport-section {
+    @include flex4;
+
+    .ub-bound-airport-info {
+      @include larger;
+    }
+
+    .ub-bound-flight-number {
+      @include gray4;
+      @include medium;
+    }
+  }
+
+  .ub-bound-price-info-section {
+    @include flex7;
+
+    .ub-bound-price-section {
+      @include flex;
+      @include flex-main-between;
+
+      .ub-bound-price {
+        @include larger;
+      }
+
+      .ub-bound-pax-count {
+        @include gray4;
+        @include medium;
+      }
+
+      .ub-bound-price-total {
+        @include flex-cross-center;
+        @include xlarge;
+        @include bold;
+      }
+    }
+  }
+}

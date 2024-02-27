@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`internalReferenceNumberSelect should have correct props for SearchableList 1`] = `
+<div>
+  <div
+    class="internal-reference-number-select"
+  >
+    <div
+      class="searchable-list"
+    >
+      <div>
+        <div
+          class="page-header action-bar"
+          id=""
+        >
+          <ul
+            class="action-bar-buttons action-bar--left-buttons"
+          />
+          <div
+            class="action-bar--container"
+          >
+            <div
+              class="action-bar--title"
+            >
+              <span
+                class="action-bar--main-title"
+              >
+                AIR_BOOKING__CORPORATE_BOOKING__IRN
+              </span>
+              <span
+                class="action-bar--sub-title"
+              />
+            </div>
+          </div>
+          <ul
+            class="action-bar-buttons action-bar--right-buttons"
+          >
+            <li
+              class="action-bar-buttons--item"
+            >
+              <button
+                class="button"
+                type="button"
+              >
+                Cancel
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div />
+      </div>
+      <div
+        class="airport-search-bar options-search-bar bggray3 clearfix bdb bdgray3 px5 py3"
+      >
+        <div
+          class="airport-search-bar--field relative"
+        >
+          <form
+            action=""
+            class="airport-search-bar--form m0 inline-block relative fullwidth"
+          >
+            <input
+              class="airport-search-bar--input rd4 fullwidth border-none lineheight20 large"
+              placeholder="SHARED__PLACEHOLDER__SEARCH"
+              type="search"
+              value=""
+            />
+            <i
+              class="airport-search-bar--remove absolute r0 p4 gray4 hide icon icon_remove"
+            />
+          </form>
+          <i
+            class="airport-search-bar--icon absolute gray4 medium icon icon_search"
+          />
+        </div>
+      </div>
+      <a
+        class="nav-item-link internal-reference-number-select--add-irn"
+      >
+        <span
+          class="searchable-list--alternate-item-title"
+        >
+          AIR_BOOKING__CORPORATE_BOOKING__ADD_IRN
+        </span>
+        <i
+          class="nav-item-link--icon icon icon_keyboard-arrow-right"
+        />
+      </a>
+      <div
+        class="searchable-list-code--results options-list--results"
+      >
+        <div
+          class="searchable-list-code--shadow options-list--results_shadow"
+        />
+        <div
+          class="searchable-list-code--empty hide"
+        >
+          No Results
+        </div>
+        <div
+          class="item-list-groups"
+        >
+          <div
+            class="alphabet-selector disable-scrolling"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,164 @@
+.car-promo-code-card--code-input .input {
+  @include py5;
+  @include px6;
+  @include bdb;
+}
+
+.car-promo-codes-form {
+  input::placeholder {
+    @include xlarge;
+    @include gray4;
+  }
+
+  input[disabled] {
+    opacity: 1;
+  }
+
+  .error input::placeholder {
+    @include red;
+  }
+}
+
+.car-select-field {
+  @include relative;
+  @include bgwhite;
+  @include bdb;
+  @include flex;
+  @include flex-column;
+  @include flex-main-center;
+
+  height: 7rem;
+
+  &--wrapper {
+    @include px6;
+    @include flex;
+    @include flex-main-center;
+    @include flex-cross-center;
+
+    &-label {
+      @include flex;
+      @include flex-column;
+      @include flex11;
+    }
+
+    &-icon {
+      @include flex1;
+      @include pblue;
+      @include xxlarge;
+    }
+  }
+
+  label.error {
+    @include red;
+  }
+}
+
+.car-promo-code-card {
+  .form {
+    @include mb0;
+
+    .field--error-msg {
+      @include pl5;
+    }
+  }
+
+  .form-select-placeholder-field {
+    @include border-none;
+    @include bdb;
+    border-radius: 0;
+  }
+
+  .car-promo-code-card--code-input {
+    @include bdb;
+  }
+
+  .select-input {
+    border: 0;
+  }
+
+  .input {
+    border: 0;
+  }
+
+  .formatted-input.formatted-input--fill {
+    select.dropdown {
+      @include regular;
+    }
+  }
+
+  .promo-selector {
+    @include relative;
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+
+    label.error {
+      @include red;
+    }
+
+    .icon_caret-down {
+      @include absolute;
+      transform: translateY(-50%);
+    }
+
+    .select-input {
+      @include p0;
+
+      .dropdown {
+        @include p0;
+        @include r0;
+        height: 1px; //for ios safari can not selectable by MouseEvent
+      }
+    }
+
+    &.promo-code-value {
+      @include pb4;
+      padding-top: 1.2rem;
+
+      .select-input {
+        @include pb1;
+
+        .dropdown {
+          @include gray4;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  .subheader {
+    @include pl5;
+    @include pb5;
+    @include pt6;
+    @include pr6;
+    @include flex;
+    @include flex-main-between;
+    @include bggray2;
+    @include bdb;
+
+    .clear-button {
+      @include medium;
+      @include p0;
+      margin-bottom: 2px;
+    }
+  }
+}
+
+.is-webview {
+  .car-promo-codes-form {
+    @include for-tablet-and-up {
+      @include bg-car-booking;
+      @include fullwidth;
+      @include absolute;
+      @include t0;
+      @include b0;
+      @include overflow-y-scroll;
+    }
+
+    .car-promo-code-container {
+      @include for-tablet-and-up {
+        @include tablet-content-frame;
+        margin: 40px auto;
+      }
+    }
+  }
+}

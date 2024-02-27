@@ -1,0 +1,72 @@
+.fare-details {
+  .page-header {
+    &::after {
+      @include table;
+      content: ' ';
+    }
+  }
+
+  .fare-details--headings_wrapper {
+    @include flex;
+    @include fullwidth;
+
+    .fare-details--fare {
+      @include center;
+      @include flex;
+      @include flex-basis0;
+      @include flex-column;
+      @include flex-grow1;
+
+      .fare-details--fare-name_wrapper {
+        @include flex;
+        @include flex-cross-center;
+        @include flex-main-center;
+        @include p4;
+        min-height: 6rem;
+
+        .fare-details--fare-name {
+          @include bold;
+          @include large;
+        }
+      }
+
+      .fare-details--fare-points {
+        @include pb4;
+
+        .fare-details--fare-points_amount {
+          @include bold;
+          @include large;
+          @include pt3;
+          border-top: solid 1px $white-opacity50;
+          margin: 0 1.6rem;
+        }
+
+        .fare-details--fare-points_per-dollar {
+          @include medium;
+        }
+      }
+    }
+  }
+}
+
+.fare-details--attribute-description {
+  font-size: 1.3rem;
+}
+
+.is-webview {
+  &.fare-details-page {
+    @include for-tablet-and-up {
+      @include bg-booking-flight;
+
+      .fare-details--headings_wrapper,
+      .fare-details--categories-and-values {
+        @include tablet-content-frame-lg;
+        @include mx-auto;
+      }
+
+      .fare-details--attribute {
+        word-break: break-word;
+      }
+    }
+  }
+}

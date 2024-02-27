@@ -1,0 +1,24 @@
+.alert-banner {
+  .alert-banner--content {
+    @include relative;
+    @include flex;
+    @include p4;
+    @include bgred;
+    @include white;
+    @include large;
+  }
+
+  $line-height: 16px;
+  $half-of-line-height: -($line-height / 2);
+
+  .alert-banner--vertically-centered-icon {
+    @include absolute;
+    margin-top: $half-of-line-height;
+    line-height: $line-height;
+    top: 50%;
+  }
+
+  .alert-banner--arrow-icon {
+    right: 1rem;
+  }
+}

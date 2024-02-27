@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="13">
+
+  <testsuite name="travelFunds.companionWithTravelFunds"
+    errors="0" failures="0" hostname="" id="" package="travelFunds" skipped="0"
+    tests="13" time="67.67" timestamp="Fri, 15 Dec 2023 02:04:34 GMT">
+  
+    <testcase name="Go to view reservation page from navDraw" classname="travelFunds.companionWithTravelFunds" time="38.66" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="View flight reservation through with confirmation number" classname="travelFunds.companionWithTravelFunds" time="2.953" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Navigate to companion purchase page" classname="travelFunds.companionWithTravelFunds" time="14.55" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Open Apply Travel Funds form and add a travel fund" classname="travelFunds.companionWithTravelFunds" time="2.358" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Apply page rendered funds list and price total" classname="travelFunds.companionWithTravelFunds" time="0.4590" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify analytics TravelFundsStore for travelFunds" classname="travelFunds.companionWithTravelFunds" time="0.02700" assertions="0">
+    </testcase>
+  
+    <testcase name="Apply a gift card and verify that fund rendered correctly" classname="travelFunds.companionWithTravelFunds" time="3.397" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify analytics TravelFundsStore for gift card" classname="travelFunds.companionWithTravelFunds" time="0.03500" assertions="0">
+    </testcase>
+  
+    <testcase name="Apply a luv voucher and verify that fund rendered correctly" classname="travelFunds.companionWithTravelFunds" time="1.971" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify analytics TravelFundsStore for luv voucher" classname="travelFunds.companionWithTravelFunds" time="0.03400" assertions="0">
+    </testcase>
+  
+    <testcase name="Back to purchase review page and verify UI updated" classname="travelFunds.companionWithTravelFunds" time="1.494" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="click purchase button" classname="travelFunds.companionWithTravelFunds" time="1.520" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify confirmation page" classname="travelFunds.companionWithTravelFunds" time="0.2140" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

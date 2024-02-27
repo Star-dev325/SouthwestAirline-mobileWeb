@@ -1,0 +1,85 @@
+.flight-header {
+  @include fullwidth;
+  @include flex;
+  @include flex-main-between;
+  @include px4;
+  padding-top: 1.6rem;
+  padding-bottom: 1.3rem;
+
+  .flight-time {
+    font-size: 2em;
+  }
+
+  .flight-time--time {
+    @include white;
+    @include regular;
+  }
+
+  .label-container {
+    @include flex;
+    @include flex-column;
+  }
+
+  .label-container--label {
+    @include white;
+  }
+
+  .label-container--content {
+    @include mt2;
+  }
+
+  &--col {
+    @include table-cell;
+    @include align-middle;
+    padding: 0 0.25em;
+  }
+}
+
+.flight-header--flight-numbers-col {
+  @include flex-cross-center;
+  @include center;
+}
+
+.flight-header--arrives-col {
+  @include flex-cross-end;
+  @include align-right;
+}
+
+.flight-header--col-label {
+  @include align-top;
+}
+
+.flight-header--flight-number {
+  @include white;
+  font-size: 2em;
+}
+
+.flight-header--next-day {
+  @include medium;
+  @include bold;
+  @include green;
+  padding-top: 0.4rem;
+}
+
+.flight-header--stops {
+  @include white;
+  @include center;
+  @include large;
+  padding-top: 0.4rem;
+}
+
+.flight-header--overnight {
+  @include orange;
+  @include flex;
+  @include flex-cross-center;
+  @include mt2;
+}
+
+.flight-header--overnight-icon {
+  @include smaller;
+}
+
+.flight-header--overnight-label {
+  @include ml1;
+  @include medium;
+}

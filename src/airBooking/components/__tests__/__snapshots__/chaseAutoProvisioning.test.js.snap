@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`chaseAutoProvisioning should render when cardOrEmail is CHASE_CARD_PROVISION 1`] = `
+<body>
+  <div>
+    <div
+      class="chase-auto-provisioning"
+    >
+      <img
+        src="/content/mkt/images/landing_pages/chase/chase-credit-card.svg"
+      />
+      <div
+        class="chase--text-container"
+      >
+        <span
+          class="chase--header"
+        >
+          example1
+        </span>
+        <div
+          class="chase--body"
+        >
+          example2
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`chaseAutoProvisioning should render when cardOrEmail is CHASE_EMAIL_PROVISION 1`] = `
+<body>
+  <div>
+    <div
+      class="chase-auto-provisioning"
+    >
+      <img
+        src="/content/mkt/images/landing_pages/chase/chase-envelope.svg"
+      />
+      <div
+        class="chase--text-container"
+      >
+        <span
+          class="chase--header"
+        >
+          example1
+        </span>
+        <div
+          class="chase--body"
+        >
+          example2
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

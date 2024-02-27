@@ -1,0 +1,1681 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightProduct render With same day should render same day expanded product cards 1`] = `
+<FlightProduct
+  flightProductCard={
+    Object {
+      "_links": Object {
+        "sameDayFlightDetails": Object {
+          "body": Object {
+            "flightIdentifier": "",
+            "sameDayToken": "",
+          },
+          "href": "/v1/mobile-air-operations/page/same-day/flight-details/2ROHD7",
+          "method": "POST",
+        },
+      },
+      "_meta": Object {
+        "cardId": "DAL:SFO:0:2017-10-24",
+        "departureTime": "1935",
+        "durationMinutes": 230,
+        "numberOfStops": 0,
+        "startingFromAmount": 218,
+        "startingFromAmountSeniorOnly": 150,
+      },
+      "arrivalTime": "21:25",
+      "departureTime": "19:35",
+      "discountedStartingFromPrice": Object {
+        "amount": "200",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "discountedStartingFromPriceSeniorOnly": null,
+      "discountedStartingFromPriceTax": null,
+      "duration": "3h 50m",
+      "dynamicWaiverAvailabilityText": null,
+      "fares": Array [
+        Object {
+          "_meta": Object {
+            "fareProductId": "WGA",
+            "fareType": "WANNA_GET_AWAY",
+            "productId": "WGA|ADT|LLN3PNR,L,AUS,BOS,2017-10-26T12:40-05:00,2017-10-26T17:40-04:00,WN,WN,198,73H",
+          },
+          "discountedPrice": null,
+          "discountedPricePointTax": null,
+          "earnPoints": "Earn 1,138 pts",
+          "fareDescription": "Wanna Get Away",
+          "hasLowestFare": false,
+          "limitedSeats": "3 left",
+          "price": Object {
+            "amount": "218",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "priceDiffPointsTax": null,
+          "priceDifference": Object {
+            "amount": "25",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "sign": "-",
+          },
+          "pricePointTax": null,
+          "reasonIfUnavailable": null,
+        },
+        Object {
+          "_meta": Object {
+            "fareProductId": "ANY",
+            "fareType": "ANYTIME",
+            "productId": "WGA|ADT|LLN3PNR,L,AUS,BOS,2017-10-26T12:40-05:00,2017-10-26T17:40-04:00,WN,WN,198,73H",
+          },
+          "discountedPrice": null,
+          "discountedPricePointTax": null,
+          "earnPoints": "Earn 4,510 pts",
+          "fareDescription": "Anytime",
+          "hasLowestFare": false,
+          "limitedSeats": null,
+          "price": Object {
+            "amount": "499",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "priceDiffPointsTax": null,
+          "priceDifference": Object {
+            "amount": "0",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "pricePointTax": null,
+          "reasonIfUnavailable": null,
+        },
+        Object {
+          "_meta": Object {
+            "fareProductId": "BUS",
+            "fareType": "BUSINESS_SELECT",
+            "productId": "WGA|ADT|LLN3PNR,L,AUS,BOS,2017-10-26T12:40-05:00,2017-10-26T17:40-04:00,WN,WN,198,73H",
+          },
+          "discountedPrice": null,
+          "discountedPricePointTax": null,
+          "earnPoints": "Earn 5,658 pts",
+          "fareDescription": "Business Select",
+          "hasLowestFare": false,
+          "limitedSeats": null,
+          "price": Object {
+            "amount": "521",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "priceDiffPointsTax": null,
+          "priceDifference": Object {
+            "amount": "25",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "sign": "+",
+          },
+          "pricePointTax": null,
+          "reasonIfUnavailable": null,
+        },
+      ],
+      "flightNumbers": "4827",
+      "hasLowestFare": false,
+      "isNextDayArrival": false,
+      "isOvernight": false,
+      "labelText": "See options",
+      "reasonIfUnavailable": null,
+      "shortStopDescription": "Nonstop",
+      "startingFromPrice": null,
+      "startingFromPriceDiffPointsTax": null,
+      "startingFromPriceDifference": null,
+      "startingFromPricePointTax": null,
+      "startingFromPriceSeniorOnly": null,
+      "stopCity": null,
+      "stopDescription": "Nonstop",
+      "stopDescriptionOnSelect": "Nonstop",
+    }
+  }
+  isExpand={true}
+  isPromoCodeApplied={false}
+  isSameDay={true}
+  onProductSelected={[Function]}
+>
+  <div
+    className="flight-product-panel rd2 px3 py4 bgwhite"
+    data-qa="flightProductItem"
+  >
+    <div
+      className="flight-product--container"
+      data-qa="flightProducts"
+      data-testid="flightProducts"
+      onClick={[Function]}
+    >
+      <div
+        className="main-col"
+      >
+        <FlightTimes
+          arrivalTime="21:25"
+          departureTime="19:35"
+          hideIsNextDay={true}
+          isStretched={true}
+        >
+          <div
+            className="flight-times flight-times_stretched"
+          >
+            <div
+              className="flight-times--col flight-times--col-label"
+            >
+              <LabelContainer
+                labelText="Departs"
+              >
+                <div
+                  className="label-container"
+                >
+                  <div
+                    className="label-container--label"
+                  >
+                    Departs
+                  </div>
+                  <div
+                    className="label-container--content"
+                  >
+                    <FlightTime
+                      timeString="19:35"
+                    >
+                      <div
+                        className="flight-time"
+                      >
+                        <div
+                          className="flight-time--time"
+                        >
+                          <span>
+                            7:35
+                          </span>
+                          <span
+                            className="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </FlightTime>
+                  </div>
+                </div>
+              </LabelContainer>
+            </div>
+            <div
+              className="flight-times--col flight-times-icon"
+            >
+              <Icon
+                type="airplane"
+              >
+                <i
+                  className="icon icon_airplane"
+                />
+              </Icon>
+            </div>
+            <div
+              className="flight-times--col flight-times--col-label"
+            >
+              <LabelContainer
+                labelText="Arrives"
+              >
+                <div
+                  className="label-container"
+                >
+                  <div
+                    className="label-container--label"
+                  >
+                    Arrives
+                  </div>
+                  <div
+                    className="label-container--content"
+                  >
+                    <FlightTime
+                      timeString="21:25"
+                    >
+                      <div
+                        className="flight-time"
+                      >
+                        <div
+                          className="flight-time--time"
+                        >
+                          <span>
+                            9:25
+                          </span>
+                          <span
+                            className="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </FlightTime>
+                  </div>
+                </div>
+              </LabelContainer>
+            </div>
+          </div>
+        </FlightTimes>
+        <div
+          className="flight-data"
+        >
+          <div
+            className="flags"
+          >
+            <div
+              className="data-object stops-flag nonstop"
+            >
+              <span
+                className="stops"
+              >
+                Nonstop
+              </span>
+            </div>
+            <div
+              className="time-info data-object"
+            >
+              3h 50m
+            </div>
+            <div
+              className="time-info data-object next-day-overnight"
+              data-qa="is-next-day-or-overnight"
+            >
+              <MultiDayIndicator
+                isNextDay={false}
+                isOvernight={false}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="fare-col"
+      >
+        <div
+          className="flight-number-group"
+        >
+          <LabelContainer
+            labelText="Flight #"
+          >
+            <div
+              className="label-container"
+            >
+              <div
+                className="label-container--label"
+              >
+                Flight #
+              </div>
+              <div
+                className="label-container--content"
+              />
+            </div>
+          </LabelContainer>
+          <span
+            className="flight-number xlarge"
+          >
+            4827
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</FlightProduct>
+`;
+
+exports[`FlightProduct render With same day should render same day related views 1`] = `
+<FlightProduct
+  flightProductCard={
+    Object {
+      "_links": Object {
+        "sameDayFlightDetails": Object {
+          "body": Object {
+            "flightIdentifier": "",
+            "sameDayToken": "",
+          },
+          "href": "/v1/mobile-air-operations/page/same-day/flight-details/2ROHD7",
+          "method": "POST",
+        },
+      },
+      "_meta": Object {
+        "cardId": "DAL:SFO:0:2017-10-24",
+        "departureTime": "1935",
+        "durationMinutes": 230,
+        "numberOfStops": 0,
+        "startingFromAmount": 218,
+        "startingFromAmountSeniorOnly": 150,
+      },
+      "arrivalTime": "21:25",
+      "departureTime": "19:35",
+      "discountedStartingFromPrice": Object {
+        "amount": "200",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "discountedStartingFromPriceSeniorOnly": null,
+      "discountedStartingFromPriceTax": null,
+      "duration": "3h 50m",
+      "dynamicWaiverAvailabilityText": null,
+      "fares": Array [
+        Object {
+          "_meta": Object {
+            "fareProductId": "WGA",
+            "fareType": "WANNA_GET_AWAY",
+            "productId": "WGA|ADT|LLN3PNR,L,AUS,BOS,2017-10-26T12:40-05:00,2017-10-26T17:40-04:00,WN,WN,198,73H",
+          },
+          "discountedPrice": null,
+          "discountedPricePointTax": null,
+          "earnPoints": "Earn 1,138 pts",
+          "fareDescription": "Wanna Get Away",
+          "hasLowestFare": false,
+          "limitedSeats": "3 left",
+          "price": Object {
+            "amount": "218",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "priceDiffPointsTax": null,
+          "priceDifference": Object {
+            "amount": "25",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "sign": "-",
+          },
+          "pricePointTax": null,
+          "reasonIfUnavailable": null,
+        },
+        Object {
+          "_meta": Object {
+            "fareProductId": "ANY",
+            "fareType": "ANYTIME",
+            "productId": "WGA|ADT|LLN3PNR,L,AUS,BOS,2017-10-26T12:40-05:00,2017-10-26T17:40-04:00,WN,WN,198,73H",
+          },
+          "discountedPrice": null,
+          "discountedPricePointTax": null,
+          "earnPoints": "Earn 4,510 pts",
+          "fareDescription": "Anytime",
+          "hasLowestFare": false,
+          "limitedSeats": null,
+          "price": Object {
+            "amount": "499",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "priceDiffPointsTax": null,
+          "priceDifference": Object {
+            "amount": "0",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "pricePointTax": null,
+          "reasonIfUnavailable": null,
+        },
+        Object {
+          "_meta": Object {
+            "fareProductId": "BUS",
+            "fareType": "BUSINESS_SELECT",
+            "productId": "WGA|ADT|LLN3PNR,L,AUS,BOS,2017-10-26T12:40-05:00,2017-10-26T17:40-04:00,WN,WN,198,73H",
+          },
+          "discountedPrice": null,
+          "discountedPricePointTax": null,
+          "earnPoints": "Earn 5,658 pts",
+          "fareDescription": "Business Select",
+          "hasLowestFare": false,
+          "limitedSeats": null,
+          "price": Object {
+            "amount": "521",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "priceDiffPointsTax": null,
+          "priceDifference": Object {
+            "amount": "25",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "sign": "+",
+          },
+          "pricePointTax": null,
+          "reasonIfUnavailable": null,
+        },
+      ],
+      "flightNumbers": "4827",
+      "hasLowestFare": false,
+      "isNextDayArrival": false,
+      "isOvernight": false,
+      "labelText": "See options",
+      "reasonIfUnavailable": null,
+      "shortStopDescription": "Nonstop",
+      "startingFromPrice": null,
+      "startingFromPriceDiffPointsTax": null,
+      "startingFromPriceDifference": null,
+      "startingFromPricePointTax": null,
+      "startingFromPriceSeniorOnly": null,
+      "stopCity": null,
+      "stopDescription": "Nonstop",
+      "stopDescriptionOnSelect": "Nonstop",
+    }
+  }
+  isExpand={false}
+  isPromoCodeApplied={false}
+  isSameDay={true}
+  onProductSelected={[Function]}
+>
+  <div
+    className="flight-product-panel rd2 px3 py4 bgwhite"
+    data-qa="flightProductItem"
+  >
+    <div
+      className="flight-product--container"
+      data-qa="flightProducts"
+      data-testid="flightProducts"
+      onClick={[Function]}
+    >
+      <div
+        className="main-col"
+      >
+        <FlightTimes
+          arrivalTime="21:25"
+          departureTime="19:35"
+          hideIsNextDay={true}
+          isStretched={true}
+        >
+          <div
+            className="flight-times flight-times_stretched"
+          >
+            <div
+              className="flight-times--col flight-times--col-label"
+            >
+              <LabelContainer
+                labelText="Departs"
+              >
+                <div
+                  className="label-container"
+                >
+                  <div
+                    className="label-container--label"
+                  >
+                    Departs
+                  </div>
+                  <div
+                    className="label-container--content"
+                  >
+                    <FlightTime
+                      timeString="19:35"
+                    >
+                      <div
+                        className="flight-time"
+                      >
+                        <div
+                          className="flight-time--time"
+                        >
+                          <span>
+                            7:35
+                          </span>
+                          <span
+                            className="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </FlightTime>
+                  </div>
+                </div>
+              </LabelContainer>
+            </div>
+            <div
+              className="flight-times--col flight-times-icon"
+            >
+              <Icon
+                type="airplane"
+              >
+                <i
+                  className="icon icon_airplane"
+                />
+              </Icon>
+            </div>
+            <div
+              className="flight-times--col flight-times--col-label"
+            >
+              <LabelContainer
+                labelText="Arrives"
+              >
+                <div
+                  className="label-container"
+                >
+                  <div
+                    className="label-container--label"
+                  >
+                    Arrives
+                  </div>
+                  <div
+                    className="label-container--content"
+                  >
+                    <FlightTime
+                      timeString="21:25"
+                    >
+                      <div
+                        className="flight-time"
+                      >
+                        <div
+                          className="flight-time--time"
+                        >
+                          <span>
+                            9:25
+                          </span>
+                          <span
+                            className="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </FlightTime>
+                  </div>
+                </div>
+              </LabelContainer>
+            </div>
+          </div>
+        </FlightTimes>
+        <div
+          className="flight-data"
+        >
+          <div
+            className="flags"
+          >
+            <div
+              className="data-object stops-flag nonstop"
+            >
+              <span
+                className="stops"
+              >
+                Nonstop
+              </span>
+            </div>
+            <div
+              className="time-info data-object"
+            >
+              3h 50m
+            </div>
+            <div
+              className="time-info data-object next-day-overnight"
+              data-qa="is-next-day-or-overnight"
+            >
+              <MultiDayIndicator
+                isNextDay={false}
+                isOvernight={false}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="fare-col"
+      >
+        <div
+          className="fare-container"
+        >
+          <div
+            className="fare-content-sameday"
+            data-qa="diff-price-fare"
+          >
+            <div
+              className="label-text"
+            >
+              <span
+                data-qa="total-amount"
+              >
+                See options
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</FlightProduct>
+`;
+
+exports[`FlightProduct render flight product available should show next day text if isNextDayArrival is true 1`] = `
+<FlightProduct
+  flightProductCard={
+    Object {
+      "_links": Object {
+        "sameDayFlightDetails": Object {
+          "body": Object {
+            "flightIdentifier": "",
+            "sameDayToken": "",
+          },
+          "href": "/v1/mobile-air-operations/page/same-day/flight-details/2ROHD7",
+          "method": "POST",
+        },
+      },
+      "_meta": Object {
+        "cardId": "DAL:SFO:0:2017-10-24",
+        "departureTime": "1935",
+        "durationMinutes": 230,
+        "numberOfStops": 0,
+        "startingFromAmount": 218,
+        "startingFromAmountSeniorOnly": 150,
+      },
+      "arrivalTime": "02:25",
+      "departureTime": "23:35",
+      "discountedStartingFromPrice": Object {
+        "amount": "200",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "discountedStartingFromPriceSeniorOnly": null,
+      "discountedStartingFromPriceTax": null,
+      "duration": "3h 50m",
+      "dynamicWaiverAvailabilityText": null,
+      "fares": Array [
+        Object {
+          "_meta": Object {
+            "fareProductId": "WGA",
+            "fareType": "WANNA_GET_AWAY",
+            "productId": "WGA|ADT|LLN3PNR,L,AUS,BOS,2017-10-26T12:40-05:00,2017-10-26T17:40-04:00,WN,WN,198,73H",
+          },
+          "discountedPrice": null,
+          "discountedPricePointTax": null,
+          "earnPoints": "Earn 1,138 pts",
+          "fareDescription": "Wanna Get Away",
+          "hasLowestFare": false,
+          "limitedSeats": "3 left",
+          "price": Object {
+            "amount": "218",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "priceDiffPointsTax": null,
+          "priceDifference": Object {
+            "amount": "25",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "sign": "-",
+          },
+          "pricePointTax": null,
+          "reasonIfUnavailable": null,
+        },
+        Object {
+          "_meta": Object {
+            "fareProductId": "ANY",
+            "fareType": "ANYTIME",
+            "productId": "WGA|ADT|LLN3PNR,L,AUS,BOS,2017-10-26T12:40-05:00,2017-10-26T17:40-04:00,WN,WN,198,73H",
+          },
+          "discountedPrice": null,
+          "discountedPricePointTax": null,
+          "earnPoints": "Earn 4,510 pts",
+          "fareDescription": "Anytime",
+          "hasLowestFare": false,
+          "limitedSeats": null,
+          "price": Object {
+            "amount": "499",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "priceDiffPointsTax": null,
+          "priceDifference": Object {
+            "amount": "0",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "pricePointTax": null,
+          "reasonIfUnavailable": null,
+        },
+        Object {
+          "_meta": Object {
+            "fareProductId": "BUS",
+            "fareType": "BUSINESS_SELECT",
+            "productId": "WGA|ADT|LLN3PNR,L,AUS,BOS,2017-10-26T12:40-05:00,2017-10-26T17:40-04:00,WN,WN,198,73H",
+          },
+          "discountedPrice": null,
+          "discountedPricePointTax": null,
+          "earnPoints": "Earn 5,658 pts",
+          "fareDescription": "Business Select",
+          "hasLowestFare": false,
+          "limitedSeats": null,
+          "price": Object {
+            "amount": "521",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "priceDiffPointsTax": null,
+          "priceDifference": Object {
+            "amount": "25",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "sign": "+",
+          },
+          "pricePointTax": null,
+          "reasonIfUnavailable": null,
+        },
+      ],
+      "flightNumbers": "4827",
+      "hasLowestFare": false,
+      "isNextDayArrival": true,
+      "isOvernight": false,
+      "reasonIfUnavailable": null,
+      "shortStopDescription": "Nonstop",
+      "startingFromPrice": Object {
+        "amount": "218",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "startingFromPriceDiffPointsTax": null,
+      "startingFromPriceDifference": null,
+      "startingFromPricePointTax": null,
+      "startingFromPriceSeniorOnly": null,
+      "stopCity": null,
+      "stopDescription": "Nonstop",
+      "stopDescriptionOnSelect": "Nonstop",
+    }
+  }
+  isExpand={false}
+  isPromoCodeApplied={false}
+  onProductSelected={[Function]}
+>
+  <div
+    className="flight-product-panel rd2 px3 py4 bgwhite"
+    data-qa="flightProductItem"
+  >
+    <div
+      className="flight-product--container"
+      data-qa="flightProducts"
+      data-testid="flightProducts"
+      onClick={[Function]}
+    >
+      <div
+        className="main-col"
+      >
+        <FlightTimes
+          arrivalTime="02:25"
+          departureTime="23:35"
+          hideIsNextDay={true}
+          isStretched={true}
+        >
+          <div
+            className="flight-times flight-times_stretched"
+          >
+            <div
+              className="flight-times--col flight-times--col-label"
+            >
+              <LabelContainer
+                labelText="Departs"
+              >
+                <div
+                  className="label-container"
+                >
+                  <div
+                    className="label-container--label"
+                  >
+                    Departs
+                  </div>
+                  <div
+                    className="label-container--content"
+                  >
+                    <FlightTime
+                      timeString="23:35"
+                    >
+                      <div
+                        className="flight-time"
+                      >
+                        <div
+                          className="flight-time--time"
+                        >
+                          <span>
+                            11:35
+                          </span>
+                          <span
+                            className="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </FlightTime>
+                  </div>
+                </div>
+              </LabelContainer>
+            </div>
+            <div
+              className="flight-times--col flight-times-icon"
+            >
+              <Icon
+                type="airplane"
+              >
+                <i
+                  className="icon icon_airplane"
+                />
+              </Icon>
+            </div>
+            <div
+              className="flight-times--col flight-times--col-label"
+            >
+              <LabelContainer
+                labelText="Arrives"
+              >
+                <div
+                  className="label-container"
+                >
+                  <div
+                    className="label-container--label"
+                  >
+                    Arrives
+                  </div>
+                  <div
+                    className="label-container--content"
+                  >
+                    <FlightTime
+                      timeString="02:25"
+                    >
+                      <div
+                        className="flight-time"
+                      >
+                        <div
+                          className="flight-time--time"
+                        >
+                          <span>
+                            2:25
+                          </span>
+                          <span
+                            className="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </FlightTime>
+                  </div>
+                </div>
+              </LabelContainer>
+            </div>
+          </div>
+        </FlightTimes>
+        <div
+          className="flight-data"
+        >
+          <div
+            className="flags"
+          >
+            <div
+              className="data-object stops-flag nonstop"
+            >
+              <span
+                className="stops"
+              >
+                Nonstop
+              </span>
+            </div>
+            <div
+              className="time-info data-object"
+            >
+              3h 50m
+            </div>
+            <div
+              className="time-info data-object next-day-overnight"
+              data-qa="is-next-day-or-overnight"
+            >
+              <MultiDayIndicator
+                isNextDay={true}
+                isOvernight={false}
+              >
+                <div
+                  className="multi-day-indicator multi-day-indicator--nextday-green"
+                  data-qa="next-day-indicator"
+                >
+                  <Icon
+                    className="multi-day-indicator--icon multi-day-indicator--icon-small"
+                    type="next-day-indicator"
+                  >
+                    <i
+                      className="multi-day-indicator--icon multi-day-indicator--icon-small icon icon_next-day-indicator"
+                    />
+                  </Icon>
+                  <p
+                    className="multi-day-indicator--font-small"
+                  >
+                    Next Day
+                  </p>
+                </div>
+              </MultiDayIndicator>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="fare-col"
+      >
+        <div
+          className="fare-container"
+        >
+          <div
+            className="fare-content"
+            data-qa="regular-price-fare"
+          >
+            <div>
+              From
+            </div>
+            <Currency
+              amount="218"
+              currencyCode="USD"
+              currencySymbol="$"
+              strikeThrough={false}
+            >
+              <div
+                className="currency"
+              >
+                <span
+                  className="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  218
+                </span>
+              </div>
+            </Currency>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</FlightProduct>
+`;
+
+exports[`FlightProduct render flight product available should show only overnight text if isOvernight and isNextDayArrival are both true 1`] = `
+<FlightProduct
+  flightProductCard={
+    Object {
+      "_links": Object {
+        "sameDayFlightDetails": Object {
+          "body": Object {
+            "flightIdentifier": "",
+            "sameDayToken": "",
+          },
+          "href": "/v1/mobile-air-operations/page/same-day/flight-details/2ROHD7",
+          "method": "POST",
+        },
+      },
+      "_meta": Object {
+        "cardId": "DAL:SFO:0:2017-10-24",
+        "departureTime": "1935",
+        "durationMinutes": 230,
+        "numberOfStops": 0,
+        "startingFromAmount": 218,
+        "startingFromAmountSeniorOnly": 150,
+      },
+      "arrivalTime": "04:00",
+      "departureTime": "23:00",
+      "discountedStartingFromPrice": Object {
+        "amount": "200",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "discountedStartingFromPriceSeniorOnly": null,
+      "discountedStartingFromPriceTax": null,
+      "duration": "3h 50m",
+      "dynamicWaiverAvailabilityText": null,
+      "fares": Array [
+        Object {
+          "_meta": Object {
+            "fareProductId": "WGA",
+            "fareType": "WANNA_GET_AWAY",
+            "productId": "WGA|ADT|LLN3PNR,L,AUS,BOS,2017-10-26T12:40-05:00,2017-10-26T17:40-04:00,WN,WN,198,73H",
+          },
+          "discountedPrice": null,
+          "discountedPricePointTax": null,
+          "earnPoints": "Earn 1,138 pts",
+          "fareDescription": "Wanna Get Away",
+          "hasLowestFare": false,
+          "limitedSeats": "3 left",
+          "price": Object {
+            "amount": "218",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "priceDiffPointsTax": null,
+          "priceDifference": Object {
+            "amount": "25",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "sign": "-",
+          },
+          "pricePointTax": null,
+          "reasonIfUnavailable": null,
+        },
+        Object {
+          "_meta": Object {
+            "fareProductId": "ANY",
+            "fareType": "ANYTIME",
+            "productId": "WGA|ADT|LLN3PNR,L,AUS,BOS,2017-10-26T12:40-05:00,2017-10-26T17:40-04:00,WN,WN,198,73H",
+          },
+          "discountedPrice": null,
+          "discountedPricePointTax": null,
+          "earnPoints": "Earn 4,510 pts",
+          "fareDescription": "Anytime",
+          "hasLowestFare": false,
+          "limitedSeats": null,
+          "price": Object {
+            "amount": "499",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "priceDiffPointsTax": null,
+          "priceDifference": Object {
+            "amount": "0",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "pricePointTax": null,
+          "reasonIfUnavailable": null,
+        },
+        Object {
+          "_meta": Object {
+            "fareProductId": "BUS",
+            "fareType": "BUSINESS_SELECT",
+            "productId": "WGA|ADT|LLN3PNR,L,AUS,BOS,2017-10-26T12:40-05:00,2017-10-26T17:40-04:00,WN,WN,198,73H",
+          },
+          "discountedPrice": null,
+          "discountedPricePointTax": null,
+          "earnPoints": "Earn 5,658 pts",
+          "fareDescription": "Business Select",
+          "hasLowestFare": false,
+          "limitedSeats": null,
+          "price": Object {
+            "amount": "521",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "priceDiffPointsTax": null,
+          "priceDifference": Object {
+            "amount": "25",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "sign": "+",
+          },
+          "pricePointTax": null,
+          "reasonIfUnavailable": null,
+        },
+      ],
+      "flightNumbers": "4827",
+      "hasLowestFare": false,
+      "isNextDayArrival": true,
+      "isOvernight": true,
+      "reasonIfUnavailable": null,
+      "shortStopDescription": "Nonstop",
+      "startingFromPrice": Object {
+        "amount": "218",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "startingFromPriceDiffPointsTax": null,
+      "startingFromPriceDifference": null,
+      "startingFromPricePointTax": null,
+      "startingFromPriceSeniorOnly": null,
+      "stopCity": null,
+      "stopDescription": "Nonstop",
+      "stopDescriptionOnSelect": "Nonstop",
+    }
+  }
+  isExpand={false}
+  isPromoCodeApplied={false}
+  onProductSelected={[Function]}
+>
+  <div
+    className="flight-product-panel rd2 px3 py4 bgwhite"
+    data-qa="flightProductItem"
+  >
+    <div
+      className="flight-product--container"
+      data-qa="flightProducts"
+      data-testid="flightProducts"
+      onClick={[Function]}
+    >
+      <div
+        className="main-col"
+      >
+        <FlightTimes
+          arrivalTime="04:00"
+          departureTime="23:00"
+          hideIsNextDay={true}
+          isStretched={true}
+        >
+          <div
+            className="flight-times flight-times_stretched"
+          >
+            <div
+              className="flight-times--col flight-times--col-label"
+            >
+              <LabelContainer
+                labelText="Departs"
+              >
+                <div
+                  className="label-container"
+                >
+                  <div
+                    className="label-container--label"
+                  >
+                    Departs
+                  </div>
+                  <div
+                    className="label-container--content"
+                  >
+                    <FlightTime
+                      timeString="23:00"
+                    >
+                      <div
+                        className="flight-time"
+                      >
+                        <div
+                          className="flight-time--time"
+                        >
+                          <span>
+                            11:00
+                          </span>
+                          <span
+                            className="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </FlightTime>
+                  </div>
+                </div>
+              </LabelContainer>
+            </div>
+            <div
+              className="flight-times--col flight-times-icon"
+            >
+              <Icon
+                type="airplane"
+              >
+                <i
+                  className="icon icon_airplane"
+                />
+              </Icon>
+            </div>
+            <div
+              className="flight-times--col flight-times--col-label"
+            >
+              <LabelContainer
+                labelText="Arrives"
+              >
+                <div
+                  className="label-container"
+                >
+                  <div
+                    className="label-container--label"
+                  >
+                    Arrives
+                  </div>
+                  <div
+                    className="label-container--content"
+                  >
+                    <FlightTime
+                      timeString="04:00"
+                    >
+                      <div
+                        className="flight-time"
+                      >
+                        <div
+                          className="flight-time--time"
+                        >
+                          <span>
+                            4:00
+                          </span>
+                          <span
+                            className="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </FlightTime>
+                  </div>
+                </div>
+              </LabelContainer>
+            </div>
+          </div>
+        </FlightTimes>
+        <div
+          className="flight-data"
+        >
+          <div
+            className="flags"
+          >
+            <div
+              className="data-object stops-flag nonstop"
+            >
+              <span
+                className="stops"
+              >
+                Nonstop
+              </span>
+            </div>
+            <div
+              className="time-info data-object"
+            >
+              3h 50m
+            </div>
+            <div
+              className="time-info data-object next-day-overnight"
+              data-qa="is-next-day-or-overnight"
+            >
+              <MultiDayIndicator
+                isNextDay={true}
+                isOvernight={true}
+              >
+                <div
+                  className="multi-day-indicator multi-day-indicator--overnight-red"
+                  data-qa="overnight-indicator"
+                >
+                  <Icon
+                    className="multi-day-indicator--icon multi-day-indicator--icon-small"
+                    type="next-day-indicator"
+                  >
+                    <i
+                      className="multi-day-indicator--icon multi-day-indicator--icon-small icon icon_next-day-indicator"
+                    />
+                  </Icon>
+                  <p
+                    className="multi-day-indicator--font-small"
+                  >
+                    Overnight
+                  </p>
+                </div>
+              </MultiDayIndicator>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="fare-col"
+      >
+        <div
+          className="fare-container"
+        >
+          <div
+            className="fare-content"
+            data-qa="regular-price-fare"
+          >
+            <div>
+              From
+            </div>
+            <Currency
+              amount="218"
+              currencyCode="USD"
+              currencySymbol="$"
+              strikeThrough={false}
+            >
+              <div
+                className="currency"
+              >
+                <span
+                  className="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  218
+                </span>
+              </div>
+            </Currency>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</FlightProduct>
+`;
+
+exports[`FlightProduct render flight product available should show overnight text if isOvernight is true 1`] = `
+<FlightProduct
+  flightProductCard={
+    Object {
+      "_links": Object {
+        "sameDayFlightDetails": Object {
+          "body": Object {
+            "flightIdentifier": "",
+            "sameDayToken": "",
+          },
+          "href": "/v1/mobile-air-operations/page/same-day/flight-details/2ROHD7",
+          "method": "POST",
+        },
+      },
+      "_meta": Object {
+        "cardId": "DAL:SFO:0:2017-10-24",
+        "departureTime": "1935",
+        "durationMinutes": 230,
+        "numberOfStops": 0,
+        "startingFromAmount": 218,
+        "startingFromAmountSeniorOnly": 150,
+      },
+      "arrivalTime": "04:00",
+      "departureTime": "23:00",
+      "discountedStartingFromPrice": Object {
+        "amount": "200",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "discountedStartingFromPriceSeniorOnly": null,
+      "discountedStartingFromPriceTax": null,
+      "duration": "3h 50m",
+      "dynamicWaiverAvailabilityText": null,
+      "fares": Array [
+        Object {
+          "_meta": Object {
+            "fareProductId": "WGA",
+            "fareType": "WANNA_GET_AWAY",
+            "productId": "WGA|ADT|LLN3PNR,L,AUS,BOS,2017-10-26T12:40-05:00,2017-10-26T17:40-04:00,WN,WN,198,73H",
+          },
+          "discountedPrice": null,
+          "discountedPricePointTax": null,
+          "earnPoints": "Earn 1,138 pts",
+          "fareDescription": "Wanna Get Away",
+          "hasLowestFare": false,
+          "limitedSeats": "3 left",
+          "price": Object {
+            "amount": "218",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "priceDiffPointsTax": null,
+          "priceDifference": Object {
+            "amount": "25",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "sign": "-",
+          },
+          "pricePointTax": null,
+          "reasonIfUnavailable": null,
+        },
+        Object {
+          "_meta": Object {
+            "fareProductId": "ANY",
+            "fareType": "ANYTIME",
+            "productId": "WGA|ADT|LLN3PNR,L,AUS,BOS,2017-10-26T12:40-05:00,2017-10-26T17:40-04:00,WN,WN,198,73H",
+          },
+          "discountedPrice": null,
+          "discountedPricePointTax": null,
+          "earnPoints": "Earn 4,510 pts",
+          "fareDescription": "Anytime",
+          "hasLowestFare": false,
+          "limitedSeats": null,
+          "price": Object {
+            "amount": "499",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "priceDiffPointsTax": null,
+          "priceDifference": Object {
+            "amount": "0",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "pricePointTax": null,
+          "reasonIfUnavailable": null,
+        },
+        Object {
+          "_meta": Object {
+            "fareProductId": "BUS",
+            "fareType": "BUSINESS_SELECT",
+            "productId": "WGA|ADT|LLN3PNR,L,AUS,BOS,2017-10-26T12:40-05:00,2017-10-26T17:40-04:00,WN,WN,198,73H",
+          },
+          "discountedPrice": null,
+          "discountedPricePointTax": null,
+          "earnPoints": "Earn 5,658 pts",
+          "fareDescription": "Business Select",
+          "hasLowestFare": false,
+          "limitedSeats": null,
+          "price": Object {
+            "amount": "521",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+          },
+          "priceDiffPointsTax": null,
+          "priceDifference": Object {
+            "amount": "25",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "sign": "+",
+          },
+          "pricePointTax": null,
+          "reasonIfUnavailable": null,
+        },
+      ],
+      "flightNumbers": "4827",
+      "hasLowestFare": false,
+      "isNextDayArrival": false,
+      "isOvernight": true,
+      "reasonIfUnavailable": null,
+      "shortStopDescription": "Nonstop",
+      "startingFromPrice": Object {
+        "amount": "218",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+      },
+      "startingFromPriceDiffPointsTax": null,
+      "startingFromPriceDifference": null,
+      "startingFromPricePointTax": null,
+      "startingFromPriceSeniorOnly": null,
+      "stopCity": null,
+      "stopDescription": "Nonstop",
+      "stopDescriptionOnSelect": "Nonstop",
+    }
+  }
+  isExpand={false}
+  isPromoCodeApplied={false}
+  onProductSelected={[Function]}
+>
+  <div
+    className="flight-product-panel rd2 px3 py4 bgwhite"
+    data-qa="flightProductItem"
+  >
+    <div
+      className="flight-product--container"
+      data-qa="flightProducts"
+      data-testid="flightProducts"
+      onClick={[Function]}
+    >
+      <div
+        className="main-col"
+      >
+        <FlightTimes
+          arrivalTime="04:00"
+          departureTime="23:00"
+          hideIsNextDay={true}
+          isStretched={true}
+        >
+          <div
+            className="flight-times flight-times_stretched"
+          >
+            <div
+              className="flight-times--col flight-times--col-label"
+            >
+              <LabelContainer
+                labelText="Departs"
+              >
+                <div
+                  className="label-container"
+                >
+                  <div
+                    className="label-container--label"
+                  >
+                    Departs
+                  </div>
+                  <div
+                    className="label-container--content"
+                  >
+                    <FlightTime
+                      timeString="23:00"
+                    >
+                      <div
+                        className="flight-time"
+                      >
+                        <div
+                          className="flight-time--time"
+                        >
+                          <span>
+                            11:00
+                          </span>
+                          <span
+                            className="time-period"
+                          >
+                            PM
+                          </span>
+                        </div>
+                      </div>
+                    </FlightTime>
+                  </div>
+                </div>
+              </LabelContainer>
+            </div>
+            <div
+              className="flight-times--col flight-times-icon"
+            >
+              <Icon
+                type="airplane"
+              >
+                <i
+                  className="icon icon_airplane"
+                />
+              </Icon>
+            </div>
+            <div
+              className="flight-times--col flight-times--col-label"
+            >
+              <LabelContainer
+                labelText="Arrives"
+              >
+                <div
+                  className="label-container"
+                >
+                  <div
+                    className="label-container--label"
+                  >
+                    Arrives
+                  </div>
+                  <div
+                    className="label-container--content"
+                  >
+                    <FlightTime
+                      timeString="04:00"
+                    >
+                      <div
+                        className="flight-time"
+                      >
+                        <div
+                          className="flight-time--time"
+                        >
+                          <span>
+                            4:00
+                          </span>
+                          <span
+                            className="time-period"
+                          >
+                            AM
+                          </span>
+                        </div>
+                      </div>
+                    </FlightTime>
+                  </div>
+                </div>
+              </LabelContainer>
+            </div>
+          </div>
+        </FlightTimes>
+        <div
+          className="flight-data"
+        >
+          <div
+            className="flags"
+          >
+            <div
+              className="data-object stops-flag nonstop"
+            >
+              <span
+                className="stops"
+              >
+                Nonstop
+              </span>
+            </div>
+            <div
+              className="time-info data-object"
+            >
+              3h 50m
+            </div>
+            <div
+              className="time-info data-object next-day-overnight"
+              data-qa="is-next-day-or-overnight"
+            >
+              <MultiDayIndicator
+                isNextDay={false}
+                isOvernight={true}
+              >
+                <div
+                  className="multi-day-indicator multi-day-indicator--overnight-red"
+                  data-qa="overnight-indicator"
+                >
+                  <Icon
+                    className="multi-day-indicator--icon multi-day-indicator--icon-small"
+                    type="next-day-indicator"
+                  >
+                    <i
+                      className="multi-day-indicator--icon multi-day-indicator--icon-small icon icon_next-day-indicator"
+                    />
+                  </Icon>
+                  <p
+                    className="multi-day-indicator--font-small"
+                  >
+                    Overnight
+                  </p>
+                </div>
+              </MultiDayIndicator>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="fare-col"
+      >
+        <div
+          className="fare-container"
+        >
+          <div
+            className="fare-content"
+            data-qa="regular-price-fare"
+          >
+            <div>
+              From
+            </div>
+            <Currency
+              amount="218"
+              currencyCode="USD"
+              currencySymbol="$"
+              strikeThrough={false}
+            >
+              <div
+                className="currency"
+              >
+                <span
+                  className="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  218
+                </span>
+              </div>
+            </Currency>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</FlightProduct>
+`;

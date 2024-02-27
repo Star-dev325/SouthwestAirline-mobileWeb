@@ -1,0 +1,171 @@
+.special-assistance-form {
+  @include m0;
+  @include bggray2;
+
+  .fields {
+    @include large;
+  }
+
+  .fields--label {
+    @include bold;
+    @include large;
+    @include gray5;
+    @include mb3;
+  }
+
+  .input {
+    @include regular;
+    @include mt4;
+  }
+
+  .segment {
+    @include mt5;
+    @include bggray2;
+
+    &.secondary.fill {
+      @include p0;
+
+      .fields--label {
+        @include inline-block;
+        @include ml5;
+      }
+    }
+
+    &.blue {
+      @include bgpblue;
+
+      padding: 1.6rem 1.2rem;
+    }
+  }
+
+  .sa-checkbox-fields,
+  .sa-radio-fields {
+    .field {
+      @include bdt;
+      @include square;
+
+      &:last-child {
+        @include bdb;
+      }
+    }
+  }
+
+  .sa-checkbox-fields {
+    .checkbox-button {
+      @include regular;
+      @include py4;
+      @include px5;
+      @include bgwhite;
+
+      .checkbox-button--mark {
+        @include border-none;
+        @include left;
+
+        .icon {
+          @include gray5;
+        }
+      }
+
+      .checkbox-button--children {
+        @include gray5;
+      }
+
+      &.checkbox-button--row_checked {
+        @include pdkblue;
+
+        .checkbox-button_checked .icon {
+          @include pblue;
+        }
+
+        .checkbox-button--children {
+          @include pdkblue;
+        }
+      }
+    }
+  }
+
+  .sa-radio-fields {
+    .field {
+      @include bdt;
+      @include bdb;
+    }
+
+    .sa-radio-options {
+      @include m0;
+      @include p0;
+
+      .sa-radio-item {
+        @include block;
+        @include bgwhite;
+        @include py4;
+        @include px5;
+        @include large;
+        @include flex;
+        @include flex-cross-center;
+        @include bdb;
+        @include rd2;
+        @include relative;
+
+        min-height: 43px;
+
+        .radio-input--mark {
+          min-height: 2.3rem;
+          min-width: 2.3rem;
+          right: unset;
+        }
+
+        .sa-radio-item--radio {
+          @include flex;
+          @include flex1;
+        }
+
+        .sa-radio-item--text {
+          @include gray5;
+          @include flex11;
+          @include pr2;
+          @include ml2;
+        }
+
+        .sa-radio-item-quantity {
+          @include flex3;
+
+          .input {
+            @include mt0;
+          }
+        }
+
+        &:last-child {
+          @include bdb-none;
+        }
+
+        &.sa-radio-item_checked {
+          .sa-radio-item--text {
+            @include pdkblue;
+          }
+
+          &.sa-radio-item_select {
+            min-height: 64px;
+
+            .sa-radio-item--text {
+              @include flex8;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .helper-text {
+    @include m0;
+    @include ml5;
+    @include mr5;
+    @include pl0;
+    @include pr0;
+    @include pb5;
+    @include gray5;
+
+    a {
+      @include pblue;
+    }
+  }
+}

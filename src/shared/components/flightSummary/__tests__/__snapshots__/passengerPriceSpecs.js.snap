@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PassengerPrice should not render fare type link  when passengerType is LAP_CHILD 1`] = `
+<div
+  className="passenger-price"
+>
+  <div
+    className="passenger-price--info"
+  >
+    <span
+      className="passenger-price--number-and-type"
+      data-qa="passenger-price-passengers--number-and-type"
+    >
+      1
+       
+      Lap Child
+    </span>
+  </div>
+</div>
+`;
+
+exports[`PassengerPrice should not render fare type link  when passengerType is LAP_CHILDREN 1`] = `
+<div
+  className="passenger-price"
+>
+  <div
+    className="passenger-price--info"
+  >
+    <span
+      className="passenger-price--number-and-type"
+      data-qa="passenger-price-passengers--number-and-type"
+    >
+      2
+       
+      Lap Children
+    </span>
+  </div>
+</div>
+`;

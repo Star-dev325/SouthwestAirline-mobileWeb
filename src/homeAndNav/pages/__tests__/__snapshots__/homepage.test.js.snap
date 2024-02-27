@@ -1,0 +1,1756 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage in-flight should hide the in flight entertainment menu when inFlightWifi is false 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header account-bar"
+            id=""
+          >
+            <div
+              class="user-prefer-name-col"
+            >
+              <div
+                class="overflow-hidden ellipsis nowrap"
+              >
+                <span>
+                  Hi, example
+                </span>
+              </div>
+            </div>
+            <div
+              class="upcoming-trips-link-col"
+            >
+              <div
+                class="nav-item my-account-nav-item"
+              >
+                <i
+                  class="bold"
+                />
+                 
+                Upcoming Trips
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+          </div>
+          <div />
+        </div>
+        <div
+          class="home-nav-grid"
+        >
+          <div
+            class="home-nav-grid-item"
+            data-a="BKFLT"
+            data-qa="home-nav-book-a-flight"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_airplane-depart"
+            />
+            <span>
+              HOME_AND_NAV__BOOK_A_FLIGHT
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="CHKIN"
+            data-qa="home-nav-check-in"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-checkin"
+            />
+            <span>
+              HOME_AND_NAV__CHECK_IN
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="SPOFFR"
+            data-qa="home-nav-special-offers"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-special-offers-tag"
+            />
+            <span>
+              HOME_AND_NAV__SPECIAL_OFFERS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="FLTSTATUS"
+            data-qa="home-nav-flight-status"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-flight-status"
+            />
+            <span>
+              HOME_AND_NAV__FLIGHT_STATUS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="RPDRWD"
+            data-qa="home-nav-rapid-rewards"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-rapid-rewards"
+            />
+            <span>
+              <span>
+                HOME_AND_NAV__RAPID_REWARDS
+                <sup>
+                  ®
+                </sup>
+              </span>
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="MGTRIP"
+            data-qa="home-nav-manage-trips"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-manage"
+            />
+            <span>
+              HOME_AND_NAV__MANAGE_TRIPS
+            </span>
+          </div>
+        </div>
+        <div
+          class="page-footer-wcm"
+        >
+          <span
+            class="page-footer-wcm--copyright"
+          >
+            ©
+            2024
+             
+            SHARED__FOOTER__ALL_RIGHTS_RESERVED
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Homepage in-flight should show the in flight entertainment menu when inFlightWifi is true 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header account-bar"
+            id=""
+          >
+            <div
+              class="user-prefer-name-col"
+            >
+              <div
+                class="overflow-hidden ellipsis nowrap"
+              >
+                <span>
+                  Hi, example
+                </span>
+              </div>
+            </div>
+            <div
+              class="upcoming-trips-link-col"
+            >
+              <div
+                class="nav-item my-account-nav-item"
+              >
+                <i
+                  class="bold"
+                />
+                 
+                Upcoming Trips
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+          </div>
+          <div />
+        </div>
+        <div
+          class="in-flight-entertainment"
+        >
+          <div
+            class="in-flight-entertainment--menu"
+          >
+            <div
+              class="in-flight-entertainment--menu-header"
+            >
+              HOME_AND_NAV__IN_FLIGHT__WELCOME_ABOARD
+            </div>
+            <div
+              class="in-flight-entertainment--menu-body"
+            >
+              <a
+                class="in-flight-entertainment--menu-item"
+                data-a="entertainment"
+                href="https://getconnected.southwestwifi.com/movies?ref=MWEB"
+                target="_blank"
+              >
+                HOME_AND_NAV__IN_FLIGHT__TV_AND_MOVIE
+              </a>
+              <a
+                class="in-flight-entertainment--menu-item"
+                data-a="drinkMenu"
+                href="https://getconnected.southwestwifi.com/drinks?ref=MWEB"
+                target="_blank"
+              >
+                HOME_AND_NAV__IN_FLIGHT__DRINKS_MENU
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="home-nav-grid"
+        >
+          <div
+            class="home-nav-grid-item"
+            data-a="BKFLT"
+            data-qa="home-nav-book-a-flight"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_airplane-depart"
+            />
+            <span>
+              HOME_AND_NAV__BOOK_A_FLIGHT
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="CHKIN"
+            data-qa="home-nav-check-in"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-checkin"
+            />
+            <span>
+              HOME_AND_NAV__CHECK_IN
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="SPOFFR"
+            data-qa="home-nav-special-offers"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-special-offers-tag"
+            />
+            <span>
+              HOME_AND_NAV__SPECIAL_OFFERS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="FLTSTATUS"
+            data-qa="home-nav-flight-status"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-flight-status"
+            />
+            <span>
+              HOME_AND_NAV__FLIGHT_STATUS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="RPDRWD"
+            data-qa="home-nav-rapid-rewards"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-rapid-rewards"
+            />
+            <span>
+              <span>
+                HOME_AND_NAV__RAPID_REWARDS
+                <sup>
+                  ®
+                </sup>
+              </span>
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="MGTRIP"
+            data-qa="home-nav-manage-trips"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-manage"
+            />
+            <span>
+              HOME_AND_NAV__MANAGE_TRIPS
+            </span>
+          </div>
+        </div>
+        <div
+          class="page-footer-wcm"
+        >
+          <span
+            class="page-footer-wcm--copyright"
+          >
+            ©
+            2024
+             
+            SHARED__FOOTER__ALL_RIGHTS_RESERVED
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Homepage should not show PageFooterWcmSourced when in a webview 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header hidden account-bar"
+            id=""
+          >
+            <div
+              class="user-prefer-name-col"
+            />
+            <div
+              class="upcoming-trips-link-col"
+            >
+              <div
+                class="nav-item my-account-nav-item"
+              >
+                <i
+                  class="bold"
+                />
+                 
+                Upcoming Trips
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+          </div>
+          <div />
+        </div>
+        <div
+          class="home-nav-grid"
+        >
+          <div
+            class="home-nav-grid-item"
+            data-a="BKFLT"
+            data-qa="home-nav-book-a-flight"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_airplane-depart"
+            />
+            <span>
+              HOME_AND_NAV__BOOK_A_FLIGHT
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="CHKIN"
+            data-qa="home-nav-check-in"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-checkin"
+            />
+            <span>
+              HOME_AND_NAV__CHECK_IN
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="SPOFFR"
+            data-qa="home-nav-special-offers"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-special-offers-tag"
+            />
+            <span>
+              HOME_AND_NAV__SPECIAL_OFFERS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="FLTSTATUS"
+            data-qa="home-nav-flight-status"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-flight-status"
+            />
+            <span>
+              HOME_AND_NAV__FLIGHT_STATUS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="RPDRWD"
+            data-qa="home-nav-rapid-rewards"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-rapid-rewards"
+            />
+            <span>
+              <span>
+                HOME_AND_NAV__RAPID_REWARDS
+                <sup>
+                  ®
+                </sup>
+              </span>
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="MGTRIP"
+            data-qa="home-nav-manage-trips"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-manage"
+            />
+            <span>
+              HOME_AND_NAV__MANAGE_TRIPS
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Homepage should render correctly 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header hidden account-bar"
+            id=""
+          >
+            <div
+              class="user-prefer-name-col"
+            />
+            <div
+              class="upcoming-trips-link-col"
+            >
+              <div
+                class="nav-item my-account-nav-item"
+              >
+                <i
+                  class="bold"
+                />
+                 
+                Upcoming Trips
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+          </div>
+          <div />
+        </div>
+        <div
+          class="home-nav-grid"
+        >
+          <div
+            class="home-nav-grid-item"
+            data-a="BKFLT"
+            data-qa="home-nav-book-a-flight"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_airplane-depart"
+            />
+            <span>
+              HOME_AND_NAV__BOOK_A_FLIGHT
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="CHKIN"
+            data-qa="home-nav-check-in"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-checkin"
+            />
+            <span>
+              HOME_AND_NAV__CHECK_IN
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="SPOFFR"
+            data-qa="home-nav-special-offers"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-special-offers-tag"
+            />
+            <span>
+              HOME_AND_NAV__SPECIAL_OFFERS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="FLTSTATUS"
+            data-qa="home-nav-flight-status"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-flight-status"
+            />
+            <span>
+              HOME_AND_NAV__FLIGHT_STATUS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="RPDRWD"
+            data-qa="home-nav-rapid-rewards"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-rapid-rewards"
+            />
+            <span>
+              <span>
+                HOME_AND_NAV__RAPID_REWARDS
+                <sup>
+                  ®
+                </sup>
+              </span>
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="MGTRIP"
+            data-qa="home-nav-manage-trips"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-manage"
+            />
+            <span>
+              HOME_AND_NAV__MANAGE_TRIPS
+            </span>
+          </div>
+        </div>
+        <div
+          class="page-footer-wcm"
+        >
+          <span
+            class="page-footer-wcm--copyright"
+          >
+            ©
+            2024
+             
+            SHARED__FOOTER__ALL_RIGHTS_RESERVED
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Homepage should show PageFooterWcmSourced by default 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header hidden account-bar"
+            id=""
+          >
+            <div
+              class="user-prefer-name-col"
+            />
+            <div
+              class="upcoming-trips-link-col"
+            >
+              <div
+                class="nav-item my-account-nav-item"
+              >
+                <i
+                  class="bold"
+                />
+                 
+                Upcoming Trips
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+          </div>
+          <div />
+        </div>
+        <div
+          class="home-nav-grid"
+        >
+          <div
+            class="home-nav-grid-item"
+            data-a="BKFLT"
+            data-qa="home-nav-book-a-flight"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_airplane-depart"
+            />
+            <span>
+              HOME_AND_NAV__BOOK_A_FLIGHT
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="CHKIN"
+            data-qa="home-nav-check-in"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-checkin"
+            />
+            <span>
+              HOME_AND_NAV__CHECK_IN
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="SPOFFR"
+            data-qa="home-nav-special-offers"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-special-offers-tag"
+            />
+            <span>
+              HOME_AND_NAV__SPECIAL_OFFERS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="FLTSTATUS"
+            data-qa="home-nav-flight-status"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-flight-status"
+            />
+            <span>
+              HOME_AND_NAV__FLIGHT_STATUS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="RPDRWD"
+            data-qa="home-nav-rapid-rewards"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-rapid-rewards"
+            />
+            <span>
+              <span>
+                HOME_AND_NAV__RAPID_REWARDS
+                <sup>
+                  ®
+                </sup>
+              </span>
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="MGTRIP"
+            data-qa="home-nav-manage-trips"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-manage"
+            />
+            <span>
+              HOME_AND_NAV__MANAGE_TRIPS
+            </span>
+          </div>
+        </div>
+        <div
+          class="page-footer-wcm"
+        >
+          <div
+            class="page-footer-wcm--row"
+          >
+            <div
+              class="page-footer-wcm--link"
+            >
+              <a
+                href="https://www.southwest.com/?ref=LinkMobileWeb&clk=LinkMobileWeb"
+                id="view_full_site"
+                target="_blank"
+              >
+                View full site
+              </a>
+              <span
+                class="page-footer-wcm--divider"
+              >
+                |
+              </span>
+            </div>
+            <div
+              class="page-footer-wcm--link"
+            >
+              <a
+                href="/contact-us"
+                id="contact_us"
+                target="_blank"
+              >
+                Contact us
+              </a>
+              <span
+                class="page-footer-wcm--divider"
+              >
+                |
+              </span>
+            </div>
+            <div
+              class="page-footer-wcm--link"
+            >
+              <a
+                href="https://southwest.qa6.southwest.com/faq/"
+                id="faq"
+                target="_blank"
+              >
+                FAQ
+              </a>
+            </div>
+          </div>
+          <div
+            class="page-footer-wcm--row"
+          >
+            <div
+              class="page-footer-wcm--link"
+            >
+              <a
+                href="/terms-and-conditions?clk=GNAVTC"
+                id="terms_conditions"
+                target="_blank"
+              >
+                Terms & Conditions
+              </a>
+              <span
+                class="page-footer-wcm--divider"
+              >
+                |
+              </span>
+            </div>
+            <div
+              class="page-footer-wcm--link"
+            >
+              <a
+                href="/privacy-policy?clk=GNAVPRIVACY"
+                id="privacy_policy"
+                target="_blank"
+              >
+                Privacy Policy
+              </a>
+            </div>
+          </div>
+          <div
+            class="page-footer-wcm--row"
+          >
+            <div
+              class="page-footer-wcm--link"
+            >
+              <a
+                href="https://www.southwest.com/dataprivacyrequest/"
+                id="do_not_sell_my_info"
+                target="_blank"
+              >
+                Do Not Sell My Info
+              </a>
+            </div>
+          </div>
+          <span
+            class="page-footer-wcm--copyright"
+          >
+            ©
+            2024
+             
+            SHARED__FOOTER__ALL_RIGHTS_RESERVED
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Homepage when a user is logged in TravelAdvisory should not display travel advisory nav item if there is no travel advisory 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header hidden account-bar"
+            id=""
+          >
+            <div
+              class="user-prefer-name-col"
+            />
+            <div
+              class="upcoming-trips-link-col"
+            >
+              <div
+                class="nav-item my-account-nav-item"
+              >
+                <i
+                  class="bold"
+                />
+                 
+                Upcoming Trips
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+          </div>
+          <div />
+        </div>
+        <div
+          class="home-nav-grid"
+        >
+          <div
+            class="home-nav-grid-item"
+            data-a="BKFLT"
+            data-qa="home-nav-book-a-flight"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_airplane-depart"
+            />
+            <span>
+              HOME_AND_NAV__BOOK_A_FLIGHT
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="CHKIN"
+            data-qa="home-nav-check-in"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-checkin"
+            />
+            <span>
+              HOME_AND_NAV__CHECK_IN
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="SPOFFR"
+            data-qa="home-nav-special-offers"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-special-offers-tag"
+            />
+            <span>
+              HOME_AND_NAV__SPECIAL_OFFERS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="FLTSTATUS"
+            data-qa="home-nav-flight-status"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-flight-status"
+            />
+            <span>
+              HOME_AND_NAV__FLIGHT_STATUS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="RPDRWD"
+            data-qa="home-nav-rapid-rewards"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-rapid-rewards"
+            />
+            <span>
+              <span>
+                HOME_AND_NAV__RAPID_REWARDS
+                <sup>
+                  ®
+                </sup>
+              </span>
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="MGTRIP"
+            data-qa="home-nav-manage-trips"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-manage"
+            />
+            <span>
+              HOME_AND_NAV__MANAGE_TRIPS
+            </span>
+          </div>
+        </div>
+        <div
+          class="page-footer-wcm"
+        >
+          <span
+            class="page-footer-wcm--copyright"
+          >
+            ©
+            2024
+             
+            SHARED__FOOTER__ALL_RIGHTS_RESERVED
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Homepage when a user is logged in should display page header 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header account-bar"
+            id=""
+          >
+            <div
+              class="user-prefer-name-col"
+            >
+              <div
+                class="overflow-hidden ellipsis nowrap"
+              >
+                <span>
+                  Hi, Ron
+                </span>
+              </div>
+            </div>
+            <div
+              class="upcoming-trips-link-col"
+            >
+              <div
+                class="nav-item my-account-nav-item"
+              >
+                <i
+                  class="bold"
+                />
+                 
+                Upcoming Trips
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+          </div>
+          <div />
+        </div>
+        <div
+          class="home-nav-grid"
+        >
+          <div
+            class="home-nav-grid-item"
+            data-a="BKFLT"
+            data-qa="home-nav-book-a-flight"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_airplane-depart"
+            />
+            <span>
+              HOME_AND_NAV__BOOK_A_FLIGHT
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="CHKIN"
+            data-qa="home-nav-check-in"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-checkin"
+            />
+            <span>
+              HOME_AND_NAV__CHECK_IN
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="SPOFFR"
+            data-qa="home-nav-special-offers"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-special-offers-tag"
+            />
+            <span>
+              HOME_AND_NAV__SPECIAL_OFFERS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="FLTSTATUS"
+            data-qa="home-nav-flight-status"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-flight-status"
+            />
+            <span>
+              HOME_AND_NAV__FLIGHT_STATUS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="RPDRWD"
+            data-qa="home-nav-rapid-rewards"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-rapid-rewards"
+            />
+            <span>
+              <span>
+                HOME_AND_NAV__RAPID_REWARDS
+                <sup>
+                  ®
+                </sup>
+              </span>
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="MGTRIP"
+            data-qa="home-nav-manage-trips"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-manage"
+            />
+            <span>
+              HOME_AND_NAV__MANAGE_TRIPS
+            </span>
+          </div>
+        </div>
+        <div
+          class="page-footer-wcm"
+        >
+          <span
+            class="page-footer-wcm--copyright"
+          >
+            ©
+            2024
+             
+            SHARED__FOOTER__ALL_RIGHTS_RESERVED
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Homepage when a user is logged in upcoming trips count should display when count is 1 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header account-bar"
+            id=""
+          >
+            <div
+              class="user-prefer-name-col"
+            >
+              <div
+                class="overflow-hidden ellipsis nowrap"
+              >
+                <span>
+                  Hi, Ron
+                </span>
+              </div>
+            </div>
+            <div
+              class="upcoming-trips-link-col"
+            >
+              <div
+                class="nav-item my-account-nav-item"
+              >
+                <i
+                  class="bold"
+                >
+                  1
+                </i>
+                 
+                Upcoming Trip
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+          </div>
+          <div />
+        </div>
+        <div
+          class="home-nav-grid"
+        >
+          <div
+            class="home-nav-grid-item"
+            data-a="BKFLT"
+            data-qa="home-nav-book-a-flight"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_airplane-depart"
+            />
+            <span>
+              HOME_AND_NAV__BOOK_A_FLIGHT
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="CHKIN"
+            data-qa="home-nav-check-in"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-checkin"
+            />
+            <span>
+              HOME_AND_NAV__CHECK_IN
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="SPOFFR"
+            data-qa="home-nav-special-offers"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-special-offers-tag"
+            />
+            <span>
+              HOME_AND_NAV__SPECIAL_OFFERS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="FLTSTATUS"
+            data-qa="home-nav-flight-status"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-flight-status"
+            />
+            <span>
+              HOME_AND_NAV__FLIGHT_STATUS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="RPDRWD"
+            data-qa="home-nav-rapid-rewards"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-rapid-rewards"
+            />
+            <span>
+              <span>
+                HOME_AND_NAV__RAPID_REWARDS
+                <sup>
+                  ®
+                </sup>
+              </span>
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="MGTRIP"
+            data-qa="home-nav-manage-trips"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-manage"
+            />
+            <span>
+              HOME_AND_NAV__MANAGE_TRIPS
+            </span>
+          </div>
+        </div>
+        <div
+          class="page-footer-wcm"
+        >
+          <span
+            class="page-footer-wcm--copyright"
+          >
+            ©
+            2024
+             
+            SHARED__FOOTER__ALL_RIGHTS_RESERVED
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Homepage when a user is logged in upcoming trips count should display when count is 2 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header account-bar"
+            id=""
+          >
+            <div
+              class="user-prefer-name-col"
+            >
+              <div
+                class="overflow-hidden ellipsis nowrap"
+              >
+                <span>
+                  Hi, Ron
+                </span>
+              </div>
+            </div>
+            <div
+              class="upcoming-trips-link-col"
+            >
+              <div
+                class="nav-item my-account-nav-item"
+              >
+                <i
+                  class="bold"
+                >
+                  2
+                </i>
+                 
+                Upcoming Trips
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+          </div>
+          <div />
+        </div>
+        <div
+          class="home-nav-grid"
+        >
+          <div
+            class="home-nav-grid-item"
+            data-a="BKFLT"
+            data-qa="home-nav-book-a-flight"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_airplane-depart"
+            />
+            <span>
+              HOME_AND_NAV__BOOK_A_FLIGHT
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="CHKIN"
+            data-qa="home-nav-check-in"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-checkin"
+            />
+            <span>
+              HOME_AND_NAV__CHECK_IN
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="SPOFFR"
+            data-qa="home-nav-special-offers"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-special-offers-tag"
+            />
+            <span>
+              HOME_AND_NAV__SPECIAL_OFFERS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="FLTSTATUS"
+            data-qa="home-nav-flight-status"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-flight-status"
+            />
+            <span>
+              HOME_AND_NAV__FLIGHT_STATUS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="RPDRWD"
+            data-qa="home-nav-rapid-rewards"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-rapid-rewards"
+            />
+            <span>
+              <span>
+                HOME_AND_NAV__RAPID_REWARDS
+                <sup>
+                  ®
+                </sup>
+              </span>
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="MGTRIP"
+            data-qa="home-nav-manage-trips"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-manage"
+            />
+            <span>
+              HOME_AND_NAV__MANAGE_TRIPS
+            </span>
+          </div>
+        </div>
+        <div
+          class="page-footer-wcm"
+        >
+          <span
+            class="page-footer-wcm--copyright"
+          >
+            ©
+            2024
+             
+            SHARED__FOOTER__ALL_RIGHTS_RESERVED
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Homepage when a user is not logged in should not display page header 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header hidden account-bar"
+            id=""
+          >
+            <div
+              class="user-prefer-name-col"
+            />
+            <div
+              class="upcoming-trips-link-col"
+            >
+              <div
+                class="nav-item my-account-nav-item"
+              >
+                <i
+                  class="bold"
+                />
+                 
+                Upcoming Trips
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+          </div>
+          <div />
+        </div>
+        <div
+          class="home-nav-grid"
+        >
+          <div
+            class="home-nav-grid-item"
+            data-a="BKFLT"
+            data-qa="home-nav-book-a-flight"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_airplane-depart"
+            />
+            <span>
+              HOME_AND_NAV__BOOK_A_FLIGHT
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="CHKIN"
+            data-qa="home-nav-check-in"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-checkin"
+            />
+            <span>
+              HOME_AND_NAV__CHECK_IN
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="SPOFFR"
+            data-qa="home-nav-special-offers"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-special-offers-tag"
+            />
+            <span>
+              HOME_AND_NAV__SPECIAL_OFFERS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="FLTSTATUS"
+            data-qa="home-nav-flight-status"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-flight-status"
+            />
+            <span>
+              HOME_AND_NAV__FLIGHT_STATUS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="RPDRWD"
+            data-qa="home-nav-rapid-rewards"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-rapid-rewards"
+            />
+            <span>
+              <span>
+                HOME_AND_NAV__RAPID_REWARDS
+                <sup>
+                  ®
+                </sup>
+              </span>
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="MGTRIP"
+            data-qa="home-nav-manage-trips"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-manage"
+            />
+            <span>
+              HOME_AND_NAV__MANAGE_TRIPS
+            </span>
+          </div>
+        </div>
+        <div
+          class="page-footer-wcm"
+        >
+          <span
+            class="page-footer-wcm--copyright"
+          >
+            ©
+            2024
+             
+            SHARED__FOOTER__ALL_RIGHTS_RESERVED
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Homepage when wcm call is successful should display three rich nav items 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <div>
+          <div
+            class="page-header hidden account-bar"
+            id=""
+          >
+            <div
+              class="user-prefer-name-col"
+            />
+            <div
+              class="upcoming-trips-link-col"
+            >
+              <div
+                class="nav-item my-account-nav-item"
+              >
+                <i
+                  class="bold"
+                />
+                 
+                Upcoming Trips
+                <i
+                  class="icon icon_keyboard-arrow-right"
+                />
+              </div>
+            </div>
+          </div>
+          <div />
+        </div>
+        <div
+          class="home-nav-grid"
+        >
+          <div
+            class="home-nav-grid-item"
+            data-a="BKFLT"
+            data-qa="home-nav-book-a-flight"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_airplane-depart"
+            />
+            <span>
+              HOME_AND_NAV__BOOK_A_FLIGHT
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="CHKIN"
+            data-qa="home-nav-check-in"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-checkin"
+            />
+            <span>
+              HOME_AND_NAV__CHECK_IN
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="SPOFFR"
+            data-qa="home-nav-special-offers"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-special-offers-tag"
+            />
+            <span>
+              HOME_AND_NAV__SPECIAL_OFFERS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="FLTSTATUS"
+            data-qa="home-nav-flight-status"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-flight-status"
+            />
+            <span>
+              HOME_AND_NAV__FLIGHT_STATUS
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="RPDRWD"
+            data-qa="home-nav-rapid-rewards"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-rapid-rewards"
+            />
+            <span>
+              <span>
+                HOME_AND_NAV__RAPID_REWARDS
+                <sup>
+                  ®
+                </sup>
+              </span>
+            </span>
+          </div>
+          <div
+            class="home-nav-grid-item"
+            data-a="MGTRIP"
+            data-qa="home-nav-manage-trips"
+          >
+            <i
+              class="home-nav-grid-item--icon icon icon_home-manage"
+            />
+            <span>
+              HOME_AND_NAV__MANAGE_TRIPS
+            </span>
+          </div>
+        </div>
+        <div
+          class="home-nav-list"
+        >
+          <div
+            class="nav-item rich-nav-item home-nav-list-item"
+          >
+            <a
+              class="rich-nav-item--link"
+            >
+              <div
+                class="main-col"
+              >
+                <span
+                  class="rich-nav-item--title"
+                >
+                  Get the app
+                </span>
+                <span
+                  class="rich-nav-item--description"
+                >
+                  Retrieve reservation, checkin for upcoming flights & more
+                </span>
+              </div>
+              <div
+                class="rich-nav-item--image-wrapper"
+              >
+                <div
+                  class="home-nav-list-item--image image-promo--swa-app"
+                />
+              </div>
+            </a>
+            <i
+              class="icon icon_keyboard-arrow-right"
+            />
+          </div>
+          <div
+            class="nav-item rich-nav-item home-nav-list-item"
+          >
+            <a
+              class="rich-nav-item--link"
+            >
+              <div
+                class="main-col"
+              >
+                <span
+                  class="rich-nav-item--title"
+                >
+                  Flying Southwest
+                </span>
+                <span
+                  class="rich-nav-item--description"
+                >
+                  Retrieve reservation, checkin for upcoming flights & more
+                </span>
+              </div>
+              <div
+                class="rich-nav-item--image-wrapper"
+              >
+                <img />
+              </div>
+            </a>
+            <i
+              class="icon icon_keyboard-arrow-right"
+            />
+          </div>
+          <div
+            class="nav-item rich-nav-item home-nav-list-item"
+          >
+            <a
+              class="rich-nav-item--link"
+            >
+              <div
+                class="main-col"
+              >
+                <span
+                  class="rich-nav-item--title"
+                >
+                  Book a car with us
+                </span>
+                <span
+                  class="rich-nav-item--description"
+                >
+                  Great selection, unbeatable rates & Rapid Rewards
+                </span>
+              </div>
+              <div
+                class="rich-nav-item--image-wrapper"
+              >
+                <img />
+              </div>
+            </a>
+            <i
+              class="icon icon_keyboard-arrow-right"
+            />
+          </div>
+          <div
+            class="nav-item rich-nav-item home-nav-list-item"
+          >
+            <a
+              class="rich-nav-item--link"
+            >
+              <div
+                class="main-col"
+              >
+                <span
+                  class="rich-nav-item--title"
+                >
+                  Book a helicopter with us
+                </span>
+                <span
+                  class="rich-nav-item--description"
+                >
+                  Great selection, unbeatable rates & Rapid Rewards
+                </span>
+              </div>
+              <div
+                class="rich-nav-item--image-wrapper"
+              >
+                <img />
+              </div>
+            </a>
+            <i
+              class="icon icon_keyboard-arrow-right"
+            />
+          </div>
+          <div
+            class="nav-item rich-nav-item home-nav-list-item"
+          >
+            <a
+              class="rich-nav-item--link"
+            >
+              <div
+                class="main-col"
+              >
+                <span
+                  class="rich-nav-item--title"
+                >
+                  iOS
+                </span>
+                <span
+                  class="rich-nav-item--description"
+                >
+                  description of iOS
+                </span>
+              </div>
+              <div
+                class="rich-nav-item--image-wrapper"
+              >
+                <img />
+              </div>
+            </a>
+            <i
+              class="icon icon_keyboard-arrow-right"
+            />
+          </div>
+        </div>
+        <div
+          class="page-footer-wcm"
+        >
+          <span
+            class="page-footer-wcm--copyright"
+          >
+            ©
+            2024
+             
+            SHARED__FOOTER__ALL_RIGHTS_RESERVED
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

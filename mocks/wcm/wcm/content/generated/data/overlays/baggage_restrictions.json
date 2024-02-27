@@ -1,0 +1,88 @@
+{
+  "revision": "20150304105043618",
+  "overlay": {
+    "title": "Checked Bag Policy",
+    "body": [
+      {
+        "type": "heading",
+        "value": "Hazardous Materials"
+      },
+      {
+        "type": "text",
+        "value": "<p><strong>Certain items, if brought onboard, must be transported in your carry-on luggage.</strong><br />For example, spare lithium batteries for portable electronic devices and cigarette lighters must be removed from checked or gate-checked baggage and carried onboard the aircraft.</p>\n<p>Federal laws forbids the carriage of hazardous materials aboard aircraft, in your luggage or on your person. A violation can result in 5 years imprisonment and penalties of $250,000 or more (49 U.S.C. 5124). Hazardous materials include explosives, compressed gases, flammable liquids and solids, oxidizers, poisons, corrosives and radioactive materials.</p>\n<p>EXAMPLES:<br />Paints, light fluid, fireworks, self-defense sprays, oxygen bottles and radio-pharmaceuticals. There are special exceptions for small quantities (up to 70 ounces total) of medicinal and toilet articles carried in your luggage and certain smoking materials carried on your person.</p>\n<p>If you have more questions regarding items acceptable for travel, visit our <a href=\"https://interwovendev/html/customer-service/baggage/special-luggage-pol.html\" target=\"_blank\">FAQ</a>.</p>"
+      },
+      {
+        "type": "heading",
+        "value": "Screening &amp; Identification"
+      },
+      {
+        "type": "text",
+        "value": "<p>Checked baggage will be screened and is subject to physical inspection as mandated by the TSA. Customers may be required to present identification. Regulations require name identification on the outside. We recommend placing identification on the inside of the baggage, too. Name labels are available at Southwest Airlines ticket counters. Once you've checked your luggage, make sure you receive a separate claim check for each piece of baggage you've checked. Check to make sure that the city shown on the claim check(s) matches your final destination.</p>\n<p>Southwest Airlines currently prohibits self-defense sprays on any flight regardless if it is checked or carried on.</p>\n<p><strong>Please see the TSA's web site for a <a href=\"http://www.tsa.gov/traveler-information/prohibited-items\" target=\"_blank\">list of prohibited items</a>.</strong></p>"
+      },
+      {
+        "type": "heading",
+        "value": "Baggage Allowance"
+      },
+      {
+        "type": "text",
+        "value": "<p>Southwest allows two (2) checked pieces of baggage per ticketed Customer. Size and weight limitations apply.</p>"
+      },
+      {
+        "type": "heading",
+        "value": "Excess Baggage"
+      },
+      {
+        "type": "text",
+        "value": "<p>Effective for tickets purchased on or after December 15, 2012, for travel on or after February 13, 2013, the 3rd checked bag and any bag thereafter is $75 per piece.</p>\n<p>For tickets for travel before February 13, 2013, or for tickets purchased prior to December 15, 2012, your 3rd through 9th bag or item will incur a charge of $50 per piece, and any bag or item thereafter will be $110 per piece.</p>"
+      },
+      {
+        "type": "heading",
+        "value": "Weight and Size Allowance"
+      },
+      {
+        "type": "text",
+        "value": "<p>Maximum weight is 50 pounds and maximum size is 62 inches (length + width + height) per checked piece of luggage. Effective for tickets purchased on or after December 15, 2012, for travel on or after February 13, 2013, overweight items from 51 to 100 pounds and oversized items in excess of 62 inches but not more than 80 inches (e.g.; surfboards, bicycles, vaulting poles) will be accepted for an overweight and oversize baggage fee of $75 per item. For tickets for travel before February 13, 2013, or for tickets purchased prior to December 15, 2012, overweight and oversize baggage fee is $50 per item. Any item weighing more than 100 pounds must be shipped as Air Cargo. However, Customers cannot use SWA Cargo unless classified as a Known Shipper as defined by the TSA or TSA approved Indirect Air Carriers (IAC). For full details about shipping cargo, visit <a title=\"Southwest Air Cargo\" href=\"http://www.swacargo.com/swacargo/home.htm\">www.swacargo.com</a>.</p>\n<p>Exception:&nbsp; Military Passengers traveling on active&nbsp;duty or permanent change of station&nbsp;orders will be exempt from the two-piece Baggage limit and will not be subject to excess, oversize, or overweight Baggage charges, provided that none of the pieces of Baggage exceeds 100 pounds in weight and 80 inches in size (outside length plus height&nbsp;plus width).&nbsp;</p>"
+      },
+      {
+        "type": "heading",
+        "value": "Liability"
+      },
+      {
+        "type": "text",
+        "value": "<p>Southwest Airlines' liability for lost, damaged, or delayed baggage is limited to $3,400.00 per fare-paying Customer.</p>"
+      },
+      {
+        "type": "heading",
+        "value": "Claims"
+      },
+      {
+        "type": "text",
+        "value": "<p>Damaged or lost baggage must be reported, in person, within four hours of Customer's arrival at destination.</p>"
+      },
+      {
+        "type": "heading",
+        "value": "Conditional Acceptance"
+      },
+      {
+        "type": "text",
+        "value": "<p>Improperly packed and/or fragile items will be conditionally accepted and Southwest will not be responsible for any damage to items that are tagged with Conditional Acceptance.</p>\n<p><strong>Please see important information regarding <a title=\"Medications and Assistive Devices\" href=\"https://interwovendev/html/customer-service/unique-travel-needs/customers-with-disabilities-pol.html#unique_travel_needs_allergies_disabilities_pol_tab_list_tab_14\">checking assistive devices</a>.</strong></p>"
+      },
+      {
+        "type": "heading",
+        "value": "Late Check-In"
+      },
+      {
+        "type": "text",
+        "value": "<p>When checking baggage, allow sufficient time for it to be placed on your flight. Baggage checked at curbside or at the ticket counter less than 45 minutes before scheduled departure will be tagged with a Late Check-In Tag.</p>\n<p>Although every effort will be made to get late checked baggage on your flight, in the event your baggage does not arrive with you at your destination, Southwest will not assume delivery charges to get your baggage to you.</p>"
+      },
+      {
+        "type": "heading",
+        "value": "International Travel"
+      },
+      {
+        "type": "text",
+        "value": "<p>If any portion of your itinerary contains an international flight and you plan to check luggage, you will be required to do so at the Southwest Airlines Ticket Counter upon arrival at the airport. You cannot checkin or check luggage at the curbside if traveling on an international itinerary. For flights departing Aruba, the minimum checkin time for Passengers (with or without checked baggage) is at least 75 minutes before scheduled departure. For all other international flights, passengers and their baggage must be checked in 60 minutes prior to the scheduled departure. Passengers who do not meet this checkin time will not be permitted to check in or board the flight. Connecting passengers must claim all luggage, regardless of final destination, upon arrival in the U.S. After clearing Customs, connecting passengers will then be required to re-check all checked luggage with a Southwest Airlines Customer Service Agent before proceeding to connecting flight(s).</p>"
+      }
+    ]
+  }
+}

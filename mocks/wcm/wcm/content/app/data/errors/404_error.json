@@ -1,0 +1,21 @@
+{
+  "revision": "20150304105043618",
+  "page_details": {
+    "title": "404",
+    "body": [
+      {
+        "type": "heading",
+        "value": "404",
+        "icon": "/content/mkt/images/errors/error_icon.png"
+      },
+      {
+        "type": "sub_heading",
+        "value": "<p>Sorry we've led you off the beaten path, but hopefully you've enjoyed the mini-adventure!</p>"
+      },
+      {
+        "type": "text",
+        "value": "<p>Now let's get things back on track so you can enjoy some vacation time, or wherever-whatever-whenever time.</p><p>The page you requested cannot be found. It may have expired or been removed.</p><ul><li>If you reached this error page by typing an address into your web browser, please verify that the spelling and capitalization are correct and try reloading the page.</li><li>You may wish to go back to the <a href=\"/#/\">Home Page</a>.</li></ul>"
+      }
+    ]
+  }
+}

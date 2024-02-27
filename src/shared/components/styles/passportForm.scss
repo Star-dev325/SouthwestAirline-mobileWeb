@@ -1,0 +1,51 @@
+.passport-form {
+  @include m0;
+
+  .segment {
+    @include bggray2;
+  }
+
+  .passport-form--save-button {
+    @include bgpblue;
+    @include mt3;
+  }
+
+  .fields--label {
+    @include gray5;
+  }
+}
+
+.passport-form--passenger {
+  @include p5;
+  @include bgwhite;
+  @include mb5;
+}
+
+.passport-form--passenger-label {
+  @include gray4;
+  @include medium;
+}
+
+.passport-form--passenger-name {
+  @include pdkblue;
+  @include xlarge;
+  @include block;
+  @include truncate;
+}
+
+.passport-form--info {
+  .field,
+  .fields {
+    @include mt3;
+  }
+}
+
+.passport-form--emergency-contact {
+  @include mt3;
+  @include pdkblue;
+}
+
+.passport-form--emergency-contact-header {
+  @include py4;
+  @include gray5;
+}

@@ -1,0 +1,73 @@
+.early-bird-passenger-checkbox {
+  .checkbox-button {
+    @include px5;
+
+    &.button {
+      @include bgwhite;
+      @include align-left;
+      @include lineheight10;
+      @include square;
+
+      &:hover,
+      &:active {
+        @include bgwhite;
+      }
+    }
+  }
+}
+
+.early-bird-passenger-checkbox--personal-info {
+  @include absolute;
+  @include regular;
+  @include lineheight12;
+  margin-left: 3.2rem;
+  left: 1.4rem;
+  right: 5.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.early-bird-passenger-checkbox--disabled-passenger {
+  @include px5;
+  @include square;
+  @include lineheight10;
+  @include bgwhite;
+  @include flex;
+  @include flex-main-between;
+  @include flex-cross-center;
+  padding-top: 1.7rem;
+  padding-bottom: 1.7rem;
+}
+
+.early-bird-passenger-checkbox--personal-info_disabled {
+  @include gray4;
+  @include overflow-hidden;
+  @include flex9;
+  margin-left: 3.2rem;
+}
+
+.early-bird-passenger-checkbox--name {
+  @include larger;
+  @include truncate;
+}
+
+.early-bird-passenger-checkbox--name_no-account-number {
+  line-height: 1.8;
+}
+
+.early-bird-passenger-checkbox--account-number {
+  @include medium;
+  @include gray4;
+}
+
+.early-bird-passenger-checkbox--ineligible-label {
+  @include right;
+  @include regular;
+  @include large;
+  @include sblue;
+
+  .icon {
+    @include yellow;
+    @include xlarge;
+  }
+}

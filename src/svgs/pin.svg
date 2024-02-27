@@ -1,0 +1,11 @@
+<svg width="20px" height="32px" viewBox="0 0 20 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Flight-Status" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SWA-iPad-FlightStatus-Lookup" transform="translate(-62.000000, -135.000000)" fill="#A4BAF2">
+            <g id="Lookup-Flight" transform="translate(46.000000, 112.000000)">
+                <g id="State">
+                    <path d="M25.776,36.281 C23.839,36.281 22.268,34.683 22.268,32.712 C22.268,30.74 23.839,29.142 25.776,29.142 C27.712,29.142 29.282,30.74 29.282,32.712 C29.282,34.683 27.712,36.281 25.776,36.281 M25.776,23 C20.378,23 16,27.456 16,32.952 C16,41.126 23.687,41.991 25.776,54.423 C27.863,41.991 35.55,41.126 35.55,32.952 C35.55,27.456 31.174,23 25.776,23" id="ic_location_pin"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

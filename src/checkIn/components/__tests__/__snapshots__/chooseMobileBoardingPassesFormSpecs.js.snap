@@ -1,0 +1,623 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChooseMobileBoardingPassesForm render with lap infants should render lap child text next to name if passenger is lap infant 1`] = `
+<ChooseMobileBoardingPassesForm
+  asyncActionFinishFn={[Function]}
+  asyncActionStartFn={[Function]}
+  clearFormDataByIdFn={[Function]}
+  flights={
+    Array [
+      Object {
+        "boundIndex": 0,
+        "departureTime": "03:12",
+        "flightNumber": "4",
+        "gate": null,
+        "hasWifi": true,
+        "originAirportCode": "DAL",
+        "passengers": Array [
+          Object {
+            "_links": Object {
+              "viewPassengerBoardingPass": Object {
+                "body": Object {
+                  "firstName": "Michael",
+                  "lastName": "Joseph",
+                  "travelerID": Array [
+                    "0000000000000001",
+                  ],
+                },
+                "href": "/v1/mobile-air-operations/page/check-in/retrieve-boarding-pass/SLNTCC",
+                "labelText": "Boarding pass",
+                "method": "POST",
+              },
+            },
+            "boardingGroup": "A",
+            "boardingPosition": "24",
+            "checkedIn": true,
+            "confirmationNumber": "SLNTCC",
+            "firstName": "Michael",
+            "hasInfant": true,
+            "hasPrecheck": false,
+            "isInfant": false,
+            "lastName": "Joseph",
+            "mobileBoardingPassEligible": true,
+            "mobileBoardingPassIneligibilityErrorCode": null,
+            "name": "Michael Joseph",
+            "travelerID": "0000000000000001",
+            "travelerSegmentIdentifier": "2301DC520002823E",
+          },
+          Object {
+            "_links": Object {
+              "viewPassengerBoardingPass": Object {
+                "body": Object {
+                  "firstName": "Michael",
+                  "lastName": "Joseph",
+                  "travelerID": Array [
+                    "0000000000000001",
+                  ],
+                },
+                "href": "/v1/mobile-air-operations/page/check-in/retrieve-boarding-pass/SLNTCC",
+                "labelText": "Boarding pass",
+                "method": "POST",
+              },
+            },
+            "boardingGroup": "A",
+            "boardingPosition": "24",
+            "checkedIn": true,
+            "confirmationNumber": "SLNTCC",
+            "firstName": "Michael",
+            "hasPrecheck": false,
+            "isInfant": true,
+            "lastName": "Joseph",
+            "mobileBoardingPassEligible": true,
+            "mobileBoardingPassIneligibilityErrorCode": null,
+            "name": "Michael Baby",
+            "travelerID": "0000000000000001",
+            "travelerSegmentIdentifier": "2301DC520002823E",
+          },
+          Object {
+            "_links": Object {
+              "viewPassengerBoardingPass": Object {
+                "body": Object {
+                  "firstName": "Jackie",
+                  "lastName": "Robinson",
+                  "travelerID": Array [
+                    "0000000000000001",
+                  ],
+                },
+                "href": "/v1/mobile-air-operations/page/check-in/retrieve-boarding-pass/SLNTCC",
+                "labelText": "Boarding pass",
+                "method": "POST",
+              },
+            },
+            "boardingGroup": "A",
+            "boardingPosition": "24",
+            "checkedIn": true,
+            "confirmationNumber": "SLNTCC",
+            "firstName": "Jackie",
+            "hasInfant": true,
+            "hasPrecheck": false,
+            "isInfant": false,
+            "lastName": "Robinson",
+            "mobileBoardingPassEligible": true,
+            "mobileBoardingPassIneligibilityErrorCode": null,
+            "name": "Jackie Robinson",
+            "travelerID": "0000000000000001",
+            "travelerSegmentIdentifier": "2301DC520002823E",
+          },
+          Object {
+            "_links": Object {
+              "viewPassengerBoardingPass": Object {
+                "body": Object {
+                  "firstName": "Michael",
+                  "lastName": "Joseph",
+                  "travelerID": Array [
+                    "0000000000000001",
+                  ],
+                },
+                "href": "/v1/mobile-air-operations/page/check-in/retrieve-boarding-pass/SLNTCC",
+                "labelText": "Boarding pass",
+                "method": "POST",
+              },
+            },
+            "boardingGroup": "A",
+            "boardingPosition": "24",
+            "checkedIn": true,
+            "confirmationNumber": "SLNTCC",
+            "firstName": "Michael",
+            "hasPrecheck": false,
+            "isInfant": true,
+            "lastName": "Joseph",
+            "mobileBoardingPassEligible": true,
+            "mobileBoardingPassIneligibilityErrorCode": null,
+            "name": "Jackie Baby",
+            "travelerID": "0000000000000001",
+            "travelerSegmentIdentifier": "2301DC520002823E",
+          },
+        ],
+        "travelTime": "5h 5m",
+      },
+    ]
+  }
+  formData={
+    Object {
+      "0-0000000000000001-2301DC520002823E": true,
+      "allPasses": true,
+    }
+  }
+  formId="formId"
+  hideErrorHeaderMsgFn={[Function]}
+  onChange={[Function]}
+  onSubmit={[Function]}
+  restrictFormChangeToFieldNameFn={[Function]}
+  showDialogFn={[Function]}
+  showErrorHeaderMsgFn={[Function]}
+  unrestrictFormChangeToFieldNameFn={[Function]}
+  updateFormFieldDataValueFn={[Function]}
+>
+  <div>
+    <Form
+      className="choose-mobile-boarding-passes-form"
+      disabled={false}
+      formId="formId"
+      isWidget={false}
+      onSubmit={[Function]}
+      stopSubmitPropagation={false}
+    >
+      <form
+        className="choose-mobile-boarding-passes-form form"
+        name="formId"
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <fieldset
+          disabled={false}
+        >
+          <Segments>
+            <div
+              className="segments"
+            >
+              <Segment
+                className="choose-mobile-boarding-passes-segment--label"
+                data-qa="form-header-message"
+                fill={false}
+                horizontalFill={false}
+                inverted={false}
+                ordinality="secondary"
+                transparent={false}
+                verticalFill={false}
+              >
+                <div
+                  className="choose-mobile-boarding-passes-segment--label secondary segment"
+                  data-qa="form-header-message"
+                >
+                  Choose the passes you want to access.
+                </div>
+              </Segment>
+              <Fields
+                className="fields"
+                divided={true}
+                type="grouped"
+              >
+                <div
+                  className="fields fields divided grouped"
+                >
+                  <WithField(FormCheckboxField)
+                    className="checkbox-button"
+                    clickableChildren={true}
+                    data-qa="checkbox-allPasses"
+                    name="allPasses"
+                    onChange={[Function]}
+                  >
+                    <Field
+                      error={false}
+                    >
+                      <div
+                        className="field"
+                      >
+                        <FormCheckboxField
+                          className="checkbox-button"
+                          clearError={[Function]}
+                          clickableChildren={true}
+                          data-qa="checkbox-allPasses"
+                          name="allPasses"
+                          onChange={[Function]}
+                          value={true}
+                        >
+                          <CheckboxField
+                            alignTop={false}
+                            checked={true}
+                            className="checkbox-button"
+                            clearError={[Function]}
+                            clickableChildren={true}
+                            data-qa="checkbox-allPasses"
+                            name="allPasses"
+                            noChildrenLeftMargin={false}
+                            onChange={[Function]}
+                          >
+                            <div
+                              className="checkbox-button relative flex checkbox-button--row_checked flex-cross-center"
+                              data-qa="checkbox-allPasses"
+                              name="allPasses"
+                              onChange={[Function]}
+                              onClick={[Function]}
+                            >
+                              <div>
+                                <span
+                                  className="checkbox-button--mark checkbox-button_checked"
+                                >
+                                  <Icon
+                                    className="absolute xlarge bgtransp"
+                                    type="check"
+                                  >
+                                    <i
+                                      className="absolute xlarge bgtransp icon icon_check"
+                                    />
+                                  </Icon>
+                                </span>
+                              </div>
+                              <div>
+                                <div
+                                  className="checkbox-button--children flex-equal-width ml2"
+                                >
+                                  All passes
+                                </div>
+                              </div>
+                            </div>
+                          </CheckboxField>
+                        </FormCheckboxField>
+                      </div>
+                    </Field>
+                  </WithField(FormCheckboxField)>
+                </div>
+              </Fields>
+              <Fields
+                className="fields"
+                divided={true}
+                key="0"
+                type="grouped"
+              >
+                <div
+                  className="fields fields divided grouped"
+                >
+                  <Field
+                    key="0-0000000000000001-2301DC520002823E"
+                  >
+                    <div
+                      className="field"
+                    >
+                      <WithField(FormCheckboxField)
+                        className="checkbox-button"
+                        clickableChildren={true}
+                        data-qa="checkbox-0-0000000000000001-2301DC520002823E"
+                        name="0-0000000000000001-2301DC520002823E"
+                        onChange={[Function]}
+                      >
+                        <Field
+                          error={false}
+                        >
+                          <div
+                            className="field"
+                          >
+                            <FormCheckboxField
+                              className="checkbox-button"
+                              clearError={[Function]}
+                              clickableChildren={true}
+                              data-qa="checkbox-0-0000000000000001-2301DC520002823E"
+                              name="0-0000000000000001-2301DC520002823E"
+                              onChange={[Function]}
+                              value={true}
+                            >
+                              <CheckboxField
+                                alignTop={false}
+                                checked={true}
+                                className="checkbox-button"
+                                clearError={[Function]}
+                                clickableChildren={true}
+                                data-qa="checkbox-0-0000000000000001-2301DC520002823E"
+                                name="0-0000000000000001-2301DC520002823E"
+                                noChildrenLeftMargin={false}
+                                onChange={[Function]}
+                              >
+                                <div
+                                  className="checkbox-button relative flex checkbox-button--row_checked flex-cross-center"
+                                  data-qa="checkbox-0-0000000000000001-2301DC520002823E"
+                                  name="0-0000000000000001-2301DC520002823E"
+                                  onChange={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <div>
+                                    <span
+                                      className="checkbox-button--mark checkbox-button_checked"
+                                    >
+                                      <Icon
+                                        className="absolute xlarge bgtransp"
+                                        type="check"
+                                      >
+                                        <i
+                                          className="absolute xlarge bgtransp icon icon_check"
+                                        />
+                                      </Icon>
+                                    </span>
+                                  </div>
+                                  <div>
+                                    <div
+                                      className="checkbox-button--children flex-equal-width ml2"
+                                    >
+                                      Michael Joseph
+                                    </div>
+                                  </div>
+                                </div>
+                              </CheckboxField>
+                            </FormCheckboxField>
+                          </div>
+                        </Field>
+                      </WithField(FormCheckboxField)>
+                    </div>
+                  </Field>
+                  <Field
+                    key="0-0000000000000001-2301DC520002823E"
+                  >
+                    <div
+                      className="field"
+                    >
+                      <WithField(FormCheckboxField)
+                        className="checkbox-button"
+                        clickableChildren={true}
+                        data-qa="checkbox-0-0000000000000001-2301DC520002823E"
+                        name="0-0000000000000001-2301DC520002823E"
+                        onChange={[Function]}
+                      >
+                        <Field
+                          error={false}
+                        >
+                          <div
+                            className="field"
+                          >
+                            <FormCheckboxField
+                              className="checkbox-button"
+                              clearError={[Function]}
+                              clickableChildren={true}
+                              data-qa="checkbox-0-0000000000000001-2301DC520002823E"
+                              name="0-0000000000000001-2301DC520002823E"
+                              onChange={[Function]}
+                              value={true}
+                            >
+                              <CheckboxField
+                                alignTop={false}
+                                checked={true}
+                                className="checkbox-button"
+                                clearError={[Function]}
+                                clickableChildren={true}
+                                data-qa="checkbox-0-0000000000000001-2301DC520002823E"
+                                name="0-0000000000000001-2301DC520002823E"
+                                noChildrenLeftMargin={false}
+                                onChange={[Function]}
+                              >
+                                <div
+                                  className="checkbox-button relative flex checkbox-button--row_checked flex-cross-center"
+                                  data-qa="checkbox-0-0000000000000001-2301DC520002823E"
+                                  name="0-0000000000000001-2301DC520002823E"
+                                  onChange={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <div>
+                                    <span
+                                      className="checkbox-button--mark checkbox-button_checked"
+                                    >
+                                      <Icon
+                                        className="absolute xlarge bgtransp"
+                                        type="check"
+                                      >
+                                        <i
+                                          className="absolute xlarge bgtransp icon icon_check"
+                                        />
+                                      </Icon>
+                                    </span>
+                                  </div>
+                                  <div>
+                                    <div
+                                      className="checkbox-button--children flex-equal-width ml2"
+                                    >
+                                      Michael Baby (Lap Child)
+                                    </div>
+                                  </div>
+                                </div>
+                              </CheckboxField>
+                            </FormCheckboxField>
+                          </div>
+                        </Field>
+                      </WithField(FormCheckboxField)>
+                    </div>
+                  </Field>
+                  <Field
+                    key="0-0000000000000001-2301DC520002823E"
+                  >
+                    <div
+                      className="field"
+                    >
+                      <WithField(FormCheckboxField)
+                        className="checkbox-button"
+                        clickableChildren={true}
+                        data-qa="checkbox-0-0000000000000001-2301DC520002823E"
+                        name="0-0000000000000001-2301DC520002823E"
+                        onChange={[Function]}
+                      >
+                        <Field
+                          error={false}
+                        >
+                          <div
+                            className="field"
+                          >
+                            <FormCheckboxField
+                              className="checkbox-button"
+                              clearError={[Function]}
+                              clickableChildren={true}
+                              data-qa="checkbox-0-0000000000000001-2301DC520002823E"
+                              name="0-0000000000000001-2301DC520002823E"
+                              onChange={[Function]}
+                              value={true}
+                            >
+                              <CheckboxField
+                                alignTop={false}
+                                checked={true}
+                                className="checkbox-button"
+                                clearError={[Function]}
+                                clickableChildren={true}
+                                data-qa="checkbox-0-0000000000000001-2301DC520002823E"
+                                name="0-0000000000000001-2301DC520002823E"
+                                noChildrenLeftMargin={false}
+                                onChange={[Function]}
+                              >
+                                <div
+                                  className="checkbox-button relative flex checkbox-button--row_checked flex-cross-center"
+                                  data-qa="checkbox-0-0000000000000001-2301DC520002823E"
+                                  name="0-0000000000000001-2301DC520002823E"
+                                  onChange={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <div>
+                                    <span
+                                      className="checkbox-button--mark checkbox-button_checked"
+                                    >
+                                      <Icon
+                                        className="absolute xlarge bgtransp"
+                                        type="check"
+                                      >
+                                        <i
+                                          className="absolute xlarge bgtransp icon icon_check"
+                                        />
+                                      </Icon>
+                                    </span>
+                                  </div>
+                                  <div>
+                                    <div
+                                      className="checkbox-button--children flex-equal-width ml2"
+                                    >
+                                      Jackie Robinson
+                                    </div>
+                                  </div>
+                                </div>
+                              </CheckboxField>
+                            </FormCheckboxField>
+                          </div>
+                        </Field>
+                      </WithField(FormCheckboxField)>
+                    </div>
+                  </Field>
+                  <Field
+                    key="0-0000000000000001-2301DC520002823E"
+                  >
+                    <div
+                      className="field"
+                    >
+                      <WithField(FormCheckboxField)
+                        className="checkbox-button"
+                        clickableChildren={true}
+                        data-qa="checkbox-0-0000000000000001-2301DC520002823E"
+                        name="0-0000000000000001-2301DC520002823E"
+                        onChange={[Function]}
+                      >
+                        <Field
+                          error={false}
+                        >
+                          <div
+                            className="field"
+                          >
+                            <FormCheckboxField
+                              className="checkbox-button"
+                              clearError={[Function]}
+                              clickableChildren={true}
+                              data-qa="checkbox-0-0000000000000001-2301DC520002823E"
+                              name="0-0000000000000001-2301DC520002823E"
+                              onChange={[Function]}
+                              value={true}
+                            >
+                              <CheckboxField
+                                alignTop={false}
+                                checked={true}
+                                className="checkbox-button"
+                                clearError={[Function]}
+                                clickableChildren={true}
+                                data-qa="checkbox-0-0000000000000001-2301DC520002823E"
+                                name="0-0000000000000001-2301DC520002823E"
+                                noChildrenLeftMargin={false}
+                                onChange={[Function]}
+                              >
+                                <div
+                                  className="checkbox-button relative flex checkbox-button--row_checked flex-cross-center"
+                                  data-qa="checkbox-0-0000000000000001-2301DC520002823E"
+                                  name="0-0000000000000001-2301DC520002823E"
+                                  onChange={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <div>
+                                    <span
+                                      className="checkbox-button--mark checkbox-button_checked"
+                                    >
+                                      <Icon
+                                        className="absolute xlarge bgtransp"
+                                        type="check"
+                                      >
+                                        <i
+                                          className="absolute xlarge bgtransp icon icon_check"
+                                        />
+                                      </Icon>
+                                    </span>
+                                  </div>
+                                  <div>
+                                    <div
+                                      className="checkbox-button--children flex-equal-width ml2"
+                                    >
+                                      Jackie Baby (Lap Child)
+                                    </div>
+                                  </div>
+                                </div>
+                              </CheckboxField>
+                            </FormCheckboxField>
+                          </div>
+                        </Field>
+                      </WithField(FormCheckboxField)>
+                    </div>
+                  </Field>
+                </div>
+              </Fields>
+              <Segment
+                color="blue"
+                fill={false}
+                horizontalFill={false}
+                inverted={true}
+                transparent={false}
+                verticalFill={false}
+              >
+                <div
+                  className="blue inverted segment"
+                  color="blue"
+                >
+                  <Button
+                    color="yellow"
+                    data-qa="continue-button"
+                    fluid={true}
+                    role="submit"
+                    size="large"
+                    type="submit"
+                  >
+                    <button
+                      className="button button--fluid large button--yellow"
+                      data-qa="continue-button"
+                      onClick={[Function]}
+                      role="submit"
+                      type="submit"
+                    >
+                      Continue
+                    </button>
+                  </Button>
+                </div>
+              </Segment>
+            </div>
+          </Segments>
+        </fieldset>
+      </form>
+    </Form>
+  </div>
+</ChooseMobileBoardingPassesForm>
+`;

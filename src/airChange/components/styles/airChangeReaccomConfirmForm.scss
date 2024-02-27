@@ -1,0 +1,23 @@
+.air-change-reaccom-form {
+  &--receipt-email {
+    margin: 0.75rem;
+  }
+
+  &--submit {
+    @include p5;
+    @include white;
+    @include bgpblue;
+    @include bdt;
+    @include bdsdkblue;
+  }
+
+  &--disclaimer {
+    @include pb5;
+    @include large;
+  }
+
+  &--receipt-email-field {
+    @include mt3;
+    @include mb6;
+  }
+}

@@ -1,0 +1,44 @@
+.corporate-booking-selection {
+  @include flex-main-between;
+
+  &--info-container {
+    @include fullwidth;
+    @include pl4;
+    @include for-compact {
+      @include pl0;
+    }
+  }
+
+  &--icon {
+    @include for-compact {
+      @include hide;
+    }
+
+    max-height: 3.2rem;
+    max-width: 2rem;
+    object-fit: contain;
+  }
+
+  &--text-content {
+    @include pl4;
+    @include mr4;
+    @include for-compact {
+      @include pl2;
+    }
+  }
+
+  &--learn-more {
+    @include medium;
+    @include mt1;
+    @include block;
+    color: $pblue;
+  }
+
+  &--company-name {
+    @include medium;
+    @include mt1;
+    @include truncate;
+    color: $gray5;
+    width: 215px; // px value needed in order for text-overflow: ellipsis to work
+  }
+}

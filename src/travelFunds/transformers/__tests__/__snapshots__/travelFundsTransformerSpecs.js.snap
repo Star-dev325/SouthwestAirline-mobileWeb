@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TravelFundsTransformer Apply Funds transformers AirBooking and Companion transformToCalculatePassengersArray should return a passengers array with lap child information 1`] = `
+Array [
+  Object {
+    "accountNumber": undefined,
+    "dateOfBirth": "2015-02-01",
+    "gender": "M",
+    "name": Object {
+      "firstName": "test",
+      "lastName": "wang",
+      "middleName": null,
+      "suffix": null,
+    },
+    "passengerReference": 2,
+    "passengerType": "ADULT",
+  },
+  Object {
+    "accountNumber": undefined,
+    "dateOfBirth": "2015-02-01",
+    "gender": "M",
+    "name": Object {
+      "firstName": "james",
+      "lastName": "bond",
+      "middleName": null,
+      "suffix": null,
+    },
+    "passengerReference": 3,
+    "passengerType": "ADULT",
+  },
+  Object {
+    "accountNumber": undefined,
+    "dateOfBirth": "2021-02-01",
+    "gender": "M",
+    "name": Object {
+      "firstName": "don",
+      "lastName": "jon",
+      "middleName": null,
+      "suffix": null,
+    },
+    "otherPassengerReference": 2,
+    "passengerReference": 4,
+    "passengerType": "LAP_INFANT",
+  },
+]
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginBannerClose should render correctly 1`] = `
+<div>
+  <i
+    class="login-banner-close-icon icon icon_delete"
+  />
+</div>
+`;

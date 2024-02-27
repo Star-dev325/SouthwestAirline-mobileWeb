@@ -1,0 +1,3635 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Purchase Summary page ApplyRapidRewards dollars booking should not render Apply Rapid Rewards nav item when splitPay is available and mbox is set to hide 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="page-header page-header--no-padding"
+        id=""
+      >
+        <div
+          class="progression-bar"
+        >
+          <div
+            class="title"
+          >
+            Purchase
+          </div>
+          <div
+            class="progress-step"
+          >
+            <div
+              class="progress"
+            >
+              <div
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="100"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 100%;"
+              />
+            </div>
+            <span
+              class="step-item step-item--completed"
+              style="left: 0%;"
+            >
+              <span
+                class="step-item--inner"
+              >
+                <i
+                  class="completed-check icon icon_check"
+                />
+              </span>
+            </span>
+            <span
+              class="step-item step-item--completed"
+              style="left: 50%;"
+            >
+              <span
+                class="step-item--inner"
+              >
+                <i
+                  class="completed-check icon icon_check"
+                />
+              </span>
+            </span>
+            <span
+              class="step-item step-item--current"
+              style="left: 100%;"
+            >
+              <span
+                class="step-item--inner"
+              >
+                <i
+                  class="icon icon_airplane"
+                />
+              </span>
+            </span>
+          </div>
+          <div
+            class="progression-bar--sub-title-flex"
+          >
+            <div
+              class="progression-bar--sub-title"
+            >
+              Price
+            </div>
+            <div
+              class="progression-bar--sub-title"
+            >
+              Passengers
+            </div>
+            <div
+              class="progression-bar--sub-title"
+            >
+              Purchase
+            </div>
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+    <form
+      class="purchase-summary-form purchase-content form"
+      data-qa="purchase-summary-form"
+      name="air-booking-purchase"
+      novalidate=""
+    >
+      <fieldset>
+        <dl
+          class="shopping-summary"
+        >
+          <dt
+            data-qa="passengers-section-title"
+          >
+            SHARED__PURCHASE_SUMMARY_FORM__PASSENGERS
+          </dt>
+          <dd>
+            <div
+              class="passenger-info-summary"
+            >
+              <div>
+                <a
+                  class="nav-item-link clearfix passenger-info-summary--item"
+                >
+                  <div
+                    class="fullwidth nowrap overflow-hidden ellipsis pr6"
+                  >
+                    <span
+                      class="passenger-info-summary--passenger-name"
+                      data-qa="passenger-info-summary--passenger-name"
+                    >
+                      Amber Awesome
+                    </span>
+                  </div>
+                  <i
+                    class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                  />
+                </a>
+              </div>
+            </div>
+          </dd>
+          <div
+            class="fields contact-method grouped"
+          >
+            <label
+              class="fields--label"
+            >
+              SHARED__CONTACT_METHOD__LABEL
+            </label>
+            <div
+              class="field"
+            >
+              <a
+                class="nav-item-link nav-item-field"
+                name="contactMethodContent"
+              >
+                <div
+                  class="fullwidth"
+                >
+                  <span />
+                  <div
+                    class="nav-item-field-value"
+                    data-qa="nav-item-field-value"
+                  >
+                    SHARED__CONTACT_METHOD_OPTION__DOMESTIC_OPTIONS_CALL, (123) 654-8973
+                  </div>
+                </div>
+                <i
+                  class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                />
+              </a>
+            </div>
+          </div>
+          <dt
+            data-qa="your-trip-section-title"
+          >
+            SHARED__PURCHASE_SUMMARY_FORM__TRIP
+          </dt>
+          <dd>
+            <div
+              class="trip-summary"
+            >
+              <div
+                class="flight-brief-summary bgwhite bdb p5"
+              >
+                <div
+                  class="flex xlarge pdkblue bold"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Nov 27
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    LAS
+                  </div>
+                  <div
+                    class="flex2 flight-brief-summary--airplane center"
+                  >
+                    <i
+                      class="mt3 icon icon_airplane"
+                    />
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    OAK
+                  </div>
+                </div>
+                <div
+                  class="flex large gray4"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Monday
+                  </div>
+                  <div
+                    class="flex2 flight-time"
+                  >
+                    <div
+                      class="flight-time--time"
+                    >
+                      <span>
+                        11:55
+                      </span>
+                      <span
+                        class="time-period"
+                      >
+                        PM
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="flex2"
+                  />
+                  <div
+                    class="flight-brief-summary--summary-group"
+                  >
+                    <div
+                      class="flex2 flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          1:30
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-brief-summary bgwhite bdb p5"
+              >
+                <div
+                  class="flex xlarge pdkblue bold"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Nov 28
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    OAK
+                  </div>
+                  <div
+                    class="flex2 flight-brief-summary--airplane center"
+                  >
+                    <i
+                      class="mt3 icon icon_airplane"
+                    />
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    LAS
+                  </div>
+                </div>
+                <div
+                  class="flex large gray4"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Tuesday
+                  </div>
+                  <div
+                    class="flex2 flight-time"
+                  >
+                    <div
+                      class="flight-time--time"
+                    >
+                      <span>
+                        11:55
+                      </span>
+                      <span
+                        class="time-period"
+                      >
+                        PM
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="flex2"
+                  />
+                  <div
+                    class="flight-brief-summary--summary-group"
+                  >
+                    <div
+                      class="flex2 flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          1:30
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="title-and-price flex bgwhite py5 px5 bdb larger"
+              >
+                <span
+                  class="flex7 gray4 inline-block"
+                >
+                  2 Passenger Total
+                </span>
+                <div
+                  class="flex5 align-right bold normal"
+                >
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      234.30
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="nav-item-link bgwhite"
+              >
+                SHARED__PURCHASE_SUMMARY_FORM__TRIP_AND_PRICE_DETAILS
+                <i
+                  class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                />
+              </a>
+            </div>
+          </dd>
+          <dt
+            data-qa="purpose-of-travel-section-title"
+          >
+            SHARED__PURCHASE_SUMMARY_FORM__TRAVEL_PURPOSE
+          </dt>
+          <dd>
+            <div
+              class="field"
+            >
+              <div
+                class="select-input icon-fixed formatted input"
+              >
+                <span
+                  class="formatted-input formatted-input--fill"
+                >
+                  <select
+                    class="dropdown empty"
+                    data-qa="select-dropdown"
+                    name="purposeOfTravel"
+                    placeholder="Select (optional)"
+                  >
+                    <option
+                      class="placeholder"
+                      data-qa="dqa-enabled-option"
+                      value=""
+                    >
+                      Select (optional)
+                    </option>
+                    <option
+                      data-qa="dqa-enabled-option"
+                      value="PERSONAL"
+                    >
+                      Personal
+                    </option>
+                    <option
+                      data-qa="dqa-enabled-option"
+                      value="BUSINESS"
+                    >
+                      Business
+                    </option>
+                    <option
+                      data-qa="dqa-enabled-option"
+                      value="BOTH"
+                    >
+                      Both
+                    </option>
+                  </select>
+                </span>
+                <input
+                  class=""
+                  icon="caret-down"
+                  name="purposeOfTravel"
+                  placeholder="Select (optional)"
+                />
+                <i
+                  class="icon icon_caret-down"
+                />
+              </div>
+            </div>
+          </dd>
+          <dl>
+            <dt
+              class="purchase-summary-form--add-early-bird pt2"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__ADD_EARLY_BIRD_CHECK_IN
+              <sup>
+                ®
+              </sup>
+            </dt>
+            <dd>
+              <div
+                class="field"
+              >
+                <div
+                  class="bdb flex flex-main-between"
+                >
+                  <div
+                    class="bgwhite flex10 flex py4 pl5 "
+                  >
+                    <span
+                      class="bgwhite pdkblue bold larger"
+                      data-qa="add-early-bird-check-in--banner--total-price"
+                    >
+                      <div
+                        class="currency"
+                      >
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          15.00
+                        </span>
+                      </div>
+                    </span>
+                    <span
+                      class="gray4 pl1 medium"
+                      data-qa="add-early-bird-check-in--banner--per-passenger-message"
+                    >
+                      <span>
+                        <div
+                          class="currency inline-block"
+                        >
+                          (
+                          <span
+                            class="money-sign"
+                          >
+                            $
+                          </span>
+                          <span
+                            data-qa="total-amount"
+                          >
+                            15.00
+                          </span>
+                          SHARED__EARLY_BIRD__CHECK_IN_PER_PASSENGER_PRICE_MESSAGE_SUFFIX
+                        </div>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="bgwhite bdl relative early-bird-check-in--radio-button flex2"
+                    data-qa="add-early-bird-check-in--radio-button"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark"
+                      />
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="gray5 medium pt4 bggray2"
+                data-qa="add-early-bird-check-in--verbiage"
+              >
+                SHARED__EARLY_BIRD__CHECK_IN_VERBIAGE
+              </div>
+            </dd>
+          </dl>
+          <div
+            class="apply-travel-funds-nav-item"
+          >
+            <dt
+              data-qa="apply-funds-section-title"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__APPLY_TRAVEL_FUNDS
+            </dt>
+            <div
+              class="field"
+            >
+              <div
+                data-qa="review-form--apply-travel-funds-nav-item"
+              >
+                <a
+                  class="nav-item-link nav-item-field no-funds-selected"
+                >
+                  <span>
+                    Select (optional)
+                  </span>
+                  <i
+                    class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                  />
+                </a>
+              </div>
+            </div>
+            <p
+              class="helper-text"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__APPLY_FUNDS_NAV_ITEM_MESSAGE
+            </p>
+          </div>
+          <div>
+            <dt
+              data-qa="payment-section-title"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__PAYMENT
+            </dt>
+            <dd>
+              <div
+                class="field"
+              >
+                <div
+                  class="payment-nav-item-field"
+                  data-qa="review-form--payment-method-nav-item"
+                >
+                  <a
+                    class="nav-item-link no-padding"
+                  >
+                    <div
+                      class="primary-saved-credit-cards"
+                      data-qa="review-form--payment-card"
+                    >
+                      <div
+                        class="credit-card-radio-input credit-card-radio-input_selected"
+                      >
+                        <label
+                          class="credit-card-radio-input--label"
+                        >
+                          <div
+                            class="credit-card-radio-input--container"
+                          >
+                            <div
+                              class="credit-card--image_visa credit-card--image left mr2"
+                            />
+                            <div
+                              class="credit-card-radio-input--text"
+                            >
+                              <p
+                                class="pdkblue larger"
+                              >
+                                VISA 4444
+                              </p>
+                              <div
+                                class="flex gray5 additional-info-container"
+                              >
+                                <div
+                                  class="mr1"
+                                >
+                                  AIR_BOOKING__SUMMARY_PAYMENT__SHORT_CARD_NUMBER_MESSAGE
+                                </div>
+                                <div
+                                  class="bold"
+                                >
+                                  4444
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                    <i
+                      class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                    />
+                  </a>
+                </div>
+              </div>
+            </dd>
+            <dd />
+          </div>
+        </dl>
+        <div
+          class="purchase-content--summary-footer"
+        >
+          <div
+            class="price-total"
+          >
+            <div
+              class="price-total--info"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  SHARED__PRICE_LINE_TITLES__TOTAL_PASSENGER
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        233.98
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="table fullwidth mt3"
+              >
+                <div
+                  class="price-total--info-col"
+                >
+                  <p>
+                    SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+                  </p>
+                </div>
+                <div
+                  class="price-total--info-col"
+                  data-qa="toggleBreakdown"
+                >
+                  <p>
+                    SHARED__BREAKDOWN_TOGGLES__SHOW_FARE_BREAKDOWN
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="purchase-disclaimer"
+          >
+            PURCHASE_DISCLAIMER
+          </div>
+          <div
+            class="purchase-content--summary-footer-nav"
+          >
+            <button
+              class="purchase button button--fluid larger button--yellow"
+              type="submit"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__PURCHASE
+            </button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <div
+      class="review-footer"
+    >
+      <div
+        class="review-footer--verbiage"
+      >
+        HAZMAT_TEXT
+      </div>
+      <ul
+        class="review-footer--links"
+      >
+        <li>
+          <a
+            href="/hazardous-materials"
+            target="_blank"
+          >
+            SHARED__REVIEW_FOOTER_VIEW_MORE_DETAILS_LINK
+          </a>
+        </li>
+        <li>
+          <a
+            href="/terms-and-conditions?clk=GNAVTC"
+            target="_blank"
+          >
+            SHARED__REVIEW_FOOTER_TERMS_AND_CONDITIONS_LINK
+          </a>
+          <a
+            href="/privacy-policy?clk=GNAVPRIVACY"
+            target="_blank"
+          >
+            SHARED__REVIEW_FOOTER_PRIVACY_POLICY_LINK
+          </a>
+        </li>
+        <li>
+          <a
+            href="/page/contract-of-carriage"
+            target="_blank"
+          >
+            SHARED__REVIEW_FOOTER_CONTRACT_OF_CARRIAGE_LINK
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Purchase Summary page ApplyRapidRewards dollars booking should render Apply Rapid Rewards nav item when splitPay is available and mbox is set to show 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="page-header page-header--no-padding"
+        id=""
+      >
+        <div
+          class="progression-bar"
+        >
+          <div
+            class="title"
+          >
+            Purchase
+          </div>
+          <div
+            class="progress-step"
+          >
+            <div
+              class="progress"
+            >
+              <div
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="100"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 100%;"
+              />
+            </div>
+            <span
+              class="step-item step-item--completed"
+              style="left: 0%;"
+            >
+              <span
+                class="step-item--inner"
+              >
+                <i
+                  class="completed-check icon icon_check"
+                />
+              </span>
+            </span>
+            <span
+              class="step-item step-item--completed"
+              style="left: 50%;"
+            >
+              <span
+                class="step-item--inner"
+              >
+                <i
+                  class="completed-check icon icon_check"
+                />
+              </span>
+            </span>
+            <span
+              class="step-item step-item--current"
+              style="left: 100%;"
+            >
+              <span
+                class="step-item--inner"
+              >
+                <i
+                  class="icon icon_airplane"
+                />
+              </span>
+            </span>
+          </div>
+          <div
+            class="progression-bar--sub-title-flex"
+          >
+            <div
+              class="progression-bar--sub-title"
+            >
+              Price
+            </div>
+            <div
+              class="progression-bar--sub-title"
+            >
+              Passengers
+            </div>
+            <div
+              class="progression-bar--sub-title"
+            >
+              Purchase
+            </div>
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+    <form
+      class="purchase-summary-form purchase-content form"
+      data-qa="purchase-summary-form"
+      name="air-booking-purchase"
+      novalidate=""
+    >
+      <fieldset>
+        <dl
+          class="shopping-summary"
+        >
+          <dt
+            data-qa="passengers-section-title"
+          >
+            SHARED__PURCHASE_SUMMARY_FORM__PASSENGERS
+          </dt>
+          <dd>
+            <div
+              class="passenger-info-summary"
+            >
+              <div>
+                <a
+                  class="nav-item-link clearfix passenger-info-summary--item"
+                >
+                  <div
+                    class="fullwidth nowrap overflow-hidden ellipsis pr6"
+                  >
+                    <span
+                      class="passenger-info-summary--passenger-name"
+                      data-qa="passenger-info-summary--passenger-name"
+                    >
+                      Amber Awesome
+                    </span>
+                  </div>
+                  <i
+                    class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                  />
+                </a>
+              </div>
+            </div>
+          </dd>
+          <div
+            class="fields contact-method grouped"
+          >
+            <label
+              class="fields--label"
+            >
+              SHARED__CONTACT_METHOD__LABEL
+            </label>
+            <div
+              class="field"
+            >
+              <a
+                class="nav-item-link nav-item-field"
+                name="contactMethodContent"
+              >
+                <div
+                  class="fullwidth"
+                >
+                  <span />
+                  <div
+                    class="nav-item-field-value"
+                    data-qa="nav-item-field-value"
+                  >
+                    SHARED__CONTACT_METHOD_OPTION__DOMESTIC_OPTIONS_CALL, (123) 654-8973
+                  </div>
+                </div>
+                <i
+                  class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                />
+              </a>
+            </div>
+          </div>
+          <dt
+            data-qa="your-trip-section-title"
+          >
+            SHARED__PURCHASE_SUMMARY_FORM__TRIP
+          </dt>
+          <dd>
+            <div
+              class="trip-summary"
+            >
+              <div
+                class="flight-brief-summary bgwhite bdb p5"
+              >
+                <div
+                  class="flex xlarge pdkblue bold"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Nov 27
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    LAS
+                  </div>
+                  <div
+                    class="flex2 flight-brief-summary--airplane center"
+                  >
+                    <i
+                      class="mt3 icon icon_airplane"
+                    />
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    OAK
+                  </div>
+                </div>
+                <div
+                  class="flex large gray4"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Monday
+                  </div>
+                  <div
+                    class="flex2 flight-time"
+                  >
+                    <div
+                      class="flight-time--time"
+                    >
+                      <span>
+                        11:55
+                      </span>
+                      <span
+                        class="time-period"
+                      >
+                        PM
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="flex2"
+                  />
+                  <div
+                    class="flight-brief-summary--summary-group"
+                  >
+                    <div
+                      class="flex2 flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          1:30
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-brief-summary bgwhite bdb p5"
+              >
+                <div
+                  class="flex xlarge pdkblue bold"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Nov 28
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    OAK
+                  </div>
+                  <div
+                    class="flex2 flight-brief-summary--airplane center"
+                  >
+                    <i
+                      class="mt3 icon icon_airplane"
+                    />
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    LAS
+                  </div>
+                </div>
+                <div
+                  class="flex large gray4"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Tuesday
+                  </div>
+                  <div
+                    class="flex2 flight-time"
+                  >
+                    <div
+                      class="flight-time--time"
+                    >
+                      <span>
+                        11:55
+                      </span>
+                      <span
+                        class="time-period"
+                      >
+                        PM
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="flex2"
+                  />
+                  <div
+                    class="flight-brief-summary--summary-group"
+                  >
+                    <div
+                      class="flex2 flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          1:30
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="title-and-price flex bgwhite py5 px5 bdb larger"
+              >
+                <span
+                  class="flex7 gray4 inline-block"
+                >
+                  2 Passenger Total
+                </span>
+                <div
+                  class="flex5 align-right bold normal"
+                >
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      234.30
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="nav-item-link bgwhite"
+              >
+                SHARED__PURCHASE_SUMMARY_FORM__TRIP_AND_PRICE_DETAILS
+                <i
+                  class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                />
+              </a>
+            </div>
+          </dd>
+          <dt
+            data-qa="purpose-of-travel-section-title"
+          >
+            SHARED__PURCHASE_SUMMARY_FORM__TRAVEL_PURPOSE
+          </dt>
+          <dd>
+            <div
+              class="field"
+            >
+              <div
+                class="select-input icon-fixed formatted input"
+              >
+                <span
+                  class="formatted-input formatted-input--fill"
+                >
+                  <select
+                    class="dropdown empty"
+                    data-qa="select-dropdown"
+                    name="purposeOfTravel"
+                    placeholder="Select (optional)"
+                  >
+                    <option
+                      class="placeholder"
+                      data-qa="dqa-enabled-option"
+                      value=""
+                    >
+                      Select (optional)
+                    </option>
+                    <option
+                      data-qa="dqa-enabled-option"
+                      value="PERSONAL"
+                    >
+                      Personal
+                    </option>
+                    <option
+                      data-qa="dqa-enabled-option"
+                      value="BUSINESS"
+                    >
+                      Business
+                    </option>
+                    <option
+                      data-qa="dqa-enabled-option"
+                      value="BOTH"
+                    >
+                      Both
+                    </option>
+                  </select>
+                </span>
+                <input
+                  class=""
+                  icon="caret-down"
+                  name="purposeOfTravel"
+                  placeholder="Select (optional)"
+                />
+                <i
+                  class="icon icon_caret-down"
+                />
+              </div>
+            </div>
+          </dd>
+          <dl>
+            <dt
+              class="purchase-summary-form--add-early-bird pt2"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__ADD_EARLY_BIRD_CHECK_IN
+              <sup>
+                ®
+              </sup>
+            </dt>
+            <dd>
+              <div
+                class="field"
+              >
+                <div
+                  class="bdb flex flex-main-between"
+                >
+                  <div
+                    class="bgwhite flex10 flex py4 pl5 "
+                  >
+                    <span
+                      class="bgwhite pdkblue bold larger"
+                      data-qa="add-early-bird-check-in--banner--total-price"
+                    >
+                      <div
+                        class="currency"
+                      >
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          15.00
+                        </span>
+                      </div>
+                    </span>
+                    <span
+                      class="gray4 pl1 medium"
+                      data-qa="add-early-bird-check-in--banner--per-passenger-message"
+                    >
+                      <span>
+                        <div
+                          class="currency inline-block"
+                        >
+                          (
+                          <span
+                            class="money-sign"
+                          >
+                            $
+                          </span>
+                          <span
+                            data-qa="total-amount"
+                          >
+                            15.00
+                          </span>
+                          SHARED__EARLY_BIRD__CHECK_IN_PER_PASSENGER_PRICE_MESSAGE_SUFFIX
+                        </div>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="bgwhite bdl relative early-bird-check-in--radio-button flex2"
+                    data-qa="add-early-bird-check-in--radio-button"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark"
+                      />
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="gray5 medium pt4 bggray2"
+                data-qa="add-early-bird-check-in--verbiage"
+              >
+                SHARED__EARLY_BIRD__CHECK_IN_VERBIAGE
+              </div>
+            </dd>
+          </dl>
+          <div
+            class="apply-travel-funds-nav-item"
+          >
+            <dt
+              data-qa="apply-funds-section-title"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__APPLY_TRAVEL_FUNDS
+            </dt>
+            <div
+              class="field"
+            >
+              <div
+                data-qa="review-form--apply-travel-funds-nav-item"
+              >
+                <a
+                  class="nav-item-link nav-item-field no-funds-selected"
+                >
+                  <span>
+                    Select (optional)
+                  </span>
+                  <i
+                    class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                  />
+                </a>
+              </div>
+            </div>
+            <p
+              class="helper-text"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__APPLY_FUNDS_NAV_ITEM_MESSAGE
+            </p>
+          </div>
+          <div
+            class="apply-rapid-rewards-nav-item"
+          >
+            <dt
+              data-qa="apply-points-section-title"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__APPLY_RAPID_REWARDS
+            </dt>
+            <div
+              class="field"
+            >
+              <div
+                data-qa="review-form--apply-rapid-rewards-nav-item"
+              >
+                <a
+                  class="nav-item-link nav-item-field no-points-selected"
+                >
+                  <span>
+                    SPLIT_PAY_FORM__SELECT_TEXT
+                  </span>
+                  <i
+                    class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <dt
+              data-qa="payment-section-title"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__PAYMENT
+            </dt>
+            <dd>
+              <div
+                class="field"
+              >
+                <div
+                  class="payment-nav-item-field"
+                  data-qa="review-form--payment-method-nav-item"
+                >
+                  <a
+                    class="nav-item-link no-padding"
+                  >
+                    <div
+                      class="primary-saved-credit-cards"
+                      data-qa="review-form--payment-card"
+                    >
+                      <div
+                        class="credit-card-radio-input credit-card-radio-input_selected"
+                      >
+                        <label
+                          class="credit-card-radio-input--label"
+                        >
+                          <div
+                            class="credit-card-radio-input--container"
+                          >
+                            <div
+                              class="credit-card--image_visa credit-card--image left mr2"
+                            />
+                            <div
+                              class="credit-card-radio-input--text"
+                            >
+                              <p
+                                class="pdkblue larger"
+                              >
+                                VISA 4444
+                              </p>
+                              <div
+                                class="flex gray5 additional-info-container"
+                              >
+                                <div
+                                  class="mr1"
+                                >
+                                  AIR_BOOKING__SUMMARY_PAYMENT__SHORT_CARD_NUMBER_MESSAGE
+                                </div>
+                                <div
+                                  class="bold"
+                                >
+                                  4444
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                    <i
+                      class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                    />
+                  </a>
+                </div>
+              </div>
+            </dd>
+            <dd />
+          </div>
+        </dl>
+        <div
+          class="purchase-content--summary-footer"
+        >
+          <div
+            class="price-total"
+          >
+            <div
+              class="price-total--info"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  SHARED__PRICE_LINE_TITLES__TOTAL_PASSENGER
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        233.98
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="table fullwidth mt3"
+              >
+                <div
+                  class="price-total--info-col"
+                >
+                  <p>
+                    SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+                  </p>
+                </div>
+                <div
+                  class="price-total--info-col"
+                  data-qa="toggleBreakdown"
+                >
+                  <p>
+                    SHARED__BREAKDOWN_TOGGLES__SHOW_FARE_BREAKDOWN
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="purchase-disclaimer"
+          >
+            PURCHASE_DISCLAIMER
+          </div>
+          <div
+            class="purchase-content--summary-footer-nav"
+          >
+            <button
+              class="purchase button button--fluid larger button--yellow"
+              type="submit"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__PURCHASE
+            </button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <div
+      class="review-footer"
+    >
+      <div
+        class="review-footer--verbiage"
+      >
+        HAZMAT_TEXT
+      </div>
+      <ul
+        class="review-footer--links"
+      >
+        <li>
+          <a
+            href="/hazardous-materials"
+            target="_blank"
+          >
+            SHARED__REVIEW_FOOTER_VIEW_MORE_DETAILS_LINK
+          </a>
+        </li>
+        <li>
+          <a
+            href="/terms-and-conditions?clk=GNAVTC"
+            target="_blank"
+          >
+            SHARED__REVIEW_FOOTER_TERMS_AND_CONDITIONS_LINK
+          </a>
+          <a
+            href="/privacy-policy?clk=GNAVPRIVACY"
+            target="_blank"
+          >
+            SHARED__REVIEW_FOOTER_PRIVACY_POLICY_LINK
+          </a>
+        </li>
+        <li>
+          <a
+            href="/page/contract-of-carriage"
+            target="_blank"
+          >
+            SHARED__REVIEW_FOOTER_CONTRACT_OF_CARRIAGE_LINK
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Purchase Summary page ApplyRapidRewards dollars booking should show updated price total and trip summary after applying split payment 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="page-header page-header--no-padding"
+        id=""
+      >
+        <div
+          class="progression-bar"
+        >
+          <div
+            class="title"
+          >
+            Purchase
+          </div>
+          <div
+            class="progress-step"
+          >
+            <div
+              class="progress"
+            >
+              <div
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="100"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 100%;"
+              />
+            </div>
+            <span
+              class="step-item step-item--completed"
+              style="left: 0%;"
+            >
+              <span
+                class="step-item--inner"
+              >
+                <i
+                  class="completed-check icon icon_check"
+                />
+              </span>
+            </span>
+            <span
+              class="step-item step-item--completed"
+              style="left: 50%;"
+            >
+              <span
+                class="step-item--inner"
+              >
+                <i
+                  class="completed-check icon icon_check"
+                />
+              </span>
+            </span>
+            <span
+              class="step-item step-item--current"
+              style="left: 100%;"
+            >
+              <span
+                class="step-item--inner"
+              >
+                <i
+                  class="icon icon_airplane"
+                />
+              </span>
+            </span>
+          </div>
+          <div
+            class="progression-bar--sub-title-flex"
+          >
+            <div
+              class="progression-bar--sub-title"
+            >
+              Price
+            </div>
+            <div
+              class="progression-bar--sub-title"
+            >
+              Passengers
+            </div>
+            <div
+              class="progression-bar--sub-title"
+            >
+              Purchase
+            </div>
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+    <form
+      class="purchase-summary-form purchase-content form"
+      data-qa="purchase-summary-form"
+      name="air-booking-purchase"
+      novalidate=""
+    >
+      <fieldset>
+        <dl
+          class="shopping-summary"
+        >
+          <dt
+            data-qa="passengers-section-title"
+          >
+            SHARED__PURCHASE_SUMMARY_FORM__PASSENGERS
+          </dt>
+          <dd>
+            <div
+              class="passenger-info-summary"
+            >
+              <div>
+                <a
+                  class="nav-item-link clearfix passenger-info-summary--item"
+                >
+                  <div
+                    class="fullwidth nowrap overflow-hidden ellipsis pr6"
+                  >
+                    <span
+                      class="passenger-info-summary--passenger-name"
+                      data-qa="passenger-info-summary--passenger-name"
+                    >
+                      Amber Awesome
+                    </span>
+                  </div>
+                  <i
+                    class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                  />
+                </a>
+              </div>
+            </div>
+          </dd>
+          <div
+            class="fields contact-method grouped"
+          >
+            <label
+              class="fields--label"
+            >
+              SHARED__CONTACT_METHOD__LABEL
+            </label>
+            <div
+              class="field"
+            >
+              <a
+                class="nav-item-link nav-item-field"
+                name="contactMethodContent"
+              >
+                <div
+                  class="fullwidth"
+                >
+                  <span />
+                  <div
+                    class="nav-item-field-value"
+                    data-qa="nav-item-field-value"
+                  >
+                    SHARED__CONTACT_METHOD_OPTION__DOMESTIC_OPTIONS_CALL, (123) 654-8973
+                  </div>
+                </div>
+                <i
+                  class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                />
+              </a>
+            </div>
+          </div>
+          <dt
+            data-qa="your-trip-section-title"
+          >
+            SHARED__PURCHASE_SUMMARY_FORM__TRIP
+          </dt>
+          <dd>
+            <div
+              class="trip-summary"
+            >
+              <div
+                class="flight-brief-summary bgwhite bdb p5"
+              >
+                <div
+                  class="flex xlarge pdkblue bold"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Nov 27
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    LAS
+                  </div>
+                  <div
+                    class="flex2 flight-brief-summary--airplane center"
+                  >
+                    <i
+                      class="mt3 icon icon_airplane"
+                    />
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    OAK
+                  </div>
+                </div>
+                <div
+                  class="flex large gray4"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Monday
+                  </div>
+                  <div
+                    class="flex2 flight-time"
+                  >
+                    <div
+                      class="flight-time--time"
+                    >
+                      <span>
+                        11:55
+                      </span>
+                      <span
+                        class="time-period"
+                      >
+                        PM
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="flex2"
+                  />
+                  <div
+                    class="flight-brief-summary--summary-group"
+                  >
+                    <div
+                      class="flex2 flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          1:30
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-brief-summary bgwhite bdb p5"
+              >
+                <div
+                  class="flex xlarge pdkblue bold"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Nov 28
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    OAK
+                  </div>
+                  <div
+                    class="flex2 flight-brief-summary--airplane center"
+                  >
+                    <i
+                      class="mt3 icon icon_airplane"
+                    />
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    LAS
+                  </div>
+                </div>
+                <div
+                  class="flex large gray4"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Tuesday
+                  </div>
+                  <div
+                    class="flex2 flight-time"
+                  >
+                    <div
+                      class="flight-time--time"
+                    >
+                      <span>
+                        11:55
+                      </span>
+                      <span
+                        class="time-period"
+                      >
+                        PM
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="flex2"
+                  />
+                  <div
+                    class="flight-brief-summary--summary-group"
+                  >
+                    <div
+                      class="flex2 flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          1:30
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="title-and-price flex bgwhite py5 px5 bdb larger"
+              >
+                <span
+                  class="flex7 gray4 inline-block"
+                >
+                  2 Passenger Total
+                </span>
+                <div
+                  class="flex5 align-right bold normal"
+                >
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      1,558.66
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="nav-item-link bgwhite"
+              >
+                SHARED__PURCHASE_SUMMARY_FORM__TRIP_AND_PRICE_DETAILS
+                <i
+                  class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                />
+              </a>
+            </div>
+          </dd>
+          <dt
+            data-qa="purpose-of-travel-section-title"
+          >
+            SHARED__PURCHASE_SUMMARY_FORM__TRAVEL_PURPOSE
+          </dt>
+          <dd>
+            <div
+              class="field"
+            >
+              <div
+                class="select-input icon-fixed formatted input"
+              >
+                <span
+                  class="formatted-input formatted-input--fill"
+                >
+                  <select
+                    class="dropdown empty"
+                    data-qa="select-dropdown"
+                    name="purposeOfTravel"
+                    placeholder="Select (optional)"
+                  >
+                    <option
+                      class="placeholder"
+                      data-qa="dqa-enabled-option"
+                      value=""
+                    >
+                      Select (optional)
+                    </option>
+                    <option
+                      data-qa="dqa-enabled-option"
+                      value="PERSONAL"
+                    >
+                      Personal
+                    </option>
+                    <option
+                      data-qa="dqa-enabled-option"
+                      value="BUSINESS"
+                    >
+                      Business
+                    </option>
+                    <option
+                      data-qa="dqa-enabled-option"
+                      value="BOTH"
+                    >
+                      Both
+                    </option>
+                  </select>
+                </span>
+                <input
+                  class=""
+                  icon="caret-down"
+                  name="purposeOfTravel"
+                  placeholder="Select (optional)"
+                />
+                <i
+                  class="icon icon_caret-down"
+                />
+              </div>
+            </div>
+          </dd>
+          <dl>
+            <dt
+              class="purchase-summary-form--add-early-bird pt2"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__ADD_EARLY_BIRD_CHECK_IN
+              <sup>
+                ®
+              </sup>
+            </dt>
+            <dd>
+              <div
+                class="field"
+              >
+                <div
+                  class="bdb flex flex-main-between"
+                >
+                  <div
+                    class="bgwhite flex10 flex py4 pl5 "
+                  >
+                    <span
+                      class="bgwhite pdkblue bold larger"
+                      data-qa="add-early-bird-check-in--banner--total-price"
+                    >
+                      <div
+                        class="currency"
+                      >
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          15.00
+                        </span>
+                      </div>
+                    </span>
+                    <span
+                      class="gray4 pl1 medium"
+                      data-qa="add-early-bird-check-in--banner--per-passenger-message"
+                    >
+                      <span>
+                        <div
+                          class="currency inline-block"
+                        >
+                          (
+                          <span
+                            class="money-sign"
+                          >
+                            $
+                          </span>
+                          <span
+                            data-qa="total-amount"
+                          >
+                            15.00
+                          </span>
+                          SHARED__EARLY_BIRD__CHECK_IN_PER_PASSENGER_PRICE_MESSAGE_SUFFIX
+                        </div>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="bgwhite bdl relative early-bird-check-in--radio-button flex2"
+                    data-qa="add-early-bird-check-in--radio-button"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark"
+                      />
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="gray5 medium pt4 bggray2"
+                data-qa="add-early-bird-check-in--verbiage"
+              >
+                SHARED__EARLY_BIRD__CHECK_IN_VERBIAGE
+              </div>
+            </dd>
+          </dl>
+          <div
+            class="apply-travel-funds-nav-item"
+          >
+            <dt
+              data-qa="apply-funds-section-title"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__APPLY_TRAVEL_FUNDS
+            </dt>
+            <div
+              class="field"
+            >
+              <div
+                data-qa="review-form--apply-travel-funds-nav-item"
+              >
+                <a
+                  class="nav-item-link nav-item-field no-funds-selected"
+                >
+                  <span>
+                    Select (optional)
+                  </span>
+                  <i
+                    class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                  />
+                </a>
+              </div>
+            </div>
+            <p
+              class="helper-text"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__APPLY_FUNDS_NAV_ITEM_MESSAGE
+            </p>
+          </div>
+          <div
+            class="apply-rapid-rewards-nav-item"
+          >
+            <dt
+              data-qa="apply-points-section-title"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__APPLY_RAPID_REWARDS
+            </dt>
+            <div
+              class="field"
+            >
+              <div
+                data-qa="review-form--apply-rapid-rewards-nav-item"
+              >
+                <a
+                  class="nav-item-link nav-item-field no-points-selected"
+                >
+                  <span>
+                    SPLIT_PAY_FORM__SELECT_TEXT
+                  </span>
+                  <i
+                    class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <dt
+              data-qa="payment-section-title"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__PAYMENT
+            </dt>
+            <dd>
+              <div
+                class="field"
+              >
+                <div
+                  class="payment-nav-item-field"
+                  data-qa="review-form--payment-method-nav-item"
+                >
+                  <a
+                    class="nav-item-link no-padding"
+                  >
+                    <div
+                      class="primary-saved-credit-cards"
+                      data-qa="review-form--payment-card"
+                    >
+                      <div
+                        class="credit-card-radio-input credit-card-radio-input_selected"
+                      >
+                        <label
+                          class="credit-card-radio-input--label"
+                        >
+                          <div
+                            class="credit-card-radio-input--container"
+                          >
+                            <div
+                              class="credit-card--image_visa credit-card--image left mr2"
+                            />
+                            <div
+                              class="credit-card-radio-input--text"
+                            >
+                              <p
+                                class="pdkblue larger"
+                              >
+                                VISA 4444
+                              </p>
+                              <div
+                                class="flex gray5 additional-info-container"
+                              >
+                                <div
+                                  class="mr1"
+                                >
+                                  AIR_BOOKING__SUMMARY_PAYMENT__SHORT_CARD_NUMBER_MESSAGE
+                                </div>
+                                <div
+                                  class="bold"
+                                >
+                                  4444
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                    <i
+                      class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                    />
+                  </a>
+                </div>
+              </div>
+            </dd>
+            <dd />
+          </div>
+        </dl>
+        <div
+          class="purchase-content--summary-footer"
+        >
+          <div
+            class="price-total"
+          >
+            <div
+              class="price-total--info"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  SHARED__PRICE_LINE_TITLES__TOTAL_PASSENGER
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        1,558.66
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="table fullwidth mt3"
+              >
+                <div
+                  class="price-total--info-col"
+                >
+                  <p>
+                    SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+                  </p>
+                </div>
+                <div
+                  class="price-total--info-col"
+                  data-qa="toggleBreakdown"
+                >
+                  <p>
+                    SHARED__BREAKDOWN_TOGGLES__SHOW_FARE_BREAKDOWN
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="purchase-disclaimer"
+          >
+            PURCHASE_DISCLAIMER
+          </div>
+          <div
+            class="purchase-content--summary-footer-nav"
+          >
+            <button
+              class="purchase button button--fluid larger button--yellow"
+              type="submit"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__PURCHASE
+            </button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <div
+      class="review-footer"
+    >
+      <div
+        class="review-footer--verbiage"
+      >
+        HAZMAT_TEXT
+      </div>
+      <ul
+        class="review-footer--links"
+      >
+        <li>
+          <a
+            href="/hazardous-materials"
+            target="_blank"
+          >
+            SHARED__REVIEW_FOOTER_VIEW_MORE_DETAILS_LINK
+          </a>
+        </li>
+        <li>
+          <a
+            href="/terms-and-conditions?clk=GNAVTC"
+            target="_blank"
+          >
+            SHARED__REVIEW_FOOTER_TERMS_AND_CONDITIONS_LINK
+          </a>
+          <a
+            href="/privacy-policy?clk=GNAVPRIVACY"
+            target="_blank"
+          >
+            SHARED__REVIEW_FOOTER_PRIVACY_POLICY_LINK
+          </a>
+        </li>
+        <li>
+          <a
+            href="/page/contract-of-carriage"
+            target="_blank"
+          >
+            SHARED__REVIEW_FOOTER_CONTRACT_OF_CARRIAGE_LINK
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Purchase Summary page render PurchaseSummaryForm snapshot 1`] = `
+<form
+  class="purchase-summary-form purchase-content form"
+  data-qa="purchase-summary-form"
+  name="air-booking-purchase"
+  novalidate=""
+>
+  <fieldset>
+    <dl
+      class="shopping-summary"
+    >
+      <dt
+        data-qa="passengers-section-title"
+      >
+        SHARED__PURCHASE_SUMMARY_FORM__PASSENGERS
+      </dt>
+      <dd>
+        <div
+          class="passenger-info-summary"
+        >
+          <div>
+            <a
+              class="nav-item-link clearfix passenger-info-summary--item"
+            >
+              <div
+                class="fullwidth nowrap overflow-hidden ellipsis pr6"
+              >
+                <span
+                  class="passenger-info-summary--passenger-name"
+                  data-qa="passenger-info-summary--passenger-name"
+                >
+                  Amber Awesome
+                </span>
+              </div>
+              <i
+                class="nav-item-link--icon icon icon_keyboard-arrow-right"
+              />
+            </a>
+          </div>
+        </div>
+      </dd>
+      <div
+        class="fields contact-method grouped"
+      >
+        <label
+          class="fields--label"
+        >
+          SHARED__CONTACT_METHOD__LABEL
+        </label>
+        <div
+          class="field"
+        >
+          <a
+            class="nav-item-link nav-item-field"
+            name="contactMethodContent"
+          >
+            <div
+              class="fullwidth"
+            >
+              <span />
+              <div
+                class="nav-item-field-value"
+                data-qa="nav-item-field-value"
+              >
+                SHARED__CONTACT_METHOD_OPTION__DOMESTIC_OPTIONS_CALL, (123) 654-8973
+              </div>
+            </div>
+            <i
+              class="nav-item-link--icon icon icon_keyboard-arrow-right"
+            />
+          </a>
+        </div>
+      </div>
+      <dt
+        data-qa="your-trip-section-title"
+      >
+        SHARED__PURCHASE_SUMMARY_FORM__TRIP
+      </dt>
+      <dd>
+        <div
+          class="trip-summary"
+        >
+          <div
+            class="flight-brief-summary bgwhite bdb p5"
+          >
+            <div
+              class="flex xlarge pdkblue bold"
+            >
+              <div
+                class="flex4"
+              >
+                Nov 27
+              </div>
+              <div
+                class="flex2"
+              >
+                LAS
+              </div>
+              <div
+                class="flex2 flight-brief-summary--airplane center"
+              >
+                <i
+                  class="mt3 icon icon_airplane"
+                />
+              </div>
+              <div
+                class="flex2"
+              >
+                OAK
+              </div>
+            </div>
+            <div
+              class="flex large gray4"
+            >
+              <div
+                class="flex4"
+              >
+                Monday
+              </div>
+              <div
+                class="flex2 flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    11:55
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    PM
+                  </span>
+                </div>
+              </div>
+              <div
+                class="flex2"
+              />
+              <div
+                class="flight-brief-summary--summary-group"
+              >
+                <div
+                  class="flex2 flight-time"
+                >
+                  <div
+                    class="flight-time--time"
+                  >
+                    <span>
+                      1:30
+                    </span>
+                    <span
+                      class="time-period"
+                    >
+                      AM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flight-brief-summary bgwhite bdb p5"
+          >
+            <div
+              class="flex xlarge pdkblue bold"
+            >
+              <div
+                class="flex4"
+              >
+                Nov 28
+              </div>
+              <div
+                class="flex2"
+              >
+                OAK
+              </div>
+              <div
+                class="flex2 flight-brief-summary--airplane center"
+              >
+                <i
+                  class="mt3 icon icon_airplane"
+                />
+              </div>
+              <div
+                class="flex2"
+              >
+                LAS
+              </div>
+            </div>
+            <div
+              class="flex large gray4"
+            >
+              <div
+                class="flex4"
+              >
+                Tuesday
+              </div>
+              <div
+                class="flex2 flight-time"
+              >
+                <div
+                  class="flight-time--time"
+                >
+                  <span>
+                    11:55
+                  </span>
+                  <span
+                    class="time-period"
+                  >
+                    PM
+                  </span>
+                </div>
+              </div>
+              <div
+                class="flex2"
+              />
+              <div
+                class="flight-brief-summary--summary-group"
+              >
+                <div
+                  class="flex2 flight-time"
+                >
+                  <div
+                    class="flight-time--time"
+                  >
+                    <span>
+                      1:30
+                    </span>
+                    <span
+                      class="time-period"
+                    >
+                      AM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="title-and-price flex bgwhite py5 px5 bdb larger"
+          >
+            <span
+              class="flex7 gray4 inline-block"
+            >
+              2 Passenger Total
+            </span>
+            <div
+              class="flex5 align-right bold normal"
+            >
+              <div
+                class="currency"
+              >
+                <span
+                  class="money-sign"
+                >
+                  $
+                </span>
+                <span
+                  data-qa="total-amount"
+                >
+                  234.30
+                </span>
+              </div>
+            </div>
+          </div>
+          <a
+            class="nav-item-link bgwhite"
+          >
+            SHARED__PURCHASE_SUMMARY_FORM__TRIP_AND_PRICE_DETAILS
+            <i
+              class="nav-item-link--icon icon icon_keyboard-arrow-right"
+            />
+          </a>
+        </div>
+      </dd>
+      <dt
+        data-qa="purpose-of-travel-section-title"
+      >
+        SHARED__PURCHASE_SUMMARY_FORM__TRAVEL_PURPOSE
+      </dt>
+      <dd>
+        <div
+          class="field"
+        >
+          <div
+            class="select-input icon-fixed formatted input"
+          >
+            <span
+              class="formatted-input formatted-input--fill"
+            >
+              <select
+                class="dropdown empty"
+                data-qa="select-dropdown"
+                name="purposeOfTravel"
+                placeholder="Select (optional)"
+              >
+                <option
+                  class="placeholder"
+                  data-qa="dqa-enabled-option"
+                  value=""
+                >
+                  Select (optional)
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="PERSONAL"
+                >
+                  Personal
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="BUSINESS"
+                >
+                  Business
+                </option>
+                <option
+                  data-qa="dqa-enabled-option"
+                  value="BOTH"
+                >
+                  Both
+                </option>
+              </select>
+            </span>
+            <input
+              class=""
+              icon="caret-down"
+              name="purposeOfTravel"
+              placeholder="Select (optional)"
+            />
+            <i
+              class="icon icon_caret-down"
+            />
+          </div>
+        </div>
+      </dd>
+      <dl>
+        <dt
+          class="purchase-summary-form--add-early-bird pt2"
+        >
+          SHARED__PURCHASE_SUMMARY_FORM__ADD_EARLY_BIRD_CHECK_IN
+          <sup>
+            ®
+          </sup>
+        </dt>
+        <dd>
+          <div
+            class="field"
+          >
+            <div
+              class="bdb flex flex-main-between"
+            >
+              <div
+                class="bgwhite flex10 flex py4 pl5 "
+              >
+                <span
+                  class="bgwhite pdkblue bold larger"
+                  data-qa="add-early-bird-check-in--banner--total-price"
+                >
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      15.00
+                    </span>
+                  </div>
+                </span>
+                <span
+                  class="gray4 pl1 medium"
+                  data-qa="add-early-bird-check-in--banner--per-passenger-message"
+                >
+                  <span>
+                    <div
+                      class="currency inline-block"
+                    >
+                      (
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        15.00
+                      </span>
+                      SHARED__EARLY_BIRD__CHECK_IN_PER_PASSENGER_PRICE_MESSAGE_SUFFIX
+                    </div>
+                  </span>
+                </span>
+              </div>
+              <div
+                class="bgwhite bdl relative early-bird-check-in--radio-button flex2"
+                data-qa="add-early-bird-check-in--radio-button"
+              >
+                <span
+                  class="radio-button--mark"
+                >
+                  <span
+                    class="radio-input--mark"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="gray5 medium pt4 bggray2"
+            data-qa="add-early-bird-check-in--verbiage"
+          >
+            SHARED__EARLY_BIRD__CHECK_IN_VERBIAGE
+          </div>
+        </dd>
+      </dl>
+      <div
+        class="apply-travel-funds-nav-item"
+      >
+        <dt
+          data-qa="apply-funds-section-title"
+        >
+          SHARED__PURCHASE_SUMMARY_FORM__APPLY_TRAVEL_FUNDS
+        </dt>
+        <div
+          class="field"
+        >
+          <div
+            data-qa="review-form--apply-travel-funds-nav-item"
+          >
+            <a
+              class="nav-item-link nav-item-field no-funds-selected"
+            >
+              <span>
+                Select (optional)
+              </span>
+              <i
+                class="nav-item-link--icon icon icon_keyboard-arrow-right"
+              />
+            </a>
+          </div>
+        </div>
+        <p
+          class="helper-text"
+        >
+          SHARED__PURCHASE_SUMMARY_FORM__APPLY_FUNDS_NAV_ITEM_MESSAGE
+        </p>
+      </div>
+      <div>
+        <dt
+          data-qa="payment-section-title"
+        >
+          SHARED__PURCHASE_SUMMARY_FORM__PAYMENT
+        </dt>
+        <dd>
+          <div
+            class="field"
+          >
+            <div
+              class="payment-nav-item-field"
+              data-qa="review-form--payment-method-nav-item"
+            >
+              <a
+                class="nav-item-link no-padding"
+              >
+                <div
+                  class="primary-saved-credit-cards"
+                  data-qa="review-form--payment-card"
+                >
+                  <div
+                    class="credit-card-radio-input credit-card-radio-input_selected"
+                  >
+                    <label
+                      class="credit-card-radio-input--label"
+                    >
+                      <div
+                        class="credit-card-radio-input--container"
+                      >
+                        <div
+                          class="credit-card--image_visa credit-card--image left mr2"
+                        />
+                        <div
+                          class="credit-card-radio-input--text"
+                        >
+                          <p
+                            class="pdkblue larger"
+                          >
+                            VISA 4444
+                          </p>
+                          <div
+                            class="flex gray5 additional-info-container"
+                          >
+                            <div
+                              class="mr1"
+                            >
+                              AIR_BOOKING__SUMMARY_PAYMENT__SHORT_CARD_NUMBER_MESSAGE
+                            </div>
+                            <div
+                              class="bold"
+                            >
+                              4444
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <i
+                  class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                />
+              </a>
+            </div>
+          </div>
+        </dd>
+        <dd />
+      </div>
+    </dl>
+    <div
+      class="purchase-content--summary-footer"
+    >
+      <div
+        class="price-total"
+      >
+        <div
+          class="price-total--info"
+        >
+          <div
+            class="price-line"
+          >
+            <span
+              class="price-line--title"
+            >
+              SHARED__PRICE_LINE_TITLES__TOTAL_PASSENGER
+            </span>
+            <div
+              class="price-amount"
+            >
+              <div
+                class="price-line--currency_total"
+              >
+                <div
+                  class="currency"
+                >
+                  <span
+                    class="money-sign"
+                  >
+                    $
+                  </span>
+                  <span
+                    data-qa="total-amount"
+                  >
+                    233.98
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="table fullwidth mt3"
+          >
+            <div
+              class="price-total--info-col"
+            >
+              <p>
+                SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+              </p>
+            </div>
+            <div
+              class="price-total--info-col"
+              data-qa="toggleBreakdown"
+            >
+              <p>
+                SHARED__BREAKDOWN_TOGGLES__SHOW_FARE_BREAKDOWN
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="purchase-disclaimer"
+      >
+        PURCHASE_DISCLAIMER
+      </div>
+      <div
+        class="purchase-content--summary-footer-nav"
+      >
+        <button
+          class="purchase button button--fluid larger button--yellow"
+          type="submit"
+        >
+          SHARED__PURCHASE_SUMMARY_FORM__PURCHASE
+        </button>
+      </div>
+    </div>
+  </fieldset>
+</form>
+`;
+
+exports[`Purchase Summary page young traveler parent or guardian edit should render with parent or guardian passenger section 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="page-header page-header--no-padding"
+        id=""
+      >
+        <div
+          class="progression-bar"
+        >
+          <div
+            class="title"
+          >
+            Purchase
+          </div>
+          <div
+            class="progress-step"
+          >
+            <div
+              class="progress"
+            >
+              <div
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="100"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 100%;"
+              />
+            </div>
+            <span
+              class="step-item step-item--completed"
+              style="left: 0%;"
+            >
+              <span
+                class="step-item--inner"
+              >
+                <i
+                  class="completed-check icon icon_check"
+                />
+              </span>
+            </span>
+            <span
+              class="step-item step-item--completed"
+              style="left: 50%;"
+            >
+              <span
+                class="step-item--inner"
+              >
+                <i
+                  class="completed-check icon icon_check"
+                />
+              </span>
+            </span>
+            <span
+              class="step-item step-item--current"
+              style="left: 100%;"
+            >
+              <span
+                class="step-item--inner"
+              >
+                <i
+                  class="icon icon_airplane"
+                />
+              </span>
+            </span>
+          </div>
+          <div
+            class="progression-bar--sub-title-flex"
+          >
+            <div
+              class="progression-bar--sub-title"
+            >
+              Price
+            </div>
+            <div
+              class="progression-bar--sub-title"
+            >
+              Passengers
+            </div>
+            <div
+              class="progression-bar--sub-title"
+            >
+              Purchase
+            </div>
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+    <form
+      class="purchase-summary-form purchase-content form"
+      data-qa="purchase-summary-form"
+      name="air-booking-purchase"
+      novalidate=""
+    >
+      <fieldset>
+        <dl
+          class="shopping-summary"
+        >
+          <dt
+            data-qa="passengers-section-title"
+          >
+            SHARED__PURCHASE_SUMMARY_FORM__PASSENGERS
+          </dt>
+          <dd>
+            <div
+              class="passenger-info-summary"
+            >
+              <div>
+                <a
+                  class="nav-item-link clearfix passenger-info-summary--item"
+                >
+                  <div
+                    class="fullwidth nowrap overflow-hidden ellipsis pr6"
+                  >
+                    <span
+                      class="passenger-info-summary--passenger-name"
+                      data-qa="passenger-info-summary--passenger-name"
+                    >
+                      Amber Awesome
+                    </span>
+                  </div>
+                  <i
+                    class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                  />
+                </a>
+              </div>
+            </div>
+          </dd>
+          <dt>
+            SHARED__PURCHASE_SUMMARY_FORM__PARENT_OR_GUARDIAN
+          </dt>
+          <dd
+            data-qa="parent-or-guardian-section-title"
+          >
+            <div
+              class="passenger-info-summary"
+            >
+              <div>
+                <a
+                  class="nav-item-link clearfix passenger-info-summary--item"
+                >
+                  <div
+                    class="fullwidth nowrap overflow-hidden ellipsis pr6"
+                  >
+                    <span
+                      class="passenger-info-summary--passenger-name"
+                      data-qa="passenger-info-summary--passenger-name"
+                    >
+                      John Doe
+                    </span>
+                  </div>
+                  <i
+                    class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                  />
+                </a>
+              </div>
+            </div>
+          </dd>
+          <div
+            class="fields contact-method grouped"
+          >
+            <label
+              class="fields--label"
+            >
+              SHARED__CONTACT_METHOD__LABEL
+            </label>
+            <div
+              class="field"
+            >
+              <a
+                class="nav-item-link nav-item-field"
+                name="contactMethodContent"
+              >
+                <div
+                  class="fullwidth"
+                >
+                  <span />
+                  <div
+                    class="nav-item-field-value"
+                    data-qa="nav-item-field-value"
+                  >
+                    SHARED__CONTACT_METHOD_OPTION__DOMESTIC_OPTIONS_CALL, (123) 654-8973
+                  </div>
+                </div>
+                <i
+                  class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                />
+              </a>
+            </div>
+          </div>
+          <dt
+            data-qa="your-trip-section-title"
+          >
+            SHARED__PURCHASE_SUMMARY_FORM__TRIP
+          </dt>
+          <dd>
+            <div
+              class="trip-summary"
+            >
+              <div
+                class="flight-brief-summary bgwhite bdb p5"
+              >
+                <div
+                  class="flex xlarge pdkblue bold"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Nov 27
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    LAS
+                  </div>
+                  <div
+                    class="flex2 flight-brief-summary--airplane center"
+                  >
+                    <i
+                      class="mt3 icon icon_airplane"
+                    />
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    OAK
+                  </div>
+                </div>
+                <div
+                  class="flex large gray4"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Monday
+                  </div>
+                  <div
+                    class="flex2 flight-time"
+                  >
+                    <div
+                      class="flight-time--time"
+                    >
+                      <span>
+                        11:55
+                      </span>
+                      <span
+                        class="time-period"
+                      >
+                        PM
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="flex2"
+                  />
+                  <div
+                    class="flight-brief-summary--summary-group"
+                  >
+                    <div
+                      class="flex2 flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          1:30
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flight-brief-summary bgwhite bdb p5"
+              >
+                <div
+                  class="flex xlarge pdkblue bold"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Nov 28
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    OAK
+                  </div>
+                  <div
+                    class="flex2 flight-brief-summary--airplane center"
+                  >
+                    <i
+                      class="mt3 icon icon_airplane"
+                    />
+                  </div>
+                  <div
+                    class="flex2"
+                  >
+                    LAS
+                  </div>
+                </div>
+                <div
+                  class="flex large gray4"
+                >
+                  <div
+                    class="flex4"
+                  >
+                    Tuesday
+                  </div>
+                  <div
+                    class="flex2 flight-time"
+                  >
+                    <div
+                      class="flight-time--time"
+                    >
+                      <span>
+                        11:55
+                      </span>
+                      <span
+                        class="time-period"
+                      >
+                        PM
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="flex2"
+                  />
+                  <div
+                    class="flight-brief-summary--summary-group"
+                  >
+                    <div
+                      class="flex2 flight-time"
+                    >
+                      <div
+                        class="flight-time--time"
+                      >
+                        <span>
+                          1:30
+                        </span>
+                        <span
+                          class="time-period"
+                        >
+                          AM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="title-and-price flex bgwhite py5 px5 bdb larger"
+              >
+                <span
+                  class="flex7 gray4 inline-block"
+                >
+                  2 Passenger Total
+                </span>
+                <div
+                  class="flex5 align-right bold normal"
+                >
+                  <div
+                    class="currency"
+                  >
+                    <span
+                      class="money-sign"
+                    >
+                      $
+                    </span>
+                    <span
+                      data-qa="total-amount"
+                    >
+                      234.30
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="nav-item-link bgwhite"
+              >
+                SHARED__PURCHASE_SUMMARY_FORM__TRIP_AND_PRICE_DETAILS
+                <i
+                  class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                />
+              </a>
+            </div>
+          </dd>
+          <dt
+            data-qa="purpose-of-travel-section-title"
+          >
+            SHARED__PURCHASE_SUMMARY_FORM__TRAVEL_PURPOSE
+          </dt>
+          <dd>
+            <div
+              class="field"
+            >
+              <div
+                class="select-input icon-fixed formatted input"
+              >
+                <span
+                  class="formatted-input formatted-input--fill"
+                >
+                  <select
+                    class="dropdown empty"
+                    data-qa="select-dropdown"
+                    name="purposeOfTravel"
+                    placeholder="Select (optional)"
+                  >
+                    <option
+                      class="placeholder"
+                      data-qa="dqa-enabled-option"
+                      value=""
+                    >
+                      Select (optional)
+                    </option>
+                    <option
+                      data-qa="dqa-enabled-option"
+                      value="PERSONAL"
+                    >
+                      Personal
+                    </option>
+                    <option
+                      data-qa="dqa-enabled-option"
+                      value="BUSINESS"
+                    >
+                      Business
+                    </option>
+                    <option
+                      data-qa="dqa-enabled-option"
+                      value="BOTH"
+                    >
+                      Both
+                    </option>
+                  </select>
+                </span>
+                <input
+                  class=""
+                  icon="caret-down"
+                  name="purposeOfTravel"
+                  placeholder="Select (optional)"
+                />
+                <i
+                  class="icon icon_caret-down"
+                />
+              </div>
+            </div>
+          </dd>
+          <dl>
+            <dt
+              class="purchase-summary-form--add-early-bird pt2"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__ADD_EARLY_BIRD_CHECK_IN
+              <sup>
+                ®
+              </sup>
+            </dt>
+            <dd>
+              <div
+                class="field"
+              >
+                <div
+                  class="bdb flex flex-main-between"
+                >
+                  <div
+                    class="bgwhite flex10 flex py4 pl5 "
+                  >
+                    <span
+                      class="bgwhite pdkblue bold larger"
+                      data-qa="add-early-bird-check-in--banner--total-price"
+                    >
+                      <div
+                        class="currency"
+                      >
+                        <span
+                          class="money-sign"
+                        >
+                          $
+                        </span>
+                        <span
+                          data-qa="total-amount"
+                        >
+                          15.00
+                        </span>
+                      </div>
+                    </span>
+                    <span
+                      class="gray4 pl1 medium"
+                      data-qa="add-early-bird-check-in--banner--per-passenger-message"
+                    >
+                      <span>
+                        <div
+                          class="currency inline-block"
+                        >
+                          (
+                          <span
+                            class="money-sign"
+                          >
+                            $
+                          </span>
+                          <span
+                            data-qa="total-amount"
+                          >
+                            15.00
+                          </span>
+                          SHARED__EARLY_BIRD__CHECK_IN_PER_PASSENGER_PRICE_MESSAGE_SUFFIX
+                        </div>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="bgwhite bdl relative early-bird-check-in--radio-button flex2"
+                    data-qa="add-early-bird-check-in--radio-button"
+                  >
+                    <span
+                      class="radio-button--mark"
+                    >
+                      <span
+                        class="radio-input--mark"
+                      />
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="gray5 medium pt4 bggray2"
+                data-qa="add-early-bird-check-in--verbiage"
+              >
+                SHARED__EARLY_BIRD__CHECK_IN_VERBIAGE
+              </div>
+            </dd>
+          </dl>
+          <div
+            class="apply-travel-funds-nav-item"
+          >
+            <dt
+              data-qa="apply-funds-section-title"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__APPLY_TRAVEL_FUNDS
+            </dt>
+            <div
+              class="field"
+            >
+              <div
+                data-qa="review-form--apply-travel-funds-nav-item"
+              >
+                <a
+                  class="nav-item-link nav-item-field no-funds-selected"
+                >
+                  <span>
+                    Select (optional)
+                  </span>
+                  <i
+                    class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                  />
+                </a>
+              </div>
+            </div>
+            <p
+              class="helper-text"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__APPLY_FUNDS_NAV_ITEM_MESSAGE
+            </p>
+          </div>
+          <div>
+            <dt
+              data-qa="payment-section-title"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__PAYMENT
+            </dt>
+            <dd>
+              <div
+                class="field"
+              >
+                <div
+                  class="payment-nav-item-field"
+                  data-qa="review-form--payment-method-nav-item"
+                >
+                  <a
+                    class="nav-item-link no-padding"
+                  >
+                    <div
+                      class="primary-saved-credit-cards"
+                      data-qa="review-form--payment-card"
+                    >
+                      <div
+                        class="credit-card-radio-input credit-card-radio-input_selected"
+                      >
+                        <label
+                          class="credit-card-radio-input--label"
+                        >
+                          <div
+                            class="credit-card-radio-input--container"
+                          >
+                            <div
+                              class="credit-card--image_visa credit-card--image left mr2"
+                            />
+                            <div
+                              class="credit-card-radio-input--text"
+                            >
+                              <p
+                                class="pdkblue larger"
+                              >
+                                VISA 4444
+                              </p>
+                              <div
+                                class="flex gray5 additional-info-container"
+                              >
+                                <div
+                                  class="mr1"
+                                >
+                                  AIR_BOOKING__SUMMARY_PAYMENT__SHORT_CARD_NUMBER_MESSAGE
+                                </div>
+                                <div
+                                  class="bold"
+                                >
+                                  4444
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                    <i
+                      class="nav-item-link--icon icon icon_keyboard-arrow-right"
+                    />
+                  </a>
+                </div>
+              </div>
+            </dd>
+            <dd />
+          </div>
+        </dl>
+        <div
+          class="purchase-content--summary-footer"
+        >
+          <div
+            class="price-total"
+          >
+            <div
+              class="price-total--info"
+            >
+              <div
+                class="price-line"
+              >
+                <span
+                  class="price-line--title"
+                >
+                  SHARED__PRICE_LINE_TITLES__TOTAL_PASSENGER
+                </span>
+                <div
+                  class="price-amount"
+                >
+                  <div
+                    class="price-line--currency_total"
+                  >
+                    <div
+                      class="currency"
+                    >
+                      <span
+                        class="money-sign"
+                      >
+                        $
+                      </span>
+                      <span
+                        data-qa="total-amount"
+                      >
+                        233.98
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="table fullwidth mt3"
+              >
+                <div
+                  class="price-total--info-col"
+                >
+                  <p>
+                    SHARED__PRICE_TOTAL_EXPLANATORY_NOTE__BRIEF_NOTE
+                  </p>
+                </div>
+                <div
+                  class="price-total--info-col"
+                  data-qa="toggleBreakdown"
+                >
+                  <p>
+                    SHARED__BREAKDOWN_TOGGLES__SHOW_FARE_BREAKDOWN
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="purchase-disclaimer"
+          >
+            PURCHASE_DISCLAIMER
+          </div>
+          <div
+            class="purchase-content--summary-footer-nav"
+          >
+            <button
+              class="purchase button button--fluid larger button--yellow"
+              type="submit"
+            >
+              SHARED__PURCHASE_SUMMARY_FORM__PURCHASE
+            </button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <div
+      class="review-footer"
+    >
+      <div
+        class="review-footer--verbiage"
+      >
+        HAZMAT_TEXT
+      </div>
+      <ul
+        class="review-footer--links"
+      >
+        <li>
+          <a
+            href="/hazardous-materials"
+            target="_blank"
+          >
+            SHARED__REVIEW_FOOTER_VIEW_MORE_DETAILS_LINK
+          </a>
+        </li>
+        <li>
+          <a
+            href="/terms-and-conditions?clk=GNAVTC"
+            target="_blank"
+          >
+            SHARED__REVIEW_FOOTER_TERMS_AND_CONDITIONS_LINK
+          </a>
+          <a
+            href="/privacy-policy?clk=GNAVPRIVACY"
+            target="_blank"
+          >
+            SHARED__REVIEW_FOOTER_PRIVACY_POLICY_LINK
+          </a>
+        </li>
+        <li>
+          <a
+            href="/page/contract-of-carriage"
+            target="_blank"
+          >
+            SHARED__REVIEW_FOOTER_CONTRACT_OF_CARRIAGE_LINK
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
